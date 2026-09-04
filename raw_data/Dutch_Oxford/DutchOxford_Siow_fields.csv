@@ -1,0 +1,460 @@
+﻿field,column,group,type
+,Response ID,,
+sex,Child's gender,child,sex
+mom_ed,Mother's highest educational qualification,child,mom_ed
+,Father's highest educational qualification,,
+,Overall language exposure - Dutch,,
+,Overall language exposure - English,,
+,Overall language exposure - Other,,
+,Overall language exposure - Other - Text,,
+languages,exp_nld,admin,language
+languages,exp_eng,admin,language
+languages,exp_oth,admin,language
+,Home language exposure - Dutch,,
+,Home language exposure - English,,
+,Home language exposure - Other(s),,
+,Home language exposure - Other(s) - Text,,
+,Mother native - Selected Choice,,
+,Mother native - Other(s) - Text,,
+,Mother's proficiency - Dutch,,
+,Mother's proficiency - English,,
+,Mother's proficiency - Other,,
+,Mother's proficiency - Other - Text,,
+,Mother's child language,,
+,Father native - Selected Choice,,
+,Father native - Other(s) - Text,,
+,Father's proficiency - Dutch,,
+,Father's proficiency - English,,
+,Father's proficiency - Other,,
+,Father's proficiency - Other - Text,,
+,Father's child language,,
+,Birth order - Selected Choice,,
+,Birth order - Other - Text,,
+birth_order,birth_order,child,birth_order
+,Nursery start age - Age in months,,
+,Nursery language,,
+,Immersion - months,,
+item_1,Sounds - au / ai,item,word
+item_2,Sounds - beh beh (schaap),item,word
+item_3,Sounds - boeh (koe),item,word
+item_4,Sounds - grrr (grommen),item,word
+item_5,Sounds - kukelukuu (haan),item,word
+item_6,Sounds - kwak kwak (eend),item,word
+item_7,Sounds - miauw / mauw (kat),item,word
+item_8,Sounds - mjam mjam,item,word
+item_9,Sounds - oh ooh,item,word
+item_10,Sounds - tjoek tjoek (trein),item,word
+item_11,Sounds - vroem / broem (auto),item,word
+item_12,Sounds - waf waf (hond),item,word
+item_13,Animals - aap,item,word
+item_14,Animals - beer,item,word
+item_15,Animals - bij,item,word
+item_16,Animals - dier,item,word
+item_17,Animals - eekhoorn,item,word
+item_18,Animals - eend,item,word
+item_19,Animals - ezel,item,word
+item_20,Animals - gans,item,word
+item_21,Animals - giraf,item,word
+item_22,Animals - hert,item,word
+item_23,Animals - hond,item,word
+item_24,Animals - kalkoen,item,word
+item_25,Animals - kat,item,word
+item_26,Animals - kikker,item,word
+item_27,Animals - koe,item,word
+item_28,Animals - konijn,item,word
+item_29,Animals - kuiken,item,word
+item_30,Animals - lam(metje),item,word
+item_31,Animals - leeuw,item,word
+item_32,Animals - muis,item,word
+item_33,Animals - olifant,item,word
+item_34,Animals - paard,item,word
+item_35,Animals - pinguin,item,word
+item_36,Animals - poesje,item,word
+item_37,Animals - pony,item,word
+item_38,Animals - puppy,item,word
+item_39,Animals - schaap,item,word
+item_40,Animals - schildpad,item,word
+item_41,Animals - spin,item,word
+item_42,Animals - tijger,item,word
+item_43,Animals - uil,item,word
+item_44,Animals - varken,item,word
+item_45,Animals - vis,item,word
+item_46,Animals - vlinder,item,word
+item_47,Animals - vogel,item,word
+item_48,Vehicles - auto,item,word
+item_49,Vehicles - boot,item,word
+item_50,Vehicles - brandweerwagen / brandweerauto,item,word
+item_51,Vehicles - buggy,item,word
+item_52,Vehicles - bus,item,word
+item_53,Vehicles - fiets,item,word
+item_54,Vehicles - moto(r) / motorfiets,item,word
+item_55,Vehicles - trein,item,word
+item_56,Vehicles - vliegtuig,item,word
+item_57,Vehicles - vrachtwagen / camion / vrachtauto,item,word
+item_58,Toys - bal,item,word
+item_59,Toys - ballon,item,word
+item_60,Toys - blok,item,word
+item_61,Toys - boek,item,word
+item_62,Toys - bubbel,item,word
+item_63,Toys - pen,item,word
+item_64,Toys - pop,item,word
+item_65,Toys - speelgoed,item,word
+item_66,Toys - teddybeer,item,word
+item_67,Food and Drink - appel,item,word
+item_68,Food and Drink - appelsien / sinaasappel,item,word
+item_69,Food and Drink - banaan,item,word
+item_70,Food and Drink - beschuit,item,word
+item_71,Food and Drink - boter,item,word
+item_72,Food and Drink - brood,item,word
+item_73,Food and Drink - cake,item,word
+item_74,Food and Drink - drankje,item,word
+item_75,Food and Drink - ei(tje),item,word
+item_76,Food and Drink - erwtjes,item,word
+item_77,Food and Drink - eten,item,word
+item_78,Food and Drink - frietjes,item,word
+item_79,Food and Drink - geroosterd brood / toast,item,word
+item_80,Food and Drink - granen / graansoort,item,word
+item_81,Food and Drink - ijs(je) / crème,item,word
+item_82,Food and Drink - jam,item,word
+item_83,Food and Drink - kaas,item,word
+item_84,Food and Drink - kip,item,word
+item_85,Food and Drink - koffie,item,word
+item_86,Food and Drink - melk,item,word
+item_87,Food and Drink - pasta / spaghetti,item,word
+item_88,Food and Drink - pizza,item,word
+item_89,Food and Drink - sap,item,word
+item_90,Food and Drink - snoepje,item,word
+item_91,Food and Drink - thee,item,word
+item_92,Food and Drink - vis,item,word
+item_93,Food and Drink - vlees,item,word
+item_94,Food and Drink - water,item,word
+item_95,Food and Drink - wortel,item,word
+item_96,Body Parts - arm,item,word
+item_97,Body Parts - been,item,word
+item_98,Body Parts - buik,item,word
+item_99,Body Parts - gezicht,item,word
+item_100,Body Parts - haar,item,word
+item_101,Body Parts - hand,item,word
+item_102,Body Parts - hoofd,item,word
+item_103,Body Parts - knie,item,word
+item_104,Body Parts - mond,item,word
+item_105,Body Parts - navel,item,word
+item_106,Body Parts - neus,item,word
+item_107,Body Parts - oog,item,word
+item_108,Body Parts - oor,item,word
+item_109,Body Parts - tand,item,word
+item_110,Body Parts - teen,item,word
+item_111,Body Parts - tong,item,word
+item_112,Body Parts - vinger,item,word
+item_113,Body Parts - vingernagel,item,word
+item_114,Body Parts - voet,item,word
+item_115,Body Parts - wang,item,word
+item_116,Clothes - (hals)ketting,item,word
+item_117,Clothes - (lange) broek,item,word
+item_118,Clothes - bril,item,word
+item_119,Clothes - hemd,item,word
+item_120,Clothes - hoed,item,word
+item_121,Clothes - jas / overjas,item,word
+item_122,Clothes - jasje,item,word
+item_123,Clothes - jeans / spijkerbroek,item,word
+item_124,Clothes - kleedje / jurkje,item,word
+item_125,Clothes - knoop,item,word
+item_126,Clothes - laarsjes,item,word
+item_127,Clothes - luier,item,word
+item_128,Clothes - pyjama,item,word
+item_129,Clothes - rits,item,word
+item_130,Clothes - schoen,item,word
+item_131,Clothes - short / korte broek,item,word
+item_132,Clothes - slabbetje,item,word
+item_133,Clothes - sok,item,word
+item_134,Clothes - trui / sweater / pull,item,word
+item_135,Furniture and Rooms - (baby)box,item,word
+item_136,Furniture and Rooms - bad,item,word
+item_137,Furniture and Rooms - badkamer,item,word
+item_138,Furniture and Rooms - bed,item,word
+item_139,Furniture and Rooms - deur,item,word
+item_140,Furniture and Rooms - divan / sofa / bank,item,word
+item_141,Furniture and Rooms - fornuis / vuur / kookplaat,item,word
+item_142,Furniture and Rooms - garage,item,word
+item_143,Furniture and Rooms - gootsteen / afwasbak,item,word
+item_144,Furniture and Rooms - keuken,item,word
+item_145,Furniture and Rooms - kinderstoel,item,word
+item_146,Furniture and Rooms - koelkast / frigo / ijskast,item,word
+item_147,Furniture and Rooms - lade / schuif,item,word
+item_148,Furniture and Rooms - potje,item,word
+item_149,Furniture and Rooms - raam / venster,item,word
+item_150,Furniture and Rooms - schommelstoel,item,word
+item_151,Furniture and Rooms - slaapkamer,item,word
+item_152,Furniture and Rooms - stoel,item,word
+item_153,Furniture and Rooms - T.V. / televisie,item,word
+item_154,Furniture and Rooms - tafel,item,word
+item_155,Furniture and Rooms - trap,item,word
+item_156,Furniture and Rooms - wieg,item,word
+item_157,Furniture and Rooms - woonkamer / living / huiskamer,item,word
+item_158,Outside - bloem,item,word
+item_159,Outside - boom,item,word
+item_160,Outside - buiten,item,word
+item_161,Outside - emmer,item,word
+item_162,Outside - feestje,item,word
+item_163,Outside - glijbaan,item,word
+item_164,Outside - huis,item,word
+item_165,Outside - kerk,item,word
+item_166,Outside - lucht / hemel,item,word
+item_167,Outside - maan,item,word
+item_168,Outside - muur / wand,item,word
+item_169,Outside - park,item,word
+item_170,Outside - regen,item,word
+item_171,Outside - schep,item,word
+item_172,Outside - schommel,item,word
+item_173,Outside - school,item,word
+item_174,Outside - sneeuw,item,word
+item_175,Outside - steen,item,word
+item_176,Outside - ster,item,word
+item_177,Outside - strand,item,word
+item_178,Outside - tuin,item,word
+item_179,Outside - water,item,word
+item_180,Outside - werk,item,word
+item_181,Outside - winkel,item,word
+item_182,Outside - zon,item,word
+item_183,Outside - zoo / dierentuin,item,word
+item_184,Outside - zwembad,item,word
+item_185,Household items - beker,item,word
+item_186,Household items - bezem,item,word
+item_187,Household items - bord,item,word
+item_188,Household items - borstel,item,word
+item_189,Household items - cent,item,word
+item_190,Household items - deken,item,word
+item_191,Household items - doos,item,word
+item_192,Household items - fles,item,word
+item_193,Household items - foto,item,word
+item_194,Household items - geld,item,word
+item_195,Household items - glas,item,word
+item_196,Household items - hamer,item,word
+item_197,Household items - handdoek,item,word
+item_198,Household items - hoofdkussen,item,word
+item_199,Household items - horloge / uurwerk,item,word
+item_200,Household items - kam,item,word
+item_201,Household items - klok,item,word
+item_202,Household items - kom / schaal,item,word
+item_203,Household items - kop,item,word
+item_204,Household items - kruik,item,word
+item_205,Household items - lamp,item,word
+item_206,Household items - lepel,item,word
+item_207,Household items - licht,item,word
+item_208,"Household items - medicijn(en), (siroop, pilletje, drankje)",item,word
+item_209,Household items - papier,item,word
+item_210,Household items - plant,item,word
+item_211,Household items - portemonnee,item,word
+item_212,Household items - radio,item,word
+item_213,Household items - rommel,item,word
+item_214,Household items - schaar,item,word
+item_215,Household items - schotel,item,word
+item_216,Household items - sleutel,item,word
+item_217,Household items - speen,item,word
+item_218,Household items - stofzuiger,item,word
+item_219,Household items - tandenborstel,item,word
+item_220,Household items - telefoon,item,word
+item_221,Household items - vork,item,word
+item_222,Household items - vuilnisbak,item,word
+item_223,Household items - zeep,item,word
+item_224,People - baby,item,word
+item_225,People - babysitter,item,word
+item_226,People - broer,item,word
+item_227,People - dokter,item,word
+item_228,People - jongen,item,word
+item_229,People - kind,item,word
+item_230,People - mama,item,word
+item_231,People - meisje,item,word
+item_232,People - meneer,item,word
+item_233,People - mensen,item,word
+item_234,People - mevrouw,item,word
+item_235,People - oma,item,word
+item_236,People - oom / nonkel,item,word
+item_237,People - opa,item,word
+item_238,People - papa,item,word
+item_239,People - persoon,item,word
+item_240,People - politieagent,item,word
+item_241,People - schooljuffrouw / lerares / juf,item,word
+item_242,People - tante,item,word
+item_243,People - vriend(in),item,word
+item_244,People - zus,item,word
+item_245,Games and Routines - alsjeblieft,item,word
+item_246,Games and Routines - avondeten,item,word
+item_247,Games and Routines - daaag,item,word
+item_248,Games and Routines - dank u / dank u wel,item,word
+item_249,Games and Routines - diner,item,word
+item_250,Games and Routines - een bad nemen,item,word
+item_251,Games and Routines - hallo,item,word
+item_252,Games and Routines - handjes draaien,item,word
+item_253,Games and Routines - hoi,item,word
+item_254,Games and Routines - ja,item,word
+item_255,Games and Routines - kiekeboe,item,word
+item_256,Games and Routines - lunch,item,word
+item_257,Games and Routines - nee / neen,item,word
+item_258,Games and Routines - niet doen,item,word
+item_259,Games and Routines - ontbijt,item,word
+item_260,Games and Routines - slaap lekker / welterusten,item,word
+item_261,Games and Routines - slaapje doen,item,word
+item_262,Games and Routines - sst,item,word
+item_263,Games and Routines - wacht!,item,word
+item_264,Games and Routines - willen,item,word
+item_265,Action Words - achtervolgen,item,word
+item_266,Action Words - afhebben,item,word
+item_267,Action Words - bellen,item,word
+item_268,Action Words - bijten,item,word
+item_269,Action Words - blazen,item,word
+item_270,Action Words - botsen,item,word
+item_271,Action Words - breken,item,word
+item_272,Action Words - brengen,item,word
+item_273,Action Words - dansen,item,word
+item_274,Action Words - delen,item,word
+item_275,Action Words - dragen / voeren,item,word
+item_276,Action Words - drinken,item,word
+item_277,Action Words - druppel,item,word
+item_278,Action Words - duwen,item,word
+item_279,Action Words - eten,item,word
+item_280,Action Words - eten geven,item,word
+item_281,Action Words - gaan,item,word
+item_282,Action Words - geven,item,word
+item_283,Action Words - glimlachen,item,word
+item_284,Action Words - gooien / werpen,item,word
+item_285,Action Words - hebben,item,word
+item_286,Action Words - helpen,item,word
+item_287,Action Words - horen,item,word
+item_288,Action Words - houden van,item,word
+item_289,Action Words - huilen,item,word
+item_290,Action Words - kennen,item,word
+item_291,Action Words - kietelen,item,word
+item_292,Action Words - kijken,item,word
+item_293,Action Words - knippen,item,word
+item_294,Action Words - knuffelen,item,word
+item_295,Action Words - krabben,item,word
+item_296,Action Words - krijgen,item,word
+item_297,Action Words - kusje geven / zoenen,item,word
+item_298,Action Words - lachen,item,word
+item_299,Action Words - leuk vinden,item,word
+item_300,Action Words - lezen,item,word
+item_301,Action Words - maken,item,word
+item_302,Action Words - nemen,item,word
+item_303,Action Words - openen,item,word
+item_304,Action Words - rennen,item,word
+item_305,Action Words - rijden,item,word
+item_306,Action Words - ruiken,item,word
+item_307,Action Words - schommelen,item,word
+item_308,Action Words - schoonmaken,item,word
+item_309,Action Words - schoppen,item,word
+item_310,Action Words - schrijven,item,word
+item_311,Action Words - slaan,item,word
+item_312,Action Words - slapen,item,word
+item_313,Action Words - sluiten,item,word
+item_314,Action Words - spatten / spetteren,item,word
+item_315,Action Words - spelen,item,word
+item_316,Action Words - springen,item,word
+item_317,Action Words - stoppen / ophouden,item,word
+item_318,Action Words - tekenen,item,word
+item_319,Action Words - tonen / wijzen / laten zien,item,word
+item_320,Action Words - trekken,item,word
+item_321,Action Words - vallen,item,word
+item_322,Action Words - vangen,item,word
+item_323,Action Words - vegen,item,word
+item_324,Action Words - vertellen,item,word
+item_325,Action Words - vinden,item,word
+item_326,Action Words - vliegen,item,word
+item_327,Action Words - wandelen,item,word
+item_328,Action Words - wassen,item,word
+item_329,Action Words - zeggen,item,word
+item_330,Action Words - zetten,item,word
+item_331,Action Words - zich haasten / zich spoeden,item,word
+item_332,Action Words - zien,item,word
+item_333,Action Words - zingen,item,word
+item_334,Action Words - zwemmen,item,word
+item_335,Descriptive Words - aardig,item,word
+item_336,Descriptive Words - alles weg / op,item,word
+item_337,Descriptive Words - bang,item,word
+item_338,Descriptive Words - bedroefd,item,word
+item_339,Descriptive Words - blauw,item,word
+item_340,Descriptive Words - blij,item,word
+item_341,Descriptive Words - donker,item,word
+item_342,Descriptive Words - dorst (hebben),item,word
+item_343,Descriptive Words - droog,item,word
+item_344,Descriptive Words - fijn,item,word
+item_345,Descriptive Words - geel,item,word
+item_346,Descriptive Words - gewond,item,word
+item_347,Descriptive Words - goed,item,word
+item_348,Descriptive Words - groen,item,word
+item_349,Descriptive Words - groot,item,word
+item_350,Descriptive Words - hard,item,word
+item_351,Descriptive Words - heet,item,word
+item_352,Descriptive Words - honger (hebben),item,word
+item_353,Descriptive Words - in slaap,item,word
+item_354,Descriptive Words - kapot / stuk,item,word
+item_355,Descriptive Words - klein,item,word
+item_356,Descriptive Words - koud,item,word
+item_357,Descriptive Words - leeg,item,word
+item_358,Descriptive Words - lekker,item,word
+item_359,Descriptive Words - moe,item,word
+item_360,Descriptive Words - mooi,item,word
+item_361,Descriptive Words - nat,item,word
+item_362,Descriptive Words - oud,item,word
+item_363,Descriptive Words - rood,item,word
+item_364,Descriptive Words - schoon / proper,item,word
+item_365,Descriptive Words - slaperig,item,word
+item_366,Descriptive Words - slecht,item,word
+item_367,Descriptive Words - snel / vlug,item,word
+item_368,Descriptive Words - stout,item,word
+item_369,Descriptive Words - vervelend,item,word
+item_370,Descriptive Words - voorzichtig,item,word
+item_371,Descriptive Words - vuil,item,word
+item_372,Descriptive Words - zacht,item,word
+item_373,Descriptive Words - ziek,item,word
+item_374,Question words - hoe,item,word
+item_375,Question words - waar,item,word
+item_376,Question words - waarom,item,word
+item_377,Question words - wanneer,item,word
+item_378,Question words - wat,item,word
+item_379,Question words - wie,item,word
+item_380,Time - dag,item,word
+item_381,Time - later / straks,item,word
+item_382,Time - morgen,item,word
+item_383,Time - nacht,item,word
+item_384,Time - nu,item,word
+item_385,Time - s morgens / ochtend,item,word
+item_386,Time - vandaag,item,word
+item_387,Time - vannacht,item,word
+item_388,Pronouns and Possessives - dat,item,word
+item_389,Pronouns and Possessives - dit / deze / dees,item,word
+item_390,Pronouns and Possessives - haar,item,word
+item_391,Pronouns and Possessives - het,item,word
+item_392,Pronouns and Possessives - ik,item,word
+item_393,Pronouns and Possessives - jij / je,item,word
+item_394,Pronouns and Possessives - jouw(e) / van jou / de jou(we),item,word
+item_395,Pronouns and Possessives - mij,item,word
+item_396,Pronouns and Possessives - mijn(e),item,word
+item_397,Pronouns and Possessives - van mij,item,word
+item_398,Pronouns and Possessives - zijn,item,word
+item_399,Prepositions and Location Words - achter,item,word
+item_400,Prepositions and Location Words - af,item,word
+item_401,Prepositions and Location Words - beneden,item,word
+item_402,Prepositions and Location Words - binnen(in),item,word
+item_403,Prepositions and Location Words - daar,item,word
+item_404,Prepositions and Location Words - erop,item,word
+item_405,Prepositions and Location Words - in,item,word
+item_406,Prepositions and Location Words - omhoog,item,word
+item_407,Prepositions and Location Words - onder,item,word
+item_408,Prepositions and Location Words - terug,item,word
+item_409,Prepositions and Location Words - weg,item,word
+item_410,Quantifiers - alles / allemaal,item,word
+item_411,Quantifiers - ander,item,word
+item_412,Quantifiers - een ander,item,word
+item_413,Quantifiers - een beetje,item,word
+item_414,Quantifiers - geen / niemand / niets,item,word
+item_415,Quantifiers - hetzelfde,item,word
+item_416,Quantifiers - meer,item,word
+item_417,Quantifiers - niet,item,word
+item_418,Quantifiers - opnieuw,item,word
+study_id,ParticipantID,child,study_id
+,shortPID,,
+,age_days,,
+data_age,age_months,admin,data_age
+,Recorded.Year,,
+,country,,

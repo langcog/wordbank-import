@@ -1,0 +1,460 @@
+﻿field,column,group,type
+,Response ID,,
+sex,Child's gender,child,sex
+mom_ed,Mother's highest educational qualification,child,mom_ed
+,Father's highest educational qualification,,
+,Overall language exposure - Italian,,
+,Overall language exposure - English,,
+,Overall language exposure - Other,,
+,Overall language exposure - Other - Text,,
+languages,exp_ita,admin,language
+languages,exp_eng,admin,language
+languages,exp_oth,admin,language
+,Home language exposure - Italian,,
+,Home language exposure - English,,
+,Home language exposure - Other(s),,
+,Home language exposure - Other(s) - Text,,
+,Mother native - Selected Choice,,
+,Mother native - Other(s) - Text,,
+,Mother's proficiency - Italian,,
+,Mother's proficiency - English,,
+,Mother's proficiency - Other,,
+,Mother's proficiency - Other - Text,,
+,Mother's child language,,
+,Father native - Selected Choice,,
+,Father native - Other(s) - Text,,
+,Father's proficiency - Italian,,
+,Father's proficiency - English,,
+,Father's proficiency - Other,,
+,Father's proficiency - Other - Text,,
+,Father's child language,,
+,Birth order - Selected Choice,,
+,Birth order - Other - Text,,
+birth_order,birth_order,child,birth_order
+,Nursery start age - Age in months,,
+,Nursery language,,
+,Immersion - months,,
+item_1,Sounds - Ahia,item,word
+item_2,Sounds - Bau Bau (cane),item,word
+item_3,Sounds - Bee (pecora),item,word
+item_4,Sounds - Brum Brum (auto),item,word
+item_5,Sounds - Chicchirichì (gallo),item,word
+item_6,Sounds - Ciuf ciuf (treno),item,word
+item_7,Sounds - Gnam,item,word
+item_8,Sounds - Miao (gatto),item,word
+item_9,Sounds - Muh (mucca),item,word
+item_10,Sounds - Oh oh,item,word
+item_11,Sounds - Qua Qua (papera),item,word
+item_12,Sounds - Roarr (ringhio),item,word
+item_14,Animals - Agnello,item,word
+item_15,Animals - Animale,item,word
+item_16,Animals - Ape,item,word
+item_13,Animals - Asino,item,word
+item_17,Animals - Cane,item,word
+item_18,Animals - Cavallo,item,word
+item_19,Animals - Cervo,item,word
+item_20,Animals - Coniglio,item,word
+item_21,Animals - Cucciolo,item,word
+item_22,Animals - Elefante,item,word
+item_23,Animals - Farfalla,item,word
+item_24,Animals - Gallina,item,word
+item_25,Animals - Gattino / Micino,item,word
+item_26,Animals - Gatto,item,word
+item_27,Animals - Giraffa,item,word
+item_28,Animals - Gufo,item,word
+item_29,Animals - Leone,item,word
+item_30,Animals - Maiale,item,word
+item_31,Animals - Mucca,item,word
+item_32,Animals - Oca,item,word
+item_33,Animals - Orso,item,word
+item_34,Animals - Papera,item,word
+item_35,Animals - Pecora,item,word
+item_36,Animals - Pesce / Pesciolino,item,word
+item_37,Animals - Pinguino,item,word
+item_38,Animals - Pony,item,word
+item_39,Animals - Ragno,item,word
+item_40,Animals - Rana,item,word
+item_41,Animals - Scimmia,item,word
+item_42,Animals - Scoiattolo,item,word
+item_43,Animals - Tacchino,item,word
+item_44,Animals - Tartaruga,item,word
+item_45,Animals - Tigre,item,word
+item_46,Animals - Topo,item,word
+item_47,Animals - Uccellino,item,word
+item_48,Vehicles - Aereo,item,word
+item_49,Vehicles - Autobus,item,word
+item_50,Vehicles - Automobile / Auto / Macchina,item,word
+item_51,Vehicles - Autopompa,item,word
+item_52,Vehicles - Barca,item,word
+item_53,Vehicles - Bicicletta / Bici,item,word
+item_54,Vehicles - Camion,item,word
+item_55,Vehicles - Motocicletta / Moto,item,word
+item_56,Vehicles - Passeggino,item,word
+item_57,Vehicles - Treno,item,word
+item_58,Toys - Bambola,item,word
+item_59,Toys - Bollicina,item,word
+item_60,Toys - Cubi,item,word
+item_61,Toys - Giocattolo,item,word
+item_62,Toys - Libro,item,word
+item_63,Toys - Orsacchiotto,item,word
+item_64,Toys - Palla,item,word
+item_65,Toys - Palloncino,item,word
+item_66,Toys - Penna,item,word
+item_67,Food and Drink - Acqua,item,word
+item_68,Food and Drink - Arancia,item,word
+item_69,Food and Drink - Banana,item,word
+item_70,Food and Drink - Bibita / Bevanda,item,word
+item_71,Food and Drink - Biscotti,item,word
+item_72,Food and Drink - Burro,item,word
+item_73,Food and Drink - Caffé,item,word
+item_74,Food and Drink - Carne,item,word
+item_75,Food and Drink - Carota,item,word
+item_76,Food and Drink - Cereali,item,word
+item_77,Food and Drink - Dolci,item,word
+item_78,Food and Drink - Formaggio,item,word
+item_79,Food and Drink - Gelato,item,word
+item_80,Food and Drink - Latte,item,word
+item_81,Food and Drink - Marmellata,item,word
+item_82,Food and Drink - Mela,item,word
+item_83,Food and Drink - Pane,item,word
+item_84,Food and Drink - Pappa / Cibo,item,word
+item_85,Food and Drink - Pasta,item,word
+item_86,Food and Drink - Patatine,item,word
+item_87,Food and Drink - Pesce,item,word
+item_88,Food and Drink - Piselli,item,word
+item_89,Food and Drink - Pizza,item,word
+item_90,Food and Drink - Pollo,item,word
+item_91,Food and Drink - Succo,item,word
+item_92,Food and Drink - Té,item,word
+item_93,Food and Drink - Toast,item,word
+item_94,Food and Drink - Torta,item,word
+item_95,Food and Drink - Uovo,item,word
+item_96,Body Parts - Bocca,item,word
+item_97,Body Parts - Braccio,item,word
+item_98,Body Parts - Capelli,item,word
+item_99,Body Parts - Dente,item,word
+item_100,Body Parts - Dito,item,word
+item_101,Body Parts - Dito del piede,item,word
+item_102,Body Parts - Faccia,item,word
+item_103,Body Parts - Gamba,item,word
+item_104,Body Parts - Ginocchio,item,word
+item_105,Body Parts - Guancia,item,word
+item_106,Body Parts - Lingua,item,word
+item_107,Body Parts - Mano,item,word
+item_108,Body Parts - Naso,item,word
+item_109,Body Parts - Occhio,item,word
+item_110,Body Parts - Ombelico,item,word
+item_111,Body Parts - Orecchio,item,word
+item_112,Body Parts - Pancia,item,word
+item_113,Body Parts - Piede,item,word
+item_114,Body Parts - Testa,item,word
+item_115,Body Parts - Unghia,item,word
+item_116,Clothes - Bavaglino,item,word
+item_117,Clothes - Bottone,item,word
+item_118,Clothes - Calze / Calzini,item,word
+item_119,Clothes - Camicia,item,word
+item_120,Clothes - Cappello,item,word
+item_121,Clothes - Cappotto,item,word
+item_122,Clothes - Cerniera,item,word
+item_123,Clothes - Collana,item,word
+item_124,Clothes - Giacca,item,word
+item_125,Clothes - Jeans,item,word
+item_126,Clothes - Maglione,item,word
+item_127,Clothes - Occhiali,item,word
+item_128,Clothes - Pannolino,item,word
+item_129,Clothes - Pantaloncini,item,word
+item_130,Clothes - Pantaloni,item,word
+item_131,Clothes - Pigiama,item,word
+item_132,Clothes - Scarpa,item,word
+item_133,Clothes - Stivali,item,word
+item_134,Clothes - Vestito,item,word
+item_135,Furniture and Rooms - Bagno,item,word
+item_136,Furniture and Rooms - Box,item,word
+item_137,Furniture and Rooms - Camera,item,word
+item_138,Furniture and Rooms - Cassetto,item,word
+item_139,Furniture and Rooms - Cucina,item,word
+item_140,Furniture and Rooms - Cucina / Fornelli / Forno,item,word
+item_141,Furniture and Rooms - Culla,item,word
+item_142,Furniture and Rooms - Divano,item,word
+item_143,Furniture and Rooms - Finestra,item,word
+item_144,Furniture and Rooms - Frigorifero / Frigo,item,word
+item_145,Furniture and Rooms - Garage,item,word
+item_146,Furniture and Rooms - Lavandino,item,word
+item_147,Furniture and Rooms - Letto,item,word
+item_148,Furniture and Rooms - Porta,item,word
+item_149,Furniture and Rooms - Salotto,item,word
+item_150,Furniture and Rooms - Scale,item,word
+item_151,Furniture and Rooms - Sedia,item,word
+item_152,Furniture and Rooms - Sedia a dondolo,item,word
+item_153,Furniture and Rooms - Seggiolone,item,word
+item_154,Furniture and Rooms - Tavolo,item,word
+item_155,Furniture and Rooms - Televisione / TV,item,word
+item_156,Furniture and Rooms - Vasca da bagno,item,word
+item_157,Furniture and Rooms - Vasino,item,word
+item_158,Outside - Acqua,item,word
+item_159,Outside - Albero,item,word
+item_160,Outside - All'aperto / Fuori,item,word
+item_161,Outside - Altalena,item,word
+item_162,Outside - Casa,item,word
+item_163,Outside - Chiesa,item,word
+item_164,Outside - Cielo,item,word
+item_165,Outside - Festa,item,word
+item_166,Outside - Fiore,item,word
+item_167,Outside - Giardino,item,word
+item_168,Outside - Lavoro,item,word
+item_169,Outside - Luna,item,word
+item_170,Outside - Muro,item,word
+item_171,Outside - Negozio,item,word
+item_172,Outside - Neve,item,word
+item_173,Outside - Paletta,item,word
+item_174,Outside - Parco,item,word
+item_175,Outside - Pioggia,item,word
+item_176,Outside - Piscina,item,word
+item_177,Outside - Sasso,item,word
+item_178,Outside - Scivolo,item,word
+item_179,Outside - Scuola,item,word
+item_180,Outside - Secchiello,item,word
+item_181,Outside - Sole,item,word
+item_182,Outside - Spiaggia,item,word
+item_183,Outside - Stella,item,word
+item_184,Outside - Zoo,item,word
+item_185,Household items - Asciugamano,item,word
+item_186,Household items - Aspirapolvere,item,word
+item_187,Household items - Bicchiere,item,word
+item_188,Household items - Bottiglia,item,word
+item_189,Household items - Caraffa,item,word
+item_190,Household items - Carta,item,word
+item_191,Household items - Cestino,item,word
+item_192,Household items - Chiave,item,word
+item_193,Household items - Ciuccio,item,word
+item_194,Household items - Coperta,item,word
+item_195,Household items - Cucchiaio,item,word
+item_196,Household items - Cuscino,item,word
+item_197,Household items - Dentifricio,item,word
+item_198,Household items - Fazzoletto,item,word
+item_199,Household items - Forbici,item,word
+item_200,Household items - Forchetta,item,word
+item_201,Household items - Fotografia / Foto,item,word
+item_202,Household items - Lampada,item,word
+item_203,Household items - Luce,item,word
+item_204,Household items - Martello,item,word
+item_205,Household items - Medicina,item,word
+item_206,Household items - Moneta,item,word
+item_207,Household items - Orologio,item,word
+item_208,Household items - Pennello,item,word
+item_209,Household items - Pentola,item,word
+item_210,Household items - Pettine,item,word
+item_211,Household items - Pianta,item,word
+item_212,Household items - Piatto,item,word
+item_213,Household items - Portafoglio,item,word
+item_214,Household items - Radio,item,word
+item_215,Household items - Sapone,item,word
+item_216,Household items - Scatola,item,word
+item_217,Household items - Scodella,item,word
+item_218,Household items - Scopa,item,word
+item_219,Household items - Soldi,item,word
+item_220,Household items - Spazzatura,item,word
+item_221,Household items - Spazzolino da denti,item,word
+item_222,Household items - Tazza,item,word
+item_223,Household items - Telefono,item,word
+item_224,People - Amico/a,item,word
+item_225,People - Babysitter / Tata,item,word
+item_226,People - Bambino/a,item,word
+item_227,People - Bimbo/a,item,word
+item_228,People - Dottore,item,word
+item_229,People - Fratello,item,word
+item_230,People - Gente,item,word
+item_231,People - Maestro/a,item,word
+item_232,People - Mamma,item,word
+item_233,People - Nonna,item,word
+item_234,People - Nonno,item,word
+item_235,People - Papà,item,word
+item_236,People - Persona,item,word
+item_237,People - Poliziotto,item,word
+item_238,People - Ragazza,item,word
+item_239,People - Ragazzo,item,word
+item_240,People - Signora,item,word
+item_241,People - Signore,item,word
+item_242,People - Sorella,item,word
+item_243,People - Zia,item,word
+item_244,People - Zio,item,word
+item_245,Games and Routines - Aspettare,item,word
+item_246,Games and Routines - Bum (cade),item,word
+item_247,Games and Routines - Buonanotte,item,word
+item_248,Games and Routines - Buongiorno,item,word
+item_249,Games and Routines - Cena,item,word
+item_250,Games and Routines - Ciao,item,word
+item_251,Games and Routines - Colazione,item,word
+item_252,Games and Routines - Cucù/Bubù-settete,item,word
+item_253,Games and Routines - Fare il bagno,item,word
+item_254,Games and Routines - Grazie,item,word
+item_255,Games and Routines - Merenda,item,word
+item_256,Games and Routines - No,item,word
+item_257,Games and Routines - Non fare,item,word
+item_258,Games and Routines - Pisolino,item,word
+item_259,Games and Routines - Pranzo,item,word
+item_260,Games and Routines - Prego / Per favore,item,word
+item_261,Games and Routines - Sì,item,word
+item_262,Games and Routines - Voler bene,item,word
+item_263,Games and Routines - Volere,item,word
+item_264,Games and Routines - Zitto / Shhh,item,word
+item_265,Action Words - Abbracciare,item,word
+item_266,Action Words - Accendere,item,word
+item_267,Action Words - Acchiappare,item,word
+item_268,Action Words - Aiutare,item,word
+item_269,Action Words - Amare,item,word
+item_270,Action Words - Andare,item,word
+item_271,Action Words - Annusare,item,word
+item_272,Action Words - Aprire,item,word
+item_273,Action Words - Avere,item,word
+item_274,Action Words - Baciare,item,word
+item_275,Action Words - Ballare,item,word
+item_276,Action Words - Bere,item,word
+item_277,Action Words - Buttare,item,word
+item_278,Action Words - Cadere,item,word
+item_279,Action Words - Camminare,item,word
+item_280,Action Words - Cantare,item,word
+item_281,Action Words - Cercare,item,word
+item_282,Action Words - Chiamare,item,word
+item_283,Action Words - Chiudere,item,word
+item_284,Action Words - Coccolare,item,word
+item_285,Action Words - Colpire,item,word
+item_286,Action Words - Conoscere / Sapere,item,word
+item_287,Action Words - Correre,item,word
+item_288,Action Words - Dare,item,word
+item_289,Action Words - Dare da mangiare,item,word
+item_290,Action Words - Dare un calcio,item,word
+item_291,Action Words - Dire,item,word
+item_292,Action Words - Disegnare,item,word
+item_293,Action Words - Dondolare,item,word
+item_294,Action Words - Dormire,item,word
+item_295,Action Words - Fare,item,word
+item_296,Action Words - Fermare,item,word
+item_297,Action Words - Finire,item,word
+item_298,Action Words - Giocare,item,word
+item_299,Action Words - Grattare / Graffiare,item,word
+item_300,Action Words - Guardare,item,word
+item_301,Action Words - Guidare,item,word
+item_302,Action Words - Inseguire,item,word
+item_303,Action Words - Lasciare / Fare cadere,item,word
+item_304,Action Words - Lavare,item,word
+item_305,Action Words - Leggere,item,word
+item_306,Action Words - Mangiare,item,word
+item_307,Action Words - Mettere,item,word
+item_308,Action Words - Mordere,item,word
+item_309,Action Words - Mostrare,item,word
+item_310,Action Words - Nascondere/si,item,word
+item_311,Action Words - Nuotare,item,word
+item_312,Action Words - Piacere,item,word
+item_313,Action Words - Piangere,item,word
+item_314,Action Words - Portare,item,word
+item_315,Action Words - Prendere,item,word
+item_316,Action Words - Pulire,item,word
+item_317,Action Words - Raccontare,item,word
+item_318,Action Words - Rompere,item,word
+item_319,Action Words - Saltare,item,word
+item_320,Action Words - Sbrigarsi,item,word
+item_321,Action Words - Schizzare / Spruzzare,item,word
+item_322,Action Words - Scrivere,item,word
+item_323,Action Words - Sedersi,item,word
+item_324,Action Words - Sentire,item,word
+item_325,Action Words - Soffiare,item,word
+item_326,Action Words - Solleticare,item,word
+item_327,Action Words - Sorridere,item,word
+item_328,Action Words - Spingere,item,word
+item_329,Action Words - Tagliare,item,word
+item_330,Action Words - Tirare,item,word
+item_331,Action Words - Trovare,item,word
+item_332,Action Words - Urtare / Sbattere (contro),item,word
+item_333,Action Words - Vedere,item,word
+item_334,Action Words - Volare,item,word
+item_335,Descriptive Words - Addormentato,item,word
+item_336,Descriptive Words - Affamato,item,word
+item_337,Descriptive Words - Asciutto,item,word
+item_338,Descriptive Words - Assetato,item,word
+item_339,Descriptive Words - Assonnato,item,word
+item_340,Descriptive Words - Bagnato,item,word
+item_341,Descriptive Words - Bello,item,word
+item_342,Descriptive Words - Bene,item,word
+item_343,Descriptive Words - Blu,item,word
+item_344,Descriptive Words - Buio,item,word
+item_345,Descriptive Words - Buono,item,word
+item_346,Descriptive Words - Caldo,item,word
+item_347,Descriptive Words - Carino,item,word
+item_348,Descriptive Words - Cattivo,item,word
+item_349,Descriptive Words - Disubbidiente,item,word
+item_350,Descriptive Words - Duro,item,word
+item_351,Descriptive Words - Felice,item,word
+item_352,Descriptive Words - Ferito,item,word
+item_353,Descriptive Words - Freddo,item,word
+item_354,Descriptive Words - Gentile,item,word
+item_355,Descriptive Words - Giallo,item,word
+item_356,Descriptive Words - Grande / Grosso,item,word
+item_394,Descriptive Words - Malato,item,word
+item_357,Descriptive Words - Morbido,item,word
+item_358,Descriptive Words - Piccolo,item,word
+item_359,Descriptive Words - Pieno,item,word
+item_360,Descriptive Words - Prudente,item,word
+item_361,Descriptive Words - Pulito,item,word
+item_362,Descriptive Words - Rosso,item,word
+item_363,Descriptive Words - Rotto,item,word
+item_364,Descriptive Words - Spaventato,item,word
+item_365,Descriptive Words - Sporco,item,word
+item_366,Descriptive Words - Stanco,item,word
+item_367,Descriptive Words - Triste,item,word
+item_368,Descriptive Words - Tutto finito,item,word
+item_369,Descriptive Words - Vecchio,item,word
+item_370,Descriptive Words - Veloce / Rapido,item,word
+item_371,Descriptive Words - Verde,item,word
+item_372,Descriptive Words - Vuoto,item,word
+item_373,Question words - Che / Che cosa?,item,word
+item_389,Question words - Chi?,item,word
+item_388,Question words - Come?,item,word
+item_397,Question words - Dove?,item,word
+item_374,Question words - Perchè?,item,word
+item_375,Question words - Quando?,item,word
+item_376,Time - Adesso / Ora,item,word
+item_377,Time - Domani,item,word
+item_378,Time - Giorno,item,word
+item_379,Time - Mattina,item,word
+item_380,Time - Notte,item,word
+item_381,Time - Oggi,item,word
+item_382,Time - Stasera / Stanotte,item,word
+item_383,Time - (più) Tardi / Dopo,item,word
+item_384,Pronouns and Possessives - Esso/a / Lui / Lei,item,word
+item_385,Pronouns and Possessives - Io,item,word
+item_386,Pronouns and Possessives - Loro,item,word
+item_387,Pronouns and Possessives - Me,item,word
+item_390,Pronouns and Possessives - Me/ Mi,item,word
+item_391,Pronouns and Possessives - Mio/a,item,word
+item_392,Pronouns and Possessives - Quello/a,item,word
+item_393,Pronouns and Possessives - Questo/a,item,word
+item_395,Pronouns and Possessives - Suo/a,item,word
+item_396,Pronouns and Possessives - Tu,item,word
+item_398,Pronouns and Possessives - Tuo/a,item,word
+item_399,Prepositions and Location Words - A,item,word
+item_400,Prepositions and Location Words - Da,item,word
+item_401,Prepositions and Location Words - Dentro,item,word
+item_402,Prepositions and Location Words - Dietro,item,word
+item_403,Prepositions and Location Words - Giù,item,word
+item_404,Prepositions and Location Words - In,item,word
+item_405,Prepositions and Location Words - Lì / Là,item,word
+item_406,Prepositions and Location Words - Lontano,item,word
+item_407,Prepositions and Location Words - Sopra,item,word
+item_408,Prepositions and Location Words - Sotto,item,word
+item_409,Prepositions and Location Words - Su,item,word
+item_410,Quantifiers - Altro,item,word
+item_411,Quantifiers - Ancora,item,word
+item_412,Quantifiers - Nessuno,item,word
+item_413,Quantifiers - Non,item,word
+item_414,Quantifiers - Più / Di più,item,word
+item_415,Quantifiers - Qualche,item,word
+item_416,Quantifiers - Stesso,item,word
+item_417,Quantifiers - Tutto,item,word
+item_418,Quantifiers - Un altro,item,word
+study_id,ParticipantID,child,study_id
+,shortPID,,
+,age_days,,
+data_age,age_months,admin,data_age
+,Recorded.Year,,
+,country,,

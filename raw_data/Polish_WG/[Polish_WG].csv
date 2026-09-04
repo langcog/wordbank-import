@@ -1,0 +1,475 @@
+﻿itemID,item,definition,type,choices,category,gloss,uni_lemma
+item_1,first_signs_1,"Reaguje, gdy zawołać je po imieniu (np. odwraca głowę i patrzy w kierunku głosu)?",first_signs,yes; no,NA,NA,NA
+item_2,first_signs_2,Reaguje na okrzyk „Nie!” (przerywając wykonywaną czynność choć na chwilę)?,first_signs,yes; no,NA,NA,NA
+item_3,first_signs_3,Reaguje na słowa „Tu mama.” lub „Gdzie tata?” (szukając matki lub ojca wzrokiem)?,first_signs,yes; no,NA,NA,NA
+item_4,phrases_1,Chcesz jeść?,phrases,yes; no,NA,NA,NA
+item_5,phrases_2,Chcesz spać?,phrases,yes; no,NA,NA,NA
+item_6,phrases_3,Chcesz pić?,phrases,yes; no,NA,NA,NA
+item_7,phrases_4,Cicho!,phrases,yes; no,NA,NA,NA
+item_8,phrases_5,Uważaj!,phrases,yes; no,NA,NA,NA
+item_9,phrases_6,Nie ruszaj!/Nie rusz!,phrases,yes; no,NA,NA,NA
+item_10,phrases_7,Nie wolno!,phrases,yes; no,NA,NA,NA
+item_11,phrases_8,Nie ruszaj się!,phrases,yes; no,NA,NA,NA
+item_12,phrases_9,Wstań!,phrases,yes; no,NA,NA,NA
+item_13,phrases_10,Siadaj!,phrases,yes; no,NA,NA,NA
+item_14,phrases_11,Chodź!,phrases,yes; no,NA,NA,NA
+item_15,phrases_12,Popatrz./Zobacz.,phrases,yes; no,NA,NA,NA
+item_16,phrases_13,Otwórz buzię.,phrases,yes; no,NA,NA,NA
+item_17,phrases_14,Daj mamusi ____.,phrases,yes; no,NA,NA,NA
+item_18,phrases_15,Przynieś ____.,phrases,yes; no,NA,NA,NA
+item_19,phrases_16,Rzuć piłkę.,phrases,yes; no,NA,NA,NA
+item_20,phrases_17,Daj buzi/całuska!,phrases,yes; no,NA,NA,NA
+item_21,phrases_18,Zrób babci „moja moja”.,phrases,yes; no,NA,NA,NA
+item_22,phrases_19,Zrób „pa pa”.,phrases,yes; no,NA,NA,NA
+item_23,phrases_20,Zrób brawo/kosi-kosi!,phrases,yes; no,NA,NA,NA
+item_24,phrases_21,Idziemy na spacer.,phrases,yes; no,NA,NA,NA
+item_25,phrases_22,Idziemy spać/lulać.,phrases,yes; no,NA,NA,NA
+item_26,phrases_23,Kasia/Tomek cacy.,phrases,yes; no,NA,NA,NA
+item_27,phrases_24,Mama jest w kuchni.,phrases,yes; no,NA,NA,NA
+item_28,word_1,gę gę,word,understands; produces,sounds,honk (goose),honk (goose)
+item_29,word_2,hau hau,word,understands; produces,sounds,woof woof,woof woof
+item_30,word_3,ko ko ko,word,understands; produces,sounds,cluck-cluck,cluck
+item_31,word_4,kwa kwa,word,understands; produces,sounds,quack quack,quack quack
+item_32,word_5,miau,word,understands; produces,sounds,meow,meow
+item_33,word_6,mee/bee,word,understands; produces,sounds,baa baa,baa baa
+item_34,word_7,muu [krowa],word,understands; produces,sounds,moo [cow],moo
+item_35,word_8,pi pi pi/ćwir ćwir,word,understands; produces,sounds,tweet tweet,tweet tweet
+item_36,word_9,bam/bum/bęc,word,understands; produces,sounds,boom,boom
+item_37,word_10,brrum brrum [auto],word,understands; produces,sounds,vroom [car],vroom
+item_38,word_11,tik tak,word,understands; produces,sounds,tick-tock,tick tock
+item_39,word_12,tralala/lalala,word,understands; produces,sounds,lalala [singing],NA
+item_40,word_13,baran,word,understands; produces,animals,ram,sheep
+item_41,word_14,biedronka,word,understands; produces,animals,ladybug,ladybug
+item_42,word_15,bocian,word,understands; produces,animals,stork,stork
+item_43,word_16,gęś,word,understands; produces,animals,goose,goose
+item_44,word_17,jeż,word,understands; produces,animals,hedgehog,hedgehog
+item_45,word_18,kaczka,word,understands; produces,animals,duck,duck
+item_46,word_19,kogut,word,understands; produces,animals,rooster,rooster
+item_47,word_20,koń,word,understands; produces,animals,horse,horse
+item_48,word_21,kot,word,understands; produces,animals,cat,cat
+item_49,word_22,koza,word,understands; produces,animals,goat,goat
+item_50,word_23,krowa,word,understands; produces,animals,cow,cow
+item_51,word_24,królik,word,understands; produces,animals,rabbit,rabbit
+item_52,word_25,kura,word,understands; produces,animals,hen,hen
+item_53,word_26,lew,word,understands; produces,animals,lion,lion
+item_54,word_27,lis,word,understands; produces,animals,fox,fox
+item_55,word_28,małpa,word,understands; produces,animals,monkey,monkey
+item_56,word_29,miś/niedźwiedź,word,understands; produces,animals,bear / teddybear,bear
+item_57,word_30,mucha,word,understands; produces,animals,fly,fly (animal)
+item_58,word_31,myszka,word,understands; produces,animals,mouse,mouse
+item_59,word_32,pies,word,understands; produces,animals,dog,dog
+item_60,word_33,pingwin,word,understands; produces,animals,penguin,penguin
+item_61,word_34,ptaszek,word,understands; produces,animals,bird,bird
+item_62,word_35,robak,word,understands; produces,animals,bug,bug
+item_63,word_36,ryba_animals,word,understands; produces,animals,fish,fish (animal)
+item_64,word_37,słoń,word,understands; produces,animals,elephant,elephant
+item_65,word_38,sowa,word,understands; produces,animals,owl,owl
+item_66,word_39,ślimak,word,understands; produces,animals,snail,snail
+item_67,word_40,świnka,word,understands; produces,animals,pig,pig
+item_68,word_41,tygrys,word,understands; produces,animals,tiger,tiger
+item_69,word_42,wiewiórka,word,understands; produces,animals,squirrel,squirrel
+item_70,word_43,wilk,word,understands; produces,animals,wolf,wolf
+item_71,word_44,zając,word,understands; produces,animals,hare,hare
+item_72,word_45,żaba,word,understands; produces,animals,frog,frog
+item_73,word_46,żółw,word,understands; produces,animals,turtle,turtle
+item_74,word_47,żyrafa,word,understands; produces,animals,giraffe,giraffe
+item_75,word_48,auto/samochód,word,understands; produces,vehicles,car,car
+item_76,word_49,autobus,word,understands; produces,vehicles,bus,bus
+item_77,word_50,motor/motocykl,word,understands; produces,vehicles,motorcycle,motorcycle
+item_78,word_51,pociąg,word,understands; produces,vehicles,train,train
+item_79,word_52,rower,word,understands; produces,vehicles,bicycle,bicycle
+item_80,word_53,samolot,word,understands; produces,vehicles,airplane,airplane
+item_81,word_54,statek,word,understands; produces,vehicles,ship,ship
+item_82,word_55,traktor,word,understands; produces,vehicles,tractor,tractor
+item_83,word_56,tramwaj,word,understands; produces,vehicles,tram,tram
+item_84,word_57,banan,word,understands; produces,food_drink,banana,banana
+item_85,word_58,budyń,word,understands; produces,food_drink,pudding,pudding
+item_86,word_59,bułka,word,understands; produces,food_drink,breadroll,bun
+item_87,word_60,chleb,word,understands; produces,food_drink,bread,bread
+item_88,word_61,chrupki,word,understands; produces,food_drink,crisps,chips
+item_89,word_62,ciastko,word,understands; produces,food_drink,cookie,cookie
+item_90,word_63,cukier,word,understands; produces,food_drink,sugar,sugar
+item_91,word_64,cukierek,word,understands; produces,food_drink,candy,candy
+item_92,word_65,czekolada,word,understands; produces,food_drink,chocolate,chocolate
+item_93,word_66,dżem,word,understands; produces,food_drink,jam,jam
+item_94,word_67,herbata,word,understands; produces,food_drink,tea,tea
+item_95,word_68,jabłko,word,understands; produces,food_drink,apple,apple
+item_96,word_69,jajko,word,understands; produces,food_drink,egg,egg
+item_97,word_70,jedzenie/papu/am,word,understands; produces,food_drink,food / food [baby word],food
+item_98,word_71,jogurt,word,understands; produces,food_drink,yogurt,yogurt
+item_99,word_72,kaszka,word,understands; produces,food_drink,porridge,porridge
+item_100,word_73,kawa,word,understands; produces,food_drink,coffee,coffee
+item_101,word_74,kiełbasa,word,understands; produces,food_drink,sausage,sausage
+item_102,word_75,makaron/kluski,word,understands; produces,food_drink,pasta / noodles,pasta
+item_103,word_76,masło/margaryna,word,understands; produces,food_drink,butter / margarine,butter
+item_104,word_77,mięso,word,understands; produces,food_drink,meat,meat
+item_105,word_78,mleko,word,understands; produces,food_drink,milk,milk
+item_106,word_79,paluszki,word,understands; produces,food_drink,saltsticks,snack
+item_107,word_80,picie,word,understands; produces,food_drink,drink,drink (beverage)
+item_108,word_81,ser,word,understands; produces,food_drink,cheese,cheese
+item_109,word_82,sok,word,understands; produces,food_drink,juice,juice
+item_110,word_83,szynka,word,understands; produces,food_drink,ham,ham
+item_111,word_84,woda_food_drink,word,understands; produces,food_drink,water,water (beverage)
+item_112,word_85,ziemniaki/kartofle,word,understands; produces,food_drink,potatoes,potato
+item_113,word_86,zupa,word,understands; produces,food_drink,soup,soup
+item_114,word_87,bajka,word,understands; produces,toys,fairytale,story
+item_115,word_88,balonik,word,understands; produces,toys,balloon,balloon
+item_116,word_89,kartka/papier,word,understands; produces,toys,paper,paper
+item_117,word_90,klocki,word,understands; produces,toys,block,block
+item_118,word_91,książka,word,understands; produces,toys,book,book
+item_119,word_92,lalka,word,understands; produces,toys,doll,doll
+item_120,word_93,łopatka,word,understands; produces,toys,shovel,shovel
+item_121,word_94,piłka,word,understands; produces,toys,ball,ball
+item_122,word_95,pisak/długopis,word,understands; produces,toys,pen,pen
+item_123,word_96,smoczek,word,understands; produces,toys,pacifier,pacifier
+item_124,word_97,wiaderko,word,understands; produces,toys,bucket,bucket
+item_125,word_98,buty,word,understands; produces,clothing,shoes,shoe
+item_126,word_99,czapka,word,understands; produces,clothing,cap,cap
+item_127,word_100,guzik,word,understands; produces,clothing,button,button
+item_128,word_101,kapelusz,word,understands; produces,clothing,hat,hat
+item_129,word_102,kieszeń,word,understands; produces,clothing,pocket,pocket
+item_130,word_103,koszula,word,understands; produces,clothing,shirt,shirt
+item_131,word_104,kurtka,word,understands; produces,clothing,jacket,jacket
+item_132,word_105,majtki,word,understands; produces,clothing,underpants,underpants
+item_133,word_106,pantofle/kapcie,word,understands; produces,clothing,slippers,slipper
+item_134,word_107,pieluszka/pampers,word,understands; produces,clothing,diaper,diaper
+item_135,word_108,piżama,word,understands; produces,clothing,pajamas,pajamas
+item_136,word_109,rajstopy/rajtuzy,word,understands; produces,clothing,tights,tights
+item_137,word_110,rękawiczki,word,understands; produces,clothing,gloves,glove
+item_138,word_111,skarpetki,word,understands; produces,clothing,socks,sock
+item_139,word_112,spodnie,word,understands; produces,clothing,pants,pants
+item_140,word_113,sukienka,word,understands; produces,clothing,dress,dress (object)
+item_141,word_114,sweter,word,understands; produces,clothing,sweater,sweater
+item_142,word_115,szalik,word,understands; produces,clothing,scarf,scarf
+item_143,word_116,śliniaczek,word,understands; produces,clothing,bib,bib
+item_144,word_117,ubranie,word,understands; produces,clothing,clothes,clothes
+item_145,word_118,broda,word,understands; produces,body_parts,chin,chin
+item_146,word_119,brzuch,word,understands; produces,body_parts,tummy,tummy
+item_147,word_120,buzia,word,understands; produces,body_parts,face / mouth,mouth
+item_148,word_121,czoło,word,understands; produces,body_parts,forehead,forehead
+item_149,word_122,głowa,word,understands; produces,body_parts,head,head
+item_150,word_123,język,word,understands; produces,body_parts,tongue,tongue
+item_151,word_124,kolano,word,understands; produces,body_parts,knee,knee
+item_152,word_125,noga,word,understands; produces,body_parts,leg,leg
+item_153,word_126,nos,word,understands; produces,body_parts,nose,nose
+item_154,word_127,oko,word,understands; produces,body_parts,eye,eye
+item_155,word_128,palec,word,understands; produces,body_parts,finger / toe,finger
+item_156,word_129,paznokcie/pazurki,word,understands; produces,body_parts,nails,nail (body part)
+item_157,word_130,pępek,word,understands; produces,body_parts,belly button,belly button
+item_158,word_131,plecy,word,understands; produces,body_parts,back,back
+item_159,word_132,pupa,word,understands; produces,body_parts,bottom,butt
+item_160,word_133,ręka,word,understands; produces,body_parts,hand,hand
+item_161,word_134,szyja,word,understands; produces,body_parts,neck,neck
+item_162,word_135,ucho,word,understands; produces,body_parts,ear,ear
+item_163,word_136,włosy,word,understands; produces,body_parts,hair,hair
+item_164,word_137,ząb,word,understands; produces,body_parts,tooth,tooth
+item_165,word_138,balkon,word,understands; produces,furniture_rooms,balcony,balcony
+item_166,word_139,drzwi,word,understands; produces,furniture_rooms,door,door
+item_167,word_140,dywan,word,understands; produces,furniture_rooms,carpet,carpet
+item_168,word_141,fotel,word,understands; produces,furniture_rooms,armchair,armchair
+item_169,word_142,krzesło,word,understands; produces,furniture_rooms,chair,chair
+item_170,word_143,kuchnia,word,understands; produces,furniture_rooms,kitchen,kitchen
+item_171,word_144,lodówka,word,understands; produces,furniture_rooms,fridge,fridge
+item_172,word_145,łazienka,word,understands; produces,furniture_rooms,bathroom,bathroom
+item_173,word_146,łóżko,word,understands; produces,furniture_rooms,bed,bed
+item_174,word_147,odkurzacz,word,understands; produces,furniture_rooms,vacuum cleaner,vacuum
+item_175,word_148,okno,word,understands; produces,furniture_rooms,window,window
+item_176,word_149,podłoga,word,understands; produces,furniture_rooms,floor,floor
+item_177,word_150,pokój,word,understands; produces,furniture_rooms,room,room
+item_178,word_151,półka/regał,word,understands; produces,furniture_rooms,shelf,shelf
+item_179,word_152,pralka,word,understands; produces,furniture_rooms,washing machine,washing machine
+item_180,word_153,schody,word,understands; produces,furniture_rooms,stairs,stairs
+item_181,word_154,stół,word,understands; produces,furniture_rooms,table,table
+item_182,word_155,szafa,word,understands; produces,furniture_rooms,wardrobe,wardrobe
+item_183,word_156,szuflada,word,understands; produces,furniture_rooms,drawer,drawer
+item_184,word_157,ściana,word,understands; produces,furniture_rooms,wall,wall
+item_185,word_158,telewizor,word,understands; produces,furniture_rooms,tv,tv
+item_186,word_159,ubikacja/ustęp,word,understands; produces,furniture_rooms,toilet,toilet
+item_187,word_160,wanna,word,understands; produces,furniture_rooms,bathtub,bathtub
+item_188,word_161,wózek,word,understands; produces,furniture_rooms,stroller,stroller
+item_189,word_162,butelka,word,understands; produces,household,bottle,bottle
+item_190,word_163,garnek,word,understands; produces,household,pot,pot
+item_191,word_164,gazeta,word,understands; produces,household,newspaper,newspaper
+item_192,word_165,grzebień,word,understands; produces,household,comb,comb (object)
+item_193,word_166,klucz,word,understands; produces,household,key,key
+item_194,word_167,koc/kołdra,word,understands; produces,household,blanket / duvet,blanket
+item_195,word_168,koszyk,word,understands; produces,household,basket,basket
+item_196,word_169,kubek,word,understands; produces,household,cup,cup
+item_197,word_170,lampa,word,understands; produces,household,lamp,lamp
+item_198,word_171,lekarstwa/tabletki,word,understands; produces,household,medicine / pills,medicine
+item_199,word_172,lustro,word,understands; produces,household,mirror,mirror
+item_200,word_173,łyżka,word,understands; produces,household,spoon,spoon
+item_201,word_174,mydło,word,understands; produces,household,soap,soap
+item_202,word_175,nocnik,word,understands; produces,household,potty,potty
+item_203,word_176,nożyczki,word,understands; produces,household,scissors,scissors
+item_204,word_177,nóż,word,understands; produces,household,knife,knife
+item_205,word_178,okulary,word,understands; produces,household,glasses,glasses
+item_206,word_179,pieniądze,word,understands; produces,household,money,money
+item_207,word_180,poduszka,word,understands; produces,household,pillow,pillow
+item_208,word_181,pudełko,word,understands; produces,household,box,box
+item_209,word_182,radio,word,understands; produces,household,radio,radio
+item_210,word_183,ręcznik,word,understands; produces,household,towel,towel
+item_211,word_184,szczoteczka do zębów,word,understands; produces,household,toothbrush,toothbrush
+item_212,word_185,szklanka,word,understands; produces,household,glass,glass
+item_213,word_186,szmata/ścierka,word,understands; produces,household,dishcloth,rag
+item_214,word_187,śmieci,word,understands; produces,household,garbage,garbage
+item_215,word_188,talerz,word,understands; produces,household,plate,plate
+item_216,word_189,telefon/komórka,word,understands; produces,household,phone / mobile,telephone
+item_217,word_190,torebka,word,understands; produces,household,bag,bag
+item_218,word_191,widelec,word,understands; produces,household,fork,fork
+item_219,word_192,zdjęcie/fotografia,word,understands; produces,household,photo,photo
+item_220,word_193,zegarek,word,understands; produces,household,clock / watch,watch
+item_221,word_194,żelazko,word,understands; produces,household,iron,iron
+item_222,word_195,deszcz,word,understands; produces,outside,rain,rain
+item_223,word_196,dom,word,understands; produces,outside,home / house,home
+item_224,word_197,drzewo,word,understands; produces,outside,tree,tree
+item_225,word_198,kamień,word,understands; produces,outside,stone,stone
+item_226,word_199,kijek/patyk,word,understands; produces,outside,stick,stick
+item_227,word_200,kościół,word,understands; produces,outside,church,church
+item_228,word_201,księżyc,word,understands; produces,outside,moon,moon
+item_229,word_202,kwiatek,word,understands; produces,outside,flower,flower
+item_230,word_203,listek,word,understands; produces,outside,leaf,leaf
+item_231,word_204,na dwór/na pole,word,understands; produces,outside,outside,outside
+item_232,word_205,niebo,word,understands; produces,outside,sky,sky
+item_233,word_206,piasek/piaskownica,word,understands; produces,outside,sand / sandbox,sandbox
+item_234,word_207,praca,word,understands; produces,outside,work,work (place)
+item_235,word_208,sanki,word,understands; produces,outside,sled,sled
+item_236,word_209,sklep,word,understands; produces,outside,store,store
+item_237,word_210,słońce,word,understands; produces,outside,sun,sun
+item_238,word_211,spacer,word,understands; produces,outside,stroll,stroll
+item_239,word_212,śnieg,word,understands; produces,outside,snow,snow
+item_240,word_213,trawa,word,understands; produces,outside,grass,grass
+item_241,word_214,ulica,word,understands; produces,outside,street,street
+item_242,word_215,woda_outside,word,understands; produces,outside,water,water (not beverage)
+item_243,word_216,ziemia,word,understands; produces,outside,earth,earth
+item_244,word_217,babcia,word,understands; produces,people,grandma,grandma
+item_245,word_218,chłopiec,word,understands; produces,people,boy,boy
+item_246,word_219,ciocia,word,understands; produces,people,aunt,aunt
+item_247,word_220,doktor/lekarz,word,understands; produces,people,doctor,doctor
+item_248,word_221,dziadek/dziadzio,word,understands; produces,people,grandpa,grandpa
+item_249,word_222,dzidzi/dzidziuś,word,understands; produces,people,baby,baby
+item_250,word_223,dzieci,word,understands; produces,people,children,children
+item_251,word_224,dziewczynka,word,understands; produces,people,girl,girl
+item_252,word_225,imię zwierzątka,word,understands; produces,people,pet‚Äôs name,pet's name
+item_253,word_226,ludzie,word,understands; produces,people,people,people
+item_254,word_227,mama/mamusia,word,understands; produces,people,mommy,mommy
+item_255,word_228,pan,word,understands; produces,people,sir,sir
+item_256,word_229,pani,word,understands; produces,people,lady,lady
+item_257,word_230,tata/tatuś,word,understands; produces,people,daddy,daddy
+item_258,word_231,własne imię dziecka,word,understands; produces,people,child's name,child's name
+item_259,word_232,wujek,word,understands; produces,people,uncle,uncle
+item_260,word_233,cześć,word,understands; produces,games_routines,hi,hello
+item_261,word_234,dzień dobry,word,understands; produces,games_routines,good morning,good morning
+item_262,word_235,do widzenia,word,understands; produces,games_routines,goodbye,bye
+item_263,word_236,dobranoc,word,understands; produces,games_routines,good night,good night
+item_264,word_237,dziękuję,word,understands; produces,games_routines,thank you,thank you
+item_265,word_238,proszę,word,understands; produces,games_routines,please,please
+item_266,word_239,przepraszam,word,understands; produces,games_routines,sorry,sorry
+item_267,word_240,halo,word,understands; produces,games_routines,hello [on the phone],hello
+item_268,word_241,"pa, pa",word,understands; produces,games_routines,bye,bye
+item_269,word_242,tak,word,understands; produces,games_routines,yes,yes
+item_270,word_243,nie,word,understands; produces,games_routines,no,no
+item_271,word_244,siusiu/siku/sisi,word,understands; produces,games_routines,pee,pee
+item_272,word_245,kupka,word,understands; produces,games_routines,poop,poop
+item_273,word_246,kosi-kosi łapci,word,understands; produces,games_routines,[nursery rhyme],NA
+item_274,word_247,idzie rak nieborak,word,understands; produces,games_routines,[nursery rhyme],NA
+item_275,word_248,sroczka kaszkę warzyła,word,understands; produces,games_routines,[nursery rhyme],NA
+item_276,word_249,be,word,understands; produces,descriptive_words,yucky,yucky
+item_277,word_250,biały,word,understands; produces,descriptive_words,white,white
+item_278,word_251,brudny,word,understands; produces,descriptive_words,dirty,dirty
+item_279,word_252,brzydki/brzydko,word,understands; produces,descriptive_words,ugly,ugly
+item_280,word_253,cacy/cacany,word,understands; produces,descriptive_words,nice [child word],nice
+item_281,word_254,chory,word,understands; produces,descriptive_words,sick,sick
+item_282,word_255,cicho,word,understands; produces,descriptive_words,quietly,quietly
+item_283,word_256,ciemno,word,understands; produces,descriptive_words,dark,dark
+item_284,word_257,ciepły/ciepło,word,understands; produces,descriptive_words,warm,warm
+item_285,word_258,ciężki,word,understands; produces,descriptive_words,heavy,heavy
+item_286,word_259,czarny,word,understands; produces,descriptive_words,black,black
+item_287,word_260,czysty,word,understands; produces,descriptive_words,clean,clean (description)
+item_288,word_261,dobry/dobrze,word,understands; produces,descriptive_words,good,good
+item_289,word_262,duży,word,understands; produces,descriptive_words,big,big
+item_290,word_263,głodny,word,understands; produces,descriptive_words,hungry,hungry
+item_291,word_264,gorący/gorąco,word,understands; produces,descriptive_words,hot,hot
+item_292,word_265,kochany,word,understands; produces,descriptive_words,dear,dear
+item_293,word_266,ładny/ładnie,word,understands; produces,descriptive_words,pretty,pretty
+item_294,word_267,mały,word,understands; produces,descriptive_words,small,small
+item_295,word_268,mokry/mokro,word,understands; produces,descriptive_words,wet,wet (description)
+item_296,word_269,(nie)grzeczny,word,understands; produces,descriptive_words,naughty / nice,naughty / nice
+item_297,word_270,otwarty,word,understands; produces,descriptive_words,open,open (description)
+item_298,word_271,prędko/szybko,word,understands; produces,descriptive_words,quickly,quickly
+item_299,word_272,umyty,word,understands; produces,descriptive_words,washed,washed
+item_300,word_273,zamknięty,word,understands; produces,descriptive_words,closed,closed
+item_301,word_274,zepsuty,word,understands; produces,descriptive_words,broken,broken
+item_302,word_275,zimny/zimno,word,understands; produces,descriptive_words,cold,cold
+item_303,word_276,zmęczony,word,understands; produces,descriptive_words,tired,tired
+item_304,word_277,bać się,word,understands; produces,action_words,be afraid of,be scared
+item_305,word_278,bawić się,word,understands; produces,action_words,play,play
+item_306,word_279,bić,word,understands; produces,action_words,beat,hit
+item_307,word_280,biec/biegać,word,understands; produces,action_words,run,run
+item_308,word_281,boleć,word,understands; produces,action_words,hurt,hurt
+item_309,word_282,budować,word,understands; produces,action_words,build,build
+item_310,word_283,być (jest),word,understands; produces,action_words,be,be
+item_311,word_284,chcieć,word,understands; produces,action_words,want,want
+item_312,word_285,chodzić (chodź),word,understands; produces,action_words,walk (come),come
+item_313,word_286,czesać,word,understands; produces,action_words,comb,comb (action)
+item_314,word_287,czytać,word,understands; produces,action_words,read,read
+item_315,word_288,dać,word,understands; produces,action_words,give,give
+item_316,word_289,dmuchać,word,understands; produces,action_words,blow,blow
+item_317,word_290,dzwonić,word,understands; produces,action_words,call,call
+item_318,word_291,gonić,word,understands; produces,action_words,chase,chase
+item_319,word_292,gotować,word,understands; produces,action_words,cook,cook
+item_320,word_293,grać,word,understands; produces,action_words,play,play
+item_321,word_294,huśtać/bujać się,word,understands; produces,action_words,swing,swing (action)
+item_322,word_295,iść/pójść,word,understands; produces,action_words,go,go
+item_323,word_296,jechać/jeździć,word,understands; produces,action_words,ride,ride
+item_324,word_297,jeść,word,understands; produces,action_words,eat,eat
+item_325,word_298,kąpać się,word,understands; produces,action_words,bathe,bathe
+item_326,word_299,kochać,word,understands; produces,action_words,love,love
+item_327,word_300,kopać,word,understands; produces,action_words,kick,kick
+item_328,word_301,kupić,word,understands; produces,action_words,buy,buy
+item_329,word_302,leżeć,word,understands; produces,action_words,lie,lie down
+item_330,word_303,lubić,word,understands; produces,action_words,like,like
+item_331,word_304,mieć (ma),word,understands; produces,action_words,have,have
+item_332,word_305,myć (się),word,understands; produces,action_words,wash,wash
+item_333,word_306,nieść/nosić,word,understands; produces,action_words,carry,carry
+item_334,word_307,obudzić (się),word,understands; produces,action_words,wake up,wake
+item_335,word_308,oglądać/obejrzeć,word,understands; produces,action_words,watch,watch (action)
+item_336,word_309,otworzyć,word,understands; produces,action_words,open,open (action)
+item_337,word_310,palić (się),word,understands; produces,action_words,burn,burn
+item_338,word_311,patrzeć (patrz),word,understands; produces,action_words,look,look
+item_339,word_312,pić,word,understands; produces,action_words,drink,drink (action)
+item_340,word_313,pisać,word,understands; produces,action_words,write,write
+item_341,word_314,płakać,word,understands; produces,action_words,cry,cry
+item_342,word_315,prać,word,understands; produces,action_words,wash (launder),wash
+item_343,word_316,przyjść,word,understands; produces,action_words,come,come
+item_344,word_317,robić,word,understands; produces,action_words,do,do
+item_345,word_318,rysować,word,understands; produces,action_words,draw,draw
+item_346,word_319,rzucać,word,understands; produces,action_words,throw,throw
+item_347,word_320,siedzieć,word,understands; produces,action_words,sit,sit
+item_348,word_321,skakać,word,understands; produces,action_words,jump,jump
+item_349,word_322,spać,word,understands; produces,action_words,sleep,sleep
+item_350,word_323,stać,word,understands; produces,action_words,stand,stand
+item_351,word_324,stukać/pukać,word,understands; produces,action_words,knock,knock
+item_352,word_325,szukać,word,understands; produces,action_words,look for,look for
+item_353,word_326,śpiewać,word,understands; produces,action_words,sing,sing
+item_354,word_327,tańczyć,word,understands; produces,action_words,dance,dance
+item_355,word_328,trzymać,word,understands; produces,action_words,hold,hold
+item_356,word_329,ubrać (się),word,understands; produces,action_words,get dressed,dress (action)
+item_357,word_330,uciekać,word,understands; produces,action_words,run away,run
+item_358,word_331,upaść/spaść,word,understands; produces,action_words,fall,fall
+item_359,word_332,usiąść/siadać,word,understands; produces,action_words,sit down,sit
+item_360,word_333,wstawać,word,understands; produces,action_words,stand up,get up
+item_361,word_334,zamknąć,word,understands; produces,action_words,close,close
+item_362,word_335,zaświecić/zapalić,word,understands; produces,action_words,light,light (action)
+item_363,word_336,zdjąć/ściągnąć,word,understands; produces,action_words,take off,remove
+item_364,word_337,zepsuć,word,understands; produces,action_words,break,break
+item_365,word_338,nie ma,word,understands; produces,action_words,all gone,all gone
+item_366,word_339,(nie) wolno,word,understands; produces,action_words,can (not) / be allowed to (not be allowed to),can (not) / be allowed to (not be allowed to)
+item_367,word_340,tu,word,understands; produces,locations,here,here
+item_368,word_341,tam,word,understands; produces,locations,there,there
+item_369,word_342,daleko,word,understands; produces,locations,far,far
+item_370,word_343,wysoko,word,understands; produces,locations,high,high
+item_371,word_344,na górę/na górze,word,understands; produces,locations,up,up
+item_372,word_345,na dół/na dole,word,understands; produces,locations,down,down
+item_373,word_346,już/już nie,word,understands; produces,time_words,already / not anymore,already / not anymore
+item_374,word_347,jeszcze/jeszcze nie,word,understands; produces,time_words,still / not yet,still / not yet
+item_375,word_348,teraz,word,understands; produces,time_words,now,now
+item_376,word_349,zaraz,word,understands; produces,time_words,soon,soon
+item_377,word_350,potem/później,word,understands; produces,time_words,later,later
+item_378,word_351,noc/w nocy,word,understands; produces,time_words,night / at night,night
+item_379,word_352,dużo,word,understands; produces,quantifiers,a lot,a lot
+item_380,word_353,mało,word,understands; produces,quantifiers,a little,a little
+item_381,word_354,trochę/troszkę,word,understands; produces,quantifiers,a bit,little (amount)
+item_382,word_355,jeszcze,word,understands; produces,quantifiers,more,more
+item_383,word_356,wszystko/wszyscy,word,understands; produces,quantifiers,everything/ everyone,everything
+item_384,word_357,inny,word,understands; produces,quantifiers,different / another / other,other
+item_385,word_358,drugi,word,understands; produces,quantifiers,second,second
+item_386,word_359,sam/sama,word,understands; produces,quantifiers,alone,alone
+item_387,word_360,dosyć/dość,word,understands; produces,quantifiers,enough,enough
+item_388,word_361,"ja (mi, mnie)",word,understands; produces,pronouns,I / me,1SG
+item_389,word_362,"ty (ci, cię)",word,understands; produces,pronouns,you [sing.],2SG
+item_390,word_363,"my (nam, nas)",word,understands; produces,pronouns,we / us,1PL
+item_391,word_364,mój,word,understands; produces,pronouns,my / mine,1SG.POSS
+item_392,word_365,twój,word,understands; produces,pronouns,your [sing.],2SG.POSS
+item_393,word_366,nasz,word,understands; produces,pronouns,our,1PL.POSS
+item_394,word_367,to,word,understands; produces,pronouns,this [neuter singular],this
+item_395,word_368,coś,word,understands; produces,pronouns,something,something
+item_396,word_369,nic,word,understands; produces,pronouns,nothing,nothing
+item_397,word_370,ten,word,understands; produces,pronouns,this [masculine singular],this
+item_398,word_371,tamten,word,understands; produces,pronouns,that [masculine singular],that
+item_399,word_372,taki,word,understands; produces,pronouns,such,such
+item_400,word_373,co to?/co to jest?,word,understands; produces,question_words,what is this?,what
+item_401,word_374,co?,word,understands; produces,question_words,what,what
+item_402,word_375,co robi?,word,understands; produces,question_words,what is he / she / it doing?,what is he / she / it doing?
+item_403,word_376,kto?,word,understands; produces,question_words,who,who
+item_404,word_377,gdzie?,word,understands; produces,question_words,where,where (question)
+item_405,word_378,jak?,word,understands; produces,question_words,how,how
+item_406,word_379,dlaczego?/czemu?,word,understands; produces,question_words,why,why
+item_407,word_380,jaki?,word,understands; produces,question_words,which,which (question)
+item_408,starting_to_talk_1,Czy dziecko samorzutnie powtarza zasłyszane wypowiedzi bądź ich fragmenty?,starting_to_talk,yes; no,NA,NA,NA
+item_409,starting_to_talk_2,"Czy poproszone o powtórzenie czegoś, chętnie powtarza?",starting_to_talk,yes; no,NA,NA,NA
+item_410,starting_to_talk_3,"Niektóre dzieci chętnie wymieniają nazwy przedmiotów, tak jakby chciały się pochwalić, że je znają. Czy Państwa dziecko chętnie nazywa przedmioty?",starting_to_talk,yes; no,NA,NA,NA
+item_411,combine,"Czy dziecko zaczęło już łączyć wyrazy? Czy tworzy takie zdania jak np. „dzidzi am”, „da mleko”, „tu kotek”, „mama śpi”?",combine,often; sometimes; not yet,NA,NA,NA
+item_412,gestures_first_1,"Wyciąga rękę, aby pokazać trzymany przedmiot.",gestures_first,yes; no,NA,NA,NA
+item_413,gestures_first_2,Daje komuś trzymany przedmiot.,gestures_first,yes; no,NA,NA,NA
+item_414,gestures_first_3,Pokazuje palcem wskazującym ciekawy przedmiot lub zdarzenie.,gestures_first,yes; no,NA,NA,NA
+item_415,gestures_first_4,"Robi „pa, pa!”, kiedy ktoś odchodzi.",gestures_first,yes; no,NA,NA,NA
+item_416,gestures_first_5,"Podnosi rączki w górę na znak, żeby je wziąć na ręce.",gestures_first,yes; no,NA,NA,NA
+item_417,gestures_first_6,Kręci głową przecząco.,gestures_first,yes; no,NA,NA,NA
+item_418,gestures_first_7,Kiwa głową potakująco.,gestures_first,yes; no,NA,NA,NA
+item_419,gestures_first_8,Kładzie palec na ustach („cicho!”).,gestures_first,yes; no,NA,NA,NA
+item_420,gestures_first_9,"Pokazuje, że czegoś chce, wyciągając rączkę w kierunku przedmiotu, otwierając i zamykając dłoń.",gestures_first,yes; no,NA,NA,NA
+item_421,gestures_first_10,Posyła całusy na odległość.,gestures_first,yes; no,NA,NA,NA
+item_422,gestures_first_11,"Mlaszcze („mniam mniam”), żeby pokazać, że coś mu smakuje.",gestures_first,yes; no,NA,NA,NA
+item_423,gestures_first_12,"Wzrusza ramionami lub rozkłada ręce, żeby pokazać, że czegoś nie ma.",gestures_first,yes; no,NA,NA,NA
+item_424,gestures_games_1,"Bawi się w „nie ma, nie ma - a jest!” (Albo „a kuku!”)",gestures_games,yes; no,NA,NA,NA
+item_425,gestures_games_2,Bawi się w „sroczka kaszkę warzyła”.,gestures_games,yes; no,NA,NA,NA
+item_426,gestures_games_3,Pokazuje „jaki jestem duży!”/„jaka jestem duża!”.,gestures_games,yes; no,NA,NA,NA
+item_427,gestures_games_4,Bawi się w berka (tj. goni lub ucieka).,gestures_games,yes; no,NA,NA,NA
+item_428,gestures_games_5,Śpiewa.,gestures_games,yes; no,NA,NA,NA
+item_429,gestures_games_6,Tańczy.,gestures_games,yes; no,NA,NA,NA
+item_430,gestures_objects_1,Je łyżką lub widelcem.,gestures_objects,yes; no,NA,NA,NA
+item_431,gestures_objects_2,Pije płyny z kubeczka.,gestures_objects,yes; no,NA,NA,NA
+item_432,gestures_objects_3,Czesze się szczotką lub grzebieniem.,gestures_objects,yes; no,NA,NA,NA
+item_433,gestures_objects_4,Myje zęby.,gestures_objects,yes; no,NA,NA,NA
+item_434,gestures_objects_5,Myje i wyciera twarz lub ręce.,gestures_objects,yes; no,NA,NA,NA
+item_435,gestures_objects_6,Wkłada czapkę.,gestures_objects,yes; no,NA,NA,NA
+item_436,gestures_objects_7,Wkłada buta lub skarpetkę.,gestures_objects,yes; no,NA,NA,NA
+item_437,gestures_objects_8,"Zakłada korale, bransoletkę lub zegarek.",gestures_objects,yes; no,NA,NA,NA
+item_438,gestures_objects_9,"Przykłada głowę do ręki i mruży oczy, żeby pokazać, że śpi.",gestures_objects,yes; no,NA,NA,NA
+item_439,gestures_objects_10,"Pokazuje, że coś jest gorące, dmuchając lub odsuwając palec.",gestures_objects,yes; no,NA,NA,NA
+item_440,gestures_objects_11,Trzyma samolocik i lata nim.,gestures_objects,yes; no,NA,NA,NA
+item_441,gestures_objects_12,Przykłada do ucha słuchawkę telefonu.,gestures_objects,yes; no,NA,NA,NA
+item_442,gestures_objects_13,Wącha kwiatki.,gestures_objects,yes; no,NA,NA,NA
+item_443,gestures_objects_14,Jeździ autkiem.,gestures_objects,yes; no,NA,NA,NA
+item_444,gestures_objects_15,Rzuca piłką.,gestures_objects,yes; no,NA,NA,NA
+item_445,gestures_objects_16,Przelewa płyny na niby.,gestures_objects,yes; no,NA,NA,NA
+item_446,gestures_objects_17,Na niby miesza łyżeczką płyn w naczyniu.,gestures_objects,yes; no,NA,NA,NA
+item_447,gestures_parent_1,Kładzenie do łóżka.,gestures_parent,yes; no,NA,NA,NA
+item_448,gestures_parent_2,Przykrywanie kocykiem.,gestures_parent,yes; no,NA,NA,NA
+item_449,gestures_parent_3,Karmienie z butelki.,gestures_parent,yes; no,NA,NA,NA
+item_450,gestures_parent_4,Karmienie łyżką.,gestures_parent,yes; no,NA,NA,NA
+item_451,gestures_parent_5,Czesanie.,gestures_parent,yes; no,NA,NA,NA
+item_452,gestures_parent_6,Noszenie na rękach.,gestures_parent,yes; no,NA,NA,NA
+item_453,gestures_parent_7,Wożenie w wózku.,gestures_parent,yes; no,NA,NA,NA
+item_454,gestures_parent_8,"Huśtanie, kołysanie, usypianie.",gestures_parent,yes; no,NA,NA,NA
+item_455,gestures_parent_9,"Całowanie, ściskanie.",gestures_parent,yes; no,NA,NA,NA
+item_456,gestures_parent_10,Ubieranie (próba wkładania czapki czy butów lub skarpetek).,gestures_parent,yes; no,NA,NA,NA
+item_457,gestures_parent_11,Mycie lub wycieranie.,gestures_parent,yes; no,NA,NA,NA
+item_458,gestures_parent_12,Przewijanie lub wysadzanie.,gestures_parent,yes; no,NA,NA,NA
+item_459,gestures_parent_13,Mówienie do lalki/misia.,gestures_parent,yes; no,NA,NA,NA
+item_460,gestures_adult_1,Zamiata lub zmywa podłogę.,gestures_adult,yes; no,NA,NA,NA
+item_461,gestures_adult_2,Wkłada klucz do zamka.,gestures_adult,yes; no,NA,NA,NA
+item_462,gestures_adult_3,Stuka młotkiem.,gestures_adult,yes; no,NA,NA,NA
+item_463,gestures_adult_4,Zapala i gasi światło.,gestures_adult,yes; no,NA,NA,NA
+item_464,gestures_adult_5,"„Czyta” (otwiera książkę, przewraca kartki).",gestures_adult,yes; no,NA,NA,NA
+item_465,gestures_adult_6,Sprząta odkurzaczem.,gestures_adult,yes; no,NA,NA,NA
+item_466,gestures_adult_7,Podlewa kwiatki.,gestures_adult,yes; no,NA,NA,NA
+item_467,gestures_adult_8,"Gra na instrumentach (trąbka, cymbałki, fortepian itp.).",gestures_adult,yes; no,NA,NA,NA
+item_468,gestures_adult_9,Kręci kierownicą.,gestures_adult,yes; no,NA,NA,NA
+item_469,gestures_adult_10,„Myje” naczynia.,gestures_adult,yes; no,NA,NA,NA
+item_470,gestures_adult_11,Ściera kurz lub zmywa plamy.,gestures_adult,yes; no,NA,NA,NA
+item_471,gestures_adult_12,"„Pisze” ołówkiem, długopisem lub pisakiem.",gestures_adult,yes; no,NA,NA,NA
+item_472,gestures_adult_13,Kopie łopatką.,gestures_adult,yes; no,NA,NA,NA
+item_473,gestures_adult_14,Zakłada okulary.,gestures_adult,yes; no,NA,NA,NA
+item_474,gestures_adult_15,Używa pilota lub przycisku do włączenia telewizora lub innych urządzeń.,gestures_adult,yes; no,NA,NA,NA

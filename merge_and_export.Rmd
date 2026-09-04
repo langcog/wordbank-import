@@ -1,0 +1,186 @@
+---
+title: "Merge Wordbank imports and export for Redivis"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+params:
+  mode: complete
+  skip_processed: true
+---
+
+Ingest datasets listed in `datasets.csv` from `raw_data/`, assign IDs consistent
+with live `datapages.wordbank`, and write `export/` tables.
+
+**Mode** (`params$mode`):
+
+- **`append`** — pull Redivis, merge only datasets not yet on Redivis, append on upload
+- **`complete`** — reimport all manifest raw data, log count/key discrepancies vs Redivis, replace on upload
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = TRUE)
+library(tidyverse)
+library(here)
+library(assertthat)
+
+source(here("import", "helpers.R"))
+source(here("import", "demographics.R"))
+source(here("import", "validate.R"))
+source(here("import", "ingest.R"))
+source(here("import", "compare.R"))
+source(here("import", "ids.R"))
+
+MODE <- params$mode
+SKIP_PROCESSED <- isTRUE(params$skip_processed)
+stopifnot(MODE %in% c("append", "complete"))
+message("Mode: ", MODE, if (SKIP_PROCESSED) " (skip processed)" else "")
+
+RAW <- here("raw_data")
+OUT_HARM <- here("harmonized_data")
+OUT_EXPORT <- here("export")
+dir.create(OUT_HARM, showWarnings = FALSE)
+dir.create(OUT_EXPORT, showWarnings = FALSE)
+dir.create(file.path(OUT_EXPORT, "item_responses"), showWarnings = FALSE, recursive = TRUE)
+```
+
+# Manifest and categories
+
+```{r}
+manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE)
+categories <- read_csv(
+  here("categories.csv"),
+  col_names = c("category", "lexical_class", "lexical_category"),
+  show_col_types = FALSE
+) |>
+  distinct()
+manifest
+```
+
+# Ingest each dataset
+
+One manifest row = one raw triplet. Rows sharing the same
+`(dataset_name, dataset_origin_name, language, form)` are combined with
+sequential `admin_row` numbering (e.g. Thal longitudinal splits). Directories
+like `Dutch_Swingley` hold several distinct datasets — each gets its own group.
+Each group is validated against its raw triplets immediately after ingest.
+Set `params$skip_processed: true` to load groups that already exist under
+`harmonized_data/` instead of re-ingesting raw CSVs.
+
+```{r}
+mem.maxVSize(30000)
+ingested <- ingest_all_manifest(
+  manifest |> arrange(dataset_name),
+  RAW,
+  categories,
+  out_harm = OUT_HARM,
+  skip_processed = SKIP_PROCESSED,
+  stop_on_fail = F
+)
+new_parts <- ingested$new_parts
+triplet_ranges <- ingested$triplet_ranges
+ 
+walk(names(new_parts), \(nm) {
+  message(nm, ": ", nrow(new_parts[[nm]]), " rows")
+})
+```
+
+Debug example
+```{r eval=F}
+data_file_path <- "EnglishAmericanWG_Marchman_TL3_data.csv"
+rows <- manifest |> filter(data_file == data_file_path)
+res <- ingest_dataset_group(rows, RAW, categories, keep_intermediates = TRUE, stop_on_fail = FALSE)
+summarize_validation_failures(res$validation)
+res$demographic_validation
+res$triplets[[data_file_path]]$intermediates$long
+```
+
+
+# Pull existing Redivis core tables
+
+```{r}
+existing <- pull_redivis_core()
+walk(names(existing), \(nm) message("existing ", nm, ": ", nrow(existing[[nm]])))
+```
+
+# Compare ingest to Redivis (pre-merge)
+
+Matches manifest datasets to Redivis using exact keys first, then
+`dataset_aliases.csv` for renamed fields (e.g. `German` → `German (German)`,
+`Bergman` → `Bergmann`, `CDITwo` → `CDI 2`). Compares administration/child
+counts and production/comprehension score distributions. Writes CSVs under
+`export/equivalence/`.
+
+```{r}
+dataset_aliases <- load_dataset_aliases(here("dataset_aliases.csv"))
+equivalence <- compare_manifest_to_redivis(
+  existing,
+  new_parts,
+  dataset_aliases
+)
+print_dataset_equivalence(equivalence)
+write_dataset_equivalence_report(equivalence, file.path(OUT_EXPORT, "equivalence"))
+equivalence$comparison
+```
+
+# Merge + assign IDs
+
+```{r}
+registry <- load_registry(here("id_registry.rds"))
+merged <- merge_with_existing(existing, new_parts, registry, mode = MODE)
+save_registry(merged$registry, here("id_registry.rds"))
+validate_merged(merged$tables, merged$new_item_responses)
+if (!is.null(merged$discrepancies)) merged$discrepancies$counts
+```
+
+# Export
+
+```{r}
+iwalk(merged$tables, \(df, nm) {
+  path <- file.path(OUT_EXPORT, paste0(nm, ".csv"))
+  write_csv(df, path, na = "")
+  message("wrote ", path, " (", nrow(df), " rows)")
+})
+
+if (!is.null(merged$upload_deltas)) {
+  delta_dir <- file.path(OUT_EXPORT, "deltas")
+  dir.create(delta_dir, showWarnings = FALSE)
+  iwalk(merged$upload_deltas, \(df, nm) {
+    if (nrow(df) == 0) return()
+    path <- file.path(delta_dir, paste0(nm, ".csv"))
+    write_csv(df, path, na = "")
+    message("wrote delta ", path, " (", nrow(df), " rows)")
+  })
+}
+
+if (nrow(merged$new_item_responses) > 0) {
+  merged$new_item_responses |>
+    mutate(slug = item_response_slug(language, form)) |>
+    group_split(slug) |>
+    walk(\(df) {
+      slug <- df$slug[[1]]
+      path <- file.path(OUT_EXPORT, "item_responses", paste0(slug, ".csv"))
+      write_csv(df |> select(-slug), path, na = "")
+      message("wrote ", path, " (", nrow(df), " rows)")
+    })
+}
+```
+
+# Optional: upload to Redivis
+
+Requires Redivis authentication. On first use, the `redivis` client opens a
+browser OAuth prompt (credentials are cached in `~/.redivis/`).
+
+Upload strategy follows `params$mode`:
+
+- **append** — append delta core-table rows and new `item_responses` files
+- **complete** — replace core tables and manifest `item_responses` files
+
+```{r upload, eval=FALSE}
+upload_to_redivis(
+  merged,
+  OUT_EXPORT,
+  mode = MODE,
+  release = FALSE,
+  release_notes = paste("Wordbank import", MODE, Sys.Date())
+)
+```

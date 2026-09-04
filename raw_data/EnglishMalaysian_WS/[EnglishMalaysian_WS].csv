@@ -1,0 +1,601 @@
+itemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,belt,clothing,item_1,word,understands; produces,belt,belt
+item_2,button,clothing,item_2,word,understands; produces,button,button
+item_3,dress,clothing,item_3,word,understands; produces,dress,dress (object)
+item_4,diaper,clothing,item_4,word,understands; produces,diaper,diaper
+item_5,handkerchief,clothing,item_5,word,understands; produces,handkerchief,handkerchief
+item_6,hat,clothing,item_6,word,understands; produces,hat,hat
+item_7,jacket,clothing,item_7,word,understands; produces,jacket,jacket
+item_8,jeans,clothing,item_8,word,understands; produces,jeans,jeans
+item_9,napkin,clothing,item_9,word,understands; produces,napkin,napkin
+item_10,necklace,clothing,item_10,word,understands; produces,necklace,necklace
+item_11,pants,clothing,item_11,word,understands; produces,pants,pants
+item_12,pyjamas,clothing,item_12,word,understands; produces,pyjamas,pajamas
+item_13,shirt,clothing,item_13,word,understands; produces,shirt,shirt
+item_14,shoes,clothing,item_14,word,understands; produces,shoes,shoe
+item_15,shorts,clothing,item_15,word,understands; produces,shorts,shorts
+item_16,singlet,clothing,item_16,word,understands; produces,singlet,
+item_17,skirt,clothing,item_17,word,understands; produces,skirt,skirt
+item_18,slipper,clothing,item_18,word,understands; produces,slipper,slipper
+item_19,sock,clothing,item_19,word,understands; produces,sock,sock
+item_20,trousers,clothing,item_20,word,understands; produces,trousers,pants
+item_21,T-shirt,clothing,item_21,word,understands; produces,T-shirt,t-shirt
+item_22,underwear,clothing,item_22,word,understands; produces,underwear,underpants
+item_23,zip,clothing,item_23,word,understands; produces,zip,zipper
+item_24,a / an,quantifiers,item_24,word,understands; produces,a / an,a
+item_25,a little,quantifiers,item_25,word,understands; produces,a little,a little
+item_26,all,quantifiers,item_26,word,understands; produces,all,all
+item_27,a lot,quantifiers,item_27,word,understands; produces,a lot,a lot
+item_28,another,quantifiers,item_28,word,understands; produces,another,another
+item_29,any,quantifiers,item_29,word,understands; produces,any,any
+item_30,each,quantifiers,item_30,word,understands; produces,each,each
+item_31,every,quantifiers,item_31,word,understands; produces,every,every
+item_32,more,quantifiers,item_32,word,understands; produces,more,more
+item_33,much,quantifiers,item_33,word,understands; produces,much,much
+item_34,none,quantifiers,item_34,word,understands; produces,none,none
+item_35,not,quantifiers,item_35,word,understands; produces,not,not
+item_36,other,quantifiers,item_36,word,understands; produces,other,other
+item_37,same,quantifiers,item_37,word,understands; produces,same,same
+item_38,some,quantifiers,item_38,word,understands; produces,some,some
+item_39,too,quantifiers,item_39,word,understands; produces,too,too
+item_40,bath,games_routines,item_40,word,understands; produces,bath,bath
+item_41,breakfast,games_routines,item_41,word,understands; produces,breakfast,breakfast
+item_42,bye-bye,games_routines,item_42,word,understands; produces,bye-bye,bye
+item_43,(phone) call,games_routines,item_43,word,understands; produces,(phone) call,call on phone
+item_44,call (great),games_routines,item_44,word,understands; produces,call (great),
+item_45,carry (me),games_routines,item_45,word,understands; produces,carry (me),
+item_46,dinner,games_routines,item_46,word,understands; produces,dinner,dinner
+item_47,don't,games_routines,item_47,word,understands; produces,don't,don't
+item_48,go out,games_routines,item_48,word,understands; produces,go out,go out
+item_49,hello,games_routines,item_49,word,understands; produces,hello,hello
+item_50,hurry up,games_routines,item_50,word,understands; produces,hurry up,
+item_51,lunch,games_routines,item_51,word,understands; produces,lunch,lunch
+item_52,nap,games_routines,item_52,word,understands; produces,nap,nap
+item_53,night-night,games_routines,item_53,word,understands; produces,night-night,good night
+item_54,no,games_routines,item_54,word,understands; produces,no,no
+item_55,no more (gone),games_routines,item_55,word,understands; produces,no more (gone),all gone
+item_56,(peek-a-) boo,games_routines,item_56,word,understands; produces,(peek-a-) boo,peekaboo
+item_57,please,games_routines,item_57,word,understands; produces,please,please
+item_58,shhh,games_routines,item_58,word,understands; produces,shhh,shh
+item_59,shopping,games_routines,item_59,word,understands; produces,shopping,shopping
+item_60,thank you,games_routines,item_60,word,understands; produces,thank you,thank you
+item_61,turn around,games_routines,item_61,word,understands; produces,turn around,turn around
+item_62,wait_routines,games_routines,item_62,word,understands; produces,wait_routines,
+item_63,yes,games_routines,item_63,word,understands; produces,yes,yes
+item_64,ball,toys,item_64,word,understands; produces,ball,ball
+item_65,balloon,toys,item_65,word,understands; produces,balloon,balloon
+item_66,book,toys,item_66,word,understands; produces,book,book
+item_67,bubbles,toys,item_67,word,understands; produces,bubbles,bubbles
+item_68,doll,toys,item_68,word,understands; produces,doll,doll
+item_69,game,toys,item_69,word,understands; produces,game,game
+item_70,pen,toys,item_70,word,understands; produces,pen,pen
+item_71,pencil,toys,item_71,word,understands; produces,pencil,Pencil
+item_72,present,toys,item_72,word,understands; produces,present,present
+item_73,puzzle,toys,item_73,word,understands; produces,puzzle,puzzle
+item_74,story,toys,item_74,word,understands; produces,story,story
+item_75,toy,toys,item_75,word,understands; produces,toy,toy (object)
+item_76,ankle,body_parts,item_76,word,understands; produces,ankle,ankle
+item_77,arm,body_parts,item_77,word,understands; produces,arm,arm
+item_78,belly button,body_parts,item_78,word,understands; produces,belly button,belly button
+item_79,bottom,body_parts,item_79,word,understands; produces,bottom,bottom
+item_80,cheek,body_parts,item_80,word,understands; produces,cheek,cheek
+item_81,chin,body_parts,item_81,word,understands; produces,chin,chin
+item_82,ear,body_parts,item_82,word,understands; produces,ear,ear
+item_83,eye,body_parts,item_83,word,understands; produces,eye,eye
+item_84,face,body_parts,item_84,word,understands; produces,face,face
+item_85,finger,body_parts,item_85,word,understands; produces,finger,finger
+item_86,foot,body_parts,item_86,word,understands; produces,foot,foot
+item_87,hair,body_parts,item_87,word,understands; produces,hair,hair
+item_88,hand,body_parts,item_88,word,understands; produces,hand,hand
+item_89,head,body_parts,item_89,word,understands; produces,head,head
+item_90,knee,body_parts,item_90,word,understands; produces,knee,knee
+item_91,leg,body_parts,item_91,word,understands; produces,leg,leg
+item_92,lips,body_parts,item_92,word,understands; produces,lips,lips
+item_93,mouth,body_parts,item_93,word,understands; produces,mouth,mouth
+item_94,nail_body,body_parts,item_94,word,understands; produces,nail_body,nail (body part)
+item_95,nose,body_parts,item_95,word,understands; produces,nose,nose
+item_96,shoulder,body_parts,item_96,word,understands; produces,shoulder,shoulder
+item_97,teeth,body_parts,item_97,word,understands; produces,teeth,tooth
+item_98,thumb,body_parts,item_98,word,understands; produces,thumb,thumb
+item_99,toe,body_parts,item_99,word,understands; produces,toe,toe
+item_100,tongue,body_parts,item_100,word,understands; produces,tongue,tongue
+item_101,tummy,body_parts,item_101,word,understands; produces,tummy,tummy
+item_102,angry,descriptive_words,item_102,word,understands; produces,angry,angry
+item_103,asleep,descriptive_words,item_103,word,understands; produces,asleep,asleep
+item_104,awake,descriptive_words,item_104,word,understands; produces,awake,awake
+item_105,bad,descriptive_words,item_105,word,understands; produces,bad,bad
+item_106,better,descriptive_words,item_106,word,understands; produces,better,better
+item_107,big,descriptive_words,item_107,word,understands; produces,big,big
+item_108,black,descriptive_words,item_108,word,understands; produces,black,black
+item_109,blue,descriptive_words,item_109,word,understands; produces,blue,blue
+item_110,broken,descriptive_words,item_110,word,understands; produces,broken,broken
+item_111,brown,descriptive_words,item_111,word,understands; produces,brown,brown
+item_112,careful,descriptive_words,item_112,word,understands; produces,careful,careful
+item_113,clean_descriptive,descriptive_words,item_113,word,understands; produces,clean_descriptive,clean (description)
+item_114,cold,descriptive_words,item_114,word,understands; produces,cold,cold
+item_115,cute,descriptive_words,item_115,word,understands; produces,cute,cute
+item_116,dark,descriptive_words,item_116,word,understands; produces,dark,dark
+item_117,dirty,descriptive_words,item_117,word,understands; produces,dirty,dirty
+item_118,dry_descriptive,descriptive_words,item_118,word,understands; produces,dry_descriptive,dry (description)
+item_119,empty,descriptive_words,item_119,word,understands; produces,empty,empty
+item_120,fast,descriptive_words,item_120,word,understands; produces,fast,fast
+item_121,fine,descriptive_words,item_121,word,understands; produces,fine,fine
+item_122,first,descriptive_words,item_122,word,understands; produces,first,first
+item_123,full,descriptive_words,item_123,word,understands; produces,full,full
+item_124,gentle,descriptive_words,item_124,word,understands; produces,gentle,gentle
+item_125,good,descriptive_words,item_125,word,understands; produces,good,good
+item_126,green,descriptive_words,item_126,word,understands; produces,green,green
+item_127,happy,descriptive_words,item_127,word,understands; produces,happy,happy
+item_128,hard,descriptive_words,item_128,word,understands; produces,hard,hard
+item_129,heavy,descriptive_words,item_129,word,understands; produces,heavy,heavy
+item_130,high,descriptive_words,item_130,word,understands; produces,high,high
+item_131,hot,descriptive_words,item_131,word,understands; produces,hot,hot
+item_132,(spicy) hot,descriptive_words,item_132,word,understands; produces,(spicy) hot,spicy
+item_133,hungry,descriptive_words,item_133,word,understands; produces,hungry,hungry
+item_134,hurt,descriptive_words,item_134,word,understands; produces,hurt,hurt
+item_135,last,descriptive_words,item_135,word,understands; produces,last,last
+item_136,little,descriptive_words,item_136,word,understands; produces,little,little
+item_137,long,descriptive_words,item_137,word,understands; produces,long,long
+item_138,loud,descriptive_words,item_138,word,understands; produces,loud,loud
+item_139,naughty,descriptive_words,item_139,word,understands; produces,naughty,naughty
+item_140,new,descriptive_words,item_140,word,understands; produces,new,new
+item_141,nice,descriptive_words,item_141,word,understands; produces,nice,nice
+item_142,noisy,descriptive_words,item_142,word,understands; produces,noisy,noisy
+item_143,old,descriptive_words,item_143,word,understands; produces,old,old
+item_144,pink,descriptive_words,item_144,word,understands; produces,pink,pink
+item_145,poor,descriptive_words,item_145,word,understands; produces,poor,poor
+item_146,pretty,descriptive_words,item_146,word,understands; produces,pretty,pretty
+item_147,purple,descriptive_words,item_147,word,understands; produces,purple,purple
+item_148,quiet,descriptive_words,item_148,word,understands; produces,quiet,quiet
+item_149,red,descriptive_words,item_149,word,understands; produces,red,red
+item_150,sad,descriptive_words,item_150,word,understands; produces,sad,sad
+item_151,scared,descriptive_words,item_151,word,understands; produces,scared,scared
+item_152,sick,descriptive_words,item_152,word,understands; produces,sick,sick
+item_153,sleepy,descriptive_words,item_153,word,understands; produces,sleepy,sleepy
+item_154,slow,descriptive_words,item_154,word,understands; produces,slow,slow
+item_155,soft,descriptive_words,item_155,word,understands; produces,soft,soft
+item_156,sticky,descriptive_words,item_156,word,understands; produces,sticky,sticky
+item_157,stuck,descriptive_words,item_157,word,understands; produces,stuck,stuck
+item_158,thirsty,descriptive_words,item_158,word,understands; produces,thirsty,thirsty
+item_159,tiny,descriptive_words,item_159,word,understands; produces,tiny,tiny
+item_160,tired,descriptive_words,item_160,word,understands; produces,tired,tired
+item_161,wet,descriptive_words,item_161,word,understands; produces,wet,wet
+item_162,white,descriptive_words,item_162,word,understands; produces,white,white
+item_163,windy,descriptive_words,item_163,word,understands; produces,windy,windy
+item_164,yellow,descriptive_words,item_164,word,understands; produces,yellow,yellow
+item_165,auntie,people,item_165,word,understands; produces,auntie,aunt
+item_166,daddy,people,item_166,word,understands; produces,daddy,daddy
+item_167,maid's name,people,item_167,word,understands; produces,maid's name,
+item_168,maternal grandfather,people,item_168,word,understands; produces,maternal grandfather,grandpa
+item_169,maternal grandmother,people,item_169,word,understands; produces,maternal grandmother,grandma
+item_170,mummy,people,item_170,word,understands; produces,mummy,mommy
+item_171,own name,people,item_171,word,understands; produces,own name,child's own name
+item_172,older brother,people,item_172,word,understands; produces,older brother,brother
+item_173,older sister,people,item_173,word,understands; produces,older sister,sister
+item_174,paternal grandfather,people,item_174,word,understands; produces,paternal grandfather,grandpa
+item_175,paternal grandmother,people,item_175,word,understands; produces,paternal grandmother,grandma
+item_176,uncle,people,item_176,word,understands; produces,uncle,uncle
+item_177,younger brother,people,item_177,word,understands; produces,younger brother,brother
+item_178,younger sister,people,item_178,word,understands; produces,younger sister,sister
+item_179,airplane,vehicles,item_179,word,understands; produces,airplane,airplane
+item_180,bicycle,vehicles,item_180,word,understands; produces,bicycle,bicycle
+item_181,boat,vehicles,item_181,word,understands; produces,boat,boat
+item_182,bus,vehicles,item_182,word,understands; produces,bus,bus
+item_183,car,vehicles,item_183,word,understands; produces,car,car
+item_184,fire engine,vehicles,item_184,word,understands; produces,fire engine,firetruck
+item_185,helicopter,vehicles,item_185,word,understands; produces,helicopter,helicopter
+item_186,lorry,vehicles,item_186,word,understands; produces,lorry,
+item_187,motorcycle,vehicles,item_187,word,understands; produces,motorcycle,motorcycle
+item_188,ship,vehicles,item_188,word,understands; produces,ship,ship
+item_189,taxi,vehicles,item_189,word,understands; produces,taxi,taxi
+item_190,train,vehicles,item_190,word,understands; produces,train,train
+item_191,trishaw,vehicles,item_191,word,understands; produces,trishaw,
+item_192,van,vehicles,item_192,word,understands; produces,van,van
+item_193,am,helping_verbs,item_193,word,understands; produces,am,am
+item_194,can_helping_verbs,helping_verbs,item_194,word,understands; produces,can_helping_verbs,can (auxiliary)
+item_195,have to,helping_verbs,item_195,word,understands; produces,have to,have to
+item_196,let me,helping_verbs,item_196,word,understands; produces,let me,let
+item_197,need to,helping_verbs,item_197,word,understands; produces,need to,need
+item_198,try to,helping_verbs,item_198,word,understands; produces,try to,try
+item_199,want to,helping_verbs,item_199,word,understands; produces,want to,want
+item_200,will,helping_verbs,item_200,word,understands; produces,will,will
+item_201,beach,outside,item_201,word,understands; produces,beach,beach
+item_202,camping,outside,item_202,word,understands; produces,camping,camping
+item_203,church,outside,item_203,word,understands; produces,church,church
+item_204,circus,outside,item_204,word,understands; produces,circus,circus
+item_205,clinic,outside,item_205,word,understands; produces,clinic,
+item_206,cloud,outside,item_206,word,understands; produces,cloud,cloud
+item_207,drain,outside,item_207,word,understands; produces,drain,
+item_208,farm,outside,item_208,word,understands; produces,farm,farm
+item_209,flag,outside,item_209,word,understands; produces,flag,flag
+item_210,flower,outside,item_210,word,understands; produces,flower,flower
+item_211,garden,outside,item_211,word,understands; produces,garden,garden
+item_212,gate,outside,item_212,word,understands; produces,gate,gate
+item_213,grass,outside,item_213,word,understands; produces,grass,grass
+item_214,home,outside,item_214,word,understands; produces,home,home
+item_215,hospital,outside,item_215,word,understands; produces,hospital,hospital
+item_216,house,outside,item_216,word,understands; produces,house,house
+item_217,ladder,outside,item_217,word,understands; produces,ladder,ladder
+item_218,moon,outside,item_218,word,understands; produces,moon,moon
+item_219,mosque,outside,item_219,word,understands; produces,mosque,church
+item_220,movie,outside,item_220,word,understands; produces,movie,movie
+item_221,mud,outside,item_221,word,understands; produces,mud,mud
+item_222,oil station,outside,item_222,word,understands; produces,oil station,gas station
+item_223,outside,outside,item_223,word,understands; produces,outside,outside
+item_224,park,outside,item_224,word,understands; produces,park,park
+item_225,party,outside,item_225,word,understands; produces,party,party
+item_226,playground,outside,item_226,word,understands; produces,playground,playground
+item_227,(swimming) pool,outside,item_227,word,understands; produces,(swimming) pool,pool
+item_228,rain,outside,item_228,word,understands; produces,rain,rain
+item_229,rock,outside,item_229,word,understands; produces,rock,stone
+item_230,roof,outside,item_230,word,understands; produces,roof,roof
+item_231,sandpit,outside,item_231,word,understands; produces,sandpit,sandbox
+item_232,school,outside,item_232,word,understands; produces,school,school
+item_233,shop,outside,item_233,word,understands; produces,shop,shop
+item_234,sky,outside,item_234,word,understands; produces,sky,sky
+item_235,slide_outside,outside,item_235,word,understands; produces,slide_outside,slide (object)
+item_236,star,outside,item_236,word,understands; produces,star,star
+item_237,stick,outside,item_237,word,understands; produces,stick,stick
+item_238,stone,outside,item_238,word,understands; produces,stone,stone
+item_239,road,outside,item_239,word,understands; produces,road,road
+item_240,sun,outside,item_240,word,understands; produces,sun,sun
+item_241,supermarket,outside,item_241,word,understands; produces,supermarket,market
+item_242,swing_outside,outside,item_242,word,understands; produces,swing_outside,swing (object)
+item_243,temple,outside,item_243,word,understands; produces,temple,church
+item_244,town,outside,item_244,word,understands; produces,town,town
+item_245,tree,outside,item_245,word,understands; produces,tree,tree
+item_246,wall,outside,item_246,word,understands; produces,wall,wall
+item_247,water_outside,outside,item_247,word,understands; produces,water_outside,water (not beverage)
+item_248,wind,outside,item_248,word,understands; produces,wind,wind
+item_249,zoo,outside,item_249,word,understands; produces,zoo,zoo
+item_250,he / she,pronouns,item_250,word,understands; produces,he / she,3SG
+item_251,his / hers,pronouns,item_251,word,understands; produces,his / hers,3SG.POSS
+item_252,I,pronouns,item_252,word,understands; produces,I,1SG
+item_253,me,pronouns,item_253,word,understands; produces,me,1SG
+item_254,my,pronouns,item_254,word,understands; produces,my,1SG.POSS
+item_255,myself,pronouns,item_255,word,understands; produces,myself,1SG.REFL
+item_256,that,pronouns,item_256,word,understands; produces,that,that
+item_257,their,pronouns,item_257,word,understands; produces,their,3PL.POSS
+item_258,these,pronouns,item_258,word,understands; produces,these,these
+item_259,they,pronouns,item_259,word,understands; produces,they,3PL
+item_260,this,pronouns,item_260,word,understands; produces,this,this
+item_261,those,pronouns,item_261,word,understands; produces,those,those
+item_262,our,pronouns,item_262,word,understands; produces,our,1PL.POSS
+item_263,we,pronouns,item_263,word,understands; produces,we,1PL
+item_264,you,pronouns,item_264,word,understands; produces,you,2SG
+item_265,your,pronouns,item_265,word,understands; produces,your,2SG.POSS
+item_266,yourself,pronouns,item_266,word,understands; produces,yourself,2SG.REFL
+item_267,after,time_words,item_267,word,understands; produces,after,after
+item_268,afternoon,time_words,item_268,word,understands; produces,afternoon,afternoon
+item_269,before,time_words,item_269,word,understands; produces,before,before
+item_270,day,time_words,item_270,word,understands; produces,day,day
+item_271,later,time_words,item_271,word,understands; produces,later,later
+item_272,morning,time_words,item_272,word,understands; produces,morning,morning
+item_273,night,time_words,item_273,word,understands; produces,night,night
+item_274,now,time_words,item_274,word,understands; produces,now,now
+item_275,time,time_words,item_275,word,understands; produces,time,time
+item_276,today,time_words,item_276,word,understands; produces,today,today
+item_277,tomorrow,time_words,item_277,word,understands; produces,tomorrow,tomorrow
+item_278,tonight,time_words,item_278,word,understands; produces,tonight,tonight
+item_279,yesterday,time_words,item_279,word,understands; produces,yesterday,yesterday
+item_280,bite,action_words,item_280,word,understands; produces,bite,bite
+item_281,blow,action_words,item_281,word,understands; produces,blow,blow
+item_282,break,action_words,item_282,word,understands; produces,break,break
+item_283,bring,action_words,item_283,word,understands; produces,bring,bring
+item_284,build,action_words,item_284,word,understands; produces,build,build
+item_285,bump,action_words,item_285,word,understands; produces,bump,bump
+item_286,buy,action_words,item_286,word,understands; produces,buy,buy
+item_287,carry,action_words,item_287,word,understands; produces,carry,carry
+item_288,catch,action_words,item_288,word,understands; produces,catch,catch
+item_289,chase,action_words,item_289,word,understands; produces,chase,chase
+item_290,clap,action_words,item_290,word,understands; produces,clap,clap
+item_291,clean_action,action_words,item_291,word,understands; produces,clean_action,clean (action)
+item_292,climb,action_words,item_292,word,understands; produces,climb,climb
+item_293,close,action_words,item_293,word,understands; produces,close,close
+item_294,cook,action_words,item_294,word,understands; produces,cook,cook
+item_295,cover,action_words,item_295,word,understands; produces,cover,cover (action)
+item_296,cry,action_words,item_296,word,understands; produces,cry,cry
+item_297,cut (with scissors),action_words,item_297,word,understands; produces,cut (with scissors),cut
+item_298,cut (with knife),action_words,item_298,word,understands; produces,cut (with knife),cut
+item_299,dance,action_words,item_299,word,understands; produces,dance,dance
+item_300,draw,action_words,item_300,word,understands; produces,draw,draw
+item_301,drink_action,action_words,item_301,word,understands; produces,drink_action,drink (action)
+item_302,drive,action_words,item_302,word,understands; produces,drive,drive
+item_303,drop,action_words,item_303,word,understands; produces,drop,drop
+item_304,dry_action,action_words,item_304,word,understands; produces,dry_action,dry (action)
+item_305,eat,action_words,item_305,word,understands; produces,eat,eat
+item_306,fall,action_words,item_306,word,understands; produces,fall,fall
+item_307,feed,action_words,item_307,word,understands; produces,feed,feed
+item_308,find,action_words,item_308,word,understands; produces,find,find
+item_309,finish,action_words,item_309,word,understands; produces,finish,finish
+item_310,fit,action_words,item_310,word,understands; produces,fit,fit
+item_311,fix,action_words,item_311,word,understands; produces,fix,fix
+item_312,get,action_words,item_312,word,understands; produces,get,get
+item_313,give,action_words,item_313,word,understands; produces,give,give
+item_314,go,action_words,item_314,word,understands; produces,go,go
+item_315,hate,action_words,item_315,word,understands; produces,hate,hate
+item_316,have,action_words,item_316,word,understands; produces,have,have
+item_317,hear,action_words,item_317,word,understands; produces,hear,hear
+item_318,help,action_words,item_318,word,understands; produces,help,help
+item_319,hide,action_words,item_319,word,understands; produces,hide,hide
+item_320,hit,action_words,item_320,word,understands; produces,hit,hit
+item_321,hold,action_words,item_321,word,understands; produces,hold,hold
+item_322,hug,action_words,item_322,word,understands; produces,hug,hug
+item_323,jump,action_words,item_323,word,understands; produces,jump,jump
+item_324,kick,action_words,item_324,word,understands; produces,kick,kick
+item_325,kiss,action_words,item_325,word,understands; produces,kiss,kiss
+item_326,knock,action_words,item_326,word,understands; produces,knock,knock
+item_327,lick,action_words,item_327,word,understands; produces,lick,lick
+item_328,like,action_words,item_328,word,understands; produces,like,like
+item_329,listen,action_words,item_329,word,understands; produces,listen,listen
+item_330,look,action_words,item_330,word,understands; produces,look,look
+item_331,love,action_words,item_331,word,understands; produces,love,love
+item_332,make,action_words,item_332,word,understands; produces,make,make
+item_333,open,action_words,item_333,word,understands; produces,open,open
+item_334,paint,action_words,item_334,word,understands; produces,paint,paint (action)
+item_335,pick,action_words,item_335,word,understands; produces,pick,pick
+item_336,play,action_words,item_336,word,understands; produces,play,play
+item_337,pour,action_words,item_337,word,understands; produces,pour,pour
+item_338,pretend,action_words,item_338,word,understands; produces,pretend,pretend
+item_339,pull,action_words,item_339,word,understands; produces,pull,pull
+item_340,push,action_words,item_340,word,understands; produces,push,push
+item_341,put,action_words,item_341,word,understands; produces,put,put
+item_342,read,action_words,item_342,word,understands; produces,read,read
+item_343,ride,action_words,item_343,word,understands; produces,ride,ride
+item_344,run,action_words,item_344,word,understands; produces,run,run
+item_345,say,action_words,item_345,word,understands; produces,say,say
+item_346,see,action_words,item_346,word,understands; produces,see,see
+item_347,shake,action_words,item_347,word,understands; produces,shake,shake
+item_348,share,action_words,item_348,word,understands; produces,share,share
+item_349,show,action_words,item_349,word,understands; produces,show,show
+item_350,sing,action_words,item_350,word,understands; produces,sing,sing
+item_351,sit,action_words,item_351,word,understands; produces,sit,sit
+item_352,skate,action_words,item_352,word,understands; produces,skate,skate
+item_353,sleep,action_words,item_353,word,understands; produces,sleep,sleep
+item_354,slide_action,action_words,item_354,word,understands; produces,slide_action,slide (action)
+item_355,smile,action_words,item_355,word,understands; produces,smile,smile
+item_356,spill,action_words,item_356,word,understands; produces,spill,spill
+item_357,stand,action_words,item_357,word,understands; produces,stand,stand
+item_358,stay,action_words,item_358,word,understands; produces,stay,stay
+item_359,stop,action_words,item_359,word,understands; produces,stop,stop
+item_360,sweep,action_words,item_360,word,understands; produces,sweep,sweep
+item_361,swim,action_words,item_361,word,understands; produces,swim,swim
+item_362,swing_action,action_words,item_362,word,understands; produces,swing_action,swing (action)
+item_363,take,action_words,item_363,word,understands; produces,take,take
+item_364,talk,action_words,item_364,word,understands; produces,talk,talk
+item_365,taste,action_words,item_365,word,understands; produces,taste,taste
+item_366,tear,action_words,item_366,word,understands; produces,tear,tear
+item_367,tell,action_words,item_367,word,understands; produces,tell,tell
+item_368,think,action_words,item_368,word,understands; produces,think,think
+item_369,throw,action_words,item_369,word,understands; produces,throw,throw
+item_370,tickle,action_words,item_370,word,understands; produces,tickle,tickle
+item_371,touch,action_words,item_371,word,understands; produces,touch,touch
+item_372,wait_action,action_words,item_372,word,understands; produces,wait_action,wait
+item_373,wake,action_words,item_373,word,understands; produces,wake,wake
+item_374,walk,action_words,item_374,word,understands; produces,walk,walk
+item_375,wash,action_words,item_375,word,understands; produces,wash,wash
+item_376,watch_action,action_words,item_376,word,understands; produces,watch_action,watch (action)
+item_377,wipe,action_words,item_377,word,understands; produces,wipe,wipe
+item_378,wish,action_words,item_378,word,understands; produces,wish,wish
+item_379,work,action_words,item_379,word,understands; produces,work,work (action)
+item_380,write,action_words,item_380,word,understands; produces,write,write
+item_381,and,connecting_words,item_381,word,understands; produces,and,and
+item_382,because,connecting_words,item_382,word,understands; produces,because,because
+item_383,but,connecting_words,item_383,word,understands; produces,but,but
+item_384,if,connecting_words,item_384,word,understands; produces,if,if
+item_385,so,connecting_words,item_385,word,understands; produces,so,so
+item_386,then,connecting_words,item_386,word,understands; produces,then,then
+item_387,apple,food_drink,item_387,word,understands; produces,apple,apple
+item_388,banana,food_drink,item_388,word,understands; produces,banana,banana
+item_389,biscuit,food_drink,item_389,word,understands; produces,biscuit,biscuit
+item_390,bread,food_drink,item_390,word,understands; produces,bread,bread
+item_391,butter,food_drink,item_391,word,understands; produces,butter,butter
+item_392,cake,food_drink,item_392,word,understands; produces,cake,cake
+item_393,carrot,food_drink,item_393,word,understands; produces,carrot,carrot
+item_394,chicken_food,food_drink,item_394,word,understands; produces,chicken_food,chicken (food)
+item_395,chocolate,food_drink,item_395,word,understands; produces,chocolate,chocolate
+item_396,coffee,food_drink,item_396,word,understands; produces,coffee,coffee
+item_397,cornflake,food_drink,item_397,word,understands; produces,cornflake,cereal
+item_398,drink_food,food_drink,item_398,word,understands; produces,drink_food,drink (beverage)
+item_399,egg,food_drink,item_399,word,understands; produces,egg,egg
+item_400,grape,food_drink,item_400,word,understands; produces,grape,grapes
+item_401,fish_food,food_drink,item_401,word,understands; produces,fish_food,fish (food)
+item_402,food,food_drink,item_402,word,understands; produces,food,food
+item_403,French fries,food_drink,item_403,word,understands; produces,French fries,french fries
+item_404,fruit,food_drink,item_404,word,understands; produces,fruit,fruit
+item_405,hamburger/burger,food_drink,item_405,word,understands; produces,hamburger/burger,hamburger
+item_406,ice,food_drink,item_406,word,understands; produces,ice,ice
+item_407,ice cream,food_drink,item_407,word,understands; produces,ice cream,ice cream
+item_408,jam,food_drink,item_408,word,understands; produces,jam,jam
+item_409,jelly,food_drink,item_409,word,understands; produces,jelly,jelly
+item_410,juice,food_drink,item_410,word,understands; produces,juice,juice
+item_411,meat,food_drink,item_411,word,understands; produces,meat,meat
+item_412,melon,food_drink,item_412,word,understands; produces,melon,melon
+item_413,milk,food_drink,item_413,word,understands; produces,milk,milk
+item_414,noodles,food_drink,item_414,word,understands; produces,noodles,noodles
+item_415,nut,food_drink,item_415,word,understands; produces,nut,nut
+item_416,orange,food_drink,item_416,word,understands; produces,orange,orange
+item_417,papaya,food_drink,item_417,word,understands; produces,papaya,papaya
+item_418,porridge,food_drink,item_418,word,understands; produces,porridge,porridge
+item_419,rice,food_drink,item_419,word,understands; produces,rice,rice
+item_420,sauce,food_drink,item_420,word,understands; produces,sauce,sauce
+item_421,soup,food_drink,item_421,word,understands; produces,soup,soup
+item_422,sugar,food_drink,item_422,word,understands; produces,sugar,sugar
+item_423,sweets,food_drink,item_423,word,understands; produces,sweets,sweets
+item_424,tea,food_drink,item_424,word,understands; produces,tea,tea
+item_425,vegetables,food_drink,item_425,word,understands; produces,vegetables,vegetable
+item_426,vitamin,food_drink,item_426,word,understands; produces,vitamin,vitamin
+item_427,water_food,food_drink,item_427,word,understands; produces,water_food,water (beverage)
+item_428,yogurt,food_drink,item_428,word,understands; produces,yogurt,yogurt
+item_429,aircon,furniture_rooms,item_429,word,understands; produces,aircon,air conditioner
+item_430,baby chair,furniture_rooms,item_430,word,understands; produces,baby chair,baby chair
+item_431,bathroom,furniture_rooms,item_431,word,understands; produces,bathroom,bathroom
+item_432,bed,furniture_rooms,item_432,word,understands; produces,bed,bed
+item_433,bedroom,furniture_rooms,item_433,word,understands; produces,bedroom,bedroom
+item_434,chair,furniture_rooms,item_434,word,understands; produces,chair,chair
+item_435,cooker,furniture_rooms,item_435,word,understands; produces,cooker,cooker
+item_436,door,furniture_rooms,item_436,word,understands; produces,door,door
+item_437,drawer,furniture_rooms,item_437,word,understands; produces,drawer,drawer
+item_438,fan,furniture_rooms,item_438,word,understands; produces,fan,fan
+item_439,fridge,furniture_rooms,item_439,word,understands; produces,fridge,refrigerator
+item_440,kitchen,furniture_rooms,item_440,word,understands; produces,kitchen,kitchen
+item_441,living room,furniture_rooms,item_441,word,understands; produces,living room,living room
+item_442,microwave oven,furniture_rooms,item_442,word,understands; produces,microwave oven,microwave
+item_443,potty,furniture_rooms,item_443,word,understands; produces,potty,potty
+item_444,room,furniture_rooms,item_444,word,understands; produces,room,room
+item_445,shower,furniture_rooms,item_445,word,understands; produces,shower,shower
+item_446,sink,furniture_rooms,item_446,word,understands; produces,sink,sink
+item_447,sofa,furniture_rooms,item_447,word,understands; produces,sofa,sofa
+item_448,stairs,furniture_rooms,item_448,word,understands; produces,stairs,stairs
+item_449,stool,furniture_rooms,item_449,word,understands; produces,stool,stool
+item_450,stove,furniture_rooms,item_450,word,understands; produces,stove,stove
+item_451,table,furniture_rooms,item_451,word,understands; produces,table,table
+item_452,toilet,furniture_rooms,item_452,word,understands; produces,toilet,toilet
+item_453,tv/ television,furniture_rooms,item_453,word,understands; produces,tv/ television,TV
+item_454,washing machine,furniture_rooms,item_454,word,understands; produces,washing machine,washing machine
+item_455,window,furniture_rooms,item_455,word,understands; produces,window,window
+item_456,baby,people,item_456,word,understands; produces,baby,baby
+item_457,boy,people,item_457,word,understands; produces,boy,boy
+item_458,child,people,item_458,word,understands; produces,child,child
+item_459,clown,people,item_459,word,understands; produces,clown,clown
+item_460,doctor,people,item_460,word,understands; produces,doctor,doctor
+item_461,fireman,people,item_461,word,understands; produces,fireman,firefighter
+item_462,friend,people,item_462,word,understands; produces,friend,friend
+item_463,girl,people,item_463,word,understands; produces,girl,girl
+item_464,man,people,item_464,word,understands; produces,man,man
+item_465,nurse,people,item_465,word,understands; produces,nurse,nurse
+item_466,people,people,item_466,word,understands; produces,people,people
+item_467,pet's name,people,item_467,word,understands; produces,pet's name,pet's name
+item_468,policeman,people,item_468,word,understands; produces,policeman,police
+item_469,postman,people,item_469,word,understands; produces,postman,postman
+item_470,teacher,people,item_470,word,understands; produces,teacher,teacher
+item_471,woman,people,item_471,word,understands; produces,woman,woman
+item_472,about,locations,item_472,word,understands; produces,about,about
+item_473,above,locations,item_473,word,understands; produces,above,above
+item_474,around,locations,item_474,word,understands; produces,around,around
+item_475,at,locations,item_475,word,understands; produces,at,at
+item_476,away,locations,item_476,word,understands; produces,away,away
+item_477,back,locations,item_477,word,understands; produces,back,back
+item_478,behind,locations,item_478,word,understands; produces,behind,behind
+item_479,beside,locations,item_479,word,understands; produces,beside,beside
+item_480,by,locations,item_480,word,understands; produces,by,by
+item_481,down,locations,item_481,word,understands; produces,down,down
+item_482,for,locations,item_482,word,understands; produces,for,for
+item_483,here,locations,item_483,word,understands; produces,here,here
+item_484,in,locations,item_484,word,understands; produces,in,in
+item_485,inside,locations,item_485,word,understands; produces,inside,inside
+item_486,next to,locations,item_486,word,understands; produces,next to,next to
+item_487,on top of,locations,item_487,word,understands; produces,on top of,on top of
+item_488,out,locations,item_488,word,understands; produces,out,out
+item_489,there,locations,item_489,word,understands; produces,there,there
+item_490,to,locations,item_490,word,understands; produces,to,to
+item_491,under,locations,item_491,word,understands; produces,under,under
+item_492,up,locations,item_492,word,understands; produces,up,up
+item_493,with,locations,item_493,word,understands; produces,with,with
+item_494,animal,animals,item_494,word,understands; produces,animal,animal
+item_495,ant,animals,item_495,word,understands; produces,ant,ant
+item_496,bear,animals,item_496,word,understands; produces,bear,bear
+item_497,bee,animals,item_497,word,understands; produces,bee,bee
+item_498,bird,animals,item_498,word,understands; produces,bird,bird
+item_499,buffalo,animals,item_499,word,understands; produces,buffalo,
+item_500,butterfly,animals,item_500,word,understands; produces,butterfly,butterfly
+item_501,cat,animals,item_501,word,understands; produces,cat,cat
+item_502,chicken_animals,animals,item_502,word,understands; produces,chicken_animals,chicken (animal)
+item_503,cow,animals,item_503,word,understands; produces,cow,cow
+item_504,deer,animals,item_504,word,understands; produces,deer,deer
+item_505,dog,animals,item_505,word,understands; produces,dog,dog
+item_506,duck,animals,item_506,word,understands; produces,duck,duck
+item_507,elephant,animals,item_507,word,understands; produces,elephant,elephant
+item_508,fish_animals,animals,item_508,word,understands; produces,fish_animals,fish (animal)
+item_509,fox,animals,item_509,word,understands; produces,fox,fox
+item_510,frog,animals,item_510,word,understands; produces,frog,frog
+item_511,giraffe,animals,item_511,word,understands; produces,giraffe,giraffe
+item_512,goat,animals,item_512,word,understands; produces,goat,goat
+item_513,goose,animals,item_513,word,understands; produces,goose,goose
+item_514,hamster,animals,item_514,word,understands; produces,hamster,
+item_515,hen,animals,item_515,word,understands; produces,hen,hen
+item_516,hippopotamus,animals,item_516,word,understands; produces,hippopotamus,hippopotamus
+item_517,horse,animals,item_517,word,understands; produces,horse,horse
+item_518,house fly,animals,item_518,word,understands; produces,house fly,fly (animal)
+item_519,kangaroo,animals,item_519,word,understands; produces,kangaroo,kangaroo
+item_520,kitten,animals,item_520,word,understands; produces,kitten,cat
+item_521,lamb,animals,item_521,word,understands; produces,lamb,lamb
+item_522,lion,animals,item_522,word,understands; produces,lion,lion
+item_523,lizard,animals,item_523,word,understands; produces,lizard,lizard
+item_524,monkey,animals,item_524,word,understands; produces,monkey,monkey
+item_525,mosquito,animals,item_525,word,understands; produces,mosquito,mosquito
+item_526,mouse,animals,item_526,word,understands; produces,mouse,mouse
+item_527,octopus,animals,item_527,word,understands; produces,octopus,octopus
+item_528,owl,animals,item_528,word,understands; produces,owl,owl
+item_529,penguin,animals,item_529,word,understands; produces,penguin,penguin
+item_530,orang-utan,animals,item_530,word,understands; produces,orang-utan,
+item_531,puppy,animals,item_531,word,understands; produces,puppy,puppy
+item_532,rabbit,animals,item_532,word,understands; produces,rabbit,bunny
+item_533,rooster,animals,item_533,word,understands; produces,rooster,rooster
+item_534,shark,animals,item_534,word,understands; produces,shark,shark
+item_535,sheep,animals,item_535,word,understands; produces,sheep,sheep
+item_536,snail,animals,item_536,word,understands; produces,snail,snail
+item_537,snake,animals,item_537,word,understands; produces,snake,snake
+item_538,spider,animals,item_538,word,understands; produces,spider,spider
+item_539,teddy bear,animals,item_539,word,understands; produces,teddy bear,teddybear
+item_540,tiger,animals,item_540,word,understands; produces,tiger,tiger
+item_541,tortoise,animals,item_541,word,understands; produces,tortoise,
+item_542,turtle,animals,item_542,word,understands; produces,turtle,turtle
+item_543,wolf,animals,item_543,word,understands; produces,wolf,wolf
+item_544,worm,animals,item_544,word,understands; produces,worm,worm
+item_545,zebra,animals,item_545,word,understands; produces,zebra,zebra
+item_546,how,question_words,item_546,word,understands; produces,how,how
+item_547,what,question_words,item_547,word,understands; produces,what,what
+item_548,when,question_words,item_548,word,understands; produces,when,when (question)
+item_549,where,question_words,item_549,word,understands; produces,where,where (question)
+item_550,which,question_words,item_550,word,understands; produces,which,which (question)
+item_551,who,question_words,item_551,word,understands; produces,who,who
+item_552,why,question_words,item_552,word,understands; produces,why,why
+item_553,bin,household,item_553,word,understands; produces,bin,bin
+item_554,blanket,household,item_554,word,understands; produces,blanket,blanket
+item_555,bottle,household,item_555,word,understands; produces,bottle,bottle
+item_556,bowl,household,item_556,word,understands; produces,bowl,bowl
+item_557,box,household,item_557,word,understands; produces,box,box
+item_558,broom,household,item_558,word,understands; produces,broom,broom
+item_559,brush,household,item_559,word,understands; produces,brush,brush (object)
+item_560,bucket,household,item_560,word,understands; produces,bucket,bucket
+item_561,camera,household,item_561,word,understands; produces,camera,camera
+item_562,can_household,household,item_562,word,understands; produces,can_household,can (object)
+item_563,chopsticks,household,item_563,word,understands; produces,chopsticks,chopsticks
+item_564,clock,household,item_564,word,understands; produces,clock,clock
+item_565,coins,household,item_565,word,understands; produces,coins,coin
+item_566,comb,household,item_566,word,understands; produces,comb,comb (object)
+item_567,cup,household,item_567,word,understands; produces,cup,cup
+item_568,fork,household,item_568,word,understands; produces,fork,fork
+item_569,glass,household,item_569,word,understands; produces,glass,glass
+item_570,hammer,household,item_570,word,understands; produces,hammer,hammer
+item_571,handphone,household,item_571,word,understands; produces,handphone,phone
+item_572,jar,household,item_572,word,understands; produces,jar,jar
+item_573,keys,household,item_573,word,understands; produces,keys,keys
+item_574,knife,household,item_574,word,understands; produces,knife,knife
+item_575,lamp,household,item_575,word,understands; produces,lamp,lamp
+item_576,light,household,item_576,word,understands; produces,light,light
+item_577,medicine,household,item_577,word,understands; produces,medicine,medicine
+item_578,mirror,household,item_578,word,understands; produces,mirror,mirror
+item_579,money,household,item_579,word,understands; produces,money,money
+item_580,mop,household,item_580,word,understands; produces,mop,mop
+item_581,nail_house,household,item_581,word,understands; produces,nail_house,nail (object)
+item_582,paper,household,item_582,word,understands; produces,paper,paper
+item_583,picture,household,item_583,word,understands; produces,picture,picture
+item_584,pillow,household,item_584,word,understands; produces,pillow,pillow
+item_585,plant,household,item_585,word,understands; produces,plant,plant
+item_586,plate,household,item_586,word,understands; produces,plate,plate
+item_587,purse,household,item_587,word,understands; produces,purse,purse
+item_588,radio,household,item_588,word,understands; produces,radio,radio
+item_589,rubbish,household,item_589,word,understands; produces,rubbish,trash
+item_590,scissors,household,item_590,word,understands; produces,scissors,scissors
+item_591,soap,household,item_591,word,understands; produces,soap,soap
+item_592,spoon,household,item_592,word,understands; produces,spoon,spoon
+item_593,telephone,household,item_593,word,understands; produces,telephone,telephone
+item_594,tissue paper,household,item_594,word,understands; produces,tissue paper,tissue
+item_595,tooth-brush,household,item_595,word,understands; produces,tooth-brush,toothbrush
+item_596,towel,household,item_596,word,understands; produces,towel,towel
+item_597,umbrella,household,item_597,word,understands; produces,umbrella,umbrella
+item_598,vacuum cleaner,household,item_598,word,understands; produces,vacuum cleaner,vacuum
+item_599,VCD,household,item_599,word,understands; produces,VCD,CD
+item_600,watch_household,household,item_600,word,understands; produces,watch_household,watch (object)

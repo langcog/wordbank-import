@@ -1,0 +1,17 @@
+type,value,data_value
+sex,M,Male
+sex,F,Female
+mom_ed,primary,No qualifications
+mom_ed,some secondary,Left school at 16 with GCSE or equivalent
+mom_ed,some secondary,O-levels (left school at 16)
+mom_ed,some secondary,Below standard for a pass on the school-leaving examination
+mom_ed,secondary,Left school at 18 with A-Levels or equivalent
+mom_ed,secondary,A-levels (left school at 18)
+mom_ed,some college,Tertiary vocational qualifications
+mom_ed,college,University degree or equivalent
+mom_ed,college,an Undergraduate Degree
+mom_ed,graduate,a Postgraduate Degree
+mom_ed,,NA
+word,produces,B/Z
+word,understands,B
+word,,Nee

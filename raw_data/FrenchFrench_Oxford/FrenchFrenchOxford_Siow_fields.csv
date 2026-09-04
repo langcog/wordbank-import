@@ -1,0 +1,460 @@
+﻿field,column,group,type
+,Response ID,,
+sex,Child's gender,child,sex
+mom_ed,Mother's highest educational qualification,child,mom_ed
+,Father's highest educational qualification,,
+,Overall language exposure - French,,
+,Overall language exposure - English,,
+,Overall language exposure - Other,,
+,Overall language exposure - Other - Text,,
+languages,exp_fra,admin,language
+languages,exp_eng,admin,language
+languages,exp_oth,admin,language
+,Home language exposure - French,,
+,Home language exposure - English,,
+,Home language exposure - Other(s),,
+,Home language exposure - Other(s) - Text,,
+,Mother native - Selected Choice,,
+,Mother native - Other(s) - Text,,
+,Mother's proficiency - French,,
+,Mother's proficiency - English,,
+,Mother's proficiency - Other,,
+,Mother's proficiency - Other - Text,,
+,Mother's child language,,
+,Father native - Selected Choice,,
+,Father native - Other(s) - Text,,
+,Father's proficiency - French,,
+,Father's proficiency - English,,
+,Father's proficiency - Other,,
+,Father's proficiency - Other - Text,,
+,Father's child language,,
+,Birth order - Selected Choice,,
+,Birth order - Other - Text,,
+birth_order,birth_order,child,birth_order
+,Nursery start age - Age in months,,
+,Nursery language,,
+,Immersion - months,,
+item_1,Sounds - aïe,item,word
+item_2,Sounds - bêê-bêê (mouton),item,word
+item_3,Sounds - cocorico (coq),item,word
+item_4,Sounds - coin-coin (canard),item,word
+item_5,Sounds - grrrr (grognement),item,word
+item_6,Sounds - meuh (vache),item,word
+item_7,Sounds - miam-miam,item,word
+item_8,Sounds - miaou (chat),item,word
+item_9,Sounds - oh oh,item,word
+item_10,Sounds - ouaf-ouaf (chien),item,word
+item_11,Sounds - tchou-tchou (train),item,word
+item_12,Sounds - vroum (voiture),item,word
+item_14,Animals - abeille,item,word
+item_15,Animals - agneau,item,word
+item_16,Animals - âne,item,word
+item_13,Animals - animal,item,word
+item_17,Animals - araignée,item,word
+item_18,Animals - bébé chat,item,word
+item_19,Animals - bébé chien,item,word
+item_20,Animals - canard,item,word
+item_21,Animals - cerf,item,word
+item_22,Animals - chat,item,word
+item_23,Animals - cheval,item,word
+item_24,Animals - chien,item,word
+item_25,Animals - cochon,item,word
+item_26,Animals - dindon,item,word
+item_27,Animals - écureuil,item,word
+item_28,Animals - éléphant,item,word
+item_29,Animals - girafe,item,word
+item_30,Animals - grenouille,item,word
+item_31,Animals - hibou,item,word
+item_32,Animals - lapin,item,word
+item_33,Animals - lion,item,word
+item_34,Animals - mouton,item,word
+item_35,Animals - oie,item,word
+item_36,Animals - oiseau,item,word
+item_37,Animals - ours,item,word
+item_38,Animals - papillon,item,word
+item_39,Animals - pingouin,item,word
+item_40,Animals - poisson,item,word
+item_41,Animals - poney,item,word
+item_42,Animals - poule,item,word
+item_43,Animals - singe,item,word
+item_44,Animals - souris,item,word
+item_45,Animals - tigre,item,word
+item_46,Animals - tortue,item,word
+item_47,Animals - vache,item,word
+item_48,Vehicles - avion,item,word
+item_49,Vehicles - bateau,item,word
+item_50,Vehicles - bus,item,word
+item_51,Vehicles - camion,item,word
+item_52,Vehicles - camion de pompier,item,word
+item_53,Vehicles - moto,item,word
+item_54,Vehicles - poussette,item,word
+item_55,Vehicles - train,item,word
+item_56,Vehicles - vélo,item,word
+item_57,Vehicles - voiture,item,word
+item_58,Toys - balle,item,word
+item_59,Toys - ballon (de baudruche),item,word
+item_60,Toys - bulles,item,word
+item_61,Toys - cube,item,word
+item_62,Toys - jouet,item,word
+item_63,Toys - livre,item,word
+item_64,Toys - nounours,item,word
+item_65,Toys - poupée,item,word
+item_66,Toys - stylo,item,word
+item_67,Food and Drink - banane,item,word
+item_68,Food and Drink - beurre,item,word
+item_69,Food and Drink - boisson,item,word
+item_70,Food and Drink - bonbons,item,word
+item_71,Food and Drink - café,item,word
+item_72,Food and Drink - carotte,item,word
+item_73,Food and Drink - céréales,item,word
+item_74,Food and Drink - confiture,item,word
+item_75,Food and Drink - eau,item,word
+item_76,Food and Drink - frites,item,word
+item_77,Food and Drink - fromage,item,word
+item_78,Food and Drink - gâteau,item,word
+item_79,Food and Drink - glace,item,word
+item_80,Food and Drink - jus de fruit,item,word
+item_81,Food and Drink - lait,item,word
+item_82,Food and Drink - nourriture,item,word
+item_83,Food and Drink - oeuf,item,word
+item_84,Food and Drink - orange,item,word
+item_85,Food and Drink - pain,item,word
+item_86,Food and Drink - pâtes / spaghetti,item,word
+item_87,Food and Drink - petits pois,item,word
+item_88,Food and Drink - petits gâteaux,item,word
+item_89,Food and Drink - pizza,item,word
+item_90,Food and Drink - poisson,item,word
+item_91,Food and Drink - pomme,item,word
+item_92,Food and Drink - poulet,item,word
+item_93,Food and Drink - tartine,item,word
+item_94,Food and Drink - thé,item,word
+item_95,Food and Drink - viande,item,word
+item_96,Body Parts - bouche,item,word
+item_97,Body Parts - bras,item,word
+item_98,Body Parts - cheveux,item,word
+item_99,Body Parts - dent,item,word
+item_100,Body Parts - doigt,item,word
+item_101,Body Parts - doigt de pied,item,word
+item_102,Body Parts - figure,item,word
+item_103,Body Parts - genou,item,word
+item_104,Body Parts - jambe,item,word
+item_105,Body Parts - joue,item,word
+item_106,Body Parts - langue,item,word
+item_107,Body Parts - main,item,word
+item_108,Body Parts - nez,item,word
+item_109,Body Parts - nombril,item,word
+item_110,Body Parts - ongle,item,word
+item_111,Body Parts - oreille,item,word
+item_112,Body Parts - pied,item,word
+item_113,Body Parts - tête,item,word
+item_114,Body Parts - ventre,item,word
+item_115,Body Parts - yeux,item,word
+item_116,Clothes - bavoir/bavette,item,word
+item_117,Clothes - bottes,item,word
+item_118,Clothes - boutons,item,word
+item_119,Clothes - chapeau,item,word
+item_120,Clothes - chaussettes,item,word
+item_121,Clothes - chaussure,item,word
+item_122,Clothes - chemise,item,word
+item_123,Clothes - collier,item,word
+item_124,Clothes - couche,item,word
+item_125,Clothes - fermeture éclair,item,word
+item_126,Clothes - jeans,item,word
+item_127,Clothes - lunettes,item,word
+item_128,Clothes - manteau,item,word
+item_129,Clothes - pantalon,item,word
+item_130,Clothes - pull / sweat,item,word
+item_131,Clothes - pyjama,item,word
+item_132,Clothes - robe,item,word
+item_133,Clothes - short,item,word
+item_134,Clothes - veste,item,word
+item_135,Furniture and Rooms - baignoire,item,word
+item_136,Furniture and Rooms - berceau,item,word
+item_137,Furniture and Rooms - canapé,item,word
+item_138,Furniture and Rooms - chaise,item,word
+item_139,Furniture and Rooms - chaise haute,item,word
+item_140,Furniture and Rooms - chambre,item,word
+item_141,Furniture and Rooms - cuisine,item,word
+item_142,Furniture and Rooms - cuisinière,item,word
+item_143,Furniture and Rooms - escalier,item,word
+item_144,Furniture and Rooms - évier,item,word
+item_145,Furniture and Rooms - fenêtre,item,word
+item_146,Furniture and Rooms - frigo,item,word
+item_147,Furniture and Rooms - garage,item,word
+item_148,Furniture and Rooms - lit,item,word
+item_149,Furniture and Rooms - parc,item,word
+item_150,Furniture and Rooms - porte,item,word
+item_151,Furniture and Rooms - pot,item,word
+item_152,Furniture and Rooms - rocking chair / chaise à bascule,item,word
+item_153,Furniture and Rooms - salle de bain,item,word
+item_154,Furniture and Rooms - salon,item,word
+item_155,Furniture and Rooms - table,item,word
+item_156,Furniture and Rooms - télé,item,word
+item_157,Furniture and Rooms - tiroir,item,word
+item_158,Outside - arbre,item,word
+item_159,Outside - balançoire,item,word
+item_160,Outside - caillou,item,word
+item_161,Outside - ciel,item,word
+item_162,Outside - eau,item,word
+item_163,Outside - école,item,word
+item_164,Outside - église,item,word
+item_165,Outside - étoile,item,word
+item_166,Outside - fête,item,word
+item_167,Outside - fleur,item,word
+item_168,Outside - herbe,item,word
+item_169,Outside - jardin,item,word
+item_170,Outside - lune,item,word
+item_171,Outside - magasin,item,word
+item_172,Outside - maison,item,word
+item_173,Outside - mur,item,word
+item_174,Outside - neige,item,word
+item_175,Outside - pelle,item,word
+item_176,Outside - piscine,item,word
+item_177,Outside - plage,item,word
+item_178,Outside - pluie,item,word
+item_179,Outside - seau,item,word
+item_180,Outside - soleil,item,word
+item_181,Outside - toboggan,item,word
+item_182,Outside - travail,item,word
+item_183,Outside - vent,item,word
+item_184,Outside - zoo,item,word
+item_185,Household items - argent,item,word
+item_186,Household items - aspirateur,item,word
+item_187,Household items - assiette,item,word
+item_188,Household items - balai,item,word
+item_189,Household items - boîte,item,word
+item_190,Household items - bol,item,word
+item_191,Household items - bouteille,item,word
+item_192,Household items - brosse,item,word
+item_193,Household items - brosse à dent,item,word
+item_194,Household items - ciseaux,item,word
+item_195,Household items - clefs,item,word
+item_196,Household items - couteau,item,word
+item_197,Household items - couverture,item,word
+item_198,Household items - cruche / pot à eau / pichet,item,word
+item_199,Household items - cuillère,item,word
+item_200,Household items - fourchette,item,word
+item_201,Household items - horloge,item,word
+item_202,Household items - lampe,item,word
+item_203,Household items - lumière,item,word
+item_204,Household items - marteau,item,word
+item_205,Household items - médicaments,item,word
+item_206,Household items - montre,item,word
+item_207,Household items - oreiller,item,word
+item_208,Household items - panier,item,word
+item_209,Household items - papier,item,word
+item_210,Household items - peigne,item,word
+item_211,Household items - photo,item,word
+item_212,Household items - plante,item,word
+item_213,Household items - plat,item,word
+item_214,Household items - porte-monnaie,item,word
+item_215,Household items - poubelle,item,word
+item_216,Household items - radio,item,word
+item_217,Household items - savon,item,word
+item_218,Household items - serviette,item,word
+item_219,Household items - sous / pièces,item,word
+item_220,Household items - sucette,item,word
+item_221,Household items - tasse,item,word
+item_222,Household items - téléphone,item,word
+item_223,Household items - verre,item,word
+item_224,"People - ami / e, copain / copine",item,word
+item_225,People - bébé,item,word
+item_226,People - dame,item,word
+item_227,People - docteur,item,word
+item_228,People - enfant,item,word
+item_229,People - fille,item,word
+item_230,People - frère,item,word
+item_231,People - garçon,item,word
+item_232,People - gens,item,word
+item_233,People - grand-mère,item,word
+item_234,People - grand-père,item,word
+item_235,People - maître / sse,item,word
+item_236,People - maman,item,word
+item_237,People - monsieur,item,word
+item_238,People - nounou,item,word
+item_239,People - oncle,item,word
+item_240,People - papa,item,word
+item_241,People - personne,item,word
+item_242,People - police,item,word
+item_243,People - soeur,item,word
+item_244,People - tante,item,word
+item_245,Games and Routines - attends,item,word
+item_246,Games and Routines - au revoir,item,word
+item_247,Games and Routines - bain,item,word
+item_248,Games and Routines - bonjour,item,word
+item_249,Games and Routines - bonne nuit,item,word
+item_250,Games and Routines - chut,item,word
+item_251,Games and Routines - coucou,item,word
+item_252,Games and Routines - déjeuner,item,word
+item_253,Games and Routines - dîner,item,word
+item_254,Games and Routines - goûter,item,word
+item_255,Games and Routines - je vais t'attraper,item,word
+item_256,Games and Routines - merci,item,word
+item_257,Games and Routines - ne fais pas,item,word
+item_258,Games and Routines - non,item,word
+item_259,Games and Routines - oui,item,word
+item_260,Games and Routines - petit déjeuner,item,word
+item_261,Games and Routines - s'il te plaît,item,word
+item_262,Games and Routines - salut,item,word
+item_263,Games and Routines - sieste,item,word
+item_264,Games and Routines - veux,item,word
+item_265,Action Words - aider,item,word
+item_266,Action Words - aimer,item,word
+item_267,Action Words - aimer bien,item,word
+item_268,Action Words - aller,item,word
+item_269,Action Words - appeler,item,word
+item_270,Action Words - apporter,item,word
+item_271,Action Words - arrêter,item,word
+item_272,Action Words - attraper,item,word
+item_273,Action Words - avoir,item,word
+item_274,Action Words - balancer,item,word
+item_275,Action Words - boire,item,word
+item_276,Action Words - caliner (faire un calin),item,word
+item_277,Action Words - casser,item,word
+item_278,Action Words - chanter,item,word
+item_279,Action Words - chasser,item,word
+item_280,Action Words - chatouiller,item,word
+item_281,Action Words - conduire,item,word
+item_282,Action Words - couper,item,word
+item_283,Action Words - courir,item,word
+item_284,Action Words - danser,item,word
+item_285,Action Words - dessiner,item,word
+item_286,Action Words - dire,item,word
+item_287,Action Words - donner,item,word
+item_288,Action Words - donner un coup (de pied),item,word
+item_289,Action Words - dormir,item,word
+item_290,Action Words - éclabousser,item,word
+item_291,Action Words - écrire,item,word
+item_292,Action Words - entendre,item,word
+item_293,Action Words - essuyer,item,word
+item_294,Action Words - faire,item,word
+item_295,Action Words - faire du vélo / moto,item,word
+item_296,Action Words - faire un bisou,item,word
+item_297,Action Words - fermer,item,word
+item_298,Action Words - finir,item,word
+item_299,Action Words - gratter,item,word
+item_300,Action Words - jeter,item,word
+item_301,Action Words - jouer,item,word
+item_302,Action Words - laisser tomber,item,word
+item_303,Action Words - laver,item,word
+item_304,Action Words - lire,item,word
+item_305,Action Words - manger,item,word
+item_306,Action Words - marcher,item,word
+item_307,Action Words - mettre,item,word
+item_308,Action Words - montrer,item,word
+item_309,Action Words - mordre,item,word
+item_310,Action Words - nager,item,word
+item_311,Action Words - nettoyer,item,word
+item_312,Action Words - nourrir,item,word
+item_313,Action Words - ouvrir,item,word
+item_314,Action Words - partager,item,word
+item_315,Action Words - pleurer,item,word
+item_316,Action Words - porter,item,word
+item_317,Action Words - pousser,item,word
+item_318,Action Words - prendre,item,word
+item_319,Action Words - prendre dan ses bras,item,word
+item_320,Action Words - recevoir,item,word
+item_321,Action Words - regarder,item,word
+item_322,Action Words - s'asseoir,item,word
+item_323,Action Words - sauter,item,word
+item_324,Action Words - savoir,item,word
+item_325,Action Words - se cogner,item,word
+item_326,Action Words - se dépêcher,item,word
+item_327,Action Words - sentir,item,word
+item_328,Action Words - souffler,item,word
+item_329,Action Words - sourire,item,word
+item_330,Action Words - taper,item,word
+item_331,Action Words - tirer,item,word
+item_332,Action Words - tomber,item,word
+item_333,Action Words - trouver,item,word
+item_334,Action Words - voir,item,word
+item_335,Descriptive Words - attention,item,word
+item_336,Descriptive Words - avoir faim,item,word
+item_337,Descriptive Words - avoir peur,item,word
+item_338,Descriptive Words - avoir soif,item,word
+item_339,Descriptive Words - avoir sommeil,item,word
+item_340,Descriptive Words - beau / belle,item,word
+item_341,Descriptive Words - bien,item,word
+item_342,Descriptive Words - blessé,item,word
+item_343,Descriptive Words - bleu,item,word
+item_344,Descriptive Words - bon / ne,item,word
+item_345,Descriptive Words - cassé,item,word
+item_346,Descriptive Words - chaud / e,item,word
+item_347,Descriptive Words - content / te,item,word
+item_348,Descriptive Words - doux/ce,item,word
+item_349,Descriptive Words - dur,item,word
+item_350,Descriptive Words - endormi,item,word
+item_351,Descriptive Words - fatigué,item,word
+item_352,Descriptive Words - fini ! / c'est fini ! / c'est parti !,item,word
+item_353,Descriptive Words - froid,item,word
+item_354,Descriptive Words - gentil / le,item,word
+item_355,Descriptive Words - grand,item,word
+item_356,Descriptive Words - jaune,item,word
+item_394,Descriptive Words - ma / mon / mes,item,word
+item_357,Descriptive Words - malade,item,word
+item_358,Descriptive Words - méchant / e,item,word
+item_359,Descriptive Words - mouillé,item,word
+item_360,Descriptive Words - pas bon / pas bien / mal,item,word
+item_361,Descriptive Words - petit / e,item,word
+item_362,Descriptive Words - propre,item,word
+item_363,Descriptive Words - rouge,item,word
+item_364,Descriptive Words - sale,item,word
+item_365,Descriptive Words - sec / che,item,word
+item_366,Descriptive Words - sombre,item,word
+item_367,Descriptive Words - tendre,item,word
+item_368,Descriptive Words - triste,item,word
+item_369,Descriptive Words - vert,item,word
+item_370,Descriptive Words - vide,item,word
+item_371,Descriptive Words - vieux / vielle,item,word
+item_372,Descriptive Words - vilain / e,item,word
+item_373,Descriptive Words - vite,item,word
+item_389,Descriptive Words - à lui / son,item,word
+item_388,Descriptive Words - à elle / sa,item,word
+item_397,Descriptive Words - votre / ta / ton,item,word
+item_374,Question words - comment,item,word
+item_375,Question words - où,item,word
+item_376,Question words - pourquoi,item,word
+item_377,Question words - quand,item,word
+item_378,Question words - qui,item,word
+item_379,Question words - quoi,item,word
+item_380,Time - aujord'hui,item,word
+item_381,Time - ce soir,item,word
+item_382,Time - demain,item,word
+item_383,Time - jour,item,word
+item_384,Time - maintenant,item,word
+item_385,Time - matin,item,word
+item_386,Time - nuit,item,word
+item_387,Time - plus tard / tout à l'heure,item,word
+item_390,Pronouns and Possessives - à moi,item,word
+item_391,Pronouns and Possessives - ça / il,item,word
+item_392,Pronouns and Possessives - ceux,item,word
+item_393,Pronouns and Possessives - je,item,word
+item_395,Pronouns and Possessives - moi,item,word
+item_396,Pronouns and Possessives - notre,item,word
+item_398,Pronouns and Possessives - vous/tu,item,word
+item_399,Prepositions and Location Words - dans,item,word
+item_400,Prepositions and Location Words - de,item,word
+item_401,Prepositions and Location Words - dedans,item,word
+item_402,Prepositions and Location Words - dehors,item,word
+item_403,Prepositions and Location Words - derrière,item,word
+item_404,Prepositions and Location Words - en bas,item,word
+item_405,Prepositions and Location Words - en haut,item,word
+item_406,Prepositions and Location Words - là-bas,item,word
+item_407,Prepositions and Location Words - loin,item,word
+item_408,Prepositions and Location Words - sous,item,word
+item_409,Prepositions and Location Words - sur,item,word
+item_410,Quantifiers - aucun / ne,item,word
+item_411,Quantifiers - autre,item,word
+item_412,Quantifiers - encore,item,word
+item_413,Quantifiers - le / la même,item,word
+item_414,Quantifiers - pas,item,word
+item_415,Quantifiers - plus,item,word
+item_416,Quantifiers - tous / tout,item,word
+item_417,Quantifiers - un autre,item,word
+item_418,Quantifiers - un peu,item,word
+study_id,ParticipantID,child,study_id
+,shortPID,,
+,age_days,,
+data_age,age_months,admin,data_age
+,Recorded.Year,,
+,country,,

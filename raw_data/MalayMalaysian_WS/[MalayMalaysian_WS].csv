@@ -1,0 +1,601 @@
+itemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,tali pinggan,clothing,item_1,word,understands; produces,belt,belt
+item_2,butang,clothing,item_2,word,understands; produces,button,button
+item_3,skirt panjang,clothing,item_3,word,understands; produces,dress,dress (object)
+item_4,lampin,clothing,item_4,word,understands; produces,diaper,diaper
+item_5,sapu tangan,clothing,item_5,word,understands; produces,handkerchief,handkerchief
+item_6,topi,clothing,item_6,word,understands; produces,hat,hat
+item_7,jaket,clothing,item_7,word,understands; produces,jacket,jacket
+item_8,jean,clothing,item_8,word,understands; produces,jeans,jeans
+item_9,kain lampin,clothing,item_9,word,understands; produces,napkin,napkin
+item_10,rantai leher,clothing,item_10,word,understands; produces,necklace,necklace
+item_11,seluar panjang,clothing,item_11,word,understands; produces,pants,pants
+item_12,baju tidur,clothing,item_12,word,understands; produces,pyjamas,pajamas
+item_13,baju kemeja,clothing,item_13,word,understands; produces,shirt,shirt
+item_14,kasut,clothing,item_14,word,understands; produces,shoes,shoe
+item_15,seluar pendek,clothing,item_15,word,understands; produces,shorts,shorts
+item_16,baju dalam,clothing,item_16,word,understands; produces,singlet,
+item_17,skirt,clothing,item_17,word,understands; produces,skirt,skirt
+item_18,selipar,clothing,item_18,word,understands; produces,slipper,slipper
+item_19,sarung kaki,clothing,item_19,word,understands; produces,sock,sock
+item_20,seluar,clothing,item_20,word,understands; produces,trousers,pants
+item_21,baju kemeja T,clothing,item_21,word,understands; produces,T-shirt,t-shirt
+item_22,seluar dalam,clothing,item_22,word,understands; produces,underwear,underpants
+item_23,zip,clothing,item_23,word,understands; produces,zip,zipper
+item_24,satu,quantifiers,item_24,word,understands; produces,a / an,a
+item_25,sedikit,quantifiers,item_25,word,understands; produces,a little,a little
+item_26,semua,quantifiers,item_26,word,understands; produces,all,all
+item_27,banyak,quantifiers,item_27,word,understands; produces,a lot,a lot
+item_28,yang lain,quantifiers,item_28,word,understands; produces,another,another
+item_29,mana-mana satu,quantifiers,item_29,word,understands; produces,any,any
+item_30,tiap-tiap,quantifiers,item_30,word,understands; produces,each,each
+item_31,setiap,quantifiers,item_31,word,understands; produces,every,every
+item_32,lebih,quantifiers,item_32,word,understands; produces,more,more
+item_33,lebih lagi,quantifiers,item_33,word,understands; produces,much,much
+item_34,tak ada,quantifiers,item_34,word,understands; produces,none,none
+item_35,bukan,quantifiers,item_35,word,understands; produces,not,not
+item_36,yang lain,quantifiers,item_36,word,understands; produces,other,other
+item_37,sama,quantifiers,item_37,word,understands; produces,same,same
+item_38,sesetengah,quantifiers,item_38,word,understands; produces,some,some
+item_39,juga,quantifiers,item_39,word,understands; produces,too,too
+item_40,mandi,games_routines,item_40,word,understands; produces,bath,bath
+item_41,sarapan pagi,games_routines,item_41,word,understands; produces,breakfast,breakfast
+item_42,bye-bye,games_routines,item_42,word,understands; produces,bye-bye,bye
+item_43,(panggilan) telefon,games_routines,item_43,word,understands; produces,(phone) call,call on phone
+item_44,panggil,games_routines,item_44,word,understands; produces,call (great),
+item_45,angkat,games_routines,item_45,word,understands; produces,carry (me),
+item_46,makan malam,games_routines,item_46,word,understands; produces,dinner,dinner
+item_47,jangan,games_routines,item_47,word,understands; produces,don't,don't
+item_48,keluar,games_routines,item_48,word,understands; produces,go out,go out
+item_49,halo,games_routines,item_49,word,understands; produces,hello,hello
+item_50,cepat-cepat,games_routines,item_50,word,understands; produces,hurry up,
+item_51,makan tengah hari,games_routines,item_51,word,understands; produces,lunch,lunch
+item_52,tidur,games_routines,item_52,word,understands; produces,nap,nap
+item_53,selamat malam,games_routines,item_53,word,understands; produces,night-night,good night
+item_54,tidak,games_routines,item_54,word,understands; produces,no,no
+item_55,tak ada lagi,games_routines,item_55,word,understands; produces,no more (gone),all gone
+item_56,(main) cak,games_routines,item_56,word,understands; produces,(peek-a-) boo,peekaboo
+item_57,tolong,games_routines,item_57,word,understands; produces,please,please
+item_58,shhh,games_routines,item_58,word,understands; produces,shhh,shh
+item_59,beli-belah,games_routines,item_59,word,understands; produces,shopping,shopping
+item_60,terima kasih,games_routines,item_60,word,understands; produces,thank you,thank you
+item_61,pusing belakang,games_routines,item_61,word,understands; produces,turn around,turn around
+item_62,tunggu,games_routines,item_62,word,understands; produces,wait_routines,
+item_63,ya,games_routines,item_63,word,understands; produces,yes,yes
+item_64,bola,toys,item_64,word,understands; produces,ball,ball
+item_65,belon,toys,item_65,word,understands; produces,balloon,balloon
+item_66,buku,toys,item_66,word,understands; produces,book,book
+item_67,buih,toys,item_67,word,understands; produces,bubbles,bubbles
+item_68,anak patung,toys,item_68,word,understands; produces,doll,doll
+item_69,permainan,toys,item_69,word,understands; produces,game,game
+item_70,pen,toys,item_70,word,understands; produces,pen,pen
+item_71,pensil,toys,item_71,word,understands; produces,pencil,Pencil
+item_72,hadiah,toys,item_72,word,understands; produces,present,present
+item_73,pasel,toys,item_73,word,understands; produces,puzzle,puzzle
+item_74,cerita,toys,item_74,word,understands; produces,story,story
+item_75,alat mainan,toys,item_75,word,understands; produces,toy,toy (object)
+item_76,pergelangan kaki,body_parts,item_76,word,understands; produces,ankle,ankle
+item_77,tangan,body_parts,item_77,word,understands; produces,arm,arm
+item_78,puat,body_parts,item_78,word,understands; produces,belly button,belly button
+item_79,buntut,body_parts,item_79,word,understands; produces,bottom,bottom
+item_80,pipi,body_parts,item_80,word,understands; produces,cheek,cheek
+item_81,dagu,body_parts,item_81,word,understands; produces,chin,chin
+item_82,telinga,body_parts,item_82,word,understands; produces,ear,ear
+item_83,mata,body_parts,item_83,word,understands; produces,eye,eye
+item_84,muka,body_parts,item_84,word,understands; produces,face,face
+item_85,jari,body_parts,item_85,word,understands; produces,finger,finger
+item_86,kaki,body_parts,item_86,word,understands; produces,foot,foot
+item_87,rambut,body_parts,item_87,word,understands; produces,hair,hair
+item_88,tangan,body_parts,item_88,word,understands; produces,hand,hand
+item_89,kepala,body_parts,item_89,word,understands; produces,head,head
+item_90,lutut,body_parts,item_90,word,understands; produces,knee,knee
+item_91,kaki,body_parts,item_91,word,understands; produces,leg,leg
+item_92,bibir,body_parts,item_92,word,understands; produces,lips,lips
+item_93,mulut,body_parts,item_93,word,understands; produces,mouth,mouth
+item_94,kuku,body_parts,item_94,word,understands; produces,nail_body,nail (body part)
+item_95,hidung,body_parts,item_95,word,understands; produces,nose,nose
+item_96,bahu,body_parts,item_96,word,understands; produces,shoulder,shoulder
+item_97,gigi,body_parts,item_97,word,understands; produces,teeth,tooth
+item_98,ibu jari,body_parts,item_98,word,understands; produces,thumb,thumb
+item_99,jari kaki,body_parts,item_99,word,understands; produces,toe,toe
+item_100,lidah,body_parts,item_100,word,understands; produces,tongue,tongue
+item_101,perut,body_parts,item_101,word,understands; produces,tummy,tummy
+item_102,marah,descriptive_words,item_102,word,understands; produces,angry,angry
+item_103,dah tidur,descriptive_words,item_103,word,understands; produces,asleep,asleep
+item_104,dah bangun,descriptive_words,item_104,word,understands; produces,awake,awake
+item_105,jahat,descriptive_words,item_105,word,understands; produces,bad,bad
+item_106,lebih baik,descriptive_words,item_106,word,understands; produces,better,better
+item_107,besar,descriptive_words,item_107,word,understands; produces,big,big
+item_108,hitam,descriptive_words,item_108,word,understands; produces,black,black
+item_109,biru,descriptive_words,item_109,word,understands; produces,blue,blue
+item_110,rosak,descriptive_words,item_110,word,understands; produces,broken,broken
+item_111,perang,descriptive_words,item_111,word,understands; produces,brown,brown
+item_112,berhati-hati,descriptive_words,item_112,word,understands; produces,careful,careful
+item_113,bersih,descriptive_words,item_113,word,understands; produces,clean_descriptive,clean (description)
+item_114,sejuk,descriptive_words,item_114,word,understands; produces,cold,cold
+item_115,comel,descriptive_words,item_115,word,understands; produces,cute,cute
+item_116,gelap,descriptive_words,item_116,word,understands; produces,dark,dark
+item_117,kotor,descriptive_words,item_117,word,understands; produces,dirty,dirty
+item_118,kering,descriptive_words,item_118,word,understands; produces,dry_descriptive,dry (description)
+item_119,kosong,descriptive_words,item_119,word,understands; produces,empty,empty
+item_120,pantas,descriptive_words,item_120,word,understands; produces,fast,fast
+item_121,bagus,descriptive_words,item_121,word,understands; produces,fine,fine
+item_122,pertama,descriptive_words,item_122,word,understands; produces,first,first
+item_123,penuh,descriptive_words,item_123,word,understands; produces,full,full
+item_124,lemah-lembut,descriptive_words,item_124,word,understands; produces,gentle,gentle
+item_125,baik,descriptive_words,item_125,word,understands; produces,good,good
+item_126,hijau,descriptive_words,item_126,word,understands; produces,green,green
+item_127,gembira,descriptive_words,item_127,word,understands; produces,happy,happy
+item_128,keras,descriptive_words,item_128,word,understands; produces,hard,hard
+item_129,berat,descriptive_words,item_129,word,understands; produces,heavy,heavy
+item_130,tinggi,descriptive_words,item_130,word,understands; produces,high,high
+item_131,panas,descriptive_words,item_131,word,understands; produces,hot,hot
+item_132,pedas,descriptive_words,item_132,word,understands; produces,(spicy) hot,spicy
+item_133,lapar,descriptive_words,item_133,word,understands; produces,hungry,hungry
+item_134,terluka,descriptive_words,item_134,word,understands; produces,hurt,hurt
+item_135,(ter)akhir,descriptive_words,item_135,word,understands; produces,last,last
+item_136,sedikit,descriptive_words,item_136,word,understands; produces,little,little
+item_137,panjang,descriptive_words,item_137,word,understands; produces,long,long
+item_138,kuat,descriptive_words,item_138,word,understands; produces,loud,loud
+item_139,nakal,descriptive_words,item_139,word,understands; produces,naughty,naughty
+item_140,baru,descriptive_words,item_140,word,understands; produces,new,new
+item_141,baik,descriptive_words,item_141,word,understands; produces,nice,nice
+item_142,bising,descriptive_words,item_142,word,understands; produces,noisy,noisy
+item_143,tua,descriptive_words,item_143,word,understands; produces,old,old
+item_144,merah jambu,descriptive_words,item_144,word,understands; produces,pink,pink
+item_145,miskin,descriptive_words,item_145,word,understands; produces,poor,poor
+item_146,cantik,descriptive_words,item_146,word,understands; produces,pretty,pretty
+item_147,ungu,descriptive_words,item_147,word,understands; produces,purple,purple
+item_148,senyap,descriptive_words,item_148,word,understands; produces,quiet,quiet
+item_149,merah,descriptive_words,item_149,word,understands; produces,red,red
+item_150,sedih,descriptive_words,item_150,word,understands; produces,sad,sad
+item_151,takut,descriptive_words,item_151,word,understands; produces,scared,scared
+item_152,sakit,descriptive_words,item_152,word,understands; produces,sick,sick
+item_153,mengantuk,descriptive_words,item_153,word,understands; produces,sleepy,sleepy
+item_154,lambat,descriptive_words,item_154,word,understands; produces,slow,slow
+item_155,lembut,descriptive_words,item_155,word,understands; produces,soft,soft
+item_156,lekit,descriptive_words,item_156,word,understands; produces,sticky,sticky
+item_157,tersekat,descriptive_words,item_157,word,understands; produces,stuck,stuck
+item_158,dahaga,descriptive_words,item_158,word,understands; produces,thirsty,thirsty
+item_159,kecil,descriptive_words,item_159,word,understands; produces,tiny,tiny
+item_160,letih,descriptive_words,item_160,word,understands; produces,tired,tired
+item_161,basah,descriptive_words,item_161,word,understands; produces,wet,wet
+item_162,putih,descriptive_words,item_162,word,understands; produces,white,white
+item_163,berangin,descriptive_words,item_163,word,understands; produces,windy,windy
+item_164,kuning,descriptive_words,item_164,word,understands; produces,yellow,yellow
+item_165,makcik,people,item_165,word,understands; produces,auntie,aunt
+item_166,bapa,people,item_166,word,understands; produces,daddy,daddy
+item_167,nama pembantu rumah,people,item_167,word,understands; produces,maid's name,
+item_168,datuk,people,item_168,word,understands; produces,maternal grandfather,grandpa
+item_169,nenek,people,item_169,word,understands; produces,maternal grandmother,grandma
+item_170,emak,people,item_170,word,understands; produces,mummy,mommy
+item_171,kakak,people,item_171,word,understands; produces,own name,child's own name
+item_172,nama sendiri,people,item_172,word,understands; produces,older brother,brother
+item_173,abang,people,item_173,word,understands; produces,older sister,sister
+item_174,datuk,people,item_174,word,understands; produces,paternal grandfather,grandpa
+item_175,nenek,people,item_175,word,understands; produces,paternal grandmother,grandma
+item_176,pakcik,people,item_176,word,understands; produces,uncle,uncle
+item_177,adik lelaki,people,item_177,word,understands; produces,younger brother,brother
+item_178,adik perempuan,people,item_178,word,understands; produces,younger sister,sister
+item_179,kapal terbang,vehicles,item_179,word,understands; produces,airplane,airplane
+item_180,baisikal,vehicles,item_180,word,understands; produces,bicycle,bicycle
+item_181,sampan,vehicles,item_181,word,understands; produces,boat,boat
+item_182,basah,vehicles,item_182,word,understands; produces,bus,bus
+item_183,kereta,vehicles,item_183,word,understands; produces,car,car
+item_184,kereta bomba,vehicles,item_184,word,understands; produces,fire engine,firetruck
+item_185,helikopter,vehicles,item_185,word,understands; produces,helicopter,helicopter
+item_186,lori,vehicles,item_186,word,understands; produces,lorry,
+item_187,motosikal,vehicles,item_187,word,understands; produces,motorcycle,motorcycle
+item_188,kapal,vehicles,item_188,word,understands; produces,ship,ship
+item_189,taksi,vehicles,item_189,word,understands; produces,taxi,taxi
+item_190,keretapi,vehicles,item_190,word,understands; produces,train,train
+item_191,beca,vehicles,item_191,word,understands; produces,trishaw,
+item_192,van,vehicles,item_192,word,understands; produces,van,van
+item_193,ialah,helping_verbs,item_193,word,understands; produces,am,am
+item_194,boleh,helping_verbs,item_194,word,understands; produces,can_helping_verbs,can (auxiliary)
+item_195,mesti,helping_verbs,item_195,word,understands; produces,have to,have to
+item_196,biar saya,helping_verbs,item_196,word,understands; produces,let me,let
+item_197,perlu,helping_verbs,item_197,word,understands; produces,need to,need
+item_198,cuba,helping_verbs,item_198,word,understands; produces,try to,try
+item_199,nak,helping_verbs,item_199,word,understands; produces,want to,want
+item_200,akan,helping_verbs,item_200,word,understands; produces,will,will
+item_201,pantai,outside,item_201,word,understands; produces,beach,beach
+item_202,berkehmah,outside,item_202,word,understands; produces,camping,camping
+item_203,gereja,outside,item_203,word,understands; produces,church,church
+item_204,sarkas,outside,item_204,word,understands; produces,circus,circus
+item_205,klinik,outside,item_205,word,understands; produces,clinic,
+item_206,awan,outside,item_206,word,understands; produces,cloud,cloud
+item_207,longkang,outside,item_207,word,understands; produces,drain,
+item_208,ladang,outside,item_208,word,understands; produces,farm,farm
+item_209,bendera,outside,item_209,word,understands; produces,flag,flag
+item_210,bunga,outside,item_210,word,understands; produces,flower,flower
+item_211,kebun,outside,item_211,word,understands; produces,garden,garden
+item_212,pagar,outside,item_212,word,understands; produces,gate,gate
+item_213,rumput,outside,item_213,word,understands; produces,grass,grass
+item_214,rumah,outside,item_214,word,understands; produces,home,home
+item_215,hospital,outside,item_215,word,understands; produces,hospital,hospital
+item_216,rumah,outside,item_216,word,understands; produces,house,house
+item_217,tangga,outside,item_217,word,understands; produces,ladder,ladder
+item_218,bulan,outside,item_218,word,understands; produces,moon,moon
+item_219,masjid,outside,item_219,word,understands; produces,mosque,church
+item_220,wayang gambar,outside,item_220,word,understands; produces,movie,movie
+item_221,lumpur,outside,item_221,word,understands; produces,mud,mud
+item_222,stesen minyak,outside,item_222,word,understands; produces,oil station,gas station
+item_223,luar,outside,item_223,word,understands; produces,outside,outside
+item_224,taman,outside,item_224,word,understands; produces,park,park
+item_225,parti,outside,item_225,word,understands; produces,party,party
+item_226,taman permainan,outside,item_226,word,understands; produces,playground,playground
+item_227,kolan renang,outside,item_227,word,understands; produces,(swimming) pool,pool
+item_228,hujan,outside,item_228,word,understands; produces,rain,rain
+item_229,batu,outside,item_229,word,understands; produces,rock,stone
+item_230,bumbung,outside,item_230,word,understands; produces,roof,roof
+item_231,tempat pasir,outside,item_231,word,understands; produces,sandpit,sandbox
+item_232,sekolah,outside,item_232,word,understands; produces,school,school
+item_233,kedai,outside,item_233,word,understands; produces,shop,shop
+item_234,langit,outside,item_234,word,understands; produces,sky,sky
+item_235,papan gelongsor,outside,item_235,word,understands; produces,slide_outside,slide (object)
+item_236,bintang,outside,item_236,word,understands; produces,star,star
+item_237,kayu pokok,outside,item_237,word,understands; produces,stick,stick
+item_238,batu,outside,item_238,word,understands; produces,stone,stone
+item_239,jalan,outside,item_239,word,understands; produces,road,road
+item_240,matahari,outside,item_240,word,understands; produces,sun,sun
+item_241,pasaraya,outside,item_241,word,understands; produces,supermarket,market
+item_242,buaian,outside,item_242,word,understands; produces,swing_outside,swing (object)
+item_243,kuil,outside,item_243,word,understands; produces,temple,church
+item_244,bandar,outside,item_244,word,understands; produces,town,town
+item_245,pokok,outside,item_245,word,understands; produces,tree,tree
+item_246,dinding,outside,item_246,word,understands; produces,wall,wall
+item_247,air,outside,item_247,word,understands; produces,water_outside,water (not beverage)
+item_248,angin,outside,item_248,word,understands; produces,wind,wind
+item_249,zoo,outside,item_249,word,understands; produces,zoo,zoo
+item_250,dia,pronouns,item_250,word,understands; produces,he / she,3SG
+item_251,dia punya,pronouns,item_251,word,understands; produces,his / hers,3SG.POSS
+item_252,aku,pronouns,item_252,word,understands; produces,I,1SG
+item_253,saya,pronouns,item_253,word,understands; produces,me,1SG
+item_254,saya punya,pronouns,item_254,word,understands; produces,my,1SG.POSS
+item_255,saya sendiri,pronouns,item_255,word,understands; produces,myself,1SG.REFL
+item_256,itu,pronouns,item_256,word,understands; produces,that,that
+item_257,mereka punya,pronouns,item_257,word,understands; produces,their,3PL.POSS
+item_258,semua ini,pronouns,item_258,word,understands; produces,these,these
+item_259,mereka,pronouns,item_259,word,understands; produces,they,3PL
+item_260,ini,pronouns,item_260,word,understands; produces,this,this
+item_261,semua itu,pronouns,item_261,word,understands; produces,those,those
+item_262,kami punya,pronouns,item_262,word,understands; produces,our,1PL.POSS
+item_263,kami,pronouns,item_263,word,understands; produces,we,1PL
+item_264,kamu,pronouns,item_264,word,understands; produces,you,2SG
+item_265,kamu punya,pronouns,item_265,word,understands; produces,your,2SG.POSS
+item_266,kamu sendiri,pronouns,item_266,word,understands; produces,yourself,2SG.REFL
+item_267,kemudian,time_words,item_267,word,understands; produces,after,after
+item_268,petang,time_words,item_268,word,understands; produces,afternoon,afternoon
+item_269,sebelum,time_words,item_269,word,understands; produces,before,before
+item_270,hari,time_words,item_270,word,understands; produces,day,day
+item_271,nanti,time_words,item_271,word,understands; produces,later,later
+item_272,pagi,time_words,item_272,word,understands; produces,morning,morning
+item_273,malam,time_words,item_273,word,understands; produces,night,night
+item_274,sekarang,time_words,item_274,word,understands; produces,now,now
+item_275,masa,time_words,item_275,word,understands; produces,time,time
+item_276,hari ini,time_words,item_276,word,understands; produces,today,today
+item_277,esok,time_words,item_277,word,understands; produces,tomorrow,tomorrow
+item_278,malam ini,time_words,item_278,word,understands; produces,tonight,tonight
+item_279,semalam,time_words,item_279,word,understands; produces,yesterday,yesterday
+item_280,gigit,action_words,item_280,word,understands; produces,bite,bite
+item_281,tiup,action_words,item_281,word,understands; produces,blow,blow
+item_282,pecah,action_words,item_282,word,understands; produces,break,break
+item_283,bawa,action_words,item_283,word,understands; produces,bring,bring
+item_284,bina,action_words,item_284,word,understands; produces,build,build
+item_285,hentam,action_words,item_285,word,understands; produces,bump,bump
+item_286,beli,action_words,item_286,word,understands; produces,buy,buy
+item_287,angkat,action_words,item_287,word,understands; produces,carry,carry
+item_288,tangkap,action_words,item_288,word,understands; produces,catch,catch
+item_289,kejar,action_words,item_289,word,understands; produces,chase,chase
+item_290,tepuk tangan,action_words,item_290,word,understands; produces,clap,clap
+item_291,cuci,action_words,item_291,word,understands; produces,clean_action,clean (action)
+item_292,panjat,action_words,item_292,word,understands; produces,climb,climb
+item_293,tutup,action_words,item_293,word,understands; produces,close,close
+item_294,masak,action_words,item_294,word,understands; produces,cook,cook
+item_295,tutup,action_words,item_295,word,understands; produces,cover,cover (action)
+item_296,menangis,action_words,item_296,word,understands; produces,cry,cry
+item_297,gunting,action_words,item_297,word,understands; produces,cut (with scissors),cut
+item_298,potong,action_words,item_298,word,understands; produces,cut (with knife),cut
+item_299,menari,action_words,item_299,word,understands; produces,dance,dance
+item_300,lukis,action_words,item_300,word,understands; produces,draw,draw
+item_301,minum,action_words,item_301,word,understands; produces,drink_action,drink (action)
+item_302,memandu,action_words,item_302,word,understands; produces,drive,drive
+item_303,jatuh,action_words,item_303,word,understands; produces,drop,drop
+item_304,menge-ringkan,action_words,item_304,word,understands; produces,dry_action,dry (action)
+item_305,makan,action_words,item_305,word,understands; produces,eat,eat
+item_306,jatuh,action_words,item_306,word,understands; produces,fall,fall
+item_307,suap,action_words,item_307,word,understands; produces,feed,feed
+item_308,cari,action_words,item_308,word,understands; produces,find,find
+item_309,habis,action_words,item_309,word,understands; produces,finish,finish
+item_310,mencan-tumkan,action_words,item_310,word,understands; produces,fit,fit
+item_311,membaiki,action_words,item_311,word,understands; produces,fix,fix
+item_312,ambil,action_words,item_312,word,understands; produces,get,get
+item_313,beri,action_words,item_313,word,understands; produces,give,give
+item_314,pergi,action_words,item_314,word,understands; produces,go,go
+item_315,benci,action_words,item_315,word,understands; produces,hate,hate
+item_316,ada,action_words,item_316,word,understands; produces,have,have
+item_317,dengar,action_words,item_317,word,understands; produces,hear,hear
+item_318,tolong,action_words,item_318,word,understands; produces,help,help
+item_319,sembunyi,action_words,item_319,word,understands; produces,hide,hide
+item_320,pukul,action_words,item_320,word,understands; produces,hit,hit
+item_321,pegang,action_words,item_321,word,understands; produces,hold,hold
+item_322,peluk,action_words,item_322,word,understands; produces,hug,hug
+item_323,lompat,action_words,item_323,word,understands; produces,jump,jump
+item_324,tendang,action_words,item_324,word,understands; produces,kick,kick
+item_325,cium,action_words,item_325,word,understands; produces,kiss,kiss
+item_326,ketuk,action_words,item_326,word,understands; produces,knock,knock
+item_327,jilat,action_words,item_327,word,understands; produces,lick,lick
+item_328,suka,action_words,item_328,word,understands; produces,like,like
+item_329,dengar,action_words,item_329,word,understands; produces,listen,listen
+item_330,tengok,action_words,item_330,word,understands; produces,look,look
+item_331,sayang,action_words,item_331,word,understands; produces,love,love
+item_332,buat,action_words,item_332,word,understands; produces,make,make
+item_333,buka,action_words,item_333,word,understands; produces,open,open
+item_334,(men)cat,action_words,item_334,word,understands; produces,paint,paint (action)
+item_335,angkat,action_words,item_335,word,understands; produces,pick,pick
+item_336,main,action_words,item_336,word,understands; produces,play,play
+item_337,tuang,action_words,item_337,word,understands; produces,pour,pour
+item_338,pura-pura,action_words,item_338,word,understands; produces,pretend,pretend
+item_339,tarik,action_words,item_339,word,understands; produces,pull,pull
+item_340,tolak,action_words,item_340,word,understands; produces,push,push
+item_341,letak,action_words,item_341,word,understands; produces,put,put
+item_342,baca,action_words,item_342,word,understands; produces,read,read
+item_343,menunggang,action_words,item_343,word,understands; produces,ride,ride
+item_344,lari,action_words,item_344,word,understands; produces,run,run
+item_345,cakap,action_words,item_345,word,understands; produces,say,say
+item_346,tengok,action_words,item_346,word,understands; produces,see,see
+item_347,goyang,action_words,item_347,word,understands; produces,shake,shake
+item_348,kongsi,action_words,item_348,word,understands; produces,share,share
+item_349,tunjuk,action_words,item_349,word,understands; produces,show,show
+item_350,nyanyi,action_words,item_350,word,understands; produces,sing,sing
+item_351,duduk,action_words,item_351,word,understands; produces,sit,sit
+item_352,meluncur,action_words,item_352,word,understands; produces,skate,skate
+item_353,tidur,action_words,item_353,word,understands; produces,sleep,sleep
+item_354,menggelongsor,action_words,item_354,word,understands; produces,slide_action,slide (action)
+item_355,senyum,action_words,item_355,word,understands; produces,smile,smile
+item_356,tumpah,action_words,item_356,word,understands; produces,spill,spill
+item_357,berdiri,action_words,item_357,word,understands; produces,stand,stand
+item_358,tinggal,action_words,item_358,word,understands; produces,stay,stay
+item_359,henti,action_words,item_359,word,understands; produces,stop,stop
+item_360,sapu,action_words,item_360,word,understands; produces,sweep,sweep
+item_361,berenang,action_words,item_361,word,understands; produces,swim,swim
+item_362,buai,action_words,item_362,word,understands; produces,swing_action,swing (action)
+item_363,ambil,action_words,item_363,word,understands; produces,take,take
+item_364,cakap,action_words,item_364,word,understands; produces,talk,talk
+item_365,rasa,action_words,item_365,word,understands; produces,taste,taste
+item_366,koyak,action_words,item_366,word,understands; produces,tear,tear
+item_367,beritahu,action_words,item_367,word,understands; produces,tell,tell
+item_368,fikir,action_words,item_368,word,understands; produces,think,think
+item_369,buang,action_words,item_369,word,understands; produces,throw,throw
+item_370,menggelikan,action_words,item_370,word,understands; produces,tickle,tickle
+item_371,sentuh,action_words,item_371,word,understands; produces,touch,touch
+item_372,tunggu,action_words,item_372,word,understands; produces,wait_action,wait
+item_373,bangun,action_words,item_373,word,understands; produces,wake,wake
+item_374,jalan,action_words,item_374,word,understands; produces,walk,walk
+item_375,cuci,action_words,item_375,word,understands; produces,wash,wash
+item_376,tengok,action_words,item_376,word,understands; produces,watch_action,watch (action)
+item_377,lap,action_words,item_377,word,understands; produces,wipe,wipe
+item_378,harap,action_words,item_378,word,understands; produces,wish,wish
+item_379,kerja,action_words,item_379,word,understands; produces,work,work (action)
+item_380,tulis,action_words,item_380,word,understands; produces,write,write
+item_381,dan,connecting_words,item_381,word,understands; produces,and,and
+item_382,sebab,connecting_words,item_382,word,understands; produces,because,because
+item_383,tetapi,connecting_words,item_383,word,understands; produces,but,but
+item_384,kalau,connecting_words,item_384,word,understands; produces,if,if
+item_385,oleh itu,connecting_words,item_385,word,understands; produces,so,so
+item_386,kemudian,connecting_words,item_386,word,understands; produces,then,then
+item_387,epal,food_drink,item_387,word,understands; produces,apple,apple
+item_388,pisang,food_drink,item_388,word,understands; produces,banana,banana
+item_389,biskut,food_drink,item_389,word,understands; produces,biscuit,biscuit
+item_390,roti,food_drink,item_390,word,understands; produces,bread,bread
+item_391,mentega,food_drink,item_391,word,understands; produces,butter,butter
+item_392,kek,food_drink,item_392,word,understands; produces,cake,cake
+item_393,lobak,food_drink,item_393,word,understands; produces,carrot,carrot
+item_394,ayam,food_drink,item_394,word,understands; produces,chicken_food,chicken (food)
+item_395,coklat,food_drink,item_395,word,understands; produces,chocolate,chocolate
+item_396,kopi,food_drink,item_396,word,understands; produces,coffee,coffee
+item_397,emping jagung,food_drink,item_397,word,understands; produces,cornflake,cereal
+item_398,minuman,food_drink,item_398,word,understands; produces,drink_food,drink (beverage)
+item_399,telur,food_drink,item_399,word,understands; produces,egg,egg
+item_400,anggur,food_drink,item_400,word,understands; produces,grape,grapes
+item_401,ikan,food_drink,item_401,word,understands; produces,fish_food,fish (food)
+item_402,makanan,food_drink,item_402,word,understands; produces,food,food
+item_403,kentang goreng,food_drink,item_403,word,understands; produces,French fries,french fries
+item_404,buah-buahan,food_drink,item_404,word,understands; produces,fruit,fruit
+item_405,burger,food_drink,item_405,word,understands; produces,hamburger/burger,hamburger
+item_406,ais,food_drink,item_406,word,understands; produces,ice,ice
+item_407,ais krim,food_drink,item_407,word,understands; produces,ice cream,ice cream
+item_408,jem,food_drink,item_408,word,understands; produces,jam,jam
+item_409,agar-agar,food_drink,item_409,word,understands; produces,jelly,jelly
+item_410,jus,food_drink,item_410,word,understands; produces,juice,juice
+item_411,daging,food_drink,item_411,word,understands; produces,meat,meat
+item_412,buah,food_drink,item_412,word,understands; produces,melon,melon
+item_413,susu,food_drink,item_413,word,understands; produces,milk,milk
+item_414,mi,food_drink,item_414,word,understands; produces,noodles,noodles
+item_415,kacang,food_drink,item_415,word,understands; produces,nut,nut
+item_416,oren,food_drink,item_416,word,understands; produces,orange,orange
+item_417,betik,food_drink,item_417,word,understands; produces,papaya,papaya
+item_418,bubur,food_drink,item_418,word,understands; produces,porridge,porridge
+item_419,nasi,food_drink,item_419,word,understands; produces,rice,rice
+item_420,sos,food_drink,item_420,word,understands; produces,sauce,sauce
+item_421,sup,food_drink,item_421,word,understands; produces,soup,soup
+item_422,gula,food_drink,item_422,word,understands; produces,sugar,sugar
+item_423,gula-gula,food_drink,item_423,word,understands; produces,sweets,sweets
+item_424,the,food_drink,item_424,word,understands; produces,tea,tea
+item_425,sayur,food_drink,item_425,word,understands; produces,vegetables,vegetable
+item_426,vitamin,food_drink,item_426,word,understands; produces,vitamin,vitamin
+item_427,air,food_drink,item_427,word,understands; produces,water_food,water (beverage)
+item_428,yogurt,food_drink,item_428,word,understands; produces,yogurt,yogurt
+item_429,hawa dingin,furniture_rooms,item_429,word,understands; produces,aircon,air conditioner
+item_430,kerusi tinggi,furniture_rooms,item_430,word,understands; produces,baby chair,baby chair
+item_431,bilik mandi,furniture_rooms,item_431,word,understands; produces,bathroom,bathroom
+item_432,katil,furniture_rooms,item_432,word,understands; produces,bed,bed
+item_433,bilik tidur,furniture_rooms,item_433,word,understands; produces,bedroom,bedroom
+item_434,kerusi,furniture_rooms,item_434,word,understands; produces,chair,chair
+item_435,pemasak,furniture_rooms,item_435,word,understands; produces,cooker,cooker
+item_436,pintu,furniture_rooms,item_436,word,understands; produces,door,door
+item_437,laci,furniture_rooms,item_437,word,understands; produces,drawer,drawer
+item_438,kipas,furniture_rooms,item_438,word,understands; produces,fan,fan
+item_439,peti sejuk,furniture_rooms,item_439,word,understands; produces,fridge,refrigerator
+item_440,dapur,furniture_rooms,item_440,word,understands; produces,kitchen,kitchen
+item_441,bilik tetamu,furniture_rooms,item_441,word,understands; produces,living room,living room
+item_442,ketuhar,furniture_rooms,item_442,word,understands; produces,microwave oven,microwave
+item_443,tong kencing,furniture_rooms,item_443,word,understands; produces,potty,potty
+item_444,bilik,furniture_rooms,item_444,word,understands; produces,room,room
+item_445,mandi hujan,furniture_rooms,item_445,word,understands; produces,shower,shower
+item_446,sinki,furniture_rooms,item_446,word,understands; produces,sink,sink
+item_447,sofa,furniture_rooms,item_447,word,understands; produces,sofa,sofa
+item_448,tangga,furniture_rooms,item_448,word,understands; produces,stairs,stairs
+item_449,bangku,furniture_rooms,item_449,word,understands; produces,stool,stool
+item_450,tempat masak,furniture_rooms,item_450,word,understands; produces,stove,stove
+item_451,meja,furniture_rooms,item_451,word,understands; produces,table,table
+item_452,tandas,furniture_rooms,item_452,word,understands; produces,toilet,toilet
+item_453,televisyen,furniture_rooms,item_453,word,understands; produces,tv/ television,TV
+item_454,mesin cuci,furniture_rooms,item_454,word,understands; produces,washing machine,washing machine
+item_455,tingkap,furniture_rooms,item_455,word,understands; produces,window,window
+item_456,bayi,people,item_456,word,understands; produces,baby,baby
+item_457,budak lelaki,people,item_457,word,understands; produces,boy,boy
+item_458,anak,people,item_458,word,understands; produces,child,child
+item_459,pelawak,people,item_459,word,understands; produces,clown,clown
+item_460,doktor,people,item_460,word,understands; produces,doctor,doctor
+item_461,ahli bomba,people,item_461,word,understands; produces,fireman,firefighter
+item_462,kawan,people,item_462,word,understands; produces,friend,friend
+item_463,budak perempuan,people,item_463,word,understands; produces,girl,girl
+item_464,lelaki,people,item_464,word,understands; produces,man,man
+item_465,jururawat,people,item_465,word,understands; produces,nurse,nurse
+item_466,orang,people,item_466,word,understands; produces,people,people
+item_467,nama haiwan belaan,people,item_467,word,understands; produces,pet's name,pet's name
+item_468,polis,people,item_468,word,understands; produces,policeman,police
+item_469,posmen,people,item_469,word,understands; produces,postman,postman
+item_470,cikgu,people,item_470,word,understands; produces,teacher,teacher
+item_471,perempuan,people,item_471,word,understands; produces,woman,woman
+item_472,tentang,locations,item_472,word,understands; produces,about,about
+item_473,di atas,locations,item_473,word,understands; produces,above,above
+item_474,sekitar,locations,item_474,word,understands; produces,around,around
+item_475,di,locations,item_475,word,understands; produces,at,at
+item_476,jauh,locations,item_476,word,understands; produces,away,away
+item_477,di belakang,locations,item_477,word,understands; produces,back,back
+item_478,di belakang,locations,item_478,word,understands; produces,behind,behind
+item_479,di tepi,locations,item_479,word,understands; produces,beside,beside
+item_480,oleh,locations,item_480,word,understands; produces,by,by
+item_481,di bawah,locations,item_481,word,understands; produces,down,down
+item_482,untuk,locations,item_482,word,understands; produces,for,for
+item_483,di sini,locations,item_483,word,understands; produces,here,here
+item_484,dalam,locations,item_484,word,understands; produces,in,in
+item_485,di dalam,locations,item_485,word,understands; produces,inside,inside
+item_486,di sebelah,locations,item_486,word,understands; produces,next to,next to
+item_487,di atas,locations,item_487,word,understands; produces,on top of,on top of
+item_488,luar,locations,item_488,word,understands; produces,out,out
+item_489,di sana,locations,item_489,word,understands; produces,there,there
+item_490,ke,locations,item_490,word,understands; produces,to,to
+item_491,di bawah,locations,item_491,word,understands; produces,under,under
+item_492,ke atas,locations,item_492,word,understands; produces,up,up
+item_493,dengan,locations,item_493,word,understands; produces,with,with
+item_494,binatang,animals,item_494,word,understands; produces,animal,animal
+item_495,semut,animals,item_495,word,understands; produces,ant,ant
+item_496,beruang,animals,item_496,word,understands; produces,bear,bear
+item_497,lebah,animals,item_497,word,understands; produces,bee,bee
+item_498,burung,animals,item_498,word,understands; produces,bird,bird
+item_499,kerbau,animals,item_499,word,understands; produces,buffalo,
+item_500,rama-rama,animals,item_500,word,understands; produces,butterfly,butterfly
+item_501,kucing,animals,item_501,word,understands; produces,cat,cat
+item_502,ayam,animals,item_502,word,understands; produces,chicken_animals,chicken (animal)
+item_503,lembu,animals,item_503,word,understands; produces,cow,cow
+item_504,kancil,animals,item_504,word,understands; produces,deer,deer
+item_505,anjing,animals,item_505,word,understands; produces,dog,dog
+item_506,itik,animals,item_506,word,understands; produces,duck,duck
+item_507,gajah,animals,item_507,word,understands; produces,elephant,elephant
+item_508,ikan,animals,item_508,word,understands; produces,fish_animals,fish (animal)
+item_509,musang,animals,item_509,word,understands; produces,fox,fox
+item_510,katak,animals,item_510,word,understands; produces,frog,frog
+item_511,zirafah,animals,item_511,word,understands; produces,giraffe,giraffe
+item_512,kambing,animals,item_512,word,understands; produces,goat,goat
+item_513,angsa,animals,item_513,word,understands; produces,goose,goose
+item_514,hamster,animals,item_514,word,understands; produces,hamster,
+item_515,ayam betina,animals,item_515,word,understands; produces,hen,hen
+item_516,badak air,animals,item_516,word,understands; produces,hippopotamus,hippopotamus
+item_517,kuda,animals,item_517,word,understands; produces,horse,horse
+item_518,lalat,animals,item_518,word,understands; produces,house fly,fly (animal)
+item_519,kanggaru,animals,item_519,word,understands; produces,kangaroo,kangaroo
+item_520,anak kucing,animals,item_520,word,understands; produces,kitten,cat
+item_521,anak kambing,animals,item_521,word,understands; produces,lamb,lamb
+item_522,singa,animals,item_522,word,understands; produces,lion,lion
+item_523,biawak,animals,item_523,word,understands; produces,lizard,lizard
+item_524,monyek,animals,item_524,word,understands; produces,monkey,monkey
+item_525,nyamuk,animals,item_525,word,understands; produces,mosquito,mosquito
+item_526,tikus,animals,item_526,word,understands; produces,mouse,mouse
+item_527,sotong,animals,item_527,word,understands; produces,octopus,octopus
+item_528,burung hantu,animals,item_528,word,understands; produces,owl,owl
+item_529,burung penguin,animals,item_529,word,understands; produces,penguin,penguin
+item_530,orang utan,animals,item_530,word,understands; produces,orang-utan,
+item_531,anak anjing,animals,item_531,word,understands; produces,puppy,puppy
+item_532,arnba,animals,item_532,word,understands; produces,rabbit,bunny
+item_533,ayam jantan,animals,item_533,word,understands; produces,rooster,rooster
+item_534,ikan yu,animals,item_534,word,understands; produces,shark,shark
+item_535,biri-biri,animals,item_535,word,understands; produces,sheep,sheep
+item_536,siput,animals,item_536,word,understands; produces,snail,snail
+item_537,ular,animals,item_537,word,understands; produces,snake,snake
+item_538,labah-labah,animals,item_538,word,understands; produces,spider,spider
+item_539,anak beruang,animals,item_539,word,understands; produces,teddy bear,teddybear
+item_540,harimau,animals,item_540,word,understands; produces,tiger,tiger
+item_541,kura-kura,animals,item_541,word,understands; produces,tortoise,
+item_542,penyu,animals,item_542,word,understands; produces,turtle,turtle
+item_543,serigala,animals,item_543,word,understands; produces,wolf,wolf
+item_544,ulat,animals,item_544,word,understands; produces,worm,worm
+item_545,kuda belang,animals,item_545,word,understands; produces,zebra,zebra
+item_546,bagaimana,question_words,item_546,word,understands; produces,how,how
+item_547,apa,question_words,item_547,word,understands; produces,what,what
+item_548,bila,question_words,item_548,word,understands; produces,when,when (question)
+item_549,mana,question_words,item_549,word,understands; produces,where,where (question)
+item_550,mana satu,question_words,item_550,word,understands; produces,which,which (question)
+item_551,siapa,question_words,item_551,word,understands; produces,who,who
+item_552,mengapa,question_words,item_552,word,understands; produces,why,why
+item_553,tong,household,item_553,word,understands; produces,bin,bin
+item_554,selimut,household,item_554,word,understands; produces,blanket,blanket
+item_555,botol,household,item_555,word,understands; produces,bottle,bottle
+item_556,mangkuk,household,item_556,word,understands; produces,bowl,bowl
+item_557,kotak,household,item_557,word,understands; produces,box,box
+item_558,penyapu,household,item_558,word,understands; produces,broom,broom
+item_559,berus,household,item_559,word,understands; produces,brush,brush (object)
+item_560,baldi,household,item_560,word,understands; produces,bucket,bucket
+item_561,kamera,household,item_561,word,understands; produces,camera,camera
+item_562,tin,household,item_562,word,understands; produces,can_household,can (object)
+item_563,penyepit,household,item_563,word,understands; produces,chopsticks,chopsticks
+item_564,jam,household,item_564,word,understands; produces,clock,clock
+item_565,syiling,household,item_565,word,understands; produces,coins,coin
+item_566,sika,household,item_566,word,understands; produces,comb,comb (object)
+item_567,cawan,household,item_567,word,understands; produces,cup,cup
+item_568,garpu,household,item_568,word,understands; produces,fork,fork
+item_569,kaca,household,item_569,word,understands; produces,glass,glass
+item_570,penukul,household,item_570,word,understands; produces,hammer,hammer
+item_571,telefon bimbit,household,item_571,word,understands; produces,handphone,phone
+item_572,balang,household,item_572,word,understands; produces,jar,jar
+item_573,kunci,household,item_573,word,understands; produces,keys,keys
+item_574,pisau,household,item_574,word,understands; produces,knife,knife
+item_575,lampu,household,item_575,word,understands; produces,lamp,lamp
+item_576,cahaya,household,item_576,word,understands; produces,light,light
+item_577,ubat,household,item_577,word,understands; produces,medicine,medicine
+item_578,cermin,household,item_578,word,understands; produces,mirror,mirror
+item_579,duit,household,item_579,word,understands; produces,money,money
+item_580,pengelap lantai,household,item_580,word,understands; produces,mop,mop
+item_581,paku,household,item_581,word,understands; produces,nail_house,nail (object)
+item_582,kertas,household,item_582,word,understands; produces,paper,paper
+item_583,lukisan,household,item_583,word,understands; produces,picture,picture
+item_584,bantal,household,item_584,word,understands; produces,pillow,pillow
+item_585,tumbuh-tumbuhan,household,item_585,word,understands; produces,plant,plant
+item_586,pinggan,household,item_586,word,understands; produces,plate,plate
+item_587,dompet,household,item_587,word,understands; produces,purse,purse
+item_588,radio,household,item_588,word,understands; produces,radio,radio
+item_589,sampah,household,item_589,word,understands; produces,rubbish,trash
+item_590,gunting,household,item_590,word,understands; produces,scissors,scissors
+item_591,sabun,household,item_591,word,understands; produces,soap,soap
+item_592,sudu,household,item_592,word,understands; produces,spoon,spoon
+item_593,telefon,household,item_593,word,understands; produces,telephone,telephone
+item_594,kertas tisu,household,item_594,word,understands; produces,tissue paper,tissue
+item_595,berus gigi,household,item_595,word,understands; produces,tooth-brush,toothbrush
+item_596,tuala,household,item_596,word,understands; produces,towel,towel
+item_597,payung,household,item_597,word,understands; produces,umbrella,umbrella
+item_598,hampagas,household,item_598,word,understands; produces,vacuum cleaner,vacuum
+item_599,VCD,household,item_599,word,understands; produces,VCD,CD
+item_600,jam tangan,household,item_600,word,understands; produces,watch_household,watch (object)

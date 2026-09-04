@@ -1,0 +1,49 @@
+type,value,data_value
+sex,M,M
+sex,F,F
+ethnicity,,
+ethnicity,H,H
+race,A,A
+race,B,B
+race,,
+race,W,W
+race,O,O
+race,O,P
+mom_ed,primary,6
+mom_ed,primary,7
+mom_ed,primary,8
+mom_ed,some secondary,9
+mom_ed,some secondary,10
+mom_ed,some secondary,11
+mom_ed,secondary,12
+mom_ed,some college,13
+mom_ed,some college,14
+mom_ed,some college,15
+mom_ed,college,16
+mom_ed,some graduate,17
+mom_ed,graduate,18
+first_signs,yes,1
+first_signs,no,
+phrases,understands,1
+phrases,,
+starting_to_talk,never,n
+starting_to_talk,sometimes,s
+starting_to_talk,often,o
+word,produces,2
+word,understands,1
+word,,0
+gestures_first,not yet,n
+gestures_first,sometimes,s
+gestures_first,often,o
+gestures_first,not yet,0
+gestures_first,often,"s, o"
+gestures_first,,p
+gestures_first,,pn
+gestures_games,yes,1
+gestures_games,no,0
+gestures_objects,yes,1
+gestures_objects,no,0
+gestures_parent,yes,1
+gestures_parent,no,0
+gestures_adult,yes,1
+gestures_adult,no,0

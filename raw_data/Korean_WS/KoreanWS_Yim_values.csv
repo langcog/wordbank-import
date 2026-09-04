@@ -1,0 +1,28 @@
+type,value,data_value
+sex,M,M
+sex,F,F
+mom_ed,Secondary,12
+mom_ed,Some College,14
+mom_ed,College,16
+mom_ed,Graduate,18
+mom_ed,Graduate,18+(21)
+mom_ed,Graduate,23
+mom_ed,,
+word,produces,P
+word,produces,L
+word,produces,B
+word,understands,U
+word,understands,R
+word,,N
+word,,
+combine,often,O
+combine,sometimes,S
+combine,not yet,N
+combine,not yet,
+sentence_structure,often,O
+sentence_structure,sometimes,S
+sentence_structure,not yet,N
+sentence_structure,not yet,
+complexity,2,2
+complexity,1,1
+complexity,0,

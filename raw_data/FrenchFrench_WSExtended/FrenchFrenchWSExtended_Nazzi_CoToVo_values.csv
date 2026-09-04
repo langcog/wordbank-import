@@ -1,0 +1,23 @@
+﻿type,value,data_value
+sex,M,m
+sex,F,f
+mom_ed,some secondary,11
+mom_ed,secondary,12
+mom_ed,some college,13
+mom_ed,some college,14
+mom_ed,some college,15
+mom_ed,college,16
+mom_ed,some graduate,17
+mom_ed,graduate,18
+mom_ed,graduate,19
+mom_ed,graduate,20
+mom_ed,graduate,23
+word,produces,2
+word,understands,1
+word,,0
+how_use_words,sometimes/often,1
+how_use_words,not yet,0
+verb_endings,sometimes/often,1
+verb_endings,not yet,0
+complexity,complex,1
+complexity,simple,0

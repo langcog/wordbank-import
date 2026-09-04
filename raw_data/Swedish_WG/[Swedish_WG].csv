@@ -1,0 +1,386 @@
+definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
+brrr,sounds,brrr,word,understands; produces,NA,item_1,vroom,vroom
+bä bä,sounds,ba_ba,word,understands; produces,NA,item_2,baa baa,baa baa
+grrr,sounds,grrr,word,understands; produces,NA,item_3,grrr,grrr
+kuckeliku,sounds,kuckeliku,word,understands; produces,NA,item_4,cockadoodledoo,cockadoodledoo
+kvack kvack,sounds,kvack_kvack,word,understands; produces,NA,item_5,quack quack,quack quack
+mjau,sounds,mjau,word,understands; produces,NA,item_6,meow,meow
+mu,sounds,mu,word,understands; produces,NA,item_7,moo,moo
+nam nam,sounds,nam_nam,word,understands; produces,NA,item_8,yum yum,yum yum
+tuff tuff,sounds,tuff_tuff,word,understands; produces,NA,item_9,choo choo,choo choo
+vov vov,sounds,vov_vov,word,understands; produces,NA,item_10,woof woof,woof woof
+anka,animals,anka,word,understands; produces,NA,item_11,duck,duck
+apa,animals,apa,word,understands; produces,NA,item_12,monkey,monkey
+bi,animals,bi,word,understands; produces,NA,item_13,bee,bee
+björn,animals,bjorn,word,understands; produces,NA,item_14,bear,bear
+djur,animals,djur,word,understands; produces,NA,item_15,animal,animal
+ekorre,animals,ekorre,word,understands; produces,NA,item_16,squirrel,squirrel
+elefant,animals,elefant,word,understands; produces,NA,item_17,elephant,elephant
+fisk (animal),animals,fisk,word,understands; produces,NA,item_18,fish,fish (animal)
+fågel,animals,fagel,word,understands; produces,NA,item_19,bird,bird
+får,animals,far,word,understands; produces,NA,item_20,sheep,sheep
+giraff,animals,giraff,word,understands; produces,NA,item_21,giraffe,giraffe
+gris,animals,gris,word,understands; produces,NA,item_22,pig,pig
+groda,animals,groda,word,understands; produces,NA,item_23,frog,frog
+gås,animals,gas,word,understands; produces,NA,item_24,goose,goose
+hund,animals,hund,word,understands; produces,NA,item_25,dog,dog
+häst,animals,hast,word,understands; produces,NA,item_26,horse,horse
+kanin,animals,kanin,word,understands; produces,NA,item_27,bunny,bunny
+katt,animals,katt,word,understands; produces,NA,item_28,cat,cat
+kisse,animals,kisse,word,understands; produces,NA,item_29,kitty,kitty
+ko,animals,ko,word,understands; produces,NA,item_30,cow,cow
+kyckling (animal),animals,kyckling,word,understands; produces,NA,item_31,chicken,chicken (animal)
+lamm,animals,lamm,word,understands; produces,NA,item_32,lamb,lamb
+lejon,animals,lejon,word,understands; produces,NA,item_33,lion,lion
+mus,animals,mus,word,understands; produces,NA,item_34,mouse,mouse
+nalle,animals,nalle,word,understands; produces,NA,item_35,teddybear,teddybear
+pingvin,animals,pingvin,word,understands; produces,NA,item_36,penguin,penguin
+ponny,animals,ponny,word,understands; produces,NA,item_37,pony,pony
+skalbagge,animals,skalbagge,word,understands; produces,NA,item_38,bug,bug
+sköldpadda,animals,skoldpadda,word,understands; produces,NA,item_39,turtle,turtle
+tiger,animals,tiger,word,understands; produces,NA,item_40,tiger,tiger
+uggla,animals,uggla,word,understands; produces,NA,item_41,owl,owl
+valp,animals,valp,word,understands; produces,NA,item_42,puppy,puppy
+åsna,animals,asna,word,understands; produces,NA,item_43,donkey,donkey
+barnvagn,vehicles,barnvagn,word,understands; produces,NA,item_44,stroller,stroller
+bil,vehicles,bil,word,understands; produces,NA,item_45,car,car
+brandbil,vehicles,brandbil,word,understands; produces,NA,item_46,firetruck,firetruck
+buss,vehicles,buss,word,understands; produces,NA,item_47,bus,bus
+cykel,vehicles,cykel,word,understands; produces,NA,item_48,bicycle,bicycle
+flygplan,vehicles,flygplan,word,understands; produces,NA,item_49,airplane,airplane
+lastbil,vehicles,lastbil,word,understands; produces,NA,item_50,truck,truck
+motorcykel,vehicles,motorcykel,word,understands; produces,NA,item_51,motorcycle,motorcycle
+traktor,vehicles,traktor,word,understands; produces,NA,item_52,tractor,tractor
+tåg,vehicles,tag,word,understands; produces,NA,item_53,train,train
+ballong,toys,ballong,word,understands; produces,NA,item_54,ballon,balloon
+bok,toys,bok,word,understands; produces,NA,item_55,book,book
+boll,toys,boll,word,understands; produces,NA,item_56,ball,ball
+docka,toys,docka,word,understands; produces,NA,item_57,doll,doll
+kloss,toys,kloss,word,understands; produces,NA,item_58,block,blocks
+leksak,toys,leksak,word,understands; produces,NA,item_59,toy,toy (object)
+penna,toys,penna,word,understands; produces,NA,item_60,pen,pen/pencil
+såpbubblor,toys,sapbubblor,word,understands; produces,NA,item_61,bubbles,bubbles
+apelsin,food_drink,apelsin,word,understands; produces,NA,item_62,orange,orange (food)
+banan,food_drink,banan,word,understands; produces,NA,item_63,banana,banana
+bröd,food_drink,brod,word,understands; produces,NA,item_64,bread,bread
+fisk (food),food_drink,fisk,word,understands; produces,NA,item_65,fish,fish (food)
+flingor,food_drink,flingor,word,understands; produces,NA,item_66,cereal,cereal
+glass,food_drink,glass,word,understands; produces,NA,item_67,ice cream,ice cream
+godis,food_drink,godis,word,understands; produces,NA,item_68,candy,candy
+juice,food_drink,juice,word,understands; produces,NA,item_69,juice,juice
+kaffe,food_drink,kaffe,word,understands; produces,NA,item_70,coffee,coffee
+kaka,food_drink,kaka,word,understands; produces,NA,item_71,cookie,cookie
+kex,food_drink,kex,word,understands; produces,NA,item_72,cracker,cracker
+kyckling (food),food_drink,kyckling,word,understands; produces,NA,item_73,chicken,chicken (food)
+kött,food_drink,kott,word,understands; produces,NA,item_74,meat,meat
+köttbullar,food_drink,kottbullar,word,understands; produces,NA,item_75,meatballs,meatball
+mat,food_drink,mat,word,understands; produces,NA,item_76,food,food
+mjölk,food_drink,mjolk,word,understands; produces,NA,item_77,milk,milk
+morot,food_drink,morot,word,understands; produces,NA,item_78,carrot,carrot
+ost,food_drink,ost,word,understands; produces,NA,item_79,cheese,cheese
+pannkaka,food_drink,pannkaka,word,understands; produces,NA,item_80,pancake,pancake
+pizza,food_drink,pizza,word,understands; produces,NA,item_81,pizza,pizza
+ris,food_drink,ris,word,understands; produces,NA,item_82,rice,rice
+russin,food_drink,russin,word,understands; produces,NA,item_83,raisin,raisin
+smör,food_drink,smor,word,understands; produces,NA,item_84,butter,butter
+smörgås (macka),food_drink,macka,word,understands; produces,NA,item_85,sandwich,sandwich
+spagetti,food_drink,spagetti,word,understands; produces,NA,item_86,spaghetti,pasta
+skorpa,food_drink,skorpa,word,understands; produces,NA,item_87,biscuit,cracker
+vatten (beverage),food_drink,vatten,word,understands; produces,NA,item_88,water,water (beverage)
+ägg,food_drink,agg,word,understands; produces,NA,item_89,egg,egg
+äpple,food_drink,apple,word,understands; produces,NA,item_90,apple,apple
+ärtor,food_drink,artor,word,understands; produces,NA,item_91,peas,peas
+blixtlås,clothing,blixtlas,word,understands; produces,NA,item_92,zipper,zipper
+blöja,clothing,bloja,word,understands; produces,NA,item_93,diaper,diaper
+byxa,clothing,byxa,word,understands; produces,NA,item_94,pants,pants
+halsband,clothing,halsband,word,understands; produces,NA,item_95,necklace,necklace
+jacka,clothing,jacka,word,understands; produces,NA,item_96,jacket,jacket
+jeans,clothing,jeans,word,understands; produces,NA,item_97,jeans,jeans
+knapp,clothing,knapp,word,understands; produces,NA,item_98,button,button
+kängor,clothing,kangor,word,understands; produces,NA,item_99,boots,boots
+mössa,clothing,mossa,word,understands; produces,NA,item_100,hat,hat
+nattlinne,clothing,nattlinne,word,understands; produces,NA,item_101,nightgown,nightgown
+overall,clothing,overall,word,understands; produces,NA,item_102,zip-suit,overalls
+pyjamas,clothing,pyjamas,word,understands; produces,NA,item_103,pajamas,pajamas
+pärlor,clothing,parlor,word,understands; produces,NA,item_104,beads,beads
+skjorta,clothing,skjorta,word,understands; produces,NA,item_105,shirt,shirt
+sko,clothing,sko,word,understands; produces,NA,item_106,shoe,shoe
+socka,clothing,socka,word,understands; produces,NA,item_107,sock,sock
+stövel,clothing,stovel,word,understands; produces,NA,item_108,wellington,boots
+tröja,clothing,troja,word,understands; produces,NA,item_109,sweater,sweater
+vantar,clothing,vantar,word,understands; produces,NA,item_110,mittens,mitten
+ansikte,body_parts,ansikte,word,understands; produces,NA,item_111,face,face
+arm,body_parts,arm,word,understands; produces,NA,item_112,arm,arm
+ben,body_parts,ben,word,understands; produces,NA,item_113,leg,leg
+finger,body_parts,finger,word,understands; produces,NA,item_114,finger,finger
+fot,body_parts,fot,word,understands; produces,NA,item_115,foot,foot
+haka,body_parts,haka,word,understands; produces,NA,item_116,chin,chin
+hand,body_parts,hand,word,understands; produces,NA,item_117,hand,hand
+huvud,body_parts,huvud,word,understands; produces,NA,item_118,head,head
+hår,body_parts,har,word,understands; produces,NA,item_119,hair,hair
+kind,body_parts,kind,word,understands; produces,NA,item_120,cheek,cheek
+knä,body_parts,kna,word,understands; produces,NA,item_121,knee,knee
+mage,body_parts,mage,word,understands; produces,NA,item_122,tummy,tummy
+mun,body_parts,mun,word,understands; produces,NA,item_123,mouth,mouth
+navel,body_parts,navel,word,understands; produces,NA,item_124,belly button,belly button
+näsa,body_parts,nasa,word,understands; produces,NA,item_125,nose,nose
+stjärt,body_parts,stjart,word,understands; produces,NA,item_126,buttocks,butt
+tand,body_parts,tand,word,understands; produces,NA,item_127,tooth,tooth
+tunga,body_parts,tunga,word,understands; produces,NA,item_128,tongue,tongue
+tå,body_parts,ta,word,understands; produces,NA,item_129,toe,toe
+öga,body_parts,oga,word,understands; produces,NA,item_130,eye,eye
+öra,body_parts,ora,word,understands; produces,NA,item_131,ear,ear
+badkar,furniture_rooms,badkar,word,understands; produces,NA,item_132,bathtub,bathtub
+badrum,furniture_rooms,badrum,word,understands; produces,NA,item_133,bathroom,bathroom
+barnstol,furniture_rooms,barnstol,word,understands; produces,NA,item_134,high chair,high chair
+bord,furniture_rooms,bord,word,understands; produces,NA,item_135,table,table
+diskbänk,furniture_rooms,diskbank,word,understands; produces,NA,item_136,sink,sink
+dörr,furniture_rooms,dorr,word,understands; produces,NA,item_137,door,door
+fönster,furniture_rooms,fonster,word,understands; produces,NA,item_138,window,window
+garage,furniture_rooms,garage,word,understands; produces,NA,item_139,garage,garage
+gungstol,furniture_rooms,gungstol,word,understands; produces,NA,item_140,rocking chair,rocking chair
+kylskåp,furniture_rooms,kylskap,word,understands; produces,NA,item_141,refrigerator,refrigerator
+kök,furniture_rooms,kok,word,understands; produces,NA,item_142,kitchen,kitchen
+lekrum,furniture_rooms,lekrum,word,understands; produces,NA,item_143,playroom,play pen
+låda (drawer),furniture_rooms,lada,word,understands; produces,NA,item_144,drawer,drawer
+potta,furniture_rooms,potta,word,understands; produces,NA,item_145,potty,potty
+soffa,furniture_rooms,soffa,word,understands; produces,NA,item_146,sofa,couch
+sovrum,furniture_rooms,sovrum,word,understands; produces,NA,item_147,bedroom,bedroom
+stol,furniture_rooms,stol,word,understands; produces,NA,item_148,chair,chair
+säng,furniture_rooms,sang,word,understands; produces,NA,item_149,bed,bed
+trappa,furniture_rooms,trappa,word,understands; produces,NA,item_150,stairs,stairs
+TV,furniture_rooms,TV,word,understands; produces,NA,item_151,TV,TV
+ugn,furniture_rooms,ugn,word,understands; produces,NA,item_152,oven,oven
+vardagsrum,furniture_rooms,vardagsrum,word,understands; produces,NA,item_153,living room,living room
+öppen spis,furniture_rooms,oppen_spis,word,understands; produces,NA,item_154,fireplace,fireplace
+bild,household,bild,word,understands; produces,NA,item_155,picture,picture
+blomma,household,blomma,word,understands; produces,NA,item_156,flower,flower
+borste,household,borste,word,understands; produces,NA,item_157,brush,broom
+börs,household,bors,word,understands; produces,NA,item_158,purse,purse
+dammsugare,household,dammsugare,word,understands; produces,NA,item_159,vacuum,vacuum
+fat,household,fat,word,understands; produces,NA,item_160,dish,dish
+filt,household,filt,word,understands; produces,NA,item_161,blanket,blanket
+flaska,household,flaska,word,understands; produces,NA,item_162,bottle,bottle
+gaffel,household,gaffel,word,understands; produces,NA,item_163,fork,fork
+glas,household,glas,word,understands; produces,NA,item_164,glass,glass
+glasögon,household,glasogon,word,understands; produces,NA,item_165,glasses,glasses
+hammare,household,hammare,word,understands; produces,NA,item_166,hammer,hammer
+handduk,household,handduk,word,understands; produces,NA,item_167,towel,towel
+kam,household,kam,word,understands; produces,NA,item_168,comb,comb (object)
+klocka,household,klocka,word,understands; produces,NA,item_169,clock,clock
+kniv,household,kniv,word,understands; produces,NA,item_170,knife,knife
+kopp,household,kopp,word,understands; produces,NA,item_171,cup,cup
+kudde,household,kudde,word,understands; produces,NA,item_172,pillow,pillow
+lampa,household,lampa,word,understands; produces,NA,item_173,lamp,lamp
+ljus,household,ljus,word,understands; produces,NA,item_174,candle,candle
+låda (box),household,lada,word,understands; produces,NA,item_175,box,box
+medicin,household,medicin,word,understands; produces,NA,item_176,medicine,medicine
+mynt,household,mynt,word,understands; produces,NA,item_177,coin,penny
+nycklar,household,nycklar,word,understands; produces,NA,item_178,keys,key
+papper,household,papper,word,understands; produces,NA,item_179,paper,paper
+pengar,household,pengar,word,understands; produces,NA,item_180,money,money
+radio,household,radio,word,understands; produces,NA,item_181,radio,radio
+sax,household,sax,word,understands; produces,NA,item_182,scissors,scissors
+sked,household,sked,word,understands; produces,NA,item_183,spoon,spoon
+skräp,household,skrap,word,understands; produces,NA,item_184,garbage,trash
+skål,household,skal,word,understands; produces,NA,item_185,bowl,bowl
+tandborste,household,tandborste,word,understands; produces,NA,item_186,toothbrush,toothbrush
+telefon,household,telefon,word,understands; produces,NA,item_187,telephone,telephone
+tvål,household,tval,word,understands; produces,NA,item_188,soap,soap
+affär,outside,affar,word,understands; produces,NA,item_189,shop,store
+arbetet,outside,arbetet,word,understands; produces,NA,item_190,work,work (place)
+bassäng,outside,bassang,word,understands; produces,NA,item_191,pool,pool
+dagis,outside,dagis,word,understands; produces,NA,item_192,kindergarten,kindergarten
+gunga (object),outside,gunga,word,understands; produces,NA,item_193,swing,swing (object)
+gård,outside,gard,word,understands; produces,NA,item_194,yard,yard
+hemma,outside,hemma,word,understands; produces,NA,item_195,home,home
+himmel,outside,himmel,word,understands; produces,NA,item_196,heaven,sky
+hus,outside,hus,word,understands; produces,NA,item_197,house,house
+kalas,outside,kalas,word,understands; produces,NA,item_198,party,party
+kyrkan,outside,kyrkan,word,understands; produces,NA,item_199,church,church
+landet,outside,landet,word,understands; produces,NA,item_200,country,field
+måne,outside,mane,word,understands; produces,NA,item_201,moon,moon
+lekpark,outside,lekpark,word,understands; produces,NA,item_202,playground,playground
+regn,outside,regn,word,understands; produces,NA,item_203,rain,rain
+rutschbana,outside,rutschbana,word,understands; produces,NA,item_204,slide,slide (object)
+skola,outside,skola,word,understands; produces,NA,item_205,school,school
+snö,outside,sno,word,understands; produces,NA,item_206,snow,snow
+sol,outside,sol,word,understands; produces,NA,item_207,sun,sun
+spade,outside,spade,word,understands; produces,NA,item_208,spade,shovel
+sten,outside,sten,word,understands; produces,NA,item_209,stone,rock (object)
+stjärna,outside,stjarna,word,understands; produces,NA,item_210,star,star
+stranden,outside,stranden,word,understands; produces,NA,item_211,beach,beach
+trädgård,outside,tradgard,word,understands; produces,NA,item_212,garden,garden
+träd,outside,trad,word,understands; produces,NA,item_213,tree,tree
+ute,outside,ute,word,understands; produces,NA,item_214,outside,outside
+vatten (not beverage),outside,vatten,word,understands; produces,NA,item_215,water,water (not beverage)
+baby,people,baby,word,understands; produces,NA,item_216,baby,baby
+barnets eget namn,people,barnets_eget_namn,word,understands; produces,NA,item_217,child´s own name,child's own name
+barnvakt,people,barnvakt,word,understands; produces,NA,item_218,babysitter,babysitter
+barn,people,barn,word,understands; produces,NA,item_219,child,child
+barnvaktens namn,people,barnvaktens_namn,word,understands; produces,NA,item_220,babysitter´s name,babysitter's name
+bror,people,bror,word,understands; produces,NA,item_221,brother,brother
+farbror,people,farbror,word,understands; produces,NA,item_222,uncle,uncle
+farfar,people,farfar,word,understands; produces,NA,item_223,grandpa,grandpa
+farmor,people,farmor,word,understands; produces,NA,item_224,grandma,grandma
+faster,people,faster,word,understands; produces,NA,item_225,aunt,aunt
+flicka,people,flicka,word,understands; produces,NA,item_226,girl,girl
+lärare,people,larare,word,understands; produces,NA,item_227,teacher,teacher
+mamma,people,mamma,word,understands; produces,NA,item_228,mother,mommy
+man,people,man,word,understands; produces,NA,item_229,man,man
+morbror,people,morbror,word,understands; produces,NA,item_230,uncle,uncle
+morfar,people,morfar,word,understands; produces,NA,item_231,grandpa,grandpa
+mormor,people,mormor,word,understands; produces,NA,item_232,grandma,grandma
+moster,people,moster,word,understands; produces,NA,item_233,aunt,aunt
+människor,people,manniskor,word,understands; produces,NA,item_234,people,people
+pappa,people,pappa,word,understands; produces,NA,item_235,daddy,daddy
+person,people,person,word,understands; produces,NA,item_236,person,person
+pojke,people,pojke,word,understands; produces,NA,item_237,boy,boy
+syster,people,syster,word,understands; produces,NA,item_238,sister,sister
+tant,people,tant,word,understands; produces,NA,item_239,old lady,aunt
+bada,games_routines,bada,word,understands; produces,NA,item_240,bath,bath
+baka kaka,games_routines,baka_kaka,word,understands; produces,NA,item_241,patty cake,pattycake
+frukost,games_routines,frukost,word,understands; produces,NA,item_242,breakfast,breakfast
+god natt,games_routines,god_natt,word,understands; produces,NA,item_243,good night,good night
+hej då,games_routines,hej_da,word,understands; produces,NA,item_244,good bye,bye
+hej,games_routines,hej,word,understands; produces,NA,item_245,hello,hi
+inte,games_routines,inte,word,understands; produces,NA,item_246,not (routine),not
+ja,games_routines,ja,word,understands; produces,NA,item_247,yes,yes
+lunch,games_routines,lunch,word,understands; produces,NA,item_248,lunch,lunch
+middag,games_routines,middag,word,understands; produces,NA,item_249,dinner,dinner
+nej,games_routines,nej,word,understands; produces,NA,item_250,no,no
+sch /hysch,games_routines,sch_/_hysch,word,understands; produces,NA,item_251,shh/shush/hush,shh
+sova middag,games_routines,sova_middag,word,understands; produces,NA,item_252,nap,nap
+tack,games_routines,tack,word,understands; produces,NA,item_253,thank you,thank you
+tittut,games_routines,tittut,word,understands; produces,NA,item_254,peekaboo,peekaboo
+varsågod,games_routines,varsagod,word,understands; produces,NA,item_255,please,please
+vill /vill ha,games_routines,vill_/_vill_ha,word,understands; produces,NA,item_256,want,wanna
+vänta,games_routines,vanta,word,understands; produces,NA,item_257,wait,wait
+bita,action_words,bita,word,understands; produces,NA,item_258,bite,bite
+blåsa,action_words,blasa,word,understands; produces,NA,item_259,blow,blow
+bryta,action_words,bryta,word,understands; produces,NA,item_260,break,break
+dansa,action_words,dansa,word,understands; produces,NA,item_261,dance,dance
+dra,action_words,dra,word,understands; produces,NA,item_262,pull,pull
+dricka,action_words,dricka,word,understands; produces,NA,item_263,drink,drink (action)
+falla,action_words,falla,word,understands; produces,NA,item_264,fall,fall
+ge,action_words,ge,word,understands; produces,NA,item_265,give,give
+gråta,action_words,grata,word,understands; produces,NA,item_266,cry,cry
+gunga (action),action_words,gunga,word,understands; produces,NA,item_267,swing,swing (action)
+gå,action_words,ga,word,understands; produces,NA,item_268,go,walk
+hjälpa,action_words,hjalpa,word,understands; produces,NA,item_269,help,help
+hoppa,action_words,hoppa,word,understands; produces,NA,item_270,jump,jump
+hämta,action_words,hamta,word,understands; produces,NA,item_271,get,get
+kasta,action_words,kasta,word,understands; produces,NA,item_272,throw,throw
+kittla,action_words,kittla,word,understands; produces,NA,item_273,tickle,tickle
+knuffa,action_words,knuffa,word,understands; produces,NA,item_274,push,push
+krama,action_words,krama,word,understands; produces,NA,item_275,hug,hug
+köra,action_words,kora,word,understands; produces,NA,item_276,drive,drive
+leka,action_words,leka,word,understands; produces,NA,item_277,play,play
+le,action_words,le,word,understands; produces,NA,item_278,smile,smile
+läsa,action_words,lasa,word,understands; produces,NA,item_279,read,read
+mata,action_words,mata,word,understands; produces,NA,item_280,feed,feed
+plaska,action_words,plaska,word,understands; produces,NA,item_281,splash,splash
+pussa,action_words,pussa,word,understands; produces,NA,item_282,kiss,kiss
+rita,action_words,rita,word,understands; produces,NA,item_283,draw,draw
+röra,action_words,rora,word,understands; produces,NA,item_284,touch,touch
+se,action_words,se,word,understands; produces,NA,item_285,see,see
+simma,action_words,simma,word,understands; produces,NA,item_286,swim,swim
+sjunga,action_words,sjunga,word,understands; produces,NA,item_287,sing,sing
+skriva,action_words,skriva,word,understands; produces,NA,item_288,write,write
+skynda,action_words,skynda,word,understands; produces,NA,item_289,rush,hurry
+sluta,action_words,sluta,word,understands; produces,NA,item_290,stop,stop
+slå,action_words,sla,word,understands; produces,NA,item_291,beat,hit
+sova,action_words,sova,word,understands; produces,NA,item_292,sleep,sleep
+sparka,action_words,sparka,word,understands; produces,NA,item_293,kick,kick
+springa,action_words,springa,word,understands; produces,NA,item_294,run,run
+stanna,action_words,stanna,word,understands; produces,NA,item_295,stop,stop
+städa,action_words,stada,word,understands; produces,NA,item_296,clean,clean (action)
+stänga,action_words,stanga,word,understands; produces,NA,item_297,close,close
+säga,action_words,saga,word,understands; produces,NA,item_298,say,say
+sätta,action_words,satta,word,understands; produces,NA,item_299,put,put
+ta,action_words,ta,word,understands; produces,NA,item_300,take,take
+titta,action_words,titta,word,understands; produces,NA,item_301,look,look
+tvätta,action_words,tvatta,word,understands; produces,NA,item_302,clean,wash
+visa,action_words,visa,word,understands; produces,NA,item_303,show,show
+åka,action_words,aka,word,understands; produces,NA,item_304,go,go
+äta,action_words,ata,word,understands; produces,NA,item_305,eat,eat
+öppna,action_words,oppna,word,understands; produces,NA,item_306,open,open (action)
+dag,time_words,dag,word,understands; produces,NA,item_307,day,day
+idag,time_words,idag,word,understands; produces,NA,item_308,today,today
+ikväll,time_words,ikvall,word,understands; produces,NA,item_309,tonight,tonight
+imorgon,time_words,imorgon,word,understands; produces,NA,item_310,tomorrow,tomorrow
+morgon,time_words,morgon,word,understands; produces,NA,item_311,morning,morning
+natt,time_words,natt,word,understands; produces,NA,item_312,night,night
+nu,time_words,nu,word,understands; produces,NA,item_313,now,now
+senare,time_words,senare,word,understands; produces,NA,item_314,later,later
+blå,descriptive_words,bla,word,understands; produces,NA,item_315,blue,blue
+borta,descriptive_words,borta,word,understands; produces,NA,item_316,allgone,all gone
+dålig,descriptive_words,dalig,word,understands; produces,NA,item_317,bad,bad
+fin,descriptive_words,fin,word,understands; produces,NA,item_318,nice,fine
+fort,descriptive_words,fort,word,understands; produces,NA,item_319,quick,fast
+försiktig,descriptive_words,forsiktig,word,understands; produces,NA,item_320,careful,careful
+gammal,descriptive_words,gammal,word,understands; produces,NA,item_321,old,old
+glad,descriptive_words,glad,word,understands; produces,NA,item_322,glad,happy
+god,descriptive_words,god,word,understands; produces,NA,item_323,god,good
+varmt,descriptive_words,varmt,word,understands; produces,NA,item_324,hot,hot
+hungrig,descriptive_words,hungrig,word,understands; produces,NA,item_325,hungry,hungry
+hård,descriptive_words,hard,word,understands; produces,NA,item_326,hard,hard
+kall,descriptive_words,kall,word,understands; produces,NA,item_327,cold,cold
+lite,descriptive_words,lite,word,understands; produces,NA,item_328,little,little (description)
+mjuk,descriptive_words,mjuk,word,understands; produces,NA,item_329,soft,soft
+mörk,descriptive_words,mork,word,understands; produces,NA,item_330,dark,dark
+ren,descriptive_words,ren,word,understands; produces,NA,item_331,clean,clean (description)
+röd,descriptive_words,rod,word,understands; produces,NA,item_332,red,red
+sjuk,descriptive_words,sjuk,word,understands; produces,NA,item_333,sick,sick
+skada,descriptive_words,skada,word,understands; produces,NA,item_334,hurt,hurt (description)
+smutsig,descriptive_words,smutsig,word,understands; produces,NA,item_335,dirty,dirty
+snabb,descriptive_words,snabb,word,understands; produces,NA,item_336,fast,quick
+sover,descriptive_words,sover,word,understands; produces,NA,item_337,asleep,asleep
+stor,descriptive_words,stor,word,understands; produces,NA,item_338,big,big
+stygg,descriptive_words,stygg,word,understands; produces,NA,item_339,naughty,naughty
+svår,descriptive_words,svar,word,understands; produces,NA,item_340,difficult,hard
+söt,descriptive_words,sot,word,understands; produces,NA,item_341,sweet,sweet
+tom,descriptive_words,tom,word,understands; produces,NA,item_342,empty,empty
+torr,descriptive_words,torr,word,understands; produces,NA,item_343,dry,dry (description)
+trasig,descriptive_words,trasig,word,understands; produces,NA,item_344,torn,broken
+trevlig,descriptive_words,trevlig,word,understands; produces,NA,item_345,nice,nice
+trött,descriptive_words,trott,word,understands; produces,NA,item_346,tired,tired
+trot2,descriptive_words,trot2,word,understands; produces,NA,item_347,NA,NA
+törstig,descriptive_words,torstig,word,understands; produces,NA,item_348,thirsty,thirsty
+våt,descriptive_words,vat,word,understands; produces,NA,item_349,wet,wet (description)
+äcklig,descriptive_words,acklig,word,understands; produces,NA,item_350,yucky,yucky
+den,pronouns,den,word,understands; produces,NA,item_351,that,that
+den där,pronouns,den_dar,word,understands; produces,NA,item_352,that one,that
+den här,pronouns,den_har,word,understands; produces,NA,item_353,this one,this
+det,pronouns,det,word,understands; produces,NA,item_354,it,3SG
+du/din,pronouns,du/din,word,understands; produces,NA,item_355,you/yours,2SG
+hans,pronouns,hans,word,understands; produces,NA,item_356,his,3SG.POSS
+henne,pronouns,henne,word,understands; produces,NA,item_357,her,3SG
+jag,pronouns,jag,word,understands; produces,NA,item_358,I,1SG
+mig,pronouns,mig,word,understands; produces,NA,item_359,me,1SG.REFL
+min,pronouns,min,word,understands; produces,NA,item_360,my,1SG.REFL
+hur,question_words,hur,word,understands; produces,NA,item_361,how,how
+när,question_words,nar,word,understands; produces,NA,item_362,when,when (question)
+vad,question_words,vad,word,understands; produces,NA,item_363,what,what
+var,question_words,var,word,understands; produces,NA,item_364,where,where (question)
+varför,question_words,varfor,word,understands; produces,NA,item_365,why,why
+vem,question_words,vem,word,understands; produces,NA,item_366,who,who
+av,locations,av,word,understands; produces,NA,item_367,by,of
+bakom,locations,bakom,word,understands; produces,NA,item_368,behind,back (location)
+bort,locations,bort,word,understands; produces,NA,item_369,away,away
+där,locations,dar,word,understands; produces,NA,item_370,there,there
+i,locations,i,word,understands; produces,NA,item_371,in,in
+inuti,locations,inuti,word,understands; produces,NA,item_372,inside,inside
+ner,locations,ner,word,understands; produces,NA,item_373,down,down
+på,locations,pa,word,understands; produces,NA,item_374,on,on
+under,locations,under,word,understands; produces,NA,item_375,under,under
+upp,locations,upp,word,understands; produces,NA,item_376,up,up
+ut,locations,ut,word,understands; produces,NA,item_377,out,out
+alla,quantifiers,alla,word,understands; produces,NA,item_378,all,all
+andra,quantifiers,andra,word,understands; produces,NA,item_379,other,other
+en till,quantifiers,en_till,word,understands; produces,NA,item_380,another,another
+ingen,quantifiers,ingen,word,understands; produces,NA,item_381,none,none
+inte (amount),quantifiers,inte,word,understands; produces,NA,item_382,not,not
+mer,quantifiers,mer,word,understands; produces,NA,item_383,more,more
+några,quantifiers,nagra,word,understands; produces,NA,item_384,some,some
+samma,quantifiers,samma,word,understands; produces,NA,item_385,same,same

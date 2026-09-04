@@ -1,0 +1,419 @@
+itemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,¡ay!,sounds,¡ay!,word,understands; produces,ouch,ouch
+item_2,beeee (oveja),sounds,beeee (oveja),word,understands; produces,baa baa (sheep),baa baa
+item_3,chu chu (tren),sounds,chu chu (tren),word,understands; produces,choo choo (train),choo choo
+item_4,cuá-cuá (pato),sounds,cuá-cuá (pato),word,understands; produces,quack (duck),quack quack
+item_5,grr (gruñido),sounds,grr (gruñido),word,understands; produces,grr (growl),grrr
+item_6,guau-guáu (perro),sounds,guau-guáu (perro),word,understands; produces,woof (dog),woof woof
+item_7,miau (gato),sounds,miau (gato),word,understands; produces,meow (cat),meow
+item_8,muu (vaca),sounds,muu (vaca),word,understands; produces,moo (cow),moo
+item_9,ñam ñam,sounds,ñam ñam,word,understands; produces,yum,yum yum
+item_10,oh oh,sounds,oh oh,word,understands; produces,uh oh,uh oh
+item_11,quiquiriquí (gallo),sounds,quiquiriquí (gallo),word,understands; produces,cockadoodledoo (rooster),cockadoodledoo
+item_12,rum rum (coche),sounds,rum rum (coche),word,understands; produces,vroom (car),vroom
+item_13,abeja,animals,abeja,word,understands; produces,bee,bee
+item_14,animal,animals,animal,word,understands; produces,animal,animal
+item_15,araña,animals,araña,word,understands; produces,spider,spider
+item_16,ardilla,animals,ardilla,word,understands; produces,squirrel,squirrel
+item_17,búho,animals,búho,word,understands; produces,owl,owl
+item_18,burro,animals,burro,word,understands; produces,donkey,donkey
+item_19,caballo,animals,caballo,word,understands; produces,horse,horse
+item_20,cerdo / chancho (Arg.) / puerco (Méx.) / cochino / marrano (Col.),animals,cerdo / chancho (Arg.) / puerco (Méx.) / cochino / marrano (Col.),word,understands; produces,pig,pig
+item_21,ciervo,animals,ciervo,word,understands; produces,deer,deer
+item_22,conejo / conejito,animals,conejo / conejito,word,understands; produces,bunny / rabbit,bunny
+item_23,cordero,animals,cordero,word,understands; produces,lamb,lamb
+item_24,elefante,animals,elefante,word,understands; produces,elephant,elephant
+item_25,gatito,animals,gatito,word,understands; produces,kitten,kitten
+item_26,gato,animals,gato,word,understands; produces,cat,cat
+item_27,jirafa,animals,jirafa,word,understands; produces,giraffe,giraffe
+item_28,león,animals,león,word,understands; produces,lion,lion
+item_29,mariposa,animals,mariposa,word,understands; produces,butterfly,butterfly
+item_30,mono,animals,mono,word,understands; produces,monkey,monkey
+item_31,oca / ganso,animals,oca / ganso,word,understands; produces,goose,goose
+item_32,oso,animals,oso,word,understands; produces,bear,bear
+item_33,oveja,animals,oveja,word,understands; produces,sheep,sheep
+item_34,pájaro,animals,pájaro,word,understands; produces,bird,bird
+item_35,pato,animals,pato,word,understands; produces,duck,duck
+item_36,pavo,animals,pavo,word,understands; produces,turkey,turkey
+item_37,perrito,animals,perrito,word,understands; produces,puppy,puppy
+item_38,perro,animals,perro,word,understands; produces,dog,dog
+item_39,pez,animals,pez,word,understands; produces,fish,fish (animal)
+item_40,pingüino,animals,pingüino,word,understands; produces,penguin,penguin
+item_41,pollo / pollito,animals,pollo / pollito,word,understands; produces,chicken,chicken (animal)
+item_42,poni,animals,poni,word,understands; produces,pony,pony
+item_43,rana,animals,rana,word,understands; produces,frog,frog
+item_44,ratón,animals,ratón,word,understands; produces,mouse,mouse
+item_45,tigre,animals,tigre,word,understands; produces,tiger,tiger
+item_46,tortuga,animals,tortuga,word,understands; produces,turtle,turtle
+item_47,vaca,animals,vaca,word,understands; produces,cow,cow
+item_48,"autobús / bus (Esp., Col.) / colectivo (Arg.) / guagua (Can.)",vehicles,"autobús / bus (Esp., Col.) / colectivo (Arg.) / guagua (Can.)",word,understands; produces,bus,bus
+item_49,avión,vehicles,avión,word,understands; produces,aeroplane / plane,airplane
+item_50,barco,vehicles,barco,word,understands; produces,boat,boat
+item_51,bicicleta / bici,vehicles,bicicleta / bici,word,understands; produces,bicycle / bike,bicycle
+item_52,camión,vehicles,camión,word,understands; produces,lorry / truck,truck
+item_53,camión de bomberos,vehicles,camión de bomberos,word,understands; produces,fire engine,firetruck
+item_54,"coche (Esp.) / carro (Méx., Col.) / auto (Arg.)",vehicles,"coche (Esp.) / carro (Méx., Col.) / auto (Arg.)",word,understands; produces,car,car
+item_55,cochecito (de bebé),vehicles,cochecito (de bebé),word,understands; produces,pushchair / buggy,stroller
+item_56,moto,vehicles,moto,word,understands; produces,motor-bike,motorcycle
+item_57,tren,vehicles,tren,word,understands; produces,train,train
+item_58,bloque (de juguete),toys,bloque (de juguete),word,understands; produces,block / brick,blocks
+item_59,boli / bolígrafo,toys,boli / bolígrafo,word,understands; produces,pen,pen
+item_60,burbuja,toys,burbuja,word,understands; produces,bubble,bubbles
+item_61,globo,toys,globo,word,understands; produces,balloon,balloon
+item_62,juguete,toys,juguete,word,understands; produces,toy,toy (object)
+item_63,libro,toys,libro,word,understands; produces,book,book
+item_64,muñeca,toys,muñeca,word,understands; produces,doll,doll
+item_65,"osito de peluche (Col.), osito (Esp.), peluche (Arg.)",toys,"osito de peluche (Col.), osito (Esp.), peluche (Arg.)",word,understands; produces,teddy bear,teddybear
+item_66,pelota,toys,pelota,word,understands; produces,ball,ball
+item_67,agua,food_drink,agua,word,understands; produces,water,water
+item_68,bebida,food_drink,bebida,word,understands; produces,drink,drink (beverage)
+item_69,café,food_drink,café,word,understands; produces,coffee,coffee
+item_70,carne (chicha),food_drink,carne (chicha),word,understands; produces,meat,meat
+item_71,cereales,food_drink,cereales,word,understands; produces,cereal,cereal
+item_72,chuches (Esp.) / dulce (Méx.) / golosinas (Arg./Col.),food_drink,chuches (Esp.) / dulce (Méx.) / golosinas (Arg./Col.),word,understands; produces,sweets,sweets
+item_73,comida,food_drink,comida,word,understands; produces,food,food
+item_74,galleta,food_drink,galleta,word,understands; produces,biscuit,biscuit
+item_75,guisantes,food_drink,guisantes,word,understands; produces,peas,peas
+item_76,helado,food_drink,helado,word,understands; produces,ice cream,ice cream
+item_77,huevo,food_drink,huevo,word,understands; produces,egg,egg
+item_78,leche,food_drink,leche,word,understands; produces,milk,milk
+item_79,mantequilla,food_drink,mantequilla,word,understands; produces,butter,butter
+item_80,manzana,food_drink,manzana,word,understands; produces,apple,apple
+item_81,mermelada,food_drink,mermelada,word,understands; produces,jam,jam
+item_82,naranja,food_drink,naranja,word,understands; produces,orange,orange (food)
+item_83,pan,food_drink,pan,word,understands; produces,bread,bread
+item_84,pasta / espaguetis,food_drink,pasta / espaguetis,word,understands; produces,pasta / spaghetti,pasta
+item_85,patatas fritas,food_drink,patatas fritas,word,understands; produces,chips,chips
+item_86,pescado,food_drink,pescado,word,understands; produces,fish,fish (food)
+item_87,pizza,food_drink,pizza,word,understands; produces,pizza,pizza
+item_88,plátano (Esp./Méx.) / banano (Col.) / banana (Arg.),food_drink,plátano (Esp./Méx.) / banano (Col.) / banana (Arg.),word,understands; produces,banana,banana
+item_89,pollo (comida),food_drink,pollo (comida),word,understands; produces,chicken,chicken (food)
+item_90,queso,food_drink,queso,word,understands; produces,cheese,cheese
+item_91,tarta / pastel (Méx.) / torta (Arg.),food_drink,tarta / pastel (Méx.) / torta (Arg.),word,understands; produces,cake,cake
+item_92,té,food_drink,té,word,understands; produces,tea,tea
+item_93,tostada,food_drink,tostada,word,understands; produces,toast,toast
+item_94,zanahoria,food_drink,zanahoria,word,understands; produces,carrot,carrot
+item_95,zumo,food_drink,zumo,word,understands; produces,juice,juice
+item_96,barriga,body_parts,barriga,word,understands; produces,tummy,tummy
+item_97,boca,body_parts,boca,word,understands; produces,mouth,mouth
+item_98,brazo,body_parts,brazo,word,understands; produces,arm,arm
+item_99,cabeza,body_parts,cabeza,word,understands; produces,head,head
+item_100,cara,body_parts,cara,word,understands; produces,face,face
+item_101,dedo,body_parts,dedo,word,understands; produces,finger,finger
+item_102,dedo del pie,body_parts,dedo del pie,word,understands; produces,toe,toe
+item_103,diente,body_parts,diente,word,understands; produces,tooth,tooth
+item_104,lengua,body_parts,lengua,word,understands; produces,tongue,tongue
+item_105,mano,body_parts,mano,word,understands; produces,hand,hand
+item_106,mejilla,body_parts,mejilla,word,understands; produces,cheek,cheek
+item_107,nariz,body_parts,nariz,word,understands; produces,nose,nose
+item_108,ojo,body_parts,ojo,word,understands; produces,eye,eye
+item_109,ombligo,body_parts,ombligo,word,understands; produces,belly button / tummy button,belly button
+item_110,oreja,body_parts,oreja,word,understands; produces,ear,ear
+item_111,pelo,body_parts,pelo,word,understands; produces,hair,hair
+item_112,pie,body_parts,pie,word,understands; produces,foot,foot
+item_113,pierna,body_parts,pierna,word,understands; produces,leg,leg
+item_114,rodilla,body_parts,rodilla,word,understands; produces,knee,knee
+item_115,uña,body_parts,uña,word,understands; produces,nail,nail (body part)
+item_116,abrigo,clothing,abrigo,word,understands; produces,coat,coat
+item_117,babero,clothing,babero,word,understands; produces,bib,bib
+item_118,bota/s,clothing,bota/s,word,understands; produces,boot(s),boot
+item_119,botón,clothing,botón,word,understands; produces,button,button
+item_120,calcetín,clothing,calcetín,word,understands; produces,sock,sock
+item_121,camisa,clothing,camisa,word,understands; produces,shirt,shirt
+item_122,chaqueta,clothing,chaqueta,word,understands; produces,jacket,jacket
+item_123,collar,clothing,collar,word,understands; produces,necklace,necklace
+item_124,cremallera,clothing,cremallera,word,understands; produces,zip,zipper
+item_125,gafas,clothing,gafas,word,understands; produces,glasses / specs,glasses
+item_126,jersey / suéter,clothing,jersey / suéter,word,understands; produces,jumper / sweater,sweater
+item_127,pañal,clothing,pañal,word,understands; produces,nappy,diaper
+item_128,pantalón,clothing,pantalón,word,understands; produces,trousers,pants
+item_129,pantalones cortos / shorts / bermudas / guayucos (Col.),clothing,pantalones cortos / shorts / bermudas / guayucos (Col.),word,understands; produces,shorts,shorts
+item_130,pijama,clothing,pijama,word,understands; produces,pyjamas,pajamas
+item_131,sombrero / gorro/a,clothing,sombrero / gorro/a,word,understands; produces,hat,hat
+item_132,vaquero / tejano,clothing,vaquero / tejano,word,understands; produces,jeans,jeans
+item_133,vestido,clothing,vestido,word,understands; produces,dress,dress
+item_134,zapato/s,clothing,zapato/s,word,understands; produces,shoe,shoe
+item_135,bañera,furniture_rooms,bañera,word,understands; produces,bath / bathtub,bathtub
+item_136,baño,furniture_rooms,baño,word,understands; produces,bathroom,bathroom
+item_137,cajón,furniture_rooms,cajón,word,understands; produces,drawer,drawer
+item_138,cama,furniture_rooms,cama,word,understands; produces,bed,bed
+item_139,cocina,furniture_rooms,cocina,word,understands; produces,kitchen,kitchen
+item_140,cuna,furniture_rooms,cuna,word,understands; produces,cot,cot
+item_141,escalera/s,furniture_rooms,escalera/s,word,understands; produces,stairs,stairs
+item_142,garaje,furniture_rooms,garaje,word,understands; produces,garage,garage
+item_143,habitación / cuarto (de dormir),furniture_rooms,habitación / cuarto (de dormir),word,understands; produces,bedroom,bedroom
+item_144,horno / estufa,furniture_rooms,horno / estufa,word,understands; produces,cooker / stove / oven,stove
+item_145,lavabo,furniture_rooms,lavabo,word,understands; produces,sink,sink
+item_146,mecedora (Esp.) / silla mecedora (Col.),furniture_rooms,mecedora (Esp.) / silla mecedora (Col.),word,understands; produces,rocking chair,rocking chair
+item_147,mesa,furniture_rooms,mesa,word,understands; produces,table,table
+item_148,nevera / frigo,furniture_rooms,nevera / frigo,word,understands; produces,refrigerator / fridge,refrigerator
+item_149,orinal (Es.) / bacinica (Méx.) / bacinilla (Col.) / pelela (Arg.),furniture_rooms,orinal (Es.) / bacinica (Méx.) / bacinilla (Col.) / pelela (Arg.),word,understands; produces,potty,potty
+item_150,parque (en casa) corralito,furniture_rooms,parque (en casa) corralito,word,understands; produces,play pen,play pen
+item_151,puerta,furniture_rooms,puerta,word,understands; produces,door,door
+item_152,salón,furniture_rooms,salón,word,understands; produces,living room,living room
+item_153,silla,furniture_rooms,silla,word,understands; produces,chair,chair
+item_154,"sofá (Esp., Méx., Col.) / sillón (Arg.)",furniture_rooms,"sofá (Esp., Méx., Col.) / sillón (Arg.)",word,understands; produces,settee / sofa,couch
+item_155,televisión / tele,furniture_rooms,televisión / tele,word,understands; produces,TV / television,TV
+item_156,trona (Esp.) / silla de bebés (Col.),furniture_rooms,trona (Esp.) / silla de bebés (Col.),word,understands; produces,high chair,high chair
+item_157,ventana,furniture_rooms,ventana,word,understands; produces,window,window
+item_158,agua,outside,agua,word,understands; produces,water,water (not beverage)
+item_159,árbol,outside,árbol,word,understands; produces,tree,tree
+item_160,casa,outside,casa,word,understands; produces,house,house
+item_161,cielo,outside,cielo,word,understands; produces,sky,sky
+item_162,"cole (Esp.) / colegio (Arg.) / escuela (Mex., Col.)",outside,"cole (Esp.) / colegio (Arg.) / escuela (Mex., Col.)",word,understands; produces,school,school
+item_163,"columpio (Esp., Méx., Col.) / hamaca (Arg.)",outside,"columpio (Esp., Méx., Col.) / hamaca (Arg.)",word,understands; produces,swing,swing (object)
+item_164,cubo,outside,cubo,word,understands; produces,bucket,bucket
+item_165,estrella,outside,estrella,word,understands; produces,star,star
+item_166,fiesta,outside,fiesta,word,understands; produces,party,party
+item_167,flor,outside,flor,word,understands; produces,flower,flower
+item_168,fuera / afuera (el exterior),outside,fuera / afuera (el exterior),word,understands; produces,outside,outside
+item_169,iglesia,outside,iglesia,word,understands; produces,church,church
+item_170,jardín,outside,jardín,word,understands; produces,garden,garden
+item_171,lluvia,outside,lluvia,word,understands; produces,rain,rain
+item_172,luna,outside,luna,word,understands; produces,moon,moon
+item_173,nieve,outside,nieve,word,understands; produces,snow,snow
+item_174,pala,outside,pala,word,understands; produces,spade,spade
+item_175,pared,outside,pared,word,understands; produces,wall,wall
+item_176,parque,outside,parque,word,understands; produces,park,park
+item_177,piedra,outside,piedra,word,understands; produces,stone,stone
+item_178,piscina,outside,piscina,word,understands; produces,pool,pool
+item_179,playa,outside,playa,word,understands; produces,beach,beach
+item_180,sol,outside,sol,word,understands; produces,sun,sun
+item_181,"tienda (Esp., Méx., Col.) / negocio (Arg.)",outside,"tienda (Esp., Méx., Col.) / negocio (Arg.)",word,understands; produces,shop,store
+item_182,tobogán,outside,tobogán,word,understands; produces,slide,slide (object)
+item_183,trabajo,outside,trabajo,word,understands; produces,work,work (place)
+item_184,zoo,outside,zoo,word,understands; produces,zoo,zoo
+item_185,aspiradora,household,aspiradora,word,understands; produces,hoover / vacuum cleaner,vacuum
+item_186,basura,household,basura,word,understands; produces,rubbish,trash
+item_187,bolso,household,bolso,word,understands; produces,purse,purse
+item_188,botella,household,botella,word,understands; produces,bottle,bottle
+item_189,caja,household,caja,word,understands; produces,box,box
+item_190,cepillo,household,cepillo,word,understands; produces,brush,brush
+item_191,cepillo de dientes,household,cepillo de dientes,word,understands; produces,toothbrush,toothbrush
+item_192,chupete,household,chupete,word,understands; produces,dummy,dummy
+item_193,cojín / almohada,household,cojín / almohada,word,understands; produces,pillow,pillow
+item_194,cuchara,household,cuchara,word,understands; produces,spoon,spoon
+item_195,cuchillo,household,cuchillo,word,understands; produces,knife,knife
+item_196,cuenco / bol,household,cuenco / bol,word,understands; produces,bowl,bowl
+item_197,dinero,household,dinero,word,understands; produces,money,money
+item_198,enchufe,household,enchufe,word,understands; produces,plug,plug
+item_199,escoba,household,escoba,word,understands; produces,broom,broom
+item_200,esponja,household,esponja,word,understands; produces,sponge,sponge
+item_201,foto,household,foto,word,understands; produces,picture,picture
+item_202,jabón,household,jabón,word,understands; produces,soap,soap
+item_203,jarra,household,jarra,word,understands; produces,jug,jug
+item_204,lámpara,household,lámpara,word,understands; produces,lamp,lamp
+item_205,llaves,household,llaves,word,understands; produces,key,key
+item_206,luz,household,luz,word,understands; produces,light,light
+item_207,manta (Esp.) / colcha (Arg.) / cobija (Col.),household,manta (Esp.) / colcha (Arg.) / cobija (Col.),word,understands; produces,blanket,blanket
+item_208,martillo,household,martillo,word,understands; produces,hammer,hammer
+item_209,medicina,household,medicina,word,understands; produces,medicine,medicine
+item_210,moneda,household,moneda,word,understands; produces,penny,penny
+item_211,papel,household,papel,word,understands; produces,paper,paper
+item_212,papelera,household,papelera,word,understands; produces,bin,bin
+item_213,peine,household,peine,word,understands; produces,comb,comb (object)
+item_214,planta,household,planta,word,understands; produces,plant,plant
+item_215,plato,household,plato,word,understands; produces,plate,plate
+item_216,radio,household,radio,word,understands; produces,radio,radio
+item_217,reloj,household,reloj,word,understands; produces,clock,clock
+item_218,taza,household,taza,word,understands; produces,cup,cup
+item_219,teléfono,household,teléfono,word,understands; produces,telephone,telephone
+item_220,tenedor,household,tenedor,word,understands; produces,fork,fork
+item_221,tijeras,household,tijeras,word,understands; produces,scissors,scissors
+item_222,toalla,household,toalla,word,understands; produces,towel,towel
+item_223,vaso,household,vaso,word,understands; produces,glass,glass
+item_224,abuela (yaya),people,abuela (yaya),word,understands; produces,grandma,grandma
+item_225,abuelo (yayo),people,abuelo (yayo),word,understands; produces,grandpa,grandpa
+item_226,amigo/a,people,amigo/a,word,understands; produces,friend,friend
+item_227,bebé,people,bebé,word,understands; produces,baby,baby
+item_228,chica / nena,people,chica / nena,word,understands; produces,girl,girl
+item_229,chico / nene,people,chico / nene,word,understands; produces,boy,boy
+item_230,doctor/a,people,doctor/a,word,understands; produces,doctor,doctor
+item_231,gente,people,gente,word,understands; produces,people,people
+item_232,hermana,people,hermana,word,understands; produces,sister,sister
+item_233,hermano,people,hermano,word,understands; produces,brother,brother
+item_234,maestra/o,people,maestra/o,word,understands; produces,teacher,teacher
+item_235,mamá (mami),people,mamá (mami),word,understands; produces,mummy,mommy
+item_236,niñera / canguro,people,niñera / canguro,word,understands; produces,nanny,babysitter
+item_237,niño,people,niño,word,understands; produces,child,child
+item_238,papá (papi),people,papá (papi),word,understands; produces,daddy,daddy
+item_239,persona,people,persona,word,understands; produces,person,person
+item_240,policía,people,policía,word,understands; produces,policeman,policeman
+item_241,señor,people,señor,word,understands; produces,man,man
+item_242,señora,people,señora,word,understands; produces,lady,lady
+item_243,tía,people,tía,word,understands; produces,aunt,aunt
+item_244,tío,people,tío,word,understands; produces,uncle,uncle
+item_245,(vamos a) a bañar,games_routines,(vamos a) a bañar,word,understands; produces,bath,bath
+item_246,(vamos a) cenar,games_routines,(vamos a) cenar,word,understands; produces,dinner,dinner
+item_247,(vamos a) comer / almorzar,games_routines,(vamos a) comer / almorzar,word,understands; produces,lunch,lunch
+item_248,(vamos a) desayunar,games_routines,(vamos a) desayunar,word,understands; produces,breakfast,breakfast
+item_249,¡no! (eso no),games_routines,¡no! (eso no),word,understands; produces,don't,don't
+item_250,adiós,games_routines,adiós,word,understands; produces,bye bye,bye
+item_251,buenas noches,games_routines,buenas noches,word,understands; produces,night night,good night
+item_252,cu-cu (juego),games_routines,cu-cu (juego),word,understands; produces,peekaboo,peekaboo
+item_253,espera,games_routines,espera,word,understands; produces,wait,wait
+item_254,gracias,games_routines,gracias,word,understands; produces,thank you,thank you
+item_255,hola,games_routines,hola,word,understands; produces,hello,hello
+item_256,merienda,games_routines,merienda,word,understands; produces,tea,tea
+item_257,no,games_routines,no,word,understands; produces,no,no
+item_258,palmas palmitas,games_routines,palmas palmitas,word,understands; produces,pat-a-cake,pattycake
+item_259,por favor,games_routines,por favor,word,understands; produces,please,please
+item_260,querer (desear),games_routines,querer (desear),word,understands; produces,want to,wanna
+item_261,shh shh (silencio),games_routines,shh shh (silencio),word,understands; produces,shh / hush / shush,shh
+item_262,sí (afirmación),games_routines,sí (afirmación),word,understands; produces,yes,yes
+item_263,siesta,games_routines,siesta,word,understands; produces,nap,nap
+item_264,tonto/a,games_routines,tonto/a,word,understands; produces,silly,
+item_265,(hacer / tener) cosquillas,action_words,(hacer / tener) cosquillas,word,understands; produces,tickle,tickle
+item_266,abrazar,action_words,abrazar,word,understands; produces,hug,hug
+item_267,abrir,action_words,abrir,word,understands; produces,open,open (action)
+item_268,acabar / terminar,action_words,acabar / terminar,word,understands; produces,finish,finish
+item_269,arañar,action_words,arañar,word,understands; produces,scratch,scratch
+item_270,ayudar,action_words,ayudar,word,understands; produces,help,help
+item_271,bailar,action_words,bailar,word,understands; produces,dance,dance
+item_272,beber,action_words,beber,word,understands; produces,drink,drink (action)
+item_273,besar,action_words,besar,word,understands; produces,kiss,kiss
+item_274,buscar,action_words,buscar,word,understands; produces,look for,search
+item_275,caer(se),action_words,caer(se),word,understands; produces,fall,fall
+item_276,caminar,action_words,caminar,word,understands; produces,walk,walk
+item_277,cantar,action_words,cantar,word,understands; produces,sing,sing
+item_278,cerrar,action_words,cerrar,word,understands; produces,shut / close,close
+item_279,chocar / darse un golpe,action_words,chocar / darse un golpe,word,understands; produces,bump,bump
+item_280,coger / agarrar,action_words,coger / agarrar,word,understands; produces,catch,catch
+item_281,columpiar(se),action_words,columpiar(se),word,understands; produces,swing,swing (action)
+item_282,comer,action_words,comer,word,understands; produces,eat,eat
+item_283,conducir,action_words,conducir,word,understands; produces,drive,drive
+item_284,correr,action_words,correr,word,understands; produces,run,run
+item_285,cortar,action_words,cortar,word,understands; produces,cut,cut
+item_286,dar,action_words,dar,word,understands; produces,give,give
+item_287,dar de comer,action_words,dar de comer,word,understands; produces,feed,feed
+item_288,dar una patada / patear,action_words,dar una patada / patear,word,understands; produces,kick,kick
+item_289,darse prisa,action_words,darse prisa,word,understands; produces,hurry,hurry
+item_290,decir,action_words,decir,word,understands; produces,say,say
+item_291,dejar caer,action_words,dejar caer,word,understands; produces,drop,drop
+item_292,dibujar,action_words,dibujar,word,understands; produces,draw,draw
+item_293,dormir(se),action_words,dormir(se),word,understands; produces,sleep,sleep
+item_294,empujar,action_words,empujar,word,understands; produces,push,push
+item_295,encontrar,action_words,encontrar,word,understands; produces,find,find
+item_296,escribir,action_words,escribir,word,understands; produces,write,write
+item_297,guardar,action_words,guardar,word,understands; produces,get,get
+item_298,gustar (me gusta),action_words,gustar (me gusta),word,understands; produces,like,like
+item_299,hablar,action_words,hablar,word,understands; produces,talk,talk
+item_300,hacer,action_words,hacer,word,understands; produces,make,make
+item_301,hacer/dar un mimo/mimitos,action_words,hacer/dar un mimo/mimitos,word,understands; produces,cuddle,cuddle
+item_302,ir,action_words,ir,word,understands; produces,go,go
+item_303,jugar,action_words,jugar,word,understands; produces,play,play
+item_304,lavar(se),action_words,lavar(se),word,understands; produces,wash,wash
+item_305,leer,action_words,leer,word,understands; produces,read,read
+item_306,limpiar,action_words,limpiar,word,understands; produces,clean,clean (action)
+item_307,llamar,action_words,llamar,word,understands; produces,call,call
+item_308,llevar,action_words,llevar,word,understands; produces,carry,carry
+item_309,llorar,action_words,llorar,word,understands; produces,cry,cry
+item_310,mirar,action_words,mirar,word,understands; produces,look,look
+item_311,montar,action_words,montar,word,understands; produces,ride,ride
+item_312,morder,action_words,morder,word,understands; produces,bite,bite
+item_313,mostrar / enseñar (un objeto),action_words,mostrar / enseñar (un objeto),word,understands; produces,show,show
+item_314,nadar,action_words,nadar,word,understands; produces,swim,swim
+item_315,oír,action_words,oír,word,understands; produces,hear,hear
+item_316,oler,action_words,oler,word,understands; produces,smell,smell
+item_317,parar,action_words,parar,word,understands; produces,stop,stop
+item_318,pegar (un golpe),action_words,pegar (un golpe),word,understands; produces,hit,hit
+item_319,perseguir,action_words,perseguir,word,understands; produces,chase,chase
+item_320,poner(se),action_words,poner(se),word,understands; produces,put,put
+item_321,querer,action_words,querer,word,understands; produces,love,love
+item_322,romper(se),action_words,romper(se),word,understands; produces,break,break
+item_323,saber,action_words,saber,word,understands; produces,know,know
+item_324,salpicar,action_words,salpicar,word,understands; produces,splash,splash
+item_325,saltar,action_words,saltar,word,understands; produces,jump,jump
+item_326,sentar(se),action_words,sentar(se),word,understands; produces,sit,sit
+item_327,sonreír,action_words,sonreír,word,understands; produces,smile,smile
+item_328,soplar,action_words,soplar,word,understands; produces,blow,blow
+item_329,tener,action_words,tener,word,understands; produces,have,have
+item_330,tirar,action_words,tirar,word,understands; produces,throw,throw
+item_331,tirar (hacia uno),action_words,tirar (hacia uno),word,understands; produces,pull,pull
+item_332,traer,action_words,traer,word,understands; produces,bring,bring
+item_333,ver,action_words,ver,word,understands; produces,see,see
+item_334,volar,action_words,volar,word,understands; produces,fly,fly (action)
+item_335,amable,descriptive_words,amable,word,understands; produces,gentle,gentle
+item_336,amarillo,descriptive_words,amarillo,word,understands; produces,yellow,yellow
+item_337,asustado,descriptive_words,asustado,word,understands; produces,scared,scared
+item_338,azul,descriptive_words,azul,word,understands; produces,blue,blue
+item_339,bueno,descriptive_words,bueno,word,understands; produces,good,good
+item_340,caliente,descriptive_words,caliente,word,understands; produces,hot,hot
+item_341,cansado,descriptive_words,cansado,word,understands; produces,tired,tired
+item_342,contento / feliz,descriptive_words,contento / feliz,word,understands; produces,happy,happy
+item_343,cuidadosa/o,descriptive_words,cuidadosa/o,word,understands; produces,careful,careful
+item_344,dormido,descriptive_words,dormido,word,understands; produces,asleep,asleep
+item_345,duro,descriptive_words,duro,word,understands; produces,hard,hard
+item_346,enfadado,descriptive_words,enfadado,word,understands; produces,angry,angry
+item_347,enfermo / malito,descriptive_words,enfermo / malito,word,understands; produces,sick,sick
+item_348,está bien,descriptive_words,está bien,word,understands; produces,fine,fine
+item_349,frío,descriptive_words,frío,word,understands; produces,cold,cold
+item_350,grande,descriptive_words,grande,word,understands; produces,big,big
+item_351,hacerse daño,descriptive_words,hacerse daño,word,understands; produces,hurt,hurt
+item_352,hambre,descriptive_words,hambre,word,understands; produces,hungry,hungry
+item_353,limpio,descriptive_words,limpio,word,understands; produces,clean,clean (description)
+item_354,lleno,descriptive_words,lleno,word,understands; produces,full,full
+item_355,malo,descriptive_words,malo,word,understands; produces,bad,bad
+item_356,mojado,descriptive_words,mojado,word,understands; produces,wet,wet
+item_357,no está (en un juego),descriptive_words,no está (en un juego),word,understands; produces,all gone,all gone
+item_358,nuevo,descriptive_words,nuevo,word,understands; produces,new,new
+item_359,oscuro,descriptive_words,oscuro,word,understands; produces,dark,dark
+item_360,pequeño / chiquito,descriptive_words,pequeño / chiquito,word,understands; produces,little,little
+item_361,rápido,descriptive_words,rápido,word,understands; produces,fast,fast
+item_362,rojo,descriptive_words,rojo,word,understands; produces,red,red
+item_363,roto,descriptive_words,roto,word,understands; produces,broken,broken
+item_364,seco,descriptive_words,seco,word,understands; produces,dry,dry (description)
+item_365,suave / blando,descriptive_words,suave / blando,word,understands; produces,soft,soft
+item_366,sucio,descriptive_words,sucio,word,understands; produces,dirty,dirty
+item_367,tener sed,descriptive_words,tener sed,word,understands; produces,thirsty,thirsty
+item_368,tener sueño,descriptive_words,tener sueño,word,understands; produces,sleepy,sleepy
+item_369,travieso,descriptive_words,travieso,word,understands; produces,naughty,naughty
+item_370,triste,descriptive_words,triste,word,understands; produces,sad,sad
+item_371,vacío,descriptive_words,vacío,word,understands; produces,empty,empty
+item_372,verde,descriptive_words,verde,word,understands; produces,green,green
+item_373,viejo,descriptive_words,viejo,word,understands; produces,old,old
+item_374,cómo,question_words,cómo,word,understands; produces,how,how
+item_375,cuándo,question_words,cuándo,word,understands; produces,when,when (question)
+item_376,dónde,question_words,dónde,word,understands; produces,where,where (question)
+item_377,por qué,question_words,por qué,word,understands; produces,why,why
+item_378,qué,question_words,qué,word,understands; produces,what,what
+item_379,quién,question_words,quién,word,understands; produces,who,who
+item_380,ahora,time_words,ahora,word,understands; produces,now,now
+item_381,después,time_words,después,word,understands; produces,later,later
+item_382,día,time_words,día,word,understands; produces,day,day
+item_383,esta noche,time_words,esta noche,word,understands; produces,tonight,tonight
+item_384,hoy,time_words,hoy,word,understands; produces,today,today
+item_385,mañana,time_words,mañana,word,understands; produces,morning,morning
+item_386,mañana (el día de después),time_words,mañana (el día de después),word,understands; produces,tomorrow,tomorrow
+item_387,noche,time_words,noche,word,understands; produces,night,night
+item_388,"aquel/a/os/as, ese/a/os/as",pronouns,"aquel/a/os/as, ese/a/os/as",word,understands; produces,that,that
+item_389,conmigo / contigo,pronouns,conmigo / contigo,word,understands; produces,with me,
+item_390,eso,pronouns,eso,word,understands; produces,it,3SG
+item_391,ésta,pronouns,ésta,word,understands; produces,this,this
+item_392,mi (adjetivo: mi casa),pronouns,mi (adjetivo: mi casa),word,understands; produces,my,1SG.POSS
+item_393,mí (para mí),pronouns,mí (para mí),word,understands; produces,me,1SG
+item_394,mío / mía,pronouns,mío / mía,word,understands; produces,mine,1SG.POSS
+item_395,su / suyo/a,pronouns,su / suyo/a,word,understands; produces,his,3SG.POSS
+item_396,tu,pronouns,tu,word,understands; produces,you,2SG
+item_397,tu (tu casa),pronouns,tu (tu casa),word,understands; produces,your,2SG.POSS
+item_398,yo,pronouns,yo,word,understands; produces,I,1SG
+item_399,abajo,locations,abajo,word,understands; produces,down,down
+item_400,ahí / allí,locations,ahí / allí,word,understands; produces,there,there
+item_401,arriba,locations,arriba,word,understands; produces,up,up
+item_402,atrás / detrás,locations,atrás / detrás,word,understands; produces,back,back
+item_403,de,locations,de,word,understands; produces,from,from
+item_404,debajo,locations,debajo,word,understands; produces,under,under
+item_405,dentro / adentro,locations,dentro / adentro,word,understands; produces,inside,inside
+item_406,en,locations,en,word,understands; produces,in,in
+item_407,encima / sobre,locations,encima / sobre,word,understands; produces,on,on
+item_408,hasta,locations,hasta,word,understands; produces,until,until
+item_409,lejos,locations,lejos,word,understands; produces,away,away
+item_410,algunos/as,quantifiers,algunos/as,word,understands; produces,some,some
+item_411,más,quantifiers,más,word,understands; produces,more,more
+item_412,mismo / igual,quantifiers,mismo / igual,word,understands; produces,same,same
+item_413,nada,quantifiers,nada,word,understands; produces,nothing,nothing
+item_414,ninguno,quantifiers,ninguno,word,understands; produces,none,none
+item_415,otra vez,quantifiers,otra vez,word,understands; produces,again,again
+item_416,otro,quantifiers,otro,word,understands; produces,other,other
+item_417,también,quantifiers,también,word,understands; produces,too,too
+item_418,todo / todas/os,quantifiers,todo / todas/os,word,understands; produces,all,all

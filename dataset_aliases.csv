@@ -1,0 +1,19 @@
+field,redivis_value,manifest_value,notes
+language,German,German (German),Language label standardized on Wordbank
+dataset_name,Bergman,Bergmann,Contributor spelling corrected
+form,CDITwo,CDI 2,Form label standardized
+form,Oxford,Oxford CDI,Oxford CDI form label
+form,FormA,Form A,
+form,FormBOne,Form B1,
+form,FormBTwo,Form B2,
+form,FormC,Form C,
+form,FormOne,Form 1,
+form,FormTwoA,Form 2A,
+form,FormTwoB,Form 2B,
+form,FormThree,Form 3,
+form,WGProd,WG Prod,
+form,WGProdShort,WG Prod Short,
+form,WSShort,WS Short,
+form,OxfordShort,Oxford Short,
+form,WGShort,WG Short,
+form,WGComp,WG Comp,

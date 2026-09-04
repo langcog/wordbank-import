@@ -1,0 +1,41 @@
+type,value,data_value
+sex,M,boy
+sex,F,girl
+mom_ed,some secondary,1
+mom_ed,secondary,2
+mom_ed,college,3
+mom_ed,graduate,4
+condition,,
+condition,Pre-term,1
+first_signs,no,0
+first_signs,yes,1
+phrases,,0
+phrases,understands,1
+starting_to_talk,never,0
+starting_to_talk,sometimes,1
+starting_to_talk,often,2
+baby_words,,""""" """""
+baby_words,understands,Skilir
+baby_words,produces,"""""Skilir og sig"
+word,,""""" """""
+word,understands,Skilir
+word,produces,"""""Skilir og sig"
+gestures_first,not yet,0
+gestures_first,sometimes,1
+gestures_first,often,2
+gestures_games,no,0
+gestures_games,yes,1
+gestures_objects,no,0
+gestures_objects,yes,1
+gestures_parent,no,0
+gestures_parent,yes,1
+gestures_adult,no,0
+gestures_adult,yes,1
+word,understands,skilir
+word,produces,"""""skilir og sig"
+baby_words,understands,skilir
+baby_words,produces,"""""skilir og sig"
+word,produces,"""""skilir  og sig"
+word,understands,"""""skil"
+baby_words,produces,"""""skilir  og sig"
+baby_words,understands,"""""skil"

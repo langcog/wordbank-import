@@ -1,0 +1,6 @@
+type,value,data_value
+sex,M,Male
+sex,F,Female
+word,produces,2
+word,understands,1
+word,,0

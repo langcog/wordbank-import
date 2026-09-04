@@ -1,0 +1,460 @@
+﻿field,column,group,type
+,Response ID,,
+sex,Child's gender,child,sex
+mom_ed,Mother's highest educational qualification,child,mom_ed
+,Father's highest educational qualification,,
+,Overall language exposure - German,,
+,Overall language exposure - English,,
+,Overall language exposure - Other,,
+,Overall language exposure - Other - Text,,
+languages,exp_deu,admin,language
+languages,exp_eng,admin,language
+languages,exp_oth,admin,language
+,Home language exposure - German,,
+,Home language exposure - English,,
+,Home language exposure - Other(s),,
+,Home language exposure - Other(s) - Text,,
+,Mother native - Selected Choice,,
+,Mother native - Other(s) - Text,,
+,Mother's proficiency - German,,
+,Mother's proficiency - English,,
+,Mother's proficiency - Other,,
+,Mother's proficiency - Other - Text,,
+,Mother's child language,,
+,Father native - Selected Choice,,
+,Father native - Other(s) - Text,,
+,Father's proficiency - German,,
+,Father's proficiency - English,,
+,Father's proficiency - Other,,
+,Father's proficiency - Other - Text,,
+,Father's child language,,
+,Birth order - Selected Choice,,
+,Birth order - Other - Text,,
+birth_order,birth_order,child,birth_order
+,Nursery start age - Age in months,,
+,Nursery language,,
+,Immersion - months,,
+item_1,Sounds - Autsch,item,word
+item_2,Sounds - Brumm Brumm (Auto),item,word
+item_3,Sounds - Grr (knurren),item,word
+item_4,Sounds - Kikeriki (Hahn),item,word
+item_5,Sounds - Mäh (Schaf),item,word
+item_6,Sounds - Miau (Katze),item,word
+item_7,Sounds - Mmhh,item,word
+item_8,Sounds - Muh (Kuh),item,word
+item_9,Sounds - Oh Oh,item,word
+item_10,Sounds - Quak Quak (Ente),item,word
+item_11,Sounds - Tut Tut (Bahn),item,word
+item_12,Sounds - Wuff (Hund),item,word
+item_14,Animals - Affe,item,word
+item_15,Animals - Bär,item,word
+item_16,Animals - Biene,item,word
+item_13,Animals - Eichhörnchen,item,word
+item_17,Animals - Elefant,item,word
+item_18,Animals - Ente,item,word
+item_19,Animals - Esel,item,word
+item_20,Animals - Eule,item,word
+item_21,Animals - Fisch,item,word
+item_22,Animals - Frosch,item,word
+item_23,Animals - Gans,item,word
+item_24,Animals - Giraffe,item,word
+item_25,Animals - Hase,item,word
+item_26,Animals - Huhn,item,word
+item_27,Animals - Hund,item,word
+item_28,Animals - Hündchen,item,word
+item_29,Animals - Kätzchen,item,word
+item_30,Animals - Katze,item,word
+item_31,Animals - Kuh,item,word
+item_32,Animals - Lamm,item,word
+item_33,Animals - Löwe,item,word
+item_34,Animals - Maus,item,word
+item_35,Animals - Pferd,item,word
+item_36,Animals - Pinguin,item,word
+item_37,Animals - Pony,item,word
+item_38,Animals - Reh,item,word
+item_39,Animals - Schaf,item,word
+item_40,Animals - Schildkröte,item,word
+item_41,Animals - Schmetterling,item,word
+item_42,Animals - Schwein,item,word
+item_43,Animals - Spinne,item,word
+item_44,Animals - Tier,item,word
+item_45,Animals - Tiger,item,word
+item_46,Animals - Truthahn,item,word
+item_47,Animals - Vogel,item,word
+item_48,Vehicles - Auto,item,word
+item_49,"Vehicles - Bahn (Eisenbahn, Straßenbahn, U-Bahn, S-Bahn, Zug gelten auch)",item,word
+item_50,Vehicles - Boot,item,word
+item_51,Vehicles - Buggy,item,word
+item_52,Vehicles - Bus,item,word
+item_53,Vehicles - Fahrrad,item,word
+item_54,Vehicles - Feuerwehr(auto),item,word
+item_55,Vehicles - Flugzeug,item,word
+item_56,Vehicles - Lastwagen / Laster,item,word
+item_57,Vehicles - Motorrad,item,word
+item_58,Toys - Ball,item,word
+item_59,Toys - Buch,item,word
+item_60,Toys - Klotz,item,word
+item_61,Toys - Luftballon,item,word
+item_62,Toys - Puppe,item,word
+item_63,Toys - Seifenblase,item,word
+item_64,Toys - Spielzeug,item,word
+item_65,Toys - Stift,item,word
+item_66,Toys - Teddy,item,word
+item_67,Food and Drink - Apfel,item,word
+item_68,Food and Drink - Banane,item,word
+item_69,Food and Drink - Brot,item,word
+item_70,Food and Drink - Butter,item,word
+item_71,Food and Drink - Eier,item,word
+item_72,Food and Drink - Eis,item,word
+item_73,Food and Drink - Erbsen,item,word
+item_74,Food and Drink - Essen,item,word
+item_75,Food and Drink - Fisch,item,word
+item_76,Food and Drink - Fleisch,item,word
+item_77,Food and Drink - Getränk,item,word
+item_78,Food and Drink - Hähnchen,item,word
+item_79,Food and Drink - Kaffee,item,word
+item_80,Food and Drink - Käse,item,word
+item_81,Food and Drink - Keks,item,word
+item_82,Food and Drink - Kuchen,item,word
+item_83,Food and Drink - Marmelade,item,word
+item_84,Food and Drink - Milch,item,word
+item_85,Food and Drink - Möhre,item,word
+item_86,Food and Drink - Müsli,item,word
+item_87,Food and Drink - Orange,item,word
+item_88,Food and Drink - Pizza,item,word
+item_89,Food and Drink - Pommes,item,word
+item_90,Food and Drink - Saft,item,word
+item_91,Food and Drink - Spaghetti,item,word
+item_92,Food and Drink - Süßigkeiten,item,word
+item_93,Food and Drink - Tee,item,word
+item_94,Food and Drink - Toast,item,word
+item_95,Food and Drink - Wasser,item,word
+item_96,Body Parts - Arm,item,word
+item_97,Body Parts - Auge,item,word
+item_98,Body Parts - Backe,item,word
+item_99,Body Parts - Bauch,item,word
+item_100,Body Parts - Bauchnabel,item,word
+item_101,Body Parts - Bein,item,word
+item_102,Body Parts - Finger,item,word
+item_103,Body Parts - Fingernagel,item,word
+item_104,Body Parts - Fuß,item,word
+item_105,Body Parts - Gesicht,item,word
+item_106,Body Parts - Haare,item,word
+item_107,Body Parts - Hand,item,word
+item_108,Body Parts - Knie,item,word
+item_109,Body Parts - Kopf,item,word
+item_110,Body Parts - Mund,item,word
+item_111,Body Parts - Nase,item,word
+item_112,Body Parts - Ohr,item,word
+item_113,Body Parts - Zahn,item,word
+item_114,Body Parts - Zeh,item,word
+item_115,Body Parts - Zunge,item,word
+item_116,Clothes - Brille,item,word
+item_117,Clothes - Hemd,item,word
+item_118,Clothes - Hose,item,word
+item_119,Clothes - Jacke,item,word
+item_120,Clothes - Jeans,item,word
+item_121,Clothes - Kette,item,word
+item_122,Clothes - Kleid,item,word
+item_123,Clothes - Knopf,item,word
+item_124,Clothes - Lätzchen,item,word
+item_125,Clothes - Mantel,item,word
+item_126,Clothes - Mütze,item,word
+item_127,Clothes - Pullover,item,word
+item_128,Clothes - Reißverschluss,item,word
+item_129,Clothes - Schlafanzug,item,word
+item_130,Clothes - Schuh,item,word
+item_131,Clothes - Shorts,item,word
+item_132,Clothes - Socken,item,word
+item_133,Clothes - Stiefel,item,word
+item_134,Clothes - Windel,item,word
+item_135,Furniture and Rooms - Badewanne,item,word
+item_136,Furniture and Rooms - Badezimmer / Bad,item,word
+item_137,Furniture and Rooms - Bett,item,word
+item_138,Furniture and Rooms - Fenster,item,word
+item_139,Furniture and Rooms - Fernseher,item,word
+item_140,Furniture and Rooms - Garage,item,word
+item_141,Furniture and Rooms - Herd,item,word
+item_142,Furniture and Rooms - Hochstuhl,item,word
+item_143,Furniture and Rooms - Kinderbettchen,item,word
+item_144,Furniture and Rooms - Küche,item,word
+item_145,Furniture and Rooms - Kühlschrank,item,word
+item_146,Furniture and Rooms - Laufstall,item,word
+item_147,Furniture and Rooms - Schaukelstuhl,item,word
+item_148,Furniture and Rooms - Schlafzimmer,item,word
+item_149,Furniture and Rooms - Schublade,item,word
+item_150,Furniture and Rooms - Sofa,item,word
+item_151,Furniture and Rooms - Stuhl,item,word
+item_152,Furniture and Rooms - Tisch,item,word
+item_153,Furniture and Rooms - Töpfchen,item,word
+item_154,Furniture and Rooms - Treppe,item,word
+item_155,Furniture and Rooms - Tür,item,word
+item_156,Furniture and Rooms - Waschbecken,item,word
+item_157,Furniture and Rooms - Wohnzimmer,item,word
+item_158,Outside - Arbeit,item,word
+item_159,Outside - Baum,item,word
+item_160,Outside - Blume,item,word
+item_161,Outside - draußen,item,word
+item_162,Outside - Eimer,item,word
+item_163,Outside - Garten,item,word
+item_164,Outside - Geschäft,item,word
+item_165,Outside - Haus,item,word
+item_166,Outside - Himmel,item,word
+item_167,Outside - Kirche,item,word
+item_168,Outside - Mauer / Wand,item,word
+item_169,Outside - Mond,item,word
+item_170,Outside - Park,item,word
+item_171,Outside - Party,item,word
+item_172,Outside - Regen,item,word
+item_173,Outside - Rutsche,item,word
+item_174,Outside - Schaufel,item,word
+item_175,Outside - Schaukel,item,word
+item_176,Outside - Schnee,item,word
+item_177,Outside - Schule,item,word
+item_178,Outside - Schwimmbad,item,word
+item_179,Outside - Sonne,item,word
+item_180,Outside - Stein,item,word
+item_181,Outside - Stern,item,word
+item_182,Outside - Strand,item,word
+item_183,Outside - Wasser,item,word
+item_184,Outside - Zoo,item,word
+item_185,Household items - Becher,item,word
+item_186,Household items - Besen,item,word
+item_187,Household items - Bild,item,word
+item_188,Household items - Bürste,item,word
+item_189,Household items - Cent,item,word
+item_190,Household items - Decke,item,word
+item_191,Household items - Flasche,item,word
+item_192,Household items - Gabel,item,word
+item_193,Household items - Geld,item,word
+item_194,Household items - Geldbeutel,item,word
+item_195,Household items - Geschirr,item,word
+item_196,Household items - Glas,item,word
+item_197,Household items - Hammer,item,word
+item_198,Household items - Handtuch,item,word
+item_199,Household items - Kamm,item,word
+item_200,Household items - Kanne,item,word
+item_201,Household items - Kissen,item,word
+item_202,Household items - Kiste,item,word
+item_203,Household items - Lampe,item,word
+item_204,Household items - Licht,item,word
+item_205,Household items - Löffel,item,word
+item_206,Household items - Medizin,item,word
+item_207,Household items - Müll,item,word
+item_208,Household items - Mülleimer,item,word
+item_209,Household items - Papier,item,word
+item_210,Household items - Pflanze,item,word
+item_211,Household items - Radio,item,word
+item_212,Household items - Schere,item,word
+item_213,Household items - Schlüssel,item,word
+item_214,Household items - Schnuller,item,word
+item_215,Household items - Schüssel,item,word
+item_216,Household items - Seife,item,word
+item_217,Household items - Staubsauger,item,word
+item_218,Household items - Tasse,item,word
+item_219,Household items - Telefon,item,word
+item_220,Household items - Teller,item,word
+item_221,Household items - Topf,item,word
+item_222,Household items - Uhr,item,word
+item_223,Household items - Zahnbürste,item,word
+item_224,People - Baby,item,word
+item_225,People - Bruder,item,word
+item_226,People - Doktor / Arzt,item,word
+item_227,People - Frau,item,word
+item_228,People - Freund / Freundin,item,word
+item_229,People - Junge,item,word
+item_230,People - Kind,item,word
+item_231,People - Kindermädchen,item,word
+item_232,People - Lehrer,item,word
+item_233,People - Mädchen,item,word
+item_234,People - Mama,item,word
+item_235,People - Mann,item,word
+item_236,People - Menschen,item,word
+item_237,People - Oma,item,word
+item_238,People - Onkel,item,word
+item_239,People - Opa,item,word
+item_240,People - Papa,item,word
+item_241,People - Person,item,word
+item_242,People - Polizei,item,word
+item_243,People - Schwester,item,word
+item_244,People - Tante,item,word
+item_245,Games and Routines - Abendbrot,item,word
+item_246,Games and Routines - baden,item,word
+item_247,Games and Routines - Bei Müller's hat's gebrannt,item,word
+item_248,Games and Routines - bitte,item,word
+item_249,Games and Routines - danke,item,word
+item_250,Games and Routines - Frühstück,item,word
+item_251,Games and Routines - guck guck,item,word
+item_252,Games and Routines - Gute Nacht,item,word
+item_253,Games and Routines - hallo,item,word
+item_254,Games and Routines - hi,item,word
+item_255,Games and Routines - ja,item,word
+item_256,Games and Routines - Kafe und Kuchen,item,word
+item_257,Games and Routines - Mittagessen,item,word
+item_258,Games and Routines - Mittagsschlaf,item,word
+item_259,Games and Routines - möchte,item,word
+item_260,Games and Routines - nein,item,word
+item_261,Games and Routines - (tu das) nicht,item,word
+item_262,Games and Routines - Sschhhh / Psst,item,word
+item_263,Games and Routines - tschüss,item,word
+item_264,Games and Routines - warten,item,word
+item_265,Action Words - anrufen,item,word
+item_266,Action Words - aufhören,item,word
+item_267,Action Words - aufmachen,item,word
+item_268,Action Words - beeilen,item,word
+item_269,Action Words - beißen,item,word
+item_270,Action Words - bekommen,item,word
+item_271,Action Words - bringen,item,word
+item_272,Action Words - drücken,item,word
+item_273,Action Words - erzählen,item,word
+item_274,Action Words - essen,item,word
+item_275,Action Words - fahren,item,word
+item_276,Action Words - fallen,item,word
+item_277,Action Words - fallen lassen,item,word
+item_278,Action Words - fangen,item,word
+item_279,Action Words - fertig machen,item,word
+item_280,Action Words - finden,item,word
+item_281,Action Words - füttern,item,word
+item_282,Action Words - geben,item,word
+item_283,Action Words - gehen,item,word
+item_284,Action Words - gucken,item,word
+item_285,Action Words - haben,item,word
+item_286,Action Words - hauen,item,word
+item_287,Action Words - helfen,item,word
+item_288,Action Words - hören,item,word
+item_289,Action Words - jagen,item,word
+item_290,Action Words - kaputt machen,item,word
+item_291,Action Words - kitzeln,item,word
+item_292,Action Words - kratzen,item,word
+item_293,Action Words - kuscheln,item,word
+item_294,Action Words - küssen,item,word
+item_295,Action Words - lächeln,item,word
+item_296,Action Words - laufen,item,word
+item_297,Action Words - lesen,item,word
+item_298,Action Words - lieb haben,item,word
+item_299,Action Words - lieben,item,word
+item_300,Action Words - machen,item,word
+item_301,Action Words - malen,item,word
+item_302,Action Words - nehmen,item,word
+item_303,Action Words - pusten,item,word
+item_304,Action Words - reiten,item,word
+item_305,Action Words - rennen,item,word
+item_306,Action Words - riechen,item,word
+item_307,Action Words - sagen,item,word
+item_308,Action Words - sauber machen,item,word
+item_309,Action Words - schaukeln,item,word
+item_310,Action Words - schlafen,item,word
+item_311,Action Words - schneiden,item,word
+item_312,Action Words - schreiben,item,word
+item_313,Action Words - schwimmen,item,word
+item_314,Action Words - sehen,item,word
+item_315,Action Words - singen,item,word
+item_316,Action Words - spielen,item,word
+item_317,Action Words - springen,item,word
+item_318,Action Words - spritzen,item,word
+item_319,Action Words - (hin) stellen,item,word
+item_320,Action Words - tanzen,item,word
+item_321,Action Words - tragen,item,word
+item_322,Action Words - treten,item,word
+item_323,Action Words - trinken,item,word
+item_324,Action Words - umarmen,item,word
+item_325,Action Words - waschen,item,word
+item_326,Action Words - weinen,item,word
+item_327,Action Words - werfen,item,word
+item_328,Action Words - wischen,item,word
+item_329,Action Words - wissen,item,word
+item_330,Action Words - zeigen,item,word
+item_331,Action Words - ziehen,item,word
+item_332,Action Words - zugucken,item,word
+item_333,Action Words - zumachen,item,word
+item_334,Action Words - zusammenstoßen,item,word
+item_335,"Descriptive Words - alle (im Sinne von ""weg"")",item,word
+item_336,Descriptive Words - alt,item,word
+item_337,Descriptive Words - ängstlich,item,word
+item_338,Descriptive Words - blau,item,word
+item_339,Descriptive Words - dunkel,item,word
+item_340,Descriptive Words - durstig,item,word
+item_341,Descriptive Words - fein,item,word
+item_342,Descriptive Words - fies,item,word
+item_343,Descriptive Words - froh,item,word
+item_344,Descriptive Words - gelb,item,word
+item_345,Descriptive Words - groß,item,word
+item_346,Descriptive Words - grün,item,word
+item_347,Descriptive Words - gut,item,word
+item_348,Descriptive Words - hart,item,word
+item_349,Descriptive Words - heiß,item,word
+item_350,Descriptive Words - hungrig,item,word
+item_351,Descriptive Words - kalt,item,word
+item_352,Descriptive Words - kaputt,item,word
+item_353,Descriptive Words - klein,item,word
+item_354,Descriptive Words - krank,item,word
+item_355,Descriptive Words - leer,item,word
+item_356,Descriptive Words - müde,item,word
+item_394,Descriptive Words - nass,item,word
+item_357,Descriptive Words - nett,item,word
+item_358,Descriptive Words - rot,item,word
+item_359,Descriptive Words - sanft,item,word
+item_360,Descriptive Words - sauber,item,word
+item_361,Descriptive Words - schlafend,item,word
+item_362,Descriptive Words - schläfrig,item,word
+item_363,Descriptive Words - schlecht,item,word
+item_364,Descriptive Words - schmutzig,item,word
+item_365,Descriptive Words - schnell,item,word
+item_366,Descriptive Words - schön,item,word
+item_367,Descriptive Words - traurig,item,word
+item_368,Descriptive Words - trocken,item,word
+item_369,Descriptive Words - ungezogen,item,word
+item_370,Descriptive Words - verletzt,item,word
+item_371,Descriptive Words - vorsichtig,item,word
+item_372,Descriptive Words - weich,item,word
+item_373,Question words - wann,item,word
+item_389,Question words - warum,item,word
+item_388,Question words - was,item,word
+item_397,Question words - wer,item,word
+item_374,Question words - wie,item,word
+item_375,Question words - wo,item,word
+item_376,Time - heute,item,word
+item_377,Time - heute Abend,item,word
+item_378,Time - jetzt,item,word
+item_379,Time - Mittag,item,word
+item_380,Time - Morgen,item,word
+item_381,Time - Nacht,item,word
+item_382,Time - später,item,word
+item_383,Time - Tag,item,word
+item_384,Pronouns and Possessives - das,item,word
+item_385,Pronouns and Possessives - dein,item,word
+item_386,Pronouns and Possessives - dies,item,word
+item_387,Pronouns and Possessives - du,item,word
+item_390,Pronouns and Possessives - es,item,word
+item_391,Pronouns and Possessives - ich,item,word
+item_392,Pronouns and Possessives - ihr,item,word
+item_393,Pronouns and Possessives - mein,item,word
+item_395,Pronouns and Possessives - meins,item,word
+item_396,Pronouns and Possessives - mich,item,word
+item_398,Pronouns and Possessives - sein,item,word
+item_399,Prepositions and Location Words - auf,item,word
+item_400,Prepositions and Location Words - aus,item,word
+item_401,Prepositions and Location Words - da,item,word
+item_402,Prepositions and Location Words - drinnen,item,word
+item_403,Prepositions and Location Words - im,item,word
+item_404,Prepositions and Location Words - oben,item,word
+item_405,Prepositions and Location Words - runter,item,word
+item_406,Prepositions and Location Words - unter,item,word
+item_407,Prepositions and Location Words - von,item,word
+item_408,Prepositions and Location Words - weg,item,word
+item_409,Prepositions and Location Words - zurück,item,word
+item_410,Quantifiers - alle,item,word
+item_411,Quantifiers - andere,item,word
+item_412,Quantifiers - anderer,item,word
+item_413,Quantifiers - dasselbe,item,word
+item_414,Quantifiers - kein,item,word
+item_415,Quantifiers - manche,item,word
+item_416,Quantifiers - mehr,item,word
+item_417,Quantifiers - nicht,item,word
+item_418,Quantifiers - wieder,item,word
+study_id,ParticipantID,child,study_id
+,shortPID,,
+,age_days,,
+data_age,age_months,admin,data_age
+,Recorded.Year,,
+,country,,

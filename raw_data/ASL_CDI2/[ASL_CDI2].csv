@@ -1,0 +1,534 @@
+itemID,item,type,choices,definition,category,gloss,uni_lemma
+item_1,ABOUT_2,word,understand;produces,ABOUT_2,locations,about,about
+item_2,AFTER,word,understand;produces,AFTER,time_words,after,after
+item_3,AIRPLANE,word,understand;produces,AIRPLANE,vehicles,airplane,airplane
+item_4,ALL,word,understand;produces,ALL,quantifiers,all,all
+item_5,AND,word,understand;produces,AND,connecting_words,and,and
+item_6,ANGRY,word,understand;produces,ANGRY,mental,angry,angry
+item_7,ANIMAL,word,understand;produces,ANIMAL,animals,animal,animal
+item_8,ANY,word,understand;produces,ANY,quantifiers,any,any
+item_9,APPLE,word,understand;produces,APPLE,food_drink,apple,apple
+item_10,ASK,word,understand;produces,ASK,action_words,ask,ask
+item_11,AUNT,word,understand;produces,AUNT,people,aunt,aunt
+item_12,AWAY,word,understand;produces,AWAY,action_words,away,away
+item_13,BABY,word,understand;produces,BABY,people,baby,baby
+item_14,BACK,word,understand;produces,BACK,body_parts,back,back
+item_15,BAD,word,understand;produces,BAD,descriptive_words,bad,bad
+item_16,BALL,word,understand;produces,BALL,toys,ball,ball
+item_17,BALLOON,word,understand;produces,BALLOON,toys,balloon,balloon
+item_18,BANANA,word,understand;produces,BANANA,food_drink,banana,banana
+item_19,BAND_AID_1,word,understand;produces,BAND_AID_1,household,bandaid,bandaid
+item_20,BASEBALL,word,understand;produces,BASEBALL,games_routines,baseball,baseball
+item_21,BASEMENT,word,understand;produces,BASEMENT,furniture_rooms,basement,basement
+item_22,BASKETBALL,word,understand;produces,BASKETBALL,games_routines,basketball,basketball
+item_23,BASKET_1,word,understand;produces,BASKET_1,household,basket,basket
+item_24,BATH,word,understand;produces,BATH,furniture_rooms,bath,bath
+item_25,BAT_1,word,understand;produces,BAT_1,animals,bat,bat (animal)
+item_26,BEACH,word,understand;produces,BEACH,outside,beach,beach
+item_27,BEANS,word,understand;produces,BEANS,food_drink,beans,beans
+item_28,BEAR,word,understand;produces,BEAR,animals,bear,bear
+item_29,BECAUSE,word,understand;produces,BECAUSE,connecting_words,because,because
+item_30,BED,word,understand;produces,BED,furniture_rooms,bed,bed
+item_31,BEDROOM,word,understand;produces,BEDROOM,furniture_rooms,bedroom,bedroom
+item_32,BEE,word,understand;produces,BEE,animals,bee,bee
+item_33,BEFORE,word,understand;produces,BEFORE,time_words,before,before
+item_34,BEHIND,word,understand;produces,BEHIND,locations,behind,behind
+item_35,BELT,word,understand;produces,BELT,clothing,belt,belt
+item_36,BETTER,word,understand;produces,BETTER,descriptive_words,better,better
+item_37,BIB,word,understand;produces,BIB,clothing,bib,bib
+item_38,BICYCLE,word,understand;produces,BICYCLE,vehicles,bicycle,bicycle
+item_39,BIG,word,understand;produces,BIG,descriptive_words,big,big
+item_40,BIRD,word,understand;produces,BIRD,animals,bird,bird
+item_41,BITE,word,understand;produces,BITE,action_words,bite,bite
+item_42,BLACK,word,understand;produces,BLACK,descriptive_words,black,black
+item_43,BLANKET,word,understand;produces,BLANKET,household,blanket,blanket
+item_44,BLOW,word,understand;produces,BLOW,action_words,blow,blow
+item_45,BLUE,word,understand;produces,BLUE,descriptive_words,blue,blue
+item_46,BOAT,word,understand;produces,BOAT,vehicles,boat,boat
+item_47,BOOK,word,understand;produces,BOOK,toys,book,book
+item_48,BOOTS,word,understand;produces,BOOTS,clothing,boots,boot
+item_49,BOTTLE,word,understand;produces,BOTTLE,household,bottle,bottle
+item_50,BOWL,word,understand;produces,BOWL,household,bowl,bowl
+item_51,BOWLING,word,understand;produces,BOWLING,games_routines,bowling,bowling
+item_52,BOX,word,understand;produces,BOX,household,box,box
+item_53,BOY,word,understand;produces,BOY,people,boy,boy
+item_54,BREAD,word,understand;produces,BREAD,food_drink,bread,bread
+item_55,BREAK,word,understand;produces,BREAK,action_words,break,break
+item_56,BREAKFAST,word,understand;produces,BREAKFAST,games_routines,breakfast,breakfast
+item_57,BRING,word,understand;produces,BRING,action_words,bring,bring
+item_58,BROTHER,word,understand;produces,BROTHER,people,brother,brother
+item_59,BROWN,word,understand;produces,BROWN,descriptive_words,brown,brown
+item_60,BRUSH,word,understand;produces,BRUSH,household,brush,brush (object)
+item_61,BUBBLES,word,understand;produces,BUBBLES,toys,bubbles,bubbles
+item_62,BUG,word,understand;produces,BUG,animals,bug,bug
+item_63,BUILDING,word,understand;produces,BUILDING,outside,building,building
+item_64,BURP,word,understand;produces,BURP,action_words,burp,burp
+item_65,BUS,word,understand;produces,BUS,vehicles,bus,bus
+item_66,BUTTER,word,understand;produces,BUTTER,food_drink,butter,butter
+item_67,BUTTERFLY,word,understand;produces,BUTTERFLY,animals,butterfly,butterfly
+item_68,BUTTONS,word,understand;produces,BUTTONS,clothing,buttons,button
+item_69,BUY,word,understand;produces,BUY,action_words,buy,buy
+item_70,BYE,word,understand;produces,BYE,games_routines,bye,bye
+item_71,CAKE,word,understand;produces,CAKE,food_drink,cake,cake
+item_72,CAMERA,word,understand;produces,CAMERA,household,camera,camera
+item_73,CAMPING,word,understand;produces,CAMPING,outside,camping,camping
+item_74,CAN,word,understand;produces,CAN,action_words,can,can (auxiliary)
+item_75,CANDY_1,word,understand;produces,CANDY_1,food_drink,candy,candy
+item_76,CANNOT,word,understand;produces,CANNOT,action_words,cannot,cannot
+item_77,CAR,word,understand;produces,CAR,vehicles,car,car
+item_78,CAREFUL,word,understand;produces,CAREFUL,descriptive_words,careful,careful
+item_79,CARROT,word,understand;produces,CARROT,food_drink,carrot,carrots
+item_80,CAT,word,understand;produces,CAT,animals,cat,cat
+item_81,CATCH,word,understand;produces,CATCH,action_words,catch,catch
+item_82,CEREAL,word,understand;produces,CEREAL,food_drink,cereal,cereal
+item_83,CHAIR,word,understand;produces,CHAIR,furniture_rooms,chair,chair
+item_84,CHASE,word,understand;produces,CHASE,action_words,chase,chase
+item_85,CHAT,word,understand;produces,CHAT,action_words,chat,talk
+item_86,CHEEK,word,understand;produces,CHEEK,body_parts,cheek,cheek
+item_87,CHEESE,word,understand;produces,CHEESE,food_drink,cheese,cheese
+item_88,CHILDREN,word,understand;produces,CHILDREN,people,children,children
+item_89,CHOCOLATE,word,understand;produces,CHOCOLATE,food_drink,chocolate,chocolate
+item_90,CHURCH,word,understand;produces,CHURCH,outside,church,church
+item_91,CITY,word,understand;produces,CITY,outside,city,city
+item_92,CLEAN,word,understand;produces,CLEAN,action_words,clean,clean (action)
+item_93,CLIMB_LADDER,word,understand;produces,CLIMB_LADDER,action_words,climb ladder,climb
+item_94,CLOSE,word,understand;produces,CLOSE,action_words,close,close
+item_95,CLOTHES,word,understand;produces,CLOTHES,clothing,clothes,clothes
+item_96,CLOUD_1,word,understand;produces,CLOUD_1,outside,cloud,cloud
+item_97,CLOWN,word,understand;produces,CLOWN,people,clown,clown
+item_98,COFFEE,word,understand;produces,COFFEE,food_drink,coffee,coffee
+item_99,COLD,word,understand;produces,COLD,descriptive_words,cold,cold
+item_100,COMB,word,understand;produces,COMB,household,comb,comb (object)
+item_101,COMPLAIN,word,understand;produces,COMPLAIN,action_words,complain,complain
+item_102,COOK,word,understand;produces,COOK,action_words,cook,cook
+item_103,COOKIE,word,understand;produces,COOKIE,food_drink,cookie,cookie
+item_104,CORN_1,word,understand;produces,CORN_1,food_drink,corn,corn
+item_105,COUNT,word,understand;produces,COUNT,action_words,count,count
+item_106,COUNTRY,word,understand;produces,COUNTRY,outside,country,country
+item_107,COUSIN,word,understand;produces,COUSIN,people,cousin,cousin
+item_108,COW,word,understand;produces,COW,animals,cow,cow
+item_109,COWBOY,word,understand;produces,COWBOY,people,cowboy,cowboy
+item_110,CRACKER,word,understand;produces,CRACKER,food_drink,cracker,cracker
+item_111,CRAZY,word,understand;produces,CRAZY,descriptive_words,crazy,crazy
+item_112,CROCODILE,word,understand;produces,CROCODILE,animals,crocodile,crocodile
+item_113,CRY,word,understand;produces,CRY,action_words,cry,cry
+item_114,CUTE_1,word,understand;produces,CUTE_1,descriptive_words,cute,cute
+item_115,CUT_1,word,understand;produces,CUT_1,action_words,cut,cut
+item_116,DANCE,word,understand;produces,DANCE,action_words,dance,dance
+item_117,DARK,word,understand;produces,DARK,descriptive_words,dark,dark
+item_118,DAY,word,understand;produces,DAY,time_words,day,day
+item_119,DEAF_1,word,understand;produces,DEAF_1,descriptive_words,deaf,NA
+item_120,DEER,word,understand;produces,DEER,animals,deer,deer
+item_121,DELICIOUS,word,understand;produces,DELICIOUS,descriptive_words,delicious,tasty
+item_122,DIAPER,word,understand;produces,DIAPER,clothing,diaper,diaper
+item_123,DIFFERENT,word,understand;produces,DIFFERENT,descriptive_words,different,different
+item_124,DINING_ROOM,word,understand;produces,DINING_ROOM,furniture_rooms,dining room,dining room
+item_125,DINNER,word,understand;produces,DINNER,games_routines,dinner,dinner
+item_126,DIRTY,word,understand;produces,DIRTY,descriptive_words,dirty,dirty
+item_127,DISAPPOINT,word,understand;produces,DISAPPOINT,mental,disappoint,disappointed
+item_128,DOCTOR,word,understand;produces,DOCTOR,people,doctor,doctor
+item_129,DOG,word,understand;produces,DOG,animals,dog,dog
+item_130,DOLL,word,understand;produces,DOLL,toys,doll,doll
+item_131,DONT_CARE,word,understand;produces,DONT_CARE,mental,don't care,NA
+item_132,DONT_KNOW,word,understand;produces,DONT_KNOW,mental,don't know,NA
+item_133,DONT_LIKE,word,understand;produces,DONT_LIKE,mental,don't like,NA
+item_134,DONT_WANT,word,understand;produces,DONT_WANT,mental,don't want,NA
+item_135,DOOR,word,understand;produces,DOOR,furniture_rooms,door,door
+item_136,DOWN,word,understand;produces,DOWN,locations,down,down
+item_137,DO_DO,word,understand;produces,DO_DO,question_words,do do,NA
+item_138,DRAW,word,understand;produces,DRAW,action_words,draw,draw
+item_139,DRAWER,word,understand;produces,DRAWER,furniture_rooms,drawer,drawer
+item_140,DRESS,word,understand;produces,DRESS,clothing,dress,dress (object)
+item_141,DRINK,word,understand;produces,DRINK,action_words,drink,drink (action)
+item_142,DRIVE,word,understand;produces,DRIVE,action_words,drive,drive
+item_143,DROP,word,understand;produces,DROP,action_words,drop,drop
+item_144,DRY,word,understand;produces,DRY,descriptive_words,dry,dry (description)
+item_145,DUCK,word,understand;produces,DUCK,animals,duck,duck
+item_146,EACH,word,understand;produces,EACH,quantifiers,each,each
+item_147,EAR,word,understand;produces,EAR,body_parts,ear,ear
+item_148,EARRING,word,understand;produces,EARRING,clothing,earring,earring
+item_149,EAT_1,word,understand;produces,EAT_1,action_words,eat,eat
+item_150,EGG,word,understand;produces,EGG,food_drink,egg,egg
+item_151,ELEPHANT,word,understand;produces,ELEPHANT,animals,elephant,elephant
+item_152,EMPTY_1,word,understand;produces,EMPTY_1,descriptive_words,empty,empty
+item_153,ENTER,word,understand;produces,ENTER,action_words,enter,enter
+item_154,ESCAPE,word,understand;produces,ESCAPE,action_words,escape,escape
+item_155,EYES,word,understand;produces,EYES,body_parts,eyes,eye
+item_156,EYES_AWAKE,word,understand;produces,EYES_AWAKE,action_words,eyes awake,NA
+item_157,FACE,word,understand;produces,FACE,body_parts,face,face
+item_158,FALL_2,word,understand;produces,FALL_2,action_words,fall,fall
+item_159,FARM,word,understand;produces,FARM,outside,farm,farm
+item_160,FAST,word,understand;produces,FAST,descriptive_words,fast,fast
+item_161,FATHER,word,understand;produces,FATHER,people,father,daddy
+item_162,FAVORITE,word,understand;produces,FAVORITE,action_words,favorite,favorite
+item_163,FEED,word,understand;produces,FEED,action_words,feed,feed
+item_164,FIND,word,understand;produces,FIND,action_words,find,find
+item_165,FINE_1,word,understand;produces,FINE_1,descriptive_words,fine,fine
+item_166,FINGER,word,understand;produces,FINGER,body_parts,finger,finger
+item_167,FINISH,word,understand;produces,FINISH,action_words,finish,finish
+item_168,FIREMAN,word,understand;produces,FIREMAN,people,fireman,fireman
+item_169,FIRST,word,understand;produces,FIRST,descriptive_words,first,first
+item_170,FISH,word,understand;produces,FISH,animals,fish,fish (animal)
+item_171,FIX,word,understand;produces,FIX,action_words,fix,fix
+item_172,FLAG,word,understand;produces,FLAG,outside,flag,flag
+item_173,FLOWER,word,understand;produces,FLOWER,outside,flower,flower
+item_174,FOOTBALL,word,understand;produces,FOOTBALL,games_routines,football,football
+item_175,FOR,word,understand;produces,FOR,locations,for,for
+item_176,FOREST,word,understand;produces,FOREST,outside,forest,forest
+item_177,FORK,word,understand;produces,FORK,household,fork,fork
+item_178,FOX,word,understand;produces,FOX,animals,fox,fox
+item_179,FRENCHFRIES,word,understand;produces,FRENCHFRIES,food_drink,french fries,french fries
+item_180,FRIEND,word,understand;produces,FRIEND,people,friend,friend
+item_181,FROG,word,understand;produces,FROG,animals,frog,frog
+item_182,FRONT,word,understand;produces,FRONT,locations,front,front
+item_183,FULL,word,understand;produces,FULL,descriptive_words,full,full
+item_184,FUNNY,word,understand;produces,FUNNY,descriptive_words,funny,funny
+item_185,GAME,word,understand;produces,GAME,games_routines,game,game
+item_186,GARAGE,word,understand;produces,GARAGE,furniture_rooms,garage,garage
+item_187,GET,word,understand;produces,GET,action_words,get,get
+item_188,GIFT,word,understand;produces,GIFT,toys,gift,present
+item_189,GIRAFFE,word,understand;produces,GIRAFFE,animals,giraffe,giraffe
+item_190,GIRL,word,understand;produces,GIRL,people,girl,girl
+item_191,GIVE,word,understand;produces,GIVE,action_words,give,give
+item_192,GLASS,word,understand;produces,GLASS,household,glass,glass
+item_193,GLASSES,word,understand;produces,GLASSES,clothing,glasses,glasses
+item_194,GLOVES,word,understand;produces,GLOVES,clothing,gloves,glove
+item_195,GO,word,understand;produces,GO,action_words,go,go
+item_196,GOLF,word,understand;produces,GOLF,games_routines,golf,golf
+item_197,GONE,word,understand;produces,GONE,descriptive_words,gone,gone
+item_198,GOOD,word,understand;produces,GOOD,descriptive_words,good,good
+item_199,GRANDFATHER,word,understand;produces,GRANDFATHER,people,grandfather,grandpa
+item_200,GRANDMOTHER,word,understand;produces,GRANDMOTHER,people,grandmother,grandma
+item_201,GRAPES,word,understand;produces,GRAPES,food_drink,grapes,grapes
+item_202,GRASS,word,understand;produces,GRASS,outside,grass,grass
+item_203,GREEN,word,understand;produces,GREEN,descriptive_words,green,green
+item_204,GUM,word,understand;produces,GUM,food_drink,gum,gum
+item_205,HAIR,word,understand;produces,HAIR,body_parts,hair,hair
+item_206,HAMBURGER,word,understand;produces,HAMBURGER,food_drink,hamburger,hamburger
+item_207,HAMMER,word,understand;produces,HAMMER,household,hammer,hammer
+item_208,HANDS,word,understand;produces,HANDS,body_parts,hands,hand
+item_209,HAPPY,word,understand;produces,HAPPY,mental,happy,happy
+item_210,HARD,word,understand;produces,HARD,descriptive_words,hard,hard
+item_211,HAT,word,understand;produces,HAT,clothing,hat,hat
+item_212,HATE,word,understand;produces,HATE,mental,hate,hate
+item_213,HAVE,word,understand;produces,HAVE,action_words,have,have
+item_214,HE,word,understand;produces,HE,pronouns,he,3SG
+item_215,HEAD,word,understand;produces,HEAD,body_parts,head,head
+item_216,HEAR,word,understand;produces,HEAR,action_words,hear,hear
+item_217,HEARING,word,understand;produces,HEARING,descriptive_words,hearing,hearing
+item_218,HEAVY,word,understand;produces,HEAVY,descriptive_words,heavy,heavy
+item_219,HELICOPTER,word,understand;produces,HELICOPTER,vehicles,helicopter,helicopter
+item_220,HELLO,word,understand;produces,HELLO,games_routines,hello,hello
+item_221,HELP,word,understand;produces,HELP,action_words,help,help
+item_222,HERE,word,understand;produces,HERE,locations,here,here
+item_223,HIDE,word,understand;produces,HIDE,action_words,hide,hide
+item_224,HIGH,word,understand;produces,HIGH,descriptive_words,high,high
+item_225,HIS,word,understand;produces,HIS,pronouns,his,3SG.POSS
+item_226,HIT,word,understand;produces,HIT,action_words,hit,hit
+item_227,HOLD,word,understand;produces,HOLD,action_words,hold,hold
+item_228,HOME,word,understand;produces,HOME,outside,home,home
+item_229,HORSE,word,understand;produces,HORSE,animals,horse,horse
+item_230,HOSE,word,understand;produces,HOSE,outside,hose,hose
+item_231,HOT,word,understand;produces,HOT,descriptive_words,hot,hot
+item_232,HOTDOG,word,understand;produces,HOTDOG,food_drink,hotdog,hot dog
+item_233,HOUSE,word,understand;produces,HOUSE,outside,house,house
+item_234,HOW,word,understand;produces,HOW,question_words,how,how
+item_235,HUG,word,understand;produces,HUG,action_words,hug,hug
+item_236,HUNGRY,word,understand;produces,HUNGRY,descriptive_words,hungry,hungry
+item_237,HURRY,word,understand;produces,HURRY,action_words,hurry,hurry
+item_238,HURT,word,understand;produces,HURT,action_words,hurt,hurt (description)
+item_239,ICE,word,understand;produces,ICE,food_drink,ice,ice
+item_240,ICECREAM,word,understand;produces,ICECREAM,food_drink,icecream,ice cream
+item_241,IF,word,understand;produces,IF,connecting_words,if,if
+item_242,IN,word,understand;produces,IN,locations,in,in
+item_243,INJECT,word,understand;produces,INJECT,action_words,inject,NA
+item_244,I_LOVE_YOU,word,understand;produces,I_LOVE_YOU,games_routines,I love you,NA
+item_245,JACKET,word,understand;produces,JACKET,clothing,jacket,jacket
+item_246,JELLY,word,understand;produces,JELLY,food_drink,jelly,jelly
+item_247,JIGSAW_PUZZLE,word,understand;produces,JIGSAW_PUZZLE,games_routines,jigsaw puzzle,puzzle
+item_248,JUICE_2,word,understand;produces,JUICE_2,food_drink,juice,juice
+item_249,JUMP,word,understand;produces,JUMP,action_words,jump,jump
+item_250,KEY,word,understand;produces,KEY,household,key,key
+item_251,KICK,word,understand;produces,KICK,action_words,kick,kick
+item_252,KISS_2,word,understand;produces,KISS_2,action_words,kiss,kiss
+item_253,KITCHEN,word,understand;produces,KITCHEN,furniture_rooms,kitchen,kitchen
+item_254,KNIFE,word,understand;produces,KNIFE,household,knife,knife
+item_255,KNOCK,word,understand;produces,KNOCK,action_words,knock,knock
+item_256,LAMP,word,understand;produces,LAMP,household,lamp,lamp
+item_257,LAST,word,understand;produces,LAST,quantifiers,last,last
+item_258,LATER,word,understand;produces,LATER,time_words,later,later
+item_259,LAUGH,word,understand;produces,LAUGH,action_words,laugh,laugh
+item_260,LAWNMOWER,word,understand;produces,LAWNMOWER,outside,lawnmower,lawn mower
+item_261,LEARN,word,understand;produces,LEARN,action_words,learn,learn
+item_262,LEAVE,word,understand;produces,LEAVE,action_words,leave,leave
+item_263,LETTER,word,understand;produces,LETTER,household,letter,letter
+item_264,LET_ME_SEE,word,understand;produces,LET_ME_SEE,helping_verbs,let me see,NA
+item_265,LICK_2,word,understand;produces,LICK_2,action_words,lick,lick
+item_266,LIGHTNING,word,understand;produces,LIGHTNING,outside,lightning,lightning
+item_267,LIGHT_WEIGHT,word,understand;produces,LIGHT_WEIGHT,descriptive_words,light (weight),light (description)
+item_268,LIKE,word,understand;produces,LIKE,mental,like,like
+item_269,LION,word,understand;produces,LION,animals,lion,lion
+item_270,LIVING_ROOM,word,understand;produces,LIVING_ROOM,furniture_rooms,living room,living room
+item_271,LOLLIPOP,word,understand;produces,LOLLIPOP,food_drink,lollipop,lollipop
+item_272,LONG,word,understand;produces,LONG,descriptive_words,long,long
+item_273,LOOK_FOR,word,understand;produces,LOOK_FOR,action_words,look for,look for
+item_274,LOVE,word,understand;produces,LOVE,mental,love,love
+item_275,LUNCH_1,word,understand;produces,LUNCH_1,games_routines,lunch,lunch
+item_276,MAD,word,understand;produces,MAD,mental,mad,mad
+item_277,MAILMAN,word,understand;produces,MAILMAN,people,mailman,mailman
+item_278,MAKE,word,understand;produces,MAKE,action_words,make,make
+item_279,MAN,word,understand;produces,MAN,people,man,man
+item_280,MANY,word,understand;produces,MANY,quantifiers,many,many
+item_281,MATCH,word,understand;produces,MATCH,action_words,match,NA
+item_282,ME,word,understand;produces,ME,pronouns,me,me
+item_283,MEAT,word,understand;produces,MEAT,food_drink,meat,meat
+item_284,MEDICINE,word,understand;produces,MEDICINE,household,medicine,medicine
+item_285,MELON,word,understand;produces,MELON,food_drink,melon,melon
+item_286,MELT,word,understand;produces,MELT,action_words,melt,melt
+item_287,MILK,word,understand;produces,MILK,food_drink,milk,milk
+item_288,MIRROR,word,understand;produces,MIRROR,furniture_rooms,mirror,mirror
+item_289,MISUNDERSTAND,word,understand;produces,MISUNDERSTAND,mental,misunderstand,NA
+item_290,MONEY,word,understand;produces,MONEY,household,money,money
+item_291,MONKEY,word,understand;produces,MONKEY,animals,monkey,monkey
+item_292,MONSTER,word,understand;produces,MONSTER,people,monster,monster
+item_293,MONTH,word,understand;produces,MONTH,time_words,month,month
+item_294,MOON,word,understand;produces,MOON,outside,moon,moon
+item_295,MOP,word,understand;produces,MOP,household,mop,mop
+item_296,MORE,word,understand;produces,MORE,quantifiers,more,more
+item_297,MORNING,word,understand;produces,MORNING,time_words,morning,morning
+item_298,MOTHER,word,understand;produces,MOTHER,people,mother,mommy
+item_299,MOTORCYCLE,word,understand;produces,MOTORCYCLE,vehicles,motorcycle,motorcycle
+item_300,MOUSE,word,understand;produces,MOUSE,animals,mouse,mouse
+item_301,MOUTH,word,understand;produces,MOUTH,body_parts,mouth,mouth
+item_302,MOVIE,word,understand;produces,MOVIE,outside,movie,movie
+item_303,MUCH,word,understand;produces,MUCH,quantifiers,much,much
+item_304,MY,word,understand;produces,MY,pronouns,my,1SG.POSS
+item_305,MYSELF,word,understand;produces,MYSELF,pronouns,myself,self
+item_306,NAPKIN,word,understand;produces,NAPKIN,household,napkin,napkin
+item_307,NECKLACE,word,understand;produces,NECKLACE,clothing,necklace,necklace
+item_308,NEED,word,understand;produces,NEED,mental,need,need
+item_309,NEW,word,understand;produces,NEW,descriptive_words,new,new
+item_310,NEWSPAPER,word,understand;produces,NEWSPAPER,household,newspaper,newspaper
+item_311,NEXT_TO,word,understand;produces,NEXT_TO,locations,next to,next to
+item_312,NICE,word,understand;produces,NICE,descriptive_words,nice,nice
+item_313,NIGHT,word,understand;produces,NIGHT,time_words,night,night
+item_314,NO,word,understand;produces,NO,games_routines,no,no
+item_315,NOT,word,understand;produces,NOT,quantifiers,not,not
+item_316,NOTHING,word,understand;produces,NOTHING,quantifiers,nothing,nothing
+item_317,NOT_YET,word,understand;produces,NOT_YET,time_words,not yet,NA
+item_318,NOW,word,understand;produces,NOW,time_words,now,now
+item_319,NUMBERS,word,understand;produces,NUMBERS,quantifiers,numbers,NA
+item_320,NURSE,word,understand;produces,NURSE,people,nurse,nurse
+item_321,NUT,word,understand;produces,NUT,food_drink,nut,nut
+item_322,OFF,word,understand;produces,OFF,locations,off,off
+item_323,OH_I_SEE,word,understand;produces,OH_I_SEE,games_routines,oh I see,NA
+item_324,OLD,word,understand;produces,OLD,descriptive_words,old,old
+item_325,ON,word,understand;produces,ON,locations,on,on
+item_326,ONION,word,understand;produces,ONION,food_drink,onion,onion
+item_327,OPEN,word,understand;produces,OPEN,action_words,open,open (action)
+item_328,OPEN_BOOK,word,understand;produces,OPEN_BOOK,action_words,open book,NA
+item_329,ORANGE,word,understand;produces,ORANGE,descriptive_words,orange,orange (description)
+item_330,OTHER,word,understand;produces,OTHER,quantifiers,other,other
+item_331,OUR,word,understand;produces,OUR,pronouns,our,our
+item_332,OUT,word,understand;produces,OUT,locations,out,out
+item_333,OUTSIDE,word,understand;produces,OUTSIDE,outside,outside,outside
+item_334,OVER_1,word,understand;produces,OVER_1,locations,over,over
+item_335,OWL,word,understand;produces,OWL,animals,owl,owl
+item_336,PAINT,word,understand;produces,PAINT,action_words,paint,paint (action)
+item_337,PANTS,word,understand;produces,PANTS,clothing,pants,pants
+item_338,PAPER,word,understand;produces,PAPER,household,paper,paper
+item_339,PARTY_1,word,understand;produces,PARTY_1,outside,party,party
+item_340,PEANUT_BUTTER,word,understand;produces,PEANUT_BUTTER,food_drink,peanut butter,peanut butter
+item_341,PENCIL,word,understand;produces,PENCIL,household,pencil,pencil
+item_342,PENNY,word,understand;produces,PENNY,household,penny,coin
+item_343,PEOPLE,word,understand;produces,PEOPLE,people,people,people
+item_344,PERSON,word,understand;produces,PERSON,people,person,person
+item_345,PICTURE,word,understand;produces,PICTURE,household,picture,picture
+item_346,PIG,word,understand;produces,PIG,animals,pig,pig
+item_347,PINK,word,understand;produces,PINK,descriptive_words,pink,pink
+item_348,PJS,word,understand;produces,PJS,clothing,pjs,pajamas
+item_349,PLATE,word,understand;produces,PLATE,household,plate,plate
+item_350,PLAY,word,understand;produces,PLAY,action_words,play,play
+item_351,PLAYGROUND,word,understand;produces,PLAYGROUND,outside,playground,playground
+item_352,PLEASE,word,understand;produces,PLEASE,games_routines,please,please
+item_353,POLICEMAN,word,understand;produces,POLICEMAN,people,policeman,police
+item_354,POOR,word,understand;produces,POOR,descriptive_words,poor,poor
+item_355,POTATO,word,understand;produces,POTATO,food_drink,potato,potato
+item_356,POUR,word,understand;produces,POUR,action_words,pour,pour
+item_357,PRACTICE,word,understand;produces,PRACTICE,action_words,practice,practice
+item_358,PRETTY,word,understand;produces,PRETTY,descriptive_words,pretty,pretty
+item_359,PULL,word,understand;produces,PULL,action_words,pull,pull
+item_360,PURPLE,word,understand;produces,PURPLE,descriptive_words,purple,purple
+item_361,PUSH,word,understand;produces,PUSH,action_words,push,push
+item_362,PUT,word,understand;produces,PUT,action_words,put,put
+item_363,QUIET,word,understand;produces,QUIET,descriptive_words,quiet,quiet
+item_364,RABBIT,word,understand;produces,RABBIT,animals,rabbit,rabbit
+item_365,RADIO,word,understand;produces,RADIO,household,radio,radio
+item_366,RAIN,word,understand;produces,RAIN,outside,rain,rain
+item_367,READ,word,understand;produces,READ,action_words,read,read
+item_368,RED,word,understand;produces,RED,descriptive_words,red,red
+item_369,REMEMBER,word,understand;produces,REMEMBER,mental,remember,remember
+item_370,RESTAURANT,word,understand;produces,RESTAURANT,outside,restaurant,restaurant
+item_371,RIDE,word,understand;produces,RIDE,action_words,ride,ride
+item_372,ROBOT,word,understand;produces,ROBOT,people,robot,robot
+item_373,ROCK,word,understand;produces,ROCK,outside,rock,rock (object)
+item_374,ROCKING_CHAIR_1,word,understand;produces,ROCKING_CHAIR_1,furniture_rooms,rocking chair,rocking chair
+item_375,ROOSTER,word,understand;produces,ROOSTER,animals,rooster,rooster
+item_376,RUN,word,understand;produces,RUN,action_words,run,run
+item_377,RUN_OUT_OF,word,understand;produces,RUN_OUT_OF,quantifiers,run out of,NA
+item_378,SAD,word,understand;produces,SAD,mental,sad,sad
+item_379,SALAD,word,understand;produces,SALAD,food_drink,salad,salad
+item_380,SALT,word,understand;produces,SALT,food_drink,salt,salt
+item_381,SAME_1,word,understand;produces,SAME_1,descriptive_words,same,same
+item_382,SANDWICH,word,understand;produces,SANDWICH,food_drink,sandwich,sandwich
+item_383,SAUCE,word,understand;produces,SAUCE,food_drink,sauce,sauce
+item_384,SAVE,word,understand;produces,SAVE,action_words,save,save
+item_385,SCARED,word,understand;produces,SCARED,mental,scared,scared
+item_386,SCHOOL,word,understand;produces,SCHOOL,outside,school,school
+item_387,SCISSORS,word,understand;produces,SCISSORS,household,scissors,scissors
+item_388,SEE,word,understand;produces,SEE,action_words,see,see
+item_389,SELECT,word,understand;produces,SELECT,action_words,select,choose
+item_390,SHARE,word,understand;produces,SHARE,action_words,share,share
+item_391,SHEEP,word,understand;produces,SHEEP,animals,sheep,sheep
+item_392,SHIRT,word,understand;produces,SHIRT,clothing,shirt,shirt
+item_393,SHOES,word,understand;produces,SHOES,clothing,shoes,shoe
+item_394,SHOP_1,word,understand;produces,SHOP_1,action_words,shop,store
+item_395,SHORTS,word,understand;produces,SHORTS,clothing,shorts,shorts
+item_396,SHOULDER,word,understand;produces,SHOULDER,body_parts,shoulder,shoulder
+item_397,SHOVEL,word,understand;produces,SHOVEL,action_words,shovel,shovel
+item_398,SHOW,word,understand;produces,SHOW,action_words,show,show
+item_399,SHOWER,word,understand;produces,SHOWER,action_words,shower,shower
+item_400,SICK,word,understand;produces,SICK,descriptive_words,sick,sick
+item_401,SIGN,word,understand;produces,SIGN,action_words,sign,sign (action)
+item_402,SILLY,word,understand;produces,SILLY,mental,silly,silly
+item_403,SISTER,word,understand;produces,SISTER,people,sister,sister
+item_404,SIT,word,understand;produces,SIT,action_words,sit,sit
+item_405,SKATE,word,understand;produces,SKATE,action_words,skate,skate (action)
+item_406,SKUNK,word,understand;produces,SKUNK,animals,skunk,skunk
+item_407,SLEEP,word,understand;produces,SLEEP,action_words,sleep,sleep
+item_408,SLIDE,word,understand;produces,SLIDE,action_words,slide,slide (action)
+item_409,SLOW,word,understand;produces,SLOW,descriptive_words,slow,slow
+item_410,SMALL,word,understand;produces,SMALL,descriptive_words,small,small
+item_411,SMILE,word,understand;produces,SMILE,action_words,smile,smile
+item_412,SNAKE,word,understand;produces,SNAKE,animals,snake,snake
+item_413,SNOW,word,understand;produces,SNOW,outside,snow,snow
+item_414,SO,word,understand;produces,SO,connecting_words,so,so
+item_415,SOAP,word,understand;produces,SOAP,household,soap,soap
+item_416,SOCKS,word,understand;produces,SOCKS,clothing,socks,sock
+item_417,SODA,word,understand;produces,SODA,food_drink,soda,soda
+item_418,SOFT,word,understand;produces,SOFT,descriptive_words,soft,soft
+item_419,SOME,word,understand;produces,SOME,quantifiers,some,some
+item_420,SOON,word,understand;produces,SOON,time_words,soon,soon
+item_421,SORRY,word,understand;produces,SORRY,mental,sorry,sorry
+item_422,SOUP,word,understand;produces,SOUP,food_drink,soup,soup
+item_423,SPAGHETTI,word,understand;produces,SPAGHETTI,food_drink,spaghetti,spaghetti
+item_424,SPIDER,word,understand;produces,SPIDER,animals,spider,spider
+item_425,SPILL,word,understand;produces,SPILL,action_words,spill,spill
+item_426,SPOON,word,understand;produces,SPOON,household,spoon,spoon
+item_427,SQUIRREL,word,understand;produces,SQUIRREL,animals,squirrel,squirrel
+item_428,STAIRS,word,understand;produces,STAIRS,furniture_rooms,stairs,stairs
+item_429,STAND,word,understand;produces,STAND,action_words,stand,stand
+item_430,STAR,word,understand;produces,STAR,outside,star,star
+item_431,STAY,word,understand;produces,STAY,action_words,stay,stay
+item_432,STICKY,word,understand;produces,STICKY,descriptive_words,sticky,sticky
+item_433,STOMACH,word,understand;produces,STOMACH,body_parts,stomach,tummy
+item_434,STOP,word,understand;produces,STOP,action_words,stop,stop
+item_435,STORY,word,understand;produces,STORY,games_routines,story,story
+item_436,STRAWBERRY,word,understand;produces,STRAWBERRY,food_drink,strawberry,strawberry
+item_437,STREET,word,understand;produces,STREET,outside,street,street
+item_438,STUCK,word,understand;produces,STUCK,action_words,stuck,stuck
+item_439,SUN,word,understand;produces,SUN,outside,sun,sun
+item_440,SWEATER,word,understand;produces,SWEATER,clothing,sweater,sweater
+item_441,SWEEP,word,understand;produces,SWEEP,action_words,sweep,sweep
+item_442,SWIM,word,understand;produces,SWIM,action_words,swim,swim
+item_443,SWING_2,word,understand;produces,SWING_2,action_words,swing,swing (action)
+item_444,TABLE,word,understand;produces,TABLE,furniture_rooms,table,table
+item_445,TAKE,word,understand;produces,TAKE,action_words,take,take
+item_446,TAKE_PILL,word,understand;produces,TAKE_PILL,action_words,take pill,NA
+item_447,TALK,word,understand;produces,TALK,action_words,talk,talk
+item_448,TALL_1,word,understand;produces,TALL_1,descriptive_words,tall,tall
+item_449,TAPE,word,understand;produces,TAPE,household,tape,tape
+item_450,TEA,word,understand;produces,TEA,food_drink,tea,tea
+item_451,TEACH,word,understand;produces,TEACH,action_words,teach,teach
+item_452,TEACHER,word,understand;produces,TEACHER,people,teacher,teacher
+item_453,TEAR,word,understand;produces,TEAR,body_parts,tear,tear
+item_454,TEAR_RIP,word,understand;produces,TEAR_RIP,action_words,tear/rip,tear
+item_455,TEETH,word,understand;produces,TEETH,body_parts,teeth,tooth
+item_456,TELEPHONE,word,understand;produces,TELEPHONE,household,telephone,telephone
+item_457,TELL,word,understand;produces,TELL,action_words,tell,tell
+item_458,THAT,word,understand;produces,THAT,pronouns,that,that
+item_459,THEN,word,understand;produces,THEN,connecting_words,then,then
+item_460,THESE,word,understand;produces,THESE,pronouns,these,these
+item_461,THEY,word,understand;produces,THEY,pronouns,they,they
+item_462,THINK,word,understand;produces,THINK,mental,think,think
+item_463,THIRSTY,word,understand;produces,THIRSTY,descriptive_words,thirsty,thirsty
+item_464,THROW,word,understand;produces,THROW,action_words,throw,throw
+item_465,TICKET,word,understand;produces,TICKET,household,ticket,ticket
+item_466,TIGER,word,understand;produces,TIGER,animals,tiger,tiger
+item_467,TIME,word,understand;produces,TIME,time_words,time,time
+item_468,TIRED,word,understand;produces,TIRED,descriptive_words,tired,tired
+item_469,TISSUE,word,understand;produces,TISSUE,household,tissue,tissue
+item_470,TO,word,understand;produces,TO,locations,to,to
+item_471,TOAST,word,understand;produces,TOAST,food_drink,toast,toast
+item_472,TOILET,word,understand;produces,TOILET,furniture_rooms,toilet,toilet
+item_473,TOMATO,word,understand;produces,TOMATO,food_drink,tomato,tomato
+item_474,TOMORROW,word,understand;produces,TOMORROW,time_words,tomorrow,tomorrow
+item_475,TONGUE,word,understand;produces,TONGUE,body_parts,tongue,tongue
+item_476,TOOTHBRUSH,word,understand;produces,TOOTHBRUSH,household,toothbrush,toothbrush
+item_477,TOUCH,word,understand;produces,TOUCH,action_words,touch,touch
+item_478,TOWEL,word,understand;produces,TOWEL,household,towel,towel
+item_479,TRAIN,word,understand;produces,TRAIN,vehicles,train,train
+item_480,TRASH,word,understand;produces,TRASH,household,trash,trash
+item_481,TREE,word,understand;produces,TREE,outside,tree,tree
+item_482,TURKEY,word,understand;produces,TURKEY,animals,turkey,turkey
+item_483,TURN_KEY,word,understand;produces,TURN_KEY,action_words,turn key,NA
+item_484,TURTLE,word,understand;produces,TURTLE,animals,turtle,turtle
+item_485,TV,word,understand;produces,TV,furniture_rooms,tv,TV
+item_486,UNCLE,word,understand;produces,UNCLE,people,uncle,uncle
+item_487,UNDER,word,understand;produces,UNDER,locations,under,under
+item_488,UNDERSTAND,word,understand;produces,UNDERSTAND,mental,understand,understand
+item_489,UNDERWEAR,word,understand;produces,UNDERWEAR,clothing,underwear,underpants
+item_490,UP,word,understand;produces,UP,locations,up,up
+item_491,UPSET,word,understand;produces,UPSET,mental,upset,angry
+item_492,VACUUM,word,understand;produces,VACUUM,household,vacuum,vacuum
+item_493,WAIT,word,understand;produces,WAIT,action_words,wait,wait
+item_494,WALK,word,understand;produces,WALK,action_words,walk,walk
+item_495,WANT,word,understand;produces,WANT,mental,want,want
+item_496,WASH,word,understand;produces,WASH,action_words,wash,wash
+item_497,WASH_FACE,word,understand;produces,WASH_FACE,action_words,wash face,NA
+item_498,WASH_HANDS,word,understand;produces,WASH_HANDS,action_words,wash hands,NA
+item_499,WASH_MACHINE,word,understand;produces,WASH_MACHINE,furniture_rooms,wash machine,washing machine
+item_500,WATCH,word,understand;produces,WATCH,action_words,watch,watch (action)
+item_501,WATER,word,understand;produces,WATER,food_drink,water,water (beverage)
+item_502,WE,word,understand;produces,WE,pronouns,we,we
+item_503,WEEK,word,understand;produces,WEEK,time_words,week,week
+item_504,WET,word,understand;produces,WET,descriptive_words,wet,wet (description)
+item_505,WHAT_1,word,understand;produces,WHAT_1,question_words,what,what
+item_506,WHAT_2,word,understand;produces,WHAT_2,question_words,what,what
+item_507,WHAT_FOR,word,understand;produces,WHAT_FOR,question_words,what for,NA
+item_508,WHEN,word,understand;produces,WHEN,question_words,when,when (question)
+item_509,WHERE,word,understand;produces,WHERE,question_words,where,where (question)
+item_510,WHICH,word,understand;produces,WHICH,question_words,which,which (question)
+item_511,WHITE,word,understand;produces,WHITE,descriptive_words,white,white
+item_512,WHO,word,understand;produces,WHO,question_words,who,who
+item_513,WHY,word,understand;produces,WHY,question_words,why,why
+item_514,WILL,word,understand;produces,WILL,helping_verbs,will,will
+item_515,WINDOW,word,understand;produces,WINDOW,furniture_rooms,window,window
+item_516,WINDY,word,understand;produces,WINDY,descriptive_words,windy,windy
+item_517,WISH,word,understand;produces,WISH,mental,wish,wish
+item_518,WITH,word,understand;produces,WITH,locations,with,with
+item_519,WOLF,word,understand;produces,WOLF,animals,wolf,wolf
+item_520,WOMAN,word,understand;produces,WOMAN,people,woman,woman
+item_521,WORK,word,understand;produces,WORK,action_words,work,work (action)
+item_522,WRISTWATCH,word,understand;produces,WRISTWATCH,clothing,wristwatch,watch (object)
+item_523,WRITE,word,understand;produces,WRITE,action_words,write,write
+item_524,YEAR,word,understand;produces,YEAR,time_words,year,year
+item_525,YELLOW,word,understand;produces,YELLOW,descriptive_words,yellow,yellow
+item_526,YES,word,understand;produces,YES,games_routines,yes,yes
+item_527,YESTERDAY,word,understand;produces,YESTERDAY,time_words,yesterday,yesterday
+item_528,YOU,word,understand;produces,YOU,pronouns,you,you
+item_529,YOUR,word,understand;produces,YOUR,pronouns,your,your
+item_530,YOURSELF,word,understand;produces,YOURSELF,pronouns,yourself,yourself
+item_531,YUCKY_1,word,understand;produces,YUCKY_1,descriptive_words,yucky,yucky
+item_532,ZIPPER,word,understand;produces,ZIPPER,clothing,zipper,zipper
+item_533,ZOO,word,understand;produces,ZOO,outside,zoo,zoo

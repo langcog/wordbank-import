@@ -1,0 +1,13 @@
+type,value,data_value
+sex,M,Male
+sex,F,Female
+mom_ed,some secondary,jr_high
+mom_ed,some secondary,some_high
+mom_ed,secondary,high
+mom_ed,some college,some_college
+mom_ed,college,college
+mom_ed,some graduate,some_grad
+mom_ed,graduate,grad
+word,produces,1
+word,,0
+word,,NA

@@ -1,0 +1,16 @@
+type,value,data_value
+sex,M,0
+sex,F,1
+mom_ed,none,1
+mom_ed,primary,2
+mom_ed,primary,3
+mom_ed,some secondary,4
+mom_ed,secondary,5
+mom_ed,some college,6
+condition,,0
+condition,Pre-term,1
+word,produces,2
+word,understands,1
+word,,0
+gestures_first,not yet,0
+gestures_first,sometimes/often,1

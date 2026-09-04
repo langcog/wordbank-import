@@ -1,0 +1,460 @@
+﻿field,column,group,type
+,Response ID,,
+sex,Child's gender,child,sex
+mom_ed,Mother's highest educational qualification,child,mom_ed
+,Father's highest educational qualification,,
+,Overall language exposure - Portuguese,,
+,Overall language exposure - English,,
+,Overall language exposure - Other,,
+,Overall language exposure - Other - Text,,
+languages,exp_por,admin,language
+languages,exp_eng,admin,language
+languages,exp_oth,admin,language
+,Home language exposure - Portuguese,,
+,Home language exposure - English,,
+,Home language exposure - Other(s),,
+,Home language exposure - Other(s) - Text,,
+,Mother native - Selected Choice,,
+,Mother native - Other(s) - Text,,
+,Mother's proficiency - Portuguese,,
+,Mother's proficiency - English,,
+,Mother's proficiency - Other,,
+,Mother's proficiency - Other - Text,,
+,Mother's child language,,
+,Father native - Selected Choice,,
+,Father native - Other(s) - Text,,
+,Father's proficiency - Portuguese,,
+,Father's proficiency - English,,
+,Father's proficiency - Other,,
+,Father's proficiency - Other - Text,,
+,Father's child language,,
+,Birth order - Selected Choice,,
+,Birth order - Other - Text,,
+birth_order,birth_order,child,birth_order
+,Nursery start age - Age in months,,
+,Nursery language,,
+,Immersion - months,,
+item_1,Sounds - au!,item,word
+item_2,Sounds - au au / ão ão (cão),item,word
+item_3,Sounds - brum-brum (carro),item,word
+item_4,Sounds - chu chu (comboio),item,word
+item_5,Sounds - cócorocó (galo),item,word
+item_6,Sounds - grrr! (grunhido),item,word
+item_7,Sounds - mé mé (ovelha),item,word
+item_8,Sounds - miau (gato),item,word
+item_9,Sounds - muuu (vaca),item,word
+item_10,Sounds - nham nham,item,word
+item_11,Sounds - oh!,item,word
+item_12,Sounds - quá-quá (pato),item,word
+item_14,Animals - abelha,item,word
+item_15,Animals - animal / bicho,item,word
+item_16,Animals - aranha,item,word
+item_13,Animals - borboleta,item,word
+item_17,Animals - burro,item,word
+item_18,Animals - cachorro,item,word
+item_19,Animals - cão,item,word
+item_20,Animals - cavalo,item,word
+item_21,Animals - coelho,item,word
+item_22,Animals - cordeiro,item,word
+item_23,Animals - coruja,item,word
+item_24,Animals - elefante,item,word
+item_25,Animals - esquilo,item,word
+item_26,Animals - galinha,item,word
+item_27,Animals - ganso,item,word
+item_28,Animals - gatinho,item,word
+item_29,Animals - gato,item,word
+item_30,Animals - girafa,item,word
+item_31,Animals - leão,item,word
+item_32,Animals - macaco,item,word
+item_33,Animals - ovelha,item,word
+item_34,Animals - pássaro,item,word
+item_35,Animals - pato,item,word
+item_36,Animals - peixe,item,word
+item_37,Animals - peru,item,word
+item_38,Animals - pinguim,item,word
+item_39,Animals - pónei,item,word
+item_40,Animals - porco,item,word
+item_41,Animals - rato,item,word
+item_42,Animals - sapo,item,word
+item_43,Animals - tartaruga,item,word
+item_44,Animals - tigre,item,word
+item_45,Animals - urso,item,word
+item_46,Animals - vaca,item,word
+item_47,Animals - veado,item,word
+item_48,Vehicles - autocarro,item,word
+item_49,Vehicles - avião,item,word
+item_50,Vehicles - barco,item,word
+item_51,Vehicles - bicicleta,item,word
+item_52,Vehicles - camião,item,word
+item_53,Vehicles - carrinho de bebé / de passeio,item,word
+item_54,Vehicles - carro / pópó,item,word
+item_55,Vehicles - carro de bombeiros,item,word
+item_56,Vehicles - comboio,item,word
+item_57,Vehicles - moto/a,item,word
+item_58,Toys - balão,item,word
+item_59,Toys - bola,item,word
+item_60,Toys - bolha (de sabão),item,word
+item_61,Toys - boneca,item,word
+item_62,Toys - brinquedo,item,word
+item_63,Toys - caneta,item,word
+item_64,Toys - cubo,item,word
+item_65,Toys - livro,item,word
+item_66,Toys - urso de peluche,item,word
+item_67,Food and Drink - água,item,word
+item_68,Food and Drink - banana,item,word
+item_69,Food and Drink - batatas fritas,item,word
+item_70,Food and Drink - bebida,item,word
+item_71,Food and Drink - biscoito,item,word
+item_72,Food and Drink - bolo,item,word
+item_73,Food and Drink - café,item,word
+item_74,Food and Drink - carne,item,word
+item_75,Food and Drink - cenoura,item,word
+item_76,Food and Drink - cereais,item,word
+item_77,Food and Drink - chá,item,word
+item_78,Food and Drink - doces,item,word
+item_79,Food and Drink - ervilhas,item,word
+item_80,Food and Drink - frango,item,word
+item_81,Food and Drink - gelado,item,word
+item_82,Food and Drink - geléia / marmelada,item,word
+item_83,Food and Drink - laranja,item,word
+item_84,Food and Drink - leite,item,word
+item_85,Food and Drink - maçã,item,word
+item_86,Food and Drink - manteiga,item,word
+item_87,Food and Drink - massa,item,word
+item_88,Food and Drink - ovo,item,word
+item_89,Food and Drink - pão,item,word
+item_90,Food and Drink - papa / comida,item,word
+item_91,Food and Drink - peixe,item,word
+item_92,Food and Drink - piza,item,word
+item_93,Food and Drink - queijo,item,word
+item_94,Food and Drink - sumo,item,word
+item_95,Food and Drink - torrada,item,word
+item_96,Body Parts - barriga,item,word
+item_97,Body Parts - boca,item,word
+item_98,Body Parts - bochecha,item,word
+item_99,Body Parts - braço,item,word
+item_100,Body Parts - cabeça,item,word
+item_101,Body Parts - cabelo,item,word
+item_102,Body Parts - cara,item,word
+item_103,Body Parts - dedo,item,word
+item_104,Body Parts - dedo do pé,item,word
+item_105,Body Parts - dente(s),item,word
+item_106,Body Parts - joelho,item,word
+item_107,Body Parts - língua,item,word
+item_108,Body Parts - mão(s),item,word
+item_109,Body Parts - nariz,item,word
+item_110,Body Parts - olho(s),item,word
+item_111,Body Parts - ouvido(s),item,word
+item_112,Body Parts - pé(s),item,word
+item_113,Body Parts - perna(s),item,word
+item_114,Body Parts - umbigo,item,word
+item_115,Body Parts - unha(s),item,word
+item_116,Clothes - babete,item,word
+item_117,Clothes - bota(s),item,word
+item_118,Clothes - botão,item,word
+item_119,Clothes - calças,item,word
+item_120,Clothes - calções,item,word
+item_121,Clothes - camisa,item,word
+item_122,Clothes - camisola,item,word
+item_123,Clothes - casaco,item,word
+item_124,Clothes - chapéu,item,word
+item_125,Clothes - colar / fio,item,word
+item_126,Clothes - fecho,item,word
+item_127,Clothes - fralda,item,word
+item_128,Clothes - jeans,item,word
+item_129,Clothes - kispo / blusão,item,word
+item_130,Clothes - meia(s),item,word
+item_131,Clothes - óculos,item,word
+item_132,Clothes - pijama,item,word
+item_133,Clothes - sapato(s),item,word
+item_134,Clothes - vestido,item,word
+item_135,Furniture and Rooms - bacio / penico,item,word
+item_136,Furniture and Rooms - banheira,item,word
+item_137,Furniture and Rooms - berço,item,word
+item_138,Furniture and Rooms - cadeira,item,word
+item_139,Furniture and Rooms - cadeira alta / da papa,item,word
+item_140,Furniture and Rooms - cadeira de balanço,item,word
+item_141,Furniture and Rooms - cama,item,word
+item_142,Furniture and Rooms - casa / quarto de banho,item,word
+item_143,Furniture and Rooms - cozinha,item,word
+item_144,Furniture and Rooms - escadas,item,word
+item_145,Furniture and Rooms - fogão / forno,item,word
+item_146,Furniture and Rooms - frigorífico,item,word
+item_147,Furniture and Rooms - garagem,item,word
+item_148,Furniture and Rooms - gaveta,item,word
+item_149,Furniture and Rooms - janela,item,word
+item_150,Furniture and Rooms - lava-loiça / lavatório,item,word
+item_151,Furniture and Rooms - mesa,item,word
+item_152,Furniture and Rooms - parque (em casa),item,word
+item_153,Furniture and Rooms - porta,item,word
+item_154,Furniture and Rooms - quarto,item,word
+item_155,Furniture and Rooms - sala (de estar),item,word
+item_156,Furniture and Rooms - sofá,item,word
+item_157,Furniture and Rooms - televisão / TV,item,word
+item_158,Outside - água,item,word
+item_159,Outside - árvore,item,word
+item_160,Outside - balde,item,word
+item_161,Outside - baloiço,item,word
+item_162,Outside - casa,item,word
+item_163,Outside - céu,item,word
+item_164,Outside - chuva,item,word
+item_165,Outside - escola / colégio,item,word
+item_166,Outside - escorrega,item,word
+item_167,Outside - estrela,item,word
+item_168,Outside - festa,item,word
+item_169,Outside - flôr,item,word
+item_170,Outside - fora,item,word
+item_171,Outside - igreja,item,word
+item_172,Outside - jardim,item,word
+item_173,Outside - jardim zoológico,item,word
+item_174,Outside - loja,item,word
+item_175,Outside - lua,item,word
+item_176,Outside - neve,item,word
+item_177,Outside - pá,item,word
+item_178,Outside - parede,item,word
+item_179,Outside - parque,item,word
+item_180,Outside - pedra,item,word
+item_181,Outside - piscina,item,word
+item_182,Outside - praia,item,word
+item_183,Outside - sol,item,word
+item_184,Outside - trabalho,item,word
+item_185,Household items - almofada,item,word
+item_186,Household items - aspirador,item,word
+item_187,Household items - caixa,item,word
+item_188,Household items - caixote do lixo,item,word
+item_189,Household items - candeeiro,item,word
+item_190,Household items - caneca,item,word
+item_191,Household items - carteira,item,word
+item_192,Household items - chave,item,word
+item_193,Household items - chávena,item,word
+item_194,Household items - chupeta / chucha,item,word
+item_195,Household items - colher,item,word
+item_196,Household items - comando,item,word
+item_197,Household items - copo,item,word
+item_198,Household items - dinheiro,item,word
+item_199,Household items - escova,item,word
+item_200,Household items - escova de dentes,item,word
+item_201,Household items - faca,item,word
+item_202,Household items - fotografia,item,word
+item_203,Household items - garfo,item,word
+item_204,Household items - garrafa,item,word
+item_205,Household items - jarro,item,word
+item_206,Household items - lixo,item,word
+item_207,Household items - luz,item,word
+item_208,Household items - manta,item,word
+item_209,Household items - martelo,item,word
+item_210,Household items - medicamento / remédio,item,word
+item_211,Household items - moeda,item,word
+item_212,Household items - papel,item,word
+item_213,Household items - pente,item,word
+item_214,Household items - planta,item,word
+item_215,Household items - prato,item,word
+item_216,Household items - rádio,item,word
+item_217,Household items - relógio,item,word
+item_218,Household items - sabão / sabonete,item,word
+item_219,Household items - telefone,item,word
+item_220,Household items - tesoura,item,word
+item_221,Household items - tigela,item,word
+item_222,Household items - toalha,item,word
+item_223,Household items - vassoura,item,word
+item_224,People - ama,item,word
+item_225,People - amigo,item,word
+item_226,People - avó,item,word
+item_227,People - avô,item,word
+item_228,People - bebé,item,word
+item_229,People - criança,item,word
+item_230,People - gente,item,word
+item_231,People - irmã,item,word
+item_232,People - irmão,item,word
+item_233,People - mamã,item,word
+item_234,People - médico / doutor,item,word
+item_235,People - menina,item,word
+item_236,People - menino,item,word
+item_237,People - papá,item,word
+item_238,People - pessoa,item,word
+item_239,People - polícia,item,word
+item_240,People - professor / a,item,word
+item_241,People - senhor,item,word
+item_242,People - senhora,item,word
+item_243,People - tia,item,word
+item_244,People - tio,item,word
+item_245,Games and Routines - adeus / xau!,item,word
+item_246,Games and Routines - almoço,item,word
+item_247,Games and Routines - anda!,item,word
+item_248,Games and Routines - boa noite,item,word
+item_249,Games and Routines - chiu / shhh,item,word
+item_250,Games and Routines - espera!,item,word
+item_251,Games and Routines - jantar / ceia,item,word
+item_252,Games and Routines - lanche,item,word
+item_253,Games and Routines - não,item,word
+item_254,Games and Routines - não! (isso não),item,word
+item_255,Games and Routines - obrigado / a!,item,word
+item_256,Games and Routines - olá!,item,word
+item_257,Games and Routines - palminhas!,item,word
+item_258,Games and Routines - para o banho!,item,word
+item_259,Games and Routines - pequeno-almoço,item,word
+item_260,Games and Routines - por favor!,item,word
+item_261,Games and Routines - querer,item,word
+item_262,Games and Routines - sim,item,word
+item_263,Games and Routines - soneca / sesta,item,word
+item_264,Games and Routines - teté / jogar às escondidas,item,word
+item_265,Action Words - abraçar,item,word
+item_266,Action Words - abrir,item,word
+item_267,Action Words - acabar,item,word
+item_268,Action Words - acariciar / dar mimo,item,word
+item_269,Action Words - ajudar,item,word
+item_270,Action Words - alimentar / dar de comer,item,word
+item_271,Action Words - amar,item,word
+item_272,Action Words - andar,item,word
+item_273,Action Words - apanhar,item,word
+item_274,Action Words - apressar,item,word
+item_275,Action Words - atirar,item,word
+item_276,Action Words - baloiçar,item,word
+item_277,Action Words - bater,item,word
+item_278,Action Words - beber,item,word
+item_279,Action Words - beijar,item,word
+item_280,Action Words - brincar,item,word
+item_281,Action Words - cair,item,word
+item_282,Action Words - calçar,item,word
+item_283,Action Words - cantar,item,word
+item_284,Action Words - chamar,item,word
+item_285,Action Words - cheirar,item,word
+item_286,Action Words - chorar,item,word
+item_287,Action Words - chutar,item,word
+item_288,Action Words - coçar,item,word
+item_289,Action Words - comer,item,word
+item_290,Action Words - conduzir,item,word
+item_291,Action Words - contar,item,word
+item_292,Action Words - correr,item,word
+item_293,Action Words - cortar,item,word
+item_294,Action Words - dançar,item,word
+item_295,Action Words - dar,item,word
+item_296,Action Words - desenhar,item,word
+item_297,Action Words - dizer,item,word
+item_298,Action Words - dormir,item,word
+item_299,Action Words - empurrar,item,word
+item_300,Action Words - encontrar,item,word
+item_301,Action Words - escrever,item,word
+item_302,Action Words - escutar / ouvir,item,word
+item_303,Action Words - fazer,item,word
+item_304,Action Words - fazer cócegas,item,word
+item_305,Action Words - fechar,item,word
+item_306,Action Words - gostar,item,word
+item_307,Action Words - ir,item,word
+item_308,Action Words - lavar,item,word
+item_309,Action Words - ler,item,word
+item_310,Action Words - levar,item,word
+item_311,Action Words - limpar,item,word
+item_312,Action Words - montar,item,word
+item_313,Action Words - morder,item,word
+item_314,Action Words - mostrar,item,word
+item_315,Action Words - nadar,item,word
+item_316,Action Words - olhar,item,word
+item_317,Action Words - parar,item,word
+item_318,Action Words - partir / estragar,item,word
+item_319,Action Words - pegar,item,word
+item_320,Action Words - perseguir,item,word
+item_321,Action Words - pôr,item,word
+item_322,Action Words - puxar,item,word
+item_323,Action Words - saber,item,word
+item_324,Action Words - sair,item,word
+item_325,Action Words - salpicar,item,word
+item_326,Action Words - saltar,item,word
+item_327,Action Words - sentar,item,word
+item_328,Action Words - soltar / deixar cair,item,word
+item_329,Action Words - soprar,item,word
+item_330,Action Words - sorrir,item,word
+item_331,Action Words - ter,item,word
+item_332,Action Words - tomar,item,word
+item_333,Action Words - trazer,item,word
+item_334,Action Words - ver,item,word
+item_335,Descriptive Words - a dormir,item,word
+item_336,Descriptive Words - acabou / já nao há,item,word
+item_337,Descriptive Words - amarelo,item,word
+item_338,Descriptive Words - assustado,item,word
+item_339,Descriptive Words - azul,item,word
+item_340,Descriptive Words - bem,item,word
+item_341,Descriptive Words - bom,item,word
+item_342,Descriptive Words - bonito,item,word
+item_343,Descriptive Words - cansado,item,word
+item_344,Descriptive Words - cheio,item,word
+item_345,Descriptive Words - com fome,item,word
+item_346,Descriptive Words - com sede / sedento,item,word
+item_347,Descriptive Words - contente / feliz,item,word
+item_348,Descriptive Words - cuidadoso / atento,item,word
+item_349,Descriptive Words - delicado,item,word
+item_350,Descriptive Words - depressa / rápido,item,word
+item_351,Descriptive Words - doente / mal disposto,item,word
+item_352,Descriptive Words - duro,item,word
+item_353,Descriptive Words - ensonado / sonolento,item,word
+item_354,Descriptive Words - escuro,item,word
+item_355,Descriptive Words - estragado / partido,item,word
+item_356,Descriptive Words - frio,item,word
+item_394,Descriptive Words - giro,item,word
+item_357,Descriptive Words - grande,item,word
+item_358,Descriptive Words - limpo,item,word
+item_359,Descriptive Words - magoado,item,word
+item_360,Descriptive Words - mal comportado,item,word
+item_361,Descriptive Words - mau / má,item,word
+item_362,Descriptive Words - molhado,item,word
+item_363,Descriptive Words - pequeno,item,word
+item_364,Descriptive Words - quente,item,word
+item_365,Descriptive Words - seco,item,word
+item_366,Descriptive Words - suave,item,word
+item_367,Descriptive Words - sujo,item,word
+item_368,Descriptive Words - triste,item,word
+item_369,Descriptive Words - vazio,item,word
+item_370,Descriptive Words - velho,item,word
+item_371,Descriptive Words - verde,item,word
+item_372,Descriptive Words - vermelho,item,word
+item_373,Question words - como?,item,word
+item_389,Question words - o quê?,item,word
+item_388,Question words - onde?,item,word
+item_397,Question words - porquê?,item,word
+item_374,Question words - quando?,item,word
+item_375,Question words - quem?,item,word
+item_376,Time - agora,item,word
+item_377,Time - amanhã,item,word
+item_378,Time - dia,item,word
+item_379,Time - hoje,item,word
+item_380,Time - hoje de noite,item,word
+item_381,Time - mais tarde,item,word
+item_382,Time - manhã,item,word
+item_383,Time - noite,item,word
+item_384,Pronouns and Possessives - comigo,item,word
+item_385,Pronouns and Possessives - esse(a),item,word
+item_386,Pronouns and Possessives - este(a),item,word
+item_387,Pronouns and Possessives - eu,item,word
+item_390,Pronouns and Possessives - isso / isto,item,word
+item_391,Pronouns and Possessives - meu / minha,item,word
+item_392,Pronouns and Possessives - mim,item,word
+item_393,Pronouns and Possessives - seu / dele,item,word
+item_395,Pronouns and Possessives - sua / dela,item,word
+item_396,Pronouns and Possessives - tu,item,word
+item_398,Pronouns and Possessives - tua / teu,item,word
+item_399,Prepositions and Location Words - abaixo,item,word
+item_400,Prepositions and Location Words - abaixo de / sob,item,word
+item_401,Prepositions and Location Words - ali / lá,item,word
+item_402,Prepositions and Location Words - aqui,item,word
+item_403,Prepositions and Location Words - ausente,item,word
+item_404,Prepositions and Location Words - da,item,word
+item_405,Prepositions and Location Words - dentro,item,word
+item_406,Prepositions and Location Words - detrás / atrás,item,word
+item_407,Prepositions and Location Words - em / na / no,item,word
+item_408,Prepositions and Location Words - em cima,item,word
+item_409,Prepositions and Location Words - fora,item,word
+item_410,Quantifiers - algum,item,word
+item_411,Quantifiers - mais,item,word
+item_412,Quantifiers - mesmo,item,word
+item_413,Quantifiers - muito,item,word
+item_414,Quantifiers - nem,item,word
+item_415,Quantifiers - ninguém / nenhum,item,word
+item_416,Quantifiers - outra vez / de novo,item,word
+item_417,Quantifiers - outro,item,word
+item_418,Quantifiers - todo(a) / todos(as) / tudo,item,word
+study_id,ParticipantID,child,study_id
+,shortPID,,
+,age_days,,
+data_age,age_months,admin,data_age
+,Recorded.Year,,
+,country,,

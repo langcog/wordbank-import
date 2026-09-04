@@ -1,0 +1,490 @@
+﻿itemID,category,item,definition,choices,type,complexity_category,gloss,uni_lemma
+item_1,,A1first1respondsname,,no; yes,first_signs,NA,,
+item_2,,A1first2respondsno,,no; yes,first_signs,NA,,
+item_3,,A1first3reactmumdad,,no; yes,first_signs,NA,,
+item_4,,A2phrases1arehungry,,understands,phrases,NA,,
+item_5,,A2phrases2aretired,,understands,phrases,NA,,
+item_6,,A2phrases3becareful,,understands,phrases,NA,,
+item_7,,A2phrases4bequiet,,understands,phrases,NA,,
+item_8,,A2phrases5Clap,,understands,phrases,NA,,
+item_9,,A2phrases6changenappy,,understands,phrases,NA,,
+item_10,,A2phrases7Come,,understands,phrases,NA,,
+item_11,,A2phrases8Dadmumhome,,understands,phrases,NA,,
+item_12,,A2phrases9domore,,understands,phrases,NA,,
+item_13,,A2phrases10Dontdo,,understands,phrases,NA,,
+item_14,,A2phrases11Donttouch,,understands,phrases,NA,,
+item_15,,A2phrases12Getup,,understands,phrases,NA,,
+item_16,,A2phrases13Give,,understands,phrases,NA,,
+item_17,,A2phrases14Givehug,,understands,phrases,NA,,
+item_18,,A2phrases15Givekiss,,understands,phrases,NA,,
+item_19,,A2phrases16Goget,,understands,phrases,NA,,
+item_20,,A2phrases17Good,,understands,phrases,NA,,
+item_21,,A2phrases18Holdstill,,understands,phrases,NA,,
+item_22,,A2phrases19Letsgo,,understands,phrases,NA,,
+item_23,,A2phrases20Look,,understands,phrases,NA,,
+item_24,,A2phrases21Openmouth,,understands,phrases,NA,,
+item_25,,A2phrases22Sit,,understands,phrases,NA,,
+item_26,,A2phrases23Spit,,understands,phrases,NA,,
+item_27,,A2phrases24Stopit,,understands,phrases,NA,,
+item_28,,A2phrases25timenight,,understands,phrases,NA,,
+item_29,,A2phrases26Throw,,understands,phrases,NA,,
+item_30,,A2phrases27thispiggy,,understands,phrases,NA,,
+item_31,,A2phrases28wantride,,understands,phrases,NA,,
+item_32,sounds,Asounds1baa,A Sounds - 1 baabaa,understands; produces,word,NA,baabaa,baa baa
+item_33,sounds,Asounds2choo,A Sounds - 2 choo choo,understands; produces,word,NA,choo choo,choo choo
+item_34,sounds,Asounds3cockadoodledoo,A Sounds - 3 cockadoodledoo,understands; produces,word,NA,cockadoodledoo,cockadoodledoo
+item_35,sounds,Asounds4grr,A Sounds - 4 grr,understands; produces,word,NA,grr,grrr
+item_36,sounds,Asounds5meow,A Sounds - 5 meow,understands; produces,word,NA,meow,meow
+item_37,sounds,Asounds6moo,A Sounds - 6 moo,understands; produces,word,NA,moo,moo
+item_38,sounds,Asounds7ouch,A Sounds - 7 ouch,understands; produces,word,NA,ouch,ouch
+item_39,sounds,Asounds8quack,A Sounds - 8 quack,understands; produces,word,NA,quack,quack quack
+item_40,sounds,Asounds9uhoh,A Sounds - 9 uhoh,understands; produces,word,NA,uhoh,uh oh
+item_41,sounds,Asounds10vroom,A Sounds - 10 vroom,understands; produces,word,NA,vroom,vroom
+item_42,sounds,Asounds11woof,A Sounds - 11 woof,understands; produces,word,NA,woof,woof woof
+item_43,sounds,Asounds12yum,A Sounds - 12 yum,understands; produces,word,NA,yum,yum yum
+item_44,sounds,Asounds13tweet,A Sounds - 13 tweet-tweet,understands; produces,word,NA,tweet-tweet,tweet tweet
+item_45,animals,Banimal1animal,B Animal words - 1 animal,understands; produces,word,NA,animal,animal
+item_46,animals,Banimal2bear,B Animal words - 2 bear,understands; produces,word,NA,bear,bear
+item_47,animals,Banimal3bee,B Animal words - 3 bee,understands; produces,word,NA,bee,bee
+item_48,animals,Banimal4bird,B Animal words - 4 bird,understands; produces,word,NA,bird,bird
+item_49,animals,Banimal5bug,B Animal words - 5 bug,understands; produces,word,NA,bug,bug
+item_50,animals,Banimal6rabbitbunny,B Animal words - 6 rabbit,understands; produces,word,NA,rabbit,bunny
+item_51,animals,Banimal7butterfly,B Animal words - 7 butterfly,understands; produces,word,NA,butterfly,butterfly
+item_52,animals,Banimal8cat,B Animal words - 8 cat,understands; produces,word,NA,cat,cat
+item_53,animals,Banimal9chicken,B Animal words - 9 chicken,understands; produces,word,NA,chicken,chicken
+item_54,animals,Banimal10cow,B Animal words - 10 cow,understands; produces,word,NA,cow,cow
+item_55,animals,Banimal11dog,B Animal words - 11 dog,understands; produces,word,NA,dog,dog
+item_56,animals,Banimal12donkey,B Animal words - 12 donkey,understands; produces,word,NA,donkey,donkey
+item_57,animals,Banimal13duck,B Animal words - 13 duck,understands; produces,word,NA,duck,duck
+item_58,animals,Banimal14elephant,B Animal words - 14 elephant,understands; produces,word,NA,elephant,elephant
+item_59,animals,Banimal15fish,B Animal words - 15 fish,understands; produces,word,NA,fish,fish (animal)
+item_60,animals,Banimal16fly,B Animal words - 16 fly,understands; produces,word,NA,fly,fly (animal)
+item_61,animals,Banimal17frog,B Animal words - 17 frog,understands; produces,word,NA,frog,frog
+item_62,animals,Banimal18giraffe,B Animal words - 18 giraffe,understands; produces,word,NA,giraffe,giraffe
+item_63,animals,Banimal19goose,B Animal words - 19 goose,understands; produces,word,NA,goose,goose
+item_64,animals,Banimal20horse,B Animal words - 20 horse,understands; produces,word,NA,horse,horse
+item_65,animals,Banimal21kitten,B Animal words - 21 kitten,understands; produces,word,NA,kitten,cat
+item_66,animals,Banimal22lamb,B Animal words - 22 lamb,understands; produces,word,NA,lamb,lamb
+item_67,animals,Banimal23lion,B Animal words - 23 lion,understands; produces,word,NA,lion,lion
+item_68,animals,Banimal24monkey,B Animal words - 24 monkey,understands; produces,word,NA,monkey,monkey
+item_69,animals,Banimal25mouse,B Animal words - 25 mouse,understands; produces,word,NA,mouse,mouse
+item_70,animals,Banimal26owl,B Animal words - 26 owl,understands; produces,word,NA,owl,owl
+item_71,animals,Banimal27penguin,B Animal words - 27 penguin,understands; produces,word,NA,penguin,penguin
+item_72,animals,Banimal28pig,B Animal words - 28 pig,understands; produces,word,NA,pig,pig
+item_73,animals,Banimal29puppy,B Animal words - 29 puppy,understands; produces,word,NA,puppy,puppy
+item_74,animals,Banimal30sheep,B Animal words - 30 sheep,understands; produces,word,NA,sheep,sheep
+item_75,animals,Banimal31snake,B Animal words - 31 snake,understands; produces,word,NA,snake,snake
+item_76,animals,Banimal32spider,B Animal words - 32 spider,understands; produces,word,NA,spider,spider
+item_77,animals,Banimal33squirrel,B Animal words - 33 squirrel,understands; produces,word,NA,squirrel,squirrel
+item_78,animals,Banimal34tiger,B Animal words - 34 tiger,understands; produces,word,NA,tiger,tiger
+item_79,vehicles,Cvehicle1aeroplane,C Vehicle words - 1 aeroplane/plane,understands; produces,word,NA,aeroplane/plane,plane
+item_80,vehicles,Cvehicle2bicycle,C Vehicle words - 2 bicycle/bike,understands; produces,word,NA,bicycle/bike,bicycle
+item_81,vehicles,Cvehicle3boat,C Vehicle words - 3 boat,understands; produces,word,NA,boat,boat
+item_82,vehicles,Cvehicle4bus,C Vehicle words - 4 bus,understands; produces,word,NA,bus,bus
+item_83,vehicles,Cvehicle5car,C Vehicle words - 5 car,understands; produces,word,NA,car,car
+item_84,vehicles,Cvehicle6fireengine,C Vehicle words - 6 fire-engine,understands; produces,word,NA,fire-engine,firetruck
+item_85,vehicles,Cvehicle7lorry,C Vehicle words - 7 lorry/truck,understands; produces,word,NA,lorry/truck,truck
+item_86,vehicles,Cvehicle8pram,C Vehicle words - 8 pram,understands; produces,word,NA,pram,pram
+item_87,vehicles,Cvehicle9pushchair,C Vehicle words - 9 pushchair/buggy/stroller,understands; produces,word,NA,pushchair/buggy/stroller,stroller
+item_88,vehicles,Cvehicle10tractor,C Vehicle words - 10 tractor,understands; produces,word,NA,tractor,tractor
+item_89,vehicles,Cvehicle11train,C Vehicle words - 11 train,understands; produces,word,NA,train,train
+item_90,toys,Dtoys1ball,D Words for toys - 1 ball,understands; produces,word,NA,ball,ball
+item_91,toys,Dtoys2balloon,D Words for toys - 2 balloon,understands; produces,word,NA,balloon,balloon
+item_92,toys,Dtoys3block,D Words for toys - 3 block,understands; produces,word,NA,block,block
+item_93,toys,Dtoys4book,D Words for toys - 4 book,understands; produces,word,NA,book,book
+item_94,toys,Dtoys5brick,D Words for toys - 5 brick,understands; produces,word,NA,brick,
+item_95,toys,Dtoys6bubble,D Words for toys - 6 bubbles,understands; produces,word,NA,bubbles,bubbles
+item_96,toys,Dtoys7doll,D Words for toys - 7 doll,understands; produces,word,NA,doll,doll
+item_97,toys,Dtoys8pen,D Words for toys - 8 pen,understands; produces,word,NA,pen,pen
+item_98,toys,Dtoys9teddybear,D Words for toys - 9 teddy/teddy bear,understands; produces,word,NA,teddy/teddy bear,teddybear
+item_99,toys,Dtoys10toy,D Words for toys - 10 toy,understands; produces,word,NA,toy,toy (object)
+item_100,food_drink,Efood1apple,E Food and drink words - 1 apple,understands; produces,word,NA,apple,apple
+item_101,food_drink,Efood2banana,E Food and drink words - 2 banana,understands; produces,word,NA,banana,banana
+item_102,food_drink,Efood3biscuit,E Food and drink words - 3 biscuit,understands; produces,word,NA,biscuit,biscuit
+item_103,food_drink,Efood4bread,E Food and drink words - 4 bread,understands; produces,word,NA,bread,bread
+item_104,food_drink,Efood5butter,E Food and drink words - 5 butter/spread/marge,understands; produces,word,NA,butter/spread/marge,butter
+item_105,food_drink,Efood6cake,E Food and drink words - 6 cake,understands; produces,word,NA,cake,cake
+item_106,food_drink,Efood7carrot,E Food and drink words - 7 carrots,understands; produces,word,NA,carrots,carrot
+item_107,food_drink,Efood8cereal,E Food and drink words - 8 cereal,understands; produces,word,NA,cereal,cereal
+item_108,food_drink,Efood9cheese,E Food and drink words - 9 cheese,understands; produces,word,NA,cheese,cheese
+item_109,food_drink,Efood10chicken,E Food and drink words - 10 chicken,understands; produces,word,NA,chicken,chicken
+item_110,food_drink,Efood11chips,E Food and drink words - 11 chips,understands; produces,word,NA,chips,chips
+item_111,food_drink,Efood12chocolate,E Food and drink words - 12 chocolate,understands; produces,word,NA,chocolate,chocolate
+item_112,food_drink,Efood13coffee,E Food and drink words - 13 coffee,understands; produces,word,NA,coffee,coffee
+item_113,food_drink,Efood14drink,E Food and drink words - 14 drink,understands; produces,word,NA,drink,drink
+item_114,food_drink,Efood15egg,E Food and drink words - 15 egg,understands; produces,word,NA,egg,egg
+item_115,food_drink,Efood16fish,E Food and drink words - 16 fish,understands; produces,word,NA,fish,fish (food)
+item_116,food_drink,Efood17food,E Food and drink words - 17 food,understands; produces,word,NA,food,food
+item_117,food_drink,Efood18ice,E Food and drink words - 18 ice cream,understands; produces,word,NA,ice cream,ice cream
+item_118,food_drink,Efood19jam,E Food and drink words - 19 jam,understands; produces,word,NA,jam,jam
+item_119,food_drink,Efood20juice,E Food and drink words - 20 juice,understands; produces,word,NA,juice,juice
+item_120,food_drink,Efood21meat,E Food and drink words - 21 meat,understands; produces,word,NA,meat,meat
+item_121,food_drink,Efood22milk,E Food and drink words - 22 milk,understands; produces,word,NA,milk,milk
+item_122,food_drink,Efood23orange,E Food and drink words - 23 orange,understands; produces,word,NA,orange,orange
+item_123,food_drink,Efood24pasta,E Food and drink words - 24 pasta,understands; produces,word,NA,pasta,pasta
+item_124,food_drink,Efood25peas,E Food and drink words - 25 peas,understands; produces,word,NA,peas,peas
+item_125,food_drink,Efood26pizza,E Food and drink words - 26 pizza,understands; produces,word,NA,pizza,pizza
+item_126,food_drink,Efood27potato,E Food and drink words - 27 potato/spud/tattie,understands; produces,word,NA,potato/spud/tattie,potato
+item_127,food_drink,Efood28sandwich,E Food and drink words - 28 sandwich/butty,understands; produces,word,NA,sandwich/butty,sandwich
+item_128,food_drink,Efood29sausages,E Food and drink words - 29 sausage,understands; produces,word,NA,sausage,sausage
+item_129,food_drink,Efood30teadrink,E Food and drink words - 30 tea/brew(drink),understands; produces,word,NA,tea/brew(drink),tea
+item_130,food_drink,Efood31toast,E Food and drink words - 31 toast,understands; produces,word,NA,toast,toast
+item_131,food_drink,Efood32water,E Food and drink words - 32 water,understands; produces,word,NA,water,water (beverage)
+item_132,food_drink,Efood33yoghurt,E Food and drink words - 33 yoghurt,understands; produces,word,NA,yoghurt,yogurt
+item_133,body_parts,Fbody1arm,F Words for body parts - 1 arm,understands; produces,word,NA,arm,arm
+item_134,body_parts,Fbody2back,F Words for body parts - 2 back,understands; produces,word,NA,back,back
+item_135,body_parts,Fbody3bellytummy,F Words for body parts - 3 belly/tummy,understands; produces,word,NA,belly/tummy,belly
+item_136,body_parts,Fbody4bellybutton,F Words for body parts - 4 bellybutton/tummy button,understands; produces,word,NA,bellybutton/tummy button,belly button
+item_137,body_parts,Fbody5bum,F Words for body parts - 5 buttocks/bum/bottom,understands; produces,word,NA,buttocks/bum/bottom,butt
+item_138,body_parts,Fbody6cheek,F Words for body parts - 6 cheek,understands; produces,word,NA,cheek,cheek
+item_139,body_parts,Fbody7chin,F Words for body parts - 7 chin,understands; produces,word,NA,chin,chin
+item_140,body_parts,Fbody8ear,F Words for body parts - 8 ear,understands; produces,word,NA,ear,ear
+item_141,body_parts,Fbody9face,F Words for body parts - 9 face,understands; produces,word,NA,face,face
+item_142,body_parts,Fbody10feet,F Words for body parts - 10 feet,understands; produces,word,NA,feet,feet
+item_143,body_parts,Fbody11eye,F Words for body parts - 11 eye,understands; produces,word,NA,eye,eye
+item_144,body_parts,Fbody12finger,F Words for body parts - 12 finger,understands; produces,word,NA,finger,finger
+item_145,body_parts,Fbody13feet,F Words for body parts - 13 feet,understands; produces,word,NA,feet,feet
+item_146,body_parts,Fbody14hair,F Words for body parts - 14 hair,understands; produces,word,NA,hair,hair
+item_147,body_parts,Fbody15hand,F Words for body parts - 15 hand,understands; produces,word,NA,hand,hand
+item_148,body_parts,Fbody16head,F Words for body parts - 16 head,understands; produces,word,NA,head,head
+item_149,body_parts,Fbody17leg,F Words for body parts - 17 leg,understands; produces,word,NA,leg,leg
+item_150,body_parts,Fbody18lips,F Words for body parts - 18 lips,understands; produces,word,NA,lips,lips
+item_151,body_parts,Fbody19knee,F Words for body parts - 19 knee,understands; produces,word,NA,knee,knee
+item_152,body_parts,Fbody20mouth,F Words for body parts - 20 mouth,understands; produces,word,NA,mouth,mouth
+item_153,body_parts,Fbody21nose,F Words for body parts - 21 nose,understands; produces,word,NA,nose,nose
+item_154,body_parts,Fbody22toe,F Words for body parts - 22 toe,understands; produces,word,NA,toe,toe
+item_155,body_parts,Fbody23tongue,F Words for body parts - 23 tongue,understands; produces,word,NA,tongue,tongue
+item_156,body_parts,Fbody24teethtooth,F Words for body parts - 24 tooth/teeth,understands; produces,word,NA,tooth/teeth,tooth
+item_157,clothing,Gclothes1bib,G Words for clothes - 1 bib,understands; produces,word,NA,bib,bib
+item_158,clothing,Gclothes2boots,G Words for clothes - 2 boots,understands; produces,word,NA,boots,boots
+item_159,clothing,Gclothes3button,G Words for clothes - 3 button,understands; produces,word,NA,button,button
+item_160,clothing,Gclothes4cardigan,G Words for clothes - 4 cardigan,understands; produces,word,NA,cardigan,sweater
+item_161,clothing,Gclothes5coat,G Words for clothes - 5 coat,understands; produces,word,NA,coat,coat
+item_162,clothing,Gclothes6dress,G Words for clothes - 6 dress,understands; produces,word,NA,dress,dress (object)
+item_163,clothing,Gclothes7glasses,G Words for clothes - 7 glasses/specs,understands; produces,word,NA,glasses/specs,glasses
+item_164,clothing,Gclothes8hat,G Words for clothes - 8 hat,understands; produces,word,NA,hat,hat
+item_165,clothing,Gclothes9jacket,G Words for clothes - 9 jacket,understands; produces,word,NA,jacket,jacket
+item_166,clothing,Gclothes10jumper,G Words for clothes - 10 jumper,understands; produces,word,NA,jumper,sweater
+item_167,clothing,Gclothes11nappy,G Words for clothes - 11 nappy,understands; produces,word,NA,nappy,diaper
+item_168,clothing,Gclothes12pyjamas,G Words for clothes - 12 pyjamas/Pjs/jim jams/,understands; produces,word,NA,pyjamas/Pjs/jim jams/,pajamas
+item_169,clothing,Gclothes13scarf,G Words for clothes - 13 scarf,understands; produces,word,NA,scarf,scarf
+item_170,clothing,Gclothes14shoes,G Words for clothes - 14 shoes,understands; produces,word,NA,shoes,shoe
+item_171,clothing,Gclothes15socks,G Words for clothes - 15 sock,understands; produces,word,NA,sock,sock
+item_172,clothing,Gclothes16trousers,G Words for clothes - 16 trousers/pants/britches,understands; produces,word,NA,trousers/pants/britches,pants
+item_173,clothing,Gclothes17vest,G Words for clothes - 17 vest,understands; produces,word,NA,vest,vest
+item_174,clothing,Gclothes18zip,G Words for clothes - 18 zip,understands; produces,word,NA,zip,zipper
+item_175,furniture_rooms,Hfurniture1bath,H Furniture words - 1 bath/bathtub,understands; produces,word,NA,bath/bathtub,bathtub
+item_176,furniture_rooms,Hfurniture2bathroom,H Furniture words - 2 bathroom,understands; produces,word,NA,bathroom,bathroom
+item_177,furniture_rooms,Hfurniture3bed,H Furniture words - 3 bed,understands; produces,word,NA,bed,bed
+item_178,furniture_rooms,Hfurniture4bedroom,H Furniture words - 4 bedroom,understands; produces,word,NA,bedroom,bedroom
+item_179,furniture_rooms,Hfurniture5chair,H Furniture words - 5 chair,understands; produces,word,NA,chair,chair
+item_180,furniture_rooms,Hfurniture6cooker,H Furniture words - 6 cooker,understands; produces,word,NA,cooker,cooker
+item_181,furniture_rooms,Hfurniture7cot,H Furniture words - 7 cot,understands; produces,word,NA,cot,cot
+item_182,furniture_rooms,Hfurniture8door,H Furniture words - 8 door,understands; produces,word,NA,door,door
+item_183,furniture_rooms,Hfurniture9downstairs,H Furniture words - 9 downstairs,understands; produces,word,NA,downstairs,
+item_184,furniture_rooms,Hfurniture10drawer,H Furniture words - 10 drawer,understands; produces,word,NA,drawer,drawer
+item_185,furniture_rooms,Hfurniture11highchair,H Furniture words - 11 high chair,understands; produces,word,NA,high chair,high chair
+item_186,furniture_rooms,Hfurniture12kitchen,H Furniture words - 12 kitchen,understands; produces,word,NA,kitchen,kitchen
+item_187,furniture_rooms,Hfurniture13livingroom,H Furniture words - 13 living room,understands; produces,word,NA,living room,living room
+item_188,furniture_rooms,Hfurniture14oven,H Furniture words - 14 oven,understands; produces,word,NA,oven,oven
+item_189,furniture_rooms,Hfurniture15fridge,H Furniture words - 15 refrigerator/fridge,understands; produces,word,NA,refrigerator/fridge,refrigerator
+item_190,furniture_rooms,Hfurniture16setteesofa,H Furniture words - 16 settee/sofa/couch,understands; produces,word,NA,settee/sofa/couch,couch
+item_191,furniture_rooms,Hfurniture17sink,H Furniture words - 17 sink,understands; produces,word,NA,sink,sink
+item_192,furniture_rooms,Hfurniture18stairs,H Furniture words - 18 stairs,understands; produces,word,NA,stairs,stairs
+item_193,furniture_rooms,Hfurniture19table,H Furniture words - 19 table,understands; produces,word,NA,table,table
+item_194,furniture_rooms,Hfurniture20TVtelevision,H Furniture words - 20 television/telly/TV,understands; produces,word,NA,television/telly/TV,TV
+item_195,furniture_rooms,Hfurniture21toilet_lav_loo,H Furniture words - 21 toilet/lav/loo,understands; produces,word,NA,toilet/lav/loo,toilet
+item_196,furniture_rooms,Hfurniture22upstairs,H Furniture words - 22 upstairs,understands; produces,word,NA,upstairs,
+item_197,furniture_rooms,Hfurniture23window,H Furniture words - 23 window,understands; produces,word,NA,window,window
+item_198,household,Ismallitems1bag,I Words for small household items - 1 bag,understands; produces,word,NA,bag,bag
+item_199,household,Ismallitems2bin,I Words for small household items - 2 bin,understands; produces,word,NA,bin,bin
+item_200,household,Ismallitems3bottle,I Words for small household items - 3 bottle,understands; produces,word,NA,bottle,bottle
+item_201,household,Ismallitems4bowl,I Words for small household items - 4 bowl,understands; produces,word,NA,bowl,bowl
+item_202,household,Ismallitems5box,I Words for small household items - 5 box,understands; produces,word,NA,box,box
+item_203,household,Ismallitems6broom,I Words for small household items - 6 broom,understands; produces,word,NA,broom,broom
+item_204,household,Ismallitems7brush,I Words for small household items - 7 brush,understands; produces,word,NA,brush,brush (object)
+item_205,household,Ismallitems8bucket,I Words for small household items - 8 bucket,understands; produces,word,NA,bucket,bucket
+item_206,household,Ismallitems9clock,I Words for small household items - 9 clock,understands; produces,word,NA,clock,clock
+item_207,household,Ismallitems10comb,I Words for small household items - 10 comb,understands; produces,word,NA,comb,comb (object)
+item_208,household,Ismallitems11computer_laptop,I Words for small household items - 11 computer/laptop,understands; produces,word,NA,computer/laptop,computer
+item_209,household,Ismallitems12cup,I Words for small household items - 12 cup,understands; produces,word,NA,cup,cup
+item_210,household,Ismallitems13dummy,I Words for small household items - 13 dummy/dodie/soother,understands; produces,word,NA,dummy/dodie/soother,pacifier
+item_211,household,Ismallitems14fork,I Words for small household items - 14 fork,understands; produces,word,NA,fork,fork
+item_212,household,Ismallitems15glass,I Words for small household items - 15 glass,understands; produces,word,NA,glass,glass
+item_213,household,Ismallitems16hoover,I Words for small household items - 16 hoover,understands; produces,word,NA,hoover,vacuum
+item_214,household,Ismallitems17keys,I Words for small household items - 17 key,understands; produces,word,NA,key,key
+item_215,household,Ismallitems18lamplight,I Words for small household items - 18 lamp/light,understands; produces,word,NA,lamp/light,lamp
+item_216,household,Ismallitems19medicine,I Words for small household items - 19 medicine,understands; produces,word,NA,medicine,medicine
+item_217,household,Ismallitems20money,I Words for small household items - 20 money,understands; produces,word,NA,money,money
+item_218,household,Ismallitems21paper,I Words for small household items - 21 paper,understands; produces,word,NA,paper,paper
+item_219,household,Ismallitems22phonemobile,I Words for small household items - 22 phone/telephone/mobile,understands; produces,word,NA,phone/telephone/mobile,telephone
+item_220,household,Ismallitems23picture,I Words for small household items - 23 picture,understands; produces,word,NA,picture,picture
+item_221,household,Ismallitems24pillow,I Words for small household items - 24 pillow,understands; produces,word,NA,pillow,pillow
+item_222,household,Ismallitems25plant,I Words for small household items - 25 plant,understands; produces,word,NA,plant,plant
+item_223,household,Ismallitems26plate,I Words for small household items - 26 plate,understands; produces,word,NA,plate,plate
+item_224,household,Ismallitems27purse,I Words for small household items - 27 purse,understands; produces,word,NA,purse,purse
+item_225,household,Ismallitems28radio,I Words for small household items - 28 radio,understands; produces,word,NA,radio,radio
+item_226,household,Ismallitems29rubbish,I Words for small household items - 29 rubbish,understands; produces,word,NA,rubbish,trash
+item_227,household,Ismallitems30scissors,I Words for small household items - 30 scissors,understands; produces,word,NA,scissors,scissors
+item_228,household,Ismallitems31soap,I Words for small household items - 31 soap,understands; produces,word,NA,soap,soap
+item_229,household,Ismallitems32spoon,I Words for small household items - 32 spoon,understands; produces,word,NA,spoon,spoon
+item_230,household,Ismallitems33toothbrush,I Words for small household items - 33 toothbrush,understands; produces,word,NA,toothbrush,toothbrush
+item_231,household,Ismallitems34towel,I Words for small household items - 34 towel,understands; produces,word,NA,towel,towel
+item_232,household,Ismallitems35watch,I Words for small household items - 35 watch,understands; produces,word,NA,watch,watch (object)
+item_233,outside,Joutside1flower,J Outside words - 1 flower,understands; produces,word,NA,flower,flower
+item_234,outside,Joutside2garden,J Outside words - 2 garden,understands; produces,word,NA,garden,garden
+item_235,outside,Joutside3grass,J Outside words - 3 grass,understands; produces,word,NA,grass,grass
+item_236,outside,Joutside4house,J Outside words - 4 house,understands; produces,word,NA,house,house
+item_237,outside,Joutside5moon,J Outside words - 5 moon,understands; produces,word,NA,moon,moon
+item_238,outside,Joutside6outside,J Outside words - 6 outside,understands; produces,word,NA,outside,outside
+item_239,outside,Joutside7park,J Outside words - 7 park,understands; produces,word,NA,park,park
+item_240,outside,Joutside8party,J Outside words - 8 party,understands; produces,word,NA,party,party
+item_241,outside,Joutside9rain,J Outside words - 9 rain,understands; produces,word,NA,rain,rain
+item_242,outside,Joutside10road,J Outside words - 10 road,understands; produces,word,NA,road,road
+item_243,outside,Joutside11shop,J Outside words - 11 shop,understands; produces,word,NA,shop,shop
+item_244,outside,Joutside12sky,J Outside words - 12 sky,understands; produces,word,NA,sky,sky
+item_245,outside,Joutside13slide,J Outside words - 13 slide,understands; produces,word,NA,slide,slide
+item_246,outside,Joutside14snow,J Outside words - 14 snow,understands; produces,word,NA,snow,snow
+item_247,outside,Joutside15star,J Outside words - 15 star,understands; produces,word,NA,star,star
+item_248,outside,Joutside16stone,J Outside words - 16 stone,understands; produces,word,NA,stone,stone
+item_249,outside,Joutside17sun,J Outside words - 17 sun,understands; produces,word,NA,sun,sun
+item_250,outside,Joutside18swing,J Outside words - 18 swing,understands; produces,word,NA,swing,swing
+item_251,outside,Joutside19tree,J Outside words - 19 tree,understands; produces,word,NA,tree,tree
+item_252,outside,Joutside20wall,J Outside words - 20 wall,understands; produces,word,NA,wall,wall
+item_253,outside,Joutside21water,J Outside words - 21 water,understands; produces,word,NA,water,water (not beverage)
+item_254,people,Kpeople1aunt,K Words for people - 1 aunt,understands; produces,word,NA,aunt,aunt
+item_255,people,Kpeople2baby,K Words for people - 2 baby/bairn/wee one,understands; produces,word,NA,baby/bairn/wee one,baby
+item_256,people,Kpeople3boy,K Words for people - 3 boy/laddie,understands; produces,word,NA,boy/laddie,boy
+item_257,people,Kpeople4brother,K Words for people - 4 brother,understands; produces,word,NA,brother,brother
+item_258,people,Kpeople5ownname,K Words for people - 5 child’s own name,understands; produces,word,NA,child’s own name,child's own name
+item_259,people,Kpeople6daddy,K Words for people - 6 dad/daddy/da,understands; produces,word,NA,dad/daddy/da,daddy
+item_260,people,Kpeople7girl,K Words for people - 7 girl/lassie,understands; produces,word,NA,girl/lassie,girl
+item_261,people,Kpeople8grandma,K Words for people - 8 grandma/nan/granny/nanny,understands; produces,word,NA,grandma/nan/granny/nanny,grandma
+item_262,people,Kpeople9grandpa,K Words for people - 9 grandpa/granddad,understands; produces,word,NA,grandpa/granddad,grandpa
+item_263,people,Kpeople10lady,K Words for people - 10 lady,understands; produces,word,NA,lady,lady
+item_264,people,Kpeople11man,K Words for people - 11 man,understands; produces,word,NA,man,man
+item_265,people,Kpeople12mummy,K Words for people - 12 mum/mummy/mam/ma,understands; produces,word,NA,mum/mummy/mam/ma,mummy
+item_266,people,Kpeople13people,K Words for people - 13 people/folk,understands; produces,word,NA,people/folk,people
+item_267,people,Kpeople14police,K Words for people - 14 police/policeman,understands; produces,word,NA,police/policeman,police
+item_268,people,Kpeople15sister,K Words for people - 15 sister,understands; produces,word,NA,sister,sister
+item_269,people,Kpeople16uncle,K Words for people - 16 uncle,understands; produces,word,NA,uncle,uncle
+item_270,games_routines,Lroutines1bath,L Words for games and routines - 1 bath,understands; produces,word,NA,bath,bath
+item_271,games_routines,Lroutines2breakfast,L Words for games and routines - 2 breakfast,understands; produces,word,NA,breakfast,breakfast
+item_272,games_routines,Lroutines3brushteeth,L Words for games and routines - 3 brush teeth,understands; produces,word,NA,brush teeth,brush teeth
+item_273,games_routines,Lroutines4bye,L Words for games and routines - 4 bye/byebye/cheerio,understands; produces,word,NA,bye/byebye/cheerio,bye
+item_274,games_routines,Lroutines5claphands,L Words for games and routines - 5 clap hands,understands; produces,word,NA,clap hands,
+item_275,games_routines,Lroutines6dinner,L Words for games and routines - 6 dinner,understands; produces,word,NA,dinner,dinner
+item_276,games_routines,Lroutines7dontdinnae,L Words for games and routines - 7 don’t/dinnae,understands; produces,word,NA,don’t/dinnae,don't
+item_277,games_routines,Lroutines8goodnight,L Words for games and routines - 8 goodnight/night night,understands; produces,word,NA,goodnight/night night,good night
+item_278,games_routines,Lroutines9hello,L Words for games and routines - 9 hello/hi/hiya,understands; produces,word,NA,hello/hi/hiya,hello
+item_279,games_routines,Lroutines10hushshh,L Words for games and routines - 10 hush/shh,understands; produces,word,NA,hush/shh,shh
+item_280,games_routines,Lroutines11lunch,L Words for games and routines - 11 lunch,understands; produces,word,NA,lunch,lunch
+item_281,games_routines,Lroutines12music,L Words for games and routines - 12 music,understands; produces,word,NA,music,music
+item_282,games_routines,Lroutines13nap,L Words for games and routines - 13 nap,understands; produces,word,NA,nap,nap
+item_283,games_routines,Lroutines14no,L Words for games and routines - 14 no,understands; produces,word,NA,no,no
+item_284,games_routines,Lroutines15oops,L Words for games and routines - 15 oops,understands; produces,word,NA,oops,
+item_285,games_routines,Lroutines16peekaboo,L Words for games and routines - 16 peekaboo/peepo,understands; produces,word,NA,peekaboo/peepo,peekaboo
+item_286,games_routines,Lroutines17phonecallon,L Words for games and routines - 17 (call on) phone,understands; produces,word,NA,(call on) phone,call on phone
+item_287,games_routines,Lroutines18please,L Words for games and routines - 18 please,understands; produces,word,NA,please,please
+item_288,games_routines,Lroutines19sorry,L Words for games and routines - 19 sorry,understands; produces,word,NA,sorry,sorry
+item_289,games_routines,Lroutines20meal,L Words for games and routines - 20 tea (meal),understands; produces,word,NA,tea (meal),
+item_290,games_routines,Lroutines21thanku,L Words for games and routines - 21 thankyou/ta,understands; produces,word,NA,thankyou/ta,thank you
+item_291,games_routines,Lroutines22littlepiggy,L Words for games and routines - 22 this little piggy,understands; produces,word,NA,this little piggy,this little piggy
+item_292,games_routines,Lroutines23wait,L Words for games and routines - 23 wait,understands; produces,word,NA,wait,wait
+item_293,games_routines,Lroutines24wantto,L Words for games and routines - 24 want to,understands; produces,word,NA,want to,wanna
+item_294,games_routines,Lroutines25yes,L Words for games and routines - 25 yes/yeah/aye,understands; produces,word,NA,yes/yeah/aye,yes
+item_295,action_words,Mactions1bite,M Action words - 1 bite,understands; produces,word,NA,bite,bite
+item_296,action_words,Mactions2blow,M Action words - 2 blow,understands; produces,word,NA,blow,blow
+item_297,action_words,Mactions3break,M Action words - 3 break,understands; produces,word,NA,break,break
+item_298,action_words,Mactions4bring,M Action words - 4 bring,understands; produces,word,NA,bring,bring
+item_299,action_words,Mactions5bump,M Action words - 5 bump,understands; produces,word,NA,bump,bump
+item_300,action_words,Mactions6carry,M Action words - 6 carry,understands; produces,word,NA,carry,carry
+item_301,action_words,Mactions7catch,M Action words - 7 catch,understands; produces,word,NA,catch,catch
+item_302,action_words,Mactions8clean,M Action words - 8 clean,understands; produces,word,NA,clean,clean (action)
+item_303,action_words,Mactions9come,M Action words - 9 come,understands; produces,word,NA,come,come
+item_304,action_words,Mactions10cry,M Action words - 10 cry,understands; produces,word,NA,cry,cry
+item_305,action_words,Mactions11cuddle,M Action words - 11 cuddle,understands; produces,word,NA,cuddle,cuddle
+item_306,action_words,Mactions12dance,M Action words - 12 dance,understands; produces,word,NA,dance,dance
+item_307,action_words,Mactions13draw,M Action words - 13 draw,understands; produces,word,NA,draw,draw
+item_308,action_words,Mactions14drink,M Action words - 14 drink,understands; produces,word,NA,drink,drink
+item_309,action_words,Mactions15drop,M Action words - 15 drop,understands; produces,word,NA,drop,drop
+item_310,action_words,Mactions16eat,M Action words - 16 eat,understands; produces,word,NA,eat,eat
+item_311,action_words,Mactions17fall,M Action words - 17 fall,understands; produces,word,NA,fall,fall
+item_312,action_words,Mactions18feed,M Action words - 18 feed,understands; produces,word,NA,feed,feed
+item_313,action_words,Mactions19find,M Action words - 19 find,understands; produces,word,NA,find,find
+item_314,action_words,Mactions20finish,M Action words - 20 finish,understands; produces,word,NA,finish,finish
+item_315,action_words,Mactions21get,M Action words - 21 get,understands; produces,word,NA,get,get
+item_316,action_words,Mactions22give,M Action words - 22 give,understands; produces,word,NA,give,give
+item_317,action_words,Mactions23go,M Action words - 23 go,understands; produces,word,NA,go,go
+item_318,action_words,Mactions24help,M Action words - 24 help,understands; produces,word,NA,help,help
+item_319,action_words,Mactions25hit,M Action words - 25 hit,understands; produces,word,NA,hit,hit
+item_320,action_words,Mactions26hug,M Action words - 26 hug,understands; produces,word,NA,hug,hug
+item_321,action_words,Mactions27hurry,M Action words - 27 hurry,understands; produces,word,NA,hurry,hurry
+item_322,action_words,Mactions28jump,M Action words - 28 jump,understands; produces,word,NA,jump,jump
+item_323,action_words,Mactions29kick,M Action words - 28 kick,understands; produces,word,NA,kick,kick
+item_324,action_words,Mactions30kiss,M Action words - 30 kiss,understands; produces,word,NA,kiss,kiss
+item_325,action_words,Mactions31like,M Action words - 31 like,understands; produces,word,NA,like,like
+item_326,action_words,Mactions32look,M Action words - 32 look,understands; produces,word,NA,look,look
+item_327,action_words,Mactions33love,M Action words - 33 love,understands; produces,word,NA,love,love
+item_328,action_words,Mactions34open,M Action words - 34 open,understands; produces,word,NA,open,open
+item_329,action_words,Mactions35play,M Action words - 35 play,understands; produces,word,NA,play,play
+item_330,action_words,Mactions36pull,M Action words - 36 pull,understands; produces,word,NA,pull,pull
+item_331,action_words,Mactions37push,M Action words - 37 push,understands; produces,word,NA,push,push
+item_332,action_words,Mactions38put,M Action words - 38 put,understands; produces,word,NA,put,put
+item_333,action_words,Mactions39read,M Action words - 39 read,understands; produces,word,NA,read,read
+item_334,action_words,Mactions40ride,M Action words - 40 ride,understands; produces,word,NA,ride,ride
+item_335,action_words,Mactions41run,M Action words - 41 run,understands; produces,word,NA,run,run
+item_336,action_words,Mactions42say,M Action words - 42 say,understands; produces,word,NA,say,say
+item_337,action_words,Mactions43see,M Action words - 43 see,understands; produces,word,NA,see,see
+item_338,action_words,Mactions44show,M Action words - 44 show,understands; produces,word,NA,show,show
+item_339,action_words,Mactions45shutclose,M Action words - 45 shut,understands; produces,word,NA,shut,close (action)
+item_340,action_words,Mactions46sing,M Action words - 46 sing,understands; produces,word,NA,sing,sing
+item_341,action_words,Mactions47sleep,M Action words - 47 sleep,understands; produces,word,NA,sleep,sleep
+item_342,action_words,Mactions48smile,M Action words - 48 smile,understands; produces,word,NA,smile,smile
+item_343,action_words,Mactions49splash,M Action words - 49 splash,understands; produces,word,NA,splash,splash
+item_344,action_words,Mactions50stop,M Action words - 50 stop,understands; produces,word,NA,stop,stop
+item_345,action_words,Mactions51swim,M Action words - 51 swim,understands; produces,word,NA,swim,swim
+item_346,action_words,Mactions52swing,M Action words - 52 swing,understands; produces,word,NA,swing,swing
+item_347,action_words,Mactions53take,M Action words - 53 take,understands; produces,word,NA,take,take
+item_348,action_words,Mactions54throw,M Action words - 54 throw,understands; produces,word,NA,throw,throw
+item_349,action_words,Mactions55tickle,M Action words - 55 tickle,understands; produces,word,NA,tickle,tickle
+item_350,action_words,Mactions56touch,M Action words - 56 touch,understands; produces,word,NA,touch,touch
+item_351,action_words,Mactions57walk,M Action words - 57 walk,understands; produces,word,NA,walk,walk
+item_352,action_words,Mactions58wash,M Action words - 58 wash,understands; produces,word,NA,wash,wash
+item_353,action_words,Mactions59wipe,M Action words - 59 wipe,understands; produces,word,NA,wipe,wipe
+item_354,descriptive_words,Ndescribing1allgone,N Describing words - 1 all gone,understands; produces,word,NA,all gone,all gone
+item_355,descriptive_words,Ndescribing2asleep,N Describing words - 2 asleep,understands; produces,word,NA,asleep,asleep
+item_356,descriptive_words,Ndescribing3big,N Describing words - 3 big,understands; produces,word,NA,big,big
+item_357,descriptive_words,Ndescribing4blue,N Describing words - 4 blue,understands; produces,word,NA,blue,blue
+item_358,descriptive_words,Ndescribing5broken,N Describing words - 5 broken,understands; produces,word,NA,broken,broken
+item_359,descriptive_words,Ndescribing6careful,N Describing words - 6 careful,understands; produces,word,NA,careful,careful
+item_360,descriptive_words,Ndescribing7clean,N Describing words - 7 clean,understands; produces,word,NA,clean,clean (description)
+item_361,descriptive_words,Ndescribing8cold,N Describing words - 8 cold,understands; produces,word,NA,cold,cold
+item_362,descriptive_words,Ndescribing9dirty,N Describing words - 9 dirty/mucky,understands; produces,word,NA,dirty/mucky,dirty
+item_363,descriptive_words,Ndescribing10empty,N Describing words - 10 empty,understands; produces,word,NA,empty,empty
+item_364,descriptive_words,Ndescribing11fast,N Describing words - 11 fast,understands; produces,word,NA,fast,fast
+item_365,descriptive_words,Ndescribing12gentle,N Describing words - 12 gentle,understands; produces,word,NA,gentle,gentle
+item_366,descriptive_words,Ndescribing13good,N Describing words - 13 good,understands; produces,word,NA,good,good
+item_367,descriptive_words,Ndescribing14happy,N Describing words - 14 happy,understands; produces,word,NA,happy,happy
+item_368,descriptive_words,Ndescribing15hot,N Describing words - 15 hot,understands; produces,word,NA,hot,hot
+item_369,descriptive_words,Ndescribing16hungry,N Describing words - 16 hungry,understands; produces,word,NA,hungry,hungry
+item_370,descriptive_words,Ndescribing17hurt,N Describing words - 17 hurt,understands; produces,word,NA,hurt,hurt
+item_371,descriptive_words,Ndescribing18naughty,N Describing words - 18 naughty,understands; produces,word,NA,naughty,naughty
+item_372,descriptive_words,Ndescribing19nice,N Describing words - 19 nice,understands; produces,word,NA,nice,nice
+item_373,descriptive_words,Ndescribing20old,N Describing words - 20 old,understands; produces,word,NA,old,old
+item_374,descriptive_words,Ndescribing21pretty,N Describing words - 21 pretty,understands; produces,word,NA,pretty,pretty
+item_375,descriptive_words,Ndescribing22sad,N Describing words - 22 sad,understands; produces,word,NA,sad,sad
+item_376,descriptive_words,Ndescribing23sleepy,N Describing words - 23 sleepy,understands; produces,word,NA,sleepy,sleepy
+item_377,descriptive_words,Ndescribing24soft,N Describing words - 24 soft,understands; produces,word,NA,soft,soft
+item_378,descriptive_words,Ndescribing25thirsty,N Describing words - 25 thirsty,understands; produces,word,NA,thirsty,thirsty
+item_379,descriptive_words,Ndescribing26tired,N Describing words - 26 tired,understands; produces,word,NA,tired,tired
+item_380,descriptive_words,Ndescribing27wet,N Describing words - 27 wet,understands; produces,word,NA,wet,wet
+item_381,descriptive_words,Ndescribing28yellow,N Describing words - 28 yellow,understands; produces,word,NA,yellow,yellow
+item_382,question_words,Oquestions1how,O Question words - 1 how,understands; produces,word,NA,how,how
+item_383,question_words,Oquestions2what,O Question words - 2 what,understands; produces,word,NA,what,what
+item_384,question_words,Oquestions3when,O Question words - 3 when,understands; produces,word,NA,when,when (question)
+item_385,question_words,Oquestions4where,O Question words - 4 where,understands; produces,word,NA,where,where (question)
+item_386,question_words,Oquestions5who,O Question words - 5 who,understands; produces,word,NA,who,who
+item_387,question_words,Oquestions6why,O Question words - 6 why,understands; produces,word,NA,why,why
+item_388,time_words,Ptime1day,P Words about time - 1 day,understands; produces,word,NA,day,day
+item_389,time_words,Ptime2later,P Words about time - 2 later,understands; produces,word,NA,later,later
+item_390,time_words,Ptime3morning,P Words about time - 3 morning,understands; produces,word,NA,morning,morning
+item_391,time_words,Ptime4night,P Words about time - 4 night,understands; produces,word,NA,night,night
+item_392,time_words,Ptime5now,P Words about time - 5 now,understands; produces,word,NA,now,now
+item_393,time_words,Ptime6today,P Words about time - 6 today,understands; produces,word,NA,today,today
+item_394,time_words,Ptime7tomorrow,P Words about time - 7 tomorrow,understands; produces,word,NA,tomorrow,tomorrow
+item_395,time_words,Ptime8tonight,P Words about time - 8 tonight,understands; produces,word,NA,tonight,tonight
+item_396,pronouns,Qpronouns1he,Q Words about people and things - 1 he,understands; produces,word,NA,he,3SG
+item_397,pronouns,Qpronouns2her,Q Words about people and things - 2 her,understands; produces,word,NA,her,3SG.POSS
+item_398,pronouns,Qpronouns3his,Q Words about people and things - 3 his,understands; produces,word,NA,his,3SG.POSS
+item_399,pronouns,Qpronouns4I,Q Words about people and things - 4 I,understands; produces,word,NA,I,1SG
+item_400,pronouns,Qpronouns5it,Q Words about people and things - 5 it,understands; produces,word,NA,it,3SG
+item_401,pronouns,Qpronouns6me,Q Words about people and things - 6 me,understands; produces,word,NA,me,1SG
+item_402,pronouns,Qpronouns7mine,Q Words about people and things - 7 mine,understands; produces,word,NA,mine,1SG.POSS
+item_403,pronouns,Qpronouns8my,Q Words about people and things - 8 my,understands; produces,word,NA,my,1SG.POSS
+item_404,pronouns,Qpronouns9she,Q Words about people and things - 9 she,understands; produces,word,NA,she,3SG
+item_405,pronouns,Qpronouns10that,Q Words about people and things - 10 that,understands; produces,word,NA,that,that
+item_406,pronouns,Qpronouns11this,Q Words about people and things - 11 this,understands; produces,word,NA,this,this
+item_407,pronouns,Qpronouns12you,Q Words about people and things - 12 you,understands; produces,word,NA,you,2SG
+item_408,pronouns,Qpronouns13your,Q Words about people and things - 13 your,understands; produces,word,NA,your,2SG.POSS
+item_409,locations,Rplaces1back,R Words about places - 1 back,understands; produces,word,NA,back,back
+item_410,locations,Rplaces2down,R Words about places - 2 down,understands; produces,word,NA,down,down
+item_411,locations,Rplaces3in,R Words about places - 3 in,understands; produces,word,NA,in,in
+item_412,locations,Rplaces4inside,R Words about places - 4 inside,understands; produces,word,NA,inside,inside
+item_413,locations,Rplaces5off,R Words about places - 5 off,understands; produces,word,NA,off,off
+item_414,locations,Rplaces6on,R Words about places - 6 on,understands; produces,word,NA,on,on
+item_415,locations,Rplaces7out,R Words about places - 7 out,understands; produces,word,NA,out,out
+item_416,locations,Rplaces8there,R Words about places - 8 there,understands; produces,word,NA,there,there
+item_417,locations,Rplaces9to,R Words about places - 9 to,understands; produces,word,NA,to,to
+item_418,locations,Rplaces10under,R Words about places - 10 under,understands; produces,word,NA,under,under
+item_419,locations,Rplaces11up,R Words about places - 11 up,understands; produces,word,NA,up,up
+item_420,quantifiers,Samounts1again,S Words about amounts - 1 again,understands; produces,word,NA,again,again
+item_421,quantifiers,Samounts2all,S Words about amounts - 2 all,understands; produces,word,NA,all,all
+item_422,quantifiers,Samounts3another,S Words about amounts - 3 another,understands; produces,word,NA,another,another
+item_423,quantifiers,Samounts4more,S Words about amounts - 4 more,understands; produces,word,NA,more,more
+item_424,quantifiers,Samounts5none,S Words about amounts - 5 none,understands; produces,word,NA,none,none
+item_425,quantifiers,Samounts6not,S Words about amounts - 6 not,understands; produces,word,NA,not,not
+item_426,quantifiers,Samounts7some,S Words about amounts - 7 some,understands; produces,word,NA,some,some
+item_427,,Tgestures1Extendsarmshow,T First communicative gesture - 1. Extends an arm to show you something she or he is holding,not yet; sometimes; often,gestures_first,NA,,
+item_428,,Tgestures2Reachesout,T First communicative gesture - 2. Reaches out and gives you a toy or some object that she or he is holding,not yet; sometimes; often,gestures_first,NA,,
+item_429,,Tgestures3Whenlook,"T First communicative gesture - 3. When you look/point at toy across the room, does your child look at it?",not yet; sometimes; often,gestures_first,NA,,
+item_430,,Tgestures4Pointsarm,T First communicative gesture - 4. Points (with arm and index finger extended) at some interesting object or event,not yet; sometimes; often,gestures_first,NA,,
+item_431,,Tgestures5Wavesbye,T First communicative gesture - 5. Waves byebye on his or her own when someone leaves,not yet; sometimes; often,gestures_first,NA,,
+item_432,,Tgestures6Extendsarmup,T First communicative gesture - 6. Extends his or her arm upward to signal a wish to be picked up,not yet; sometimes; often,gestures_first,NA,,
+item_433,,Tgestures7headno,"T First communicative gesture - 7. Shakes head ""no""",not yet; sometimes; often,gestures_first,NA,,
+item_434,,Tgestures8headyes,"T First communicative gesture - 8. Nods head ""yes""",not yet; sometimes; often,gestures_first,NA,,
+item_435,,Tgestures9shush,"T First communicative gesture - 9. Gestures ""hush"" by placing finger to lips",not yet; sometimes; often,gestures_first,NA,,
+item_436,,Tgestures10Requests,T First communicative gesture - 10. Requests something by extending arm and opening and closing hand,not yet; sometimes; often,gestures_first,NA,,
+item_437,,Tgestures11Blowskisses,T First communicative gesture - 11. Blows kisses from a distance,not yet; sometimes; often,gestures_first,NA,,
+item_438,,Tgestures12Shrugs,"T First communicative gesture - 12. Shrugs to indicate ""all gone"" or ""where did it go""",not yet; sometimes; often,gestures_first,NA,,
+item_439,,Ugames1peekaboo,"U Games and Routines - 1. Plays ""peekaboo""/""peepo""",no; yes,gestures_games,NA,,
+item_440,,Ugames2pattycake,U Games and Routines - 2. Plays ‘pattycake’/‘pat-a-cake’,no; yes,gestures_games,NA,,
+item_441,,Ugames3chasing,U Games and Routines - 3. Plays chasing games,no; yes,gestures_games,NA,,
+item_442,,Ugames4Sings,U Games and Routines - 4. Sings,no; yes,gestures_games,NA,,
+item_443,,Ugames5Dances,U Games and Routines - 5. Dances,no; yes,gestures_games,NA,,
+item_444,,Ugames6Claphands,U Games and Routines - 6. Clap hands,no; yes,gestures_games,NA,,
+item_445,,Ugames7highfive,U Games and Routines - 7. Plays high five/gimme five,no; yes,gestures_games,NA,,
+item_446,,Vactobject1eatspoon,"V Actions with objects - 1. Eat with a spoon or fork, holding or helping to hold the spoon or fork",no; yes,gestures_objects,NA,,
+item_447,,Vactobject2opencup,V Actions with objects - 2. Drink from an open cup containing liquid,no; yes,gestures_objects,NA,,
+item_448,,Vactobject3Combhair,V Actions with objects - 3. Comb or brush own hair,no; yes,gestures_objects,NA,,
+item_449,,Vactobject4Brushteeth,V Actions with objects - 4. Brush teeth,no; yes,gestures_objects,NA,,
+item_450,,Vactobject5Wipeface,V Actions with objects - 5. Wipe face or hands with a towel or cloth,no; yes,gestures_objects,NA,,
+item_451,,Vactobject6Puthat,V Actions with objects - 6. Put on a hat,no; yes,gestures_objects,NA,,
+item_452,,Vactobject7Putshoe,V Actions with objects - 7. Put on a shoe or a sock,no; yes,gestures_objects,NA,,
+item_453,,Vactobject8Putnecklace,"V Actions with objects - 8. Put on a necklace, bracelet, or watch",no; yes,gestures_objects,NA,,
+item_454,,Vactobject9ifsleeping,V Actions with objects - 9. Lay head on hands and squeeze eyes shut as if sleeping,no; yes,gestures_objects,NA,,
+item_455,,Vactobject10Blowhot,V Actions with objects - 10. Blow to indicate something is hot,no; yes,gestures_objects,NA,,
+item_456,,Vactobject11Holdplane,"V Actions with objects - 11. Hold plane and make it ""fly""",no; yes,gestures_objects,NA,,
+item_457,,Vactobject12telephonetoear,V Actions with objects - 12. Put telephone to ear,no; yes,gestures_objects,NA,,
+item_458,,Vactobject13Sniffflowers,V Actions with objects - 13. Sniff flowers,no; yes,gestures_objects,NA,,
+item_459,,Vactobject14Pushtoycar,V Actions with objects - 14. Push toy car or truck,no; yes,gestures_objects,NA,,
+item_460,,Vactobject15Throwball,V Actions with objects - 15. Throw a ball,no; yes,gestures_objects,NA,,
+item_461,,Vactobject16Pourpretendliquid,V Actions with objects - 16. Pour pretend liquid from one container to another,no; yes,gestures_objects,NA,,
+item_462,,Vactobject17Stirpretendliquid,V Actions with objects - 17. Stir pretend liquid in a cup or pan with a spoon,no; yes,gestures_objects,NA,,
+item_463,,Vactobject18Pretenddrink,V Actions with objects - 18. Pretend to ‘drink’ from a cup or other object,no; yes,gestures_objects,NA,,
+item_464,,Wpretendparent1Putbed,W Pretending to be a parent - 1. Put to bed,no; yes,gestures_parent,NA,,
+item_465,,Wpretendparent2Coverblanket,W Pretending to be a parent - 2. Cover with blanket,no; yes,gestures_parent,NA,,
+item_466,,Wpretendparent3Feedbottle,W Pretending to be a parent - 3. Feed with bottle or at the breast,no; yes,gestures_parent,NA,,
+item_467,,Wpretendparent4Feedspoon,W Pretending to be a parent - 4. Feed with spoon,no; yes,gestures_parent,NA,,
+item_468,,Wpretendparent5Brushhair,W Pretending to be a parent - 5. Brush/comb its hair,no; yes,gestures_parent,NA,,
+item_469,,Wpretendparent6Pushpram,W Pretending to be a parent - 6. Push in pram/buggy,no; yes,gestures_parent,NA,,
+item_470,,Wpretendparent7Rockit,W Pretending to be a parent - 7. Rock it,no; yes,gestures_parent,NA,,
+item_471,,Wpretendparent8Kissit,W Pretending to be a parent - 8. Kiss or hug it,no; yes,gestures_parent,NA,,
+item_472,,Wpretendparent9putshoes,"W Pretending to be a parent - 9. Try to put shoe, sock or hat on it",no; yes,gestures_parent,NA,,
+item_473,,Wpretendparent10Wipeface,W Pretending to be a parent - 10. Wipe its face or hands,no; yes,gestures_parent,NA,,
+item_474,,Wpretendparent11Talktoit,W Pretending to be a parent - 11. Talk to it,no; yes,gestures_parent,NA,,
+item_475,,Wpretendparent12Trynappy,W Pretending to be a parent - 12. Try to put nappy on it,no; yes,gestures_parent,NA,,
+item_476,,Ximitating1Sweepbroom,X Imitating other adult actions - 1. Sweep with a broom or mop,no; yes,gestures_adult,NA,,
+item_477,,Ximitating2Putkey,X Imitating other adult actions - 2. Put a key in a door or lock,no; yes,gestures_adult,NA,,
+item_478,,Ximitating3Banghammer,X Imitating other adult actions - 3. Bang with a hammer or mallet,no; yes,gestures_adult,NA,,
+item_479,,Ximitating4useofasaw,X Imitating other adult actions - 4. Attempt to use a saw,no; yes,gestures_adult,NA,,
+item_480,,Ximitating5Type,"X Imitating other adult actions - 5. ""Type"" at a typewriter or computer keyboard",no; yes,gestures_adult,NA,,
+item_481,,Ximitating6Readbook,"X Imitating other adult actions - 6. ""Read"" (opens book, turns page)",no; yes,gestures_adult,NA,,
+item_482,,Ximitating7Hoover,X Imitating other adult actions - 7. Hoover,no; yes,gestures_adult,NA,,
+item_483,,Ximitating8instrument,"X Imitating other adult actions - 8. Play a musical instrument (e.g. piano, trumpet)",no; yes,gestures_adult,NA,,
+item_484,,Ximitating9Drivecar,"X Imitating other adult actions - 9. ""Drive"" a car by turning steering wheel",no; yes,gestures_adult,NA,,
+item_485,,Ximitating10Washingup,X Imitating other adult actions - 10. Washing up / wash dishes,no; yes,gestures_adult,NA,,
+item_486,,Ximitating11Cleancloth,X Imitating other adult actions - 11. Clean with a cloth or duster,no; yes,gestures_adult,NA,,
+item_487,,Ximitating12Writepen,"X Imitating other adult actions - 12. Write with a pen, pencil, or marker",no; yes,gestures_adult,NA,,
+item_488,,Ximitating13Digspade,X Imitating other adult actions - 13. Dig with a spade,no; yes,gestures_adult,NA,,
+item_489,,Ximitating14Putglasses,X Imitating other adult actions - 14. Put on glasses,no; yes,gestures_adult,NA,,

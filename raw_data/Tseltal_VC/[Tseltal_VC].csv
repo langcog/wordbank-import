@@ -1,0 +1,319 @@
+﻿itemID,category,item,definition,choices,type,gloss,uni_lemma
+item_1,sounds,ay!/au!,ay!/au!,produces,word,ouch,ouch
+item_2,sounds,kukuru ,kukuru ,produces,word,cockadoodledoo,cockadoodledoo
+item_3,sounds,meu meu (xawin),meu meu (xawin),produces,word,meow,meow
+item_4,sounds,maa/awu (wakax),maa/awu (wakax),produces,word,moo,moo
+item_5,sounds,mmm (buts'an),mmm (buts'an),produces,word,yum yum,yum yum
+item_6,sounds,pipip,pipip,produces,word,honk honk,honk honk
+item_7,sounds,pum,pum,produces,word,bam,bang bang
+item_8,sounds,rrrr/jam,rrrr/jam,produces,word,vroom,vroom
+item_9,sounds,pio pio,pio pio,produces,word,tweet tweet,tweet tweet
+item_10,sounds,woj woj woj,woj woj woj,produces,word,woof woof,woof woof
+item_11,sounds,be'e/me'e (borrego),be'e/me'e (borrego),produces,word,baa baa,baa baa
+item_12,animals,am,am,produces,word,spider,spider
+item_13,animals,ch'oj,ch'oj,produces,word,rat,rat
+item_14,animals,chan,chan,produces,word,snake,snake
+item_15,animals,ch'ak,ch'ak,produces,word,flea,NA
+item_16,animals,chitam,chitam,produces,word,pig,pig
+item_17,animals,mut,mut,produces,word,chicken,chicken (animal)
+item_18,animals,pejpen,pejpen,produces,word,butterfly,butterfly
+item_19,animals,t'ul,t'ul,produces,word,rabbit,rabbit
+item_20,animals,tuluk',tuluk',produces,word,turkey,turkey
+item_21,animals,ts'i',ts'i',produces,word,dog,dog
+item_22,animals,tsujkum,tsujkum,produces,word,caterpillar,caterpillar
+item_23,animals,uch',uch',produces,word,louse,NA
+item_24,animals,us,us,produces,word,fly,fly (animal)
+item_25,animals,wakax/vaca,wakax/vaca,produces,word,cow,cow
+item_26,animals,xanich,xanich,produces,word,ant,ant
+item_27,animals,xawin,xawin,produces,word,cat,cat
+item_28,animals,xk'intun,xk'intun,produces,word,lizard,lizard
+item_29,animals,xpokok,xpokok,produces,word,frog,frog
+item_30,animals,xulem,xulem,produces,word,buzzard,NA
+item_31,animals,xux,xux,produces,word,wasp,wasp
+item_32,vehicles,abion/avion,abion/avion,produces,word,airplane,airplane
+item_33,vehicles,aktobus/autobus,aktobus/autobus,produces,word,bus,bus
+item_34,vehicles,bisikleta/bicicleta,bisikleta/bicicleta,produces,word,bicycle,bicycle
+item_35,vehicles,bocho,bocho,produces,word,Beetle,NA
+item_36,vehicles,karo/carro,karo/carro,produces,word,car,car
+item_37,vehicles,koral te',koral te',produces,word,commuter pickup truck,NA
+item_38,vehicles,moto,moto,produces,word,motorcycle,motorcycle
+item_39,vehicles,taxi,taxi,produces,word,taxi,taxi
+item_40,toys,kanika/canica,kanika/canica,produces,word,marble,marbles
+item_41,toys,lapis/lapiz,lapis/lapiz,produces,word,pencil,pencil
+item_42,toys,libro,libro,produces,word,book,book
+item_43,toys,munyeka/muñeca,munyeka/muñeca,produces,word,doll,doll
+item_44,toys,pelota,pelota,produces,word,ball,ball
+item_45,food_drink,arroz,arroz,produces,word,rice,rice
+item_46,food_drink,alchax,alchax,produces,word,orange (food),orange (food)
+item_47,food_drink,askal,askal,produces,word,sugar,sugar
+item_48,food_drink,ats'am,ats'am,produces,word,salt,salt
+item_49,food_drink,chab,chab,produces,word,honey,honey
+item_50,food_drink,chenek',chenek',produces,word,bean,beans
+item_51,food_drink,chi'in,chi'in,produces,word,potato,potato
+item_52,food_drink,ich,ich,produces,word,chili,chili
+item_53,food_drink,ixim,ixim,produces,word,corn,corn
+item_54,food_drink,ja',ja',produces,word,water,water
+item_55,food_drink,kajpe/café,kajpe/café,produces,word,coffee,coffee
+item_56,food_drink,ko'esan,ko'esan,produces,word,chayote root,NA
+item_57,food_drink,kot,kot,produces,word,tortilla,tortilla
+item_58,food_drink,waj,waj,produces,word,tortilla,tortilla
+item_59,food_drink,leche,leche,produces,word,milk,milk
+item_60,food_drink,lo'bal,lo'bal,produces,word,banana,banana
+item_61,food_drink,mats',mats',produces,word,cold cornmeal (beverage),NA
+item_62,food_drink,on,on,produces,word,avocado,avocado
+item_63,food_drink,paleta,paleta,produces,word,lollipop,lollipop
+item_64,food_drink,pan,pan,produces,word,bread,bread
+item_65,food_drink,seboya/cebolla,seboya/cebolla,produces,word,onion,onion
+item_66,food_drink,ti'bal,ti'bal,produces,word,meat,meat
+item_67,food_drink,ul,ul,produces,word,warm cornmeal (beverage),NA
+item_68,clothing,chujkilal,chujkilal,produces,word,belt,belt
+item_69,clothing,kalsetin/calcetin,kalsetin/calcetin,produces,word,sock,sock
+item_70,clothing,k'u',k'u',produces,word,shirt,shirt
+item_71,clothing,pak',pak',produces,word,cloth/clothes,cloth
+item_72,clothing,pixol,pixol,produces,word,sombrero,NA
+item_73,clothing,jijts',jijts',produces,word,wrap (clothing),NA
+item_74,clothing,tep,tep,produces,word,shoe,shoe
+item_75,clothing,tsekel,tsekel,produces,word,Tseltal skirt,NA
+item_76,clothing,tsots,tsots,produces,word,shawl,shawl
+item_77,clothing,wex,wex,produces,word,pants,pants
+item_78,body_parts,chux,chux,produces,word,pee,pee
+item_79,body_parts,jchikin,jchikin,produces,word,ear,ear
+item_80,body_parts,jcho,jcho,produces,word,cheek,cheek
+item_81,body_parts,jch'ujt,jch'ujt,produces,word,stomach,tummy
+item_82,body_parts,kejk'ech,kejk'ech,produces,word,nail (body part),nail (body part)
+item_83,body_parts,jk'ab,jk'ab,produces,word,hand,hand
+item_84,body_parts,kakan,kakan,produces,word,leg,leg
+item_85,body_parts,jmuxuk',jmuxuk',produces,word,belly button,belly button
+item_86,body_parts,jni',jni',produces,word,nose,nose
+item_87,body_parts,jnuk',jnuk',produces,word,neck,neck
+item_88,body_parts,jol,jol,produces,word,head,head
+item_89,body_parts,jsit,jsit,produces,word,eye,eye
+item_90,body_parts,kej,kej,produces,word,mouth,mouth
+item_91,body_parts,tsa',tsa',produces,word,poop,poop
+item_92,furniture_rooms,hamaka/hamaca,hamaka/hamaca,produces,word,hammock,NA
+item_93,furniture_rooms,ch'ail,ch'ail,produces,word,smoke,smoke
+item_94,furniture_rooms,k'ajk',k'ajk',produces,word,fire/hot,fire
+item_95,furniture_rooms,kosina/cocina,kosina/cocina,produces,word,kitchen,kitchen
+item_96,furniture_rooms,lamina,lamina,produces,word,roofing material,NA
+item_97,furniture_rooms,mexa/mesa,mexa/mesa,produces,word,table,table
+item_98,furniture_rooms,nen,nen,produces,word,mirror,mirror
+item_99,household,olla,olla,produces,word,pot,pot
+item_100,furniture_rooms,ti'nel,ti'nel,produces,word,door,door
+item_101,furniture_rooms,wayib ,wayib ,produces,word,bed,bed
+item_102,furniture_rooms,yutil na,yutil na,produces,word,bedroom,bedroom
+item_103,furniture_rooms,karitera/carreterra,karitera/carreterra,produces,word,road/highway,road
+item_104,furniture_rooms,nopjun,nopjun,produces,word,school,school
+item_105,furniture_rooms,sna'il poxil,sna'il poxil,produces,word,clinic,NA
+item_106,furniture_rooms,baño,baño,produces,word,bathroom,bathroom
+item_107,furniture_rooms,xila/silla,xila/silla,produces,word,chair,chair
+item_108,household,baso/vaso,baso/vaso,produces,word,cup,cup
+item_109,household,chojak',chojak',produces,word,net bag,NA
+item_110,household,jach'ubil,jach'ubil,produces,word,comb (object)/brush (object),comb (object)
+item_111,household,jun,jun,produces,word,paper,paper
+item_112,household,xalten/sarten,xalten/sarten,produces,word,pan,pan
+item_113,household,tejk'abal,tejk'abal,produces,word,stairs,stairs
+item_114,furniture_rooms,tuwa,tuwa,produces,word,tap,tap
+item_115,household,atinabal,atinabal,produces,word,basin,basin
+item_116,household,jujib,jujib,produces,word,stirring stick,NA
+item_117,furniture_rooms,k'a'pal,k'a'pal,produces,word,trash,trash
+item_118,household,kantela/candela,kantela/candela,produces,word,candle,candle
+item_119,household,kuchara/cucharra,kuchara/cucharra,produces,word,spoon,spoon
+item_120,household,biberon/chuchu,biberon/chuchu,produces,word,baby bottle/breastfeed,bottle
+item_121,household,kuchilu/cuchillo,kuchilu/cuchillo,produces,word,knife,knife
+item_122,household,lus/luz,lus/luz,produces,word,light/lightbulb/electricity,light (object)
+item_123,household,machit/machete,machit/machete,produces,word,machete,machete
+item_124,household,mes,mes,produces,word,broom,broom
+item_125,household,moch,moch,produces,word,basket,basket
+item_126,household,pexu/peso,pexu/peso,produces,word,peso,NA
+item_127,household,poxil,poxil,produces,word,medicine,medicine
+item_128,household,sets',sets',produces,word,plate/bowl,plate
+item_129,household,tak'in,tak'in,produces,word,money,money
+item_130,household,texerex,texerex,produces,word,scissors,scissors
+item_131,household,ts'anjol,ts'anjol,produces,word,pillow,pillow
+item_132,household,xapon/jabon,xapon/jabon,produces,word,soap,soap
+item_133,outside,ajch'al,ajch'al,produces,word,mud/clay/wetness,mud
+item_134,outside,amak',amak',produces,word,patio,patio
+item_135,outside,be,be,produces,word,path/road/trail,path
+item_136,outside,ek',ek',produces,word,star,star
+item_137,outside,ik',ik',produces,word,wind,wind
+item_138,outside,ja'al,ja'al,produces,word,rain,rain
+item_139,outside,k'aal,k'aal,produces,word,sun/day,sun
+item_140,outside,k'altik,k'altik,produces,word,mixed-plant cornfield,NA
+item_141,outside,na,na,produces,word,house,house
+item_142,outside,nichim,nichim,produces,word,flower,flower
+item_143,outside,si',si',produces,word,firewood,firewood
+item_144,outside,tokal,tokal,produces,word,cloud,cloud
+item_145,outside,te',te',produces,word,tree/stick,tree
+item_146,outside,ton,ton,produces,word,stone,stone
+item_147,outside,uj,uj,produces,word,moon,moon
+item_148,outside,uk'um,uk'um,produces,word,river,river
+item_149,people,ach'ix,ach'ix,produces,word,girl,girl
+item_150,people,alal,alal,produces,word,baby/child,baby
+item_151,people,ants,ants,produces,word,woman,woman
+item_152,people,bebé,bebé,produces,word,baby,baby
+item_153,people,jelol,jelol,produces,word,namesake,NA
+item_154,people,k'ox,k'ox,produces,word,little one (term of endearment),NA
+item_155,people,xut,xut,produces,word,little one (term of endearment),NA
+item_156,people,kerem,kerem,produces,word,boy,boy
+item_157,people,kirsanuetik,kirsanuetik,produces,word,people,people
+item_158,people,maestra,maestra,produces,word,teacher,teacher
+item_159,people,mama/mamatik,mama/mamatik,produces,word,mom,mommy
+item_160,people,mamatik,mamatik,produces,word,mommy,mommy
+item_161,people,me'tik,me'tik,produces,word,Mrs (term of address),NA
+item_162,people,papa/papatik,papa/papatik,produces,word,dad,daddy
+item_163,people,papatik,papatik,produces,word,daddy,daddy
+item_164,people,tatik,tatik,produces,word,Mr (term of address),NA
+item_165,people,winik,winik,produces,word,man,man
+item_166,people,wix,wix,produces,word,older sister or father's side aunt/cousin,NA
+item_167,people,bankil,bankil,produces,word,older brother or older first cousin or (non-possessed) term of respect between men,NA
+item_168,people,xi'lel,xi'lel,produces,word,older brother (of a female),NA
+item_169,games_routines,"ban me'tik, ban tatik, ban kantsil, ban tatil","ban me'tik, ban tatik, ban kantsil, ban tatil",produces,word,walk on (greeting),NA
+item_170,games_routines,gol,gol,produces,word,goal (game),goal
+item_171,games_routines,ila' (dar),ila' (dar),produces,word,here-give (presentational),here you go
+item_172,games_routines,in (dar),in (dar),produces,word,here-give (presentational),here you go
+item_173,games_routines,ixtal (recibir),ixtal (recibir),produces,word,here-take (presentational),NA
+item_174,games_routines,ila'wil (mostrar),ila'wil (mostrar),produces,word,lookit,look
+item_175,games_routines,jich/jichuk,jich/jichuk,produces,word,okay/fine/agreed,NA
+item_176,games_routines,kurik,kurik,produces,word,let's go,NA
+item_177,games_routines,sume'ba,sume'ba,produces,word,hurry up,hurry
+item_178,games_routines,la' (la'me),la' (la'me),produces,word,come here,come
+item_179,games_routines,lek ay,lek ay,produces,word,all's well,NA
+item_180,games_routines,sale,sale,produces,word,okay/fine/agreed,NA
+item_181,games_routines,eso,eso,produces,word,like that/that one,like this
+item_182,games_routines,wokoluk,wokoluk,produces,word,please,please
+item_183,games_routines,wokola'wal,wokola'wal,produces,word,thank you,thank you
+item_184,games_routines,chuchu,chuchu,produces,word,breast/breastfeed,breast
+item_185,games_routines,tik tik tik,tik tik tik,produces,word,call for chickens,NA
+item_186,games_routines,am am am,am am am,produces,word,gonna get you,gonna get you
+item_187,games_routines,ju sit ju sit,ju sit ju sit,produces,word,peekaboo,peekaboo
+item_188,games_routines,ju'uk,ju'uk,produces,word,no,no
+item_189,games_routines,yak,yak,produces,word,yes,yes
+item_190,action_words,ya ka'iy — ka'iy — a'iy,ya ka'iy — ka'iy — a'iy,produces,word,perceive/experience,NA
+item_191,action_words,ya kak' — kak' — ak',ya kak' — kak' — ak',produces,word,give,give
+item_192,action_words,ya x'atinon — atinon — atin,ya x'atinon — atinon — atin,produces,word,bathe,bathe
+item_193,action_words,ya xbenon — benon — ben,ya xbenon — benon — ben,produces,word,walk,walk
+item_194,action_words,ya jboj — jboj — boj,ya jboj — jboj — boj,produces,word,cut,cut
+item_195,action_words,ya jbuts' — jbuts' — buts',ya jbuts' — jbuts' — buts',produces,word,suck/kiss,suck
+item_196,action_words,ya jch'i' — jch'i — ch'i,ya jch'i' — jch'i — ch'i,produces,word,rip,rip
+item_197,action_words,ya kich' — kich' — ich',ya kich' — kich' — ich',produces,word,take/get/hold/receive,take
+item_198,action_words,ya kil — kil — il,ya kil — kil — il,produces,word,see/read,see
+item_199,action_words,ya xjajchon — jajchon — jajch,ya xjajchon — jajchon — jajch,produces,word,wake/get up,get up
+item_200,action_words,ya jam — jam,ya jam — jam,produces,word,open,open (action)
+item_201,action_words,ya jats — jats,ya jats — jats,produces,word,rip,rip
+item_202,action_words,ya xjilon — jilon — jil,ya xjilon — jilon — jil,produces,word,stay,stay
+item_203,action_words,ya jojk'an — jojk'an,ya jojk'an — jojk'an,produces,word,hang from handle/strap,hang
+item_204,action_words,ya xjulon — julon — jul,ya xjulon — julon — jul,produces,word,arrive here,arrive
+item_205,action_words,ya jk'abuy — jk'abuy — k'abu,ya jk'abuy — jk'abuy — k'abu,produces,word,look,look
+item_206,action_words,ya jk'an — jk'an — k'an,ya jk'an — jk'an — k'an,produces,word,want/need,want
+item_207,action_words,ya xk'o'on — k'o'on — k'o',ya xk'o'on — k'o'on — k'o',produces,word,arrive there,arrive
+item_208,action_words,ya xko'on — ko'on — ko',ya xko'on — ko'on — ko',produces,word,descend,descend
+item_209,action_words,ya jk'ux — jk'ux — k'ux,ya jk'ux — jk'ux — k'ux,produces,word,eat crunchy,eat
+item_210,action_words,ya jkoltay — jkoltay — kolta,ya jkoltay — jkoltay — kolta,produces,word,help,help
+item_211,action_words,ya jkuch — jkuch — kuch,ya jkuch — jkuch — kuch,produces,word,carry/hold on back/headstrap,carry
+item_212,action_words,ya kuch' — kuch' — uch',ya kuch' — kuch' — uch',produces,word,drink (action),drink (action)
+item_213,action_words,ya jkus — jkus — kus,ya jkus — jkus — kus,produces,word,wipe,wipe
+item_214,action_words,ya jlap — jlap — lap,ya jlap — jlap — lap,produces,word,wear/put on,wear
+item_215,action_words,ya jle —jle — le,ya jle —jle — le,produces,word,look for/search,look for
+item_216,action_words,ya jlik — jlik — lik,ya jlik — jlik — lik,produces,word,lift and carry by handle/top,carry
+item_217,action_words,ya jlo' — jlo' — lo',ya jlo' — jlo' — lo',produces,word,eat soft,eat
+item_218,action_words,ya jlok' — jlok' — lok',ya jlok' — jlok' — lok',produces,word,leave/exit/take off/get off/take out/get out/photograph,go out
+item_219,action_words,ya jman — jman — man,ya jman — jman — man,produces,word,buy,buy
+item_220,action_words,ya jmil — jmil — mil,ya jmil — jmil — mil,produces,word,kill,NA
+item_221,action_words,ya xmo'on — mo'on — mo',ya xmo'on — mo'on — mo',produces,word,climb/ascend,climb
+item_222,action_words,ya jmulan — jmulan — mulan,ya jmulan — jmulan — mulan,produces,word,like,like
+item_223,action_words,ya jna' — jna' — na',ya jna' — jna' — na',produces,word,know/remember/miss,know
+item_224,action_words,ya jnuj — jnuj — nuj,ya jnuj — jnuj — nuj,produces,word,invert/make upside-down,NA
+item_225,action_words,ya x'ochon — ochon — och,ya x'ochon — ochon — och,produces,word,enter/put in,enter
+item_226,action_words,ya x'ok'on — ok'on — ok',ya x'ok'on — ok'on — ok',produces,word,cry,cry
+item_227,action_words,ya jpas — jpas — pas,ya jpas — jpas — pas,produces,word,do/make,do
+item_228,action_words,ya jpet — jpet — pet,ya jpet — jpet — pet,produces,word,carry/hold in arms,carry
+item_229,action_words,ya jpoch' — jpoch' — poch',ya jpoch' — jpoch' — poch',produces,word,peel (action),peel
+item_230,action_words,ya jsap — jsap — sap,ya jsap — jsap — sap,produces,word,wash,wash
+item_231,action_words,ya jset' — jset' — set',ya jset' — jset' — set',produces,word,cut soft,cut
+item_232,action_words,ya sujton — sujton — sujt,ya sujton — sujton — sujt,produces,word,return/turn around,return
+item_233,action_words,ya xtajinon — tajinon — tajin,ya xtajinon — tajinon — tajin,produces,word,play,play
+item_234,action_words,ya xtalon — talon — tal,ya xtalon — talon — tal,produces,word,come,come
+item_235,action_words,ya jti' — jti' — ti',ya jti' — jti' — ti',produces,word,eat meat/bite,eat
+item_236,action_words,ya jtij — jtij — tij,ya jtij — jtij — tij,produces,word,drive/ride/roll,drive
+item_237,action_words,ya jtoch — jtoch — toch,ya jtoch — jtoch — toch,produces,word,detach/break off,detach
+item_238,action_words,ya jtop' — jtop' — top',ya jtop' — jtop' — top',produces,word,break brittle,break
+item_239,action_words,ya jtsak — jtsak — tsak,ya jtsak — jtsak — tsak,produces,word,take/grasp/get/hold,take
+item_240,action_words,ya jtuy — jtuy — tuy,ya jtuy — jtuy — tuy,produces,word,cut meat/tree,chop
+item_241,action_words,ya xwayon — wayon — way,ya xwayon — wayon — way,produces,word,sleep,sleep
+item_242,action_words,ya jwe' — jwe' — we',ya jwe' — jwe' — we',produces,word,eat tortilla/bread,eat
+item_243,time_words,cha'wej,cha'wej,produces,word,day after tomorrow,NA
+item_244,time_words,ajk'ubal,ajk'ubal,produces,word,night,night
+item_245,time_words,k'aal,k'aal,produces,word,sun/day,sun
+item_246,time_words,pajel,pajel,produces,word,tomorrow,tomorrow
+item_247,time_words,sab,sab,produces,word,early,early
+item_248,time_words,woje,woje,produces,word,yesterday,yesterday
+item_249,time_words,ya'tik,ya'tik,produces,word,soon/today/now,soon
+item_250,descriptive_words,ajch',ajch',produces,word,wet (description),wet (description)
+item_251,descriptive_words,bol,bol,produces,word,stupid,stupid
+item_252,descriptive_words,chopol,chopol,produces,word,bad/dangerous,bad
+item_253,descriptive_words,ijk',ijk',produces,word,black,black
+item_254,descriptive_words,jujp'en,jujp'en,produces,word,fat,fat
+item_255,descriptive_words,k'ixin,k'ixin,produces,word,warm,warm
+item_256,descriptive_words,kom,kom,produces,word,short,short
+item_257,descriptive_words,k'ajk',k'ajk',produces,word,fire/hot (temperature),fire
+item_258,descriptive_words,lek,lek,produces,word,good,good
+item_259,descriptive_words,muk',muk',produces,word,big,big
+item_260,descriptive_words,najt,najt,produces,word,long,long
+item_261,descriptive_words,pukuj,pukuj,produces,word,malevolent/devil,NA
+item_262,descriptive_words,sak,sak,produces,word,white,white
+item_263,descriptive_words,sik,sik,produces,word,cold,cold
+item_264,descriptive_words,t'ujbil,t'ujbil,produces,word,pretty/beautiful,pretty
+item_265,descriptive_words,tutin,tutin,produces,word,tiny,tiny
+item_266,descriptive_words,tsaj,tsaj,produces,word,red,red
+item_267,descriptive_words,wokol,wokol,produces,word,difficult,difficult
+item_268,descriptive_words,yax,yax,produces,word,green,green
+item_269,pronouns,ja' ini — ini,ja' ini — ini,produces,word,this here,this
+item_270,pronouns,ja' - EL/ELLA,ja' - EL/ELLA,produces,word,this,this
+item_271,pronouns,ja' ine — ine,ja' ine — ine,produces,word,this there,this
+item_272,pronouns,ja' mene,ja' mene,produces,word,that,that
+item_273,pronouns,ja'at,ja'at,produces,word,2SG,2SG
+item_274,pronouns,ja'ex,ja'ex,produces,word,2PL,2PL
+item_275,pronouns,ja'ik,ja'ik,produces,word,3PL,3PL
+item_276,pronouns,jo'on,jo'on,produces,word,1SG,1SG
+item_277,pronouns,ku'un,ku'un,produces,word,1SG.POSS,1SG.POSS
+item_278,pronouns,a'wu'un,a'wu'un,produces,word,2SG.POSS,2SG.POSS
+item_279,pronouns,yu'un,yu'un,produces,word,3SG.POSS,3SG.POSS
+item_280,pronouns,sok,sok,produces,word,and,and
+item_281,question_words,banti,banti,produces,word,where (question),where (question)
+item_282,question_words,bi ora,bi ora,produces,word,when (question),when (question)
+item_283,question_words,bi yu'un,bi yu'un,produces,word,why,why
+item_284,question_words,binti,binti,produces,word,what,what
+item_285,question_words,bistuk,bistuk,produces,word,why,why
+item_286,question_words,bit'il,bit'il,produces,word,how,how
+item_287,question_words,mach'a,mach'a,produces,word,who,who
+item_288,locations,ajk'ol,ajk'ol,produces,word,uphill,NA
+item_289,locations,alan,alan,produces,word,downhill,NA
+item_290,locations,jelawel,jelawel,produces,word,sideways/across,across
+item_291,locations,li'i / li' ini,li'i / li' ini,produces,word,here,here
+item_292,locations,lumine,lumine,produces,word,yonder,there
+item_293,locations,moel,moel,produces,word,upward,up
+item_294,locations,koel,koel,produces,word,downward,down
+item_295,locations,ta jejch,ta jejch,produces,word,other side/beside,beside
+item_296,locations,ta kajal,ta kajal,produces,word,uphill,NA
+item_297,locations,ta sba,ta sba,produces,word,atop,on top of
+item_298,locations,ta xujk,ta xujk,produces,word,beside,beside
+item_299,locations,ta yajk'ol,ta yajk'ol,produces,word,above/uphill of,above
+item_300,locations,ta yanil,ta yanil,produces,word,underneath/below/downhill,under
+item_301,locations,ta yolil,ta yolil,produces,word,between,between
+item_302,locations,ta yutil,ta yutil,produces,word,inside,inside
+item_303,locations,tey,tey,produces,word,there,there
+item_304,quantifiers,bayel,bayel,produces,word,a lot/many,a lot
+item_305,quantifiers,ma'yuk,ma'yuk,produces,word,none,none
+item_306,quantifiers,spisil,spisil,produces,word,all,all
+item_307,quantifiers,teb,teb,produces,word,a little/few,a little
+item_308,quantifiers,uts,uts,produces,word,a lot/many,a lot
+item_309,quantifiers,xan,xan,produces,word,more/again,more
+item_312,,señal con el dedo,señal con el dedo,yes; no,gestures,NA,NA
+item_313,,señal de no se con los hombros,señal de no se con los hombros,yes; no,gestures,NA,NA
+item_314,,señal de adios con la mano,señal de adios con la mano,yes; no,gestures,NA,NA
+item_315,,señal de decir SI con la cabeza,señal de decir SI con la cabeza,yes; no,gestures,NA,NA
+item_316,,señal de decir NO con la cabeza,señal de decir NO con la cabeza,yes; no,gestures,NA,NA
+item_317,,señal de decir NO con el dedo,señal de decir NO con el dedo,yes; no,gestures,NA,NA
+item_318,,aplaudir,aplaudir,yes; no,gestures,NA,NA
+item_319,,pisar,pisar,yes; no,gestures,NA,NA
+item_320,,cucú,cucú,yes; no,gestures,NA,NA

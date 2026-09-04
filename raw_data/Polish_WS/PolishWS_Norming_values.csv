@@ -1,0 +1,13 @@
+type,value,data_value
+sex,F,Female
+sex,M,Male
+word,produces,produces
+word,,
+starting_to_talk,yes,yes
+starting_to_talk,no,no
+starting_to_talk,,
+mom_ed,Primary,Primary
+mom_ed,Secondary,Secondary
+mom_ed,Some College,Vocational
+mom_ed,College,Higher
+mom_ed,,

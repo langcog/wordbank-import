@@ -1,0 +1,554 @@
+itemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,"1. Svarar, t‡ navni_ ‡ barninum ver_ur sagt (t.d. vi_ at venda s¾r og hyggja at t’ sum r—par)",NA,i_1_1,first_signs,yes; no,"Responds when the child's name is said (e.g., by turning and looking at the caller)",
+item_2,"2. Reagerar upp ‡ ""nei, nei"" (vi_ at ste_ga ’ t’, hann/hon ger, ’ minsta lagi_ eina l¿tu)",NA,i_1_2,first_signs,yes; no,"Reacts to ""no, no"" (by stopping what he/she is doing for at least a moment)",
+item_3,"3. Reagerar upp ‡ ""har er mamma/babba"" vi_ at hyggja/leita eftir teimum",NA,i_1_3,first_signs,yes; no,"Reacts to ""there's mom/dad"" by looking for them",
+item_4,Ansa eftir,NA,i_2_1,phrases,understands,Take care of,
+item_5,Dugir tœ at klappa?,NA,i_2_2,phrases,understands,Can you clap?,
+item_6,Ert tœ m—_/ur?,NA,i_2_3,phrases,understands,Are you tired?,
+item_7,Ert tœ svong/svangur?,NA,i_2_4,phrases,understands,Are you hungry?,
+item_8,Far eftir X (t.d. koppinum),NA,i_2_5,phrases,understands,Go for the X (e.g. the cup),
+item_9,Gev mammu ta_,NA,i_2_6,phrases,understands,Give it to mom,
+item_10,Gev m¾r eitt klemm,NA,i_2_7,phrases,understands,Give me a hug,
+item_11,Gev m¾r ein muss,NA,i_2_8,phrases,understands,Give me a kiss,
+item_12,Hatta m‡st tœ ikki,NA,i_2_9,phrases,understands,You mustn't do that,
+item_13,Hygg her,NA,i_2_10,phrases,understands,Watch here,
+item_14,Ikki gera so,NA,i_2_11,phrases,understands,Don't do so,
+item_15,Ikki nema,NA,i_2_12,phrases,understands,Don't touch,
+item_16,Kasta b—ltin,NA,i_2_13,phrases,understands,Throw the ball,
+item_17,Kom her,NA,i_2_14,phrases,understands,Come here,
+item_18,Koyr œr munninum,NA,i_2_15,phrases,understands,Run out of your mouth,
+item_19,Lat munnin upp,NA,i_2_16,phrases,understands,Open your mouth,
+item_20,Mamma/babba er komin heim,NA,i_2_17,phrases,understands,Mom/Dad is home,
+item_21,Nœ fara vit,NA,i_2_18,phrases,understands,Now we go,
+item_22,Nœ fara vit at sova,NA,i_2_19,phrases,understands,Now we're going to sleep,
+item_23,R¿sk genta/drongur,NA,i_2_20,phrases,understands,Good girl/boy,
+item_24,Set teg ni_ur,NA,i_2_21,phrases,understands,Sit down,
+item_25,Skulu vit fara tœr?,NA,i_2_22,phrases,understands,Shall we go for a walk?,
+item_26,Ste_ga,NA,i_2_23,phrases,understands,Stop,
+item_27,Stand still/ur,NA,i_2_24,phrases,understands,Stand still,
+item_28,Upp og stand,NA,i_2_25,phrases,understands,Up and Stand,
+item_29,Ver fri_arlig/ur,NA,i_2_26,phrases,understands,Be quiet,
+item_30,Vil tœ hava meira?,NA,i_2_27,phrases,understands,Want more?,
+item_31,Vit fara at skifta bl¾u,NA,i_2_28,phrases,understands,We're going to change the nappy,
+item_32,"1. N¿kur b¿rn eru sum pappageykar og herma eftir t’ sum tey jœst hava hoyrt (eisini n_ggj or_, sum tey eru vi_ at l¾ra ella partar av setningum t.d. endurtaka ""arbei_is nœ"" aftan‡ at mamman hevur sagt ""mamma",NA,i_3_1,starting_to_talk,never; sometimes; often,"Some children are like parrots and imitate what they have just heard (including new words they are learning or parts of sentences e.g. repeating ""work now"" after the mother has said ""mother",
+item_33,"2. Summum b¿rnum d‡mar at nevna og seta or_ ‡ ymiskt, sum um tey eru stolt av at duga or_ini og vilja v’sa ta_. Hvussu ofta nevnir barni_ t’tt ymiskt ta_ s¾r?",NA,i_3_2,starting_to_talk,never; sometimes; often,"Some children like to name and put words on things, as if they are proud of knowing the words and want to show it. How often does your child mention different things?",
+item_34,abbaba (abbabeiggi),NA,i_4_1,baby_words,understands; produces,granduncle (grandfather's brother),
+item_35,abbadidd (abbasystir),NA,i_4_2,baby_words,understands; produces,grandaunt (grandfather's sister),
+item_36,adda (œt at ganga),NA,i_4_3,baby_words,understands; produces,out for a walk,
+item_37,ba (beiggi),NA,i_4_4,baby_words,understands; produces,brother/boy,
+item_38,babu (bilur),NA,i_4_5,baby_words,understands; produces,siren,
+item_39,bangari (at skj—ta vi_),NA,i_4_6,baby_words,understands; produces,gun,
+item_40,bibbar (fuglar),NA,i_4_7,baby_words,understands; produces,birds,
+item_41,bibbur (t¾r),NA,i_4_8,baby_words,understands; produces,toes,
+item_42,dada (bei ella œt),NA,i_4_9,baby_words,understands; produces,bye or going out,
+item_43,didda,NA,i_4_10,baby_words,understands; produces,sister/girl,
+item_44,gagga (dunna),NA,i_4_11,baby_words,understands; produces,duck,
+item_45,geggar (sk—gvar),NA,i_4_12,baby_words,understands; produces,shoes,
+item_46,hestamua,NA,i_4_13,baby_words,understands; produces,horse,
+item_47,k‡llabussi,NA,i_4_14,baby_words,understands; produces,calf,
+item_48,maua (ketta),NA,i_4_15,baby_words,understands; produces,cat,
+item_49,lulla,NA,i_4_16,baby_words,understands; produces,sleep,
+item_50,mamba (mammubeiggi),NA,i_4_17,baby_words,understands; produces,maternal uncle,
+item_51,mua,NA,i_4_18,baby_words,understands; produces,cow,
+item_52,m¾,NA,i_4_19,baby_words,understands; produces,sheep,
+item_53,nalli (nalvi),NA,i_4_20,baby_words,understands; produces,navel,
+item_54,namma (eta),NA,i_4_21,baby_words,understands; produces,eat,
+item_55,nina,NA,i_4_22,baby_words,understands; produces,sit,
+item_56,omba (ommubeiggi),NA,i_4_23,baby_words,understands; produces,granduncle (grandmother's brother),
+item_57,ommudidd (ommusysti),NA,i_4_24,baby_words,understands; produces,grandaunt (grandmother's sister),
+item_58,putta,NA,i_4_25,baby_words,understands; produces,tuck (to sleep),
+item_59,ubbisey/ubba (upp),NA,i_4_26,baby_words,understands; produces,up,
+item_60,voffur (hundur),NA,i_4_27,baby_words,understands; produces,dog,
+item_61,avv!,sounds,i_5_1,word,understands; produces,ouch,ouch
+item_62,‡h ‡h,sounds,i_5_2,word,understands; produces,oh oh,uh oh
+item_63,brmm (bil-lj—_),sounds,i_5_3,word,understands; produces,vroom vroom (car sound),vroom
+item_64,tuff tuff (tok-lj—_),sounds,i_5_4,word,understands; produces,choo choo (train sound),choo choo
+item_65,gvagg gvagg,sounds,i_5_5,word,understands; produces,quack quack,quack quack
+item_66,grr,sounds,i_5_6,word,understands; produces,grr,grrr
+item_67,kykkeliky,sounds,i_5_7,word,understands; produces,cockledoodledoo,cockadoodledoo
+item_68,mm mm,sounds,i_5_8,word,understands; produces,yum,yum yum
+item_69,mjav,sounds,i_5_9,word,understands; produces,meow,meow
+item_70,muh,sounds,i_5_10,word,understands; produces,moo,moo
+item_71,m¾ m¾,sounds,i_5_11,word,understands; produces,baa baa,baa baa
+item_72,voff voff,sounds,i_5_12,word,understands; produces,woof woof,woof woof
+item_73,apa,animals,i_6_1,word,understands; produces,monkey,monkey
+item_74,bamsa,animals,i_6_2,word,understands; produces,teddy bear,teddybear
+item_75,bj¿rn,animals,i_6_3,word,understands; produces,bear,bear
+item_76,dj—r,animals,i_6_4,word,understands; produces,animal,animal
+item_77,dunna,animals,i_6_5,word,understands; produces,drum,drum
+item_78,fiskur,animals,i_6_6,word,understands; produces,fish (animal),fish (animal)
+item_79,f’lur,animals,i_6_7,word,understands; produces,elephant,elephant
+item_80,fluga,animals,i_6_8,word,understands; produces,fly (animal),fly (animal)
+item_81,froskur,animals,i_6_9,word,understands; produces,frog,frog
+item_82,fuglur,animals,i_6_10,word,understands; produces,bird,bird
+item_83,g‡s,animals,i_6_11,word,understands; produces,goose,goose
+item_84,g‡sarungi,animals,i_6_12,word,understands; produces,gosling,
+item_85,giraffur,animals,i_6_13,word,understands; produces,giraffe,giraffe
+item_86,gr’sur,animals,i_6_14,word,understands; produces,piglets,
+item_87,hestur,animals,i_6_15,word,understands; produces,horse,horse
+item_88,(hunda)hv¿lpur,animals,i_6_16,word,understands; produces,puppy,puppy
+item_89,hundur,animals,i_6_17,word,understands; produces,dog,dog
+item_90,hvalur,animals,i_6_18,word,understands; produces,whale,whale
+item_91,h¿snarungi,animals,i_6_19,word,understands; produces,chick,chick
+item_92,’korn,animals,i_6_20,word,understands; produces,squirrel,squirrel
+item_93,kanin,animals,i_6_21,word,understands; produces,rabbit,rabbit
+item_94,ketta,animals,i_6_22,word,understands; produces,cat,cat
+item_95,kettlingur,animals,i_6_23,word,understands; produces,kitten,kitten
+item_96,krabbi,animals,i_6_24,word,understands; produces,crab,crab
+item_97,kœgv,animals,i_6_25,word,understands; produces,cow,cow
+item_98,lamb,animals,i_6_26,word,understands; produces,lamb,lamb
+item_99,likka,animals,i_6_27,word,understands; produces,gull,seagull
+item_100,lundi,animals,i_6_28,word,understands; produces,puffin,
+item_101,leyva,animals,i_6_29,word,understands; produces,lion,lion
+item_102,mœs,animals,i_6_30,word,understands; produces,mouse,mouse
+item_103,pingvin,animals,i_6_31,word,understands; produces,penguin,penguin
+item_104,pony(hestur),animals,i_6_32,word,understands; produces,pony,pony
+item_105,skjaldb¿ka,animals,i_6_33,word,understands; produces,turtle,turtle
+item_106,summarfuglur,animals,i_6_34,word,understands; produces,butterfly,butterfly
+item_107,sey_ur,animals,i_6_35,word,understands; produces,sheep,sheep
+item_108,tikari,animals,i_6_36,word,understands; produces,tiger,tiger
+item_109,tjaldur,animals,i_6_37,word,understands; produces,oystercatcher,
+item_110,ugla,animals,i_6_38,word,understands; produces,owl,owl
+item_111,vespa,animals,i_6_39,word,understands; produces,hornet,
+item_112,barnavognur,vehicles,i_7_1,word,understands; produces,stroller,stroller
+item_113,b‡tur,vehicles,i_7_2,word,understands; produces,boat,boat
+item_114,bilur,vehicles,i_7_3,word,understands; produces,car,car
+item_115,brandbilur,vehicles,i_7_4,word,understands; produces,fire engine,firetruck
+item_116,bussur,vehicles,i_7_5,word,understands; produces,bus,bus
+item_117,flogfar,vehicles,i_7_6,word,understands; produces,airplane,airplane
+item_118,lastbilur,vehicles,i_7_7,word,understands; produces,truck,truck
+item_119,motorsœkkla,vehicles,i_7_8,word,understands; produces,motorcycle,motorcycle
+item_120,sœkkla,vehicles,i_7_9,word,understands; produces,bicycle,bicycle
+item_121,tok,vehicles,i_7_10,word,understands; produces,train,train
+item_122,tyrla,vehicles,i_7_11,word,understands; produces,helicopter,helicopter
+item_123,ball—n,toys,i_8_1,word,understands; produces,balloon,balloon
+item_124,bl_antur,toys,i_8_2,word,understands; produces,pencil,pencil
+item_125,b—k,toys,i_8_3,word,understands; produces,book,book
+item_126,b—ltur,toys,i_8_4,word,understands; produces,ball,ball
+item_127,dukka,toys,i_8_5,word,understands; produces,doll,doll
+item_128,klossar,toys,i_8_6,word,understands; produces,clogs,
+item_129,lego,toys,i_8_7,word,understands; produces,lego,blocks
+item_130,leikutoy,toys,i_8_8,word,understands; produces,toy,toy (object)
+item_131,s‡publ¿_rur,toys,i_8_9,word,understands; produces,bubbles,bubbles
+item_132,appelsin,food_drink,i_9_1,word,understands; produces,orange,orange (food)
+item_133,banan,food_drink,i_9_2,word,understands; produces,banana,banana
+item_134,bollar,food_drink,i_9_3,word,understands; produces,cup,cup
+item_135,bomm,food_drink,i_9_4,word,understands; produces,candy,candy
+item_136,brey_,food_drink,i_9_5,word,understands; produces,bread,bread
+item_137,djœs,food_drink,i_9_6,word,understands; produces,juice,juice
+item_138,drekka,food_drink,i_9_7,word,understands; produces,drink (beverage),drink (beverage)
+item_139,egg,food_drink,i_9_8,word,understands; produces,egg,egg
+item_140,epli,food_drink,i_9_9,word,understands; produces,potato,potato
+item_141,ertrar,food_drink,i_9_10,word,understands; produces,peas,peas
+item_142,fiskur,food_drink,i_9_11,word,understands; produces,fish (food),fish (food)
+item_143,frikadellur,food_drink,i_9_12,word,understands; produces,meatball,meatball
+item_144,gular¿tur,food_drink,i_9_13,word,understands; produces,carrot,carrot
+item_145,havragreyt,food_drink,i_9_14,word,understands; produces,oatmeal,cereal
+item_146,h¿snarungi,food_drink,i_9_15,word,understands; produces,chicken,chicken
+item_147,kyllingur,food_drink,i_9_16,word,understands; produces,chicken,chicken
+item_148,’sur,food_drink,i_9_17,word,understands; produces,ice cream,ice cream
+item_149,jogurt,food_drink,i_9_18,word,understands; produces,yogurt,yogurt
+item_150,kaffi,food_drink,i_9_19,word,understands; produces,coffee,coffee
+item_151,keks,food_drink,i_9_20,word,understands; produces,cookie,cookie
+item_152,kj¿t,food_drink,i_9_21,word,understands; produces,meat,meat
+item_153,k¿ka,food_drink,i_9_22,word,understands; produces,cake,cake
+item_154,livurpostei,food_drink,i_9_23,word,understands; produces,pate,
+item_155,matur,food_drink,i_9_24,word,understands; produces,food,food
+item_156,mj—lk,food_drink,i_9_25,word,understands; produces,milk,milk
+item_157,ostur,food_drink,i_9_26,word,understands; produces,cheese,cheese
+item_158,pitsa,food_drink,i_9_27,word,understands; produces,pizza,pizza
+item_159,rosinur,food_drink,i_9_28,word,understands; produces,raisins,raisin
+item_160,sjokol‡ta,food_drink,i_9_29,word,understands; produces,chocolate,chocolate
+item_161,sm¿r,food_drink,i_9_30,word,understands; produces,butter,butter
+item_162,spagetti,food_drink,i_9_31,word,understands; produces,spaghetti,spaghetti
+item_163,sœrepli,food_drink,i_9_32,word,understands; produces,apple,apple
+item_164,vatn,food_drink,i_9_33,word,understands; produces,water (beverage),water (beverage)
+item_165,blusa,clothing,i_10_1,word,understands; produces,blouse,blouse
+item_166,bl¾a,clothing,i_10_2,word,understands; produces,diaper,diaper
+item_167,bodystock,clothing,i_10_3,word,understands; produces,onesie,onesie
+item_168,buksur,clothing,i_10_4,word,understands; produces,pants,pants
+item_169,hagesmekka,clothing,i_10_5,word,understands; produces,bib,bib
+item_170,h‡lsband,clothing,i_10_6,word,understands; produces,necklace,necklace
+item_171,hosur,clothing,i_10_7,word,understands; produces,pants,pants
+item_172,hœgva,clothing,i_10_8,word,understands; produces,beanie,
+item_173,jakki,clothing,i_10_9,word,understands; produces,jacket,jacket
+item_174,kj—li,clothing,i_10_10,word,understands; produces,dress,dress
+item_175,knappar,clothing,i_10_11,word,understands; produces,button,button
+item_176,l_nl‡s,clothing,i_10_12,word,understands; produces,zip,zipper
+item_177,n‡ttkl¾_ir,clothing,i_10_13,word,understands; produces,pajamas,pajamas
+item_178,regnkl¾_ir,clothing,i_10_14,word,understands; produces,raincoat,raincoat
+item_179,sk—gvar,clothing,i_10_15,word,understands; produces,shoe,shoe
+item_180,sokkabuksur,clothing,i_10_16,word,understands; produces,tights,tights
+item_181,sokkar,clothing,i_10_17,word,understands; produces,socks,sock
+item_182,stivlar,clothing,i_10_18,word,understands; produces,boots,boots
+item_183,troyggja,clothing,i_10_19,word,understands; produces,sweater,sweater
+item_184,undirbuksur,clothing,i_10_20,word,understands; produces,underpants,underpants
+item_185,v¿ttir,clothing,i_10_21,word,understands; produces,mittens,mitten
+item_186,andlit,body_parts,i_11_1,word,understands; produces,face,face
+item_187,armur,body_parts,i_11_2,word,understands; produces,arm,arm
+item_188,bœkur,body_parts,i_11_3,word,understands; produces,body,body
+item_189,bein,body_parts,i_11_4,word,understands; produces,leg,leg
+item_190,fingur,body_parts,i_11_5,word,understands; produces,finger,finger
+item_191,f—tur,body_parts,i_11_6,word,understands; produces,foot,foot
+item_192,h‡r,body_parts,i_11_7,word,understands; produces,hair,hair
+item_193,hond,body_parts,i_11_8,word,understands; produces,hand,hand
+item_194,h¿vd,body_parts,i_11_9,word,understands; produces,head,head
+item_195,kj‡lki,body_parts,i_11_10,word,understands; produces,cheek,cheek
+item_196,kn¾,body_parts,i_11_11,word,understands; produces,knee,knee
+item_197,munnur,body_parts,i_11_12,word,understands; produces,mouth,mouth
+item_198,nalvi,body_parts,i_11_13,word,understands; produces,navel,belly button
+item_199,n¿s,body_parts,i_11_14,word,understands; produces,nose,nose
+item_200,pissikona*,body_parts,i_11_15,word,understands; produces,vagina,vagina
+item_201,pissilingur*,body_parts,i_11_16,word,understands; produces,penis,penis
+item_202,rumpa,body_parts,i_11_17,word,understands; produces,butt,butt
+item_203,s‡r,body_parts,i_11_18,word,understands; produces,wound,
+item_204,t‡,body_parts,i_11_19,word,understands; produces,toe,toe
+item_205,tenn,body_parts,i_11_20,word,understands; produces,tooth,tooth
+item_206,tunga,body_parts,i_11_21,word,understands; produces,tongue,tongue
+item_207,eyga,body_parts,i_11_22,word,understands; produces,eye,eye
+item_208,oyra,body_parts,i_11_23,word,understands; produces,ear,ear
+item_209,brillur,household,i_12_1,word,understands; produces,glasses,glasses
+item_210,bust,household,i_12_2,word,understands; produces,brush (object),brush (object)
+item_211,d_na,household,i_12_3,word,understands; produces,duvet,blanket
+item_212,fl¿ska,household,i_12_4,word,understands; produces,bottle,bottle
+item_213,gaffil,household,i_12_5,word,understands; produces,fork,fork
+item_214,glas,household,i_12_6,word,understands; produces,glass,glass
+item_215,hamari,household,i_12_7,word,understands; produces,hammer,hammer
+item_216,handkl¾_i,household,i_12_8,word,understands; produces,towel,towel
+item_217,I-pad,household,i_12_9,word,understands; produces,tablet,
+item_218,kambur,household,i_12_10,word,understands; produces,comb (object),comb (object)
+item_219,kassi,household,i_12_11,word,understands; produces,box,box
+item_220,klokka,household,i_12_12,word,understands; produces,clock,clock
+item_221,koddi,household,i_12_13,word,understands; produces,pillow,pillow
+item_222,koppur,household,i_12_14,word,understands; produces,cup,cup
+item_223,kr—nur,household,i_12_15,word,understands; produces,dollar,money
+item_224,kustur,household,i_12_16,word,understands; produces,broom,broom
+item_225,lampa,household,i_12_17,word,understands; produces,lamp,lamp
+item_226,lj—s,household,i_12_18,word,understands; produces,light,light
+item_227,lyklar,household,i_12_19,word,understands; produces,keys,keys
+item_228,medisin,household,i_12_20,word,understands; produces,medicine,medicine
+item_229,mynd,household,i_12_21,word,understands; produces,picture,picture
+item_230,papp’r,household,i_12_22,word,understands; produces,paper,paper
+item_231,pengar,household,i_12_23,word,understands; produces,money,money
+item_232,pungur,household,i_12_24,word,understands; produces,purse,purse
+item_233,pœta,household,i_12_25,word,understands; produces,cushion,cushion
+item_234,rusk,household,i_12_26,word,understands; produces,trash,trash
+item_235,saksur,household,i_12_27,word,understands; produces,scissors,scissors
+item_236,s‡pa,household,i_12_28,word,understands; produces,soap,soap
+item_237,sk‡l,household,i_12_29,word,understands; produces,bowl,bowl
+item_238,skei_,household,i_12_30,word,understands; produces,spoon,spoon
+item_239,skrell,household,i_12_31,word,understands; produces,trash,trash
+item_240,st¿vsœgvari,household,i_12_32,word,understands; produces,vacuum,vacuum
+item_241,sutta,household,i_12_33,word,understands; produces,pacifier,pacifier
+item_242,tallerkur,household,i_12_34,word,understands; produces,plate,plate
+item_243,tannbust,household,i_12_35,word,understands; produces,toothbrush,toothbrush
+item_244,telefon,household,i_12_36,word,understands; produces,phone,telephone
+item_245,telda,household,i_12_37,word,understands; produces,computer,computer
+item_246,teppi,household,i_12_38,word,understands; produces,carpet,carpet
+item_247,ur,household,i_12_39,word,understands; produces,watch,watch (object)
+item_248,œtvarp,household,i_12_40,word,understands; produces,radio,radio
+item_249,ba_ikar,furniture_room,i_13_1,word,understands; produces,bathtub,bathtub
+item_250,barnasong,furniture_room,i_13_2,word,understands; produces,crib,crib
+item_251,barnast—lur,furniture_room,i_13_3,word,understands; produces,high chair,high chair
+item_252,bor_,furniture_room,i_13_4,word,understands; produces,table,table
+item_253,garasja,furniture_room,i_13_5,word,understands; produces,garage,garage
+item_254,hur_,furniture_room,i_13_6,word,understands; produces,door,door
+item_255,kamar,furniture_room,i_13_7,word,understands; produces,bedroom,bedroom
+item_256,komf_rur,furniture_room,i_13_8,word,understands; produces,stove,stove
+item_257,k¿kur,furniture_room,i_13_9,word,understands; produces,kitchen,kitchen
+item_258,k¿lisk‡p,furniture_room,i_13_10,word,understands; produces,refrigerator,refrigerator
+item_259,ovnur,furniture_room,i_13_11,word,understands; produces,oven,oven
+item_260,pottur,furniture_room,i_13_12,word,understands; produces,potty,potty
+item_261,ruggust—lur,furniture_room,i_13_13,word,understands; produces,rocking chair,rocking chair
+item_262,sj—nvarp,furniture_room,i_13_14,word,understands; produces,television,TV
+item_263,skuffa,furniture_room,i_13_15,word,understands; produces,drawer,drawer
+item_264,sofa,furniture_room,i_13_16,word,understands; produces,sofa,couch
+item_265,song,furniture_room,i_13_17,word,understands; produces,bed,bed
+item_266,stova,furniture_room,i_13_18,word,understands; produces,living room,living room
+item_267,st—lur,furniture_room,i_13_19,word,understands; produces,chair,chair
+item_268,trappa,furniture_room,i_13_20,word,understands; produces,stairs,stairs
+item_269,vask,furniture_room,i_13_21,word,understands; produces,sink,sink
+item_270,vindeyga,furniture_room,i_13_22,word,understands; produces,window,window
+item_271,wc,furniture_room,i_13_23,word,understands; produces,toilet,toilet
+item_272,blomstur,outside,i_14_1,word,understands; produces,flower,flower
+item_273,himmal,outside,i_14_2,word,understands; produces,sky,sky
+item_274,kavi,outside,i_14_3,word,understands; produces,snow,snow
+item_275,m‡ni,outside,i_14_4,word,understands; produces,moon,moon
+item_276,regn,outside,i_14_5,word,understands; produces,rain,rain
+item_277,russjibani,outside,i_14_6,word,understands; produces,rollercoaster,
+item_278,reiggja,outside,i_14_7,word,understands; produces,swing (object),swing (object)
+item_279,sleta,outside,i_14_8,word,understands; produces,sled,sled
+item_280,s—l,outside,i_14_9,word,understands; produces,sun,sun
+item_281,spaki,outside,i_14_10,word,understands; produces,shovel,shovel
+item_282,stj¿rna,outside,i_14_11,word,understands; produces,stars,star
+item_283,steinur,outside,i_14_12,word,understands; produces,stone,stone
+item_284,tr¾,outside,i_14_13,word,understands; produces,tree,tree
+item_285,arbei_is,places,i_15_1,word,understands; produces,work,work (place)
+item_286,‡ sandin,places,i_15_2,word,understands; produces,beach,beach
+item_287,biltœr,places,i_15_3,word,understands; produces,car ride,
+item_288,dj—ragar_,places,i_15_4,word,understands; produces,zoo,zoo
+item_289,f¿_ingardag,places,i_15_5,word,understands; produces,birthday,birthday
+item_290,handil,places,i_15_6,word,understands; produces,store,store
+item_291,havi,places,i_15_7,word,understands; produces,garden,garden
+item_292,heim,places,i_15_8,word,understands; produces,home,home
+item_293,keypa,places,i_15_9,word,understands; produces,shopping,shopping
+item_294,hœs,places,i_15_10,word,understands; produces,house,house
+item_295,kirkja*,places,i_15_11,word,understands; produces,church*,church
+item_296,skœla,places,i_15_12,word,understands; produces,school,school
+item_297,svimjihyl,places,i_15_13,word,understands; produces,pool,pool
+item_298,œt at sp¾la,places,i_15_14,word,understands; produces,out to play,
+item_299,vi_arlundina,places,i_15_15,word,understands; produces,park,park
+item_300,v¿ggustovu/dagr¿kt,places,i_15_16,word,understands; produces,nursery/daycare,nursery
+item_301,abbi,people,i_16_1,word,understands; produces,grandpa,grandpa
+item_302,babba,people,i_16_2,word,understands; produces,daddy,daddy
+item_303,baby,people,i_16_3,word,understands; produces,baby,baby
+item_304,barn,people,i_16_4,word,understands; produces,child,child
+item_305,beiggi,people,i_16_5,word,understands; produces,brother,brother
+item_306,drongur,people,i_16_6,word,understands; produces,boy,boy
+item_307,fastir,people,i_16_7,word,understands; produces,paternal aunt,aunt
+item_308,f—lk,people,i_16_8,word,understands; produces,people,people
+item_309,gubbi,people,i_16_9,word,understands; produces,godfather,godfather
+item_310,gumma,people,i_16_10,word,understands; produces,godmother,godmother
+item_311,kona,people,i_16_11,word,understands; produces,woman/wife,woman
+item_312,langabbi,people,i_16_12,word,understands; produces,great-grandfather,
+item_313,langomma,people,i_16_13,word,understands; produces,great-grandmother,
+item_314,ma_ur,people,i_16_14,word,understands; produces,man/husband,man
+item_315,mamma,people,i_16_15,word,understands; produces,mummy,mommy
+item_316,mammubeiggi,people,i_16_16,word,understands; produces,maternal uncle,uncle
+item_317,mostir,people,i_16_17,word,understands; produces,maternal aunt,aunt
+item_318,navn ‡ pedagogi/dagr¿ktara,people,i_16_18,word,understands; produces,name of teacher/daycare provider,teacher's name
+item_319,omma,people,i_16_19,word,understands; produces,grandma,grandma
+item_320,p‡pabeiggi,people,i_16_20,word,understands; produces,paternal uncle,uncle
+item_321,s’tt egna navn,people,i_16_21,word,understands; produces,child's own name,child's own name
+item_322,systir,people,i_16_22,word,understands; produces,sister,sister
+item_323,ba_,games_routines,i_17_1,word,understands; produces,bath (routine),take a bath
+item_324,b’_a,games_routines,i_17_2,word,understands; produces,wait,wait
+item_325,bei,games_routines,i_17_3,word,understands; produces,bye,bye
+item_326,d¿gur_i,games_routines,i_17_4,word,understands; produces,lunch,lunch
+item_327,g—_a n‡tt,games_routines,i_17_5,word,understands; produces,good night,good night
+item_328,hall—,games_routines,i_17_6,word,understands; produces,hello,hello
+item_329,hey,games_routines,i_17_7,word,understands; produces,hi,hi
+item_330,ja,games_routines,i_17_8,word,understands; produces,yes,yes
+item_331,sova (’ vogn/inni),games_routines,i_17_9,word,understands; produces,sleep (in the stroller/inside),
+item_332,mala hendan veg,games_routines,i_17_10,word,understands; produces,mala hendan veg (children's song),
+item_333,morgunmat,games_routines,i_17_11,word,understands; produces,breakfast,breakfast
+item_334,n‡ttur_i,games_routines,i_17_12,word,understands; produces,dinner,dinner
+item_335,nei,games_routines,i_17_13,word,understands; produces,no,no
+item_336,"r’_i, r’_i ranka",games_routines,i_17_14,word,understands; produces,"ride, ride ranka (children's song)",
+item_337,shhh/hœssj,games_routines,i_17_15,word,understands; produces,shhh/hush,shh
+item_338,so st—r/ur,games_routines,i_17_16,word,understands; produces,so big,so big
+item_339,sp¾la b¿,games_routines,i_17_17,word,understands; produces,peekaboo,peekaboo
+item_340,takk,games_routines,i_17_18,word,understands; produces,thanks,thank you
+item_341,t’mi ikki,games_routines,i_17_19,word,understands; produces,don't want,don't want
+item_342,trilla,games_routines,i_17_20,word,understands; produces,push the stroller,
+item_343,b’ta,action_words,i_18_1,word,understands; produces,bite,bite
+item_344,bl‡sa,action_words,i_18_2,word,understands; produces,blow,blow
+item_345,br—ta,action_words,i_18_3,word,understands; produces,break (action),break
+item_346,dansa,action_words,i_18_4,word,understands; produces,dance (action),dance
+item_347,detta,action_words,i_18_5,word,understands; produces,fall,fall
+item_348,drekka,action_words,i_18_6,word,understands; produces,drink (action),drink (action)
+item_349,elska,action_words,i_18_7,word,understands; produces,love,love
+item_350,eta,action_words,i_18_8,word,understands; produces,eat,eat
+item_351,fara,action_words,i_18_9,word,understands; produces,go,go
+item_352,f‡a,action_words,i_18_10,word,understands; produces,get,get
+item_353,ganga,action_words,i_18_11,word,understands; produces,walk,walk
+item_354,gera,action_words,i_18_12,word,understands; produces,do,do
+item_355,geva,action_words,i_18_13,word,understands; produces,give,give
+item_356,geva at eta,action_words,i_18_14,word,understands; produces,give to eat,feed
+item_357,gr‡ta,action_words,i_18_15,word,understands; produces,cry,cry
+item_358,h‡la,action_words,i_18_16,word,understands; produces,pull,pull
+item_359,hj‡lpa,action_words,i_18_17,word,understands; produces,help,help
+item_360,hoppa,action_words,i_18_18,word,understands; produces,jump,jump
+item_361,hyggja,action_words,i_18_19,word,understands; produces,look,look
+item_362,kasta,action_words,i_18_20,word,understands; produces,throw,throw
+item_363,kitla,action_words,i_18_21,word,understands; produces,tickle,tickle
+item_364,klandrast,action_words,i_18_22,word,understands; produces,fight,fight
+item_365,klappa,action_words,i_18_23,word,understands; produces,clap,clap
+item_366,klemma,action_words,i_18_24,word,understands; produces,hug,hug
+item_367,koyra,action_words,i_18_25,word,understands; produces,drive,drive
+item_368,lata aftur,action_words,i_18_26,word,understands; produces,close (action),close
+item_369,lata upp,action_words,i_18_27,word,understands; produces,open (action),open (action)
+item_370,lesa,action_words,i_18_28,word,understands; produces,read,read
+item_371,mussa,action_words,i_18_29,word,understands; produces,kiss,kiss
+item_372,nema,action_words,i_18_30,word,understands; produces,learn,learn
+item_373,renna,action_words,i_18_31,word,understands; produces,run,run
+item_374,r’_a,action_words,i_18_32,word,understands; produces,ride,ride
+item_375,reiggja,action_words,i_18_33,word,understands; produces,swing (action),swing (action)
+item_376,rudda,action_words,i_18_34,word,understands; produces,clean (action),clean (action)
+item_377,seta,action_words,i_18_35,word,understands; produces,put,put
+item_378,siga,action_words,i_18_36,word,understands; produces,say,say
+item_379,s’ggja,action_words,i_18_37,word,understands; produces,see,see
+item_380,skriva,action_words,i_18_38,word,understands; produces,write,write
+item_381,skumpa,action_words,i_18_39,word,understands; produces,push,push
+item_382,skunda s¾r,action_words,i_18_40,word,understands; produces,hurry up,hurry
+item_383,sl‡a,action_words,i_18_41,word,understands; produces,hit,hit
+item_384,sm’la,action_words,i_18_42,word,understands; produces,smile,smile
+item_385,sova,action_words,i_18_43,word,understands; produces,sleep,sleep
+item_386,sparka,action_words,i_18_44,word,understands; produces,kick,kick
+item_387,sp¾la,action_words,i_18_45,word,understands; produces,play,play
+item_388,ste_ga,action_words,i_18_46,word,understands; produces,stop,stop
+item_389,svimja,action_words,i_18_47,word,understands; produces,swim,swim
+item_390,syngja,action_words,i_18_48,word,understands; produces,sing,sing
+item_391,taka,action_words,i_18_49,word,understands; produces,take,take
+item_392,tekna,action_words,i_18_50,word,understands; produces,draw,draw
+item_393,turka,action_words,i_18_51,word,understands; produces,dry (action),dry (action)
+item_394,vaska,action_words,i_18_52,word,understands; produces,wash,wash
+item_395,v’sa,action_words,i_18_53,word,understands; produces,show,show
+item_396,bangin,descriptive_words,i_19_1,word,understands; produces,afraid,afraid
+item_397,bl‡tt,descriptive_words,i_19_2,word,understands; produces,blue,blue
+item_398,bleytt,descriptive_words,i_19_3,word,understands; produces,soft,soft
+item_399,bl’_/ur,descriptive_words,i_19_4,word,understands; produces,gentle,gentle
+item_400,broti_,descriptive_words,i_19_5,word,understands; produces,broken,broken
+item_401,b_tt/ur,descriptive_words,i_19_6,word,understands; produces,silly,silly
+item_402,cool,descriptive_words,i_19_7,word,understands; produces,cool,cool (description)
+item_403,fitt,descriptive_words,i_19_8,word,understands; produces,fit,fit
+item_404,f’nt,descriptive_words,i_19_9,word,understands; produces,fine,fine
+item_405,gamalt,descriptive_words,i_19_10,word,understands; produces,old,old
+item_406,gla_/ur,descriptive_words,i_19_11,word,understands; produces,happy,happy
+item_407,gott,descriptive_words,i_19_12,word,understands; produces,good,good
+item_408,hart,descriptive_words,i_19_13,word,understands; produces,hard,hard
+item_409,heitt,descriptive_words,i_19_14,word,understands; produces,hot,hot
+item_410,ill/ur,descriptive_words,i_19_15,word,understands; produces,angry,angry
+item_411,ilt,descriptive_words,i_19_16,word,understands; produces,pain,pain
+item_412,kalt,descriptive_words,i_19_17,word,understands; produces,cold,cold
+item_413,lin/ur,descriptive_words,i_19_18,word,understands; produces,soft,soft
+item_414,l’ti_,descriptive_words,i_19_19,word,understands; produces,little,little
+item_415,m—_/ur,descriptive_words,i_19_20,word,understands; produces,tired,tired
+item_416,myrkt,descriptive_words,i_19_21,word,understands; produces,dark,dark
+item_417,—lekkurt,descriptive_words,i_19_22,word,understands; produces,nasty,nasty
+item_418,pent,descriptive_words,i_19_23,word,understands; produces,nice,nice
+item_419,reint,descriptive_words,i_19_24,word,understands; produces,clean (description),clean (description)
+item_420,reytt,descriptive_words,i_19_25,word,understands; produces,red,red
+item_421,sjœk/ur,descriptive_words,i_19_26,word,understands; produces,ill,sick
+item_422,skiti_,descriptive_words,i_19_27,word,understands; produces,dirty,dirty
+item_423,skj—tt,descriptive_words,i_19_28,word,understands; produces,fast,fast
+item_424,st—rt,descriptive_words,i_19_29,word,understands; produces,big,big
+item_425,svong/svangur,descriptive_words,i_19_30,word,understands; produces,hungry,hungry
+item_426,s¿tt,descriptive_words,i_19_31,word,understands; produces,sweet,sweet
+item_427,t—mt,descriptive_words,i_19_32,word,understands; produces,empty,empty
+item_428,troytt/ur,descriptive_words,i_19_33,word,understands; produces,tired,tired
+item_429,turt,descriptive_words,i_19_34,word,understands; produces,dry (description),dry (description)
+item_430,tyst,descriptive_words,i_19_35,word,understands; produces,thirsty,thirsty
+item_431,v‡tt,descriptive_words,i_19_36,word,understands; produces,wet,wet
+item_432,vekk,descriptive_words,i_19_37,word,understands; produces,away/gone,gone
+item_433,dagur,time_words,i_20_1,word,understands; produces,day,day
+item_434,’ dag,time_words,i_20_2,word,understands; produces,today,today
+item_435,’ kv¿ld,time_words,i_20_3,word,understands; produces,tonight,tonight
+item_436,’ morgin,time_words,i_20_4,word,understands; produces,this morning,this morning
+item_437,morgun,time_words,i_20_5,word,understands; produces,morning,morning
+item_438,n‡tt,time_words,i_20_6,word,understands; produces,night,night
+item_439,nœ,time_words,i_20_7,word,understands; produces,now,now
+item_440,seinni,time_words,i_20_8,word,understands; produces,later,later
+item_441,um eina l¿tu,time_words,i_20_9,word,understands; produces,in a moment,soon
+item_442,eg,pronouns,i_21_1,word,understands; produces,I (nom),1SG
+item_443,handan,pronouns,i_21_2,word,understands; produces,that,that
+item_444,hann,pronouns,i_21_3,word,understands; produces,he (nom/acc),3SG
+item_445,hatta,pronouns,i_21_4,word,understands; produces,that,that
+item_446,hendan,pronouns,i_21_5,word,understands; produces,this,this
+item_447,hetta,pronouns,i_21_6,word,understands; produces,this,this
+item_448,hon,pronouns,i_21_7,word,understands; produces,she (nom),3SG
+item_449,meg/m¾r,pronouns,i_21_8,word,understands; produces,me (acc/dat),1SG
+item_450,m’n/m’tt,pronouns,i_21_9,word,understands; produces,my (gen),1SG.POSS
+item_451,ta_,pronouns,i_21_10,word,understands; produces,it (nom/acc),3SG
+item_452,tann,pronouns,i_21_11,word,understands; produces,that,that
+item_453,teg/t¾r,pronouns,i_21_12,word,understands; produces,you (acc/dat),2SG
+item_454,t’n/t’tt,pronouns,i_21_13,word,understands; produces,your (gen),2SG.POSS
+item_455,tœ,pronouns,i_21_14,word,understands; produces,you (nom),2SG
+item_456,ha?,question_words,i_22_1,word,understands; produces,huh?,
+item_457,hvar,question_words,i_22_2,word,understands; produces,where (question),where (question)
+item_458,hvat,question_words,i_22_3,word,understands; produces,what,what
+item_459,hv’,question_words,i_22_4,word,understands; produces,why,why
+item_460,hvussu,question_words,i_22_5,word,understands; produces,how,how
+item_461,hv¿r,question_words,i_22_6,word,understands; produces,who,who
+item_462,n¾r,question_words,i_22_7,word,understands; produces,when (question),when (question)
+item_463,aftanfyri,locations,i_23_1,word,understands; produces,behind,behind
+item_464,av,locations,i_23_2,word,understands; produces,of,of
+item_465,‡,locations,i_23_3,word,understands; produces,on,on
+item_466,har,locations,i_23_4,word,understands; produces,there,there
+item_467,her,locations,i_23_5,word,understands; produces,here,here
+item_468,hj‡,locations,i_23_6,word,understands; produces,at,at
+item_469,inn,locations,i_23_7,word,understands; produces,in,in
+item_470,inni ’,locations,i_23_8,word,understands; produces,inside,inside
+item_471,’,locations,i_23_9,word,understands; produces,in,in
+item_472,ni_ur,locations,i_23_10,word,understands; produces,down,down
+item_473,undir,locations,i_23_11,word,understands; produces,under,under
+item_474,upp,locations,i_23_12,word,understands; produces,up,up
+item_475,œt,locations,i_23_13,word,understands; produces,out,out
+item_476,vi_,locations,i_23_14,word,understands; produces,by,by
+item_477,alt/¿ll,quantifiers,i_24_1,word,understands; produces,all/all,all
+item_478,anna_,quantifiers,i_24_2,word,understands; produces,other,other
+item_479,ein annar/onnur,quantifiers,i_24_3,word,understands; produces,another,another
+item_480,eingin,quantifiers,i_24_4,word,understands; produces,only,only
+item_481,einki,quantifiers,i_24_5,word,understands; produces,none,none
+item_482,eitt sindur,quantifiers,i_24_6,word,understands; produces,a little,a little
+item_483,ikki,quantifiers,i_24_7,word,understands; produces,not,not
+item_484,l’ka,quantifiers,i_24_8,word,understands; produces,too,too
+item_485,meira,quantifiers,i_24_9,word,understands; produces,more,more
+item_486,naka_,quantifiers,i_24_10,word,understands; produces,any/some,some
+item_487,sama,quantifiers,i_24_11,word,understands; produces,same,same
+item_488,solei_is,quantifiers,i_24_12,word,understands; produces,so,so
+item_489,"1.Strekkir armin fyri at v’sa t¾r, hvat hon/hann hevur ’ hondini",NA,i_25_1,gestures_first,not yet; sometimes; often,Extends arms to show you what she/he has in her hand,
+item_490,"2.Gevur t¾r eina leiku ella l’knandi, sum hon/hann hevur ’ hondini",NA,i_25_2,gestures_first,not yet; sometimes; often,Gives you a game or something soothing that she/he has in her hand,
+item_491,3.Peikar (vi_ armi ella fremstafingri) at onkrum ‡hugaverdum luti ella hending,NA,i_25_3,gestures_first,not yet; sometimes; often,Pointing (with arm or forefinger) to some interesting things or things,
+item_492,"4. Vinkar bei, bei av s¾r sj‡lvari/sj‡lvum, t‡ onkur fer avsta_",NA,i_25_4,gestures_first,not yet; sometimes; often,Waves bye bye by himself/herself when someone leaves,
+item_493,5. R¾ttir armarnar upp sum tekin um at vilja sleppa upp,NA,i_25_5,gestures_first,not yet; sometimes; often,Raises his arms as if he wants to jump up,
+item_494,"6. Ristir vi_ h¿vdinum fyri ""nei""",NA,i_25_6,gestures_first,not yet; sometimes; often,"Shaking your head for ""no""",
+item_495,"7. Nikkar vi_ h¿vdinum fyri ""ja""",NA,i_25_7,gestures_first,not yet; sometimes; often,"Nods the head for ""yes""",
+item_496,"8. V’sir ""shhh"" vi_ at halda fingurin fyri munnin",NA,i_25_8,gestures_first,not yet; sometimes; often,"Indicates ""shhh"" while holding your fingers to your mouth",
+item_497,"9. Bi_ur um okkurt, vi_ at strekkja armin og lata hondina upp og aftur",NA,i_25_9,gestures_first,not yet; sometimes; often,Asks us to stretch our arms and raise our hands up and down again,
+item_498,10. Sendir mussar,NA,i_25_10,gestures_first,not yet; sometimes; often,Sending kiss,
+item_499,11. Smaskar fyri at v’sa at okkurt smakkar v¾l,NA,i_25_11,gestures_first,not yet; sometimes; often,Smacks lips to indicate that it tastes bad,
+item_500,"12. Yppir ¿ksl ella vendir l—gvarnar uppeftir fyri at v’sa, at barni_ ikki veit hvar okkurt er",NA,i_25_12,gestures_first,not yet; sometimes; often,Raises his arms or turns his arms upwards to indicate that the child does not know where we are,
+item_501,1. Sp¾lir b¿ (Goymir andliti_ vi_ hondunum og tekur so hendurnar burtur),NA,i_26_1,gestures_games,yes; no,Plays peekaboo (Hides face with hands and then takes hands away),
+item_502,"2. Sp¾lir ""mala hendan veg"" og a_rar sangir vi_ fingra- og hondr¿rslum",NA,i_26_2,gestures_games,yes; no,"Plays ""mala hendan veg"" and other songs with finger and hand movements",
+item_503,"3. Sp¾lir ""hvussu st—r/ur ert tœ?""",NA,i_26_3,gestures_games,yes; no,"Plays ""how big are you?""",
+item_504,"4. Sp¾lir ""nœ komi eg eftir t¾r""",NA,i_26_4,gestures_games,yes; no,"Plays ""now I'm coming for you""",
+item_505,5. Syngur,NA,i_26_5,gestures_games,yes; no,Sings,
+item_506,6. Dansar,NA,i_26_6,gestures_games,yes; no,Dances,
+item_507,1. Etur vi_ skei_ ella gaffli,NA,i_27_1,gestures_objects,yes; no,Eats with a spoon or fork,
+item_508,2. Drekkur œr koppi,NA,i_27_2,gestures_objects,yes; no,Drinks from a cup,
+item_509,3. Grei_ir s¾r h‡ri_,NA,i_27_3,gestures_objects,yes; no,Combs hair,
+item_510,4. Bustar tenn,NA,i_27_4,gestures_objects,yes; no,Brushes teeth,
+item_511,5. Turkar s¾r um andlit ella hendur vi_ lappa/handkl¾_i,NA,i_27_5,gestures_objects,yes; no,Wipes face or hands with towel,
+item_512,6. Letur seg ’ hœgvu,NA,i_27_6,gestures_objects,yes; no,Puts on a hat,
+item_513,7. Letur seg ’ sk—gvar ella sokkar,NA,i_27_7,gestures_objects,yes; no,Puts on socks or socks,
+item_514,"8. Letur seg ’ h‡lsband, armband ella ur",NA,i_27_8,gestures_objects,yes; no,"Puts on a necklace, bracelet or watch",
+item_515,9. Sp¾lir at sova vi_ at lata eyguni aftur og leggja hendurnar undir kj‡lkan,NA,i_27_9,gestures_objects,yes; no,Pretends to sleep by closing his eyes and putting his hands under his jaw,
+item_516,10. Bl¾sir fyri at v’sa at okkurt er heitt,NA,i_27_10,gestures_objects,yes; no,Blows to show that it is hot,
+item_517,11. Heldur einum flogfari og v’sir hvussu ta_ fl_gur,NA,i_27_11,gestures_objects,yes; no,Holds an airplane and shows how it flies,
+item_518,12. Sp¾lir at tosa ’ telefon,NA,i_27_12,gestures_objects,yes; no,Pretends to talk on the phone,
+item_519,13. Luktar bl—mur,NA,i_27_13,gestures_objects,yes; no,Smells flowers,
+item_520,14. Skumpar leikubilar og sp¾lir at teir koyra,NA,i_27_14,gestures_objects,yes; no,Pushes toy cars and plays with them driving,
+item_521,15. Kastar b—lt,NA,i_27_15,gestures_objects,yes; no,Throws a ball,
+item_522,16. Sp¾lir at oysa v¾tu œr einum ’lati ’ annna_,NA,i_27_16,gestures_objects,yes; no,Pretends to pour liquid from one container to another,
+item_523,17. Letur sum um ta_ er v¾ta ’ koppum ella gr_tum og r¿r vi_ skei_ ’ hesum,NA,i_27_17,gestures_objects,yes; no,Pretends there is liquid in cups or pots and stirs with a spoon,
+item_524,"18. Ger sum um ta_ ""bla_ar"" ‡ einum Ipad ella telefon",NA,i_27_18,gestures_objects,yes; no,"Pretends to ""browse"" on an iPad or phone",
+item_525,1. Leggur hana ’ song at sova,NA,i_28_1,gestures_parent,yes; no,Puts her to sleep,
+item_526,2. Ballar hana vi_ teppi,NA,i_28_2,gestures_parent,yes; no,Cuddles her with a blanket,
+item_527,3. Gevur henni fl¿sku,NA,i_28_3,gestures_parent,yes; no,Gives her a bottle,
+item_528,4. Gevur henni at eta vi_ skei_,NA,i_28_4,gestures_parent,yes; no,Feeds her with a spoon,
+item_529,5. Grei_ir h‡ri_,NA,i_28_5,gestures_parent,yes; no,Combs hair,
+item_530,6. K’nur ella ropar henni,NA,i_28_6,gestures_parent,yes; no,Kisses or burps her,
+item_531,7. Trillar hana ’ vogni ella dukkuvogni,NA,i_28_7,gestures_parent,yes; no,Pushes her in a stroller,
+item_532,8. Ninar ella rurar henni,NA,i_28_8,gestures_parent,yes; no,Lulls to sleep,
+item_533,9. Mussar ella klemmar hana,NA,i_28_9,gestures_parent,yes; no,Kisses or hugs her,
+item_534,"10. Roynir at lata hana ’ hœgvu, sk—gvar ella sokkar",NA,i_28_10,gestures_parent,yes; no,"Try to make her wear a hat, shoes or socks",
+item_535,11. Turkar andlit ella hendur ‡ henni,NA,i_28_11,gestures_parent,yes; no,Wipes her face or hands,
+item_536,12. Tosar vi_ dukkuna ella bamsuna,NA,i_28_12,gestures_parent,yes; no,Talks to doll or teddy bear,
+item_537,13. Roynir at lata hana ’ bl¾u,NA,i_28_13,gestures_parent,yes; no,Tries to put her in a diaper,
+item_538,1. Feiar vi_ einum kusti,NA,i_29_1,gestures_adult,yes; no,Sweep with a broom,
+item_539,2. Koyrir lykil ’ eitt l‡s,NA,i_29_2,gestures_adult,yes; no,Puts a key into one lock,
+item_540,3. Sm’_ar vi_ hamara ella l’knandi,NA,i_29_3,gestures_adult,yes; no,Builds with hammers or similar,
+item_541,4. Roynir at saga,NA,i_29_4,gestures_adult,yes; no,Tries to saw,
+item_542,"5. ""Skrivar"" ‡ teldu, telefon ella Ipad",NA,i_29_5,gestures_adult,yes; no,"""Writes"" on a computer, phone or iPad",
+item_543,"6. ""Lesur""- letur b—k upp og bla_ar",NA,i_29_6,gestures_adult,yes; no,"""Reads"" - opens a book and turns pages",
+item_544,7. Dusts_gur,NA,i_29_7,gestures_adult,yes; no,Vacuum cleaner,
+item_545,8. Gevur bl—mum vatn,NA,i_29_8,gestures_adult,yes; no,Waters to flowers,
+item_546,9. Sp¾lir upp ‡ lj—_f¿ri (t.d. gittara ella klaver),NA,i_29_9,gestures_adult,yes; no,Plays an instrument (e.g. guitar or piano),
+item_547,"10. ""Koyrir"" bil vi_ at snara r—_ur",NA,i_29_10,gestures_adult,yes; no,"""Drives"" a car by turning the steering wheel",
+item_548,11. Vaskar upp,NA,i_29_11,gestures_adult,yes; no,Washes up,
+item_549,12. Vaskar vi_ lappa ella st¿vklœti,NA,i_29_12,gestures_adult,yes; no,Washes with towel or dust cloth,
+item_550,13. Skrivar/teknar vi_ bl_anti ella penni,NA,i_29_13,gestures_adult,yes; no,Writes/draws with pencil or pen,
+item_551,14. Grevur vi_ spaka,NA,i_29_14,gestures_adult,yes; no,Digs with a shovel,
+item_552,15. Letur seg ’ brillur,NA,i_29_15,gestures_adult,yes; no,Puts on glasses,
+,,,,,,,

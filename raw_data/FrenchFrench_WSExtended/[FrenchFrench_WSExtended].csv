@@ -1,0 +1,803 @@
+﻿item_id,language,form,form_type,item_kind,category,item,item_definition,english_gloss,uni_lemma
+item_1,French (French),WS,WS,word,animals,01.1 animal,animal,animal,animal
+item_2,French (French),WS,WS,word,animals,01.2 ours,ours,bear,bear
+item_3,French (French),WS,WS,word,animals,01.3 abeille,abeille,bee,bee
+item_4,French (French),WS,WS,word,animals,01.4 oiseau,oiseau,bird,bird
+item_5,French (French),WS,WS,word,animals,01.5 petite bête,petite bête,bug,bug
+item_6,French (French),WS,WS,word,animals,01.6 lapin,lapin,bunny,bunny
+item_7,French (French),WS,WS,word,animals,01.7 papillon,papillon,butterfly,butterfly
+item_8,French (French),WS,WS,word,animals,01.8 chat,chat,cat,cat
+item_9,French (French),WS,WS,word,animals,01.9 poule,poule,chicken (animal),chicken (animal)
+item_10,French (French),WS,WS,word,animals,01.10 vache,vache,cow,cow
+item_11,French (French),WS,WS,word,animals,01.11 biche,biche,deer,deer
+item_12,French (French),WS,WS,word,animals,01.12 chien,chien,dog,dog
+item_13,French (French),WS,WS,word,animals,01.13 âne,âne,donkey,donkey
+item_14,French (French),WS,WS,word,animals,01.14 canard,canard,duck,duck
+item_15,French (French),WS,WS,word,animals,01.15 éléphant,éléphant,elephant,elephant
+item_16,French (French),WS,WS,word,animals,01.16 poisson,poisson,fish (animal),fish (animal)
+item_17,French (French),WS,WS,word,animals,01.17 grenouille,grenouille,frog,frog
+item_18,French (French),WS,WS,word,animals,01.18 girafe,girafe,giraffe,giraffe
+item_19,French (French),WS,WS,word,animals,01.19 chèvre,chèvre,goat,goat
+item_20,French (French),WS,WS,word,animals,01.20 oie,oie,goose,goose
+item_21,French (French),WS,WS,word,animals,01.21 cheval,cheval,horse,horse
+item_22,French (French),WS,WS,word,animals,01.22 chaton,chaton,kitten,kitty
+item_23,French (French),WS,WS,word,animals,01.23 agneau,agneau,lamb,lamb
+item_24,French (French),WS,WS,word,animals,01.24 lion,lion,lion,lion
+item_25,French (French),WS,WS,word,animals,01.25 bébé chat,bébé chat,kitty,kitty
+item_26,French (French),WS,WS,word,animals,01.26 souris,souris,mouse,mouse
+item_27,French (French),WS,WS,word,animals,01.27 hibou,hibou,owl,owl
+item_28,French (French),WS,WS,word,animals,01.28 pingouin,pingouin,penguin,penguin
+item_29,French (French),WS,WS,word,animals,01.29 cochon,cochon,pig,pig
+item_30,French (French),WS,WS,word,animals,01.30 poney,poney,pony,pony
+item_31,French (French),WS,WS,word,animals,01.31 chiot,chiot,puppy,puppy
+item_32,French (French),WS,WS,word,animals,01.32 mouton,mouton,sheep,sheep
+item_33,French (French),WS,WS,word,animals,01.33 écureuil,écureuil,squirrel,squirrel
+item_34,French (French),WS,WS,word,animals,01.34 nounours,nounours,teddybear,teddybear
+item_35,French (French),WS,WS,word,animals,01.35 tigre,tigre,tiger,tiger
+item_36,French (French),WS,WS,word,animals,01.36 dindon,dindon,turkey,turkey
+item_37,French (French),WS,WS,word,animals,01.37 tortue,tortue,turtle,turtle
+item_38,French (French),WS,WS,word,animals,01.38 crocodile,crocodile,crocodile,crocodile
+item_39,French (French),WS,WS,word,animals,01.39 fourmi,fourmi,ant,ant
+item_40,French (French),WS,WS,word,animals,01.40 renne,renne,reindeer,reindeer
+item_41,French (French),WS,WS,word,animals,01.41 coq,coq,rooster,rooster
+item_42,French (French),WS,WS,word,animals,01.42 loup,loup,wolf,wolf
+item_43,French (French),WS,WS,word,animals,01.43 zèbre,zèbre,zebra,zebra
+item_44,French (French),WS,WS,word,vehicles,02.44 avion,avion,airplane,airplane
+item_45,French (French),WS,WS,word,vehicles,02.45 vélo,vélo,bicycle,bicycle
+item_46,French (French),WS,WS,word,vehicles,02.46 bus,bus,bus,bus
+item_47,French (French),WS,WS,word,vehicles,02.47 voiture,voiture,car,car
+item_48,French (French),WS,WS,word,vehicles,02.48 camion de pompier,camion de pompier,firetruck,firetruck
+item_49,French (French),WS,WS,word,vehicles,02.49 moto,moto,motorcycle,motorcycle
+item_50,French (French),WS,WS,word,vehicles,02.50 poussette,poussette,stroller,stroller
+item_51,French (French),WS,WS,word,vehicles,02.51 train,train,train,train
+item_52,French (French),WS,WS,word,vehicles,02.52 camion,camion,truck,truck
+item_53,French (French),WS,WS,word,vehicles,02.53 bateau,bateau,boat,boat
+item_54,French (French),WS,WS,word,vehicles,02.54 hélicoptère,hélicoptère,helicopter,helicopter
+item_55,French (French),WS,WS,word,vehicles,02.55 traîneau,traîneau,sled,sled
+item_56,French (French),WS,WS,word,vehicles,02.56 tracteur,tracteur,tractor,tractor
+item_57,French (French),WS,WS,word,vehicles,02.57 tricycle,tricycle,tricycle,tricycle
+item_58,French (French),WS,WS,word,toys,03.58 balle,balle,ball,ball
+item_59,French (French),WS,WS,word,toys,03.59 ballon,ballon,ball,ball
+item_60,French (French),WS,WS,word,toys,03.60 cube,cube,cube,blocks
+item_61,French (French),WS,WS,word,toys,03.61 livre,livre,book,book
+item_62,French (French),WS,WS,word,toys,03.62 bulle,bulle,bubbles,bubbles
+item_63,French (French),WS,WS,word,toys,03.63 poupée,poupée,doll,doll
+item_64,French (French),WS,WS,word,toys,03.64 crayon,crayon,pen/pencil,pen/pencil
+item_65,French (French),WS,WS,word,toys,03.65 stylo,stylo,pen/pencil,pen/pencil
+item_66,French (French),WS,WS,word,toys,03.66 jouet,jouet,toy (object),toy (object)
+item_67,French (French),WS,WS,word,toys,03.67 raquette,raquette,racket,bat (object)
+item_68,French (French),WS,WS,word,toys,03.68 craie,craie,chalk,chalk
+item_69,French (French),WS,WS,word,toys,03.69 jeu,jeu,game,game
+item_70,French (French),WS,WS,word,toys,03.70 colle,colle,glue,glue (object)
+item_71,French (French),WS,WS,word,toys,03.71 pâte à modeler,pâte à modeler,modeling clay,clay
+item_72,French (French),WS,WS,word,toys,03.72 cadeau,cadeau,present,present
+item_73,French (French),WS,WS,word,toys,03.73 puzzle,puzzle,puzzle,puzzle
+item_74,French (French),WS,WS,word,toys,03.74 histoire,histoire,story,story
+item_75,French (French),WS,WS,word,toys,03.75 feutre,feutre,felt,
+item_76,French (French),WS,WS,word,food_drinks,04.76 lait,lait,milk,milk
+item_77,French (French),WS,WS,word,food_drinks,04.77 céréales,céréales,cereal,cereal
+item_78,French (French),WS,WS,word,food_drinks,04.78 cornflakes,cornflakes,cornflakes,cheerios
+item_79,French (French),WS,WS,word,food_drinks,04.79 orange,orange,orange (fruit),orange (food)
+item_80,French (French),WS,WS,word,food_drinks,04.80 fromage,fromage,cheese,cheese
+item_81,French (French),WS,WS,word,food_drinks,04.81 petits pots,petits pots,peas,peas
+item_82,French (French),WS,WS,word,food_drinks,04.82 poulet,poulet,chicken (food),chicken (food)
+item_83,French (French),WS,WS,word,food_drinks,04.83 pizza,pizza,pizza,pizza
+item_84,French (French),WS,WS,word,food_drinks,04.84 café,café,coffee,coffee
+item_85,French (French),WS,WS,word,food_drinks,04.85 raisin,raisin,grapes,grapes
+item_86,French (French),WS,WS,word,food_drinks,04.86 petits gâteaux,petits gâteaux,small cake,muffin
+item_87,French (French),WS,WS,word,food_drinks,04.87 spaghetti,spaghetti,pasta,pasta
+item_88,French (French),WS,WS,word,food_drinks,04.88 gâteau apéro,gâteau apéro,,
+item_89,French (French),WS,WS,word,food_drinks,04.89 tartine,tartine,tartine,toast
+item_90,French (French),WS,WS,word,food_drinks,04.90 pomme,pomme,apple,apple
+item_91,French (French),WS,WS,word,food_drinks,04.91 oeuf,oeuf,egg,egg
+item_92,French (French),WS,WS,word,food_drinks,04.92 banane,banane,banana,banana
+item_93,French (French),WS,WS,word,food_drinks,04.93 poisson,poisson,fish (animal),fish (animal)
+item_94,French (French),WS,WS,word,food_drinks,04.94 pain,pain,bread,bread
+item_95,French (French),WS,WS,word,food_drinks,04.95 nourriture,nourriture,food,food
+item_96,French (French),WS,WS,word,food_drinks,04.96 beurre,beurre,butter,butter
+item_97,French (French),WS,WS,word,food_drinks,04.97 glace,glace,ice cream,ice cream
+item_98,French (French),WS,WS,word,food_drinks,04.98 gâteau,gâteau,cake,cake
+item_99,French (French),WS,WS,word,food_drinks,04.99 jus de fruit,jus de fruit,juice,juice
+item_100,French (French),WS,WS,word,food_drinks,04.100 sucre,sucre,sugar,sugar
+item_101,French (French),WS,WS,word,food_drinks,04.101 viande,viande,meat,meat
+item_102,French (French),WS,WS,word,food_drinks,04.102 carotte,carotte,carrot,carrot
+item_103,French (French),WS,WS,word,food_drinks,04.103 boisson,boisson,drink (beverage),drink (beverage)
+item_104,French (French),WS,WS,word,food_drinks,04.104 eau,eau,water (not beverage),water (not beverage)
+item_105,French (French),WS,WS,word,food_drinks,04.105 clémentine,clémentine,clementine,clementine
+item_106,French (French),WS,WS,word,food_drinks,04.106 purée,purée,mashed potato,potato
+item_107,French (French),WS,WS,word,food_drinks,04.107 petits pois,petits pois,peas,peas
+item_108,French (French),WS,WS,word,food_drinks,04.108 baguette,baguette,baguette,bread
+item_109,French (French),WS,WS,word,food_drinks,04.109 soupe,soupe,soup,soup
+item_110,French (French),WS,WS,word,food_drinks,04.110 pâtes,pâtes,pasta,pasta
+item_111,French (French),WS,WS,word,food_drinks,04.111 thon,thon,tuna,tuna
+item_112,French (French),WS,WS,word,food_drinks,04.112 kiwi,kiwi,kiwi,kiwi
+item_113,French (French),WS,WS,word,food_drinks,04.113 compote,compote,compote,jam
+item_114,French (French),WS,WS,word,food_drinks,04.114 haricot,haricot,bean,beans
+item_115,French (French),WS,WS,word,food_drinks,04.115 chocolat,chocolat,chocolate,chocolate
+item_116,French (French),WS,WS,word,food_drinks,04.116 coca,coca,coke,soda
+item_117,French (French),WS,WS,word,food_drinks,04.117 maïs,maïs,corn,corn
+item_118,French (French),WS,WS,word,food_drinks,04.118 beignet,beignet,fritter,pastry
+item_119,French (French),WS,WS,word,food_drinks,04.119 frites,frites,french fries,french fries
+item_120,French (French),WS,WS,word,food_drinks,04.120 haricots verts,haricots verts,french bean,green beans
+item_121,French (French),WS,WS,word,food_drinks,04.121 chewing-gum,chewing-gum,chewing-gum,gum
+item_122,French (French),WS,WS,word,food_drinks,04.122 hamburger,hamburger,hamburger,hamburger
+item_123,French (French),WS,WS,word,food_drinks,04.123 glaçon,glaçon,ice cube,ice
+item_124,French (French),WS,WS,word,food_drinks,04.124 vitamines,vitamines,vitamines,vitamin
+item_125,French (French),WS,WS,word,food_drinks,04.125 bonbons,bonbons,candy,candy
+item_126,French (French),WS,WS,word,food_drinks,04.126 confiture,confiture,jam,jam
+item_127,French (French),WS,WS,word,food_drinks,04.127 yaourt,yaourt,yogurt,yogurt
+item_128,French (French),WS,WS,word,food_drinks,04.128 sucette,sucette,lollipop,lollipop
+item_129,French (French),WS,WS,word,food_drinks,04.129 melon,melon,melon,melon
+item_130,French (French),WS,WS,word,food_drinks,04.130 madeleine,madeleine,madeleine,muffin
+item_131,French (French),WS,WS,word,food_drinks,04.131 noisette,noisette,hazelnut,nut
+item_132,French (French),WS,WS,word,food_drinks,04.132 crêpe,crêpe,crepe,pancake
+item_133,French (French),WS,WS,word,food_drinks,04.133 nutella,nutella,nutella,nutella
+item_134,French (French),WS,WS,word,food_drinks,04.134 mayonnaise,mayonnaise,mayonnaise,mayonnaise
+item_135,French (French),WS,WS,word,food_drinks,04.135 pop-corn,pop-corn,pop-corn,popcorn
+item_136,French (French),WS,WS,word,food_drinks,04.136 esquimau,esquimau,popsicle,popsicle
+item_137,French (French),WS,WS,word,food_drinks,04.137 pomme de terre,pomme de terre,potato,potato
+item_138,French (French),WS,WS,word,food_drinks,04.138 chips,chips,chips,chips
+item_139,French (French),WS,WS,word,food_drinks,04.139 bretzel,bretzel,pretzel,pretzel
+item_140,French (French),WS,WS,word,food_drinks,04.140 flan,flan,flan,pudding
+item_141,French (French),WS,WS,word,food_drinks,04.141 courge,courge,gourd,squash
+item_142,French (French),WS,WS,word,food_drinks,04.142 raisins secs,raisins secs,raisin,raisin
+item_143,French (French),WS,WS,word,food_drinks,04.143 sel,sel,salt,salt
+item_144,French (French),WS,WS,word,food_drinks,04.144 sandwich,sandwich,sandwich,sandwich
+item_145,French (French),WS,WS,word,food_drinks,04.145 sauce,sauce,sauce,sauce
+item_146,French (French),WS,WS,word,food_drinks,04.146 limonade,limonade,lemonade,juice
+item_147,French (French),WS,WS,word,food_drinks,04.147 fraise,fraise,strawberry,strawberry
+item_148,French (French),WS,WS,word,food_drinks,04.148 vanille,vanille,vanilla,vanilla
+item_149,French (French),WS,WS,word,clothing,05.149 perles,perles,beads,beads
+item_150,French (French),WS,WS,word,clothing,05.150 collier,collier,necklace,necklace
+item_151,French (French),WS,WS,word,clothing,05.151 bavoir,bavoir,bib,bib
+item_152,French (French),WS,WS,word,clothing,05.152 pyjamas,pyjamas,pajamas,pajamas
+item_153,French (French),WS,WS,word,clothing,05.153 bottes,bottes,boots,boots
+item_154,French (French),WS,WS,word,clothing,05.154 pantalon,pantalon,pants,pants
+item_155,French (French),WS,WS,word,clothing,05.155 boutons,boutons,button,button
+item_156,French (French),WS,WS,word,clothing,05.156 chemise,chemise,shirt,shirt
+item_157,French (French),WS,WS,word,clothing,05.157 manteau,manteau,coat,coat
+item_158,French (French),WS,WS,word,clothing,05.158 chaussure,chaussure,shoe,shoe
+item_159,French (French),WS,WS,word,clothing,05.159 couche,couche,diaper,diaper
+item_160,French (French),WS,WS,word,clothing,05.160 body,body,bodysuit,
+item_161,French (French),WS,WS,word,clothing,05.161 grenouillère,grenouillère,sleepsuit,
+item_162,French (French),WS,WS,word,clothing,05.162 short,short,shorts,shorts
+item_163,French (French),WS,WS,word,clothing,05.163 robe,robe,dress (object),dress (object)
+item_164,French (French),WS,WS,word,clothing,05.164 chaussettes,chaussettes,sock,sock
+item_165,French (French),WS,WS,word,clothing,05.165 chapeau,chapeau,hat,hat
+item_166,French (French),WS,WS,word,clothing,05.166 sweat,sweat,sweater,sweater
+item_167,French (French),WS,WS,word,clothing,05.167 veste,veste,jacket,jacket
+item_168,French (French),WS,WS,word,clothing,05.168 tee-shirt,tee-shirt,t-shirt,t-shirt
+item_169,French (French),WS,WS,word,clothing,05.169 jeans,jeans,jeans,jeans
+item_170,French (French),WS,WS,word,clothing,05.170 salopette,salopette,overalls,overalls
+item_171,French (French),WS,WS,word,clothing,05.171 chausson,chausson,slipper,slipper
+item_172,French (French),WS,WS,word,clothing,05.172 pull,pull,sweater,sweater
+item_173,French (French),WS,WS,word,clothing,05.173 ceinture,ceinture,belt,belt
+item_174,French (French),WS,WS,word,clothing,05.174 gants,gants,gloves,glove
+item_175,French (French),WS,WS,word,clothing,05.175 moufles,moufles,mittens,mitten
+item_176,French (French),WS,WS,word,clothing,05.176 écharpe,écharpe,scarf,scarf
+item_177,French (French),WS,WS,word,clothing,05.177 basket,basket,trainers,sneaker
+item_178,French (French),WS,WS,word,clothing,05.178 combinaison de ski,combinaison de ski,ski suit,snowsuit
+item_179,French (French),WS,WS,word,clothing,05.179 collants,collants,tights,tights
+item_180,French (French),WS,WS,word,clothing,05.180 culotte,culotte,underpants,underpants
+item_181,French (French),WS,WS,word,games_routines,06.181 bain,bain,bath,bath
+item_182,French (French),WS,WS,word,games_routines,06.182 petit déjeuner,petit déjeuner,breakfast,breakfast
+item_183,French (French),WS,WS,word,games_routines,06.183 au revoir,au revoir,bye,bye
+item_184,French (French),WS,WS,word,games_routines,06.184 dîner,dîner,dinner,dinner
+item_185,French (French),WS,WS,word,games_routines,06.185 ne fais pas,ne fais pas,don’t do,don't
+item_186,French (French),WS,WS,word,games_routines,06.186 bonjour,bonjour,hi,hi
+item_187,French (French),WS,WS,word,games_routines,06.187 salut,salut,hi,hi
+item_188,French (French),WS,WS,word,games_routines,06.188 déjeuner,déjeuner,lunch,lunch
+item_189,French (French),WS,WS,word,games_routines,06.189 sieste,sieste,nap,nap
+item_190,French (French),WS,WS,word,games_routines,06.190 bonne nuit,bonne nuit,good night,good night
+item_191,French (French),WS,WS,word,games_routines,06.191 non,non,no,no
+item_192,French (French),WS,WS,word,games_routines,06.192 ainsi font font,ainsi font font,,
+item_193,French (French),WS,WS,word,games_routines,06.193 coucou,coucou,peekaboo,peekaboo
+item_194,French (French),WS,WS,word,games_routines,06.194 s'il te plaît,s'il te plaît,please,please
+item_195,French (French),WS,WS,word,games_routines,06.195 chut,chut,shh,shh
+item_196,French (French),WS,WS,word,games_routines,06.196 merci,merci,thank you,thank you
+item_197,French (French),WS,WS,word,games_routines,06.197 oui,oui,yes,yes
+item_198,French (French),WS,WS,word,games_routines,06.198 bravo,bravo,bravo,bravo
+item_199,French (French),WS,WS,word,games_routines,06.199 faire les courses,faire les courses,go shopping,shopping
+item_200,French (French),WS,WS,word,games_routines,06.200 goûter,goûter,taste,taste
+item_201,French (French),WS,WS,word,games_routines,06.201 coup de fil,coup de fil,phone call,
+item_202,French (French),WS,WS,word,games_routines,06.202 top là,top là,it's a deal,
+item_203,French (French),WS,WS,word,games_routines,06.203 je vais t'attraper,je vais t'attraper,I will catch you,
+item_204,French (French),WS,WS,word,games_routines,06.204 va sur le pot,va sur le pot,go potty,go potty
+item_205,French (French),WS,WS,word,games_routines,06.205 tourne-toi,tourne-toi,turn around,
+item_206,French (French),WS,WS,word,games_routines,06.206 ce petit cochon,ce petit cochon,this little piggy,this little piggy
+item_207,French (French),WS,WS,word,body_parts,07.207 bras,bras,arm,arm
+item_208,French (French),WS,WS,word,body_parts,07.208 nombril,nombril,belly button,belly button
+item_209,French (French),WS,WS,word,body_parts,07.209 joue,joue,cheek,cheek
+item_210,French (French),WS,WS,word,body_parts,07.210 oreille,oreille,ear,ear
+item_211,French (French),WS,WS,word,body_parts,07.211 yeux,yeux,eye,eye
+item_212,French (French),WS,WS,word,body_parts,07.212 figure,figure,face,face
+item_213,French (French),WS,WS,word,body_parts,07.213 pied,pied,foot,foot
+item_214,French (French),WS,WS,word,body_parts,07.214 doigt,doigt,finger,finger
+item_215,French (French),WS,WS,word,body_parts,07.215 cheveux,cheveux,hair,hair
+item_216,French (French),WS,WS,word,body_parts,07.216 main,main,hand,hand
+item_217,French (French),WS,WS,word,body_parts,07.217 tête,tête,head,head
+item_218,French (French),WS,WS,word,body_parts,07.218 genou,genou,knee,knee
+item_219,French (French),WS,WS,word,body_parts,07.219 jambe,jambe,leg,leg
+item_220,French (French),WS,WS,word,body_parts,07.220 bouche,bouche,mouth,mouth
+item_221,French (French),WS,WS,word,body_parts,07.221 nez,nez,nose,nose
+item_222,French (French),WS,WS,word,body_parts,07.222 aïe bobo,aïe bobo,owie,owie
+item_223,French (French),WS,WS,word,body_parts,07.223 dent,dent,tooth,tooth
+item_224,French (French),WS,WS,word,body_parts,07.224 doigt de pied,doigt de pied,toe,toe
+item_225,French (French),WS,WS,word,body_parts,07.225 langue,langue,tongue,tongue
+item_226,French (French),WS,WS,word,body_parts,07.226 ventre,ventre,tummy,tummy
+item_227,French (French),WS,WS,word,body_parts,07.227 cheville,cheville,ankle,ankle
+item_228,French (French),WS,WS,word,body_parts,07.228 fesses,fesses,butt,butt
+item_229,French (French),WS,WS,word,body_parts,07.229 menton,menton,chin,chin
+item_230,French (French),WS,WS,word,body_parts,07.230 lèvre,lèvre,lips,lip
+item_231,French (French),WS,WS,word,body_parts,07.231 pénis,pénis,penis,penis
+item_232,French (French),WS,WS,word,body_parts,07.232 coeur,coeur,heart,heart
+item_233,French (French),WS,WS,word,body_parts,07.233 vagin,vagin,vagina,vagina
+item_234,French (French),WS,WS,word,body_parts,07.234 pouce,pouce,thumb,thumb
+item_235,French (French),WS,WS,word,places,08.235 plage,plage,beach,beach
+item_236,French (French),WS,WS,word,places,08.236 camping,camping,camping,camping
+item_237,French (French),WS,WS,word,places,08.237 église,église,church,church
+item_238,French (French),WS,WS,word,places,08.238 cirque,cirque,circus,circus
+item_239,French (French),WS,WS,word,places,08.239 campagne,campagne,country,country
+item_240,French (French),WS,WS,word,places,08.240 centre-ville,centre-ville,downtown,downtown
+item_241,French (French),WS,WS,word,places,08.241 ferme,ferme,farm,farm
+item_242,French (French),WS,WS,word,places,08.242 station-service,station-service,gas station,gas station
+item_243,French (French),WS,WS,word,places,08.243 maison,maison,house,house
+item_244,French (French),WS,WS,word,places,08.244 cinéma,cinéma,cinema,movie
+item_245,French (French),WS,WS,word,places,08.245 dehors,dehors,outside,outside
+item_246,French (French),WS,WS,word,places,08.246 parc,parc,park,park
+item_247,French (French),WS,WS,word,places,08.247 fête,fête,party,party
+item_248,French (French),WS,WS,word,places,08.248 pique-nique,pique-nique,picnic,picnic
+item_249,French (French),WS,WS,word,places,08.249 terrain de jeux,terrain de jeux,playground,playground
+item_250,French (French),WS,WS,word,places,08.250 école,école,school,school
+item_251,French (French),WS,WS,word,places,08.251 magasin,magasin,store,store
+item_252,French (French),WS,WS,word,places,08.252 forêt,forêt,forest,forest
+item_253,French (French),WS,WS,word,places,08.253 travail,travail,work (place),work (place)
+item_254,French (French),WS,WS,word,places,08.254 cour,cour,yard,yard
+item_255,French (French),WS,WS,word,places,08.255 zoo,zoo,zoo,zoo
+item_256,French (French),WS,WS,word,places,08.256 garderie,garderie,nursery,nursery
+item_257,French (French),WS,WS,word,places,08.257 fête,fête,party,party
+item_258,French (French),WS,WS,word,furniture_rooms,09.258 salle de bain,salle de bain,bathroom,bathroom
+item_259,French (French),WS,WS,word,furniture_rooms,09.259 baignoire,baignoire,bath,bath
+item_260,French (French),WS,WS,word,furniture_rooms,09.260 lit,lit,bed,bed
+item_261,French (French),WS,WS,word,furniture_rooms,09.261 chambre,chambre,bedroom,bedroom
+item_262,French (French),WS,WS,word,furniture_rooms,09.262 chaise,chaise,chair,chair
+item_263,French (French),WS,WS,word,furniture_rooms,09.263 canapé,canapé,couch,couch
+item_264,French (French),WS,WS,word,furniture_rooms,09.264 berceau,berceau,cradle,cradle
+item_265,French (French),WS,WS,word,furniture_rooms,09.265 porte,porte,door,door
+item_266,French (French),WS,WS,word,furniture_rooms,09.266 tiroir,tiroir,drawer,drawer
+item_267,French (French),WS,WS,word,furniture_rooms,09.267 garage,garage,garage,garage
+item_268,French (French),WS,WS,word,furniture_rooms,09.268 chaise haute,chaise haute,high chair,high chair
+item_269,French (French),WS,WS,word,furniture_rooms,09.269 cuisine,cuisine,kitchen,kitchen
+item_270,French (French),WS,WS,word,furniture_rooms,09.270 salon,salon,living room,living room
+item_271,French (French),WS,WS,word,furniture_rooms,09.271 four,four,oven,oven
+item_272,French (French),WS,WS,word,furniture_rooms,09.272 parc,parc,park,park
+item_273,French (French),WS,WS,word,furniture_rooms,09.273 pot,pot,jar,jar
+item_274,French (French),WS,WS,word,furniture_rooms,09.274 frigo,frigo,refrigerator,refrigerator
+item_275,French (French),WS,WS,word,furniture_rooms,09.275 fauteuil,fauteuil,armchair,armchair
+item_276,French (French),WS,WS,word,furniture_rooms,09.276 lavabo,lavabo,sink,sink
+item_277,French (French),WS,WS,word,furniture_rooms,09.277 escalier,escalier,stairs,stairs
+item_278,French (French),WS,WS,word,furniture_rooms,09.278 cuisinière,cuisinière,cooker,
+item_279,French (French),WS,WS,word,furniture_rooms,09.279 table,table,table,table
+item_280,French (French),WS,WS,word,furniture_rooms,09.280 télé,télé,tv,TV
+item_281,French (French),WS,WS,word,furniture_rooms,09.281 fenêtre,fenêtre,window,window
+item_282,French (French),WS,WS,word,furniture_rooms,09.282 étendage,étendage,dryer,dryer
+item_283,French (French),WS,WS,word,furniture_rooms,09.283 entrée,entrée,entrance,corridor
+item_284,French (French),WS,WS,word,furniture_rooms,09.284 douche,douche,shower,shower
+item_285,French (French),WS,WS,word,furniture_rooms,09.285 pièce,pièce,room,room
+item_286,French (French),WS,WS,word,furniture_rooms,09.286 cave,cave,cellar,basement
+item_287,French (French),WS,WS,word,furniture_rooms,09.287 banc,banc,bench,bench
+item_288,French (French),WS,WS,word,locations,10.288 au sujet de,au sujet de,about,about
+item_289,French (French),WS,WS,word,locations,10.289 au-dessus de,au-dessus de,above,above
+item_290,French (French),WS,WS,word,locations,10.290 autour de,autour de,around,around
+item_291,French (French),WS,WS,word,locations,10.291 à,à,at,at
+item_292,French (French),WS,WS,word,locations,10.292 loin,loin,far,far
+item_293,French (French),WS,WS,word,locations,10.293 derrière,derrière,behind,behind
+item_294,French (French),WS,WS,word,locations,10.294 à côté de,à côté de,next to,next to
+item_295,French (French),WS,WS,word,locations,10.295 chez,chez,In someone’s house,
+item_296,French (French),WS,WS,word,locations,10.296 en bas,en bas,down,down
+item_297,French (French),WS,WS,word,locations,10.297 pour,pour,in order to,for
+item_298,French (French),WS,WS,word,locations,10.298 ici,ici,here,here
+item_299,French (French),WS,WS,word,locations,10.299 à l'intérieur de,à l'intérieur de,inside,inside
+item_300,French (French),WS,WS,word,locations,10.300 dans,dans,in,in
+item_301,French (French),WS,WS,word,locations,10.301 près de,près de,near,near
+item_302,French (French),WS,WS,word,locations,10.302 de,de,of,of
+item_303,French (French),WS,WS,word,locations,10.303 au loin,au loin,far,far
+item_304,French (French),WS,WS,word,locations,10.304 sur,sur,on,on
+item_305,French (French),WS,WS,word,locations,10.305 au sommet,au sommet,on top of,
+item_306,French (French),WS,WS,word,locations,10.306 de dehors,de dehors,outside,
+item_307,French (French),WS,WS,word,locations,10.307 par-dessus,par-dessus,over,over
+item_308,French (French),WS,WS,word,locations,10.308 là-bas,là-bas,there,there
+item_309,French (French),WS,WS,word,locations,10.309 vers,vers,towards,towards
+item_310,French (French),WS,WS,word,locations,10.310 sous,sous,under,under
+item_311,French (French),WS,WS,word,locations,10.311 en haut,en haut,up,up
+item_312,French (French),WS,WS,word,locations,10.312 avec,avec,with,with
+item_313,French (French),WS,WS,word,locations,10.313 là,là,there,there
+item_314,French (French),WS,WS,word,question_words,11.314 comment,comment,how,how
+item_315,French (French),WS,WS,word,question_words,11.315 quoi,quoi,what,what
+item_316,French (French),WS,WS,word,question_words,11.316 avec quoi,avec quoi,with whom,
+item_317,French (French),WS,WS,word,question_words,11.317 quand,quand,when (question),when (question)
+item_318,French (French),WS,WS,word,question_words,11.318 où,où,where (question),where (question)
+item_319,French (French),WS,WS,word,question_words,11.319 qui,qui,who,who
+item_320,French (French),WS,WS,word,question_words,11.320 avec qui,avec qui,with whom,
+item_321,French (French),WS,WS,word,question_words,11.321 pourquoi,pourquoi,why,why
+item_322,French (French),WS,WS,word,question_words,11.322 le/la/les,le/la/les,the,the
+item_323,French (French),WS,WS,word,outside,12.323 rocher,rocher,rock (object),rock (object)
+item_324,French (French),WS,WS,word,outside,12.324 nuage,nuage,cloud,cloud
+item_325,French (French),WS,WS,word,outside,12.325 drapeau,drapeau,flag,flag
+item_326,French (French),WS,WS,word,outside,12.326 fleur,fleur,flower,flower
+item_327,French (French),WS,WS,word,outside,12.327 jardin,jardin,garden,garden
+item_328,French (French),WS,WS,word,outside,12.328 herbe,herbe,grass,grass
+item_329,French (French),WS,WS,word,outside,12.329 lune,lune,moon,moon
+item_330,French (French),WS,WS,word,outside,12.330 tuyau,tuyau,pipe,hose
+item_331,French (French),WS,WS,word,outside,12.331 échelle,échelle,ladder,ladder
+item_332,French (French),WS,WS,word,outside,12.332 tondeuse à gazon,tondeuse à gazon,lawn mower,lawn mower
+item_333,French (French),WS,WS,word,outside,12.333 piscine,piscine,pool,pool
+item_334,French (French),WS,WS,word,outside,12.334 pluie,pluie,rain,rain
+item_335,French (French),WS,WS,word,outside,12.335 caillou,caillou,stone,stone
+item_336,French (French),WS,WS,word,outside,12.336 toit,toit,roof,roof
+item_337,French (French),WS,WS,word,outside,12.337 pelle,pelle,shovel,shovel
+item_338,French (French),WS,WS,word,outside,12.338 bac à sable,bac à sable,sandbox,sandbox
+item_339,French (French),WS,WS,word,outside,12.339 toboggan,toboggan,slide (object),slide (object)
+item_340,French (French),WS,WS,word,outside,12.340 neige,neige,snow,snow
+item_341,French (French),WS,WS,word,outside,12.341 étoile,étoile,star,star
+item_342,French (French),WS,WS,word,outside,12.342 trottoir,trottoir,sidewalk,sidewalk
+item_343,French (French),WS,WS,word,outside,12.343 soleil,soleil,sun,sun
+item_344,French (French),WS,WS,word,outside,12.344 balançoire,balançoire,swing (object),swing (object)
+item_345,French (French),WS,WS,word,outside,12.345 arbre,arbre,tree,tree
+item_346,French (French),WS,WS,word,outside,12.346 eau,eau,water (not beverage),water (not beverage)
+item_347,French (French),WS,WS,word,outside,12.347 ciel,ciel,sky,sky
+item_348,French (French),WS,WS,word,outside,12.348 bonhomme de neige,bonhomme de neige,snowman,snowman
+item_349,French (French),WS,WS,word,outside,12.349 arrosoir,arrosoir,watering can,watering can
+item_350,French (French),WS,WS,word,outside,12.350 bâton,bâton,stick (object),stick (object)
+item_351,French (French),WS,WS,word,outside,12.351 pierre,pierre,stone,stone
+item_352,French (French),WS,WS,word,outside,12.352 rue,rue,road,road
+item_353,French (French),WS,WS,word,outside,12.353 vent,vent,wind,wind
+item_354,French (French),WS,WS,word,quantifiers,13.354 tous/tout,tous/tout,all,all
+item_355,French (French),WS,WS,word,quantifiers,13.355 un autre,un autre,another,another
+item_356,French (French),WS,WS,word,quantifiers,13.356 encore,encore,again,again
+item_357,French (French),WS,WS,word,quantifiers,13.357 aucun,aucun,none,none
+item_358,French (French),WS,WS,word,quantifiers,13.358 aucune,aucune,none,none
+item_359,French (French),WS,WS,word,quantifiers,13.359 pas,pas,not,not
+item_360,French (French),WS,WS,word,quantifiers,13.360 le même,le même,same,same
+item_361,French (French),WS,WS,word,quantifiers,13.361 la même,la même,same,same
+item_362,French (French),WS,WS,word,quantifiers,13.362 un peu,un peu,little (amount),little (amount)
+item_363,French (French),WS,WS,word,quantifiers,13.363 un,un,one,one
+item_364,French (French),WS,WS,word,quantifiers,13.364 une,une,one,one
+item_365,French (French),WS,WS,word,quantifiers,13.365 plein/beaucoup,plein/beaucoup,a lot,a lot
+item_366,French (French),WS,WS,word,quantifiers,13.366 du,du,some,some
+item_367,French (French),WS,WS,word,quantifiers,13.367 de la,de la,some,some
+item_368,French (French),WS,WS,word,quantifiers,13.368 des,des,some,some
+item_369,French (French),WS,WS,word,quantifiers,13.369 chaque,chaque,each/every,every
+item_370,French (French),WS,WS,word,quantifiers,13.370 autre,autre,other,other
+item_371,French (French),WS,WS,word,quantifiers,13.371 le,le,the,the
+item_372,French (French),WS,WS,word,quantifiers,13.372 la,la,the,the
+item_373,French (French),WS,WS,word,quantifiers,13.373 les,les,the,the
+item_374,French (French),WS,WS,word,quantifiers,13.374 aussi,aussi,also,also
+item_375,French (French),WS,WS,word,pronouns,14.375 à elle/sa,à elle/sa,hers,3SG.POSS
+item_376,French (French),WS,WS,word,pronouns,14.376 à lui/son,à lui/son,his,3SG.POSS
+item_377,French (French),WS,WS,word,pronouns,14.377 je,je,i,1SG
+item_378,French (French),WS,WS,word,pronouns,14.378 ça,ça,that,that
+item_379,French (French),WS,WS,word,pronouns,14.379 moi,moi,me,1SG
+item_380,French (French),WS,WS,word,pronouns,14.380 à moi,à moi,mine,1SG.POSS
+item_381,French (French),WS,WS,word,pronouns,14.381 ma,ma,my,1SG.POSS
+item_382,French (French),WS,WS,word,pronouns,14.382 mon,mon,my,1SG.POSS
+item_383,French (French),WS,WS,word,pronouns,14.383 mes,mes,my,1SG.POSS
+item_384,French (French),WS,WS,word,pronouns,14.384a tu,tu,you,2SG
+item_385,French (French),WS,WS,word,pronouns,14.384b vous (2sg.subj),vous (2sg.subj),you,2SG
+item_386,French (French),WS,WS,word,pronouns,14.384c vous (2pl.subj),vous (2pl.subj),you,2PL
+item_387,French (French),WS,WS,word,pronouns,14.384d vous (2sg.obj),vous (2sg.obj),you,2SG
+item_388,French (French),WS,WS,word,pronouns,14.384e vous (2pl.obj),vous (2pl.obj),you,2PL
+item_389,French (French),WS,WS,word,pronouns,14.384f à vous,à vous,to you,2PL
+item_390,French (French),WS,WS,word,pronouns,14.385 votre,votre,your,2PL.POSS
+item_391,French (French),WS,WS,word,pronouns,14.386 ta,ta,your,2SG.POSS
+item_392,French (French),WS,WS,word,pronouns,14.387 ton,ton,your,2SG.POSS
+item_393,French (French),WS,WS,word,pronouns,14.388 il,il,he,3SG
+item_394,French (French),WS,WS,word,pronouns,14.389 ses,ses,his,3SG.POSS
+item_395,French (French),WS,WS,word,pronouns,14.390a lui (topic),lui (topic),him,3SG
+item_396,French (French),WS,WS,word,pronouns,14.390b lui (obj),lui (obj),him,3SG
+item_397,French (French),WS,WS,word,pronouns,14.391 moi-même,moi-même,myself,1SG.REFL
+item_398,French (French),WS,WS,word,pronouns,14.392 notre,notre,our,1PL.POSS
+item_399,French (French),WS,WS,word,pronouns,14.393 le,le,it,3SG
+item_400,French (French),WS,WS,word,pronouns,14.394 elle,elle,she,3SG
+item_401,French (French),WS,WS,word,pronouns,14.395 elles,elles,them,3PL
+item_402,French (French),WS,WS,word,pronouns,14.396 leur,leur,their,3PL.POSS
+item_403,French (French),WS,WS,word,pronouns,14.397 eux,eux,them,3PL
+item_404,French (French),WS,WS,word,pronouns,14.398 la,la,it,3SG
+item_405,French (French),WS,WS,word,pronouns,14.399 ces,ces,these,these
+item_406,French (French),WS,WS,word,pronouns,14.400 ils,ils,them,3PL
+item_407,French (French),WS,WS,word,pronouns,14.401 ceux,ceux,those,those
+item_408,French (French),WS,WS,word,pronouns,14.402 nous,nous,we,1PL
+item_409,French (French),WS,WS,word,pronouns,14.403 les,les,them,3PL
+item_410,French (French),WS,WS,word,pronouns,14.404 on,on,they,1PL
+item_411,French (French),WS,WS,word,pronouns,14.405 toi-même,toi-même,yourself,2SG.REFL
+item_412,French (French),WS,WS,word,pronouns,14.406 en,en,it,
+item_413,French (French),WS,WS,word,pronouns,14.407 en,en,it,
+item_414,French (French),WS,WS,word,pronouns,14.408 y,y,it,
+item_415,French (French),WS,WS,word,people,15.409 tante,tante,aunt,aunt
+item_416,French (French),WS,WS,word,people,15.410 bébé,bébé,baby,baby
+item_417,French (French),WS,WS,word,people,15.411 nounou,nounou,babysitter,babysitter
+item_418,French (French),WS,WS,word,people,15.412 nom de la nounou,nom de la nounou,babysitter's name,babysitter's name
+item_419,French (French),WS,WS,word,people,15.413 garçon,garçon,boy,boy
+item_420,French (French),WS,WS,word,people,15.414 frère,frère,brother,brother
+item_421,French (French),WS,WS,word,people,15.415 enfant,enfant,child,child
+item_422,French (French),WS,WS,word,people,15.416 papa,papa,daddy,daddy
+item_423,French (French),WS,WS,word,people,15.417 fille,fille,girl,girl
+item_424,French (French),WS,WS,word,people,15.418 grand-mère,grand-mère,grandma,grandma
+item_425,French (French),WS,WS,word,people,15.419 grand-père,grand-père,grandpa,grandpa
+item_426,French (French),WS,WS,word,people,15.420 dame,dame,lady,lady
+item_427,French (French),WS,WS,word,people,15.421 maman,maman,mommy,mommy
+item_428,French (French),WS,WS,word,people,15.422 nom de l'enfant,nom de l'enfant,child's own name,child's own name
+item_429,French (French),WS,WS,word,people,15.423 gens,gens,people,people
+item_430,French (French),WS,WS,word,people,15.424 personne,personne,person,person
+item_431,French (French),WS,WS,word,people,15.425 soeur,soeur,sister,sister
+item_432,French (French),WS,WS,word,people,15.426 maître,maître,teacher,teacher
+item_433,French (French),WS,WS,word,people,15.427 oncle,oncle,uncle,uncle
+item_434,French (French),WS,WS,word,people,15.428 monsieur,monsieur,man,man
+item_435,French (French),WS,WS,word,people,15.429 clown,clown,clown,clown
+item_436,French (French),WS,WS,word,people,15.430 docteur,docteur,doctor,doctor
+item_437,French (French),WS,WS,word,people,15.431 pompier,pompier,firefighter,firefighter
+item_438,French (French),WS,WS,word,people,15.432 copain,copain,friend,friend
+item_439,French (French),WS,WS,word,people,15.433 facteur,facteur,mailman,mailman
+item_440,French (French),WS,WS,word,people,15.434 infirmière,infirmière,nurse,nurse
+item_441,French (French),WS,WS,word,people,15.435 police,police,police,police
+item_442,French (French),WS,WS,word,people,15.436 nom de l'animal domestique,nom de l'animal domestique,pet's name,pet's name
+item_443,French (French),WS,WS,word,time_words,16.437 jour,jour,day,day
+item_444,French (French),WS,WS,word,time_words,16.438 après,après,after,after
+item_445,French (French),WS,WS,word,time_words,16.439 matin,matin,morning,morning
+item_446,French (French),WS,WS,word,time_words,16.440 nuit,nuit,night,night
+item_447,French (French),WS,WS,word,time_words,16.441 maintenant,maintenant,now,now
+item_448,French (French),WS,WS,word,time_words,16.442 aujourd'hui,aujourd'hui,today,today
+item_449,French (French),WS,WS,word,time_words,16.443 demain,demain,tomorrow,tomorrow
+item_450,French (French),WS,WS,word,time_words,16.444 ce soir,ce soir,tonight,tonight
+item_451,French (French),WS,WS,word,time_words,16.445 avant,avant,before,before
+item_452,French (French),WS,WS,word,time_words,16.446 heure,heure,time,time
+item_453,French (French),WS,WS,word,time_words,16.447 hier,hier,yesterday,yesterday
+item_454,French (French),WS,WS,word,connecting_words,17.448a et,et,and,and
+item_455,French (French),WS,WS,word,connecting_words,17.448b et puis,et puis,and then,
+item_456,French (French),WS,WS,word,connecting_words,17.449 parce que,parce que,because,because
+item_457,French (French),WS,WS,word,connecting_words,17.450 mais,mais,but,but
+item_458,French (French),WS,WS,word,connecting_words,17.451 si,si,if,if
+item_459,French (French),WS,WS,word,connecting_words,17.452 donc,donc,so,so
+item_460,French (French),WS,WS,word,connecting_words,17.453 alors,alors,so,so
+item_461,French (French),WS,WS,word,helping_verbs,18.455 suis,suis,am,am
+item_462,French (French),WS,WS,word,helping_verbs,18.456 sont,sont,are,are
+item_463,French (French),WS,WS,word,helping_verbs,18.457 être,être,to be,be
+item_464,French (French),WS,WS,word,helping_verbs,18.458 est,est,is,is
+item_465,French (French),WS,WS,word,helping_verbs,18.459 peux,peux,can,can
+item_466,French (French),WS,WS,word,helping_verbs,18.460 pouvait,pouvait,can,can
+item_467,French (French),WS,WS,word,helping_verbs,18.461 peuvent,peuvent,can,can
+item_468,French (French),WS,WS,word,helping_verbs,18.462 a(s) fait,a(s) fait,did,do
+item_469,French (French),WS,WS,word,helping_verbs,18.463 faire,faire,do,do
+item_470,French (French),WS,WS,word,helping_verbs,18.464 fait,fait,do,do
+item_471,French (French),WS,WS,word,helping_verbs,18.465 ne pas,ne pas,not,not
+item_472,French (French),WS,WS,word,helping_verbs,18.466 devoir faire,devoir faire,have to do,need
+item_473,French (French),WS,WS,word,helping_verbs,18.467 va,va,go,go
+item_474,French (French),WS,WS,word,helping_verbs,18.468 avoir à faire,avoir à faire,have to do,
+item_475,French (French),WS,WS,word,helping_verbs,18.469 laisse-moi,laisse-moi,let me,allow
+item_476,French (French),WS,WS,word,helping_verbs,18.470 vont,vont,go,go
+item_477,French (French),WS,WS,word,helping_verbs,18.471 avoir besoin de,avoir besoin de,I need,0
+item_478,French (French),WS,WS,word,helping_verbs,18.472 essayer de,essayer de,try to,try
+item_479,French (French),WS,WS,word,helping_verbs,18.473 vouloir,vouloir,want,want
+item_480,French (French),WS,WS,word,helping_verbs,18.474 était,était,was,was
+item_481,French (French),WS,WS,word,household,19.475 couverture,couverture,blanket,blanket
+item_482,French (French),WS,WS,word,household,19.476 bouteille,bouteille,bottle,bottle
+item_483,French (French),WS,WS,word,household,19.477 bol,bol,bowl,bowl
+item_484,French (French),WS,WS,word,household,19.478 boite,boite,box,box
+item_485,French (French),WS,WS,word,household,19.479 balai,balai,broom,broom
+item_486,French (French),WS,WS,word,household,19.480 brosse,brosse,brush (object),brush (object)
+item_487,French (French),WS,WS,word,household,19.481 horloge,horloge,clock,clock
+item_488,French (French),WS,WS,word,household,19.482 peigne,peigne,comb (object),comb (object)
+item_489,French (French),WS,WS,word,household,19.483 tasse,tasse,cup,cup
+item_490,French (French),WS,WS,word,household,19.484 plat,plat,dish,dish
+item_491,French (French),WS,WS,word,household,19.485 fourchette,fourchette,fork,fork
+item_492,French (French),WS,WS,word,household,19.486 verre,verre,glass,glass
+item_493,French (French),WS,WS,word,household,19.487 lunettes,lunettes,glasses,glasses
+item_494,French (French),WS,WS,word,household,19.488 marteau,marteau,hammer,hammer
+item_495,French (French),WS,WS,word,household,19.489 clefs,clefs,keys,key
+item_496,French (French),WS,WS,word,household,19.490 lampe,lampe,lamp,lamp
+item_497,French (French),WS,WS,word,household,19.491 lumière,lumière,light,light (object)
+item_498,French (French),WS,WS,word,household,19.492 médicaments,médicaments,medicine,medicine
+item_499,French (French),WS,WS,word,household,19.493 argent,argent,money,money
+item_500,French (French),WS,WS,word,household,19.494 papier,papier,paper,paper
+item_501,French (French),WS,WS,word,household,19.495 sous/pièce,sous/pièce,coin,coin
+item_502,French (French),WS,WS,word,household,19.496 photo,photo,photos,photo
+item_503,French (French),WS,WS,word,household,19.497 oreiller,oreiller,pillow,pillow
+item_504,French (French),WS,WS,word,household,19.498 plante,plante,plant,plant
+item_505,French (French),WS,WS,word,household,19.499 assiette,assiette,plate,plate
+item_506,French (French),WS,WS,word,household,19.500 porte-monnaie,porte-monnaie,coat hanger,coat hanger
+item_507,French (French),WS,WS,word,household,19.501 radio,radio,radio,radio
+item_508,French (French),WS,WS,word,household,19.502 ciseaux,ciseaux,scissors,scissors
+item_509,French (French),WS,WS,word,household,19.503 savon,savon,soap,soap
+item_510,French (French),WS,WS,word,household,19.504 cuillère,cuillère,spoon,spoon
+item_511,French (French),WS,WS,word,household,19.505 téléphone,téléphone,telephone,telephone
+item_512,French (French),WS,WS,word,household,19.506 brosse à dent,brosse à dent,toothbrush,toothbrush
+item_513,French (French),WS,WS,word,household,19.507 serviette,serviette,towel,towel
+item_514,French (French),WS,WS,word,household,19.508 poubelle,poubelle,trash can,trash
+item_515,French (French),WS,WS,word,household,19.509 aspirateur,aspirateur,vacuum,vacuum
+item_516,French (French),WS,WS,word,household,19.510 montre,montre,watch (object),watch (object)
+item_517,French (French),WS,WS,word,household,19.511 feuille,feuille,paper,paper
+item_518,French (French),WS,WS,word,household,19.512 musique,musique,music,music
+item_519,French (French),WS,WS,word,household,19.513 sirop,sirop,syrop,syrup
+item_520,French (French),WS,WS,word,household,19.514 biberon,biberon,bottle,bottle
+item_521,French (French),WS,WS,word,household,19.515 télécommande,télécommande,remote control,remote control
+item_522,French (French),WS,WS,word,household,19.516 sucette,sucette,pacifier,pacifier
+item_523,French (French),WS,WS,word,household,19.517 panier,panier,basket,basket
+item_524,French (French),WS,WS,word,household,19.518 seau,seau,bucket,bucket
+item_525,French (French),WS,WS,word,household,19.519 appareil photo,appareil photo,camera,camera
+item_526,French (French),WS,WS,word,household,19.520 ordure,ordure,garbage,garbage
+item_527,French (French),WS,WS,word,household,19.521 pot,pot,jar,jar
+item_528,French (French),WS,WS,word,household,19.522 couteau,couteau,knife,knife
+item_529,French (French),WS,WS,word,household,19.523 serpillière,serpillière,mop,mop
+item_530,French (French),WS,WS,word,household,19.524 clou,clou,nail (object),nail (object)
+item_531,French (French),WS,WS,word,household,19.525 serviette de table,serviette de table,napkin,napkin
+item_532,French (French),WS,WS,word,household,19.526 cassette,cassette,cassette,tape (object)
+item_533,French (French),WS,WS,word,household,19.527 mouchoir,mouchoir,tissue,tissue
+item_534,French (French),WS,WS,word,household,19.528 plateau,plateau,tray,tray
+item_535,French (French),WS,WS,word,household,19.529 coussin,coussin,cushion,cushion
+item_536,French (French),WS,WS,word,descriptive_words,20.530 parti,parti,all gone,all gone
+item_537,French (French),WS,WS,word,descriptive_words,20.531 endormi,endormi,asleep,asleep
+item_538,French (French),WS,WS,word,descriptive_words,20.532 pas bon,pas bon,not good,bad
+item_539,French (French),WS,WS,word,descriptive_words,20.533 grand,grand,big,big
+item_540,French (French),WS,WS,word,descriptive_words,20.534 bleu,bleu,blue,blue
+item_541,French (French),WS,WS,word,descriptive_words,20.535 cassé,cassé,broken,broken
+item_542,French (French),WS,WS,word,descriptive_words,20.536 attention,attention,watch out,watch out
+item_543,French (French),WS,WS,word,descriptive_words,20.537 propre,propre,clean (description),clean (description)
+item_544,French (French),WS,WS,word,descriptive_words,20.538 sèche,sèche,dry,dry
+item_545,French (French),WS,WS,word,descriptive_words,20.539 froid,froid,cold,cold
+item_546,French (French),WS,WS,word,descriptive_words,20.540 mignon,mignon,cute,cute
+item_547,French (French),WS,WS,word,descriptive_words,20.541 sombre,sombre,dark,dark
+item_548,French (French),WS,WS,word,descriptive_words,20.542 sale,sale,dirty,dirty
+item_549,French (French),WS,WS,word,descriptive_words,20.543 sec,sec,dry,dry
+item_550,French (French),WS,WS,word,descriptive_words,20.544 froide,froide,cold,cold
+item_551,French (French),WS,WS,word,descriptive_words,20.545 vide,vide,empty,empty
+item_552,French (French),WS,WS,word,descriptive_words,20.546 vite,vite,fast,fast
+item_553,French (French),WS,WS,word,descriptive_words,20.547 bien,bien,good,good
+item_554,French (French),WS,WS,word,descriptive_words,20.548 doux,doux,soft,soft
+item_555,French (French),WS,WS,word,descriptive_words,20.549 bon,bon,good,good
+item_556,French (French),WS,WS,word,descriptive_words,20.550 content,content,happy,happy
+item_557,French (French),WS,WS,word,descriptive_words,20.551 dur,dur,hard,hard
+item_558,French (French),WS,WS,word,descriptive_words,20.552 chaud,chaud,hot,hot
+item_559,French (French),WS,WS,word,descriptive_words,20.553 mignonne,mignonne,cute,cute
+item_560,French (French),WS,WS,word,descriptive_words,20.554 avoir faim,avoir faim,hungry,hungry
+item_561,French (French),WS,WS,word,descriptive_words,20.555 bonne,bonne,good,good
+item_562,French (French),WS,WS,word,descriptive_words,20.556 blessé,blessé,hurt (description),hurt (description)
+item_563,French (French),WS,WS,word,descriptive_words,20.557 petit,petit,small,small
+item_564,French (French),WS,WS,word,descriptive_words,20.558 chaude,chaude,hot,hot
+item_565,French (French),WS,WS,word,descriptive_words,20.559 mignon,mignon,cute,cute
+item_566,French (French),WS,WS,word,descriptive_words,20.560 douce,douce,soft,soft
+item_567,French (French),WS,WS,word,descriptive_words,20.561 vilain,vilain,naughty,naughty
+item_568,French (French),WS,WS,word,descriptive_words,20.562 coquine,coquine,naughty,naughty
+item_569,French (French),WS,WS,word,descriptive_words,20.563 dégoûtante,dégoûtante,disgusting,disgusting
+item_570,French (French),WS,WS,word,descriptive_words,20.564 bruyant,bruyant,noisy,noisy
+item_571,French (French),WS,WS,word,descriptive_words,20.565 long,long,long,long
+item_572,French (French),WS,WS,word,descriptive_words,20.566 derrière,derrière,behind,behind
+item_573,French (French),WS,WS,word,descriptive_words,20.567 coincé,coincé,stuck,stuck
+item_574,French (French),WS,WS,word,descriptive_words,20.568 verte,verte,green,green
+item_575,French (French),WS,WS,word,descriptive_words,20.569 lourde,lourde,heavy,heavy
+item_576,French (French),WS,WS,word,descriptive_words,20.570 vilaine,vilaine,naughty,naughty
+item_577,French (French),WS,WS,word,descriptive_words,20.571 haut,haut,high,high
+item_578,French (French),WS,WS,word,descriptive_words,20.572 fort,fort,strong,strong
+item_579,French (French),WS,WS,word,descriptive_words,20.573 folle,folle,crazy,crazy
+item_580,French (French),WS,WS,word,descriptive_words,20.574 neuve,neuve,new,new
+item_581,French (French),WS,WS,word,descriptive_words,20.575 gentil,gentil,nice,nice
+item_582,French (French),WS,WS,word,descriptive_words,20.576 vieille,vieille,old,old
+item_583,French (French),WS,WS,word,descriptive_words,20.577 joli,joli,beautiful,pretty
+item_584,French (French),WS,WS,word,descriptive_words,20.578 rouge,rouge,red,red
+item_585,French (French),WS,WS,word,descriptive_words,20.579 avoir peur,avoir peur,scared,scared
+item_586,French (French),WS,WS,word,descriptive_words,20.580 malade,malade,sick,sick
+item_587,French (French),WS,WS,word,descriptive_words,20.581 avoir sommeil,avoir sommeil,sleepy,sleepy
+item_588,French (French),WS,WS,word,descriptive_words,20.582 vieux,vieux,old,old
+item_589,French (French),WS,WS,word,descriptive_words,20.583 tendre,tendre,tender,tender
+item_590,French (French),WS,WS,word,descriptive_words,20.584 avoir soif,avoir soif,thirsty,thirsty
+item_591,French (French),WS,WS,word,descriptive_words,20.585 fatigué,fatigué,tired,tired
+item_592,French (French),WS,WS,word,descriptive_words,20.586 mouillé,mouillé,wet (description),wet (description)
+item_593,French (French),WS,WS,word,descriptive_words,20.587 dégoûtant,dégoûtant,disgusting,disgusting
+item_594,French (French),WS,WS,word,descriptive_words,20.588 belle,belle,pretty,pretty
+item_595,French (French),WS,WS,word,descriptive_words,20.589 méchant,méchant,bad,bad
+item_596,French (French),WS,WS,word,descriptive_words,20.590 gentille,gentille,nice,nice
+item_597,French (French),WS,WS,word,descriptive_words,20.591 être réveillé,être réveillé,awake,awake
+item_598,French (French),WS,WS,word,descriptive_words,20.592 collante,collante,sticky,sticky
+item_599,French (French),WS,WS,word,descriptive_words,20.593 dernier,dernier,last,last
+item_600,French (French),WS,WS,word,descriptive_words,20.594 coquin,coquin,naughty,naughty
+item_601,French (French),WS,WS,word,descriptive_words,20.595 mieux,mieux,better,better
+item_602,French (French),WS,WS,word,descriptive_words,20.596 noir,noir,black,black
+item_603,French (French),WS,WS,word,descriptive_words,20.597 marron,marron,brown,brown
+item_604,French (French),WS,WS,word,descriptive_words,20.598 première,première,first,first
+item_605,French (French),WS,WS,word,descriptive_words,20.599 vert,vert,green,green
+item_606,French (French),WS,WS,word,descriptive_words,20.600 beau,beau,beautiful,beautiful
+item_607,French (French),WS,WS,word,descriptive_words,20.601 plein,plein,full,full
+item_608,French (French),WS,WS,word,descriptive_words,20.602 bruyante,bruyante,noisy,noisy
+item_609,French (French),WS,WS,word,descriptive_words,20.603 orange,orange,orange (fruit),orange (food)
+item_610,French (French),WS,WS,word,descriptive_words,20.604 blanc,blanc,white,white
+item_611,French (French),WS,WS,word,descriptive_words,20.605 haute,haute,high,high
+item_612,French (French),WS,WS,word,descriptive_words,20.606 tranquille,tranquille,calm,calm
+item_613,French (French),WS,WS,word,descriptive_words,20.607 triste,triste,sad,sad
+item_614,French (French),WS,WS,word,descriptive_words,20.608 lent,lent,slow,slow
+item_615,French (French),WS,WS,word,descriptive_words,20.609 venteux,venteux,windy,windy
+item_616,French (French),WS,WS,word,descriptive_words,20.610 jaune,jaune,yellow,yellow
+item_617,French (French),WS,WS,word,descriptive_words,20.611 minuscule,minuscule,little (description),little (description)
+item_618,French (French),WS,WS,word,descriptive_words,20.612 méchante,méchante,naughty,naughty
+item_619,French (French),WS,WS,word,descriptive_words,20.613 premier,premier,first,first
+item_620,French (French),WS,WS,word,descriptive_words,20.614 petite,petite,small,small
+item_621,French (French),WS,WS,word,descriptive_words,20.615 blanche,blanche,white,white
+item_622,French (French),WS,WS,word,descriptive_words,20.616 pleine,pleine,full,full
+item_623,French (French),WS,WS,word,descriptive_words,20.617 contente,contente,happy,happy
+item_624,French (French),WS,WS,word,descriptive_words,20.618 neuf,neuf,new,new
+item_625,French (French),WS,WS,word,descriptive_words,20.619 forte,forte,strong,strong
+item_626,French (French),WS,WS,word,descriptive_words,20.620 grande,grande,big,big
+item_627,French (French),WS,WS,word,descriptive_words,20.621 fou,fou,crazy,crazy
+item_628,French (French),WS,WS,word,descriptive_words,20.622 lente,lente,slow,slow
+item_629,French (French),WS,WS,word,action_words,21.623 mordre,mordre,bite,bite
+item_630,French (French),WS,WS,word,action_words,21.624 souffler,souffler,blow,blow
+item_631,French (French),WS,WS,word,action_words,21.625 casser,casser,break,break
+item_632,French (French),WS,WS,word,action_words,21.626 apporter,apporter,bring,bring
+item_633,French (French),WS,WS,word,action_words,21.627 se cogner,se cogner,hit/bump into,hit
+item_634,French (French),WS,WS,word,action_words,21.628 nettoyer,nettoyer,clean (action),clean (action)
+item_635,French (French),WS,WS,word,action_words,21.629 fermer,fermer,close,close
+item_636,French (French),WS,WS,word,action_words,21.630 pleurer,pleurer,cry,cry
+item_637,French (French),WS,WS,word,action_words,21.631 danser,danser,dance,dance
+item_638,French (French),WS,WS,word,action_words,21.632 dessiner,dessiner,draw,draw
+item_639,French (French),WS,WS,word,action_words,21.633 boire,boire,drink (action),drink (action)
+item_640,French (French),WS,WS,word,action_words,21.634 conduire,conduire,drive,drive
+item_641,French (French),WS,WS,word,action_words,21.635 manger,manger,eat,eat
+item_642,French (French),WS,WS,word,action_words,21.636 tomber,tomber,fall,fall
+item_643,French (French),WS,WS,word,action_words,21.637 se transformer,se transformer,change,change
+item_644,French (French),WS,WS,word,action_words,21.638 arracher,arracher,pull/tear off,tear
+item_645,French (French),WS,WS,word,action_words,21.639 donner,donner,give,give
+item_646,French (French),WS,WS,word,action_words,21.640 nourrir,nourrir,feed,feed
+item_647,French (French),WS,WS,word,action_words,21.641 avoir,avoir,have,have
+item_648,French (French),WS,WS,word,action_words,21.642 entendre,entendre,hear,hear
+item_649,French (French),WS,WS,word,action_words,21.643 cacher,cacher,hide,hide
+item_650,French (French),WS,WS,word,action_words,21.644 nager,nager,swim,swim
+item_651,French (French),WS,WS,word,action_words,21.645 réparer,réparer,repair/fix,fix
+item_652,French (French),WS,WS,word,action_words,21.646 finir,finir,finish,finish
+item_653,French (French),WS,WS,word,action_words,21.647 recevoir,recevoir,receive,
+item_654,French (French),WS,WS,word,action_words,21.648 aller,aller,go,go
+item_655,French (French),WS,WS,word,action_words,21.649 aider,aider,help,help
+item_656,French (French),WS,WS,word,action_words,21.650 taper,taper,hit,hit
+item_657,French (French),WS,WS,word,action_words,21.651 prendre dans ses bras,prendre dans ses bras,hug,hug
+item_658,French (French),WS,WS,word,action_words,21.652 se dépêcher,se dépêcher,hurry up,hurry
+item_659,French (French),WS,WS,word,action_words,21.653 sauter,sauter,jump,jump
+item_660,French (French),WS,WS,word,action_words,21.654 donner un coup,donner un coup,kick,kick
+item_661,French (French),WS,WS,word,action_words,21.655 faire un bisou,faire un bisou,kiss,kiss
+item_662,French (French),WS,WS,word,action_words,21.656 courir,courir,run,run
+item_663,French (French),WS,WS,word,action_words,21.657 regarder,regarder,look,look
+item_664,French (French),WS,WS,word,action_words,21.658 s'en aller,s'en aller,leave,leave
+item_665,French (French),WS,WS,word,action_words,21.659 laver,laver,wash,wash
+item_666,French (French),WS,WS,word,action_words,21.660 se traîner,se traîner,crawl,crawl
+item_667,French (French),WS,WS,word,action_words,21.661 aimer,aimer,love,love
+item_668,French (French),WS,WS,word,action_words,21.662 ouvrir,ouvrir,open (action),open (action)
+item_669,French (French),WS,WS,word,action_words,21.663 jouer,jouer,play,play
+item_670,French (French),WS,WS,word,action_words,21.664 tirer,tirer,pull,pull
+item_671,French (French),WS,WS,word,action_words,21.665 tourner,tourner,turn,turn
+item_672,French (French),WS,WS,word,action_words,21.666 trouver,trouver,find,find
+item_673,French (French),WS,WS,word,action_words,21.667 aller bien avec,aller bien avec,go well with,
+item_674,French (French),WS,WS,word,action_words,21.668 détester,détester,hate,hate
+item_675,French (French),WS,WS,word,action_words,21.669 tenir,tenir,hold,hold
+item_676,French (French),WS,WS,word,action_words,21.670 couper,couper,cut,cut
+item_677,French (French),WS,WS,word,action_words,21.671 frapper à la porte,frapper à la porte,knock,knock
+item_678,French (French),WS,WS,word,action_words,21.672 prendre,prendre,take,take
+item_679,French (French),WS,WS,word,action_words,21.673 pousser,pousser,push,push
+item_680,French (French),WS,WS,word,action_words,21.674 mettre,mettre,put,put
+item_681,French (French),WS,WS,word,action_words,21.675 coller,coller,glue (action),glue (action)
+item_682,French (French),WS,WS,word,action_words,21.676 lire,lire,read,read
+item_683,French (French),WS,WS,word,action_words,21.677 faire du vélo/de la moto,faire du vélo/de la moto,cycle,cycle
+item_684,French (French),WS,WS,word,action_words,21.678 dire,dire,say,say
+item_685,French (French),WS,WS,word,action_words,21.679 marcher à quatre pattes,marcher à quatre pattes,crawl,crawl
+item_686,French (French),WS,WS,word,action_words,21.680 voir,voir,see,see
+item_687,French (French),WS,WS,word,action_words,21.681 jeter,jeter,dump,dump
+item_688,French (French),WS,WS,word,action_words,21.682 montrer,montrer,show,show
+item_689,French (French),WS,WS,word,action_words,21.683 chanter,chanter,sing,sing
+item_690,French (French),WS,WS,word,action_words,21.684 dormir,dormir,sleep,sleep
+item_691,French (French),WS,WS,word,action_words,21.685 sourire,sourire,smile,smile
+item_692,French (French),WS,WS,word,action_words,21.686 éclabousser,éclabousser,splash,splash
+item_693,French (French),WS,WS,word,action_words,21.687 arrêter,arrêter,stop,stop
+item_694,French (French),WS,WS,word,action_words,21.688 nager,nager,swim,swim
+item_695,French (French),WS,WS,word,action_words,21.689 ramper,ramper,crawl,crawl
+item_696,French (French),WS,WS,word,action_words,21.690 balancer,balancer,swing (action),swing (action)
+item_697,French (French),WS,WS,word,action_words,21.691 sautiller,sautiller,hop/skip,skip
+item_698,French (French),WS,WS,word,action_words,21.692 détacher,détacher,detach/untie,
+item_699,French (French),WS,WS,word,action_words,21.693 se glisser,se glisser,slide (action),slide (action)
+item_700,French (French),WS,WS,word,action_words,21.694 devenir,devenir,become,become
+item_701,French (French),WS,WS,word,action_words,21.695 chatouiller,chatouiller,tickle,tickle
+item_702,French (French),WS,WS,word,action_words,21.696 monter,monter,climb,climb
+item_703,French (French),WS,WS,word,action_words,21.697 toucher,toucher,touch,touch
+item_704,French (French),WS,WS,word,action_words,21.698 marcher,marcher,walk,walk
+item_705,French (French),WS,WS,word,action_words,21.699 essuyer,essuyer,wipe,wipe
+item_706,French (French),WS,WS,word,action_words,21.700 fendre,fendre,split,
+item_707,French (French),WS,WS,word,action_words,21.701 se tourner,se tourner,turn,turn
+item_708,French (French),WS,WS,word,action_words,21.702 écrire,écrire,write,write
+item_709,French (French),WS,WS,word,action_words,21.703 construire,construire,build,build
+item_710,French (French),WS,WS,word,action_words,21.704 porter,porter,carry,carry
+item_711,French (French),WS,WS,word,action_words,21.705 attraper,attraper,catch,catch
+item_712,French (French),WS,WS,word,action_words,21.706 courir après attraper,courir après attraper,catch,catch
+item_713,French (French),WS,WS,word,action_words,21.707 faire bravo,faire bravo,congratulate,congratulate
+item_714,French (French),WS,WS,word,action_words,21.708 lécher,lécher,lick,lick
+item_715,French (French),WS,WS,word,action_words,21.709 aimer bien,aimer bien,like,like
+item_716,French (French),WS,WS,word,action_words,21.710 écouter,écouter,listen,listen
+item_717,French (French),WS,WS,word,action_words,21.711 faire,faire,do,do
+item_718,French (French),WS,WS,word,action_words,21.712 ramasser,ramasser,pick up,pick
+item_719,French (French),WS,WS,word,action_words,21.713 faire de la peinture,faire de la peinture,paint (action),paint (action)
+item_720,French (French),WS,WS,word,action_words,21.714 enlever,enlever,lift,lift
+item_721,French (French),WS,WS,word,action_words,21.715 renverser,renverser,spill,spill
+item_722,French (French),WS,WS,word,action_words,21.716 faire semblant,faire semblant,pretend,pretend
+item_723,French (French),WS,WS,word,action_words,21.717 goûter,goûter,taste,taste
+item_724,French (French),WS,WS,word,action_words,21.718 décrocher,décrocher,pick up,
+item_725,French (French),WS,WS,word,action_words,21.719 déchirer,déchirer,tear,tear
+item_726,French (French),WS,WS,word,action_words,21.720 s'envoler,s'envoler,fly,fly
+item_727,French (French),WS,WS,word,action_words,21.721 acheter,acheter,buy,buy
+item_728,French (French),WS,WS,word,action_words,21.722 secouer,secouer,shake,shake
+item_729,French (French),WS,WS,word,action_words,21.723 embrasser,embrasser,kiss,kiss
+item_730,French (French),WS,WS,word,action_words,21.724 attendre,attendre,wait,wait
+item_731,French (French),WS,WS,word,action_words,21.725 partager,partager,share,share
+item_732,French (French),WS,WS,word,action_words,21.726 s'asseoir,s'asseoir,sit,sit
+item_733,French (French),WS,WS,word,action_words,21.727 faire du patin,faire du patin,skate,skate (action)
+item_734,French (French),WS,WS,word,action_words,21.728 glisser,glisser,slide (action),slide (action)
+item_735,French (French),WS,WS,word,action_words,21.729 travailler,travailler,work (action),work (action)
+item_736,French (French),WS,WS,word,action_words,21.730 souhaiter,souhaiter,wish,wish
+item_737,French (French),WS,WS,word,action_words,21.731 vendre,vendre,sell,sell
+item_738,French (French),WS,WS,word,action_words,21.732 être debout,être debout,get up,get up
+item_739,French (French),WS,WS,word,action_words,21.733 rester,rester,stay,stay
+item_740,French (French),WS,WS,word,action_words,21.734 descendre,descendre,descend,
+item_741,French (French),WS,WS,word,action_words,21.735 balayer,balayer,sweep,sweep
+item_742,French (French),WS,WS,word,action_words,21.736 parler,parler,talk,talk
+item_743,French (French),WS,WS,word,action_words,21.737 penser,penser,think,think
+item_744,French (French),WS,WS,word,action_words,21.738 se réveiller,se réveiller,wake,wake
+item_745,French (French),WS,WS,word,action_words,21.739 attacher,attacher,attach,
+item_746,French (French),WS,WS,word,action_words,21.740 couvrir,couvrir,cover,cover (action)
+item_747,French (French),WS,WS,word,action_words,21.741 grimper,grimper,climb,climb
+item_748,French (French),WS,WS,word,action_words,21.742 cuisiner,cuisiner,cook,cook
+item_749,French (French),WS,WS,word,action_words,21.743 accrocher,accrocher,hang,hang
+item_750,French (French),WS,WS,word,action_words,21.744 arrêter,arrêter,stop,stop
+item_751,French (French),WS,WS,word,action_words,21.745 sécher,sécher,dry (action),dry (action)
+item_752,French (French),WS,WS,word,action_words,21.746 déposer,déposer,put,put
+item_753,French (French),WS,WS,word,action_words,21.747 grossir,grossir,grow,grow
+item_754,French (French),WS,WS,word,action_words,21.748 refroidir,refroidir,cool down,
+item_755,French (French),WS,WS,word,action_words,21.749 grandir,grandir,grow,grow
+item_756,French (French),WS,WS,word,action_words,21.750 rougir,rougir,redden/blush,
+item_757,French (French),WS,WS,word,action_words,21.751 vomir,vomir,vomit,
+item_758,French (French),WS,WS,word,action_words,21.752 dire,dire,say,say
+item_759,French (French),WS,WS,how_use_words,,parle d'évènements passés ou de personnes absentes,,,
+item_760,French (French),WS,WS,how_use_words,,parle de choses qui vont se produire dans le futur,,,
+item_761,French (French),WS,WS,how_use_words,,"parle d'objets qui ne sont pas présents comme d'un jouet manquant ou absent, se réfère à un animal domestique hors de vue, ou pose des questions à propos d'une personne absente",,,
+item_762,French (French),WS,WS,how_use_words,,comprend si vous lui demandez quelque chose qui n'est pas dans la pièce,,,
+item_763,French (French),WS,WS,complexity,,la chaussure de maman (3/5),,,
+item_764,French (French),WS,WS,complexity,,une chaise;un frigidaire (2/4),,,
+item_765,French (French),WS,WS,complexity,,je veux de la confiture;du chocolat (4/8),,,
+item_766,French (French),WS,WS,complexity,,il est beau (2/4),,,
+item_767,French (French),WS,WS,complexity,,elle monte sur la chaise (3/6),,,
+item_768,French (French),WS,WS,complexity,,mon robot (3/5),,,
+item_769,French (French),WS,WS,complexity,,il;elle cherche (2/4),,,
+item_770,French (French),WS,WS,complexity,,je veux la chaise (5/10),,,
+item_771,French (French),WS,WS,complexity,,c'est une voiture (2/4),,,
+item_772,French (French),WS,WS,complexity,,aller à l'école (2/4),,,
+item_773,French (French),WS,WS,complexity,,c'est dans la valise (3/5),,,
+item_774,French (French),WS,WS,complexity,,les garçons ils ouvrent la boite (6/12),,,
+item_775,French (French),WS,WS,complexity,,est-ce que c'est un chien? (3/6),,,
+item_776,French (French),WS,WS,complexity,,"papa, il essuie la table (5/10",,,
+item_777,French (French),WS,WS,complexity,,les chiens sont là (2/4),,,
+item_778,French (French),WS,WS,complexity,,les bébés ils arrachent la fleur (6/11),,,
+item_779,French (French),WS,WS,complexity,,je ne joue pas (3/5),,,
+item_780,French (French),WS,WS,complexity,,je veux descendre (2/3),,,
+item_781,French (French),WS,WS,complexity,,le bébé il embrasse le nounours (6/12),,,
+item_782,French (French),WS,WS,complexity,,je vais t'attaquer (2/3),,,
+item_783,French (French),WS,WS,complexity,,le bébé il mange (3/6),,,
+item_784,French (French),WS,WS,complexity,,les garçons ils apportent le gâteau (9/18),,,
+item_785,French (French),WS,WS,complexity,,(re)venir de l'école;de la plage (2/4),,,
+item_786,French (French),WS,WS,complexity,,le papa il attrape le ballon (9/18),,,
+item_787,French (French),WS,WS,complexity,,les garçons ils arrêtent la voiture (7/13),,,
+item_788,French (French),WS,WS,complexity,,le garçon il enlève le bol (7/14),,,
+item_789,French (French),WS,WS,complexity,,le garçon il finit le gâteau (8/15),,,
+item_790,French (French),WS,WS,complexity,,aller chez grand-mère;à la plage (2/3),,,
+item_791,French (French),WS,WS,complexity,,le papa il lance la balle (7/13),,,
+item_792,French (French),WS,WS,complexity,,la fille elle dessine (5/10),,,
+item_793,French (French),WS,WS,complexity,,il (la) touche la voiture (3/6),,,
+item_794,French (French),WS,WS,complexity,,je vois pas le gâteau (6/12),,,
+item_795,French (French),WS,WS,complexity,,le bébé il fait bravo (6/12),,,
+item_796,French (French),WS,WS,complexity,,le papa il dit bonjour (5/9),,,
+item_797,French (French),WS,WS,verb_endings,,à l'infinitif,,,
+item_798,French (French),WS,WS,verb_endings,,au présent,,,
+item_799,French (French),WS,WS,verb_endings,,au passé composé,,,
+item_800,French (French),WS,WS,verb_endings,,à l'imparfait,,,
+item_801,French (French),WS,WS,verb_endings,,au futur,,,
+item_802,French (French),WS,WS,verb_endings,,à l'impératif,,,

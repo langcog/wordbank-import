@@ -1,0 +1,794 @@
+﻿field,column,group,type
+study_id,Code,child,study_id
+,Exact age (in days),,
+data_age,age_mo,admin,data_age
+sex,Gender,child,sex
+,Language(s),,
+languages,lang1,admin,language
+languages,lang2,admin,language
+,Level of education (mother),,
+mom_ed,Years of education since 6 yo (mother),child,mom_ed
+,Hopkins code,,
+date_of_test,date de recueil,admin,date_of_test
+date_of_birth,date de naissance,child,date_birth
+item_1,01.1 animal,item,word
+item_2,01.2 ours,item,word
+item_3,01.3 abeille,item,word
+item_4,01.4 oiseau,item,word
+item_5,01.5 petite bête,item,word
+item_6,01.6 lapin,item,word
+item_7,01.7 papillon,item,word
+item_8,01.8 chat,item,word
+item_9,01.9 poule,item,word
+item_10,01.10 vache,item,word
+item_11,01.11 biche,item,word
+item_12,01.12 chien,item,word
+item_13,01.13 âne,item,word
+item_14,01.14 canard,item,word
+item_15,01.15 éléphant,item,word
+item_16,01.16 poisson,item,word
+item_17,01.17 grenouille,item,word
+item_18,01.18 girafe,item,word
+item_19,01.19 chèvre,item,word
+item_20,01.20 oie,item,word
+item_21,01.21 cheval,item,word
+item_22,01.22 chaton,item,word
+item_23,01.23 agneau,item,word
+item_24,01.24 lion,item,word
+item_25,01.25 bébé chat,item,word
+item_26,01.26 souris,item,word
+item_27,01.27 hibou,item,word
+item_28,01.28 pingouin,item,word
+item_29,01.29 cochon,item,word
+item_30,01.30 poney,item,word
+item_31,01.31 chiot,item,word
+item_32,01.32 mouton,item,word
+item_33,01.33 écureuil,item,word
+item_34,01.34 nounours,item,word
+item_35,01.35 tigre,item,word
+item_36,01.36 dindon,item,word
+item_37,01.37 tortue,item,word
+item_38,01.38 crocodile,item,word
+item_39,01.39 fourmi,item,word
+item_40,01.40 renne,item,word
+item_41,01.41 coq,item,word
+item_42,01.42 loup,item,word
+item_43,01.43 zèbre,item,word
+item_44,02.44 avion,item,word
+item_45,02.45 vélo,item,word
+item_46,02.46 bus,item,word
+item_47,02.47 voiture,item,word
+item_48,02.48 camion de pompier,item,word
+item_49,02.49 moto,item,word
+item_50,02.50 poussette,item,word
+item_51,02.51 train,item,word
+item_52,02.52 camion,item,word
+item_53,02.53 bateau,item,word
+item_54,02.54 hélicoptère,item,word
+item_55,02.55 traîneau,item,word
+item_56,02.56 tracteur,item,word
+item_57,02.57 tricycle,item,word
+item_58,03.58 balle,item,word
+item_59,03.59 ballon,item,word
+item_60,03.60 cube,item,word
+item_61,03.61 livre,item,word
+item_62,03.62 bulle,item,word
+item_63,03.63 poupée,item,word
+item_64,03.64 crayon,item,word
+item_65,03.65 stylo,item,word
+item_66,03.66 jouet,item,word
+item_67,03.67 raquette,item,word
+item_68,03.68 craie,item,word
+item_69,03.69 jeu,item,word
+item_70,03.70 colle,item,word
+item_71,03.71 pâte à modeler,item,word
+item_72,03.72 cadeau,item,word
+item_73,03.73 puzzle,item,word
+item_74,03.74 histoire,item,word
+item_75,03.75 feutre,item,word
+item_76,04.76 lait,item,word
+item_77,04.77 céréales,item,word
+item_78,04.78 cornflakes,item,word
+item_79,04.79 orange,item,word
+item_80,04.80 fromage,item,word
+item_81,04.81 petits pots,item,word
+item_82,04.82 poulet,item,word
+item_83,04.83 pizza,item,word
+item_84,04.84 café,item,word
+item_85,04.85 raisin,item,word
+item_86,04.86 petits gâteaux,item,word
+item_87,04.87 spaghetti,item,word
+item_88,04.88 gâteau apéro,item,word
+item_89,04.89 tartine,item,word
+item_90,04.90 pomme,item,word
+item_91,04.91 oeuf,item,word
+item_92,04.92 banane,item,word
+item_93,04.93 poisson,item,word
+item_94,04.94 pain,item,word
+item_95,04.95 nourriture,item,word
+item_96,04.96 beurre,item,word
+item_97,04.97 glace,item,word
+item_98,04.98 gâteau,item,word
+item_99,04.99 jus de fruit,item,word
+item_100,04.100 sucre,item,word
+item_101,04.101 viande,item,word
+item_102,04.102 carotte,item,word
+item_103,04.103 boisson,item,word
+item_104,04.104 eau,item,word
+item_105,04.105 clémentine,item,word
+item_106,04.106 purée,item,word
+item_107,04.107 petits pois,item,word
+item_108,04.108 baguette,item,word
+item_109,04.109 soupe,item,word
+item_110,04.110 pâtes,item,word
+item_111,04.111 thon,item,word
+item_112,04.112 kiwi,item,word
+item_113,04.113 compote,item,word
+item_114,04.114 haricot,item,word
+item_115,04.115 chocolat,item,word
+item_116,04.116 coca,item,word
+item_117,04.117 maïs,item,word
+item_118,04.118 beignet,item,word
+item_119,04.119 frites,item,word
+item_120,04.120 haricots verts,item,word
+item_121,04.121 chewing-gum,item,word
+item_122,04.122 hamburger,item,word
+item_123,04.123 glaçon,item,word
+item_124,04.124 vitamines,item,word
+item_125,04.125 bonbons,item,word
+item_126,04.126 confiture,item,word
+item_127,04.127 yaourt,item,word
+item_128,04.128 sucette,item,word
+item_129,04.129 melon,item,word
+item_130,04.130 madeleine,item,word
+item_131,04.131 noisette,item,word
+item_132,04.132 crêpe,item,word
+item_133,04.133 nutella,item,word
+item_134,04.134 mayonnaise,item,word
+item_135,04.135 pop-corn,item,word
+item_136,04.136 esquimau,item,word
+item_137,04.137 pomme de terre,item,word
+item_138,04.138 chips,item,word
+item_139,04.139 bretzel,item,word
+item_140,04.140 flan,item,word
+item_141,04.141 courge,item,word
+item_142,04.142 raisins secs,item,word
+item_143,04.143 sel,item,word
+item_144,04.144 sandwich,item,word
+item_145,04.145 sauce,item,word
+item_146,04.146 limonade,item,word
+item_147,04.147 fraise,item,word
+item_148,04.148 vanille,item,word
+item_149,05.149 perles,item,word
+item_150,05.150 collier,item,word
+item_151,05.151 bavoir,item,word
+item_152,05.152 pyjamas,item,word
+item_153,05.153 bottes,item,word
+item_154,05.154 pantalon,item,word
+item_155,05.155 boutons,item,word
+item_156,05.156 chemise,item,word
+item_157,05.157 manteau,item,word
+item_158,05.158 chaussure,item,word
+item_159,05.159 couche,item,word
+item_160,05.160 body,item,word
+item_161,05.161 grenouillère,item,word
+item_162,05.162 short,item,word
+item_163,05.163 robe,item,word
+item_164,05.164 chaussettes,item,word
+item_165,05.165 chapeau,item,word
+item_166,05.166 sweat,item,word
+item_167,05.167 veste,item,word
+item_168,05.168 tee-shirt,item,word
+item_169,05.169 jeans,item,word
+item_170,05.170 salopette,item,word
+item_171,05.171 chausson,item,word
+item_172,05.172 pull,item,word
+item_173,05.173 ceinture,item,word
+item_174,05.174 gants,item,word
+item_175,05.175 moufles,item,word
+item_176,05.176 écharpe,item,word
+item_177,05.177 basket,item,word
+item_178,05.178 combinaison de ski,item,word
+item_179,05.179 collants,item,word
+item_180,05.180 culotte,item,word
+item_181,06.181 bain,item,word
+item_182,06.182 petit déjeuner,item,word
+item_183,06.183 au revoir,item,word
+item_184,06.184 dîner,item,word
+item_185,06.185 ne fais pas,item,word
+item_186,06.186 bonjour,item,word
+item_187,06.187 salut,item,word
+item_188,06.188 déjeuner,item,word
+item_189,06.189 sieste,item,word
+item_190,06.190 bonne nuit,item,word
+item_191,06.191 non,item,word
+item_192,06.192 ainsi font font,item,word
+item_193,06.193 coucou,item,word
+item_194,06.194 s'il te plaît,item,word
+item_195,06.195 chut,item,word
+item_196,06.196 merci,item,word
+item_197,06.197 oui,item,word
+item_198,06.198 bravo,item,word
+item_199,06.199 faire les courses,item,word
+item_200,06.200 goûter,item,word
+item_201,06.201 coup de fil,item,word
+item_202,06.202 top là,item,word
+item_203,06.203 je vais t'attraper,item,word
+item_204,06.204 va sur le pot,item,word
+item_205,06.205 tourne-toi,item,word
+item_206,06.206 ce petit cochon,item,word
+item_207,07.207 bras,item,word
+item_208,07.208 nombril,item,word
+item_209,07.209 joue,item,word
+item_210,07.210 oreille,item,word
+item_211,07.211 yeux,item,word
+item_212,07.212 figure,item,word
+item_213,07.213 pied,item,word
+item_214,07.214 doigt,item,word
+item_215,07.215 cheveux,item,word
+item_216,07.216 main,item,word
+item_217,07.217 tête,item,word
+item_218,07.218 genou,item,word
+item_219,07.219 jambe,item,word
+item_220,07.220 bouche,item,word
+item_221,07.221 nez,item,word
+item_222,07.222 aïe bobo,item,word
+item_223,07.223 dent,item,word
+item_224,07.224 doigt de pied,item,word
+item_225,07.225 langue,item,word
+item_226,07.226 ventre,item,word
+item_227,07.227 cheville,item,word
+item_228,07.228 fesses,item,word
+item_229,07.229 menton,item,word
+item_230,07.230 lèvre,item,word
+item_231,07.231 pénis,item,word
+item_232,07.232 coeur,item,word
+item_233,07.233 vagin,item,word
+item_234,07.234 pouce,item,word
+item_235,08.235 plage,item,word
+item_236,08.236 camping,item,word
+item_237,08.237 église,item,word
+item_238,08.238 cirque,item,word
+item_239,08.239 campagne,item,word
+item_240,08.240 centre-ville,item,word
+item_241,08.241 ferme,item,word
+item_242,08.242 station-service,item,word
+item_243,08.243 maison,item,word
+item_244,08.244 cinéma,item,word
+item_245,08.245 dehors,item,word
+item_246,08.246 parc,item,word
+item_247,08.247 fête,item,word
+item_248,08.248 pique-nique,item,word
+item_249,08.249 terrain de jeux,item,word
+item_250,08.250 école,item,word
+item_251,08.251 magasin,item,word
+item_252,08.252 forêt,item,word
+item_253,08.253 travail,item,word
+item_254,08.254 cour,item,word
+item_255,08.255 zoo,item,word
+item_256,08.256 garderie,item,word
+item_257,08.257 fête,item,word
+item_258,09.258 salle de bain,item,word
+item_259,09.259 baignoire,item,word
+item_260,09.260 lit,item,word
+item_261,09.261 chambre,item,word
+item_262,09.262 chaise,item,word
+item_263,09.263 canapé,item,word
+item_264,09.264 berceau,item,word
+item_265,09.265 porte,item,word
+item_266,09.266 tiroir,item,word
+item_267,09.267 garage,item,word
+item_268,09.268 chaise haute,item,word
+item_269,09.269 cuisine,item,word
+item_270,09.270 salon,item,word
+item_271,09.271 four,item,word
+item_272,09.272 parc,item,word
+item_273,09.273 pot,item,word
+item_274,09.274 frigo,item,word
+item_275,09.275 fauteuil,item,word
+item_276,09.276 lavabo,item,word
+item_277,09.277 escalier,item,word
+item_278,09.278 cuisinière,item,word
+item_279,09.279 table,item,word
+item_280,09.280 télé,item,word
+item_281,09.281 fenêtre,item,word
+item_282,09.282 étendage,item,word
+item_283,09.283 entrée,item,word
+item_284,09.284 douche,item,word
+item_285,09.285 pièce,item,word
+item_286,09.286 cave,item,word
+item_287,09.287 banc,item,word
+item_288,10.288 au sujet de,item,word
+item_289,10.289 au-dessus de,item,word
+item_290,10.290 autour de,item,word
+item_291,10.291 à,item,word
+item_292,10.292 loin,item,word
+item_293,10.293 derrière,item,word
+item_294,10.294 à côté de,item,word
+item_295,10.295 chez,item,word
+item_296,10.296 en bas,item,word
+item_297,10.297 pour,item,word
+item_298,10.298 ici,item,word
+item_299,10.299 à l'intérieur de,item,word
+item_300,10.300 dans,item,word
+item_301,10.301 près de,item,word
+item_302,10.302 de,item,word
+item_303,10.303 au loin,item,word
+item_304,10.304 sur,item,word
+item_305,10.305 au sommet,item,word
+item_306,10.306 de dehors,item,word
+item_307,10.307 par-dessus,item,word
+item_308,10.308 là-bas,item,word
+item_309,10.309 vers,item,word
+item_310,10.310 sous,item,word
+item_311,10.311 en haut,item,word
+item_312,10.312 avec,item,word
+item_313,10.313 là,item,word
+item_314,11.314 comment,item,word
+item_315,11.315 quoi,item,word
+item_316,11.316 avec quoi,item,word
+item_317,11.317 quand,item,word
+item_318,11.318 où,item,word
+item_319,11.319 qui,item,word
+item_320,11.320 avec qui,item,word
+item_321,11.321 pourquoi,item,word
+item_322,11.322 le/la/les,item,word
+item_323,12.323 rocher,item,word
+item_324,12.324 nuage,item,word
+item_325,12.325 drapeau,item,word
+item_326,12.326 fleur,item,word
+item_327,12.327 jardin,item,word
+item_328,12.328 herbe,item,word
+item_329,12.329 lune,item,word
+item_330,12.330 tuyau,item,word
+item_331,12.331 échelle,item,word
+item_332,12.332 tondeuse à gazon,item,word
+item_333,12.333 piscine,item,word
+item_334,12.334 pluie,item,word
+item_335,12.335 caillou,item,word
+item_336,12.336 toit,item,word
+item_337,12.337 pelle,item,word
+item_338,12.338 bac à sable,item,word
+item_339,12.339 toboggan,item,word
+item_340,12.340 neige,item,word
+item_341,12.341 étoile,item,word
+item_342,12.342 trottoir,item,word
+item_343,12.343 soleil,item,word
+item_344,12.344 balançoire,item,word
+item_345,12.345 arbre,item,word
+item_346,12.346 eau,item,word
+item_347,12.347 ciel,item,word
+item_348,12.348 bonhomme de neige,item,word
+item_349,12.349 arrosoir,item,word
+item_350,12.350 bâton,item,word
+item_351,12.351 pierre,item,word
+item_352,12.352 rue,item,word
+item_353,12.353 vent,item,word
+item_354,13.354 tous/tout,item,word
+item_355,13.355 un autre,item,word
+item_356,13.356 encore,item,word
+item_357,13.357 aucun,item,word
+item_358,13.358 aucune,item,word
+item_359,13.359 pas,item,word
+item_360,13.360 le même,item,word
+item_361,13.361 la même,item,word
+item_362,13.362 un peu,item,word
+item_363,13.363 un,item,word
+item_364,13.364 une,item,word
+item_365,13.365 plein/beaucoup,item,word
+item_366,13.366 du,item,word
+item_367,13.367 de la,item,word
+item_368,13.368 des,item,word
+item_369,13.369 chaque,item,word
+item_370,13.370 autre,item,word
+item_371,13.371 le,item,word
+item_372,13.372 la,item,word
+item_373,13.373 les,item,word
+item_374,13.374 aussi,item,word
+item_375,14.375 à elle/sa,item,word
+item_376,14.376 à lui/son,item,word
+item_377,14.377 je,item,word
+item_378,14.378 ça,item,word
+item_379,14.379 moi,item,word
+item_380,14.380 à moi,item,word
+item_381,14.381 ma,item,word
+item_382,14.382 mon,item,word
+item_383,14.383 mes,item,word
+item_384,14.384a tu,item,word
+item_385,14.384b vous (2sg.subj),item,word
+item_386,14.384c vous (2pl.subj),item,word
+item_387,14.384d vous (2sg.obj),item,word
+item_388,14.384e vous (2pl.obj),item,word
+item_389,14.384f à vous,item,word
+item_390,14.385 votre,item,word
+item_391,14.386 ta,item,word
+item_392,14.387 ton,item,word
+item_393,14.388 il,item,word
+item_394,14.389 ses,item,word
+item_395,14.390a lui (topic),item,word
+item_396,14.390b lui (obj),item,word
+item_397,14.391 moi-même,item,word
+item_398,14.392 notre,item,word
+item_399,14.393 le,item,word
+item_400,14.394 elle,item,word
+item_401,14.395 elles,item,word
+item_402,14.396 leur,item,word
+item_403,14.397 eux,item,word
+item_404,14.398 la,item,word
+item_405,14.399 ces,item,word
+item_406,14.400 ils,item,word
+item_407,14.401 ceux,item,word
+item_408,14.402 nous,item,word
+item_409,14.403 les,item,word
+item_410,14.404 on,item,word
+item_411,14.405 toi-même,item,word
+item_412,14.406 en,item,word
+item_413,14.407 en,item,word
+item_414,14.408 y,item,word
+item_415,15.409 tante,item,word
+item_416,15.410 bébé,item,word
+item_417,15.411 nounou,item,word
+item_418,15.412 nom de la nounou,item,word
+item_419,15.413 garçon,item,word
+item_420,15.414 frère,item,word
+item_421,15.415 enfant,item,word
+item_422,15.416 papa,item,word
+item_423,15.417 fille,item,word
+item_424,15.418 grand-mère,item,word
+item_425,15.419 grand-père,item,word
+item_426,15.420 dame,item,word
+item_427,15.421 maman,item,word
+item_428,15.422 nom de l'enfant,item,word
+item_429,15.423 gens,item,word
+item_430,15.424 personne,item,word
+item_431,15.425 soeur,item,word
+item_432,15.426 maître,item,word
+item_433,15.427 oncle,item,word
+item_434,15.428 monsieur,item,word
+item_435,15.429 clown,item,word
+item_436,15.430 docteur,item,word
+item_437,15.431 pompier,item,word
+item_438,15.432 copain,item,word
+item_439,15.433 facteur,item,word
+item_440,15.434 infirmière,item,word
+item_441,15.435 police,item,word
+item_442,15.436 nom de l'animal domestique,item,word
+item_443,16.437 jour,item,word
+item_444,16.438 après,item,word
+item_445,16.439 matin,item,word
+item_446,16.440 nuit,item,word
+item_447,16.441 maintenant,item,word
+item_448,16.442 aujourd'hui,item,word
+item_449,16.443 demain,item,word
+item_450,16.444 ce soir,item,word
+item_451,16.445 avant,item,word
+item_452,16.446 heure,item,word
+item_453,16.447 hier,item,word
+item_454,17.448a et,item,word
+item_455,17.448b et puis,item,word
+item_456,17.449 parce que,item,word
+item_457,17.450 mais,item,word
+item_458,17.451 si,item,word
+item_459,17.452 donc,item,word
+item_460,17.453 alors,item,word
+item_461,18.455 suis,item,word
+item_462,18.456 sont,item,word
+item_463,18.457 être,item,word
+item_464,18.458 est,item,word
+item_465,18.459 peux,item,word
+item_466,18.460 pouvait,item,word
+item_467,18.461 peuvent,item,word
+item_468,18.462 a(s) fait,item,word
+item_469,18.463 faire,item,word
+item_470,18.464 fait,item,word
+item_471,18.465 ne pas,item,word
+item_472,18.466 devoir faire,item,word
+item_473,18.467 va,item,word
+item_474,18.468 avoir à faire,item,word
+item_475,18.469 laisse-moi,item,word
+item_476,18.470 vont,item,word
+item_477,18.471 avoir besoin de,item,word
+item_478,18.472 essayer de,item,word
+item_479,18.473 vouloir,item,word
+item_480,18.474 était,item,word
+item_481,19.475 couverture,item,word
+item_482,19.476 bouteille,item,word
+item_483,19.477 bol,item,word
+item_484,19.478 boite,item,word
+item_485,19.479 balai,item,word
+item_486,19.480 brosse,item,word
+item_487,19.481 horloge,item,word
+item_488,19.482 peigne,item,word
+item_489,19.483 tasse,item,word
+item_490,19.484 plat,item,word
+item_491,19.485 fourchette,item,word
+item_492,19.486 verre,item,word
+item_493,19.487 lunettes,item,word
+item_494,19.488 marteau,item,word
+item_495,19.489 clefs,item,word
+item_496,19.490 lampe,item,word
+item_497,19.491 lumière,item,word
+item_498,19.492 médicaments,item,word
+item_499,19.493 argent,item,word
+item_500,19.494 papier,item,word
+item_501,19.495 sous/pièce,item,word
+item_502,19.496 photo,item,word
+item_503,19.497 oreiller,item,word
+item_504,19.498 plante,item,word
+item_505,19.499 assiette,item,word
+item_506,19.500 porte-monnaie,item,word
+item_507,19.501 radio,item,word
+item_508,19.502 ciseaux,item,word
+item_509,19.503 savon,item,word
+item_510,19.504 cuillère,item,word
+item_511,19.505 téléphone,item,word
+item_512,19.506 brosse à dent,item,word
+item_513,19.507 serviette,item,word
+item_514,19.508 poubelle,item,word
+item_515,19.509 aspirateur,item,word
+item_516,19.510 montre,item,word
+item_517,19.511 feuille,item,word
+item_518,19.512 musique,item,word
+item_519,19.513 sirop,item,word
+item_520,19.514 biberon,item,word
+item_521,19.515 télécommande,item,word
+item_522,19.516 sucette,item,word
+item_523,19.517 panier,item,word
+item_524,19.518 seau,item,word
+item_525,19.519 appareil photo,item,word
+item_526,19.520 ordure,item,word
+item_527,19.521 pot,item,word
+item_528,19.522 couteau,item,word
+item_529,19.523 serpillière,item,word
+item_530,19.524 clou,item,word
+item_531,19.525 serviette de table,item,word
+item_532,19.526 cassette,item,word
+item_533,19.527 mouchoir,item,word
+item_534,19.528 plateau,item,word
+item_535,19.529 coussin,item,word
+item_536,20.530 parti,item,word
+item_537,20.531 endormi,item,word
+item_538,20.532 pas bon,item,word
+item_539,20.533 grand,item,word
+item_540,20.534 bleu,item,word
+item_541,20.535 cassé,item,word
+item_542,20.536 attention,item,word
+item_543,20.537 propre,item,word
+item_544,20.538 sèche,item,word
+item_545,20.539 froid,item,word
+item_546,20.540 mignon,item,word
+item_547,20.541 sombre,item,word
+item_548,20.542 sale,item,word
+item_549,20.543 sec,item,word
+item_550,20.544 froide,item,word
+item_551,20.545 vide,item,word
+item_552,20.546 vite,item,word
+item_553,20.547 bien,item,word
+item_554,20.548 doux,item,word
+item_555,20.549 bon,item,word
+item_556,20.550 content,item,word
+item_557,20.551 dur,item,word
+item_558,20.552 chaud,item,word
+item_559,20.553 mignonne,item,word
+item_560,20.554 avoir faim,item,word
+item_561,20.555 bonne,item,word
+item_562,20.556 blessé,item,word
+item_563,20.557 petit,item,word
+item_564,20.558 chaude,item,word
+item_565,20.559 mignon,item,word
+item_566,20.560 douce,item,word
+item_567,20.561 vilain,item,word
+item_568,20.562 coquine,item,word
+item_569,20.563 dégoûtante,item,word
+item_570,20.564 bruyant,item,word
+item_571,20.565 long,item,word
+item_572,20.566 derrière,item,word
+item_573,20.567 coincé,item,word
+item_574,20.568 verte,item,word
+item_575,20.569 lourde,item,word
+item_576,20.570 vilaine,item,word
+item_577,20.571 haut,item,word
+item_578,20.572 fort,item,word
+item_579,20.573 folle,item,word
+item_580,20.574 neuve,item,word
+item_581,20.575 gentil,item,word
+item_582,20.576 vieille,item,word
+item_583,20.577 joli,item,word
+item_584,20.578 rouge,item,word
+item_585,20.579 avoir peur,item,word
+item_586,20.580 malade,item,word
+item_587,20.581 avoir sommeil,item,word
+item_588,20.582 vieux,item,word
+item_589,20.583 tendre,item,word
+item_590,20.584 avoir soif,item,word
+item_591,20.585 fatigué,item,word
+item_592,20.586 mouillé,item,word
+item_593,20.587 dégoûtant,item,word
+item_594,20.588 belle,item,word
+item_595,20.589 méchant,item,word
+item_596,20.590 gentille,item,word
+item_597,20.591 être réveillé,item,word
+item_598,20.592 collante,item,word
+item_599,20.593 dernier,item,word
+item_600,20.594 coquin,item,word
+item_601,20.595 mieux,item,word
+item_602,20.596 noir,item,word
+item_603,20.597 marron,item,word
+item_604,20.598 première,item,word
+item_605,20.599 vert,item,word
+item_606,20.600 beau,item,word
+item_607,20.601 plein,item,word
+item_608,20.602 bruyante,item,word
+item_609,20.603 orange,item,word
+item_610,20.604 blanc,item,word
+item_611,20.605 haute,item,word
+item_612,20.606 tranquille,item,word
+item_613,20.607 triste,item,word
+item_614,20.608 lent,item,word
+item_615,20.609 venteux,item,word
+item_616,20.610 jaune,item,word
+item_617,20.611 minuscule,item,word
+item_618,20.612 méchante,item,word
+item_619,20.613 premier,item,word
+item_620,20.614 petite,item,word
+item_621,20.615 blanche,item,word
+item_622,20.616 pleine,item,word
+item_623,20.617 contente,item,word
+item_624,20.618 neuf,item,word
+item_625,20.619 forte,item,word
+item_626,20.620 grande,item,word
+item_627,20.621 flou,item,word
+item_628,20.622 lente,item,word
+item_629,21.623 mordre,item,word
+item_630,21.624 souffler,item,word
+item_631,21.625 souffler,item,word
+item_632,21.626 apporter,item,word
+item_633,21.627 se cogner,item,word
+item_634,21.628 nettoyer,item,word
+item_635,21.629 fermer,item,word
+item_636,21.630 pleurer,item,word
+item_637,21.631 danser,item,word
+item_638,21.632 dessiner,item,word
+item_639,21.633 boire,item,word
+item_640,21.634 conduire,item,word
+item_641,21.635 manger,item,word
+item_642,21.636 tomber,item,word
+item_643,21.637 se transformer,item,word
+item_644,21.638 arracher,item,word
+item_645,21.639 donner,item,word
+item_646,21.640 nourrir,item,word
+item_647,21.641 avoir,item,word
+item_648,21.642 entendre,item,word
+item_649,21.643 cacher,item,word
+item_650,21.644 nager,item,word
+item_651,21.645 réparer,item,word
+item_652,21.646 finir,item,word
+item_653,21.647 recevoir,item,word
+item_654,21.648 aller,item,word
+item_655,21.649 aider,item,word
+item_656,21.650 taper,item,word
+item_657,21.651 prendre dans ses bras,item,word
+item_658,21.652 se dépêcher,item,word
+item_659,21.653 sauter,item,word
+item_660,21.654 donner un coup,item,word
+item_661,21.655 faire un bisou,item,word
+item_662,21.656 courir,item,word
+item_663,21.657 regarder,item,word
+item_664,21.658 s'en aller,item,word
+item_665,21.659 laver,item,word
+item_666,21.660 se traîner,item,word
+item_667,21.661 aimer,item,word
+item_668,21.662 ouvrir,item,word
+item_669,21.663 jouer,item,word
+item_670,21.664 tirer,item,word
+item_671,21.665 tourner,item,word
+item_672,21.666 trouver,item,word
+item_673,21.667 aller bien avec,item,word
+item_674,21.668 détester,item,word
+item_675,21.669 tenir,item,word
+item_676,21.670 couper,item,word
+item_677,21.671 frapper à la porte,item,word
+item_678,21.672 prendre,item,word
+item_679,21.673 pousser,item,word
+item_680,21.674 mettre,item,word
+item_681,21.675 coller,item,word
+item_682,21.676 lire,item,word
+item_683,21.677 faire du vélo/de la moto,item,word
+item_684,21.678 dire,item,word
+item_685,21.679 marcher à quatre pattes,item,word
+item_686,21.680 voir,item,word
+item_687,21.681 jeter,item,word
+item_688,21.682 monter,item,word
+item_689,21.683 chanter,item,word
+item_690,21.684 dormir,item,word
+item_691,21.685 sourire,item,word
+item_692,21.686 éclabousser,item,word
+item_693,21.687 arrêter,item,word
+item_694,21.688 nager,item,word
+item_695,21.689 ramper,item,word
+item_696,21.690 balancer,item,word
+item_697,21.691 sautiller,item,word
+item_698,21.692 détacher,item,word
+item_699,21.693 se glisser,item,word
+item_700,21.694 devenir,item,word
+item_701,21.695 chatouiller,item,word
+item_702,21.696 monter,item,word
+item_703,21.697 toucher,item,word
+item_704,21.698 marcher,item,word
+item_705,21.699 essuyer,item,word
+item_706,21.700 fendre,item,word
+item_707,21.701 se tourner,item,word
+item_708,21.702 écrire,item,word
+item_709,21.703 construire,item,word
+item_710,21.704 porter,item,word
+item_711,21.705 attraper,item,word
+item_712,21.706 courir après attraper,item,word
+item_713,21.707 faire bravo,item,word
+item_714,21.708 lécher,item,word
+item_715,21.709 aimer bien,item,word
+item_716,21.710 écouter,item,word
+item_717,21.711 faire,item,word
+item_718,21.712 ramasser,item,word
+item_719,21.713 faire de la peinture,item,word
+item_720,21.714 enlever,item,word
+item_721,21.715 renverser,item,word
+item_722,21.716 faire semblant,item,word
+item_723,21.717 goûter,item,word
+item_724,21.718 décrocher,item,word
+item_725,21.719 déchirer,item,word
+item_726,21.720 s'envoler,item,word
+item_727,21.721 acheter,item,word
+item_728,21.722 secouer,item,word
+item_729,21.723 embrasser,item,word
+item_730,21.724 attendre,item,word
+item_731,21.725 partager,item,word
+item_732,21.726 s'asseoir,item,word
+item_733,21.727 faire du patin,item,word
+item_734,21.728 glisser,item,word
+item_735,21.729 travailler,item,word
+item_736,21.730 souhaiter,item,word
+item_737,21.731 vendre,item,word
+item_738,21.732 être debout,item,word
+item_739,21.733 rester,item,word
+item_740,21.734 descendre,item,word
+item_741,21.735 balayer,item,word
+item_742,21.736 parler,item,word
+item_743,21.737 penser,item,word
+item_744,21.738 se réveiller,item,word
+item_745,21.739 attacher,item,word
+item_746,21.740 couvrir,item,word
+item_747,21.741 grimper,item,word
+item_748,21.742 cuisiner,item,word
+item_749,21.743 accrocher,item,word
+item_750,21.744 arrêter,item,word
+item_751,21.745 sécher,item,word
+item_752,21.746 déposer,item,word
+item_753,21.747 grossir,item,word
+item_754,21.748 refroidir,item,word
+item_755,21.749 grandir,item,word
+item_756,21.750 rougir,item,word
+item_757,21.751 vomir,item,word
+item_758,21.752 dire,item,word
+,phrase la plus longue 1,,
+,phrase la plus longue 2,,
+,phrase la plus longue 3,,
+item_759,évé passé oui,item,how_use_words
+,évé passé non,,
+item_760,évé futur oui,item,how_use_words
+,évé futur non,,
+item_761,absence oui,item,how_use_words
+,absence non,,
+item_762,compréhension absence oui,item,how_use_words
+,compréhension absence non,,
+,Infinitif prendre,,
+item_797,infinitif,item,verb_endings
+item_798,présent,item,verb_endings
+item_799,passé composé,item,verb_endings
+item_800,imparfait,item,verb_endings
+item_801,futur,item,verb_endings
+item_802,impératif,item,verb_endings
+,Présent prends,,
+,Passé compose ai pris,,
+,Imparfait prenais,,
+,Futur prendrai,,
+,Impératif prends,,

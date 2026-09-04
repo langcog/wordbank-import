@@ -1,0 +1,118 @@
+itemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,taa taa,games_routines,n1taataa,word,understands; produces,dada (babbling),
+item_2,nyanyana,animals,n5avenyany,word,understands; produces,bird,bird
+item_3,mdzáná,animals,n6comdzn,word,understands; produces,dog,dog
+item_4,mbútí,animals,n7gabritom,word,understands; produces,goat,goat
+item_5,húkú,animals,n8galinhah,word,understands; produces,chicken,chicken (animal)
+item_6,homu,animals,n9boishomu,word,understands; produces,ox,ox
+item_7,kondlo,animals,n10ratokon,word,understands; produces,rat,rat
+item_8,mohva,vehicles,n11carromo,word,understands; produces,car,car
+item_9,ku beleca,household,n12nenecak,word,understands; produces,carry-cloth,
+item_10,bóla,toys,n13bolabla,word,understands; produces,ball,ball
+item_11,xigubugubu,household,n14bidonde,word,understands; produces,water jug,jug
+item_12,xibonécani,toys,n15bonecax,word,understands; produces,doll,doll
+item_13,pawa,food_drink,n16popawa,word,understands; produces,bread,bread
+item_14,docane,food_drink,n17docesdo,word,understands; produces,sweets,sweets
+item_15,mpunga,food_drink,n18arrozmp,word,understands; produces,rice,rice
+item_16,xi bubutela / buláti / bulaxa / xigugudru,food_drink,n19biscuit,word,understands; produces,biscuits / cookie,cookie
+item_17,txána,food_drink,n20chatxna,word,understands; produces,tea,tea
+item_18,uswa,food_drink,n21ximausw,word,understands; produces,polenta-like food,
+item_19,xidhloko,clothing,n22chapeux,word,understands; produces,cap / hat,hat
+item_20,bulúkú,clothing,n23calasbu,word,understands; produces,trousers,pants
+item_21,xifamba,clothing,n24sapatox,word,understands; produces,shoe,shoe
+item_22,hémbe,clothing,n25camisah,word,understands; produces,shirt,shirt
+item_23,tíhlo / mahlu,body_parts,n26olhothl,word,understands; produces,eye,eye
+item_24,nhloko,body_parts,n27cabezan,word,understands; produces,head,head
+item_25,nengue,body_parts,n28pernane,word,understands; produces,leg,leg
+item_26,nhómpfú,body_parts,n29nariznh,word,understands; produces,nose,nose
+item_27,tínyó,body_parts,n30dentetn,word,understands; produces,tooth,tooth
+item_28,xitsámú / xitulu,furniture_rooms,n31cadeira,word,understands; produces,chair,chair
+item_29,stofada / sofa,furniture_rooms,n32sofasto,word,understands; produces,sofa / couch,couch
+item_30,xikóti,furniture_rooms,n33casadeb,word,understands; produces,toilet,toilet
+item_31,méza / tafula,furniture_rooms,n34mesamza,word,understands; produces,table,table
+item_32,celula fone,household,n35celcelu,word,understands; produces,cell phone,cell phone
+item_33,vóló,household,n36mantavl,word,understands; produces,blanket,blanket
+item_34,bolhela,household,n37garafab,word,understands; produces,bottle,bottle
+item_35,copo / biquiri,household,n38copocop,word,understands; produces,cup / glass,cup
+item_36,paratu,household,n39pratopa,word,understands; produces,plate,plate
+item_37,khandlelo / lampu,household,n40velakha,word,understands; produces,lamp / candle,lamp
+item_38,radio,household,n41radiora,word,understands; produces,radio,radio
+item_39,xipúnú,household,n42colherx,word,understands; produces,spoon,spoon
+item_40,nhóngá,household,n43bastonh,word,understands; produces,stick ,stick (object)
+item_41,káyá,places,n44emcasak,word,understands; produces,home,home
+item_42,mumú,outside,n45solmum,word,understands; produces,sun,sun
+item_43,handle,outside,n46forahan,word,understands; produces,outside,outside
+item_44,nsínya,outside,n47rvorens,word,understands; produces,tree,tree
+item_45,mpfúlá,outside,n48chuvamp,word,understands; produces,rain,rain
+item_46,misává,outside,n49areiami,word,understands; produces,dirt / soil ,soil
+item_47,mati,outside,n50aquamat,word,understands; produces,water,water
+item_48,munghanu,people,n51amigomu,word,understands; produces,friend,friend
+item_49,n'hwanyana,people,n52meninan,word,understands; produces,girl (teenage),girl
+item_50,kokwana / vovo,people,n53vovokok,word,understands; produces,grandmother,grandma
+item_51,mamana,people,n54mamaima,word,understands; produces,mother,mommy
+item_52,ku thlamba,action_words,n55banhoku,word,understands; produces,bathe,bathe
+item_53,tsika,action_words,n56deixets,word,understands; produces,leave it ,leave
+item_54,hoyohoyo,games_routines,n57bemvind,word,understands; produces,welcome,welcome
+item_55,tapuxani,games_routines,n58atamanh,word,understands; produces,see you tomorrow,see you tomorrow
+item_56,svósvi,time_words,n60agorasv,word,understands; produces,now!,now
+item_57,nyímá,action_words,n61esperan,word,understands; produces,wait,wait
+item_58,famba,action_words,n62vaifamb,word,understands; produces,go!,go
+item_59,ku dla,action_words,n63comekud,word,understands; produces,eat!,eat
+item_60,ku -héta,action_words,n64acabark,word,understands; produces,to finish,finish
+item_61,ku -vúyísá,action_words,n65trazert,word,understands; produces,bring,bring
+item_62,ku -wa,action_words,n66cairkuw,word,understands; produces,to fall,fall
+item_63,mutapí,action_words,n67pontape,word,understands; produces,to kick,kick
+item_64,ku xinga,action_words,n68abracar,word,understands; produces,to hug,hug
+item_65,#NAME?,action_words,n69empurra,word,understands; produces,to push,push
+item_66,ku nyimbelela,action_words,n70cantaku,word,understands; produces,to sing,sing
+item_67,wusíkú,time_words,n72noitewu,word,understands; produces,night,night
+item_68,namúnlha,time_words,n73hojenam,word,understands; produces,today,today
+item_69,hi mbetile,games_routines,n74acabouh,word,understands; produces,all gone ,allgone
+item_70,xi -kulu,descriptive_words,n75grandex,word,understands; produces,big,big
+item_71,#NAME?,descriptive_words,n76quebrad,word,understands; produces,broken,broken
+item_72,#NAME?,descriptive_words,n77brilhan,word,understands; produces,shiny,
+item_73,#NAME?,descriptive_words,n78rapidok,word,understands; produces,fast,fast
+item_74,ndlala,descriptive_words,n79fomendl,word,understands; produces,hunger,
+item_75,#NAME?,descriptive_words,n80belezax,word,understands; produces,pretty,pretty
+item_76,dziva,descriptive_words,n81durodzi,word,understands; produces,hard,hard
+item_77,mina,pronouns,n82eumina,word,understands; produces,I,1SG
+item_78,wena,pronouns,n83tuwena,word,understands; produces,you,2SG
+item_79,ndjani,question_words,n84comondj,word,understands; produces,how,how
+item_80,hi -mání,question_words,n85quemhim,word,understands; produces,who,who
+item_81,kule,locations,n86longeku,word,understands; produces,long / far away,far
+item_82,ndzeni,locations,n87dentron,word,understands; produces,inside,inside
+item_83,mu -n’wána,quantifiers,n88outromu,word,understands; produces,other,other
+item_84,(xi) -nyingi,quantifiers,n89muitoxi,word,understands; produces,many / much,many
+item_85,escarinyana,household,n90carrinh,word,understands; produces,wheelbarrow,wheelbarrow
+item_86,nyama,food_drink,n91carneny,word,understands; produces,meat,meat
+item_87,ndlevé,body_parts,n92orelhan,word,understands; produces,ear,ear
+item_88,vókó,body_parts,n93bracovk,word,understands; produces,arm,arm
+item_89,mubéde,furniture_rooms,n94camamub,word,understands; produces,bed,bed
+item_90,móyá,outside,n95ventomy,word,understands; produces,wind,wind
+item_91,refu,outside,n96nuvemre,word,understands; produces,cloud,cloud
+item_92,tilo,places,n97cutilo,word,understands; produces,heaven,
+item_93,salani,games_routines,n98adeussa,word,understands; produces,goodbye,bye
+item_94,khanímámbu! / ni khensile / inkomu / ni bongile,games_routines,n100obriga,word,understands; produces,thank you,thank you
+item_95,ku -tshatsha,action_words,n101perseg,word,understands; produces,to chase,chase
+item_96,ku yingisa,action_words,n102escuta,word,understands; produces,to listen,listen
+item_97,ku -phusa,action_words,n103bebeku,word,understands; produces,to drink,drink (action)
+item_98,ku -pimisa,action_words,n104pensar,word,understands; produces,to think,think
+item_99,ya ntamu,descriptive_words,n105fortey,word,understands; produces,strong,strong
+item_100,ku hísá,descriptive_words,n106quente,word,understands; produces,hot,hot
+item_101,xi -tsóngó,descriptive_words,n107pequen,word,understands; produces,small,small
+item_102,ndzaku,time_words,n108depois,word,understands; produces,after,after
+item_103,vona,pronouns,n109elesvo,word,understands; produces,them,them
+item_104,lexi,pronouns,n110estees,word,understands; produces,this,this
+item_105,hina,pronouns,n111nshina,word,understands; produces,us,us
+item_106,kwíni,question_words,n112ondekw,word,understands; produces,where,where (question)
+item_107,hánsí,locations,n113debaix,word,understands; produces,below / under,under
+item_108,loko,connecting_words,n114sequan,word,understands; produces,if / when,if
+item_109,Wave_Byebye,NA,Wave_Byebye,gestures_first,not yet; sometimes; often,,
+item_110,Hand_Pointing,NA,Hand_Pointing,gestures_first,not yet; sometimes; often,,
+item_111,Come_here,NA,Come_here,gestures_first,not yet; sometimes; often,,
+item_112,Go_there,NA,Go_there,gestures_first,not yet; sometimes; often,,
+item_113,Show_Object,NA,Show_Object,gestures_first,not yet; sometimes; often,,
+item_114,Request_Object,NA,Request_Object,gestures_first,not yet; sometimes; often,,
+item_115,Headshake_NO,NA,Headshake_NO,gestures_first,not yet; sometimes; often,,
+item_116,Headsnod_YES,NA,Headsnod_YES,gestures_first,not yet; sometimes; often,,
+item_117,Tap_for_attention,NA,Tap_for_attention,gestures_first,not yet; sometimes; often,,

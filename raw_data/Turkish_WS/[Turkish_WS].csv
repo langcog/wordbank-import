@@ -1,0 +1,712 @@
+definition,category,item,type,choices,complexity_category,itemID,new_lemma,gloss,uni_lemma
+Cee,sounds,Cee,word,produces,NA,item_1,peekaboo,peekaboo,peekaboo
+Cıss,sounds,Ciss,word,produces,NA,item_2,don't,don't-touch-it,don't
+Çufçuf,sounds,Cufcuf,word,produces,NA,item_3,NA,choo choo,choo choo
+Düt,sounds,Dut,word,produces,NA,item_4,vroom,beep,vroom
+Ham,sounds,Ham,word,produces,NA,item_5,yum yum,yum yum,yum yum
+Havhav,sounds,Havhav,word,produces,NA,item_6,woof woof,woof woof,woof woof
+Hop/Hoppa,sounds,Hop/Hoppa,word,produces,NA,item_7,up,up up,up
+Mee,sounds,Mee,word,produces,NA,item_8,baa baa,baa,baa baa
+Pisi-pisi,sounds,Pisi-pisi,word,produces,NA,item_9,meow,meow,meow
+Şişt,sounds,Sist,word,produces,NA,item_10,NA,hush,shh
+Uf,sounds,Uf,word,produces,NA,item_11,ouch,ouch,ouch
+Vak vak,sounds,Vak_vak,word,produces,NA,item_12,NA,quack quack,quack quack
+Vınn,sounds,Vinn,word,produces,NA,item_13,NA,vroom,vroom
+Arı,animals,Ari,word,produces,NA,item_14,bee,bee,bee
+Aslan,animals,Aslan,word,produces,NA,item_15,NA,lion,lion
+At (animal),animals,At,word,produces,NA,item_16,horse,horse,horse
+Ayı,animals,Ayi,word,produces,NA,item_17,bear,bear,bear
+Balık (animal),animals,Balik,word,produces,NA,item_18,fish (animal),fish,fish (animal)
+Baykuş,animals,Baykus,word,produces,NA,item_19,NA,owl,owl
+Böcek,animals,Bocek,word,produces,NA,item_20,bug,bug,bug
+Deve,animals,Deve,word,produces,NA,item_21,NA,camel,camel
+Domuz,animals,Domuz,word,produces,NA,item_22,NA,pig,pig
+Eşek,animals,Esek,word,produces,NA,item_23,donkey,donkey,donkey
+Fare,animals,Fare,word,produces,NA,item_24,NA,mouse,mouse
+Fil,animals,Fil,word,produces,NA,item_25,NA,elephant,elephant
+Geyik,animals,Geyik,word,produces,NA,item_26,NA,deer,deer
+Hayvan,animals,Hayvan,word,produces,NA,item_27,NA,animal,animal
+Horoz,animals,Horoz,word,produces,NA,item_28,NA,rooster,rooster
+İnek,animals,Inek,word,produces,NA,item_29,cow,cow,cow
+Kaplan,animals,Kaplan,word,produces,NA,item_30,NA,tiger,tiger
+Karga,animals,Karga,word,produces,NA,item_31,NA,crow,crow
+Karınca,animals,Karinca,word,produces,NA,item_32,NA,ant,ant
+Kartal,animals,Kartal,word,produces,NA,item_33,NA,eagle,eagle
+Keçi,animals,Keci,word,produces,NA,item_34,NA,goat,goat
+Kedi,animals,Kedi,word,produces,NA,item_35,cat,cat,cat
+Koyun,animals,Koyun,word,produces,NA,item_36,NA,sheep,sheep
+Köpek,animals,Kopek,word,produces,NA,item_37,dog,dog,dog
+Kurbağa,animals,Kurbaga,word,produces,NA,item_38,frog,frog,frog
+Kuş,animals,Kus,word,produces,NA,item_39,bird,bird,bird
+Kurt,animals,Kurt,word,produces,NA,item_40,NA,wolf,wolf
+Leylek,animals,Leylek,word,produces,NA,item_41,NA,stork,stork
+Maymun,animals,Maymun,word,produces,NA,item_42,monkey,monkey,monkey
+Ördek,animals,Ordek,word,produces,NA,item_43,duck,duck,duck
+Örümcek,animals,Orumcek,word,produces,NA,item_44,NA,spider,spider
+Papağan,animals,Papagan,word,produces,NA,item_45,NA,parrot,parrot
+Sincap,animals,Sincap,word,produces,NA,item_46,NA,squirrel,squirrel
+Sinek,animals,Sinek,word,produces,NA,item_47,NA,fly,fly (animal)
+Tavşan,animals,Tavsan,word,produces,NA,item_48,bunny,rabbit/bunny,bunny
+Tavuk,animals,Tavuk,word,produces,NA,item_49,chicken (animal),chicken/hen,chicken (animal)
+Timsah,animals,Timsah,word,produces,NA,item_50,NA,crocodile,crocodile
+Yavru,animals,Yavru,word,produces,NA,item_51,NA,baby animal,NA
+Zebra,animals,Zebra,word,produces,NA,item_52,NA,zebra,zebra
+Zürafa,animals,Zurafa,word,produces,NA,item_53,NA,giraffe,giraffe
+Kuzu,animals,Kuzu,word,produces,NA,item_54,lamb,lamb,lamb
+Ambulans,vehicles,Ambulans,word,produces,NA,item_55,NA,ambulance,ambulance
+Araba,vehicles,Araba,word,produces,NA,item_56,car,car,car
+Bisiklet,vehicles,Bisiklet,word,produces,NA,item_57,bicycle,bicycle,bicycle
+Gemi/Vapur,vehicles,Gemi/Vapur,word,produces,NA,item_58,boat,boat/ship,boat
+Helikopter,vehicles,Helikopter,word,produces,NA,item_59,NA,helicopter,helicopter
+İtfaiye,vehicles,Itfaiye,word,produces,NA,item_60,NA,firetruck,firetruck
+Kamyon,vehicles,Kamyon,word,produces,NA,item_61,truck,truck,truck
+Kayık,vehicles,Kayik,word,produces,NA,item_62,NA,rowing boat,kayak
+Motosiklet,vehicles,Motosiklet,word,produces,NA,item_63,NA,motorcycle,motorcycle
+Otobüs,vehicles,Otobus,word,produces,NA,item_64,bus,bus,bus
+Traktör,vehicles,Traktor,word,produces,NA,item_65,NA,tractor,tractor
+Tren,vehicles,Tren,word,produces,NA,item_66,train,train,train
+Uçak,vehicles,Ucak,word,produces,NA,item_67,airplane,airplane,airplane
+Yelkenli,vehicles,Yelkenli,word,produces,NA,item_68,NA,sailing boat,sailboat
+Balon,toys,Balon,word,produces,NA,item_69,balloon,balloon,balloon
+Bebek (object),toys,Bebek,word,produces,NA,item_70,doll,doll,doll
+Blok,toys,Blok,word,produces,NA,item_71,NA,block,blocks
+Boya (object),toys,Boya,word,produces,NA,item_72,crayon,crayon,crayon
+Davul,toys,Davul,word,produces,NA,item_73,NA,drum,drum (object)
+Defter,toys,Defter,word,produces,NA,item_74,NA,notebook,notebook
+Düdük,toys,Duduk,word,produces,NA,item_75,NA,whistle,whistle (object)
+Kalem,toys,Kalem,word,produces,NA,item_76,pen/pencil,pencil,pen/pencil
+Kitap,toys,Kitap,word,produces,NA,item_77,book,book,book
+Kova,toys,Kova,word,produces,NA,item_78,bucket,bucket/pail,bucket
+Kukla,toys,Kukla,word,produces,NA,item_79,NA,puppet,puppet
+Kürek,toys,Kurek,word,produces,NA,item_80,NA,shovel,shovel
+Lego,toys,Lego,word,produces,NA,item_81,NA,lego,blocks
+Masal,toys,Masal,word,produces,NA,item_82,NA,story,story
+Oyuncak,toys,Oyuncak,word,produces,NA,item_83,toy (object),toy,toy (object)
+Pazıl/Yap-boz,toys,Pazil/Yap-boz,word,produces,NA,item_84,NA,puzzle,puzzle
+Robot,toys,Robot,word,produces,NA,item_85,NA,robot,robot
+Top,toys,Top,word,produces,NA,item_86,ball,ball,ball
+Tüfek,toys,Tufek,word,produces,NA,item_87,NA,gun,gun
+Uçurtma,toys,Ucurtma,word,produces,NA,item_88,NA,kite,kite
+Armut,food_drink,Armut,word,produces,NA,item_89,pear,pear,pear
+Ayran,food_drink,Ayran,word,produces,NA,item_90,yogurt drink,yoghurt drink,yogurt drink
+Bal,food_drink,Bal,word,produces,NA,item_91,honey,honey,honey
+Balık (food),food_drink,Balik,word,produces,NA,item_92,fish (food),fish,fish (food)
+Bisküvi,food_drink,Biskuvi,word,produces,NA,item_93,cracker,biscuit,cracker
+Börek,food_drink,Borek,word,produces,NA,item_94,pastry,pastry,pastry
+Cips,food_drink,Cips,word,produces,NA,item_95,NA,chips,chips
+Çay,food_drink,Cay,word,produces,NA,item_96,tea,tea,tea
+Çikolata,food_drink,Cikolata,word,produces,NA,item_97,chocolate,chocolate,chocolate
+Çilek,food_drink,Cilek,word,produces,NA,item_98,NA,strawberry,strawberry
+Çorba,food_drink,Corba,word,produces,NA,item_99,soup,soup,soup
+Dolma,food_drink,Dolma,word,produces,NA,item_100,NA,stuffed vegetable,NA
+Domates,food_drink,Domates,word,produces,NA,item_101,tomato,tomato,tomato
+Dondurma,food_drink,Dondurma,word,produces,NA,item_102,ice cream,ice cream,ice cream
+Ekmek,food_drink,Ekmek,word,produces,NA,item_103,bread,bread,bread
+Elma,food_drink,Elma,word,produces,NA,item_104,apple,apple,apple
+Et,food_drink,Et,word,produces,NA,item_105,meat,meat,meat
+Fasulye,food_drink,Fasulye,word,produces,NA,item_106,NA,beans,beans
+Fıstık,food_drink,Fistik,word,produces,NA,item_107,peanut,peanut,nut
+Gazoz,food_drink,Gazoz,word,produces,NA,item_108,NA,soda,soda
+Ispanak,food_drink,Ispanak,word,produces,NA,item_109,NA,spinach,spinach
+Kahve,food_drink,Kahve,word,produces,NA,item_110,NA,coffee,coffee
+Karpuz,food_drink,Karpuz,word,produces,NA,item_111,watermelon,watermelon,watermelon
+Kayısı,food_drink,Kayisi,word,produces,NA,item_112,NA,apricot,apricot
+Kek,food_drink,Kek,word,produces,NA,item_113,cake,cake,cake
+Ketçap,food_drink,Ketcap,word,produces,NA,item_114,NA,ketchup,ketchup
+Kiraz,food_drink,Kiraz,word,produces,NA,item_115,NA,cherry,cherry
+Kola,food_drink,Kola,word,produces,NA,item_116,soda,coke,soda
+Köfte,food_drink,Kofte,word,produces,NA,item_117,meatball,meatball,meatball
+Kurabiye,food_drink,Kurabiye,word,produces,NA,item_118,cookie,cookie,cookie
+Limon,food_drink,Limon,word,produces,NA,item_119,lemon,lemon,lemon
+Lokum,food_drink,Lokum,word,produces,NA,item_120,NA,turkish delight,NA
+Makarna,food_drink,Makarna,word,produces,NA,item_121,pasta,pasta/spaghetti,pasta
+Mandalina,food_drink,Mandalina,word,produces,NA,item_122,NA,tangerine,tangerine
+Meyve,food_drink,Meyve,word,produces,NA,item_123,fruit,fruit,fruit
+Mısır,food_drink,Misir,word,produces,NA,item_124,NA,corn,corn
+Muhallebi,food_drink,Muhallebi,word,produces,NA,item_125,pudding,pudding,pudding
+Muz,food_drink,Muz,word,produces,NA,item_126,banana,banana,banana
+Nar,food_drink,Nar,word,produces,NA,item_127,NA,pomegranate,pomegranate
+Nohut,food_drink,Nohut,word,produces,NA,item_128,NA,chickpea,chickpea
+Pasta,food_drink,Pasta,word,produces,NA,item_129,cake,cake,cake
+Patates,food_drink,Patates,word,produces,NA,item_130,potato,potato,potato
+Peynir,food_drink,Peynir,word,produces,NA,item_131,cheese,cheese,cheese
+Pilav,food_drink,Pilav,word,produces,NA,item_132,rice,rice,rice
+Pizza,food_drink,Pizza,word,produces,NA,item_133,NA,pizza,pizza
+Poğaça,food_drink,Pogaca,word,produces,NA,item_134,NA,pastry,pastry
+Portakal,food_drink,Portakal,word,produces,NA,item_135,orange (food),orange,orange (food)
+Reçel,food_drink,Recel,word,produces,NA,item_136,jam,jam,jam
+Sakız/Çiklet,food_drink,Sakiz/Ciklet,word,produces,NA,item_137,NA,chewing gum,gum
+Salam,food_drink,Salam,word,produces,NA,item_138,NA,salami,salami
+Salatalık,food_drink,Salatalik,word,produces,NA,item_139,NA,cucumber,cucumber
+Simit,food_drink,Simit,word,produces,NA,item_140,pretzel,pretzel/common turkish snack,pretzel
+Soğan,food_drink,Sogan,word,produces,NA,item_141,NA,onion,onion
+Sosis,food_drink,Sosis,word,produces,NA,item_142,NA,sausage ,sausage
+Su,food_drink,Su,word,produces,NA,item_143,water (beverage),water,water (beverage)
+Sucuk,food_drink,Sucuk,word,produces,NA,item_144,NA,spicy sausage,sausage
+Süt,food_drink,Sut,word,produces,NA,item_145,milk,milk,milk
+Şeker,food_drink,Seker,word,produces,NA,item_146,candy,sugar /candy,candy
+Tarhana,food_drink,Tarhana,word,produces,NA,item_147,tarhana,kind of soup,tarhana
+Tost,food_drink,Tost,word,produces,NA,item_148,toast,toast,toast
+Tuz,food_drink,Tuz,word,produces,NA,item_149,NA,salt,salt
+Üzüm,food_drink,Uzum,word,produces,NA,item_150,NA,grape,grapes
+Yemek,food_drink,Yemek,word,produces,NA,item_151,food,food,food
+Yoğurt,food_drink,Yogurt,word,produces,NA,item_152,yogurt,yogurt,yogurt
+Yumurta,food_drink,Yumurta,word,produces,NA,item_153,egg,egg,egg
+Zeytin,food_drink,Zeytin,word,produces,NA,item_154,olive,olive,olive
+Ayakkabı/Pabuç,clothing,Ayakkabi/Pabuc,word,produces,NA,item_155,shoe,shoe,shoe
+Bez (çocuk bezi),clothing,Bez_(cocuk_bezi),word,produces,NA,item_156,diaper,diaper,diaper
+Bilezik,clothing,Bilezik,word,produces,NA,item_157,NA,bracelet,bracelet
+Bluz,clothing,Bluz,word,produces,NA,item_158,NA,blouse,blouse
+Bot,clothing,Bot,word,produces,NA,item_159,NA,boots,boots
+Ceket,clothing,Ceket,word,produces,NA,item_160,jacket,jacket,jacket
+Cep,clothing,Cep,word,produces,NA,item_161,NA,pocket,pocket
+Çizme,clothing,Cizme,word,produces,NA,item_162,NA,boots,boots
+Çorap,clothing,Corap,word,produces,NA,item_163,sock,socks,sock
+Don/Külot,clothing,Don/Kulot,word,produces,NA,item_164,NA,underpants,underpants
+Elbise,clothing,Elbise,word,produces,NA,item_165,dress (object),dress,dress (object)
+Eldiven,clothing,Eldiven,word,produces,NA,item_166,NA,gloves,glove
+Eşofman,clothing,Esofman,word,produces,NA,item_167,NA,tracksuit,tracksuit
+Etek,clothing,Etek,word,produces,NA,item_168,NA,skirt,skirt
+Fanila/Atlet,clothing,Fanila/Atlet,word,produces,NA,item_169,NA,undershirt,NA
+Gecelik,clothing,Gecelik,word,produces,NA,item_170,NA,night gown,pajamas
+Gözlük,clothing,Gozluk,word,produces,NA,item_171,glasses,eyeglasses,glasses
+Kazak,clothing,Kazak,word,produces,NA,item_172,sweater,sweater,sweater
+Kemer,clothing,Kemer,word,produces,NA,item_173,NA,belt,belt
+Küpe,clothing,Kupe,word,produces,NA,item_174,NA,earring,earring
+Mont,clothing,Mont,word,produces,NA,item_175,NA,jacket,jacket
+Önlük,clothing,Onluk,word,produces,NA,item_176,bib,bib,bib
+Palto,clothing,Palto,word,produces,NA,item_177,coat,coat,coat
+Pantolon,clothing,Pantolon,word,produces,NA,item_178,pants,pants,pants
+Pijama,clothing,Pijama,word,produces,NA,item_179,pajamas,pyjamas,pajamas
+Şapka,clothing,Sapka,word,produces,NA,item_180,hat,hat,hat
+Şort,clothing,Sort,word,produces,NA,item_181,NA,shorts,shorts
+Taç,clothing,Tac,word,produces,NA,item_182,NA,headband,headband
+Tayt,clothing,Tayt,word,produces,NA,item_183,NA,tights,tights
+Terlik,clothing,Terlik,word,produces,NA,item_184,slipper,slipper,slipper
+Tişört,clothing,Tisort,word,produces,NA,item_185,t-shirt,t-shirt,t-shirt
+Toka,clothing,Toka,word,produces,NA,item_186,NA,hairpin,hair clip
+Ağız,body_parts,Agiz,word,produces,NA,item_187,mouth,mouth,mouth
+Ayak,body_parts,Ayak,word,produces,NA,item_188,foot,foot,foot
+Bacak,body_parts,Bacak,word,produces,NA,item_189,leg,leg,leg
+Baş/Kafa,body_parts,Bas/Kafa,word,produces,NA,item_190,head,head,head
+Bıyık,body_parts,Biyik,word,produces,NA,item_191,NA,mustache,mustache
+Boğaz,body_parts,Bogaz,word,produces,NA,item_192,NA,throat,throat
+Boyun,body_parts,Boyun,word,produces,NA,item_193,NA,neck,neck
+Burun,body_parts,Burun,word,produces,NA,item_194,nose,nose,nose
+Çene,body_parts,Cene,word,produces,NA,item_195,NA,chin,chin
+Dil,body_parts,Dil,word,produces,NA,item_196,tongue,tongue,tongue
+Diş,body_parts,Dis,word,produces,NA,item_197,tooth,tooth,tooth
+Diz,body_parts,Diz,word,produces,NA,item_198,knee,knee,knee
+El,body_parts,El,word,produces,NA,item_199,hand,hand,hand
+Göbek,body_parts,Gobek,word,produces,NA,item_200,tummy,belly,tummy
+Göz,body_parts,Goz,word,produces,NA,item_201,eye,eye,eye
+Kalp,body_parts,Kalp,word,produces,NA,item_202,NA,heart,heart
+Karın,body_parts,Karin,word,produces,NA,item_203,NA,tummy,tummy
+Kirpik,body_parts,Kirpik,word,produces,NA,item_204,NA,eyelash,eyelash
+Kol,body_parts,Kol,word,produces,NA,item_205,NA,arm,arm
+Kulak,body_parts,Kulak,word,produces,NA,item_206,ear,ear,ear
+Parmak,body_parts,Parmak,word,produces,NA,item_207,finger,finger,finger
+Popo,body_parts,Popo,word,produces,NA,item_208,butt,buttocks,butt
+Saç,body_parts,Sac,word,produces,NA,item_209,hair,hair,hair
+Tırnak,body_parts,Tirnak,word,produces,NA,item_210,NA,fingernail,fingernail
+Vücut,body_parts,Vucut,word,produces,NA,item_211,NA,body,body
+Yanak,body_parts,Yanak,word,produces,NA,item_212,cheek,cheek,cheek
+Yüz/Surat,body_parts,Yuz/Surat,word,produces,NA,item_213,NA,face,face
+Anahtar,household,Anahtar,word,produces,NA,item_214,keys,key,key
+Ayna,household,Ayna,word,produces,NA,item_215,mirror,mirror,mirror
+Bant (plaster),household,Bant_(plaster),word,produces,NA,item_216,NA,bandaid,bandaid
+Bardak,household,Bardak,word,produces,NA,item_217,glasses,glass,glasses
+Battaniye,household,Battaniye,word,produces,NA,item_218,blanket,blanket,blanket
+Bıçak,household,Bicak,word,produces,NA,item_219,NA,knife,knife
+Biberon,household,Biberon,word,produces,NA,item_220,bottle,baby bottle,bottle
+Çanta,household,Canta,word,produces,NA,item_221,purse,purse/bag,purse
+Çatal,household,Catal,word,produces,NA,item_222,fork,fork,fork
+Çaydanlık,household,Caydanlik,word,produces,NA,item_223,NA,teapot,teapot
+Çekiç,household,Cekic,word,produces,NA,item_224,NA,hammer,hammer
+Çöp,household,Cop,word,produces,NA,item_225,NA,trash,trash
+Emzik,household,Emzik,word,produces,NA,item_226,pacifier,pacifier,pacifier
+Havlu,household,Havlu,word,produces,NA,item_227,NA,towel,towel
+İlaç,household,Ilac,word,produces,NA,item_228,medicine,medicine,medicine
+Kağıt,household,Kagit,word,produces,NA,item_229,paper,paper,paper
+Kaşık,household,Kasik,word,produces,NA,item_230,spoon,spoon,spoon
+Kumanda,household,Kumanda,word,produces,NA,item_231,remote control,remote control,remote control
+Lamba/Işık,household,Lamba/Isik,word,produces,NA,item_232,lamp,lamp/light,lamp
+Mendil,household,Mendil,word,produces,NA,item_233,NA,tissue/handkerchief,tissue
+Pamuk,household,Pamuk,word,produces,NA,item_234,NA,cotton,cotton
+Peçete,household,Pecete,word,produces,NA,item_235,NA,napkin,napkin
+Perde,household,Perde,word,produces,NA,item_236,NA,curtain,curtain
+Radyo,household,Radyo,word,produces,NA,item_237,radio,radio,radio
+Resim,household,Resim,word,produces,NA,item_238,picture,picture,picture
+Saat,household,Saat,word,produces,NA,item_239,clock,clock,clock
+Sabun,household,Sabun,word,produces,NA,item_240,soap,soap,soap
+Süpürge,household,Supurge,word,produces,NA,item_241,vacuum,broom/vacuum cleaner,vacuum
+Şemsiye,household,Semsiye,word,produces,NA,item_242,NA,umbrella,umbrella
+Tabak,household,Tabak,word,produces,NA,item_243,plate,plate,plate
+Tarak,household,Tarak,word,produces,NA,item_244,comb (object),comb,comb (object)
+Telefon,household,Telefon,word,produces,NA,item_245,telephone,telephone,telephone
+Ütü,household,Utu,word,produces,NA,item_246,NA,iron,iron (object)
+Balkon,furniture_rooms,Balkon,word,produces,NA,item_247,porch,balcony,porch
+Banyo (object),furniture_rooms,Banyo,word,produces,NA,item_248,bathroom,bathroom,bathroom
+Bilgisayar,furniture_rooms,Bilgisayar,word,produces,NA,item_249,computer,computer,computer
+Buzdolabı,furniture_rooms,Buzdolabi,word,produces,NA,item_250,refrigerator,refrigerator,refrigerator
+Dolap,furniture_rooms,Dolap,word,produces,NA,item_251,cupboard,cupboard,cupboard
+Duş,furniture_rooms,Dus,word,produces,NA,item_252,NA,shower,shower
+Fırın,furniture_rooms,Firin,word,produces,NA,item_253,oven,oven,oven
+Kalorifer,furniture_rooms,Kalorifer,word,produces,NA,item_254,NA,radiator,radiator
+Halı,furniture_rooms,Hali,word,produces,NA,item_255,NA,carpet,carpet
+Kapı,furniture_rooms,Kapi,word,produces,NA,item_256,door,door,door
+Koltuk,furniture_rooms,Koltuk,word,produces,NA,item_257,armchair,armchair,armchair
+Lazımlık/Oturak,furniture_rooms,Lazimlik/Oturak,word,produces,NA,item_258,potty,potty,potty
+Masa,furniture_rooms,Masa,word,produces,NA,item_259,table,table,table
+Merdiven,furniture_rooms,Merdiven,word,produces,NA,item_260,stairs,stairs,stairs
+Mutfak,furniture_rooms,Mutfak,word,produces,NA,item_261,kitchen,kitchen,kitchen
+Ocak,furniture_rooms,Ocak,word,produces,NA,item_262,NA,oven/stove,stove
+Pencere,furniture_rooms,Pencere,word,produces,NA,item_263,window,window,window
+Oda,furniture_rooms,Oda,word,produces,NA,item_264,room,room,room
+Salon,furniture_rooms,Salon,word,produces,NA,item_265,NA,living room,living room
+Sandalye/İskemle,furniture_rooms,Sandalye/Iskemle,word,produces,NA,item_266,chair,chair,chair
+Sehpa,furniture_rooms,Sehpa,word,produces,NA,item_267,NA,coffee table,coffee table
+Televizyon/TV,furniture_rooms,Televizyon/TV,word,produces,NA,item_268,NA,TV,TV
+Tuvalet,furniture_rooms,Tuvalet,word,produces,NA,item_269,potty,toilet,potty
+Yatak,furniture_rooms,Yatak,word,produces,NA,item_270,bed,bed,bed
+Yastık,furniture_rooms,Yastik,word,produces,NA,item_271,pillow,pillow,pillow
+Zil,furniture_rooms,Zil,word,produces,NA,item_272,bell,bell,bell
+Yorgan,furniture_rooms,Yorgan,word,produces,NA,item_273,NA,comforter/quilt,NA
+Ay/Aydede,outside,Ay/Aydede,word,produces,NA,item_274,moon,moon,moon
+Ağaç,outside,Agac,word,produces,NA,item_275,tree,tree,tree
+Ateş,outside,Ates,word,produces,NA,item_276,fire,fire,fire
+Bahçe,outside,Bahce,word,produces,NA,item_277,garden,garden,garden
+Bulut,outside,Bulut,word,produces,NA,item_278,NA,cloud,cloud
+Bayrak,outside,Bayrak,word,produces,NA,item_279,NA,flag,flag
+Çamur,outside,Camur,word,produces,NA,item_280,mud,mud,mud
+Çiçek,outside,Cicek,word,produces,NA,item_281,flower,flower,flower
+Çimen,outside,Cimen,word,produces,NA,item_282,NA,grass,yard
+Dağ,outside,Dag,word,produces,NA,item_283,NA,mountain,mountain
+Dal,outside,Dal,word,produces,NA,item_284,NA,branch,stick
+Duman,outside,Duman,word,produces,NA,item_285,NA,smoke,smoke
+Duvar,outside,Duvar,word,produces,NA,item_286,wall,wall,wall
+Dünya,outside,Dunya,word,produces,NA,item_287,NA,earth,earth
+Fotoğraf,outside,Fotograf,word,produces,NA,item_288,NA,photograph,photo
+Garaj,outside,Garaj,word,produces,NA,item_289,NA,garage,garage
+Göl,outside,Gol,word,produces,NA,item_290,NA,lake,lake
+Güneş,outside,Gunes,word,produces,NA,item_291,sun,sun,sun
+Kar,outside,Kar,word,produces,NA,item_292,NA,snow,snow
+Kaydırak,outside,Kaydirak,word,produces,NA,item_293,slide (object),slide,slide (object)
+Kaza,outside,Kaza,word,produces,NA,item_294,NA,accident,accident
+Kozalak,outside,Kozalak,word,produces,NA,item_295,NA,pine cone,pine cone
+Köprü,outside,Kopru,word,produces,NA,item_296,bridge,bridge,bridge
+Kum,outside,Kum,word,produces,NA,item_297,sand,sand,sand
+Odun,outside,Odun,word,produces,NA,item_298,NA,wood,wood
+Ot,outside,Ot,word,produces,NA,item_299,NA,grass,grass
+Salıncak,outside,Salincak,word,produces,NA,item_300,swing (object),swing,swing (object)
+Sokak,outside,Sokak,word,produces,NA,item_301,street,street,street
+Taş,outside,Tas,word,produces,NA,item_302,rock (object),stone/rock,rock (object)
+Tekerlek,outside,Tekerlek,word,produces,NA,item_303,NA,wheel,wheel
+Toprak,outside,Toprak,word,produces,NA,item_304,soil,ground/earth,soil
+Toz,outside,Toz,word,produces,NA,item_305,dust,dust,dust
+Trafik,outside,Trafik,word,produces,NA,item_306,NA,traffic,traffic
+Yağmur,outside,Yagmur,word,produces,NA,item_307,rain,rain,rain
+Yangın,outside,Yangin,word,produces,NA,item_308,NA,fire,fire
+Yaprak,outside,Yaprak,word,produces,NA,item_309,leaf,leaf,leaf
+Yol,outside,Yol,word,produces,NA,item_310,road,road/path,road
+Atta,places,Atta,word,produces,NA,item_311,outing,outing,outing
+Bakkal,places,Bakkal,word,produces,NA,item_312,grocery,grocer,market
+Cami,places,Cami,word,produces,NA,item_313,NA,mosque,church
+Çarşı,places,Carsi,word,produces,NA,item_314,market,bazaar/market,market
+Dışarı,places,Disari,word,produces,NA,item_315,outside,outside,outside
+Deniz,places,Deniz,word,produces,NA,item_316,sea,sea,sea
+Düğün,places,Dugun,word,produces,NA,item_317,NA,wedding,wedding
+Dükkan,places,Dukkan,word,produces,NA,item_318,store,shop/store,store
+Ev,places,Ev,word,produces,NA,item_319,home,home/house,home
+Hastane,places,Hastane,word,produces,NA,item_320,NA,hospital,hospital
+İş,places,Is,word,produces,NA,item_321,work (place),work,work (place)
+Komşu,places,Komsu,word,produces,NA,item_322,NA,neighbor,neighbor
+Köy,places,Koy,word,produces,NA,item_323,village,village,town
+Kreş/Yuva,places,Kres/Yuva,word,produces,NA,item_324,NA,daycare center,NA
+Maç,places,Mac,word,produces,NA,item_325,NA,match/game,game
+Market,places,Market,word,produces,NA,item_326,market,market,market
+Okul,places,Okul,word,produces,NA,item_327,school,school,school
+Orman,places,Orman,word,produces,NA,item_328,NA,forest,forest
+Park,places,Park,word,produces,NA,item_329,park,park/playground,park
+Pazar,places,Pazar,word,produces,NA,item_330,market,bazaar/marketplace,market
+Piknik,places,Piknik,word,produces,NA,item_331,NA,picnic,picnic
+Plaj,places,Plaj,word,produces,NA,item_332,NA,beach,beach
+Sinema,places,Sinema,word,produces,NA,item_333,NA,cinema/movie,movie
+Sirk,places,Sirk,word,produces,NA,item_334,NA,circus,circus
+Tiyatro,places,Tiyatro,word,produces,NA,item_335,NA,theater,theater
+Abi,people,Abi,word,produces,NA,item_336,brother,brother,brother
+Abla,people,Abla,word,produces,NA,item_337,sister,sister,sister
+Adam,people,Adam,word,produces,NA,item_338,man,man,man
+Amca,people,Amca,word,produces,NA,item_339,uncle,uncle (paternal),uncle
+Anne,people,Anne,word,produces,NA,item_340,mommy,mommy/mother,mommy
+Anneanne,people,Anneanne,word,produces,NA,item_341,NA,grandma/grandmother,grandma
+Arkadaş,people,Arkadas,word,produces,NA,item_342,friend,friend,friend
+Asker,people,Asker,word,produces,NA,item_343,NA,soldier,soldier
+Baba,people,Baba,word,produces,NA,item_344,daddy,daddy/father,daddy
+Babaanne,people,Babaanne,word,produces,NA,item_345,NA,grandma/grandmother,grandma
+Bebek (person),people,Bebek,word,produces,NA,item_346,baby,baby,baby
+Berber/Kuaför,people,Berber/Kuafor,word,produces,NA,item_347,NA,hair dresser,barber
+Çocuk,people,Cocuk,word,produces,NA,item_348,child,child,child
+Dede,people,Dede,word,produces,NA,item_349,grandpa,grandpa/grandfather,grandpa
+Doktor,people,Doktor,word,produces,NA,item_350,doctor,doctor,doctor
+Erkek,people,Erkek,word,produces,NA,item_351,NA,male/man,man
+Gelin,people,Gelin,word,produces,NA,item_352,NA,bride,bride
+Hala,people,Hala,word,produces,NA,item_353,aunt,aunt (paternal),aunt
+Kadın,people,Kadin,word,produces,NA,item_354,NA,woman,woman
+Kardeş,people,Kardes,word,produces,NA,item_355,sibling,sibling,sibling
+Kendi ismi,people,Kendi_ismi,word,produces,NA,item_356,child's own name,child´s own name,child's own name
+Kız,people,Kiz,word,produces,NA,item_357,girl,girl,girl
+Kral,people,Kral,word,produces,NA,item_358,NA,king,king
+Nine,people,Nine,word,produces,NA,item_359,grandma,grandma,grandma
+Oğlan,people,Oglan,word,produces,NA,item_360,NA,boy,boy
+Öğretmen,people,Ogretmen,word,produces,NA,item_361,NA,teacher,teacher
+Palyaço,people,Palyaco,word,produces,NA,item_362,clown,clown,clown
+Polis,people,Polis,word,produces,NA,item_363,police,policeman,police
+Prenses,people,Prenses,word,produces,NA,item_364,NA,princess,princess
+Tamirci,people,Tamirci,word,produces,NA,item_365,NA,repairman/serviceman,NA
+Teyze,people,Teyze,word,produces,NA,item_366,aunt,aunt (maternal),aunt
+NA,unknown,NA,word,produces,NA,item_367,NA,NA,NA
+Aferin,games_routines,Aferin,word,produces,NA,item_368,bravo,well done/bravo,bravo
+Alkış,games_routines,Alkis,word,produces,NA,item_369,clap,hand clap,clap
+Alo,games_routines,Alo,word,produces,NA,item_370,hello,hello (on the phone),hello
+Ayıp,games_routines,Ayip,word,produces,NA,item_371,shame,shameful,shame
+Banyo (routine),games_routines,Banyo,word,produces,NA,item_372,bath,bathroom,bath
+Bay-bay,games_routines,Bay-bay,word,produces,NA,item_373,bye,bye,bye
+Çiş,games_routines,Cis,word,produces,NA,item_374,go potty,pee,go potty
+Dikkat,games_routines,Dikkat,word,produces,NA,item_375,watch out,watch out/attention,watch out
+Doğumgünü,games_routines,Dogumgunu,word,produces,NA,item_376,NA,birthday,birthday
+Efendim,games_routines,Efendim,word,produces,NA,item_377,NA,I beg your pardon,excuse me
+Evcilik,games_routines,Evcilik,word,produces,NA,item_378,NA,playing house,playhouse
+Evet,games_routines,Evet,word,produces,NA,item_379,yes,yes,yes
+Güle-güle,games_routines,Gule-gule,word,produces,NA,item_380,bye,goodbye,bye
+Günaydın,games_routines,Gunaydin,word,produces,NA,item_381,good morning,good morning,good morning
+Hadi,games_routines,Hadi,word,produces,NA,item_382,come on,come on,come on
+Hayır,games_routines,Hayir,word,produces,NA,item_383,don't,no/don´t,don't
+Hoşgeldiniz,games_routines,Hosgeldiniz,word,produces,NA,item_384,NA,welcome,welcome
+İyi geceler,games_routines,Iyi_geceler,word,produces,NA,item_385,good night,good night,good night
+Kahvaltı,games_routines,Kahvalti,word,produces,NA,item_386,NA,breakfast,breakfast
+Kaka,games_routines,Kaka,word,produces,NA,item_387,go potty,poo-poo/go potty,go potty
+Kucak,games_routines,Kucak,word,produces,NA,item_388,take in arms,)take in) lap/arms,take in arms
+Lütfen,games_routines,Lutfen,word,produces,NA,item_389,NA,please,please
+Mama,games_routines,Mama,word,produces,NA,item_390,baby food,food (child word),baby food
+Merhaba,games_routines,Merhaba,word,produces,NA,item_391,NA,hi,hi
+Müzik,games_routines,Muzik,word,produces,NA,item_392,music,music,music
+Ninni,games_routines,Ninni,word,produces,NA,item_393,lullaby,lullaby,lullaby
+Saklambaç,games_routines,Saklambac,word,produces,NA,item_394,hide and seek,hide-and-seek,hide and seek
+Sürpriz,games_routines,Surpriz,word,produces,NA,item_395,surprise,surprise,surprise
+Şaka,games_routines,Saka,word,produces,NA,item_396,NA,joke,joke
+Şarkı,games_routines,Sarki,word,produces,NA,item_397,sing,song,sing
+Tabii,games_routines,Tabii,word,produces,NA,item_398,NA,of course/sure,NA
+Takla,games_routines,Takla,word,produces,NA,item_399,somersault,somersault,somersault
+Tamam,games_routines,Tamam,word,produces,NA,item_400,ok,ok/allright,ok
+Teşekkür/Mersi/Sağol,games_routines,Tesekkur/Mersi/Sagol,word,produces,NA,item_401,NA,thank you,thank you
+Uyku,games_routines,Uyku,word,produces,NA,item_402,sleep,nap/sleep,sleep
+Var,games_routines,Var,word,produces,NA,item_403,present,present/there is,present
+Yarış,games_routines,Yaris,word,produces,NA,item_404,NA,race,NA
+Yazık,games_routines,Yazik,word,produces,NA,item_405,NA,a shame/a pity,NA
+Yeter,games_routines,Yeter,word,produces,NA,item_406,NA,enough,NA
+Yok,games_routines,Yok,word,produces,NA,item_407,all gone,absent/allgone,all gone
+Acı (canı),action_words,Aci_(cani),word,produces,NA,item_408,hurt (action),hurt,hurt (action)
+Acık,action_words,Acik,word,produces,NA,item_409,get hungry,get hungry,get hungry
+Aç,action_words,Ac,word,produces,NA,item_410,open (action),open,open (action)
+Açıl,action_words,Acil,word,produces,NA,item_411,be opened,be opened,open (action)
+Ağla,action_words,Agla,word,produces,NA,item_412,cry,cry,cry
+Al,action_words,Al,word,produces,NA,item_413,take,take,take
+Anla,action_words,Anla,word,produces,NA,item_414,understand,understand,understand
+Anlat,action_words,Anlat,word,produces,NA,item_415,NA,tell,tell
+Ara,action_words,Ara,word,produces,NA,item_416,look for,look for,look for
+Atla,action_words,Atla,word,produces,NA,item_417,jump,jump,jump
+At (action),action_words,At,word,produces,NA,item_418,throw,throw,throw
+Bağır,action_words,Bagir,word,produces,NA,item_419,shout,yell/shout,shout
+Bağla,action_words,Bagla,word,produces,NA,item_420,NA,tie/connect,tie (action)
+Bak,action_words,Bak,word,produces,NA,item_421,look,look,look
+Bas,action_words,Bas,word,produces,NA,item_422,press,press/step,press
+Başla,action_words,Basla,word,produces,NA,item_423,begin,begin/start,begin
+Beğen,action_words,Begen,word,produces,NA,item_424,NA,like,like
+Bekle,action_words,Bekle,word,produces,NA,item_425,NA,wait,wait
+Benze,action_words,Benze,word,produces,NA,item_426,NA,look like/resemble,resemble
+Bırak,action_words,Birak,word,produces,NA,item_427,drop,drop /let go,drop
+Bil,action_words,Bil,word,produces,NA,item_428,NA,know,know
+Bin,action_words,Bin,word,produces,NA,item_429,ride,get on (a vehicle),ride
+Bit,action_words,Bit,word,produces,NA,item_430,finish,finish/all gone,finish
+Bitir,action_words,Bitir,word,produces,NA,item_431,NA,finish,finish
+Boya (action),action_words,Boya,word,produces,NA,item_432,paint (action),paint,paint (action)
+Boz,action_words,Boz,word,produces,NA,item_433,NA,pull apart,NA
+Bul,action_words,Bul,word,produces,NA,item_434,find,find,find
+Büyü,action_words,Buyu,word,produces,NA,item_435,NA,grow up,NA
+Çağır,action_words,Cagir,word,produces,NA,item_436,NA,call,call
+Çalış,action_words,Calis,word,produces,NA,item_437,NA,work,work (action)
+Çek,action_words,Cek,word,produces,NA,item_438,pull,pull,pull
+Çevir,action_words,Cevir,word,produces,NA,item_439,NA,turn/spin,turn
+Çıkar,action_words,Cikar,word,produces,NA,item_440,take off,take off,remove
+Çiz,action_words,Ciz,word,produces,NA,item_441,draw,draw,draw
+Dağıt,action_words,Dagit,word,produces,NA,item_442,NA,distribute/scatter/throw around,scatter
+Dinle,action_words,Dinle,word,produces,NA,item_443,NA,listen,listen
+Dokun,action_words,Dokun,word,produces,NA,item_444,NA,touch,touch
+Doy,action_words,Doy,word,produces,NA,item_445,NA,be full/saturated,fill
+Dön,action_words,Don,word,produces,NA,item_446,turn,turn around/spin,turn
+Döv,action_words,Dov,word,produces,NA,item_447,kick,beat/kick,kick
+Dur,action_words,Dur,word,produces,NA,item_448,stop,stop,stop
+Duy,action_words,Duy,word,produces,NA,item_449,NA,hear,hear
+Dök,action_words,Dok,word,produces,NA,item_450,spill,pour/dump/spill,spill
+Düş,action_words,Dus,word,produces,NA,item_451,fall,fall,fall
+Düzelt,action_words,Duzelt,word,produces,NA,item_452,NA,fix/correct/make smooth,NA
+Elle,action_words,Elle,word,produces,NA,item_453,touch,touch,touch
+El salla,action_words,El_salla,word,produces,NA,item_454,wave,wave hand,wave
+Ez,action_words,Ez,word,produces,NA,item_455,NA,crush,crush
+Gel,action_words,Gel,word,produces,NA,item_456,come,come,come
+Getir,action_words,Getir,word,produces,NA,item_457,bring,bring,bring
+Gez,action_words,Gez,word,produces,NA,item_458,travel,travel/wonder around,travel
+Gıdıkla,action_words,Gidikla,word,produces,NA,item_459,tickle,tickle,tickle
+Gir,action_words,Gir,word,produces,NA,item_460,enter,enter/go into,enter
+Git,action_words,Git,word,produces,NA,item_461,go,go,go
+Giy,action_words,Giy,word,produces,NA,item_462,wear,wear,wear
+Giydir,action_words,Giydir,word,produces,NA,item_463,dress (action),dress up/put on someone,dress (action)
+Gör,action_words,Gor,word,produces,NA,item_464,see,see,see
+Göster,action_words,Goster,word,produces,NA,item_465,show,show,show
+Götür,action_words,Gotur,word,produces,NA,item_466,take away,take away,take away
+Gül,action_words,Gul,word,produces,NA,item_467,laugh,laugh,laugh
+Hastalan,action_words,Hastalan,word,produces,NA,item_468,NA,get sick,NA
+Hatırla,action_words,Hatirla,word,produces,NA,item_469,NA,remember,remember
+Isır,action_words,Isir,word,produces,NA,item_470,bite,bite,bite
+Islan,action_words,Islan,word,produces,NA,item_471,wet (action),get wet,wet (action)
+İç,action_words,Ic,word,produces,NA,item_472,drink (action),drink,drink (action)
+İn,action_words,In,word,produces,NA,item_473,get off,get off/come down,get off
+İste,action_words,Iste,word,produces,NA,item_474,wanna,want,want
+İt,action_words,It,word,produces,NA,item_475,push,push,push
+Kaç,action_words,Kac,word,produces,NA,item_476,NA,escape,escape
+Kal,action_words,Kal,word,produces,NA,item_477,NA,stay,stay
+Kaldır,action_words,Kaldir,word,produces,NA,item_478,lift,lift/pick up,lift (action)
+Kalk,action_words,Kalk,word,produces,NA,item_479,stand,stand,stand
+Kana,action_words,Kana,word,produces,NA,item_480,NA,bleed,bleed
+Kapan,action_words,Kapan,word,produces,NA,item_481,NA,be closed,NA
+Kapat,action_words,Kapat,word,produces,NA,item_482,close,close/shut,close
+Karıştır,action_words,Karistir,word,produces,NA,item_483,NA,mix,mix
+Kay,action_words,Kay,word,produces,NA,item_484,NA,slide,slide (action)
+Kes,action_words,Kes,word,produces,NA,item_485,NA,cut,cut
+Kır,action_words,Kir,word,produces,NA,item_486,break,break,break
+Kırıl,action_words,Kiril,word,produces,NA,item_487,NA,be broken,break
+Kirlet,action_words,Kirlet,word,produces,NA,item_488,NA,make a mess,NA
+Kokla,action_words,Kokla,word,produces,NA,item_489,smell,smell,smell
+Kon,action_words,Kon,word,produces,NA,item_490,NA,be placed/perch,put
+Konuş,action_words,Konus,word,produces,NA,item_491,NA,talk,talk
+Kop,action_words,Kop,word,produces,NA,item_492,NA,get detached/torn apart,detach
+Kopar,action_words,Kopar,word,produces,NA,item_493,NA,detach/tear apart,detach
+Kork,action_words,Kork,word,produces,NA,item_494,be scared,be afraid of/fear,be scared
+Koş,action_words,Kos,word,produces,NA,item_495,run,run,run
+Koy,action_words,Koy,word,produces,NA,item_496,put,put,put
+Kurtar,action_words,Kurtar,word,produces,NA,item_497,NA,save/rescue,save
+Küs,action_words,Kus,word,produces,NA,item_498,NA,be cross/not talk to each other,NA
+Oku,action_words,Oku,word,produces,NA,item_499,NA,read,read
+Ol,action_words,Ol,word,produces,NA,item_500,be,be,be
+Otur,action_words,Otur,word,produces,NA,item_501,sit,sit,sit
+Oyna,action_words,Oyna,word,produces,NA,item_502,play,play,play
+Öğret,action_words,Ogret,word,produces,NA,item_503,NA,teach,teach
+Öl,action_words,Ol,word,produces,NA,item_504,die,die,die
+Öp,action_words,Op,word,produces,NA,item_505,kiss,kiss,kiss
+Ört,action_words,Ort,word,produces,NA,item_506,cover (action),cover,cover (action)
+Özle,action_words,Ozle,word,produces,NA,item_507,NA,miss,miss
+Patla,action_words,Patla,word,produces,NA,item_508,NA,explode/blow up,explode
+Pişir,action_words,Pisir,word,produces,NA,item_509,NA,cook,cook
+Sakla,action_words,Sakla,word,produces,NA,item_510,hide,hide,hide
+Salla,action_words,Salla,word,produces,NA,item_511,shake,shake,shake
+Sallan,action_words,Sallan,word,produces,NA,item_512,swing (action),swing,swing (action)
+Sarıl,action_words,Saril,word,produces,NA,item_513,hug,hug/cuddle,hug
+Say,action_words,Say,word,produces,NA,item_514,count,count,count
+Sev,action_words,Sev,word,produces,NA,item_515,love,love/like,love
+Seyret,action_words,Seyret,word,produces,NA,item_516,watch (action),watch,watch (action)
+Sık,action_words,Sik,word,produces,NA,item_517,NA,tighten/squeeze/compress,squeeze
+Sıkış,action_words,Sikis,word,produces,NA,item_518,NA,tighten/be stuck,tighten
+Sil,action_words,Sil,word,produces,NA,item_519,wipe,wipe/erase,wipe
+Sok,action_words,Sok,word,produces,NA,item_520,put in,put in/insert,put in
+Sor,action_words,Sor,word,produces,NA,item_521,NA,ask,ask
+Söyle,action_words,Soyle,word,produces,NA,item_522,say,say/tell,say
+Sus,action_words,Sus,word,produces,NA,item_523,shut up,be quiet/shut up,shh
+Susa,action_words,Susa,word,produces,NA,item_524,NA,be thirsty,thirst
+Süpür,action_words,Supur,word,produces,NA,item_525,NA,sweep,sweep
+Şişir,action_words,Sisir,word,produces,NA,item_526,NA,blow up/inflate,inflate
+Tak,action_words,Tak,word,produces,NA,item_527,put on,put sth. on/hang sth. on/attach,put on
+Tara,action_words,Tara,word,produces,NA,item_528,comb (action),comb,comb (action)
+Taşı,action_words,Tasi,word,produces,NA,item_529,carry,carry,carry
+Topla,action_words,Topla,word,produces,NA,item_530,NA,sum/collect/gather/tidy up,gather
+Tut,action_words,Tut,word,produces,NA,item_531,hold,hold,hold
+Uç,action_words,Uc,word,produces,NA,item_532,fly (action),fly,fly (action)
+Unut,action_words,Unut,word,produces,NA,item_533,NA,forget,forget
+Uyan,action_words,Uyan,word,produces,NA,item_534,wake,wake up,wake
+Üzül,action_words,Uzul,word,produces,NA,item_535,NA,become sorry,NA
+Ver,action_words,Ver,word,produces,NA,item_536,give,give,give
+Vur,action_words,Vur,word,produces,NA,item_537,hit,hit/knock,hit
+Yak,action_words,Yak,word,produces,NA,item_538,NA,set on fire/burn,burn
+Yan,action_words,Yan,word,produces,NA,item_539,NA,blaze/burn,burn
+Yap,action_words,Yap,word,produces,NA,item_540,do,do/make,do
+Yapış,action_words,Yapis,word,produces,NA,item_541,NA,cling,snap
+Yat,action_words,Yat,word,produces,NA,item_542,lie,lie down/go to bed,lie down
+Yaz,action_words,Yaz,word,produces,NA,item_543,write,write,write
+Ye,action_words,Ye,word,produces,NA,item_544,eat,eat,eat
+Yedir,action_words,Yedir,word,produces,NA,item_545,feed,feed,feed
+Yık,action_words,Yik,word,produces,NA,item_546,NA,blast/destroy/tear down,tear
+Yıkıl,action_words,Yikil,word,produces,NA,item_547,NA,be ruined/collapse,break
+Yıka,action_words,Yika,word,produces,NA,item_548,wash,wash,wash
+Yıkan,action_words,Yikan,word,produces,NA,item_549,bathe,take a bath/wash yourself,bathe
+Yırt,action_words,Yirt,word,produces,NA,item_550,tear,tear,tear
+Yorul,action_words,Yorul,word,produces,NA,item_551,NA,be tired,tire (action)
+Yut,action_words,Yut,word,produces,NA,item_552,swallow,swallow,swallow
+Yürü,action_words,Yuru,word,produces,NA,item_553,walk,walk,walk
+Acı,descriptive_words,Aci,word,produces,NA,item_554,NA,bitter,bitter
+Açık,descriptive_words,Acik,word,produces,NA,item_555,open (description),open,open (description)
+Ağır,descriptive_words,Agir,word,produces,NA,item_556,NA,heavy,heavy
+Az,descriptive_words,Az,word,produces,NA,item_557,NA,little/few,few
+Beyaz,descriptive_words,Beyaz,word,produces,NA,item_558,NA,white,white
+Boş,descriptive_words,Bos,word,produces,NA,item_559,empty,empty,empty
+Büyük,descriptive_words,Buyuk,word,produces,NA,item_560,big,big,big
+Cadı,descriptive_words,Cadi,word,produces,NA,item_561,NA,witch,naughty
+Canavar,descriptive_words,Canavar,word,produces,NA,item_562,NA,monster,NA
+Cici,descriptive_words,Cici,word,produces,NA,item_563,cute,cute,cute
+Cüce,descriptive_words,Cuce,word,produces,NA,item_564,NA,dwarf,little (description)
+Çirkin,descriptive_words,Cirkin,word,produces,NA,item_565,ugly,ugly,ugly
+Delik,descriptive_words,Delik,word,produces,NA,item_566,NA,hollow/hole,hollow
+Dolu,descriptive_words,Dolu,word,produces,NA,item_567,NA,full,full
+Ekşi,descriptive_words,Eksi,word,produces,NA,item_568,NA,sour,sour
+Eski,descriptive_words,Eski,word,produces,NA,item_569,NA,old,old
+Güzel,descriptive_words,Guzel,word,produces,NA,item_570,pretty,beautiful,pretty
+Hasta,descriptive_words,Hasta,word,produces,NA,item_571,sick,sick/ill,sick
+Hazır,descriptive_words,Hazir,word,produces,NA,item_572,NA,ready,ready
+Hızlı,descriptive_words,Hizli,word,produces,NA,item_573,NA,fast,fast
+Islak,descriptive_words,Islak,word,produces,NA,item_574,wet (description),wet,wet (description)
+İğrenç,descriptive_words,Igrenc,word,produces,NA,item_575,NA,yucky /disgusting,disgusting
+İki,descriptive_words,Iki,word,produces,NA,item_576,NA,two,NA
+İyi,descriptive_words,Iyi,word,produces,NA,item_577,good,good,good
+Kahverengi,descriptive_words,Kahverengi,word,produces,NA,item_578,NA,brown,brown
+Kapalı,descriptive_words,Kapali,word,produces,NA,item_579,closed,closed,closed
+Karanlık,descriptive_words,Karanlik,word,produces,NA,item_580,dark,dark,dark
+Katı,descriptive_words,Kati,word,produces,NA,item_581,NA,hard/solid/strict,solid
+Kırık,descriptive_words,Kirik,word,produces,NA,item_582,NA,broken,broken
+Kırmızı,descriptive_words,Kirmizi,word,produces,NA,item_583,red,red,red
+Kısa,descriptive_words,Kisa,word,produces,NA,item_584,NA,short,short
+Kirli,descriptive_words,Kirli,word,produces,NA,item_585,dirty,dirty,dirty
+Kocaman,descriptive_words,Kocaman,word,produces,NA,item_586,big,huge/giant,big
+Komik,descriptive_words,Komik,word,produces,NA,item_587,funny,funny,funny
+Koyu,descriptive_words,Koyu,word,produces,NA,item_588,NA,dark,dark
+Kötü,descriptive_words,Kotu,word,produces,NA,item_589,NA,bad,bad
+Kuru,descriptive_words,Kuru,word,produces,NA,item_590,NA,dry,dry (description)
+Küçük,descriptive_words,Kucuk,word,produces,NA,item_591,little (description),little/small,little (description)
+Mor,descriptive_words,Mor,word,produces,NA,item_592,NA,purple,purple
+Pis,descriptive_words,Pis,word,produces,NA,item_593,dirty,foul/nasty/dirty,dirty
+Sarı,descriptive_words,Sari,word,produces,NA,item_594,NA,yellow,yellow
+Sert,descriptive_words,Sert,word,produces,NA,item_595,NA,hard/solid/strict,hard
+Sessiz,descriptive_words,Sessiz,word,produces,NA,item_596,NA,quiet,quiet
+Sıcak,descriptive_words,Sicak,word,produces,NA,item_597,hot,hot,hot
+Siyah,descriptive_words,Siyah,word,produces,NA,item_598,NA,black,black
+Soğuk,descriptive_words,Soguk,word,produces,NA,item_599,cold,cold,cold
+Şirin,descriptive_words,Sirin,word,produces,NA,item_600,NA,cute,cute
+Tatlı,descriptive_words,Tatli,word,produces,NA,item_601,sweet,sweet,sweet
+Temiz,descriptive_words,Temiz,word,produces,NA,item_602,clean (description),clean,clean (description)
+Ters,descriptive_words,Ters,word,produces,NA,item_603,NA,opposite/reverse,opposite
+Turuncu,descriptive_words,Turuncu,word,produces,NA,item_604,NA,orange,orange (description)
+Uzun,descriptive_words,Uzun,word,produces,NA,item_605,NA,tall/long,tall
+Yapışkan,descriptive_words,Yapiskan,word,produces,NA,item_606,NA,sticky,sticky
+Yavaş,descriptive_words,Yavas,word,produces,NA,item_607,NA,slow,slow
+Yeşil,descriptive_words,Yesil,word,produces,NA,item_608,NA,green,green
+Yumuşak,descriptive_words,Yumusak,word,produces,NA,item_609,NA,soft,soft
+Yüksek,descriptive_words,Yuksek,word,produces,NA,item_610,NA,high,high
+Zor,descriptive_words,Zor,word,produces,NA,item_611,NA,difficult,difficult
+Yaramaz,descriptive_words,Yaramaz,word,produces,NA,item_612,naughty,naughty,naughty
+Yaş,descriptive_words,Yas,word,produces,NA,item_613,NA,wet,wet (description)
+Yeni,descriptive_words,Yeni,word,produces,NA,item_614,new,new,new
+Akşam,time_words,Aksam,word,produces,NA,item_615,evening,evening,evening
+Bazen,time_words,Bazen,word,produces,NA,item_616,NA,sometimes,sometimes
+Bugün,time_words,Bugun,word,produces,NA,item_617,today,today,today
+Dün,time_words,Dun,word,produces,NA,item_618,NA,yesterday,yesterday
+Gece,time_words,Gece,word,produces,NA,item_619,night,night,night
+Hemen,time_words,Hemen,word,produces,NA,item_620,now,immediately/right now,now
+Ondan sonra,time_words,Ondan_sonra,word,produces,NA,item_621,NA,then/afterwards,then
+Öğlen,time_words,Oglen,word,produces,NA,item_622,NA,noon,noon
+Önce,time_words,Once,word,produces,NA,item_623,NA,before,before
+Sabah,time_words,Sabah,word,produces,NA,item_624,morning,morning,morning
+Sonra,time_words,Sonra,word,produces,NA,item_625,NA,then/after,after
+Şimdi,time_words,Simdi,word,produces,NA,item_626,now,now,now
+Yarın,time_words,Yarin,word,produces,NA,item_627,NA,tomorrow,tomorrow
+Bana,pronouns,Bana,word,produces,NA,item_628,me,me,1SG
+Ben,pronouns,Ben,word,produces,NA,item_629,i,I,1SG
+Benim,pronouns,Benim,word,produces,NA,item_630,my,my,1SG.POSS
+Bu,pronouns,Bu,word,produces,NA,item_631,this,this,this
+Biz,pronouns,Biz,word,produces,NA,item_632,NA,we,1PL
+Bizim,pronouns,Bizim,word,produces,NA,item_633,NA,our,1PL.POSS
+Sen,pronouns,Sen,word,produces,NA,item_634,you,you,2SG
+Senin,pronouns,Senin,word,produces,NA,item_635,your,your,2SG.POSS
+Siz,pronouns,Siz,word,produces,NA,item_636,NA,you,2PL
+Sizin,pronouns,Sizin,word,produces,NA,item_637,NA,your,2PL.POSS
+Şu,pronouns,Su,word,produces,NA,item_638,that,that,that
+Kendi,pronouns,Kendi,word,produces,NA,item_639,NA,own-self/himself/herself,REFL
+Kendim,pronouns,Kendim,word,produces,NA,item_640,NA,myself,1SG.REFL
+O,pronouns,O,word,produces,NA,item_641,that,that/s/he/it,that
+Ona,pronouns,Ona,word,produces,NA,item_642,it,him/her/it,3SG
+Onlar,pronouns,Onlar,word,produces,NA,item_643,NA,them,3PL
+Onun,pronouns,Onun,word,produces,NA,item_644,his,his/hers/its,3SG.POSS
+Kimse,pronouns,Kimse,word,produces,NA,item_645,NA,anyone/nonone,anybody
+Sana,pronouns,Sana,word,produces,NA,item_646,to you,(to)you,2SG
+Biri,pronouns,Biri,word,produces,NA,item_647,someone,someone,someone
+Şey,pronouns,Sey,word,produces,NA,item_648,NA,thing,thing
+Hangi,question_words,Hangi,word,produces,NA,item_649,NA,which,which (question)
+Kaç tane,question_words,Kac_tane,word,produces,NA,item_650,NA,how many,how
+Kim,question_words,Kim,word,produces,NA,item_651,who,who,who
+Nasıl,question_words,Nasil,word,produces,NA,item_652,how,how,how
+Ne,question_words,Ne,word,produces,NA,item_653,what,what,what
+Ne zaman,question_words,Ne_zaman,word,produces,NA,item_654,NA,when,when (question)
+Neden,question_words,Neden,word,produces,NA,item_655,why,why,why
+Ne kadar,question_words,Ne_kadar,word,produces,NA,item_656,NA,how many/how much,how
+Nereye,question_words,Nereye,word,produces,NA,item_657,where (question),where to,where (question)
+Nerede,question_words,Nerede,word,produces,NA,item_658,where (question),where at,where (question)
+Nereden,question_words,Nereden,word,produces,NA,item_659,NA,where from,where (question)
+Niye,question_words,Niye,word,produces,NA,item_660,why,why,why
+Altında,locations,Altinda,word,produces,NA,item_661,under,under,under
+Arasında,locations,Arasinda,word,produces,NA,item_662,NA,between/among,between
+Arkasında,locations,Arkasinda,word,produces,NA,item_663,back (location),behind,back (location)
+Aşağıda,locations,Asagida,word,produces,NA,item_664,NA,below,below
+Burada,locations,Burada,word,produces,NA,item_665,here,here,here
+Dışarıda,locations,Disarida,word,produces,NA,item_666,out,out/outside,out
+Dışında,locations,Disinda,word,produces,NA,item_667,NA,out of/outside,outside
+Geride,locations,Geride,word,produces,NA,item_668,NA,behind/at the back,behind
+İçeride,locations,Iceride,word,produces,NA,item_669,inside,inside,inside
+İçinde,locations,Icinde,word,produces,NA,item_670,in,in,in
+İleride,locations,Ileride,word,produces,NA,item_671,NA,ahead,ahead
+Karşıda,locations,Karsida,word,produces,NA,item_672,NA,across/opposite to,NA
+Orada,locations,Orada,word,produces,NA,item_673,there,there,there
+Ortada,locations,Ortada,word,produces,NA,item_674,NA,in between/in middle,between
+Önünde,locations,Onunde,word,produces,NA,item_675,front,in front of,front
+Şurada,locations,Surada,word,produces,NA,item_676,there,there,there
+Uzak,locations,Uzak,word,produces,NA,item_677,NA,far/far away,far
+Üstünde/Üzerinde,locations,Ustunde/Uzerinde,word,produces,NA,item_678,on,on,on
+Yakın,locations,Yakin,word,produces,NA,item_679,NA,close/near,near
+Yanında,locations,Yaninda,word,produces,NA,item_680,NA,next to/beside,next to
+Yukarıda,locations,Yukarida,word,produces,NA,item_681,NA,up/above,above
+Aynı,quantifiers,Ayni,word,produces,NA,item_682,NA,same,same
+Başka,quantifiers,Baska,word,produces,NA,item_683,NA,other,other
+Belki,quantifiers,Belki,word,produces,NA,item_684,NA,maybe/probably,maybe
+Bile,quantifiers,Bile,word,produces,NA,item_685,NA,even,even
+Biraz,quantifiers,Biraz,word,produces,NA,item_686,some,some/a little,some
+Böyle,quantifiers,Boyle,word,produces,NA,item_687,NA,like this,NA
+Çok,quantifiers,Cok,word,produces,NA,item_688,NA,much/many,much
+Daha,quantifiers,Daha,word,produces,NA,item_689,NA,more,more
+En,quantifiers,En,word,produces,NA,item_690,NA,the most,most
+Galiba,quantifiers,Galiba,word,produces,NA,item_691,NA,perhaps/probably,probably
+Gibi,quantifiers,Gibi,word,produces,NA,item_692,NA,like/such as,like
+Her,quantifiers,Her,word,produces,NA,item_693,NA,every,every
+Hep,quantifiers,Hep,word,produces,NA,item_694,NA,ever/always,always
+Hepsi,quantifiers,Hepsi,word,produces,NA,item_695,all,all,all
+Hiç,quantifiers,Hic,word,produces,NA,item_696,none,none/any,none
+Hiçbiri,quantifiers,Hicbiri,word,produces,NA,item_697,NA,none of,none
+İşte,quantifiers,Iste,word,produces,NA,item_698,here,here/there/behold,here
+Öbürü,quantifiers,Oburu,word,produces,NA,item_699,other,the other,other
+Öteki,quantifiers,Oteki,word,produces,NA,item_700,NA,the other,other
+Tam,quantifiers,Tam,word,produces,NA,item_701,NA,exact/whole,all
+Tek,quantifiers,Tek,word,produces,NA,item_702,NA,only,only
+Yine/Gene,quantifiers,Yine/Gene,word,produces,NA,item_703,again,again,again
+Zaten,quantifiers,Zaten,word,produces,NA,item_704,NA,already,already
+Ama,connecting_words,Ama,word,produces,NA,item_705,NA,but,but
+Çünkü,connecting_words,Cunku,word,produces,NA,item_706,NA,because,because
+De/da,connecting_words,De/da,word,produces,NA,item_707,NA,also/too,also
+Diye,connecting_words,Diye,word,produces,NA,item_708,NA,so/so that,so
+O zaman,connecting_words,O_zaman,word,produces,NA,item_709,NA,then,then
+Sonra,connecting_words,Sonra,word,produces,NA,item_710,NA,after,after
+Ve,connecting_words,Ve,word,produces,NA,item_711,NA,and,and

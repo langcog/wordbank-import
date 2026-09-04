@@ -1,0 +1,25 @@
+type,value,data_value
+sex,M,2
+sex,F,1
+first_signs,yes,1
+first_signs,no,0
+phrases,understands,1
+phrases,,0
+first_words,not yet,1
+first_words,sometimes,2
+first_words,often,3
+word,produces,2
+word,understands,1
+word,,0
+gestures_first,yes,1
+gestures_first,no,0
+gestures_games,yes,1
+gestures_games,no,0
+gestures_objects,yes,1
+gestures_objects,no,0
+gestures_parent,yes,1
+gestures_parent,no,0
+gestures_adult,yes,1
+gestures_adult,no,0
+gestures_play,yes,1
+gestures_play,no,0
