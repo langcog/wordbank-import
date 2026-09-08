@@ -55,6 +55,7 @@ combine_ingest_parts <- function(parts, meta) {
   list(
     dataset = parts[[1]]$dataset |>
       mutate(
+        manifest_row = min(map_int(parts, ~ .x$meta$manifest_row[[1]])),
         n_admins = sum(map_int(parts, ~ nrow(.x$administrations))),
         file_location = str_c(
           unique(map_chr(parts, ~ .x$dataset$file_location[[1]])),
@@ -70,19 +71,56 @@ combine_ingest_parts <- function(parts, meta) {
   )
 }
 
-combine_ingest_results <- function(results) {
+combine_ingest_results <- function(results, include_item_responses = FALSE) {
+  new_parts <- list(
+    items = dedupe_items(map(results, "items") |> list_rbind()),
+    dataset = map(results, "dataset") |> list_rbind(),
+    children = map(results, "children") |> list_rbind(),
+    administrations = map(results, "administrations") |> list_rbind(),
+    language_exposures = map(results, "language_exposures") |> list_rbind()
+  )
+  if (isTRUE(include_item_responses)) {
+    new_parts$item_responses <- map(results, "item_responses") |> list_rbind()
+  }
   list(
-    new_parts = list(
-      items = dedupe_items(map(results, "items") |> list_rbind()),
-      dataset = map(results, "dataset") |> list_rbind(),
-      children = map(results, "children") |> list_rbind(),
-      administrations = map(results, "administrations") |> list_rbind(),
-      language_exposures = map(results, "language_exposures") |> list_rbind(),
-      item_responses = map(results, "item_responses") |> list_rbind()
-    ),
+    new_parts = new_parts,
     triplet_ranges = map(results, "triplet_ranges") |> list_rbind(),
     results = results
   )
+}
+
+#' One row per on-disk harmonized `item_responses.csv` (avoids loading into memory).
+item_response_sources_from_groups <- function(groups, out_harm) {
+  map_dfr(groups, \(rows) {
+    tibble(
+      path = file.path(harmonized_out_dir(rows, out_harm), "item_responses.csv"),
+      dataset_name = rows$dataset_name[[1]],
+      language = rows$language[[1]],
+      form = rows$form[[1]]
+    )
+  })
+}
+
+#' Spill in-memory item responses to temp CSVs when harmonized output is not kept.
+item_response_sources_from_results <- function(results, spill_dir) {
+  dir.create(spill_dir, recursive = TRUE, showWarnings = FALSE)
+  map_dfr(results, \(res) {
+    rows <- as_tibble(res$meta_rows)
+    slug <- rows$dataset_origin_name[[1]] |>
+      str_replace_all("[^a-zA-Z0-9]+", "_") |>
+      str_replace_all("^_|_$", "")
+    path <- file.path(
+      spill_dir,
+      paste0(slug, "_", rows$language[[1]], "_", rows$form[[1]], ".csv")
+    )
+    write_csv(res$item_responses, path, na = "")
+    tibble(
+      path = path,
+      dataset_name = rows$dataset_name[[1]],
+      language = rows$language[[1]],
+      form = rows$form[[1]]
+    )
+  })
 }
 
 assert_item_responses <- function(result, label) {
@@ -191,7 +229,9 @@ ingest_triplet <- function(
     unnest(parsed) |>
     mutate(
       dataset_name = meta$dataset_name,
-      dataset_origin_name = meta$dataset_origin_name
+      dataset_origin_name = meta$dataset_origin_name,
+      instrument_language = meta$language,
+      instrument_form = meta$form
     )
 
   instrument <- read_instrument(instrument_file)
@@ -291,7 +331,8 @@ ingest_triplet <- function(
       birth_weight = NA_real_,
       born_early_or_late = NA_character_,
       gestational_age = NA_integer_,
-      zygosity = NA_character_
+      zygosity = NA_character_,
+      manifest_row = as.integer(meta$manifest_row[[1]])
     )
 
   validate_study_internal_ids(
@@ -343,7 +384,8 @@ ingest_triplet <- function(
     children = children_nat,
     administrations = administrations_nat |>
       select(
-        study_internal_id, admin_row, date_of_test, age, comprehension, production,
+        study_internal_id, admin_row, manifest_row, date_of_test, age,
+        comprehension, production,
         is_norming, dataset_name, dataset_origin_name, language, form, form_type,
         birth_order, caregiver_education, ethnicity, race, sex,
         birth_weight, born_early_or_late, gestational_age, zygosity
@@ -384,6 +426,9 @@ ingest_dataset_group <- function(
     out_harm = NULL
 ) {
   meta_rows <- as_tibble(meta_rows)
+  if (!"manifest_row" %in% names(meta_rows)) {
+    stop("meta_rows must include manifest_row (call attach_manifest_row() on manifest first)")
+  }
   label <- harmonized_group_label(meta_rows)
 
   if (skip_processed) {
@@ -511,12 +556,20 @@ write_harmonized_items <- function(items, language, form, out_harm) {
   invisible(path)
 }
 
-write_harmonized_instrument_table <- function(manifest, out_harm) {
+write_harmonized_instrument_table <- function(manifest, items, out_harm) {
   out_dir <- file.path(out_harm, "_instruments")
   dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
   path <- harmonized_instrument_path(out_harm)
-  write_csv(instrument_table_from_manifest(manifest), path, na = "")
+  write_csv(build_instrument_table(manifest, items), path, na = "")
   invisible(path)
+}
+
+load_all_harmonized_items <- function(manifest, out_harm) {
+  keys <- manifest |> distinct(language, form)
+  map_dfr(seq_len(nrow(keys)), \(i) {
+    read_harmonized_items(keys$language[[i]], keys$form[[i]], out_harm)
+  }) |>
+    dedupe_items()
 }
 
 read_harmonized_items <- function(language, form, out_harm) {
@@ -527,15 +580,29 @@ read_harmonized_items <- function(language, form, out_harm) {
   cast_harmonized_table(read_csv(path, show_col_types = FALSE), "items")
 }
 
-read_harmonized <- function(out_dir, language = NULL, form = NULL, out_harm = NULL) {
+read_harmonized <- function(
+    out_dir,
+    language = NULL,
+    form = NULL,
+    out_harm = NULL,
+    load_item_responses = TRUE
+) {
   stopifnot(dir.exists(out_dir))
-  tables <- map(set_names(HARMONIZED_DATASET_TABLES), \(nm) {
+  table_names <- if (isTRUE(load_item_responses)) {
+    HARMONIZED_DATASET_TABLES
+  } else {
+    setdiff(HARMONIZED_DATASET_TABLES, "item_responses")
+  }
+  tables <- map(set_names(table_names), \(nm) {
     path <- file.path(out_dir, paste0(nm, ".csv"))
     if (!file.exists(path)) {
       stop("Missing harmonized table: ", path)
     }
     cast_harmonized_table(read_csv(path, show_col_types = FALSE), nm)
   })
+  if (!isTRUE(load_item_responses)) {
+    tables$item_responses <- NULL
+  }
   range_path <- file.path(out_dir, "triplet_ranges.csv")
   tables$triplet_ranges <- if (file.exists(range_path)) {
     cast_harmonized_table(read_csv(range_path, show_col_types = FALSE), "triplet_ranges")
@@ -560,21 +627,31 @@ read_harmonized <- function(out_dir, language = NULL, form = NULL, out_harm = NU
 #' Load one harmonized dataset group from disk (output of `write_harmonized()`).
 load_harmonized_group <- function(meta_rows, out_harm) {
   meta_rows <- as_tibble(meta_rows)
+  stopifnot("manifest_row" %in% names(meta_rows))
   out_dir <- harmonized_out_dir(meta_rows, out_harm)
-  read_harmonized(
+  tables <- read_harmonized(
     out_dir,
     language = meta_rows$language[[1]],
     form = meta_rows$form[[1]],
-    out_harm = out_harm
+    out_harm = out_harm,
+    load_item_responses = FALSE
   )
+  stopifnot(
+    "manifest_row" %in% names(tables$administrations),
+    "manifest_row" %in% names(tables$dataset)
+  )
+  tables
 }
 
 #' Load all harmonized dataset groups for a manifest without re-ingesting raw CSVs.
 load_ingested_manifest <- function(manifest, out_harm) {
+  stopifnot("manifest_row" %in% names(manifest))
   groups <- split_manifest(manifest)
   results <- map(groups, \(rows) load_harmonized_group(rows, out_harm))
-  out <- combine_ingest_results(results)
-  out$new_parts$instrument <- instrument_table_from_manifest(manifest)
+  out <- combine_ingest_results(results, include_item_responses = FALSE)
+  out$item_response_sources <- item_response_sources_from_groups(groups, out_harm)
+  out$new_parts$items <- dedupe_items(out$new_parts$items)
+  out$new_parts$instrument <- build_instrument_table(manifest, out$new_parts$items)
   c(out, list(manifest = manifest))
 }
 
@@ -597,6 +674,7 @@ ingest_all_manifest <- function(
     stop("out_harm is required when skip_processed = TRUE")
   }
 
+  stopifnot("manifest_row" %in% names(manifest))
   groups <- split_manifest(manifest)
   results <- map(groups, \(rows) {
     res <- ingest_dataset_group(
@@ -621,11 +699,24 @@ ingest_all_manifest <- function(
     res
   })
 
-  out <- combine_ingest_results(results)
+  out <- combine_ingest_results(results, include_item_responses = FALSE)
   if (!is.null(out_harm)) {
-    write_harmonized_instrument_table(manifest, out_harm)
+    out$item_response_sources <- item_response_sources_from_groups(groups, out_harm)
+  } else {
+    spill_dir <- file.path(tempdir(), "wordbank_item_responses")
+    out$item_response_sources <- item_response_sources_from_results(results, spill_dir)
   }
-  out$new_parts$instrument <- instrument_table_from_manifest(manifest)
+  results <- map(results, \(res) {
+    res$item_responses <- NULL
+    res$triplets <- NULL
+    res$intermediates <- NULL
+    res
+  })
+  if (!is.null(out_harm)) {
+    write_harmonized_instrument_table(manifest, out$new_parts$items, out_harm)
+  }
+  out$new_parts$items <- dedupe_items(out$new_parts$items)
+  out$new_parts$instrument <- build_instrument_table(manifest, out$new_parts$items)
   out$manifest <- manifest
   out$demog_mismatches <- map(results, \(r) {
     if (is.null(r$demog_mismatches)) empty_demog_mismatches() else r$demog_mismatches
@@ -647,6 +738,22 @@ ingest_all_manifest <- function(
   out
 }
 
+#' Load harmonized administration rows for every manifest dataset group.
+load_harmonized_administrations <- function(manifest, out_harm) {
+  stopifnot("manifest_row" %in% names(manifest))
+  groups <- split_manifest(manifest)
+  map_dfr(groups, \(rows) {
+    path <- file.path(harmonized_out_dir(rows, out_harm), "administrations.csv")
+    if (!file.exists(path)) {
+      stop("Missing harmonized administrations: ", path)
+    }
+    cast_harmonized_table(
+      read_csv(path, show_col_types = FALSE),
+      "administrations"
+    )
+  })
+}
+
 #' Load harmonized CSVs and merge onto Redivis tables (skip raw re-ingest).
 #' Requires import/ids.R to be sourced first.
 merge_from_harmonized <- function(
@@ -654,11 +761,21 @@ merge_from_harmonized <- function(
     out_harm,
     existing,
     registry,
-    mode = c("append", "complete")
+    mode = c("append", "complete"),
+    item_response_export_dir = NULL,
+    aliases = NULL
 ) {
   if (!exists("merge_with_existing", mode = "function")) {
     stop("Source import/ids.R before calling merge_from_harmonized()")
   }
   ingested <- load_ingested_manifest(manifest, out_harm)
-  merge_with_existing(existing, ingested$new_parts, registry, mode = mode)
+  merge_with_existing(
+    existing,
+    ingested$new_parts,
+    registry,
+    mode = mode,
+    item_response_sources = ingested$item_response_sources,
+    item_response_export_dir = item_response_export_dir,
+    aliases = aliases
+  )
 }

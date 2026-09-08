@@ -32,6 +32,40 @@ DATASET_GROUP_COLS <- c(
   "dataset_name", "dataset_origin_name", "language", "form"
 )
 
+HARMONIZED_DIR_NAME <- "harmonized_data"
+
+#' Harmonized output directory (`harmonized_data/` at repo root).
+harmonized_dir <- function(root = ".") {
+  file.path(root, HARMONIZED_DIR_NAME)
+}
+
+#' Immutable 1-based row index in `datasets.csv` (append-only manifest policy).
+#' Assign once on the manifest as read from file; never renumber after sorting.
+attach_manifest_row <- function(manifest) {
+  if ("manifest_row" %in% names(manifest)) {
+    return(manifest)
+  }
+  manifest |>
+    mutate(manifest_row = row_number())
+}
+
+#' Sort natural-key rows before surrogate ID allocation (manifest chronology first).
+sort_keys_for_allocation <- function(keys, id_col) {
+  order_cols <- switch(
+    id_col,
+    instrument_id = c("manifest_row", "language", "form"),
+    dataset_id = c("manifest_row", "dataset_name", "dataset_origin_name"),
+    child_id = c(
+      "manifest_row", "dataset_origin_name", "study_internal_id", "admin_row"
+    ),
+    data_id = c("manifest_row", "admin_row", "study_internal_id"),
+    character()
+  )
+  order_cols <- intersect(order_cols, names(keys))
+  if (!length(order_cols)) return(keys)
+  keys |> arrange(across(all_of(order_cols)))
+}
+
 #' Child-group demographic fields from raw `*_fields.csv` (group = child).
 CHILD_DEMO_COLS <- c(
   "sex", "race", "ethnicity", "birth_order", "caregiver_education"
@@ -78,12 +112,56 @@ harmonized_instrument_path <- function(out_harm) {
   file.path(out_harm, "_instruments", "instrument.csv")
 }
 
+has_unilemma <- function(x) {
+  chr <- harm_chr(x)
+  !is.na(chr) & chr != "" & toupper(chr) != "NA"
+}
+
+#' Infer `has_grammar` and `unilemma_coverage` from harmonized item definitions.
+instrument_stats_from_items <- function(items) {
+  items |>
+    group_by(language, form) |>
+    summarise(
+      has_grammar = any(!is.na(item_kind) & item_kind != "word"),
+      unilemma_coverage = {
+        n_word <- sum(item_kind == "word", na.rm = TRUE)
+        if (n_word == 0L) {
+          0
+        } else {
+          round(mean(has_unilemma(uni_lemma[item_kind == "word"])), 2)
+        }
+      },
+      .groups = "drop"
+    )
+}
+
 #' One instrument row per distinct language + form in the manifest.
 instrument_table_from_manifest <- function(manifest) {
+  stopifnot("manifest_row" %in% names(manifest))
+  stopifnot(all(c("age_min", "age_max") %in% names(manifest)))
   manifest |>
-    distinct(language, form, form_type) |>
-    mutate(unilemma_coverage = NA_real_) |>
-    select(language, form, form_type, unilemma_coverage)
+    mutate(
+      age_min = harm_int(age_min),
+      age_max = harm_int(age_max)
+    ) |>
+    group_by(language, form) |>
+    summarise(
+      form_type = dplyr::first(form_type),
+      manifest_row = min(manifest_row),
+      age_min = min(age_min, na.rm = TRUE),
+      age_max = max(age_max, na.rm = TRUE),
+      .groups = "drop"
+    )
+}
+
+#' Build the instrument table with inferred and manifest metadata columns.
+build_instrument_table <- function(manifest, items) {
+  instrument_table_from_manifest(manifest) |>
+    left_join(instrument_stats_from_items(items), by = c("language", "form")) |>
+    mutate(
+      has_grammar = coalesce(has_grammar, FALSE),
+      unilemma_coverage = coalesce(unilemma_coverage, 0)
+    )
 }
 
 #' Collapse items to one row set per language + form.
@@ -237,6 +315,7 @@ cast_harmonized_table <- function(df, table) {
         "language", "form", "form_type"
       ),
       dbl = "n_admins",
+      int = "manifest_row",
       lgl = "longitudinal"
     ),
     children = cast_cols(
@@ -255,13 +334,19 @@ cast_harmonized_table <- function(df, table) {
         "language", "form", "form_type", "caregiver_education", "ethnicity",
         "race", "sex", "born_early_or_late", "zygosity"
       ),
-      int = c("admin_row", "age", "comprehension", "production", "birth_order", "gestational_age"),
+      int = c(
+        "admin_row", "age", "comprehension", "production", "birth_order",
+        "gestational_age", "manifest_row"
+      ),
       dbl = "birth_weight",
       lgl = "is_norming"
     ),
     language_exposures = cast_cols(
       df,
-      chr = c("study_internal_id", "language", "dataset_name", "dataset_origin_name"),
+      chr = c(
+        "study_internal_id", "language", "dataset_name", "dataset_origin_name",
+        "instrument_language", "instrument_form"
+      ),
       int = "admin_row",
       dbl = c("exposure_percentage", "age_of_first_exposure")
     ),
@@ -293,7 +378,9 @@ cast_harmonized_table <- function(df, table) {
     instrument = cast_cols(
       df,
       chr = c("language", "form", "form_type"),
-      dbl = "unilemma_coverage"
+      int = c("manifest_row", "age_min", "age_max"),
+      dbl = "unilemma_coverage",
+      lgl = "has_grammar"
     ),
     df
   )

@@ -302,7 +302,175 @@ validate_imports <- function(
   results
 }
 
-validate_merged <- function(tables, new_item_responses = NULL) {
+validate_item_response_exports <- function(export_dir, administrations, instruments) {
+  files <- list.files(export_dir, pattern = "\\.csv$", full.names = TRUE)
+  if (!length(files)) return(invisible())
+
+  for (path in files) {
+    keys <- read_csv(
+      path,
+      show_col_types = FALSE,
+      col_select = c("data_id", "item_id", "instrument_id", "language", "form")
+    )
+    assert_that(
+      nrow(keys |> filter(is.na(data_id) | is.na(item_id) | is.na(instrument_id))) == 0,
+      msg = paste("NA keys in", basename(path))
+    )
+    assert_that(
+      nrow(keys |> anti_join(administrations, by = "data_id")) == 0,
+      msg = paste("unresolved data_id in", basename(path))
+    )
+    assert_that(
+      nrow(keys |>
+             anti_join(instruments, by = c("language", "form", "instrument_id"))) == 0,
+      msg = paste("unresolved instrument_id in", basename(path))
+    )
+    rm(keys)
+  }
+  message("validation OK: ", length(files), " item_response export file(s)")
+  invisible()
+}
+
+summarize_admin_na <- function(administrations, required = c(
+  "data_id", "child_id", "age", "language", "form", "dataset_name"
+)) {
+  required <- intersect(required, names(administrations))
+  na_admins <- administrations |>
+    filter(if_any(all_of(required), is.na))
+  if (nrow(na_admins) == 0L) {
+    return(tibble())
+  }
+  col_counts <- map_dfr(required, \(col) {
+    tibble(column = col, n_na = sum(is.na(na_admins[[col]])))
+  }) |>
+    filter(n_na > 0L) |>
+    arrange(desc(n_na))
+  attr(na_admins, "na_column_counts") <- col_counts
+  na_admins
+}
+
+ADMIN_VALIDATE_REQUIRED <- c(
+  "data_id", "child_id", "language", "form", "dataset_name"
+)
+
+#' Drop administrations with NA `age`; write them to `export/admin_na.csv`.
+drop_na_age_admins <- function(
+    admins,
+    export_path = file.path("export", "admin_na.csv")
+) {
+  na_age <- admins |> filter(is.na(age))
+  if (nrow(na_age) == 0L) {
+    return(list(
+      kept = admins,
+      dropped = na_age,
+      drop_data_ids = numeric(),
+      drop_child_ids = integer()
+    ))
+  }
+  dir.create(dirname(export_path), recursive = TRUE, showWarnings = FALSE)
+  write_csv(na_age, export_path, na = "")
+  message(
+    "Dropped ", nrow(na_age), " administration(s) with NA age; wrote ",
+    export_path
+  )
+  drop_child_ids <- na_age |>
+    filter(!is.na(child_id)) |>
+    pull(child_id) |>
+    unique()
+  list(
+    kept = admins |> filter(!is.na(age)),
+    dropped = na_age,
+    drop_data_ids = na_age$data_id,
+    drop_child_ids = drop_child_ids
+  )
+}
+
+#' Remove rows tied to NA-age administrations (lexp, children, registry maps, HC).
+cascade_na_age_admin_drops <- function(
+    admins_merged,
+    new_lexp,
+    children_new,
+    alloc_adm_map,
+    alloc_ch_map,
+    health_conditions,
+    export_path = file.path("export", "admin_na.csv")
+) {
+  drop <- drop_na_age_admins(admins_merged, export_path)
+  out <- list(
+    admins_merged = drop$kept,
+    new_lexp = new_lexp,
+    children_new = children_new,
+    alloc_adm_map = alloc_adm_map,
+    alloc_ch_map = alloc_ch_map,
+    health_conditions = health_conditions,
+    drop_data_ids = drop$drop_data_ids,
+    drop_child_ids = integer()
+  )
+  if (nrow(drop$dropped) == 0L) {
+    return(out)
+  }
+
+  dropped_keys <- drop$dropped |>
+    select(any_of(ADMIN_NATURAL_KEY_COLS))
+  keep_child_ids <- drop$kept |>
+    filter(!is.na(child_id)) |>
+    pull(child_id) |>
+    unique()
+  orphan_child_ids <- setdiff(drop$drop_child_ids, keep_child_ids)
+
+  lexp_keys <- c(
+    "dataset_name", "dataset_origin_name", "study_internal_id", "admin_row",
+    "instrument_language", "instrument_form"
+  )
+  lexp_drop <- dropped_keys |>
+    rename(
+      instrument_language = language,
+      instrument_form = form
+    )
+  out$new_lexp <- new_lexp |>
+    anti_join(lexp_drop, by = intersect(names(lexp_drop), lexp_keys))
+
+  out$alloc_adm_map <- alloc_adm_map |>
+    filter(!data_id %in% drop$drop_data_ids)
+
+  out$children_new <- children_new |>
+    filter(!is.na(child_id), child_id %in% keep_child_ids)
+  out$alloc_ch_map <- alloc_ch_map |>
+    semi_join(out$children_new, by = CHILD_KEY_COLS)
+
+  if (nrow(health_conditions) && length(orphan_child_ids)) {
+    out$health_conditions <- health_conditions |>
+      filter(!child_id %in% orphan_child_ids)
+  }
+
+  out$drop_child_ids <- orphan_child_ids
+  if (length(orphan_child_ids)) {
+    message(
+      "Dropped ", length(orphan_child_ids),
+      " child row(s) with no remaining administrations after NA-age filter"
+    )
+  }
+  out
+}
+
+format_admin_na_message <- function(na_admins, export_path = NULL) {
+  col_counts <- attr(na_admins, "na_column_counts", exact = TRUE)
+  lines <- paste0("  ", col_counts$column, ": ", col_counts$n_na, " NA")
+  msg <- paste0(
+    nrow(na_admins), " administration(s) with NA in required fields:\n",
+    paste(lines, collapse = "\n")
+  )
+  if (!is.null(export_path)) {
+    msg <- paste0(msg, "\n  wrote ", export_path)
+  }
+  msg
+}
+
+validate_merged <- function(
+    tables,
+    new_item_responses = NULL,
+    item_response_export_dir = NULL
+) {
   instruments <- tables$instruments
   datasets <- tables$datasets
   children <- tables$children
@@ -337,9 +505,13 @@ validate_merged <- function(tables, new_item_responses = NULL) {
     msg = "duplicate data_id after merge"
   )
 
-  na_admins <- administrations |>
-    filter(if_any(c("data_id", "child_id", "age", "language", "form", "dataset_name"), is.na))
-  assert_that(nrow(na_admins) == 0, msg = "required admin fields have NA")
+  na_admins <- summarize_admin_na(administrations, required = ADMIN_VALIDATE_REQUIRED)
+  if (nrow(na_admins) > 0L) {
+    export_path <- file.path("export", "admin_na_other.csv")
+    dir.create(dirname(export_path), recursive = TRUE, showWarnings = FALSE)
+    write_csv(na_admins, export_path, na = "")
+    stop(format_admin_na_message(na_admins, export_path), call. = FALSE)
+  }
 
   na_children <- children |> filter(if_any(c("child_id", "dataset_origin_name"), is.na))
   assert_that(nrow(na_children) == 0, msg = "required child fields have NA")
@@ -356,6 +528,12 @@ validate_merged <- function(tables, new_item_responses = NULL) {
     )
     assert_that(
       nrow(new_item_responses |> filter(is.na(data_id) | is.na(item_id) | is.na(instrument_id))) == 0
+    )
+  } else if (!is.null(item_response_export_dir) && dir.exists(item_response_export_dir)) {
+    validate_item_response_exports(
+      item_response_export_dir,
+      administrations,
+      instruments
     )
   }
 

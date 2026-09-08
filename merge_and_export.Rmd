@@ -15,7 +15,7 @@ with live `datapages.wordbank`, and write `export/` tables.
 **Mode** (`params$mode`):
 
 - **`append`** — pull Redivis, merge only datasets not yet on Redivis, append on upload
-- **`complete`** — reimport all manifest raw data, log count/key discrepancies vs Redivis, replace on upload
+- **`complete`** — reimport all manifest raw data, export **manifest ingest only** (drops stale Redivis rows such as renamed languages), log discrepancies, replace on upload
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = TRUE)
@@ -36,7 +36,7 @@ stopifnot(MODE %in% c("append", "complete"))
 message("Mode: ", MODE, if (SKIP_PROCESSED) " (skip processed)" else "")
 
 RAW <- here("raw_data")
-OUT_HARM <- here("harmonized_data")
+OUT_HARM <- harmonized_dir(here())
 OUT_EXPORT <- here("export")
 dir.create(OUT_HARM, showWarnings = FALSE)
 dir.create(OUT_EXPORT, showWarnings = FALSE)
@@ -46,10 +46,10 @@ dir.create(file.path(OUT_EXPORT, "item_responses"), showWarnings = FALSE, recurs
 # Manifest and categories
 
 ```{r}
-manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE)
+manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE) |>
+  attach_manifest_row()
 categories <- read_csv(
   here("categories.csv"),
-  col_names = c("category", "lexical_class", "lexical_category"),
   show_col_types = FALSE
 ) |>
   distinct()
@@ -78,10 +78,14 @@ ingested <- ingest_all_manifest(
 )
 new_parts <- ingested$new_parts
 triplet_ranges <- ingested$triplet_ranges
- 
+item_response_sources <- ingested$item_response_sources
+
 walk(names(new_parts), \(nm) {
   message(nm, ": ", nrow(new_parts[[nm]]), " rows")
 })
+if (!is.null(item_response_sources)) {
+  message("item_responses: ", nrow(item_response_sources), " source file(s) on disk")
+}
 ```
 
 Debug example
@@ -126,9 +130,18 @@ equivalence$comparison
 
 ```{r}
 registry <- load_registry(here("id_registry.rds"))
-merged <- merge_with_existing(existing, new_parts, registry, mode = MODE)
+RESP_EXPORT <- file.path(OUT_EXPORT, "item_responses")
+merged <- merge_with_existing(
+  existing,
+  new_parts,
+  registry,
+  mode = MODE,
+  item_response_sources = item_response_sources,
+  item_response_export_dir = RESP_EXPORT,
+  aliases = dataset_aliases
+)
 save_registry(merged$registry, here("id_registry.rds"))
-validate_merged(merged$tables, merged$new_item_responses)
+validate_merged(merged$tables, item_response_export_dir = RESP_EXPORT)
 if (!is.null(merged$discrepancies)) merged$discrepancies$counts
 ```
 
@@ -152,16 +165,11 @@ if (!is.null(merged$upload_deltas)) {
   })
 }
 
-if (nrow(merged$new_item_responses) > 0) {
-  merged$new_item_responses |>
-    mutate(slug = item_response_slug(language, form)) |>
-    group_split(slug) |>
-    walk(\(df) {
-      slug <- df$slug[[1]]
-      path <- file.path(OUT_EXPORT, "item_responses", paste0(slug, ".csv"))
-      write_csv(df |> select(-slug), path, na = "")
-      message("wrote ", path, " (", nrow(df), " rows)")
-    })
+if (!is.null(merged$item_response_export) && merged$item_response_export$n_rows > 0L) {
+  message(
+    "item_responses already exported (",
+    merged$item_response_export$n_rows, " rows)"
+  )
 }
 ```
 

@@ -64,7 +64,8 @@ remove_manifest_from_existing <- function(existing, manifest_dataset) {
       anti_join(lang_form, by = c("language", "form")),
     language_exposures = existing$language_exposures |>
       filter(!data_id %in% remove_data_ids),
-    health_conditions = existing$health_conditions
+    health_conditions = existing$health_conditions |>
+      filter(!child_id %in% remove_child_ids)
   )
 }
 
@@ -148,6 +149,135 @@ item_response_slug <- function(language, form) {
     str_replace_all("^_|_$", "")
 }
 
+ITEM_RESPONSE_EXPORT_COLS <- c(
+  "instrument_id", "language", "form", "data_id", "item_id",
+  "value", "produces", "understands"
+)
+
+coerce_item_response_keys <- function(df) {
+  df |>
+    mutate(
+      study_internal_id = as.character(study_internal_id),
+      admin_row = as.integer(admin_row)
+    )
+}
+
+assign_item_response_chunk <- function(chunk, adm_map, inst_lookup, aliases = NULL) {
+  aliases <- resolve_dataset_aliases(aliases)
+  chunk <- chunk |>
+    coerce_item_response_keys()
+  if (nrow(aliases)) {
+    chunk <- translate_dataset_keys(
+      chunk,
+      aliases,
+      "to_manifest",
+      origin_substrings = FALSE
+    )
+  }
+  chunk |>
+    left_join(adm_map, by = ADMIN_NATURAL_KEY_COLS) |>
+    left_join(inst_lookup, by = c("language", "form")) |>
+    select(all_of(ITEM_RESPONSE_EXPORT_COLS))
+}
+
+filter_resolved_item_responses <- function(df) {
+  df |>
+    filter(
+      !is.na(data_id),
+      !is.na(instrument_id),
+      !is.na(item_id)
+    )
+}
+
+#' Write item responses with surrogate IDs, one harmonized source file at a time.
+export_item_responses_with_ids <- function(
+    sources,
+    keep_keys,
+    adm_map,
+    inst_lookup,
+    export_dir,
+    replace = FALSE,
+    aliases = NULL,
+    exclude_data_ids = numeric(),
+    unresolved_path = file.path("export", "item_response_unresolved.csv")
+) {
+  aliases <- resolve_dataset_aliases(aliases)
+  stopifnot(
+    "path" %in% names(sources),
+    all(c("dataset_name", "language", "form") %in% names(sources))
+  )
+  dir.create(export_dir, recursive = TRUE, showWarnings = FALSE)
+  if (isTRUE(replace)) {
+    old <- list.files(export_dir, pattern = "\\.csv$", full.names = TRUE)
+    if (length(old)) unlink(old)
+  }
+
+  adm_map <- adm_map |>
+    select(all_of(ADMIN_NATURAL_KEY_COLS), data_id) |>
+    filter(!data_id %in% exclude_data_ids)
+  inst_lookup <- inst_lookup |> select(language, form, instrument_id)
+  sources <- sources |>
+    semi_join(keep_keys, by = c("dataset_name", "language", "form"))
+  if (nrow(sources) == 0L) {
+    return(list(files = character(), n_rows = 0L, n_sources = 0L))
+  }
+
+  slug_written <- character()
+  written_files <- character()
+  total_rows <- 0L
+  n_unresolved <- 0L
+  unresolved_parts <- list()
+  for (i in seq_len(nrow(sources))) {
+    src <- sources[i, ]
+    if (!file.exists(src$path)) {
+      stop("Missing item_responses source: ", src$path)
+    }
+    chunk <- read_csv(src$path, show_col_types = FALSE)
+    chunk <- cast_harmonized_table(chunk, "item_responses")
+    joined <- assign_item_response_chunk(chunk, adm_map, inst_lookup, aliases)
+    rm(chunk)
+    bad <- joined |>
+      filter(is.na(data_id) | is.na(instrument_id) | is.na(item_id))
+    if (nrow(bad)) {
+      n_unresolved <- n_unresolved + nrow(bad)
+      unresolved_parts[[length(unresolved_parts) + 1L]] <- bad |>
+        mutate(source_file = basename(src$path), .before = 1)
+    }
+    out <- filter_resolved_item_responses(joined)
+    rm(joined)
+    if (nrow(out) == 0L) {
+      rm(out)
+      next
+    }
+    slug <- item_response_slug(src$language, src$form)
+    path <- file.path(export_dir, paste0(slug, ".csv"))
+    append <- slug %in% slug_written
+    write_csv(out, path, na = "", append = append)
+    slug_written <- c(slug_written, slug)
+    written_files <- c(written_files, path)
+    total_rows <- total_rows + nrow(out)
+    rm(out)
+    if (i %% 10L == 0L) gc(verbose = FALSE)
+  }
+
+  if (n_unresolved > 0L) {
+    dir.create(dirname(unresolved_path), recursive = TRUE, showWarnings = FALSE)
+    write_csv(bind_rows(unresolved_parts), unresolved_path, na = "")
+    message(
+      "Skipped ", n_unresolved,
+      " item response row(s) with unresolved IDs; wrote ",
+      unresolved_path
+    )
+  }
+
+  list(
+    files = unique(written_files),
+    n_rows = total_rows,
+    n_sources = nrow(sources),
+    n_unresolved = n_unresolved
+  )
+}
+
 empty_registry <- function() {
   list(
     children = tibble(
@@ -190,7 +320,129 @@ load_registry <- function(path = "id_registry.rds") {
 
 save_registry <- function(registry, path = "id_registry.rds") {
   saveRDS(registry, path)
-  invisible()
+  invisible(  )
+}
+
+resolve_dataset_aliases <- function(aliases) {
+  if (!is.null(aliases)) return(aliases)
+  if (exists("load_dataset_aliases", mode = "function")) {
+    return(load_dataset_aliases())
+  }
+  if (exists("empty_aliases", mode = "function")) {
+    return(empty_aliases())
+  }
+  tibble(
+    field = character(),
+    redivis_value = character(),
+    manifest_value = character(),
+    notes = character()
+  )
+}
+
+#' Rebuild `id_registry.rds` from live Redivis core tables + harmonized administrations.
+#'
+#' Instruments, datasets, and children come directly from Redivis. Administration
+#' natural keys (`admin_row`, `study_internal_id`, …) only exist in harmonized
+#' ingest output; pass `harm_admins` or `out_harm` + `manifest` to reconstruct
+#' those mappings by joining harmonized rows to Redivis `data_id`.
+#'
+#' @param existing List of core tibbles (from [pull_redivis_core()]).
+#' @param harm_admins Harmonized administration rows with [ADMIN_NATURAL_KEY_COLS].
+#' @param out_harm Harmonized root; used with `manifest` when `harm_admins` is NULL.
+#' @param manifest Manifest with `manifest_row`; used with `out_harm`.
+#' @return Registry list compatible with [merge_with_existing()].
+rebuild_registry_from_redivis <- function(
+    existing,
+    harm_admins = NULL,
+    out_harm = NULL,
+    manifest = NULL,
+    aliases = NULL
+) {
+  aliases <- resolve_dataset_aliases(aliases)
+
+  children <- existing$children |>
+    mutate(
+      study_internal_id = as.character(study_internal_id),
+      birth_order = harm_int(birth_order)
+    ) |>
+    select(all_of(c(CHILD_KEY_COLS, "child_id"))) |>
+    alias_normalize_id_map(CHILD_KEY_COLS, aliases, "child_id") |>
+    distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE)
+
+  instruments <- existing$instruments |>
+    select(language, form, instrument_id) |>
+    alias_normalize_id_map(c("language", "form"), aliases, "instrument_id")
+
+  datasets <- existing$datasets |>
+    select(
+      dataset_name, dataset_origin_name, language, form, dataset_id
+    ) |>
+    alias_normalize_id_map(DATASET_GROUP_COLS, aliases, "dataset_id")
+
+  if (is.null(harm_admins)) {
+    if (is.null(out_harm) || is.null(manifest)) {
+      stop(
+        "Pass harm_admins, or out_harm + manifest, to rebuild administration mappings"
+      )
+    }
+    if (!exists("load_harmonized_administrations", mode = "function")) {
+      stop("Source import/ingest.R before rebuilding administration registry")
+    }
+    harm_admins <- load_harmonized_administrations(manifest, out_harm)
+  }
+
+  harm_admins <- harm_admins |>
+    mutate(
+      study_internal_id = as.character(study_internal_id),
+      admin_row = as.integer(admin_row),
+      date_of_test = harm_chr(date_of_test),
+      age = harm_int(age)
+    ) |>
+    distinct(across(all_of(ADMIN_NATURAL_KEY_COLS)), .keep_all = TRUE)
+
+  redivis_admins <- existing$administrations |>
+    mutate(
+      date_of_test = harm_chr(date_of_test),
+      age = harm_int(age)
+    ) |>
+    select(
+      data_id, child_id, dataset_name, language, form, age, date_of_test
+    ) |>
+    alias_normalize_id_map(
+      c("dataset_name", "language", "form"),
+      aliases,
+      "data_id"
+    )
+
+  harm_linked <- harm_admins |>
+    left_join(children, by = CHILD_KEY_COLS) |>
+    left_join(
+      redivis_admins,
+      by = c(
+        "child_id", "dataset_name", "language", "form", "age", "date_of_test"
+      )
+    )
+
+  n_unmatched <- sum(is.na(harm_linked$data_id))
+  if (n_unmatched > 0L) {
+    warning(
+      n_unmatched,
+      " harmonized administration(s) did not match a Redivis data_id",
+      call. = FALSE
+    )
+  }
+
+  administrations <- harm_linked |>
+    filter(!is.na(data_id)) |>
+    select(all_of(ADMIN_NATURAL_KEY_COLS), data_id) |>
+    distinct(across(all_of(ADMIN_NATURAL_KEY_COLS)), .keep_all = TRUE)
+
+  list(
+    children = children,
+    administrations = administrations,
+    instruments = instruments,
+    datasets = datasets
+  )
 }
 
 #' Allocate integer IDs: prefer existing Redivis / registry match, else max+1.
@@ -208,26 +460,39 @@ allocate_ids <- function(keys, existing_map, id_col, max_so_far) {
     joined[[id_col]][is.na(joined[[id_col]])] <- new_ids
     max_so_far <- max(new_ids)
   }
-  list(map = joined |> select(-.row), max = max_so_far)
+  key_cols <- setdiff(names(existing_map), id_col)
+  list(
+    map = joined |> select(all_of(c(key_cols, id_col))),
+    max = max_so_far
+  )
 }
 
 #' Merge harmonized tables onto Redivis core tables.
 #'
 #' @param mode `"append"` keeps datasets already on Redivis and uploads only new
-#'   rows; `"complete"` reimports every manifest dataset, logs count/key
-#'   discrepancies, and rebuilds manifest rows from raw.
-#' @return list with `tables`, `registry`, `new_item_responses`, `upload_deltas`,
+#'   rows; `"complete"` rebuilds export tables from manifest ingest only (no
+#'   retained Redivis rows), logs discrepancies, and replaces on upload.
+#' @return list with `tables`, `registry`, `item_response_export`, `upload_deltas`,
 #'   `discrepancies`, `mode`, and `datasets_imported`
 merge_with_existing <- function(
     existing,
     new_parts,
     registry = empty_registry(),
-    mode = c("append", "complete")
+    mode = c("append", "complete"),
+    item_response_sources = NULL,
+    item_response_export_dir = NULL,
+    aliases = NULL
 ) {
   mode <- match.arg(mode)
+  aliases <- resolve_dataset_aliases(aliases)
   manifest_dataset <- new_parts$dataset
-  existing_at_start <- existing
   discrepancies <- NULL
+  existing_instrument_keys <- existing$instruments |>
+    select(language, form) |>
+    alias_normalize_id_map(c("language", "form"), aliases)
+  existing_item_keys <- existing$items |>
+    select(language, form, item_id) |>
+    alias_normalize_id_map(c("language", "form"), aliases)
 
   coerce_redivis_types <- function(existing) {
     if (nrow(existing$children)) {
@@ -269,6 +534,12 @@ merge_with_existing <- function(
   }
   existing <- coerce_redivis_types(existing)
 
+  stopifnot(
+    "manifest_row" %in% names(new_parts$administrations),
+    "manifest_row" %in% names(new_parts$dataset),
+    "manifest_row" %in% names(new_parts$instrument)
+  )
+
   coerce_keys <- function(df) {
     if ("study_internal_id" %in% names(df)) {
       df$study_internal_id <- as.character(df$study_internal_id)
@@ -284,69 +555,72 @@ merge_with_existing <- function(
   if (mode == "complete") {
     discrepancies <- log_merge_discrepancies(existing, new_parts, manifest_dataset, registry)
     message(
-      "Complete mode: replacing ", nrow(manifest_dataset),
-      " manifest dataset(s) on Redivis"
+      "Complete mode: rebuilding ", nrow(manifest_dataset),
+      " manifest dataset(s); export will not retain other Redivis rows"
     )
-    existing <- remove_manifest_from_existing(existing, manifest_dataset)
   }
 
   # --- instruments ---
   inst_existing <- existing$instruments |>
     select(language, form, instrument_id)
-  inst_reg <- bind_rows(registry$instruments, inst_existing) |>
-    distinct(language, form, .keep_all = TRUE)
+  inst_reg <- alias_normalize_id_map(
+    bind_rows(registry$instruments, inst_existing),
+    c("language", "form"),
+    aliases,
+    "instrument_id"
+  )
   max_inst <- max(c(0L, inst_reg$instrument_id), na.rm = TRUE)
 
   new_inst_keys <- new_parts$instrument |> distinct(language, form, .keep_all = TRUE)
   alloc_inst <- allocate_ids(
-    new_inst_keys |> select(language, form),
+    sort_keys_for_allocation(new_inst_keys, "instrument_id"),
     inst_reg,
     "instrument_id",
     max_inst
   )
-  inst_meta <- existing$instruments |>
-    select(language, form, age_min, age_max, has_grammar)
   instruments_new <- new_inst_keys |>
     left_join(alloc_inst$map, by = c("language", "form")) |>
-    left_join(inst_meta, by = c("language", "form")) |>
-    mutate(
-      age_min = coalesce(age_min, if_else(form_type == "WG", 8L, 16L)),
-      age_max = coalesce(age_max, if_else(form_type == "WG", 36L, 30L)),
-      has_grammar = coalesce(has_grammar, FALSE)
-    ) |>
     select(
       instrument_id, language, form, form_type,
       age_min, age_max, has_grammar, unilemma_coverage
     )
-  instruments <- bind_rows(
-    existing$instruments,
-    instruments_new |> anti_join(existing$instruments, by = c("language", "form"))
-  ) |>
-    distinct(language, form, .keep_all = TRUE)
-  registry$instruments <- instruments |> select(language, form, instrument_id)
 
   # --- datasets ---
   ds_existing <- existing$datasets |>
     select(dataset_name, dataset_origin_name, language, form, dataset_id)
-  ds_reg <- bind_rows(registry$datasets, ds_existing) |>
-    distinct(dataset_name, dataset_origin_name, language, form, .keep_all = TRUE)
+  ds_existing_norm <- alias_normalize_id_map(
+    ds_existing, DATASET_GROUP_COLS, aliases, "dataset_id"
+  )
+  ds_reg <- alias_normalize_id_map(
+    bind_rows(registry$datasets, ds_existing),
+    DATASET_GROUP_COLS,
+    aliases,
+    "dataset_id"
+  )
   max_ds <- max(c(0L, ds_reg$dataset_id), na.rm = TRUE)
 
   new_ds_keys <- new_parts$dataset
+  stopifnot("manifest_row" %in% names(new_ds_keys))
   if (mode == "append") {
     already <- new_ds_keys |>
-      semi_join(ds_existing, by = c("dataset_name", "dataset_origin_name", "language", "form"))
+      semi_join(
+        ds_existing_norm,
+        by = c("dataset_name", "dataset_origin_name", "language", "form")
+      )
     if (nrow(already)) {
       message(
         "Skipping ", nrow(already), " dataset row(s) already on Redivis."
       )
     }
     new_ds_keys <- new_ds_keys |>
-      anti_join(ds_existing, by = c("dataset_name", "dataset_origin_name", "language", "form"))
+      anti_join(
+        ds_existing_norm,
+        by = c("dataset_name", "dataset_origin_name", "language", "form")
+      )
   }
 
   alloc_ds <- allocate_ids(
-    new_ds_keys |> select(dataset_name, dataset_origin_name, language, form),
+    sort_keys_for_allocation(new_ds_keys, "dataset_id"),
     ds_reg,
     "dataset_id",
     max_ds
@@ -358,18 +632,15 @@ merge_with_existing <- function(
       license, longitudinal, source, date_format, file_location, norming,
       splitcol, language, form, form_type, n_admins
     )
-  datasets <- bind_rows(existing$datasets, datasets_new) |>
-    distinct(dataset_name, dataset_origin_name, language, form, .keep_all = TRUE)
-  registry$datasets <- datasets |>
-    select(dataset_name, dataset_origin_name, language, form, dataset_id)
 
   keep_keys <- datasets_new |> select(dataset_name, language, form)
   if (nrow(keep_keys) == 0) {
     message(if (mode == "append") "No new datasets to merge." else "No manifest datasets to merge.")
+    empty_tables <- map(existing, \(df) df[0, , drop = FALSE])
     return(list(
-      tables = existing,
-      registry = registry,
-      new_item_responses = tibble(),
+      tables = empty_tables,
+      registry = if (mode == "complete") empty_registry() else registry,
+      item_response_export = NULL,
       upload_deltas = NULL,
       discrepancies = discrepancies,
       mode = mode,
@@ -379,30 +650,40 @@ merge_with_existing <- function(
 
   new_admins <- new_parts$administrations |>
     semi_join(keep_keys, by = c("dataset_name", "language", "form"))
-  child_keys <- new_admins |> distinct(across(all_of(CHILD_KEY_COLS)))
+  child_keys <- new_admins |>
+    group_by(across(all_of(CHILD_KEY_COLS))) |>
+    summarise(
+      manifest_row = min(manifest_row, na.rm = TRUE),
+      admin_row = min(admin_row, na.rm = TRUE),
+      .groups = "drop"
+    )
   new_children <- new_parts$children |>
     semi_join(child_keys, by = CHILD_KEY_COLS)
   new_items <- new_parts$items |>
     semi_join(keep_keys |> select(language, form), by = c("language", "form"))
-  new_resp <- new_parts$item_responses |>
-    semi_join(
-      new_admins |> select(dataset_origin_name, study_internal_id, admin_row, language, form),
-      by = c("dataset_origin_name", "study_internal_id", "admin_row", "language", "form")
-    )
   new_lexp <- new_parts$language_exposures |>
     semi_join(
-      new_admins |> select(dataset_origin_name, study_internal_id, admin_row),
-      by = c("dataset_origin_name", "study_internal_id", "admin_row")
+      new_admins |>
+        select(all_of(ADMIN_NATURAL_KEY_COLS)) |>
+        rename(
+          instrument_language = language,
+          instrument_form = form
+        ),
+      by = c(
+        "dataset_name", "dataset_origin_name", "study_internal_id", "admin_row",
+        "instrument_language", "instrument_form"
+      )
     )
 
   # --- children ---
   ch_reg <- registry$children |>
     coerce_keys() |>
-    select(any_of(c(CHILD_KEY_COLS, "child_id")))
+    select(any_of(c(CHILD_KEY_COLS, "child_id"))) |>
+    alias_normalize_id_map(CHILD_KEY_COLS, aliases, "child_id")
   max_ch <- max(c(0L, existing$children$child_id, ch_reg$child_id), na.rm = TRUE)
 
   alloc_ch <- allocate_ids(
-    child_keys,
+    sort_keys_for_allocation(child_keys, "child_id"),
     ch_reg,
     "child_id",
     max_ch
@@ -415,25 +696,25 @@ merge_with_existing <- function(
       gestational_age, zygosity
     ) |>
     distinct(child_id, .keep_all = TRUE)
-  children <- bind_rows(existing$children, children_new) |>
-    distinct(child_id, .keep_all = TRUE)
-  registry$children <- bind_rows(
-    ch_reg,
-    alloc_ch$map |> select(all_of(c(CHILD_KEY_COLS, "child_id")))
-  ) |>
-    distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE)
 
   # --- administrations ---
-  adm_reg <- registry$administrations
+  adm_reg <- registry$administrations |>
+    alias_normalize_id_map(ADMIN_NATURAL_KEY_COLS, aliases, "data_id")
   max_data <- max(c(0, existing$administrations$data_id, adm_reg$data_id), na.rm = TRUE)
 
-  adm_keys <- new_admins |> select(all_of(ADMIN_NATURAL_KEY_COLS))
-  alloc_adm <- allocate_ids(adm_keys, adm_reg, "data_id", as.integer(max_data))
+  adm_keys <- new_admins |>
+    select(all_of(ADMIN_NATURAL_KEY_COLS), manifest_row)
+  alloc_adm <- allocate_ids(
+    sort_keys_for_allocation(adm_keys, "data_id"),
+    adm_reg,
+    "data_id",
+    as.integer(max_data)
+  )
   alloc_adm$map <- alloc_adm$map |> mutate(data_id = as.numeric(data_id))
 
-  inst_ages <- instruments |>
+  inst_ages <- instruments_new |>
     select(language, form, age_min, age_max)
-  admins_new <- new_admins |>
+  admins_merged <- new_admins |>
     left_join(
       alloc_adm$map,
       by = ADMIN_NATURAL_KEY_COLS
@@ -449,60 +730,133 @@ merge_with_existing <- function(
         age >= age_min & age <= age_max,
         NA
       )
-    ) |>
+    )
+
+  na_cascade <- cascade_na_age_admin_drops(
+    admins_merged = admins_merged,
+    new_lexp = new_lexp,
+    children_new = children_new,
+    alloc_adm_map = alloc_adm$map,
+    alloc_ch_map = alloc_ch$map,
+    health_conditions = existing$health_conditions
+  )
+  admins_merged <- na_cascade$admins_merged
+  new_lexp <- na_cascade$new_lexp
+  children_new <- na_cascade$children_new
+  alloc_adm$map <- na_cascade$alloc_adm_map
+  alloc_ch$map <- na_cascade$alloc_ch_map
+  existing$health_conditions <- na_cascade$health_conditions
+  na_age_drop <- list(drop_data_ids = na_cascade$drop_data_ids)
+
+  admins_new <- admins_merged |>
     select(
       data_id, child_id, dataset_name, language, form, age, date_of_test,
       comprehension, production, is_norming, in_age_range
     )
 
-  administrations <- bind_rows(existing$administrations, admins_new) |>
-    distinct(data_id, .keep_all = TRUE)
-  registry$administrations <- bind_rows(adm_reg, alloc_adm$map) |>
-    distinct(across(all_of(ADMIN_NATURAL_KEY_COLS)), .keep_all = TRUE)
-
-  # --- items ---
-  items <- bind_rows(existing$items, new_items) |>
-    distinct(language, form, item_id, .keep_all = TRUE)
-
-  # --- language exposures ---
   lexp_new <- new_lexp |>
     left_join(
-      alloc_adm$map |>
-        select(dataset_origin_name, study_internal_id, admin_row, data_id),
-      by = c("dataset_origin_name", "study_internal_id", "admin_row")
+      alloc_adm$map,
+      by = join_by(
+        dataset_name,
+        dataset_origin_name,
+        study_internal_id,
+        admin_row,
+        instrument_language == language,
+        instrument_form == form
+      )
     ) |>
     select(data_id, language, exposure_percentage, age_of_first_exposure) |>
     mutate(
       exposure_percentage = as.integer(exposure_percentage),
       age_of_first_exposure = as.integer(age_of_first_exposure)
-    )
-  language_exposures <- bind_rows(existing$language_exposures, lexp_new)
-
-  health_conditions <- existing$health_conditions
-
-  new_item_responses <- new_resp |>
-    left_join(
-      alloc_adm$map |>
-        select(dataset_origin_name, study_internal_id, admin_row, data_id),
-      by = c("dataset_origin_name", "study_internal_id", "admin_row")
     ) |>
-    left_join(
-      instruments |> select(language, form, instrument_id),
-      by = c("language", "form")
-    ) |>
-    select(
-      instrument_id, language, form, data_id, item_id, value, produces, understands
+    filter(!data_id %in% na_cascade$drop_data_ids)
+
+  if (mode == "complete") {
+    instruments <- instruments_new
+    datasets <- datasets_new
+    children <- children_new
+    administrations <- admins_new
+    items <- new_items
+    language_exposures <- lexp_new
+    registry <- list(
+      instruments = instruments |> select(language, form, instrument_id),
+      datasets = datasets |>
+        select(dataset_name, dataset_origin_name, language, form, dataset_id),
+      children = alloc_ch$map |> select(all_of(c(CHILD_KEY_COLS, "child_id"))),
+      administrations = alloc_adm$map |>
+        select(all_of(c(ADMIN_NATURAL_KEY_COLS, "data_id")))
     )
+  } else {
+    instruments <- bind_rows(
+      existing$instruments,
+      instruments_new |> anti_join(existing$instruments, by = c("language", "form"))
+    ) |>
+      distinct(language, form, .keep_all = TRUE)
+    datasets <- bind_rows(existing$datasets, datasets_new) |>
+      distinct(dataset_name, dataset_origin_name, language, form, .keep_all = TRUE)
+    children <- bind_rows(existing$children, children_new) |>
+      distinct(child_id, .keep_all = TRUE)
+    administrations <- bind_rows(existing$administrations, admins_new) |>
+      distinct(data_id, .keep_all = TRUE)
+    items <- bind_rows(existing$items, new_items) |>
+      distinct(language, form, item_id, .keep_all = TRUE)
+    language_exposures <- bind_rows(existing$language_exposures, lexp_new)
+    registry$instruments <- instruments |> select(language, form, instrument_id)
+    registry$datasets <- datasets |>
+      select(dataset_name, dataset_origin_name, language, form, dataset_id)
+    registry$children <- bind_rows(
+      ch_reg,
+      alloc_ch$map |> select(all_of(c(CHILD_KEY_COLS, "child_id")))
+    ) |>
+      distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE)
+    registry$administrations <- bind_rows(adm_reg, alloc_adm$map) |>
+      distinct(across(all_of(ADMIN_NATURAL_KEY_COLS)), .keep_all = TRUE)
+  }
+
+  health_conditions <- existing$health_conditions |>
+    semi_join(children, by = "child_id")
+
+  item_response_export <- NULL
+  if (!is.null(item_response_export_dir) && !is.null(item_response_sources)) {
+    message(
+      "Exporting item_responses from ", nrow(item_response_sources),
+      " source file(s) (streaming)..."
+    )
+    item_response_export <- export_item_responses_with_ids(
+      sources = item_response_sources,
+      keep_keys = datasets_new |> select(dataset_name, language, form),
+      adm_map = alloc_adm$map,
+      inst_lookup = instruments_new |> select(language, form, instrument_id),
+      export_dir = item_response_export_dir,
+      replace = mode == "complete",
+      aliases = aliases,
+      exclude_data_ids = na_cascade$drop_data_ids
+    )
+    message(
+      "Exported ", item_response_export$n_rows, " item response row(s) to ",
+      item_response_export_dir
+    )
+  } else if (!is.null(new_parts$item_responses) && nrow(new_parts$item_responses) > 0L) {
+    stop(
+      "new_parts$item_responses is in memory; pass item_response_sources instead ",
+      "(ingest with out_harm or --from-harmonized)"
+    )
+  }
+
+  new_parts$item_responses <- NULL
+  gc(verbose = FALSE)
 
   upload_deltas <- if (mode == "append") {
     list(
       instruments = instruments_new |>
-        anti_join(existing_at_start$instruments, by = c("language", "form")),
+        anti_join(existing_instrument_keys, by = c("language", "form")),
       datasets = datasets_new,
       children = children_new,
       administrations = admins_new,
       items = new_items |>
-        anti_join(existing_at_start$items, by = c("language", "form", "item_id")),
+        anti_join(existing_item_keys, by = c("language", "form", "item_id")),
       language_exposures = lexp_new
     )
   } else {
@@ -520,7 +874,7 @@ merge_with_existing <- function(
       health_conditions = health_conditions
     ),
     registry = registry,
-    new_item_responses = new_item_responses,
+    item_response_export = item_response_export,
     upload_deltas = upload_deltas,
     discrepancies = discrepancies,
     mode = mode,

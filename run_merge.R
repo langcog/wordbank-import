@@ -35,7 +35,7 @@ source(here("import", "compare.R"))
 source(here("import", "ids.R"))
 
 RAW <- here("raw_data")
-OUT_HARM <- here("harmonized_data")
+OUT_HARM <- harmonized_dir(here())
 OUT_EXPORT <- here("export")
 dir.create(OUT_HARM, showWarnings = FALSE)
 dir.create(OUT_EXPORT, showWarnings = FALSE)
@@ -45,7 +45,8 @@ message("Mode: ", mode,
         if (from_harmonized) " (from harmonized)" else "",
         if (skip_processed) " (skip processed)" else "")
 
-manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE)
+manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE) |>
+  attach_manifest_row()
 categories <- read_csv(
   here("categories.csv"),
   col_names = c("category", "lexical_class", "lexical_category"),
@@ -67,7 +68,11 @@ if (from_harmonized) {
 }
 new_parts <- ingested$new_parts
 triplet_ranges <- ingested$triplet_ranges
+item_response_sources <- ingested$item_response_sources
 iwalk(new_parts, \(df, nm) message(nm, ": ", nrow(df), " rows"))
+if (!is.null(item_response_sources)) {
+  message("item_responses: ", nrow(item_response_sources), " source file(s) on disk")
+}
 
 message("Pulling Redivis core tables...")
 existing <- pull_redivis_core()
@@ -78,13 +83,25 @@ print_dataset_equivalence(equivalence)
 write_dataset_equivalence_report(equivalence, file.path(OUT_EXPORT, "equivalence"))
 
 registry <- load_registry(here("id_registry.rds"))
-merged <- if (from_harmonized) {
-  merge_from_harmonized(manifest, OUT_HARM, existing, registry, mode = mode)
-} else {
-  merge_with_existing(existing, new_parts, registry, mode = mode)
-}
+RESP_EXPORT <- file.path(OUT_EXPORT, "item_responses")
+ingested$results <- NULL
+rm(equivalence)
+gc(verbose = FALSE)
+
+merged <- merge_with_existing(
+  existing,
+  new_parts,
+  registry,
+  mode = mode,
+  item_response_sources = item_response_sources,
+  item_response_export_dir = RESP_EXPORT,
+  aliases = dataset_aliases
+)
 save_registry(merged$registry, here("id_registry.rds"))
-validate_merged(merged$tables, merged$new_item_responses)
+validate_merged(
+  merged$tables,
+  item_response_export_dir = RESP_EXPORT
+)
 
 iwalk(merged$tables, \(df, nm) {
   path <- file.path(OUT_EXPORT, paste0(nm, ".csv"))
@@ -103,16 +120,12 @@ if (!is.null(merged$upload_deltas)) {
   })
 }
 
-if (nrow(merged$new_item_responses) > 0) {
-  merged$new_item_responses |>
-    mutate(slug = item_response_slug(language, form)) |>
-    group_split(slug) |>
-    walk(\(df) {
-      slug <- df$slug[[1]]
-      path <- file.path(OUT_EXPORT, "item_responses", paste0(slug, ".csv"))
-      write_csv(df |> select(-slug), path, na = "")
-      message("wrote ", path, " (", nrow(df), " rows)")
-    })
+if (!is.null(merged$item_response_export) && merged$item_response_export$n_rows > 0L) {
+  message(
+    "item_responses already exported (",
+    merged$item_response_export$n_rows, " rows in ",
+    length(merged$item_response_export$files), " file(s))"
+  )
 }
 
 if (upload) {

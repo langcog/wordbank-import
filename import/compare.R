@@ -40,7 +40,12 @@ alias_map <- function(aliases, field, direction = c("to_redivis", "to_manifest")
 }
 
 #' Map manifest key values to Redivis names (or the reverse).
-translate_dataset_keys <- function(df, aliases, direction = c("to_redivis", "to_manifest")) {
+translate_dataset_keys <- function(
+    df,
+    aliases,
+    direction = c("to_redivis", "to_manifest"),
+    origin_substrings = TRUE
+) {
   direction <- match.arg(direction)
   out <- df
   for (fld in intersect(ALIAS_FIELDS, names(out))) {
@@ -51,7 +56,7 @@ translate_dataset_keys <- function(df, aliases, direction = c("to_redivis", "to_
     if (any(hit)) vals[hit] <- unname(mp[vals[hit]])
     out[[fld]] <- vals
   }
-  if ("dataset_origin_name" %in% names(out)) {
+  if (isTRUE(origin_substrings) && "dataset_origin_name" %in% names(out)) {
     out$dataset_origin_name <- translate_origin_name(
       out$dataset_origin_name, aliases, direction
     )
@@ -75,6 +80,95 @@ translate_origin_name <- function(origin, aliases, direction) {
     out <- str_replace_all(out, fixed(from[i]), to[i])
   }
   out
+}
+
+#' Normalize legacy Redivis key values to manifest names for ID lookup.
+#'
+#' Used when joining manifest ingest rows onto Redivis/registry ID maps so renamed
+#' fields (e.g. `German` -> `German (German)`) reuse existing surrogate IDs.
+#' Only whole-field aliases apply (not substring rewrites of `dataset_origin_name`).
+#'
+#' When multiple rows collapse to the same key, prefer rows that already used
+#' manifest labels (not legacy Redivis values), then lower `id_col`, then input order
+#' (so registry rows bound before Redivis win at equal priority).
+alias_normalize_id_map <- function(
+    map,
+    key_cols,
+    aliases = empty_aliases(),
+    id_col = NULL
+) {
+  if (nrow(map) == 0L) return(map)
+  key_cols <- intersect(key_cols, names(map))
+
+  legacy_score <- rep(0L, nrow(map))
+  if (nrow(aliases)) {
+    for (fld in intersect(ALIAS_FIELDS, names(map))) {
+      mp <- alias_map(aliases, fld, "to_manifest")
+      if (!length(mp)) next
+      legacy_score <- legacy_score + as.integer(
+        !is.na(map[[fld]]) & map[[fld]] %in% names(mp)
+      )
+    }
+  }
+
+  out <- if (nrow(aliases)) {
+    translate_dataset_keys(map, aliases, "to_manifest", origin_substrings = FALSE)
+  } else {
+    map
+  }
+  out$.row_order <- seq_len(nrow(out))
+  out$.legacy_alias_score <- legacy_score
+
+  if (is.null(id_col)) {
+    id_col <- setdiff(
+      names(out),
+      c(key_cols, ".row_order", ".legacy_alias_score")
+    )[1]
+  }
+
+  dupes <- out |>
+    count(across(all_of(key_cols)), name = "n") |>
+    filter(n > 1)
+  if (nrow(dupes)) {
+    examples <- dupes |>
+      left_join(out, by = key_cols) |>
+      distinct(across(all_of(key_cols)), .legacy_alias_score, .keep_all = TRUE) |>
+      head(5)
+    warning(
+      nrow(dupes),
+      " aliased ID key(s) collide after normalization; ",
+      "keeping manifest-canonical row (examples: ",
+      paste(
+        map_chr(seq_len(nrow(examples)), \(i) {
+          r <- examples[i, ]
+          paste0(
+            "{", paste(map_chr(key_cols, \(k) paste0(k, "=", r[[k]])), collapse = ", "),
+            "}"
+          )
+        }),
+        collapse = "; "
+      ),
+      ")",
+      call. = FALSE
+    )
+  }
+
+  if (!is.null(id_col) && id_col %in% names(out)) {
+    out <- out |>
+      group_by(across(all_of(key_cols))) |>
+      arrange(.legacy_alias_score, .data[[id_col]], .row_order) |>
+      slice(1) |>
+      ungroup()
+  } else {
+    out <- out |>
+      group_by(across(all_of(key_cols))) |>
+      arrange(.legacy_alias_score, .row_order) |>
+      slice(1) |>
+      ungroup()
+  }
+
+  out |>
+    select(-.row_order, -.legacy_alias_score)
 }
 
 dataset_keys <- function(df) {
