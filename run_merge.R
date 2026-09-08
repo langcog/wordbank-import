@@ -47,11 +47,7 @@ message("Mode: ", mode,
 
 manifest <- read_csv(here("datasets.csv"), show_col_types = FALSE) |>
   attach_manifest_row()
-categories <- read_csv(
-  here("categories.csv"),
-  col_names = c("category", "lexical_class", "lexical_category"),
-  show_col_types = FALSE
-) |>
+categories <- read_csv(here("categories.csv"), show_col_types = FALSE) |>
   distinct()
 
 if (from_harmonized) {
@@ -67,7 +63,6 @@ if (from_harmonized) {
   )
 }
 new_parts <- ingested$new_parts
-triplet_ranges <- ingested$triplet_ranges
 item_response_sources <- ingested$item_response_sources
 iwalk(new_parts, \(df, nm) message(nm, ": ", nrow(df), " rows"))
 if (!is.null(item_response_sources)) {

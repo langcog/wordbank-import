@@ -25,7 +25,6 @@ wordbank_dataset <- function(version = NULL) {
   redivis$organization("datapages")$dataset(ref)
 }
 
-#' Pull core Redivis tables (skips item_responses).
 pull_redivis_core <- function(ds = NULL) {
   if (is.null(ds)) ds <- wordbank_dataset()
   ds$get()
@@ -36,42 +35,9 @@ pull_redivis_core <- function(ds = NULL) {
   out
 }
 
-manifest_dataset_keys <- function(manifest_dataset) {
-  manifest_dataset |>
-    select(dataset_name, dataset_origin_name, language, form)
-}
-
-#' Drop manifest datasets from a Redivis core-table snapshot (complete mode).
-remove_manifest_from_existing <- function(existing, manifest_dataset) {
-  keys <- manifest_dataset_keys(manifest_dataset)
-  lang_form <- manifest_dataset |> distinct(language, form)
-
-  admins_remove <- existing$administrations |>
-    semi_join(keys, by = c("dataset_name", "language", "form"))
-  remove_data_ids <- admins_remove$data_id
-  remove_child_ids <- unique(admins_remove$child_id)
-
-  list(
-    instruments = existing$instruments |>
-      anti_join(lang_form, by = c("language", "form")),
-    datasets = existing$datasets |>
-      anti_join(keys, by = c("dataset_name", "dataset_origin_name", "language", "form")),
-    children = existing$children |>
-      filter(!child_id %in% remove_child_ids),
-    administrations = existing$administrations |>
-      filter(!data_id %in% remove_data_ids),
-    items = existing$items |>
-      anti_join(lang_form, by = c("language", "form")),
-    language_exposures = existing$language_exposures |>
-      filter(!data_id %in% remove_data_ids),
-    health_conditions = existing$health_conditions |>
-      filter(!child_id %in% remove_child_ids)
-  )
-}
-
 #' Compare Redivis snapshot vs fresh ingest for manifest datasets (complete mode).
 log_merge_discrepancies <- function(existing, new_parts, manifest_dataset, registry) {
-  count_rows <- map_dfr(seq_len(nrow(manifest_dataset)), \(i) {
+  count_rows <- map(seq_len(nrow(manifest_dataset)), \(i) {
     k <- manifest_dataset[i, ]
     tibble(
       dataset_name = k$dataset_name,
@@ -93,6 +59,7 @@ log_merge_discrepancies <- function(existing, new_parts, manifest_dataset, regis
         nrow()
     )
   }) |>
+    list_rbind() |>
     mutate(administration_delta = ingest_administrations - redivis_administrations)
 
   reg_adm <- registry$administrations |>
@@ -154,18 +121,13 @@ ITEM_RESPONSE_EXPORT_COLS <- c(
   "value", "produces", "understands"
 )
 
-coerce_item_response_keys <- function(df) {
-  df |>
+assign_item_response_chunk <- function(chunk, adm_map, inst_lookup, aliases = NULL) {
+  aliases <- resolve_dataset_aliases(aliases)
+  chunk <- chunk |>
     mutate(
       study_internal_id = as.character(study_internal_id),
       admin_row = as.integer(admin_row)
     )
-}
-
-assign_item_response_chunk <- function(chunk, adm_map, inst_lookup, aliases = NULL) {
-  aliases <- resolve_dataset_aliases(aliases)
-  chunk <- chunk |>
-    coerce_item_response_keys()
   if (nrow(aliases)) {
     chunk <- translate_dataset_keys(
       chunk,
@@ -178,15 +140,6 @@ assign_item_response_chunk <- function(chunk, adm_map, inst_lookup, aliases = NU
     left_join(adm_map, by = ADMIN_NATURAL_KEY_COLS) |>
     left_join(inst_lookup, by = c("language", "form")) |>
     select(all_of(ITEM_RESPONSE_EXPORT_COLS))
-}
-
-filter_resolved_item_responses <- function(df) {
-  df |>
-    filter(
-      !is.na(data_id),
-      !is.na(instrument_id),
-      !is.na(item_id)
-    )
 }
 
 #' Write item responses with surrogate IDs, one harmonized source file at a time.
@@ -243,7 +196,8 @@ export_item_responses_with_ids <- function(
       unresolved_parts[[length(unresolved_parts) + 1L]] <- bad |>
         mutate(source_file = basename(src$path), .before = 1)
     }
-    out <- filter_resolved_item_responses(joined)
+    out <- joined |>
+      filter(!is.na(data_id), !is.na(instrument_id), !is.na(item_id))
     rm(joined)
     if (nrow(out) == 0L) {
       rm(out)
@@ -320,7 +274,7 @@ load_registry <- function(path = "id_registry.rds") {
 
 save_registry <- function(registry, path = "id_registry.rds") {
   saveRDS(registry, path)
-  invisible(  )
+  invisible(registry)
 }
 
 resolve_dataset_aliases <- function(aliases) {
@@ -339,18 +293,7 @@ resolve_dataset_aliases <- function(aliases) {
   )
 }
 
-#' Rebuild `id_registry.rds` from live Redivis core tables + harmonized administrations.
-#'
-#' Instruments, datasets, and children come directly from Redivis. Administration
-#' natural keys (`admin_row`, `study_internal_id`, …) only exist in harmonized
-#' ingest output; pass `harm_admins` or `out_harm` + `manifest` to reconstruct
-#' those mappings by joining harmonized rows to Redivis `data_id`.
-#'
-#' @param existing List of core tibbles (from [pull_redivis_core()]).
-#' @param harm_admins Harmonized administration rows with [ADMIN_NATURAL_KEY_COLS].
-#' @param out_harm Harmonized root; used with `manifest` when `harm_admins` is NULL.
-#' @param manifest Manifest with `manifest_row`; used with `out_harm`.
-#' @return Registry list compatible with [merge_with_existing()].
+#' Rebuild id_registry from Redivis core tables + harmonized administration keys.
 rebuild_registry_from_redivis <- function(
     existing,
     harm_admins = NULL,
@@ -468,12 +411,6 @@ allocate_ids <- function(keys, existing_map, id_col, max_so_far) {
 }
 
 #' Merge harmonized tables onto Redivis core tables.
-#'
-#' @param mode `"append"` keeps datasets already on Redivis and uploads only new
-#'   rows; `"complete"` rebuilds export tables from manifest ingest only (no
-#'   retained Redivis rows), logs discrepancies, and replaces on upload.
-#' @return list with `tables`, `registry`, `item_response_export`, `upload_deltas`,
-#'   `discrepancies`, `mode`, and `datasets_imported`
 merge_with_existing <- function(
     existing,
     new_parts,
@@ -746,7 +683,6 @@ merge_with_existing <- function(
   alloc_adm$map <- na_cascade$alloc_adm_map
   alloc_ch$map <- na_cascade$alloc_ch_map
   existing$health_conditions <- na_cascade$health_conditions
-  na_age_drop <- list(drop_data_ids = na_cascade$drop_data_ids)
 
   admins_new <- admins_merged |>
     select(

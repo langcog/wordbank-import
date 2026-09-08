@@ -1,7 +1,4 @@
-# Validation asserts for merged Wordbank Redivis tables and raw triplet fidelity
-# (mirrors wordbank_import_manual/testing.R, comparing harmonized ingest to raw CSVs).
-#
-# Requires import/helpers.R to be sourced first (for DATASET_GROUP_COLS).
+# Validation for merged Redivis tables and raw triplet fidelity.
 
 suppressPackageStartupMessages({
   library(tidyverse)
@@ -340,9 +337,10 @@ summarize_admin_na <- function(administrations, required = c(
   if (nrow(na_admins) == 0L) {
     return(tibble())
   }
-  col_counts <- map_dfr(required, \(col) {
+  col_counts <- map(required, \(col) {
     tibble(column = col, n_na = sum(is.na(na_admins[[col]])))
   }) |>
+    list_rbind() |>
     filter(n_na > 0L) |>
     arrange(desc(n_na))
   attr(na_admins, "na_column_counts") <- col_counts
@@ -468,7 +466,6 @@ format_admin_na_message <- function(na_admins, export_path = NULL) {
 
 validate_merged <- function(
     tables,
-    new_item_responses = NULL,
     item_response_export_dir = NULL
 ) {
   instruments <- tables$instruments
@@ -516,20 +513,7 @@ validate_merged <- function(
   na_children <- children |> filter(if_any(c("child_id", "dataset_origin_name"), is.na))
   assert_that(nrow(na_children) == 0, msg = "required child fields have NA")
 
-  if (!is.null(new_item_responses) && nrow(new_item_responses) > 0) {
-    assert_that(
-      nrow(new_item_responses |> anti_join(administrations, by = "data_id")) == 0,
-      msg = "item_responses.data_id must resolve"
-    )
-    assert_that(
-      nrow(new_item_responses |>
-             anti_join(instruments, by = c("language", "form", "instrument_id"))) == 0,
-      msg = "item_responses.instrument_id must resolve"
-    )
-    assert_that(
-      nrow(new_item_responses |> filter(is.na(data_id) | is.na(item_id) | is.na(instrument_id))) == 0
-    )
-  } else if (!is.null(item_response_export_dir) && dir.exists(item_response_export_dir)) {
+  if (!is.null(item_response_export_dir) && dir.exists(item_response_export_dir)) {
     validate_item_response_exports(
       item_response_export_dir,
       administrations,

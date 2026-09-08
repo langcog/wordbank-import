@@ -89,7 +89,11 @@ HARMONIZED_DATASET_TABLES <- setdiff(
   c("instrument", "items")
 )
 
-HARMONIZED_INSTRUMENT_TABLES <- c("instrument", "items")
+slug_sanitize <- function(x) {
+  x |>
+    str_replace_all("[^a-zA-Z0-9]+", "_") |>
+    str_replace_all("^_|_$", "")
+}
 
 #' Filename slug for one instrument (matches raw `[Lang_Form].csv` naming).
 instrument_slug <- function(language, form) {

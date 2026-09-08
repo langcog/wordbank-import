@@ -196,7 +196,7 @@ match_manifest_to_redivis <- function(manifest_dataset, redivis_datasets, aliase
 
   exact <- manifest_keys |>
     inner_join(redivis_keys, by = DATASET_KEY_COLS) |>
-    transmute(
+    mutate(
       manifest_row,
       redivis_row,
       match_type = "exact",
@@ -208,7 +208,8 @@ match_manifest_to_redivis <- function(manifest_dataset, redivis_datasets, aliase
       dataset_origin_name_redivis = dataset_origin_name,
       language_redivis = language,
       form_redivis = form,
-      alias_fields = NA_character_
+      alias_fields = NA_character_,
+      .keep = "none"
     )
 
   remaining <- manifest_keys |>
@@ -224,7 +225,7 @@ match_manifest_to_redivis <- function(manifest_dataset, redivis_datasets, aliase
       alias_fields = character()
     )
   } else {
-    map_dfr(seq_len(nrow(remaining)), \(i) {
+    map(seq_len(nrow(remaining)), \(i) {
       m <- remaining[i, ]
       lookup <- translate_dataset_keys(m, aliases, "to_redivis")
       hit <- redivis_keys |>
@@ -254,7 +255,7 @@ match_manifest_to_redivis <- function(manifest_dataset, redivis_datasets, aliase
           hit$dataset_name, hit$dataset_origin_name, hit$language, hit$form
         )
       )
-    })
+    }) |> list_rbind()
   }
 
   matches <- bind_rows(exact, alias_matches)
@@ -378,34 +379,33 @@ form_type_for_match <- function(new_parts, m) {
 
 compare_matched_vocab_distributions <- function(existing, new_parts, matches) {
   if (nrow(matches) == 0L) {
-    return(list(
-      summary = tibble(),
-      diffs = tibble()
-    ))
+    return(list(summary = tibble(), diffs = tibble()))
   }
 
-  summary <- map_dfr(seq_len(nrow(matches)), \(i) {
+  parts <- map(seq_len(nrow(matches)), \(i) {
     m <- matches[i, ]
     ingest_keys <- m |>
-      transmute(
+      mutate(
         dataset_name = dataset_name_manifest,
         dataset_origin_name = dataset_origin_name_manifest,
         language = language_manifest,
-        form = form_manifest
+        form = form_manifest,
+        .keep = "none"
       )
     redivis_keys <- m |>
-      transmute(
+      mutate(
         dataset_name = dataset_name_redivis,
         dataset_origin_name = dataset_origin_name_redivis,
         language = language_redivis,
-        form = form_redivis
+        form = form_redivis,
+        .keep = "none"
       )
     ingest_admins <- filter_administrations(new_parts$administrations, ingest_keys)
     redivis_admins <- filter_administrations(existing$administrations, redivis_keys)
     dist <- compare_vocab_distributions(
       ingest_admins, redivis_admins, form_type = form_type_for_match(new_parts, m)
     )
-    tibble(
+    summary <- tibble(
       production_equivalent = dist$production$equivalent,
       production_max_abs_delta = dist$production$max_abs_delta,
       production_n_diff_scores = dist$production$n_diff_scores,
@@ -413,38 +413,12 @@ compare_matched_vocab_distributions <- function(existing, new_parts, matches) {
       comprehension_max_abs_delta = dist$comprehension$max_abs_delta,
       comprehension_n_diff_scores = dist$comprehension$n_diff_scores
     )
-  })
-
-  diffs <- map_dfr(seq_len(nrow(matches)), \(i) {
-    m <- matches[i, ]
-    ingest_keys <- m |>
-      transmute(
-        dataset_name = dataset_name_manifest,
-        dataset_origin_name = dataset_origin_name_manifest,
-        language = language_manifest,
-        form = form_manifest
-      )
-    redivis_keys <- m |>
-      transmute(
-        dataset_name = dataset_name_redivis,
-        dataset_origin_name = dataset_origin_name_redivis,
-        language = language_redivis,
-        form = form_redivis
-      )
-    ingest_admins <- filter_administrations(new_parts$administrations, ingest_keys)
-    redivis_admins <- filter_administrations(existing$administrations, redivis_keys)
-    dist <- compare_vocab_distributions(
-      ingest_admins, redivis_admins, form_type = form_type_for_match(new_parts, m)
-    )
-
-    bind_rows(
+    diffs <- bind_rows(
       if (dist$production$applicable) {
-        dist$production$table |>
-          mutate(score_type = "production")
+        dist$production$table |> mutate(score_type = "production")
       },
       if (dist$comprehension$applicable) {
-        dist$comprehension$table |>
-          mutate(score_type = "comprehension")
+        dist$comprehension$table |> mutate(score_type = "comprehension")
       }
     ) |>
       filter(delta != 0L) |>
@@ -460,13 +434,17 @@ compare_matched_vocab_distributions <- function(existing, new_parts, matches) {
         match_type = m$match_type,
         alias_fields = m$alias_fields
       )
+    list(summary = summary, diffs = diffs)
   })
 
-  list(summary = summary, diffs = diffs)
+  list(
+    summary = bind_rows(map(parts, "summary")),
+    diffs = bind_rows(map(parts, "diffs"))
+  )
 }
 
 count_manifest_metrics <- function(new_parts, keys) {
-  map_dfr(seq_len(nrow(keys)), \(i) {
+  map(seq_len(nrow(keys)), \(i) {
     k <- keys[i, ]
     admins <- filter_administrations(new_parts$administrations, k)
     n_admins_val <- new_parts$dataset |>
@@ -482,11 +460,11 @@ count_manifest_metrics <- function(new_parts, keys) {
       ingest_children = admins |> distinct(across(all_of(CHILD_KEY_COLS))) |> nrow(),
       ingest_n_admins = if (length(n_admins_val)) n_admins_val[[1]] else NA_real_
     )
-  })
+  }) |> list_rbind()
 }
 
 count_redivis_metrics <- function(existing, keys) {
-  map_dfr(seq_len(nrow(keys)), \(i) {
+  map(seq_len(nrow(keys)), \(i) {
     k <- keys[i, ]
     admins <- filter_administrations(existing$administrations, k)
     children <- existing$children |>
@@ -504,7 +482,7 @@ count_redivis_metrics <- function(existing, keys) {
       redivis_children = n_distinct(children$child_id),
       redivis_n_admins = if (length(n_admins_val)) n_admins_val[[1]] else NA_real_
     )
-  })
+  }) |> list_rbind()
 }
 
 #' Compare manifest ingest to Redivis before merge.
@@ -527,18 +505,20 @@ compare_manifest_to_redivis <- function(
 
   if (nrow(matching$matches) > 0L) {
     manifest_for_metrics <- matching$matches |>
-      transmute(
+      mutate(
         dataset_name = dataset_name_manifest,
         dataset_origin_name = dataset_origin_name_manifest,
         language = language_manifest,
-        form = form_manifest
+        form = form_manifest,
+        .keep = "none"
       )
     redivis_for_metrics <- matching$matches |>
-      transmute(
+      mutate(
         dataset_name = dataset_name_redivis,
         dataset_origin_name = dataset_origin_name_redivis,
         language = language_redivis,
-        form = form_redivis
+        form = form_redivis,
+        .keep = "none"
       )
 
     vocab <- compare_matched_vocab_distributions(

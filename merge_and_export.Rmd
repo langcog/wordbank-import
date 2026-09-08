@@ -77,7 +77,6 @@ ingested <- ingest_all_manifest(
   stop_on_fail = F
 )
 new_parts <- ingested$new_parts
-triplet_ranges <- ingested$triplet_ranges
 item_response_sources <- ingested$item_response_sources
 
 walk(names(new_parts), \(nm) {
