@@ -89,7 +89,7 @@ if (!is.null(item_response_sources)) {
 
 Debug example
 ```{r eval=F}
-data_file_path <- "EnglishAmericanWG_Marchman_TL3_data.csv"
+data_file_path <- "FrenchFrenchWG_Dimitrova_PSU_data.csv"
 rows <- manifest |> filter(data_file == data_file_path)
 res <- ingest_dataset_group(rows, RAW, categories, keep_intermediates = TRUE, stop_on_fail = FALSE)
 summarize_validation_failures(res$validation)
@@ -182,7 +182,7 @@ Upload strategy follows `params$mode`:
 - **append** — append delta core-table rows and new `item_responses` files
 - **complete** — replace core tables and manifest `item_responses` files
 
-```{r upload, eval=FALSE}
+```{r upload, eval=T}
 upload_to_redivis(
   merged,
   OUT_EXPORT,

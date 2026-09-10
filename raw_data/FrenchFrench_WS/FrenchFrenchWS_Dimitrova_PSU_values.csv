@@ -1,0 +1,13 @@
+﻿type,value,data_value
+sex,M,Garçon
+sex,F,Fille
+word,produces,compris et dit
+word,understands,compris
+word,,
+how_use_words,sometimes/often,Checked
+how_use_words,not yet,Unchecked
+complexity,complex,complex
+complexity,simple,simple
+complexity,,
+verb_endings,yes,Checked
+verb_endings,no,Unchecked

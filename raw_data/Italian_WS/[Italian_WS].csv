@@ -669,3 +669,71 @@ tanto,locations,tanto,word,produces,NA,item_667,NA,a lot,a lot
 troppo,locations,troppo,word,produces,NA,item_668,NA,too,too
 tutto,locations,tutto,word,produces,NA,item_669,NA,all,all
 un pò,locations,un_po,word,produces,NA,item_670,NA,any,any
+Il bambino capisce se gli chiedete di andare a prendere qualcosa che non è presente  nella stanza in cui siete? (es.: Va a prendere il bicchiere dopo che glielo avete chiesto),NA,miss_comp,how_use_words,not yet; sometimes; often,NA,item_671,NA,NA,NA
+"Il bambino mostra di capire quando gli parlate di situazioni o eventi passati? (es.: ""Ti ricordi quando siamo andati allo zoo?"" e lui dice ""Orso"")",NA,past_comp,how_use_words,not yet; sometimes; often,NA,item_672,NA,NA,NA
+"Il bambino capisce quando gli parlate di cose, persone o eventi che stanno per  succedere? (es.: Prende il suo golfino dopo che gli avete detto: "" Tra poco usciamo"")",NA,future_comp,how_use_words,not yet; sometimes; often,NA,item_673,NA,NA,NA
+Il bambino parla di cose o persone non presenti?,NA,miss_prod,how_use_words,not yet; sometimes; often,NA,item_674,NA,NA,NA
+Il bambino parla di situazioni o eventi passati?,NA,past_prod,how_use_words,not yet; sometimes; often,NA,item_675,NA,NA,NA
+"Il bambino parla di cose, persone o eventi che stanno per succedere? (es. dice ""Bimbi"" quando sta per andare al parco con la mamma)",NA,future_prod,how_use_words,not yet; sometimes; often,NA,item_676,NA,NA,NA
+Il bambinoIl bambino usa sia il singolare che il plurale di uno stesso nome?Biscotto/I; Gioco/hi; Gatto/i,NA,plural 1,word_forms_nouns,yes; no,NA,item_677,NA,NA,NA
+Il bambinoIl bambino usa sia il singolare che il plurale di uno stesso nome?Bimbo/a; Casa/e; Palla/e,NA,plural 2,word_forms_nouns,yes; no,NA,item_678,NA,NA,NA
+Il bambinoIl bambino usa sia il singolare che il plurale di uno stesso nome?Fiore/i; Cane/i; Bicchiere/i,NA,plural 3,word_forms_nouns,yes; no,NA,item_679,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso aggettivo? Piccolo/Piccola/Piccole/Piccoli,NA,adjective 1,word_forms_adjectives,yes; no,NA,item_680,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso aggettivo? Buono/Buona/Buoni/Buone,NA,adjective 2,word_forms_adjectives,yes; no,NA,item_681,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso aggettivo? Caldo/Calda/Caldi/Calde,NA,adjective 3,word_forms_adjectives,yes; no,NA,item_682,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangio,NA,verb 1,word_forms_verbs,yes; no,NA,item_683,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangi,NA,verb 2,word_forms_verbs,yes; no,NA,item_684,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangia,NA,verb 3,word_forms_verbs,yes; no,NA,item_685,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangiamo,NA,verb 4,word_forms_verbs,yes; no,NA,item_686,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangiate,NA,verb 5,word_forms_verbs,yes; no,NA,item_687,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Mangiano,NA,verb 6,word_forms_verbs,yes; no,NA,item_688,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Bevo,NA,verb 7,word_forms_verbs,yes; no,NA,item_689,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Bevi,NA,verb 8,word_forms_verbs,yes; no,NA,item_690,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Beve,NA,verb 9,word_forms_verbs,yes; no,NA,item_691,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Beviamo,NA,verb 10,word_forms_verbs,yes; no,NA,item_692,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Bevete,NA,verb 11,word_forms_verbs,yes; no,NA,item_693,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Bevono,NA,verb 12,word_forms_verbs,yes; no,NA,item_694,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dormo,NA,verb 13,word_forms_verbs,yes; no,NA,item_695,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dormi,NA,verb 14,word_forms_verbs,yes; no,NA,item_696,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dorme,NA,verb 15,word_forms_verbs,yes; no,NA,item_697,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dormiamo,NA,verb 16,word_forms_verbs,yes; no,NA,item_698,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dormite,NA,verb 17,word_forms_verbs,yes; no,NA,item_699,NA,NA,NA
+Il bambinoIl bambino usa varie forme di uno stesso verbo? Dormono,NA,verb 18,word_forms_verbs,yes; no,NA,item_700,NA,NA,NA
+Il bambino ha già iniziato a formare frasi di più parole?,NA,combine,combine,not yet; sometimes; often,NA,item_701,NA,NA,NA
+COMPLESSITÀ,NA,complexity 1,complexity,simple; complex,NA,item_702,NA,NA,NA
+COMPLESSITÀ,NA,complexity 2,complexity,simple; complex,NA,item_703,NA,NA,NA
+COMPLESSITÀ,NA,complexity 3,complexity,simple; complex,NA,item_704,NA,NA,NA
+COMPLESSITÀ,NA,complexity 4,complexity,simple; complex,NA,item_705,NA,NA,NA
+COMPLESSITÀ,NA,complexity 5,complexity,simple; complex,NA,item_706,NA,NA,NA
+COMPLESSITÀ,NA,complexity 6,complexity,simple; complex,NA,item_707,NA,NA,NA
+COMPLESSITÀ,NA,complexity 7,complexity,simple; complex,NA,item_708,NA,NA,NA
+COMPLESSITÀ,NA,complexity 8,complexity,simple; complex,NA,item_709,NA,NA,NA
+COMPLESSITÀ,NA,complexity 9,complexity,simple; complex,NA,item_710,NA,NA,NA
+COMPLESSITÀ,NA,complexity 10,complexity,simple; complex,NA,item_711,NA,NA,NA
+COMPLESSITÀ,NA,complexity 11,complexity,simple; complex,NA,item_712,NA,NA,NA
+COMPLESSITÀ,NA,complexity 12,complexity,simple; complex,NA,item_713,NA,NA,NA
+COMPLESSITÀ,NA,complexity 13,complexity,simple; complex,NA,item_714,NA,NA,NA
+COMPLESSITÀ,NA,complexity 14,complexity,simple; complex,NA,item_715,NA,NA,NA
+COMPLESSITÀ,NA,complexity 15,complexity,simple; complex,NA,item_716,NA,NA,NA
+COMPLESSITÀ,NA,complexity 16,complexity,simple; complex,NA,item_717,NA,NA,NA
+COMPLESSITÀ,NA,complexity 17,complexity,simple; complex,NA,item_718,NA,NA,NA
+COMPLESSITÀ,NA,complexity 18,complexity,simple; complex,NA,item_719,NA,NA,NA
+COMPLESSITÀ,NA,complexity 19,complexity,simple; complex,NA,item_720,NA,NA,NA
+COMPLESSITÀ,NA,complexity 20,complexity,simple; complex,NA,item_721,NA,NA,NA
+COMPLESSITÀ,NA,complexity 21,complexity,simple; complex,NA,item_722,NA,NA,NA
+COMPLESSITÀ,NA,complexity 22,complexity,simple; complex,NA,item_723,NA,NA,NA
+COMPLESSITÀ,NA,complexity 23,complexity,simple; complex,NA,item_724,NA,NA,NA
+COMPLESSITÀ,NA,complexity 24,complexity,simple; complex,NA,item_725,NA,NA,NA
+COMPLESSITÀ,NA,complexity 25,complexity,simple; complex,NA,item_726,NA,NA,NA
+COMPLESSITÀ,NA,complexity 26,complexity,simple; complex,NA,item_727,NA,NA,NA
+COMPLESSITÀ,NA,complexity 27,complexity,simple; complex,NA,item_728,NA,NA,NA
+COMPLESSITÀ,NA,complexity 28,complexity,simple; complex,NA,item_729,NA,NA,NA
+COMPLESSITÀ,NA,complexity 29,complexity,simple; complex,NA,item_730,NA,NA,NA
+COMPLESSITÀ,NA,complexity 30,complexity,simple; complex,NA,item_731,NA,NA,NA
+COMPLESSITÀ,NA,complexity 31,complexity,simple; complex,NA,item_732,NA,NA,NA
+COMPLESSITÀ,NA,complexity 32,complexity,simple; complex,NA,item_733,NA,NA,NA
+COMPLESSITÀ,NA,complexity 33,complexity,simple; complex,NA,item_734,NA,NA,NA
+COMPLESSITÀ,NA,complexity 34,complexity,simple; complex,NA,item_735,NA,NA,NA
+COMPLESSITÀ,NA,complexity 35,complexity,simple; complex,NA,item_736,NA,NA,NA
+COMPLESSITÀ,NA,complexity 36,complexity,simple; complex,NA,item_737,NA,NA,NA
+COMPLESSITÀ,NA,complexity 37,complexity,simple; complex,NA,item_738,NA,NA,NA

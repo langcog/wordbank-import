@@ -1,0 +1,557 @@
+﻿field,column,group,type
+,ID de la réponse,,
+study_id,study_id,child,study_id
+date_of_test,Veuillez indiquer la date du jour : ,admin,date_of_test
+date_of_birth,Indiquez la date de naissance de votre enfant,child,date_of_birth
+data_age,data_age,admin,data_age
+sex,Quel est le sexe de votre enfant ?,child,sex
+,Est-ce que votre enfant fait partie d'une fratrie (frère-s et/ou soeur-s et/ou enfants vivant sous le même toit) ?,,
+,Quelle est la langue que votre enfant entend le plus dans son quotidien ?,,
+,Quelle est la langue que votre enfant entend le plus dans son quotidien ? [Autre],,
+,Votre enfant a-t-il des maladies physiques chroniques/des retards de développement diagnostiqués ?,,
+,Précisez le(s)quel(s) ?,,
+,"B. À PROPOS DE VOUS ET DE VOTRE PARTENAIRE*  * Le terme partenaire désigne ici la personne avec qui vous habitez, indépendamment du fait que ce soit le parent biologique de votre enfant ou non.",,
+,Avez-vous un partenaire (selon la définition ci-dessus) ?,,
+,Veuillez indiquer : [Votre âge][],,
+,Veuillez indiquer : [L'âge de votre partenaire][],,
+,Veuillez indiquer : [Votre sexe],,
+,Veuillez indiquer : [Le sexe de votre partenaire],,
+,Veuillez préciser votre sexe,,
+,Veuillez préciser le sexe de votre partenaire,,
+,Veuillez indiquer : [Votre langue maternelle],,
+,Veuillez indiquer : [La langue maternelle de votre partenaire],,
+,Veuillez préciser votre langue maternelle,,
+,Veuillez préciser la langue maternelle de votre partenaire,,
+,Veuillez indiquer : [Votre nationalité],,
+,Veuillez indiquer : [La nationalité de votre partenaire],,
+,Veuillez préciser votre nationalité,,
+,Veuillez préciser la nationalité de votre partenaire,,
+mom_ed,Veuillez indiquer : [Votre plus haut niveau d'étude],child,mom_ed
+,Veuillez indiquer : [Le plus haut niveau d'étude de votre partenaire],,
+,Veuillez indiquer : [Votre occupation professionnelle actuelle],,
+,Veuillez indiquer : [L'occupation professionnelle actuelle de votre partenaire],,
+,Veuillez préciser votre occupation,,
+,Veuillez préciser l'occupation de votre partenaire,,
+,Comment décririez-vous la situation financière de votre ménage ?,,
+,Quel est le code postal de votre domicile principal ?,,
+,Quelle âge a votre enfant ?,,
+item_2,#1 Votre enfant réagit…  [Quand on l’appelle par son nom],item,first_signs
+item_1,#1 Votre enfant réagit…  [Quand on lui dit « non non »],item,first_signs
+item_796,#1 Votre enfant réagit…  [Quand il entend « voilà papa et maman »],item,first_signs
+item_27,#2 Votre enfant comprend les phrases …   [Tu as faim ?],item,phrases
+item_9,#2 Votre enfant comprend les phrases …   [Fais bravo],item,phrases
+item_16,#2 Votre enfant comprend les phrases …   [On s’en va],item,phrases
+item_797,#2 Votre enfant comprend les phrases …   [Ça suffit],item,phrases
+item_17,#2 Votre enfant comprend les phrases …   [On va faire dodo ],item,phrases
+item_5,#2 Votre enfant comprend les phrases …   [Chut],item,phrases
+item_19,#2 Votre enfant comprend les phrases …   [On va se promener],item,phrases
+item_11,#2 Votre enfant comprend les phrases …   [Fais un câlin à maman ],item,phrases
+item_29,#2 Votre enfant comprend les phrases …   [Tu es un amour],item,phrases
+item_21,#2 Votre enfant comprend les phrases …   [Papa est là],item,phrases
+item_3,#2 Votre enfant comprend les phrases …   [Assieds-toi],item,phrases
+item_18,#2 Votre enfant comprend les phrases …   [On va manger ? ],item,phrases
+item_6,#2 Votre enfant comprend les phrases …   [Crache ça ],item,phrases
+item_798,#2 Votre enfant comprend les phrases …   [Donne la balle],item,phrases
+item_28,#2 Votre enfant comprend les phrases …   [Tu es fatigué ? oh regarde là],item,phrases
+item_15,#2 Votre enfant comprend les phrases …   [On change la couche],item,phrases
+item_12,#2 Votre enfant comprend les phrases …   [Faut pas faire ça],item,phrases
+item_799,#2 Votre enfant comprend les phrases …   [Debout !],item,phrases
+item_10,#2 Votre enfant comprend les phrases …   [Fais-moi un bisou],item,phrases
+item_4,#2 Votre enfant comprend les phrases …   [Attention],item,phrases
+item_24,#2 Votre enfant comprend les phrases …   [Sois sage],item,phrases
+item_25,#2 Votre enfant comprend les phrases …   [T’en veux encore ? ],item,phrases
+item_8,#2 Votre enfant comprend les phrases …   [Donne à maman],item,phrases
+item_32,#2 Votre enfant comprend les phrases …   [Viens voir],item,phrases
+item_23,#2 Votre enfant comprend les phrases …   [Regarde papa qui arrive],item,phrases
+item_31,#2 Votre enfant comprend les phrases …   [Viens avec maman],item,phrases
+item_20,#2 Votre enfant comprend les phrases …   [Ouvre la bouche],item,phrases
+item_13,#2 Votre enfant comprend les phrases …   [Ne touche pas ],item,phrases
+item_26,#2 Votre enfant comprend les phrases …   [T’es un vrai petit cochon],item,phrases
+item_30,#2 Votre enfant comprend les phrases …   [Va chercher la balle ],item,phrases
+item_7,#2 Votre enfant comprend les phrases …   [Dis au revoir ],item,phrases
+item_34,#3-#5 Votre enfant…  [Imite les mots et les phrases qu’il vient d’entendre],item,starting_to_talk
+item_33,#3-#5 Votre enfant…  [ Désigne les objets qui l’entourent par des gestes ou les nomme],item,starting_to_talk
+item_35,"#3-#5 Votre enfant…  [Substitue des objets pour faire semblant (par exemple, il donne à manger à son ours en peluche en faisant semblant qu’un cube est une pomme)]",item,starting_to_talk
+item_36,"#6 Cris d’animaux, sons   [Aïe]",item,word
+item_43,"#6 Cris d’animaux, sons   [Miam-miam]",item,word
+item_37,"#6 Cris d’animaux, sons   [Allô]",item,word
+item_44,"#6 Cris d’animaux, sons   [Miaou]",item,word
+item_38,"#6 Cris d’animaux, sons   [Bêê bêê]",item,word
+item_45,"#6 Cris d’animaux, sons   [Oh oh ]",item,word
+item_39,"#6 Cris d’animaux, sons   [Cocorico]",item,word
+item_46,"#6 Cris d’animaux, sons   [Ouaf-ouaf]",item,word
+item_40,"#6 Cris d’animaux, sons   [Coin-coin]",item,word
+item_47,"#6 Cris d’animaux, sons   [Tchou tchou]",item,word
+item_41,"#6 Cris d’animaux, sons   [Grrr]",item,word
+item_48,"#6 Cris d’animaux, sons   [Vroum ]",item,word
+item_42,"#6 Cris d’animaux, sons   [Meuh ]",item,word
+item_55,#7 Jeux et routines  [Bravo],item,word
+item_56,#7 Jeux et routines  [Chut],item,word
+item_63,#7 Jeux et routines  [Oui],item,word
+item_50,#7 Jeux et routines  [Attends],item,word
+item_57,#7 Jeux et routines  [Coucou],item,word
+item_68,#7 Jeux et routines  [Veux],item,word
+item_51,#7 Jeux et routines  [Au revoir],item,word
+item_58,#7 Jeux et routines  [Déjeuner],item,word
+item_66,#7 Jeux et routines  [Salut],item,word
+item_52,#7 Jeux et routines  [Bain],item,word
+item_59,#7 Jeux et routines  [Dîner],item,word
+item_67,#7 Jeux et routines  [Sieste],item,word
+item_53,#7 Jeux et routines  [Bonjour],item,word
+item_60,#7 Jeux et routines  [Merci],item,word
+item_65,#7 Jeux et routines  [S’il te plait ],item,word
+item_54,#7 Jeux et routines  [Bonne nuit],item,word
+item_61,#7 Jeux et routines  [Ne fais pas ],item,word
+item_64,#7 Jeux et routines  [Petit déjeuner],item,word
+item_49,#7 Jeux et routines  [Ainsi font font ],item,word
+item_62,#7 Jeux et routines  [Non],item,word
+item_69,#8 Noms d’animaux (vrais ou jouets)      [Abeille],item,word
+item_76,#8 Noms d’animaux (vrais ou jouets)      [Canard],item,word
+item_83,#8 Noms d’animaux (vrais ou jouets)      [Écureuil ],item,word
+item_90,#8 Noms d’animaux (vrais ou jouets)      [Mouton ],item,word
+item_97,#8 Noms d’animaux (vrais ou jouets)      [Pingouin],item,word
+item_104,#8 Noms d’animaux (vrais ou jouets)      [Tortue],item,word
+item_70,#8 Noms d’animaux (vrais ou jouets)      [Agneau ],item,word
+item_77,#8 Noms d’animaux (vrais ou jouets)      [Chat ],item,word
+item_84,#8 Noms d’animaux (vrais ou jouets)      [Éléphant],item,word
+item_91,#8 Noms d’animaux (vrais ou jouets)      [Nounours],item,word
+item_98,#8 Noms d’animaux (vrais ou jouets)      [Poisson],item,word
+item_105,#8 Noms d’animaux (vrais ou jouets)      [Vache],item,word
+item_72,#8 Noms d’animaux (vrais ou jouets)      [Animal],item,word
+item_78,#8 Noms d’animaux (vrais ou jouets)      [Cheval],item,word
+item_85,#8 Noms d’animaux (vrais ou jouets)      [Girafe],item,word
+item_92,#8 Noms d’animaux (vrais ou jouets)      [Oie],item,word
+item_99,#8 Noms d’animaux (vrais ou jouets)      [Poney],item,word
+item_71,#8 Noms d’animaux (vrais ou jouets)      [Âne],item,word
+item_79,#8 Noms d’animaux (vrais ou jouets)      [Chèvre],item,word
+item_86,#8 Noms d’animaux (vrais ou jouets)      [Grenouille],item,word
+item_93,#8 Noms d’animaux (vrais ou jouets)      [Oiseau ],item,word
+item_100,#8 Noms d’animaux (vrais ou jouets)      [Poule],item,word
+item_73,#8 Noms d’animaux (vrais ou jouets)      [Bébé chat],item,word
+item_80,#8 Noms d’animaux (vrais ou jouets)      [Chien],item,word
+item_87,#8 Noms d’animaux (vrais ou jouets)      [Hibou],item,word
+item_94,#8 Noms d’animaux (vrais ou jouets)      [Ours],item,word
+item_101,#8 Noms d’animaux (vrais ou jouets)      [Singe],item,word
+item_74,#8 Noms d’animaux (vrais ou jouets)      [Bébé chien ],item,word
+item_81,#8 Noms d’animaux (vrais ou jouets)      [Cochon],item,word
+item_88,#8 Noms d’animaux (vrais ou jouets)      [Lapin],item,word
+item_95,#8 Noms d’animaux (vrais ou jouets)      [Papillon],item,word
+item_102,#8 Noms d’animaux (vrais ou jouets)      [Souris],item,word
+item_75,#8 Noms d’animaux (vrais ou jouets)      [Biche ],item,word
+item_82,#8 Noms d’animaux (vrais ou jouets)      [Dindon],item,word
+item_89,#8 Noms d’animaux (vrais ou jouets)      [Lion],item,word
+item_96,#8 Noms d’animaux (vrais ou jouets)      [Petite bête],item,word
+item_103,#8 Noms d’animaux (vrais ou jouets)      [Tigre],item,word
+item_106,#9 Nourriture et boisson     [Baguette],item,word
+item_113,#9 Nourriture et boisson     [Clémentine],item,word
+item_120,#9 Nourriture et boisson     [Jus de fruit],item,word
+item_139,#9 Nourriture et boisson     [Viande],item,word
+item_133,#9 Nourriture et boisson     [Purée],item,word
+item_107,#9 Nourriture et boisson     [Banane],item,word
+item_114,#9 Nourriture et boisson     [Cornflakes],item,word
+item_121,#9 Nourriture et boisson     [Lait],item,word
+item_128,#9 Nourriture et boisson     [Petits pois],item,word
+item_134,#9 Nourriture et boisson     [Raisin],item,word
+item_108,#9 Nourriture et boisson     [Beurre],item,word
+item_115,#9 Nourriture et boisson     [Eau],item,word
+item_122,#9 Nourriture et boisson     [Nourriture],item,word
+item_541,#9 Nourriture et boisson     [Petits pots ],item,word
+item_135,#9 Nourriture et boisson     [Soupe],item,word
+item_109,#9 Nourriture et boisson     [Boisson],item,word
+item_116,#9 Nourriture et boisson     [Fromage],item,word
+item_123,#9 Nourriture et boisson     [Œuf],item,word
+item_129,#9 Nourriture et boisson     [Pizza],item,word
+item_136,#9 Nourriture et boisson     [Spaghetti],item,word
+item_110,#9 Nourriture et boisson     [Café],item,word
+item_117,#9 Nourriture et boisson     [Gâteau ],item,word
+item_124,#9 Nourriture et boisson     [Orange ],item,word
+item_130,#9 Nourriture et boisson     [Poisson],item,word
+item_137,#9 Nourriture et boisson     [Sucre],item,word
+item_111,#9 Nourriture et boisson     [Carotte],item,word
+item_119,#9 Nourriture et boisson     [Glace],item,word
+item_125,#9 Nourriture et boisson     [Pain],item,word
+item_131,#9 Nourriture et boisson     [Pomme],item,word
+item_138,#9 Nourriture et boisson     [Tartine],item,word
+item_112,#9 Nourriture et boisson     [Céréales],item,word
+item_118,#9 Nourriture et boisson     [Gâteaux apéro],item,word
+item_126,#9 Nourriture et boisson     [Pâtes],item,word
+item_132,#9 Nourriture et boisson     [Poulet ],item,word
+item_127,#9 Nourriture et boisson     [Petits gâteaux],item,word
+item_140,#10 Jouets  [Balle],item,word
+item_141,#10 Jouets  [Ballon],item,word
+item_142,#10 Jouets  [Bulles],item,word
+item_143,#10 Jouets  [Crayon],item,word
+item_144,#10 Jouets  [Cube],item,word
+item_145,#10 Jouets  [Livre],item,word
+item_146,#10 Jouets  [Poupée],item,word
+item_147,#11 Parties du corps  [Aïe bobo],item,word
+item_155,#11 Parties du corps  [Figure],item,word
+item_161,#11 Parties du corps  [Nez],item,word
+item_168,#11 Parties du corps  [Yeux],item,word
+item_148,#11 Parties du corps  [Bouche],item,word
+item_156,#11 Parties du corps  [Genou],item,word
+item_162,#11 Parties du corps  [Nombril],item,word
+item_149,#11 Parties du corps  [Bras],item,word
+item_157,#11 Parties du corps  [Jambe],item,word
+item_163,#11 Parties du corps  [Oreille],item,word
+item_150,#11 Parties du corps  [Cheveux],item,word
+item_158,#11 Parties du corps  [Joue],item,word
+item_164,#11 Parties du corps  [Pied],item,word
+item_151,#11 Parties du corps  [Cœur],item,word
+item_159,#11 Parties du corps  [Langue],item,word
+item_165,#11 Parties du corps  [Pouce],item,word
+item_152,#11 Parties du corps  [Dent],item,word
+item_160,#11 Parties du corps  [Main ],item,word
+item_166,#11 Parties du corps  [Tête ],item,word
+item_153,#11 Parties du corps  [Doigt],item,word
+item_154,#11 Parties du corps  [Doigt de pied],item,word
+item_167,#11 Parties du corps  [Ventre],item,word
+item_169,#12 Personnes     [Bébé],item,word
+item_185,#12 Personnes     [Personne],item,word
+item_174,#12 Personnes     [Garçon],item,word
+item_176,#12 Personnes     [Grand-mère],item,word
+item_172,#12 Personnes     [Fille],item,word
+item_175,#12 Personnes     [Gens],item,word
+item_183,#12 Personnes     [Oncle],item,word
+item_179,#12 Personnes     [Maman],item,word
+item_171,#12 Personnes     [Enfant ],item,word
+item_170,#12 Personnes     [Dame],item,word
+item_186,#12 Personnes     [Sœur],item,word
+item_182,#12 Personnes     [Nounou],item,word
+item_177,#12 Personnes     [Grand-père],item,word
+item_173,#12 Personnes     [Frère],item,word
+item_181,#12 Personnes     [Nom de la nounou],item,word
+item_184,#12 Personnes     [Papa],item,word
+item_187,#12 Personnes     [Tante],item,word
+item_178,#12 Personnes     [Maître/sse],item,word
+item_180,#12 Personnes     [Nom de l’enfant],item,word
+item_188,#13 Vêtements [Basket],item,word
+item_195,#13 Vêtements [Chaussettes],item,word
+item_202,#13 Vêtements [Couche],item,word
+item_209,#13 Vêtements [Moufles],item,word
+item_216,#13 Vêtements [Short],item,word
+item_219,#13 Vêtements [Veste],item,word
+item_194,#13 Vêtements [Chapeau],item,word
+item_203,#13 Vêtements [Culotte/slip],item,word
+item_210,#13 Vêtements [Pantalon],item,word
+item_217,#13 Vêtements [Sweat],item,word
+item_190,#13 Vêtements [Body],item,word
+item_197,#13 Vêtements [Chaussure],item,word
+item_204,#13 Vêtements [Écharpe],item,word
+item_211,#13 Vêtements [Perles],item,word
+item_218,#13 Vêtements [Tee-shirt],item,word
+item_191,#13 Vêtements [Bottes],item,word
+item_198,#13 Vêtements [Chemise],item,word
+item_205,#13 Vêtements [Gants],item,word
+item_212,#13 Vêtements [Pull],item,word
+item_189,#13 Vêtements [Bavoir/bavette],item,word
+item_192,#13 Vêtements [Boutons],item,word
+item_199,#13 Vêtements [Collants],item,word
+item_206,#13 Vêtements [Grenouillère],item,word
+item_213,#13 Vêtements [Pyjama],item,word
+item_193,#13 Vêtements [Ceinture],item,word
+item_200,#13 Vêtements [Collier],item,word
+item_207,#13 Vêtements [Jeans],item,word
+item_214,#13 Vêtements [Robe],item,word
+item_196,#13 Vêtements [Chausson/pantoufle],item,word
+item_201,#13 Vêtements [Combinaison de ski],item,word
+item_208,#13 Vêtements [Manteau],item,word
+item_215,#13 Vêtements [Salopette],item,word
+item_220,#14 Petits objets ménagers  [Argent],item,word
+item_250,#14 Petits objets ménagers  [Plat],item,word
+item_239,#14 Petits objets ménagers  [Lumière],item,word
+item_241,#14 Petits objets ménagers  [Marteau],item,word
+item_244,#14 Petits objets ménagers  [Musique],item,word
+item_232,#14 Petits objets ménagers  [Couverture],item,word
+item_235,#14 Petits objets ménagers  [Feuille],item,word
+item_222,#14 Petits objets ménagers  [Assiette],item,word
+item_253,#14 Petits objets ménagers  [Radio],item,word
+item_255,#14 Petits objets ménagers  [Serviette],item,word
+item_258,#14 Petits objets ménagers  [Sucette],item,word
+item_262,#14 Petits objets ménagers  [Verre],item,word
+item_249,#14 Petits objets ménagers  [Plante],item,word
+item_237,#14 Petits objets ménagers  [Horloge],item,word
+item_225,#14 Petits objets ménagers  [Boite],item,word
+item_227,#14 Petits objets ménagers  [Bouteille],item,word
+item_230,#14 Petits objets ménagers  [Ciseaux],item,word
+item_248,#14 Petits objets ménagers  [Photo],item,word
+item_221,#14 Petits objets ménagers  [Aspirateur],item,word
+item_223,#14 Petits objets ménagers  [Balai],item,word
+item_240,#14 Petits objets ménagers  [Lunettes],item,word
+item_256,#14 Petits objets ménagers  [Sirop],item,word
+item_245,#14 Petits objets ménagers  [Oreiller],item,word
+item_233,#14 Petits objets ménagers  [Cuillère],item,word
+item_236,#14 Petits objets ménagers  [Fourchette],item,word
+item_238,#14 Petits objets ménagers  [Lampe],item,word
+item_254,#14 Petits objets ménagers  [Savon],item,word
+item_228,#14 Petits objets ménagers  [Brosse],item,word
+item_259,#14 Petits objets ménagers  [Tasse],item,word
+item_261,#14 Petits objets ménagers  [Téléphone],item,word
+item_234,#14 Petits objets ménagers  [Dent],item,word
+item_252,#14 Petits objets ménagers  [Poubelle],item,word
+item_226,#14 Petits objets ménagers  [Bol],item,word
+item_243,#14 Petits objets ménagers  [Montre],item,word
+item_231,#14 Petits objets ménagers  [Clefs],item,word
+item_247,#14 Petits objets ménagers  [Peigne],item,word
+item_251,#14 Petits objets ménagers  [Porte-monnaie],item,word
+item_242,#14 Petits objets ménagers  [Médicaments],item,word
+item_260,#14 Petits objets ménagers  [Télécommande],item,word
+item_257,#14 Petits objets ménagers  [Sous/pièces],item,word
+item_246,#14 Petits objets ménagers  [Papier],item,word
+item_229,#14 Petits objets ménagers  [Brosse à dent ],item,word
+item_263,#15 Meubles et pièces     [Baignoire],item,word
+item_265,#15 Meubles et pièces     [Canapé],item,word
+item_284,#15 Meubles et pièces     [Table],item,word
+item_278,#15 Meubles et pièces     [Lit],item,word
+item_271,#15 Meubles et pièces     [Évier],item,word
+item_273,#15 Meubles et pièces     [Fenêtre],item,word
+item_268,#15 Meubles et pièces     [Chambre],item,word
+item_270,#15 Meubles et pièces     [Escalier],item,word
+item_280,#15 Meubles et pièces     [Porte],item,word
+item_266,#15 Meubles et pièces     [Chaise],item,word
+item_276,#15 Meubles et pièces     [Garage],item,word
+item_279,#15 Meubles et pièces     [Parc],item,word
+item_264,#15 Meubles et pièces     [Berceau],item,word
+item_274,#15 Meubles et pièces     [Four],item,word
+item_285,#15 Meubles et pièces     [Télé],item,word
+item_272,#15 Meubles et pièces     [Fauteuil],item,word
+item_283,#15 Meubles et pièces     [Salon],item,word
+item_277,#15 Meubles et pièces     [Lavabo],item,word
+item_281,#15 Meubles et pièces     [Pot],item,word
+item_275,#15 Meubles et pièces     [Frigo],item,word
+item_286,#15 Meubles et pièces     [Tiroir],item,word
+item_267,#15 Meubles et pièces     [Chaise haute],item,word
+item_282,#15 Meubles et pièces     [Salle de bain],item,word
+item_269,#15 Meubles et pièces     [Cuisinière],item,word
+item_287,#16 Objets extérieurs et endroits où aller     [Arbre],item,word
+item_299,#16 Objets extérieurs et endroits où aller     [Fleur],item,word
+item_311,#16 Objets extérieurs et endroits où aller     [Soleil],item,word
+item_294,#16 Objets extérieurs et endroits où aller     [Eau],item,word
+item_297,#16 Objets extérieurs et endroits où aller     [Étoile],item,word
+item_309,#16 Objets extérieurs et endroits où aller     [Plage],item,word
+item_292,#16 Objets extérieurs et endroits où aller     [Crèche],item,word
+item_304,#16 Objets extérieurs et endroits où aller     [Maison],item,word
+item_307,#16 Objets extérieurs et endroits où aller     [Pelle],item,word
+item_290,#16 Objets extérieurs et endroits où aller     [Ciel],item,word
+item_302,#16 Objets extérieurs et endroits où aller     [Lune],item,word
+item_314,#16 Objets extérieurs et endroits où aller     [Zoo],item,word
+item_288,#16 Objets extérieurs et endroits où aller     [Balançoire],item,word
+item_300,#16 Objets extérieurs et endroits où aller     [Garderie],item,word
+item_312,#16 Objets extérieurs et endroits où aller     [Toboggan],item,word
+item_295,#16 Objets extérieurs et endroits où aller     [École],item,word
+item_298,#16 Objets extérieurs et endroits où aller     [Fête],item,word
+item_310,#16 Objets extérieurs et endroits où aller     [Pluie],item,word
+item_293,#16 Objets extérieurs et endroits où aller     [Dehors],item,word
+item_305,#16 Objets extérieurs et endroits où aller     [Neige],item,word
+item_308,#16 Objets extérieurs et endroits où aller     [Piscine],item,word
+item_291,#16 Objets extérieurs et endroits où aller     [Cour],item,word
+item_303,#16 Objets extérieurs et endroits où aller     [Magasin],item,word
+item_296,#16 Objets extérieurs et endroits où aller     [Église],item,word
+item_289,#16 Objets extérieurs et endroits où aller     [Caillou],item,word
+item_301,#16 Objets extérieurs et endroits où aller     [Jardin],item,word
+item_313,#16 Objets extérieurs et endroits où aller     [Travail],item,word
+item_306,#16 Objets extérieurs et endroits où aller     [Parc],item,word
+item_315,#17 Véhicules     [Avion],item,word
+item_323,#17 Véhicules     [Voiture],item,word
+item_321,#17 Véhicules     [Train],item,word
+item_318,#17 Véhicules     [Camion de pompier],item,word
+item_316,#17 Véhicules     [Bus],item,word
+item_319,#17 Véhicules     [Moto],item,word
+item_322,#17 Véhicules     [Vélo],item,word
+item_317,#17 Véhicules     [Camion],item,word
+item_320,#17 Véhicules     [Poussette],item,word
+item_324,#18 Mots descriptifs [Attention],item,word
+item_338,#18 Mots descriptifs [Dur],item,word
+item_353,#18 Mots descriptifs [Rouge],item,word
+item_330,#18 Mots descriptifs [Blessé],item,word
+item_345,#18 Mots descriptifs [Malade],item,word
+item_360,#18 Mots descriptifs [Vilain/e],item,word
+item_336,#18 Mots descriptifs [Dégoûtant/e],item,word
+item_351,#18 Mots descriptifs [Petit/e],item,word
+item_328,#18 Mots descriptifs [Beau/ belle],item,word
+item_343,#18 Mots descriptifs [Grand],item,word
+item_358,#18 Mots descriptifs [Vide],item,word
+item_335,#18 Mots descriptifs [Content/e],item,word
+item_349,#18 Mots descriptifs [Parti],item,word
+item_327,#18 Mots descriptifs [Avoir soif],item,word
+item_341,#18 Mots descriptifs [Froid],item,word
+item_356,#18 Mots descriptifs [Sombre],item,word
+item_333,#18 Mots descriptifs [Cassé],item,word
+item_348,#18 Mots descriptifs [Mouillé],item,word
+item_325,#18 Mots descriptifs [Avoir faim],item,word
+item_339,#18 Mots descriptifs [Endormi],item,word
+item_354,#18 Mots descriptifs [Sale],item,word
+item_331,#18 Mots descriptifs [Bleu],item,word
+item_346,#18 Mots descriptifs [Méchant/e],item,word
+item_367,#18 Mots descriptifs [Avoir sommeil],item,word
+item_337,#18 Mots descriptifs [Doux/ce],item,word
+item_352,#18 Mots descriptifs [Propre],item,word
+item_329,#18 Mots descriptifs [Bien],item,word
+item_344,#18 Mots descriptifs [Joli],item,word
+item_359,#18 Mots descriptifs [Vieux/vielle],item,word
+item_350,#18 Mots descriptifs [Pas bon],item,word
+item_340,#18 Mots descriptifs [Fatigué],item,word
+item_342,#18 Mots descriptifs [Gentil/le],item,word
+item_357,#18 Mots descriptifs [Tendre],item,word
+item_334,#18 Mots descriptifs [Chaud/e],item,word
+item_326,#18 Mots descriptifs [Avoir peur],item,word
+item_361,#18 Mots descriptifs [Vite],item,word
+item_355,#18 Mots descriptifs [Sec/che],item,word
+item_332,#18 Mots descriptifs [Bon/ne],item,word
+item_347,#18 Mots descriptifs [Mignon/ne],item,word
+item_362,#19 Mots d’action     [Aider],item,word
+item_383,#19 Mots d’action     [Essuyer],item,word
+item_368,#19 Mots d’action     [Balancer],item,word
+item_371,#19 Mots d’action     [Chanter],item,word
+item_391,#19 Mots d’action     [Lire],item,word
+item_376,#19 Mots d’action     [Dessiner],item,word
+item_396,#19 Mots d’action     [Mordre],item,word
+item_379,#19 Mots d’action     [Donner un coup de pied],item,word
+item_364,#19 Mots d’action     [Aller],item,word
+item_401,#19 Mots d’action     [Pleurer],item,word
+item_369,#19 Mots d’action     [Boire],item,word
+item_389,#19 Mots d’action     [Jouer],item,word
+item_374,#19 Mots d’action     [Courir],item,word
+item_394,#19 Mots d’action     [Mettre],item,word
+item_414,#19 Mots d’action     [Tomber],item,word
+item_404,#19 Mots d’action     [Prendre dans ses bras],item,word
+item_399,#19 Mots d’action     [Nourrir ],item,word
+item_365,#19 Mots d’action     [Apporter],item,word
+item_387,#19 Mots d’action     [Finir],item,word
+item_407,#19 Mots d’action     [Sauter],item,word
+item_392,#19 Mots d’action     [Manger],item,word
+item_412,#19 Mots d’action     [Taper],item,word
+item_397,#19 Mots d’action     [Nager],item,word
+item_384,"#19 Mots d’action     [Faire du vélo, de la moto]",item,word
+item_363,#19 Mots d’action     [Aimer],item,word
+item_386,#19 Mots d’action     [Fermer],item,word
+item_405,#19 Mots d’action     [Recevoir],item,word
+item_372,#19 Mots d’action     [Chatoiller],item,word
+item_410,#19 Mots d’action     [Souffler],item,word
+item_377,#19 Mots d’action     [Dire],item,word
+item_415,#19 Mots d’action     [Toucher],item,word
+item_378,#19 Mots d’action     [Donner],item,word
+item_382,#19 Mots d’action     [Écrire],item,word
+item_402,#19 Mots d’action     [Pousser],item,word
+item_370,#19 Mots d’action     [Casser],item,word
+item_390,#19 Mots d’action     [Laver],item,word
+item_375,#19 Mots d’action     [Danser],item,word
+item_395,#19 Mots d’action     [Montrer],item,word
+item_380,#19 Mots d’action     [Dormir],item,word
+item_416,#19 Mots d’action     [Voir],item,word
+item_400,#19 Mots d’action     [Ouvrir],item,word
+item_366,#19 Mots d’action     [Arrêter ],item,word
+item_388,#19 Mots d’action     [Jeter],item,word
+item_408,#19 Mots d’action     [Se cogner],item,word
+item_393,#19 Mots d’action     [Marcher],item,word
+item_413,#19 Mots d’action     [Tirer],item,word
+item_398,#19 Mots d’action     [Nettoyer],item,word
+item_381,#19 Mots d’action     [Éclabousser],item,word
+item_403,#19 Mots d’action     [Prendre],item,word
+item_406,#19 Mots d’action     [Regarder],item,word
+item_373,#19 Mots d’action     [Conduire],item,word
+item_411,#19 Mots d’action     [Sourire],item,word
+item_385,#19 Mots d’action     [Faire un bisou],item,word
+item_409,#19 Mots d’action     [Se dépêcher],item,word
+item_417,#20 Mots sur le temps [Aujourd’hui],item,word
+item_420,#20 Mots sur le temps [Jour],item,word
+item_423,#20 Mots sur le temps [Nuit],item,word
+item_418,#20 Mots sur le temps [Ce soir],item,word
+item_421,#20 Mots sur le temps [Maintenant],item,word
+item_419,#20 Mots sur le temps [Demain],item,word
+item_422,#20 Mots sur le temps [Matin],item,word
+item_424,#21 Prépositions et localisations [Dans],item,word
+item_431,#21 Prépositions et localisations [Là-bas],item,word
+item_428,#21 Prépositions et localisations [En bas],item,word
+item_432,#21 Prépositions et localisations [Loin],item,word
+item_425,#21 Prépositions et localisations [Dedans],item,word
+item_433,#21 Prépositions et localisations [Sous],item,word
+item_429,#21 Prépositions et localisations [En haut],item,word
+item_434,#21 Prépositions et localisations [Sur],item,word
+item_426,#21 Prépositions et localisations [Dehors],item,word
+item_430,#21 Prépositions et localisations [Là],item,word
+item_427,#21 Prépositions et localisations [Derrière],item,word
+item_435,#22 Pronoms  [À elle/ sa],item,word
+item_439,#22 Pronoms  [Je],item,word
+item_438,#22 Pronoms  [Ça],item,word
+item_440,#22 Pronoms  [Ma/ mon/ mes],item,word
+item_441,#22 Pronoms  [Moi],item,word
+item_436,#22 Pronoms  [À lui/ son],item,word
+item_443,#22 Pronoms  [Vous/ tu],item,word
+item_437,#22 Pronoms  [À moi],item,word
+item_442,#22 Pronoms  [Votre/ ton/ ta],item,word
+item_444,#23 Mots interrogatifs  [Comment],item,word
+item_446,#23 Mots interrogatifs  [Pourquoi],item,word
+item_448,#23 Mots interrogatifs  [Qui],item,word
+item_445,#23 Mots interrogatifs  [Où ],item,word
+item_447,#23 Mots interrogatifs  [Quand],item,word
+item_449,#23 Mots interrogatifs  [Quoi],item,word
+item_450,#24 Quantificateurs     [Aucun/ne],item,word
+item_453,#24 Quantificateurs     [Pas],item,word
+item_456,#24 Quantificateurs     [Un peu],item,word
+item_451,#24 Quantificateurs     [Encore],item,word
+item_454,#24 Quantificateurs     [Tous/ tout],item,word
+item_455,#24 Quantificateurs     [Un autre],item,word
+item_452,#24 Quantificateurs     [Le/ la même],item,word
+item_467,#25 Premiers gestes :   [Tendre les bras pour vous montrer quelque chose qu’il tient dans sa main],item,gestures_first
+item_464,#25 Premiers gestes :   [Montrer (avec le bras et l’index tendus) un objet ou un événement intéressant],item,gestures_first
+item_457,#25 Premiers gestes :   [Agiter la main de sa propre initiative en signe d’au revoir quand quelqu’un s’en va ],item,gestures_first
+item_458,#25 Premiers gestes :   [Demander quelque chose en étendant ses bras et en ouvrant et fermant la main],item,gestures_first
+item_460,#25 Premiers gestes :   [Faire chut en plaçant son doigt sur ses lèvres],item,gestures_first
+item_463,#25 Premiers gestes :   [Hocher la tête pour dire oui],item,gestures_first
+item_466,#25 Premiers gestes :   [Tendre la main pour vous donner un jouet ou un objet qu’il tient],item,gestures_first
+item_468,#25 Premiers gestes :   [Tendre les bras quand il désire être porté],item,gestures_first
+item_459,#25 Premiers gestes :   [Envoyer des baisers à distance],item,gestures_first
+item_461,#25 Premiers gestes :   [Faire « mmm » avec ses lèvres pour dire que quelque chose est bon ],item,gestures_first
+item_462,#25 Premiers gestes :   [Hausser les épaules pour dire « ils sont partis » ou « où sont-ils ? »],item,gestures_first
+item_465,#25 Premiers gestes :   [Secouer la tête pour dire non ],item,gestures_first
+item_472,#26 Jeux et routines:  [Faire coucou],item,gestures_games
+item_469,#26 Jeux et routines:  [Ainsi font font … les petites marionnettes],item,gestures_games
+item_473,#26 Jeux et routines:  [Jouer au loup],item,gestures_games
+item_470,#26 Jeux et routines:  [Chanter],item,gestures_games
+item_471,#26 Jeux et routines:  [Danser],item,gestures_games
+item_481,#27 Actions avec objets:   [Manger avec une cuillère ou une fourchette],item,gestures_objects
+item_474,#27 Actions avec objets:   [Boire dans une tasse],item,gestures_objects
+item_484,#27 Actions avec objets:   [Peigner ou brosser ses cheveux],item,gestures_objects
+item_475,#27 Actions avec objets:   [Brosser ses dents],item,gestures_objects
+item_477,#27 Actions avec objets:   [Essuyer son visage ou ses mains avec une serviette ou un chiffon],item,gestures_objects
+item_482,#27 Actions avec objets:   [Mettre un chapeau],item,gestures_objects
+item_476,#27 Actions avec objets:   [Enfiler ses chaussures ou ses chaussettes],item,gestures_objects
+item_483,"#27 Actions avec objets:   [Mettre un collier, un bracelet ou une montre]",item,gestures_objects
+item_478,#27 Actions avec objets:   [Faire semblant de remuer avec une cuillère un liquide dans un récipient ],item,gestures_objects
+item_479,#27 Actions avec objets:   [Faire semblant de transvaser un liquide d’un récipient à un autre ],item,gestures_objects
+item_489,#27 Actions avec objets:   [Souffler pour montrer que quelque chose est chaud ],item,gestures_objects
+item_490,#27 Actions avec objets:   [Tenir un avion et le faire voler ],item,gestures_objects
+item_485,#27 Actions avec objets:   [Porter le combiné du téléphone à son oreille],item,gestures_objects
+item_488,#27 Actions avec objets:   [Sentir les fleurs ],item,gestures_objects
+item_487,#27 Actions avec objets:   [Pousser des petites voitures ou des camions],item,gestures_objects
+item_480,#27 Actions avec objets:   [Jeter une balle],item,gestures_objects
+item_486,#27 Actions avec objets:   [Poser sa tête sur ses bras et fermer ses yeux pour faire semblant de dormir ],item,gestures_objects
+item_492,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Balayer],item,gestures_adult
+item_501,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Mettre une clef dans une serrure ou fermer la porte à clef],item,gestures_adult
+item_493,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Casser avec un marteau],item,gestures_adult
+item_505,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Utiliser une scie],item,gestures_adult
+item_504,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [« Taper » à la machine à écrire ou sur le clavier de l’ordinateur],item,gestures_adult
+item_499,"#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [« Lire » (ouvrir le livre, tourner les pages)]",item,gestures_adult
+item_503,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Passer l’aspirateur],item,gestures_adult
+item_500,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Mettre des lunettes],item,gestures_adult
+item_491,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Arroser les plantes],item,gestures_adult
+item_498,"#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Jouer d’un instrument (par exemple piano, trompette) ]",item,gestures_adult
+item_494,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Conduire une voiture en tournant le volant ],item,gestures_adult
+item_497,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Faire la vaisselle],item,gestures_adult
+item_502,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Nettoyer avec un chiffon ou faire la poussière],item,gestures_adult
+item_496,"#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Écrire avec un crayon, stylo ou feutre ]",item,gestures_adult
+item_495,#28 Imiter des actions d’adulte (avec des jouets ou de vrais objets):  [Creuser avec une pelle],item,gestures_adult
+item_507,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les couvrir avec une couverture],item,gestures_parent
+item_512,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur donner à boire avec un biberon],item,gestures_parent
+item_513,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur donner à manger avec une cuillère],item,gestures_parent
+item_518,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur peigner/ brosser les cheveux],item,gestures_parent
+item_511,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les tapoter ou les faire roter ],item,gestures_parent
+item_510,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les mettre dans une poussette ou un landau ],item,gestures_parent
+item_509,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les mettre au lit ],item,gestures_parent
+item_508,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les embrasser ou les tenir dans ses bras ],item,gestures_parent
+item_515,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur mettre des chaussettes ou un chapeau ],item,gestures_parent
+item_514,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur essuyer le visage ou les mains],item,gestures_parent
+item_517,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur parler ],item,gestures_parent
+item_516,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Leur mettre des couches ],item,gestures_parent
+item_506,#29 Faire semblant d’être parent avec des peluches ou des poupées:   [Les bercer ],item,gestures_parent

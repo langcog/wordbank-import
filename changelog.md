@@ -16,4 +16,5 @@
 - Many small tweaks to data bugs (Alroqi, Blume, Woll, Bergmann Swingley, Kapalkova)
 - Bergmann French (French) WG re-ingested as WS
 - Tsuji Labvanced French (French) WS had comprehension and production swapped
-- Arabic (Saudi) WS has its age range fixed
+- Arabic (Saudi) WS and Oxford CDIs have their age ranges fixed
+- Trudeau French (Quebecois) has combine fixed for children ≥24m

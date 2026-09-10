@@ -1,0 +1,22 @@
+﻿type,value,data_value,,,
+sex,M,1,,,
+sex,F,2,,,
+mom_ed,,1,,,
+mom_ed,none,2,,,
+mom_ed,primary,3,,,
+mom_ed,secondary,4,,,
+mom_ed,some college,5,,,word
+mom_ed,college,6,,,how_use_words
+mom_ed,bachelor,7,,,complexity
+mom_ed,graduate,8,,,verb_endings
+mom_ed,graduate,9,,,
+word,produces,1,,,
+word,,0,,,
+how_use_words,not yet,0,,,
+how_use_words,sometimes,1,,,
+how_use_words,often,2,,,
+complexity,complex,2,,,
+complexity,simple,1,,,
+complexity,,0,,,
+verb_endings,yes,1,,,
+verb_endings,no,0,,,

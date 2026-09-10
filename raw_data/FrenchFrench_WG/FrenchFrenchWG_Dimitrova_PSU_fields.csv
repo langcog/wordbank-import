@@ -1,0 +1,523 @@
+﻿field,column,group,type
+,Record ID,,
+study_id,study_id,child,study_id
+date_of_test,Date of completion,admin,date_of_test
+date_of_birth,DoB,child,date_of_birth
+data_age,Age calculé,admin,data_age
+,MCDI type,,
+sex,Sex,child,sex
+item_2,Votre enfant réagit.. (choice=quand on lappelle par son nom),item,first_signs
+item_1,Votre enfant réagit.. (choice=quand on lui dit non non),item,first_signs
+item_796,Votre enfant réagit.. (choice=quand il entend voilà papa et maman),item,first_signs
+item_27,Votre enfant comprend les phrases  (choice=tu as faim?),item,phrases
+item_19,Votre enfant comprend les phrases  (choice=on va se promener?),item,phrases
+item_3,Votre enfant comprend les phrases  (choice=assieds-toi),item,phrases
+item_15,Votre enfant comprend les phrases  (choice=on change la couche),item,phrases
+item_4,"Votre enfant comprend les phrases  (choice=attention,)",item,phrases
+item_23,Votre enfant comprend les phrases  (choice=regarde papa qui arrive),item,phrases
+item_26,Votre enfant comprend les phrases  (choice=tes un vrai cochon),item,phrases
+item_9,Votre enfant comprend les phrases  (choice=fais bravo),item,phrases
+item_18,Votre enfant comprend les phrases  (choice=on va manger),item,phrases
+item_24,Votre enfant comprend les phrases  (choice=sois sage),item,phrases
+item_16,Votre enfant comprend les phrases  (choice=on sen va),item,phrases
+item_11,Votre enfant comprend les phrases  (choice=fais un câlin à maman),item,phrases
+item_6,Votre enfant comprend les phrases  (choice=crache ça),item,phrases
+item_12,Votre enfant comprend les phrases  (choice=faut pas faire ça),item,phrases
+item_25,Votre enfant comprend les phrases  (choice=ten veux encore?),item,phrases
+item_31,Votre enfant comprend les phrases  (choice=viens avec maman),item,phrases
+item_30,Votre enfant comprend les phrases  (choice=va chercher la balle),item,phrases
+item_797,Votre enfant comprend les phrases  (choice=ça suffit),item,phrases
+item_798,Votre enfant comprend les phrases  (choice=donne la balle),item,phrases
+item_799,Votre enfant comprend les phrases  (choice=debout!),item,phrases
+item_17,Votre enfant comprend les phrases  (choice=on va faire dodo),item,phrases
+item_29,Votre enfant comprend les phrases  (choice=tu es un amour),item,phrases
+item_28,Votre enfant comprend les phrases  (choice=tu es fatiguée),item,phrases
+item_10,Votre enfant comprend les phrases  (choice=fais-moi un bisou),item,phrases
+item_8,Votre enfant comprend les phrases  (choice=donne à maman),item,phrases
+item_20,Votre enfant comprend les phrases  (choice=ouvre la bouche),item,phrases
+item_7,Votre enfant comprend les phrases  (choice=dis au revoir),item,phrases
+item_5,Votre enfant comprend les phrases  (choice=chut),item,phrases
+item_21,Votre enfant comprend les phrases  (choice=papa est là),item,phrases
+item_14,Votre enfant comprend les phrases  (choice=oh regarde ça),item,phrases
+item_32,Votre enfant comprend les phrases  (choice=viens voir),item,phrases
+item_13,Votre enfant comprend les phrases  (choice=ne touche pas),item,phrases
+item_34,Votre enfant (choice=imite les mots et les phrases),item,starting_to_talk
+item_33,Votre enfant (choice=désigne les objets qui lentourent par des gestes ou les nomme),item,starting_to_talk
+item_35,Votre enfant (choice=substitue des objets pour faire semblant),item,starting_to_talk
+item_36,aïe,item,word
+item_37,allô,item,word
+item_38,bêêbêê,item,word
+item_39,cocorico,item,word
+item_40,coin-coin,item,word
+item_41,grrrr,item,word
+item_42,meuh,item,word
+item_43,miam-miam,item,word
+item_44,miaou,item,word
+item_45,oh oh,item,word
+item_46,ouaf ouaf,item,word
+item_47,tchou tchou,item,word
+item_48,vroum,item,word
+item_55,bravo,item,word
+item_50,attends,item,word
+item_51,au revoir,item,word
+item_52,bain,item,word
+item_53,bonjour,item,word
+item_54,bonne nuit,item,word
+item_49,ainsi font font,item,word
+item_56,chut,item,word
+item_57,coucou,item,word
+item_58,déjeuner,item,word
+item_59,dîner,item,word
+item_60,merci,item,word
+item_61,ne fais pas,item,word
+item_62,non,item,word
+item_63,oui,item,word
+item_68,veux,item,word
+item_66,salut,item,word
+item_67,sieste,item,word
+item_65,s'il te plaît,item,word
+item_64,petit déjeuner,item,word
+item_69,abeille,item,word
+item_70,agneau,item,word
+item_72,animal,item,word
+item_71,âne,item,word
+item_73,bébé chat,item,word
+item_74,bébé chien,item,word
+item_75,biche,item,word
+item_76,canard,item,word
+item_77,chat,item,word
+item_78,cheval,item,word
+item_79,chèvre,item,word
+item_80,chien,item,word
+item_81,cochon,item,word
+item_82,dindon,item,word
+item_83,écureuil,item,word
+item_84,éléphant,item,word
+item_85,girafe,item,word
+item_86,grenouille,item,word
+item_87,hibou,item,word
+item_88,lapin,item,word
+item_89,lion,item,word
+item_90,mouton,item,word
+item_91,nounours,item,word
+item_92,oie,item,word
+item_93,oiseau,item,word
+item_94,ours,item,word
+item_95,papillon,item,word
+item_96,petite bête,item,word
+item_97,pingouin,item,word
+item_98,poisson,item,word
+item_99,poney,item,word
+item_100,poule,item,word
+item_101,singe,item,word
+item_102,souris,item,word
+item_103,tigre,item,word
+item_104,tortue,item,word
+item_105,vache,item,word
+item_106,baguette,item,word
+item_107,banane,item,word
+item_108,beurre,item,word
+item_109,boisson,item,word
+item_110,café,item,word
+item_111,carotte,item,word
+item_112,céréales,item,word
+item_113,clémentine,item,word
+item_114,cornflakes,item,word
+item_115,eau,item,word
+item_116,fromage,item,word
+item_117,gâteau,item,word
+item_119,glace,item,word
+item_118,gâteau apéro,item,word
+item_120,jus de fruit,item,word
+item_121,lait,item,word
+item_122,nourriture,item,word
+item_123,oeuf,item,word
+item_124,orange,item,word
+item_125,pain,item,word
+item_126,pâtes,item,word
+item_139,viande,item,word
+item_128,petits pois,item,word
+item_541,petits pots,item,word
+item_129,pizza,item,word
+item_130,poisson_,item,word
+item_131,pomme,item,word
+item_132,poulet,item,word
+item_133,purée,item,word
+item_134,raisin,item,word
+item_135,soupe,item,word
+item_136,spaghetti,item,word
+item_137,sucre,item,word
+item_138,tartine,item,word
+item_127,petits gâteaux,item,word
+item_140,balle,item,word
+item_141,ballon,item,word
+item_142,bulles,item,word
+item_143,crayon,item,word
+item_144,cube,item,word
+item_145,livre,item,word
+item_146,poupée,item,word
+item_147,aïe bobo,item,word
+item_148,bouche,item,word
+item_149,bras,item,word
+item_150,cheveux,item,word
+item_151,coeur,item,word
+item_152,dent,item,word
+item_153,doigt,item,word
+item_155,figure/visage,item,word
+item_156,genou,item,word
+item_157,jambe,item,word
+item_158,joue,item,word
+item_159,langue,item,word
+item_160,main,item,word
+item_154,doigt de pied,item,word
+item_161,nez,item,word
+item_162,nombril,item,word
+item_163,oreille,item,word
+item_164,pied,item,word
+item_165,pouce,item,word
+item_166,tête,item,word
+item_167,ventre,item,word
+item_168,yeux,item,word
+item_169,bébé,item,word
+item_800,nom du frère ou de la soeur,item,word
+item_176,grand-mère,item,word
+item_183,oncle,item,word
+item_170,dame,item,word
+item_177,grand-père,item,word
+item_184,papa,item,word
+item_178,maîtresse,item,word
+item_185,personne,item,word
+item_172,fille,item,word
+item_179,maman,item,word
+item_186,soeur,item,word
+item_173,frère,item,word
+item_187,tante,item,word
+item_180,nom de l'enfant,item,word
+item_174,garçon,item,word
+item_175,gens,item,word
+item_171,enfant,item,word
+item_182,nounou,item,word
+item_181,nom de la nounou,item,word
+item_219,veste,item,word
+item_190,body,item,word
+item_191,bottes,item,word
+item_192,boutons,item,word
+item_196,chausson/pantoufle,item,word
+item_195,chaussettes,item,word
+item_194,chapeau,item,word
+item_197,chaussure,item,word
+item_198,chemise,item,word
+item_200,collier,item,word
+item_202,couche,item,word
+item_206,grenouillère,item,word
+item_207,jeans,item,word
+item_208,manteau,item,word
+item_210,pantalon,item,word
+item_211,perles,item,word
+item_212,pull,item,word
+item_213,pyjama,item,word
+item_214,robe,item,word
+item_215,salopette,item,word
+item_216,short,item,word
+item_217,sweat,item,word
+item_218,tee-shirt,item,word
+item_189,bavoir/bavette,item,word
+item_220,argent,item,word
+item_249,plante,item,word
+item_236,fourchette,item,word
+item_250,plat,item,word
+item_237,horloge,item,word
+item_238,lampe,item,word
+item_242,médicaments,item,word
+item_253,radio,item,word
+item_240,lunettes,item,word
+item_226,bol,item,word
+item_241,marteau,item,word
+item_227,bouteille,item,word
+item_228,brosse,item,word
+item_257,sous/pièces,item,word
+item_258,sucette,item,word
+item_245,oreiller,item,word
+item_231,clefs,item,word
+item_232,couverture,item,word
+item_248,photo,item,word
+item_261,téléphone,item,word
+item_229,brosse à dents,item,word
+item_235,feuille,item,word
+item_221,aspirateur,item,word
+item_251,porte-monnaie,item,word
+item_222,assiette,item,word
+item_223,balai,item,word
+item_252,poubelle,item,word
+item_239,lumière,item,word
+item_225,boîte,item,word
+item_254,savon,item,word
+item_260,télécommande,item,word
+item_255,serviette,item,word
+item_256,sirop,item,word
+item_243,montre,item,word
+item_244,musique,item,word
+item_230,ciseaux,item,word
+item_259,tasse,item,word
+item_246,papier,item,word
+item_262,verre,item,word
+item_233,cuillère,item,word
+item_247,peigne,item,word
+item_224,biberon,item,word
+item_287,arbre,item,word
+item_307,pelle,item,word
+item_298,fête,item,word
+item_289,caillou,item,word
+item_309,plage,item,word
+item_300,garderie,item,word
+item_291,cour,item,word
+item_311,soleil,item,word
+item_302,lune,item,word
+item_293,dehors,item,word
+item_313,travail,item,word
+item_304,maison,item,word
+item_295,école,item,word
+item_296,église,item,word
+item_297,étoile,item,word
+item_288,balançoire,item,word
+item_308,piscine,item,word
+item_299,fleur,item,word
+item_290,ciel,item,word
+item_310,pluie,item,word
+item_301,jardin,item,word
+item_292,crèche,item,word
+item_312,toboggan,item,word
+item_303,magasin,item,word
+item_294,eau_,item,word
+item_314,zoo,item,word
+item_305,neige,item,word
+item_306,parc,item,word
+item_263,baignoire,item,word
+item_280,porte,item,word
+item_272,fauteuil,item,word
+item_267,chaise haute,item,word
+item_273,fenêtre,item,word
+item_274,four,item,word
+item_275,frigo,item,word
+item_284,table,item,word
+item_276,garage,item,word
+item_277,lavabo,item,word
+item_269,cuisinière,item,word
+item_270,escalier,item,word
+item_589,cuisine,item,word
+item_271,évier,item,word
+item_264,berceau,item,word
+item_281,pot,item,word
+item_265,canapé,item,word
+item_266,chaise,item,word
+item_283,salon,item,word
+item_282,salle de bain,item,word
+item_268,chambre,item,word
+item_285,télé,item,word
+item_286,tiroir,item,word
+item_278,lit,item,word
+item_279,parc_,item,word
+item_315,avion,item,word
+item_316,bus,item,word
+item_322,vélo,item,word
+item_320,poussette,item,word
+item_318,camion de pompier,item,word
+item_321,train,item,word
+item_319,moto,item,word
+item_317,camion,item,word
+item_323,voiture,item,word
+item_324,attention,item,word
+item_349,parti,item,word
+item_337,doux/ce,item,word
+item_326,avoir peur,item,word
+item_351,petit/e,item,word
+item_339,endormi,item,word
+item_340,fatigué,item,word
+item_353,rouge,item,word
+item_341,froid,item,word
+item_329,bien,item,word
+item_355,sec/che,item,word
+item_343,grand/e,item,word
+item_331,bleu,item,word
+item_357,tendre,item,word
+item_345,malade,item,word
+item_333,cassé,item,word
+item_359,vieux/vieille,item,word
+item_347,mignon/ne,item,word
+item_335,content/e,item,word
+item_367,avoir sommeil,item,word
+item_336,dégoûtant/e,item,word
+item_325,avoir faim,item,word
+item_350,pas bon,item,word
+item_338,dur,item,word
+item_327,avoir soif,item,word
+item_352,propre,item,word
+item_361,vite,item,word
+item_328,beau/belle,item,word
+item_354,sale,item,word
+item_342,gentil/le,item,word
+item_330,blessé,item,word
+item_356,sombre,item,word
+item_344,joli,item,word
+item_332,bon/ne,item,word
+item_358,vide,item,word
+item_346,méchant/e,item,word
+item_334,chaud/e,item,word
+item_360,vilain/e,item,word
+item_348,mouillé,item,word
+item_362,aider,item,word
+item_364,aller,item,word
+item_399,nourrir,item,word
+item_363,aimer,item,word
+item_382,écrire,item,word
+item_400,ouvrir,item,word
+item_381,éclabousser,item,word
+item_383,essuyer,item,word
+item_401,pleurer,item,word
+item_365,apporter,item,word
+item_386,fermer,item,word
+item_402,pousser,item,word
+item_366,arrêter,item,word
+item_403,prendre,item,word
+item_368,balancer,item,word
+item_369,boire,item,word
+item_387,finir,item,word
+item_405,recevoir,item,word
+item_370,casser,item,word
+item_388,jeter,item,word
+item_406,regarder,item,word
+item_371,chanter,item,word
+item_389,jouer,item,word
+item_407,sauter,item,word
+item_372,chatouiller,item,word
+item_390,laver,item,word
+item_408,se cogner,item,word
+item_373,conduire,item,word
+item_391,lire,item,word
+item_374,courir,item,word
+item_392,manger,item,word
+item_410,souffler,item,word
+item_375,danser,item,word
+item_393,marcher,item,word
+item_411,sourire,item,word
+item_376,dessiner,item,word
+item_394,mettre,item,word
+item_412,taper,item,word
+item_377,dire,item,word
+item_395,montrer,item,word
+item_413,tirer,item,word
+item_385,faire un bisou,item,word
+item_396,mordre,item,word
+item_414,tomber,item,word
+item_397,nager,item,word
+item_415,toucher,item,word
+item_380,dormir,item,word
+item_398,nettoyer,item,word
+item_409,se dépêcher,item,word
+item_379,donner un coup/de pied,item,word
+item_404,prendre dans ses bras,item,word
+item_384,"faire du vélo, de la moto",item,word
+item_378,donner,item,word
+item_416,voir,item,word
+item_417,aujourd'hui,item,word
+item_420,jour,item,word
+item_423,nuit,item,word
+item_418,ce soir,item,word
+item_421,maintenant,item,word
+item_419,demain,item,word
+item_422,matin,item,word
+item_424,dans,item,word
+item_428,en-bas,item,word
+item_425,dedans,item,word
+item_429,en haut,item,word
+item_426,dehors_,item,word
+item_430,là,item,word
+item_427,derrière,item,word
+item_431,là-bas,item,word
+item_432,loin,item,word
+item_433,sous,item,word
+item_434,sur,item,word
+item_435,à elle/sa,item,word
+item_438,ça,item,word
+item_441,moi,item,word
+item_436,à lui/son,item,word
+item_443,vous/tu,item,word
+item_437,à moi,item,word
+item_442,votre/ta/ton,item,word
+item_439,je,item,word
+item_440,ma/mon/mes,item,word
+item_444,comment,item,word
+item_446,pourquoi,item,word
+item_448,qui,item,word
+item_445,où,item,word
+item_447,quand,item,word
+item_449,quoi,item,word
+item_450,aucun/ne,item,word
+item_453,pas,item,word
+item_456,un peu,item,word
+item_451,encore,item,word
+item_454,tous/tout,item,word
+item_455,un autre,item,word
+item_452,le/la même,item,word
+item_467,Premiers gestes     (choice=tendre les bras pour vous  montrer quelque chose quil tient dans sa main),item,gestures_first
+item_464,Premiers gestes     (choice=montrer (avec le bras et lindex tendu) un objet ou un événement intéressant),item,gestures_first
+item_457,Premiers gestes     (choice=agiter la main de sa propre initiative en signe dau revoir quand quelquun sen va),item,gestures_first
+item_458,Premiers gestes     (choice=demander quelque chose en étendant ses bras et en ouvrant et fermant la main),item,gestures_first
+item_460,Premiers gestes     (choice=faire chut en plaçant son doigt sur ses lèvres),item,gestures_first
+item_463,Premiers gestes     (choice=hocher la tête pour dire oui),item,gestures_first
+item_466,Premiers gestes     (choice=tendre la main pour vous donner un jouet ou un objet quil tient),item,gestures_first
+item_468,Premiers gestes     (choice=tendre les bras quand il désire être porté),item,gestures_first
+item_459,Premiers gestes     (choice=envoyer des baisers à distance),item,gestures_first
+item_461,Premiers gestes     (choice=faire mmm avec ses lèvres pour dire que quelque chose est bon),item,gestures_first
+item_462,Premiers gestes     (choice=hausser les épaules pour dire ils sont partis ou où sont-ils ?),item,gestures_first
+item_465,Premiers gestes     (choice=secouer la tête pour dire non),item,gestures_first
+item_472,Jeux et routines (choice=faire coucou),item,gestures_games
+item_469,Jeux et routines (choice=ainsi font font font ... les petites marionnettes),item,gestures_games
+item_473,Jeux et routines (choice=jouer au loup),item,gestures_games
+item_470,Jeux et routines (choice=chanter),item,gestures_games
+item_471,Jeux et routines (choice=danser),item,gestures_games
+item_481,Actions avec un objet (choice=manger avec une cuillère ou une fourchette),item,gestures_objects
+item_474,Actions avec un objet (choice=boire dans une tasse),item,gestures_objects
+item_484,Actions avec un objet (choice=peigner ou brosser ses cheveux),item,gestures_objects
+item_475,Actions avec un objet (choice=brosser ses dents),item,gestures_objects
+item_477,Actions avec un objet (choice=essuyer son visage ou ses mains avec une serviette ou un chiffon),item,gestures_objects
+item_482,Actions avec un objet (choice=mettre un chapeau),item,gestures_objects
+item_476,Actions avec un objet (choice=enfiler ses chaussures ou ses chaussettes),item,gestures_objects
+item_483,"Actions avec un objet (choice=mettre un collier, bracelet ou une montre)",item,gestures_objects
+item_478,Actions avec un objet (choice=faire semblant de remuer avec une cuillère un liquide dans un récipient),item,gestures_objects
+item_479,Actions avec un objet (choice=faire semblant de transvaser un liquide dun récipient à un autre),item,gestures_objects
+item_489,Actions avec un objet (choice=souffler pour montrer que quelque chose est chaud),item,gestures_objects
+item_490,Actions avec un objet (choice=tenir un avion et le faire voler),item,gestures_objects
+item_485,Actions avec un objet (choice=porter le combiné du téléphone à son oreille),item,gestures_objects
+item_488,Actions avec un objet (choice=sentir les fleurs),item,gestures_objects
+item_487,Actions avec un objet (choice=pousser des petites voitures ou des camions),item,gestures_objects
+item_480,Actions avec un objet (choice=jeter une balle),item,gestures_objects
+item_486,Actions avec un objet (choice=poser sa tête sur ses bras et fermer ses yeux pour faire semblant de dormir),item,gestures_objects
+item_492,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=balayer),item,gestures_adult
+item_501,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=mettre une clef dans une serrure ou fermer la porte à clef),item,gestures_adult
+item_493,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=casser avec un marteau),item,gestures_adult
+item_505,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=utiliser une scie),item,gestures_adult
+item_504,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=taper à la machine à écrire ou sur le clavier de lordinateur),item,gestures_adult
+item_499,"Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=lire (ouvrir le livre, tourner les pages))",item,gestures_adult
+item_503,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=passer laspirateur),item,gestures_adult
+item_500,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=mettre des lunettes),item,gestures_adult
+item_491,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=arroser les plantes),item,gestures_adult
+item_498,"Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=jouer dun instrument (par exemple piano, trompette))",item,gestures_adult
+item_494,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=conduire une voiture en tournant le volant),item,gestures_adult
+item_497,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=faire la vaisselle),item,gestures_adult
+item_502,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=nettoyer avec un chiffon ou faire la poussière),item,gestures_adult
+item_496,"Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=écrire avec un crayon, stylo ou feutre)",item,gestures_adult
+item_495,Imiter des actions d'adulte (avec des jouets ou de vrais objets)  (choice=creuser avec une pelle),item,gestures_adult
+item_507,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les couvrir avec une couverture),item,gestures_parent
+item_512,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur donner à boire avec un biberon),item,gestures_parent
+item_513,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur donner à manger avec une cuillère),item,gestures_parent
+item_518,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur peigner/brosser les cheveux),item,gestures_parent
+item_511,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les tapoter ou faire roter),item,gestures_parent
+item_510,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les mettre dans une poussette ou un landeau),item,gestures_parent
+item_509,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les mettre au lit),item,gestures_parent
+item_508,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les embrasser ou les tenir dans ses bras),item,gestures_parent
+item_515,"Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur mettre des chaussettes, des chaussures ou un chapeau)",item,gestures_parent
+item_514,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur essuyer le visage ou les mains),item,gestures_parent
+item_517,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur parler),item,gestures_parent
+item_516,Faire semblant d'être parent avec des peluches ou des poupées  (choice=leur mettre des couches),item,gestures_parent
+item_506,Faire semblant d'être parent avec des peluches ou des poupées  (choice=les bercer),item,gestures_parent

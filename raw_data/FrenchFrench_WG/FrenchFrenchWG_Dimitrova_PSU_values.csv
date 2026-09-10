@@ -1,0 +1,22 @@
+﻿type,value,data_value
+sex,M,Garçon
+sex,F,Fille
+first_signs,yes,Oui
+first_signs,no,Non
+phrases,understands,Oui
+phrases,,Non
+starting_to_talk,never,Non
+starting_to_talk,sometimes/often,Oui
+word,produces,compris et dit
+word,understands,compris
+word,,
+gestures_first,not yet,Non
+gestures_first,sometimes/often,Oui
+gestures_games,yes,Oui
+gestures_games,no,Non
+gestures_objects,yes,Oui
+gestures_objects,no,Non
+gestures_parent,yes,Oui
+gestures_parent,no,Non
+gestures_adult,yes,Oui
+gestures_adult,no,Non

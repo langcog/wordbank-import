@@ -611,6 +611,17 @@ merge_with_existing <- function(
         "instrument_language", "instrument_form"
       )
     )
+  new_hc <- if (
+    "health_conditions" %in% names(new_parts) && nrow(new_parts$health_conditions) > 0L
+  ) {
+    new_parts$health_conditions
+  } else {
+    tibble(
+      dataset_origin_name = character(),
+      study_internal_id = character(),
+      health_condition_name = character()
+    )
+  }
 
   # --- children ---
   ch_reg <- registry$children |>
@@ -633,6 +644,19 @@ merge_with_existing <- function(
       gestational_age, zygosity
     ) |>
     distinct(child_id, .keep_all = TRUE)
+
+  hc_new <- new_hc |>
+    semi_join(
+      new_children |> select(dataset_origin_name, study_internal_id),
+      by = c("dataset_origin_name", "study_internal_id")
+    ) |>
+    left_join(
+      children_new |> select(dataset_origin_name, study_internal_id, child_id),
+      by = c("dataset_origin_name", "study_internal_id")
+    ) |>
+    filter(!is.na(child_id)) |>
+    select(child_id, health_condition_name) |>
+    distinct()
 
   # --- administrations ---
   adm_reg <- registry$administrations |>
@@ -675,14 +699,14 @@ merge_with_existing <- function(
     children_new = children_new,
     alloc_adm_map = alloc_adm$map,
     alloc_ch_map = alloc_ch$map,
-    health_conditions = existing$health_conditions
+    health_conditions = hc_new
   )
   admins_merged <- na_cascade$admins_merged
   new_lexp <- na_cascade$new_lexp
   children_new <- na_cascade$children_new
   alloc_adm$map <- na_cascade$alloc_adm_map
   alloc_ch$map <- na_cascade$alloc_ch_map
-  existing$health_conditions <- na_cascade$health_conditions
+  hc_new <- na_cascade$health_conditions
 
   admins_new <- admins_merged |>
     select(
@@ -751,7 +775,12 @@ merge_with_existing <- function(
       distinct(across(all_of(ADMIN_NATURAL_KEY_COLS)), .keep_all = TRUE)
   }
 
-  health_conditions <- existing$health_conditions |>
+  health_conditions <- if (mode == "complete") {
+    hc_new
+  } else {
+    bind_rows(existing$health_conditions, hc_new) |>
+      distinct(child_id, health_condition_name)
+  } |>
     semi_join(children, by = "child_id")
 
   item_response_export <- NULL
@@ -793,7 +822,9 @@ merge_with_existing <- function(
       administrations = admins_new,
       items = new_items |>
         anti_join(existing_item_keys, by = c("language", "form", "item_id")),
-      language_exposures = lexp_new
+      language_exposures = lexp_new,
+      health_conditions = hc_new |>
+        anti_join(existing$health_conditions, by = c("child_id", "health_condition_name"))
     )
   } else {
     NULL

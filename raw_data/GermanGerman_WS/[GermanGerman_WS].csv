@@ -587,3 +587,94 @@ item_585,aber,connecting_words,aber,word,produces,NA,but,but
 item_586,wenn,connecting_words,wenn,word,produces,NA,if,if
 item_587,so,connecting_words,so,word,produces,NA,so,like this
 item_588,dann,connecting_words,dann,word,produces,NA,then,this
+item_589,mäh,sounds,mäh,word,produces,NA,baa baa,baa baa
+item_590,sch sch,sounds,sch sch,word,produces,NA,shh,shh
+item_591,brrr,sounds,brrr,word,produces,NA,brrr,NA
+item_592,quak quak,sounds,quak quak,word,produces,NA,quack quack,quack quack
+item_593,miau,sounds,miau,word,produces,NA,meow,meow
+item_594,muh,sounds,muh,word,produces,NA,moo,moo
+item_595,aua,sounds,aua,word,produces,NA,ouch,ouch
+item_596,hmmm*,sounds,hmmm*,word,produces,NA,hmm,NA
+item_597,oh,sounds,oh,word,produces,NA,oh,NA
+item_598,bum,sounds,bum,word,produces,NA,boom,boom
+item_599,wau wau,sounds,wau wau,word,produces,NA,woof woof,woof woof
+item_600,piep,sounds,piep,word,produces,NA,chirp,NA
+item_601,"Wenn wir über mehr als einen Gegenstand reden, fügen wir eine Endung an das Hauptwort, z.B. ein „-n“ („Augen“), ein „-e“ („Hunde“) oder ein „-er“ („Kinder“). Manchmal verändern wir auch den Vokal",NA,plural,how_use_words,not yet; sometimes; often,NA,NA,NA
+item_602,"Wenn wir Tätigkeitswörter gebrauchen, fügen wir Endungen an wie „-t“ oder „-st“ („sie geht“, oder „du hast“). Macht Ihr Kind das schon?",NA,progressive,how_use_words,not yet; sometimes; often,NA,NA,NA
+item_603,"Wenn wir über vergangene Ereignisse sprechen, gebrauchen wir Vergangenheitsformen von Tätigkeitswörtern, z.B. „gemacht“, „genommen“. Gebraucht Ihr Kind schon solche Formen?",NA,past,how_use_words,not yet; sometimes; often,NA,NA,NA
+item_604,"Vor Hauptwörtern gebrauchen wir Artikel wie „der“, „die“, „das“, „ein“ und „eine“, z. B. „ein Baby“, „der Hund“. Macht Ihr Kind das schon?",NA,article,how_use_words,not yet; sometimes; often,NA,NA,NA
+item_605,"Mehrzahl - Blumen, Augen, Katzen, Türen",NA,plurals -n,word_forms_nouns,yes; no,NA,NA,NA
+item_606,"Mehrzahl - Kekse, Beine, Schuhe",NA,plurals -e,word_forms_nouns,yes; no,NA,NA,NA
+item_607,"Mehrzahl - Autos, Babys",NA,plurals -s,word_forms_nouns,yes; no,NA,NA,NA
+item_608,"Mehrzahl - Kinder, Bilder",NA,plurals -er,word_forms_nouns,yes; no,NA,NA,NA
+item_609,"Mehrzahl - Füße, Stühle, Bäume",NA,plurals ablaut -e,word_forms_nouns,yes; no,NA,NA,NA
+item_610,"Mehrzahl - Hühner, Männer",NA,plurals ablaut -er,word_forms_nouns,yes; no,NA,NA,NA
+item_611,"Gegenwartsformen von Tätigkeitswörtern - ich fahr(e), ich mach(e), ich komm(e)",NA,present 1SG,word_forms_verbs,yes; no,NA,NA,NA
+item_612,"Gegenwartsformen von Tätigkeitswörtern - du gehst, du passt, du hast",NA,present 2SG,word_forms_verbs,yes; no,NA,NA,NA
+item_613,"Gegenwartsformen von Tätigkeitswörtern - du fährst, du siehst",NA,present 2SG umlaut,word_forms_verbs,yes; no,NA,NA,NA
+item_614,"Gegenwartsformen von Tätigkeitswörtern - der tankt, der kommt, die geht",NA,present 3SG,word_forms_verbs,yes; no,NA,NA,NA
+item_615,"Gegenwartsformen von Tätigkeitswörtern - der schläft, die fällt",NA,present 3SG umlaut,word_forms_verbs,yes; no,NA,NA,NA
+item_616,"Gegenwartsformen von Tätigkeitswörtern - wir kriegen, wir baden, wir machen",NA,present 1PL,word_forms_verbs,yes; no,NA,NA,NA
+item_617,"Gegenwartsformen von Tätigkeitswörtern - die schaukeln, die essen, die warten",NA,present 3PL,word_forms_verbs,yes; no,NA,NA,NA
+item_618,Vergangenheitsformen von Tätigkeitswörtern ,NA,past -t,word_forms_verbs,yes; no,NA,NA,NA
+item_619,Vergangenheitsformen von Tätigkeitswörtern,NA,past -en,word_forms_verbs,yes; no,NA,NA,NA
+item_620,Vergangenheitsformen von Tätigkeitswörtern,NA,past ablaut -en,word_forms_verbs,yes; no,NA,NA,NA
+item_621,Hilfswörter,NA,aux 1,word_forms_verbs,yes; no,NA,NA,NA
+item_622,Hilfswörter,NA,aux 2,word_forms_verbs,yes; no,NA,NA,NA
+item_623,Hilfswörter,NA,aux 3,word_forms_verbs,yes; no,NA,NA,NA
+item_624,Hilfswörter,NA,aux 4,word_forms_verbs,yes; no,NA,NA,NA
+item_625,Hilfswörter,NA,aux 5,word_forms_verbs,yes; no,NA,NA,NA
+item_626,Hilfswörter,NA,aux 6,word_forms_verbs,yes; no,NA,NA,NA
+item_627,Hilfswörter,NA,aux 7,word_forms_verbs,yes; no,NA,NA,NA
+item_628,Hilfswörter,NA,aux 8,word_forms_verbs,yes; no,NA,NA,NA
+item_629,Hilfswörter,NA,aux 9,word_forms_verbs,yes; no,NA,NA,NA
+item_630,Hilfswörter,NA,aux 10,word_forms_verbs,yes; no,NA,NA,NA
+item_631,Hilfswörter,NA,aux 11,word_forms_verbs,yes; no,NA,NA,NA
+item_632,Hilfswörter,NA,aux 12,word_forms_verbs,yes; no,NA,NA,NA
+item_633,Artikel,NA,articles 1,word_forms_nouns,yes; no,NA,NA,NA
+item_634,Artikel,NA,articles 2,word_forms_nouns,yes; no,NA,NA,NA
+item_635,Artikel,NA,articles 3,word_forms_nouns,yes; no,NA,NA,NA
+item_636,Artikel,NA,articles 4,word_forms_nouns,yes; no,NA,NA,NA
+item_637,Artikel,NA,articles 5,word_forms_nouns,yes; no,NA,NA,NA
+item_638,Deklinierte Formen,NA,articles inflected 1,word_forms_nouns,yes; no,NA,NA,NA
+item_639,Deklinierte Formen,NA,articles inflected 2,word_forms_nouns,yes; no,NA,NA,NA
+item_640,Deklinierte Formen,NA,articles inflected 3,word_forms_nouns,yes; no,NA,NA,NA
+item_641,Deklinierte Formen,NA,articles inflected 4,word_forms_nouns,yes; no,NA,NA,NA
+item_642,Deklinierte Formen,NA,articles inflected 5,word_forms_nouns,yes; no,NA,NA,NA
+item_643,Deklinierte Formen,NA,articles inflected 6,word_forms_nouns,yes; no,NA,NA,NA
+item_644,"Eigenschaftswörter - böser Wolf, arme Kuh, gefährlicher Eisbär, rotes Auto",NA,adjectives strong,word_forms_adjectives,yes; no,NA,NA,NA
+item_645,"Eigenschaftswörter - die kleine Katze, der große Gorilla, die ganze Puppe",NA,adjectives weak def,word_forms_adjectives,yes; no,NA,NA,NA
+item_646,"Eigenschaftswörter - ein neues Haus, ein kleiner Hund, ein schönes Nickerchen",NA,adjectives strong indef,word_forms_adjectives,yes; no,NA,NA,NA
+item_647,"Hat Ihr Kind schon angefangen Wörter zu kombinieren, z. B. „Hund da“, „Papa Mund“, „Hausschuh  an“?",NA,combine,combine,not yet; sometimes; often,NA,NA,NA
+item_648,Satzkomplexität,NA,complexity 1,complexity,simple; complex,NA,NA,NA
+item_649,Satzkomplexität,NA,complexity 2,complexity,simple; complex,NA,NA,NA
+item_650,Satzkomplexität,NA,complexity 3,complexity,simple; complex,NA,NA,NA
+item_651,Satzkomplexität,NA,complexity 4,complexity,simple; complex,NA,NA,NA
+item_652,Satzkomplexität,NA,complexity 5,complexity,simple; complex,NA,NA,NA
+item_653,Satzkomplexität,NA,complexity 6,complexity,simple; complex,NA,NA,NA
+item_654,Satzkomplexität,NA,complexity 7,complexity,simple; complex,NA,NA,NA
+item_655,Satzkomplexität,NA,complexity 8,complexity,simple; complex,NA,NA,NA
+item_656,Satzkomplexität,NA,complexity 9,complexity,simple; complex,NA,NA,NA
+item_657,Satzkomplexität,NA,complexity 10,complexity,simple; complex,NA,NA,NA
+item_658,Satzkomplexität,NA,complexity 11,complexity,simple; complex,NA,NA,NA
+item_659,Satzkomplexität,NA,complexity 12,complexity,simple; complex,NA,NA,NA
+item_660,Satzkomplexität,NA,complexity 13,complexity,simple; complex,NA,NA,NA
+item_661,Satzkomplexität,NA,complexity 14,complexity,simple; complex,NA,NA,NA
+item_662,Satzkomplexität,NA,complexity 15,complexity,simple; complex,NA,NA,NA
+item_663,Satzkomplexität,NA,complexity 16,complexity,simple; complex,NA,NA,NA
+item_664,Satzkomplexität,NA,complexity 17,complexity,simple; complex,NA,NA,NA
+item_665,Satzkomplexität,NA,complexity 18,complexity,simple; complex,NA,NA,NA
+item_666,Satzkomplexität,NA,complexity 19,complexity,simple; complex,NA,NA,NA
+item_667,Satzkomplexität,NA,complexity 20,complexity,simple; complex,NA,NA,NA
+item_668,Satzkomplexität,NA,complexity 21,complexity,simple; complex,NA,NA,NA
+item_669,Satzkomplexität,NA,complexity 22,complexity,simple; complex,NA,NA,NA
+item_670,Satzkomplexität,NA,complexity 23,complexity,simple; complex,NA,NA,NA
+item_671,Satzkomplexität,NA,complexity 24,complexity,simple; complex,NA,NA,NA
+item_672,Satzkomplexität,NA,complexity 25,complexity,simple; complex,NA,NA,NA
+item_673,Satzkomplexität,NA,complexity 26,complexity,simple; complex,NA,NA,NA
+item_674,Satzkomplexität,NA,complexity 27,complexity,simple; complex,NA,NA,NA
+item_675,Satzkomplexität,NA,complexity 28,complexity,simple; complex,NA,NA,NA
+item_676,Satzkomplexität,NA,complexity 29,complexity,simple; complex,NA,NA,NA
+item_677,Satzkomplexität,NA,complexity 30,complexity,simple; complex,NA,NA,NA
+item_678,Satzkomplexität,NA,complexity 31,complexity,simple; complex,NA,NA,NA
+item_679,Satzkomplexität,NA,complexity 32,complexity,simple; complex,NA,NA,NA

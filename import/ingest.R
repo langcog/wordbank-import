@@ -63,6 +63,8 @@ combine_ingest_parts <- function(parts, meta) {
       distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE),
     administrations = bind_rows(map(parts, "administrations")),
     language_exposures = bind_rows(map(parts, "language_exposures")),
+    health_conditions = bind_rows(map(parts, "health_conditions")) |>
+      distinct(dataset_origin_name, study_internal_id, health_condition_name),
     item_responses = bind_rows(map(parts, "item_responses")),
     items = parts[[1]]$items
   )
@@ -75,7 +77,9 @@ combine_ingest_results <- function(results) {
       dataset = map(results, "dataset") |> list_rbind(),
       children = map(results, "children") |> list_rbind(),
       administrations = map(results, "administrations") |> list_rbind(),
-      language_exposures = map(results, "language_exposures") |> list_rbind()
+      language_exposures = map(results, "language_exposures") |> list_rbind(),
+      health_conditions = map(results, "health_conditions") |> list_rbind() |>
+        distinct(dataset_origin_name, study_internal_id, health_condition_name)
     ),
     triplet_ranges = map(results, "triplet_ranges") |> list_rbind(),
     results = results
@@ -218,6 +222,25 @@ ingest_triplet <- function(
       instrument_language = meta$language,
       instrument_form = meta$form
     )
+
+  health_conditions_nat <- if ("condition" %in% names(demog_wide)) {
+    demog_wide |>
+      filter(!is.na(study_internal_id), str_trim(study_internal_id) != "") |>
+      mutate(
+        health_condition_name = map(condition, parse_health_condition_names),
+        dataset_origin_name = meta$dataset_origin_name
+      ) |>
+      filter(map_int(health_condition_name, length) > 0L) |>
+      select(study_internal_id, dataset_origin_name, health_condition_name) |>
+      unnest(health_condition_name) |>
+      distinct(dataset_origin_name, study_internal_id, health_condition_name)
+  } else {
+    tibble(
+      dataset_origin_name = character(),
+      study_internal_id = character(),
+      health_condition_name = character()
+    )
+  }
 
   instrument <- read_instrument(instrument_file)
   if (!is.null(categories) && "category" %in% names(instrument)) {
@@ -376,6 +399,7 @@ ingest_triplet <- function(
         birth_weight, born_early_or_late, gestational_age, zygosity
       ),
     language_exposures = language_exposures_nat,
+    health_conditions = health_conditions_nat,
     item_responses = item_responses_nat,
     items = items_tbl
   )

@@ -81,7 +81,7 @@ ADMIN_NATURAL_KEY_COLS <- c(
 
 HARMONIZED_TABLES <- c(
   "instrument", "dataset", "children", "administrations",
-  "language_exposures", "item_responses", "items"
+  "language_exposures", "health_conditions", "item_responses", "items"
 )
 
 HARMONIZED_DATASET_TABLES <- setdiff(
@@ -181,6 +181,19 @@ triplet_paths <- function(meta, raw_root) {
     fields = str_replace(raw_loc, "_data\\.csv$", "_fields.csv"),
     values = str_replace(raw_loc, "_data\\.csv$", "_values.csv")
   )
+}
+
+#' Split decoded child `condition` field values into condition name(s).
+parse_health_condition_names <- function(x) {
+  if (is.null(x) || length(x) == 0 || all(is.na(x)) || all(x == "")) {
+    return(character())
+  }
+  lines <- x[!is.na(x) & x != ""] |>
+    str_split("\\n") |>
+    unlist() |>
+    str_trim()
+  lines <- unique(lines[lines != ""])
+  if (length(lines) == 0L) character() else lines
 }
 
 #' Parse language-exposure cells of the form "Lang;pct;AoFE".
@@ -353,6 +366,10 @@ cast_harmonized_table <- function(df, table) {
       ),
       int = "admin_row",
       dbl = c("exposure_percentage", "age_of_first_exposure")
+    ),
+    health_conditions = cast_cols(
+      df,
+      chr = c("study_internal_id", "dataset_origin_name", "health_condition_name")
     ),
     item_responses = cast_cols(
       df,
