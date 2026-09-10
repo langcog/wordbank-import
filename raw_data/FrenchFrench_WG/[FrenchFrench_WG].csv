@@ -1,4 +1,4 @@
-itemID,item,type,category,choices,definition,original_category,gloss,uni_lemma
+﻿itemID,item,type,category,choices,definition,original_category,gloss,uni_lemma
 item_36,item_36,word,sounds,understands; produces,aïe,Cris d'animaux et sons,NA,ouch
 item_37,item_37,word,sounds,understands; produces,allô,Cris d'animaux et sons,NA,hi
 item_38,item_38,word,sounds,understands; produces,bêe bêe,Cris d'animaux et sons,NA,baa baa
@@ -798,3 +798,4 @@ item_796,item_796,first_signs,NA,no; yes,"quand il entend ""voilà papa et maman
 item_797,item_797,phrases,NA,understands,ça suffit,NA,NA,NA
 item_798,item_798,phrases,NA,understands,donne la balle,NA,NA,NA
 item_799,item_799,phrases,NA,understands,debout!,NA,NA,NA
+item_800,item_800,word,people,understands; produces,nom du frère ou de la soeur,Personnes,name of sibling,NA
