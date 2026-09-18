@@ -22,8 +22,23 @@ raw_age_column <- function(fields_path) {
   col[[1]]
 }
 
-default_measure <- function(form_type) {
-  if (identical(as.character(form_type), "WG")) "understands" else "produces"
+default_measure <- function(form_type, collects_comprehension = FALSE) {
+  if (scores_comprehension(collects_comprehension, form_type)) {
+    "understands"
+  } else {
+    "produces"
+  }
+}
+
+read_values_collects_comprehension <- function(values_path) {
+  if (!file.exists(values_path)) {
+    return(FALSE)
+  }
+  suppressMessages(
+    df <- read_csv(values_path, show_col_types = FALSE) |>
+      mutate(across(c(type, value, data_value), as.character))
+  )
+  values_collects_comprehension(df)
 }
 
 triplet_label <- function(meta) {
@@ -224,7 +239,12 @@ validate_triplet <- function(meta, new_parts, raw_root, triplet_ranges = NULL, m
   raw_loc <- paths$data
   fields_loc <- paths$fields
   raw_age_var <- raw_age_column(fields_loc)
-  measure <- default_measure(meta$form_type)
+  values_path <- str_replace(raw_loc, "_data\\.csv$", "_values.csv")
+  collects_comprehension <- scores_comprehension(
+    read_values_collects_comprehension(values_path),
+    meta$form_type
+  )
+  measure <- default_measure(meta$form_type, collects_comprehension)
 
   sliced <- slice_triplet(new_parts, meta, triplet_ranges, manifest)
   label <- triplet_label(meta)

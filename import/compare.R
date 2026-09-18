@@ -347,9 +347,18 @@ score_distribution_diff <- function(ingest_admins, redivis_admins, col) {
   )
 }
 
-compare_vocab_distributions <- function(ingest_admins, redivis_admins, form_type = NULL) {
+compare_vocab_distributions <- function(
+    ingest_admins,
+    redivis_admins,
+    form_type = NULL,
+    collects_comprehension = FALSE
+) {
   prod <- score_distribution_diff(ingest_admins, redivis_admins, "production")
-  comp <- if (!is.null(form_type) && form_type == "WS") {
+  comp <- if (
+    !isTRUE(collects_comprehension) &&
+      !is.null(form_type) &&
+      form_type == "WS"
+  ) {
     list(
       applicable = FALSE,
       equivalent = NA,
@@ -365,16 +374,29 @@ compare_vocab_distributions <- function(ingest_admins, redivis_admins, form_type
   list(production = prod, comprehension = comp)
 }
 
-form_type_for_match <- function(new_parts, m) {
-  hit <- new_parts$dataset |>
+dataset_row_for_match <- function(new_parts, m) {
+  new_parts$dataset |>
     filter(
       dataset_name == m$dataset_name_manifest,
       dataset_origin_name == m$dataset_origin_name_manifest,
       language == m$language_manifest,
       form == m$form_manifest
     ) |>
-    pull(form_type)
-  if (length(hit)) hit[[1]] else NA_character_
+    slice(1)
+}
+
+form_type_for_match <- function(new_parts, m) {
+  hit <- dataset_row_for_match(new_parts, m)
+  if (nrow(hit)) hit$form_type[[1]] else NA_character_
+}
+
+collects_comprehension_for_match <- function(new_parts, m) {
+  hit <- dataset_row_for_match(new_parts, m)
+  if (nrow(hit) && "collects_comprehension" %in% names(hit)) {
+    isTRUE(hit$collects_comprehension[[1]])
+  } else {
+    identical(as.character(form_type_for_match(new_parts, m)), "WG")
+  }
 }
 
 compare_matched_vocab_distributions <- function(existing, new_parts, matches) {
@@ -403,7 +425,10 @@ compare_matched_vocab_distributions <- function(existing, new_parts, matches) {
     ingest_admins <- filter_administrations(new_parts$administrations, ingest_keys)
     redivis_admins <- filter_administrations(existing$administrations, redivis_keys)
     dist <- compare_vocab_distributions(
-      ingest_admins, redivis_admins, form_type = form_type_for_match(new_parts, m)
+      ingest_admins,
+      redivis_admins,
+      form_type = form_type_for_match(new_parts, m),
+      collects_comprehension = collects_comprehension_for_match(new_parts, m)
     )
     summary <- tibble(
       production_equivalent = dist$production$equivalent,

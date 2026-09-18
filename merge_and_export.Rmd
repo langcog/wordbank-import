@@ -6,7 +6,7 @@ output:
     df_print: paged
 params:
   mode: complete
-  skip_processed: true
+  skip_processed: false
 ---
 
 Ingest datasets listed in `datasets.csv` from `raw_data/`, assign IDs consistent

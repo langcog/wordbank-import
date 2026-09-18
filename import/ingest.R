@@ -159,6 +159,10 @@ ingest_triplet <- function(
                         name_repair = "unique_quiet") |>
     distinct() |>
     mutate(across(c(type, value, data_value), as.character))
+  collects_comprehension <- scores_comprehension(
+    values_collects_comprehension(df_values),
+    meta$form_type
+  )
 
   if ("data_id" %in% names(df_data)) {
     df_data <- df_data |> rename(data_id_ = data_id)
@@ -264,7 +268,7 @@ ingest_triplet <- function(
       instrument$item_kind[match(item_long$item_id, instrument$item_id)],
       item_long$item_kind_field
     ),
-    meta$form_type
+    collects_comprehension
   )
 
   item_responses_nat <- item_long |>
@@ -304,7 +308,7 @@ ingest_triplet <- function(
     group_by(admin_row) |>
     summarise(
       production = sum(produces, na.rm = TRUE),
-      comprehension = if (identical(as.character(meta$form_type), "WG")) {
+      comprehension = if (collects_comprehension) {
         sum(understands, na.rm = TRUE)
       } else {
         NA_real_
@@ -332,7 +336,7 @@ ingest_triplet <- function(
       form_type = meta$form_type,
       production = as.integer(coalesce(production, 0L)),
       comprehension = if_else(
-        form_type == "WG",
+        collects_comprehension,
         as.integer(coalesce(comprehension, 0L)),
         NA_integer_
       ),
@@ -387,6 +391,7 @@ ingest_triplet <- function(
       language = meta$language,
       form = meta$form,
       form_type = meta$form_type,
+      collects_comprehension = collects_comprehension,
       n_admins = as.numeric(nrow(administrations_nat))
     ),
     children = children_nat,

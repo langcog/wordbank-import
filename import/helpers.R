@@ -229,10 +229,29 @@ parse_languages <- function(x) {
                           exposure_percentage > 100 ~ NA))
 }
 
+#' TRUE when a triplet's values file distinguishes word comprehension (understands).
+values_collects_comprehension <- function(df_values) {
+  if (is.null(df_values) || nrow(df_values) == 0L) {
+    return(FALSE)
+  }
+  word_vals <- df_values |>
+    filter(type == "word") |>
+    pull(value) |>
+    unique()
+  word_vals <- word_vals[!is.na(word_vals) & word_vals != ""]
+  "understands" %in% word_vals
+}
+
+scores_comprehension <- function(collects_comprehension, form_type = NULL) {
+  isTRUE(collects_comprehension) ||
+    identical(as.character(form_type), "WG")
+}
+
 #' Map produces / understands from a response value (wordbankr conventions).
 #' Empty / NA word responses map to FALSE (not NA).
-code_produces_understands <- function(value, item_kind, form_type) {
+code_produces_understands <- function(value, item_kind, collects_comprehension) {
   is_word <- item_kind == "word"
+  score_comp <- isTRUE(collects_comprehension)
   empty <- is.na(value) | value == ""
   tibble(
     produces = case_when(
@@ -241,7 +260,7 @@ code_produces_understands <- function(value, item_kind, form_type) {
       TRUE ~ value == "produces"
     ),
     understands = case_when(
-      !(form_type == "WG" & is_word) ~ NA,
+      !score_comp | !is_word ~ NA,
       empty ~ FALSE,
       TRUE ~ value %in% c("understands", "produces")
     )
@@ -333,7 +352,7 @@ cast_harmonized_table <- function(df, table) {
       ),
       dbl = "n_admins",
       int = "manifest_row",
-      lgl = "longitudinal"
+      lgl = c("longitudinal", "collects_comprehension")
     ),
     children = cast_cols(
       df,
