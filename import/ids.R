@@ -858,6 +858,9 @@ merge_with_existing <- function(
 upload_to_redivis <- function(
     merged,
     export_dir,
+    tables = c("instruments", "datasets", "children", "administrations",
+               "items", "language_exposures", "health_conditions", 
+               "item_responses"),
     mode = merged$mode,
     release = FALSE,
     release_notes = NULL
@@ -882,7 +885,7 @@ upload_to_redivis <- function(
 
   if (mode == "append") {
     stopifnot(!is.null(merged$upload_deltas))
-    for (nm in names(merged$upload_deltas)) {
+    for (nm in intersect(names(merged$upload_deltas), tables)) {
       df <- merged$upload_deltas[[nm]]
       if (nrow(df) == 0) next
       path <- file.path(export_dir, paste0(nm, "_delta.csv"))
@@ -890,23 +893,27 @@ upload_to_redivis <- function(
       message("appending ", nm, " (", nrow(df), " rows)")
       upload_csv(nm, path, "append")
     }
-    resp_dir <- file.path(export_dir, "item_responses")
-    resp_files <- list.files(resp_dir, full.names = TRUE)
-    for (f in resp_files) {
-      message("appending item_responses: ", basename(f))
-      upload_csv("item_responses", f, "append")
+    if ("item_responses" %in% tables) {
+      resp_dir <- file.path(export_dir, "item_responses")
+      resp_files <- list.files(resp_dir, full.names = TRUE)
+      for (f in resp_files) {
+        message("appending item_responses: ", basename(f))
+        upload_csv("item_responses", f, "append")
+      }
     }
   } else {
-    for (nm in names(merged$tables)) {
+    for (nm in intersect(names(merged$tables), tables)) {
       path <- file.path(export_dir, paste0(nm, ".csv"))
       message("replacing ", nm)
       upload_csv(nm, path, "replace")
     }
-    resp_dir <- file.path(export_dir, "item_responses")
-    resp_files <- list.files(resp_dir, full.names = TRUE)
-    for (f in resp_files) {
-      message("replacing item_responses: ", basename(f))
-      upload_csv("item_responses", f, "replace")
+    if ("item_responses" %in% tables) {
+      resp_dir <- file.path(export_dir, "item_responses")
+      resp_files <- list.files(resp_dir, full.names = TRUE)
+      for (f in resp_files) {
+        message("replacing item_responses: ", basename(f))
+        upload_csv("item_responses", f, "replace")
+      }
     }
   }
 

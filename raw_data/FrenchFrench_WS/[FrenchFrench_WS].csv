@@ -1,4 +1,4 @@
-itemID,item,type,category,choices,definition,gloss,uni_lemma
+﻿itemID,item,type,category,choices,definition,gloss,uni_lemma
 item_1,item_1,word,sounds,produces,aie,ouch,ouch
 item_2,item_2,word,sounds,produces,allo,hello,hello
 item_3,item_3,word,sounds,produces,bêê bêê,baa baa,baa baa
@@ -717,4 +717,4 @@ item_715,item_715,verb_endings,NA,no; yes,à l'infinitif,NA,NA
 item_716,item_716,verb_endings,NA,no; yes,à l'imparfait,NA,NA
 item_717,item_717,combine,NA,not yet; sometimes; often,,NA,NA
 item_718,item_718,word,household,produces,sac,bag,bag
-item_719,item_719,word,people,produces,nom du fr�re ou de la soeur,name of sibling,NA
+item_719,item_719,word,people,produces,nom du frre ou de la soeur,name of sibling,NA
