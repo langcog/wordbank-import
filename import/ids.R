@@ -304,10 +304,7 @@ rebuild_registry_from_redivis <- function(
   aliases <- resolve_dataset_aliases(aliases)
 
   children <- existing$children |>
-    mutate(
-      study_internal_id = as.character(study_internal_id),
-      birth_order = harm_int(birth_order)
-    ) |>
+    mutate(study_internal_id = as.character(study_internal_id)) |>
     select(all_of(c(CHILD_KEY_COLS, "child_id"))) |>
     alias_normalize_id_map(CHILD_KEY_COLS, aliases, "child_id") |>
     distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE)
@@ -566,8 +563,7 @@ merge_with_existing <- function(
     left_join(alloc_ds$map, by = c("dataset_name", "dataset_origin_name", "language", "form")) |>
     select(
       dataset_id, dataset_name, dataset_origin_name, contributor, citation,
-      license, longitudinal, source, date_format, file_location, norming,
-      splitcol, language, form, form_type, n_admins
+      license, longitudinal, language, form, form_type, n_admins
     )
 
   keep_keys <- datasets_new |> select(dataset_name, language, form)
@@ -755,7 +751,11 @@ merge_with_existing <- function(
     ) |>
       distinct(language, form, .keep_all = TRUE)
     datasets <- bind_rows(existing$datasets, datasets_new) |>
-      distinct(dataset_name, dataset_origin_name, language, form, .keep_all = TRUE)
+      distinct(dataset_name, dataset_origin_name, language, form, .keep_all = TRUE) |>
+      select(
+        dataset_id, dataset_name, dataset_origin_name, contributor, citation,
+        license, longitudinal, language, form, form_type, n_admins
+      )
     children <- bind_rows(existing$children, children_new) |>
       distinct(child_id, .keep_all = TRUE)
     administrations <- bind_rows(existing$administrations, admins_new) |>

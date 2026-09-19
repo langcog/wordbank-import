@@ -6,8 +6,8 @@ suppressPackageStartupMessages({
 })
 
 CAREGIVER_EDUCATION_ALLOWED <- c(
-  "None", "Primary", "Some secondary", "Secondary",
-  "Some college", "College", "Some graduate", "Graduate"
+  "None", "Primary", "Some Secondary", "Secondary",
+  "Some College", "College", "Some Graduate", "Graduate"
 )
 MOM_ED_ALLOWED <- CAREGIVER_EDUCATION_ALLOWED
 
@@ -23,7 +23,7 @@ BIRTH_ORDER_ALLOWED <- c(
 DATE_YMD_RE <- "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
 
 normalize_mom_ed <- function(x) {
-  raw <- str_trim(as.character(x))
+  raw <- str_squish(as.character(x))
   empty <- is.na(raw) | raw == ""
   out <- raw
   out[empty] <- NA_character_
@@ -32,8 +32,8 @@ normalize_mom_ed <- function(x) {
   ok_num <- !empty & !is.na(num) & num >= 1L & num <= 8L
   out[ok_num] <- CAREGIVER_EDUCATION_ALLOWED[num[ok_num]]
 
-  labels_lower <- str_to_lower(CAREGIVER_EDUCATION_ALLOWED)
   key <- str_to_lower(raw)
+  labels_lower <- str_to_lower(CAREGIVER_EDUCATION_ALLOWED)
   ok_label <- !empty & !ok_num & !is.na(match(key, labels_lower))
   out[ok_label] <- CAREGIVER_EDUCATION_ALLOWED[match(key[ok_label], labels_lower)]
 
@@ -55,15 +55,16 @@ normalize_sex <- function(x) {
 }
 
 normalize_race <- function(x) {
-  raw <- str_trim(as.character(x))
+  raw <- str_squish(as.character(x))
   empty <- is.na(raw) | raw == ""
   key <- str_to_upper(raw)
+  other_mixed <- c("O", "OTHER", "MIXED", "OTHER/MIXED", "MIXED/OTHER")
   case_when(
     empty ~ NA_character_,
     key %in% c("A", "ASIAN") ~ "Asian",
     key %in% c("B", "BLACK") ~ "Black",
     key %in% c("W", "WHITE") ~ "White",
-    key %in% c("O", "OTHER", "OTHER/MIXED", "MIXED") ~ "Other/Mixed",
+    key %in% other_mixed ~ "Other/Mixed",
     raw %in% RACE_ALLOWED ~ raw,
     TRUE ~ raw
   )
@@ -90,6 +91,8 @@ normalize_birth_order <- function(x) {
 
   num <- suppressWarnings(as.integer(raw))
   n_labels <- length(BIRTH_ORDER_ALLOWED)
+  ok_zero <- !empty & !is.na(num) & num == 0L
+  out[ok_zero] <- NA_character_
   ok_num <- !empty & !is.na(num) & num >= 1L & num <= n_labels
   out[ok_num] <- BIRTH_ORDER_ALLOWED[num[ok_num]]
 
@@ -156,17 +159,11 @@ birth_weight_to_kg <- function(x) {
 }
 
 normalize_born_early_or_late <- function(x) {
-  raw <- str_trim(as.character(x))
+  raw <- str_squish(as.character(x))
   empty <- is.na(raw) | raw == ""
-  key <- str_to_lower(raw)
-  case_when(
-    empty ~ NA_character_,
-    key %in% c("1", "true", "t", "yes", "on time", "on-time", "on due date", "due date") ~
-      "On time",
-    key %in% c("0", "false", "f", "no", "not on due date") ~ "Not on due date",
-    key %in% c("early", "late", "early/late") ~ str_to_title(key),
-    TRUE ~ raw
-  )
+  out <- str_to_title(raw)
+  out[empty] <- NA_character_
+  out
 }
 
 normalize_gestational_age <- function(x) {

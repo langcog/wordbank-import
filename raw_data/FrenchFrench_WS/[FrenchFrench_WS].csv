@@ -620,32 +620,32 @@ item_618,item_618,word,question_words,produces,pourquoi,why,why
 item_619,item_619,word,question_words,produces,quand,when (question),when (question)
 item_620,item_620,word,question_words,produces,qui,who,who
 item_621,item_621,word,question_words,produces,quoi,what,what
-item_622,item_622,word,prepositions,produces,à,at,at
-item_623,item_623,word,prepositions,produces,à côté de,next to,next to
-item_624,item_624,word,prepositions,produces,à l'intérieur de,inside,inside
-item_625,item_625,word,prepositions,produces,au dessus de,above,above
-item_626,item_626,word,prepositions,produces,au loin,far,far
-item_627,item_627,word,prepositions,produces,au sommet de,at the top of,on top
-item_628,item_628,word,prepositions,produces,au sujet de,about,about
-item_629,item_629,word,prepositions,produces,autour de,around,around
-item_630,item_630,word,prepositions,produces,avec,with,with
-item_631,item_631,word,prepositions,produces,chez,In someone’s house,NA
-item_632,item_632,word,prepositions,produces,dans,in,in
-item_633,item_633,word,prepositions,produces,de,of,of
-item_634,item_634,word,prepositions,produces,dehors,outside,outside
-item_635,item_635,word,prepositions,produces,derrière,behind,behind
-item_636,item_636,word,prepositions,produces,en bas,down,down
-item_637,item_637,word,prepositions,produces,en haut,up,up
-item_638,item_638,word,prepositions,produces,ici,here,here
-item_639,item_639,word,prepositions,produces,là,there,there
-item_640,item_640,word,prepositions,produces,là-bas,there,there
-item_641,item_641,word,prepositions,produces,loin,far,far
-item_642,item_642,word,prepositions,produces,par-dessus,over,over
-item_643,item_643,word,prepositions,produces,pour,in order to,for
-item_644,item_644,word,prepositions,produces,près de,near,near
-item_645,item_645,word,prepositions,produces,sous,under,under
-item_646,item_646,word,prepositions,produces,sur,on,on
-item_647,item_647,word,prepositions,produces,vers,towards,towards
+item_622,item_622,word,locations,produces,à,at,at
+item_623,item_623,word,locations,produces,à côté de,next to,next to
+item_624,item_624,word,locations,produces,à l'intérieur de,inside,inside
+item_625,item_625,word,locations,produces,au dessus de,above,above
+item_626,item_626,word,locations,produces,au loin,far,far
+item_627,item_627,word,locations,produces,au sommet de,at the top of,on top
+item_628,item_628,word,locations,produces,au sujet de,about,about
+item_629,item_629,word,locations,produces,autour de,around,around
+item_630,item_630,word,locations,produces,avec,with,with
+item_631,item_631,word,locations,produces,chez,In someone’s house,NA
+item_632,item_632,word,locations,produces,dans,in,in
+item_633,item_633,word,locations,produces,de,of,of
+item_634,item_634,word,locations,produces,dehors,outside,outside
+item_635,item_635,word,locations,produces,derrière,behind,behind
+item_636,item_636,word,locations,produces,en bas,down,down
+item_637,item_637,word,locations,produces,en haut,up,up
+item_638,item_638,word,locations,produces,ici,here,here
+item_639,item_639,word,locations,produces,là,there,there
+item_640,item_640,word,locations,produces,là-bas,there,there
+item_641,item_641,word,locations,produces,loin,far,far
+item_642,item_642,word,locations,produces,par-dessus,over,over
+item_643,item_643,word,locations,produces,pour,in order to,for
+item_644,item_644,word,locations,produces,près de,near,near
+item_645,item_645,word,locations,produces,sous,under,under
+item_646,item_646,word,locations,produces,sur,on,on
+item_647,item_647,word,locations,produces,vers,towards,towards
 item_648,item_648,word,quantifiers,produces,aucun/e,none,none
 item_649,item_649,word,quantifiers,produces,aussi,also,also
 item_650,item_650,word,quantifiers,produces,autre,other,other
@@ -718,3 +718,4 @@ item_716,item_716,verb_endings,NA,no; yes,à l'imparfait,NA,NA
 item_717,item_717,combine,NA,not yet; sometimes; often,,NA,NA
 item_718,item_718,word,household,produces,sac,bag,bag
 item_719,item_719,word,people,produces,nom du frre ou de la soeur,name of sibling,NA
+item_720,item_720,word,locations,produces,dedans,NA,inside

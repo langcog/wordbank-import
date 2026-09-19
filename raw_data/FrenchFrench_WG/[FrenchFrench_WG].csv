@@ -387,17 +387,17 @@ item_420,item_420,word,time_words,understands; produces,jour,Mots sur le temps,d
 item_421,item_421,word,time_words,understands; produces,maintenant,Mots sur le temps,now,now
 item_422,item_422,word,time_words,understands; produces,matin,Mots sur le temps,morning,morning
 item_423,item_423,word,time_words,understands; produces,nuit,Mots sur le temps,night,night
-item_424,item_424,word,prepositions,understands; produces,dans,Prépositions et localisations,in,in
-item_425,item_425,word,prepositions,understands; produces,dedans,NA,NA,inside
-item_426,item_426,word,prepositions,understands; produces,dehors,Prépositions et localisations,outside,outside
-item_427,item_427,word,prepositions,understands; produces,derrière,Prépositions et localisations,behind,behind
-item_428,item_428,word,prepositions,understands; produces,en bas,Prépositions et localisations,down,down
-item_429,item_429,word,prepositions,understands; produces,en haut,Prépositions et localisations,up,up
-item_430,item_430,word,prepositions,understands; produces,là,Prépositions et localisations,there,there
-item_431,item_431,word,prepositions,understands; produces,là-bas,Prépositions et localisations,there,there
-item_432,item_432,word,prepositions,understands; produces,loin,Prépositions et localisations,far,far
-item_433,item_433,word,prepositions,understands; produces,sous,Prépositions et localisations,under,under
-item_434,item_434,word,prepositions,understands; produces,sur,Prépositions et localisations,on,on
+item_424,item_424,word,locations,understands; produces,dans,Prépositions et localisations,in,in
+item_425,item_425,word,locations,understands; produces,dedans,NA,NA,inside
+item_426,item_426,word,locations,understands; produces,dehors,Prépositions et localisations,outside,outside
+item_427,item_427,word,locations,understands; produces,derrière,Prépositions et localisations,behind,behind
+item_428,item_428,word,locations,understands; produces,en bas,Prépositions et localisations,down,down
+item_429,item_429,word,locations,understands; produces,en haut,Prépositions et localisations,up,up
+item_430,item_430,word,locations,understands; produces,là,Prépositions et localisations,there,there
+item_431,item_431,word,locations,understands; produces,là-bas,Prépositions et localisations,there,there
+item_432,item_432,word,locations,understands; produces,loin,Prépositions et localisations,far,far
+item_433,item_433,word,locations,understands; produces,sous,Prépositions et localisations,under,under
+item_434,item_434,word,locations,understands; produces,sur,Prépositions et localisations,on,on
 item_435,item_435,word,pronouns,understands; produces,à elle/sa,Pronoms,hers,3SG.POSS
 item_436,item_436,word,pronouns,understands; produces,à lui/son,Pronoms,his,3SG.POSS
 item_437,item_437,word,pronouns,understands; produces,à moi,NA,mine,1SG.POSS
@@ -517,22 +517,22 @@ item_612,item_612,word,places,understands; produces,cinéma,Endroits où aller,c
 item_613,item_613,word,places,understands; produces,pique-nique,Endroits où aller,picnic,picnic
 item_614,item_614,word,places,understands; produces,terrain de jeux,Endroits où aller,playground,playground
 item_615,item_615,word,places,understands; produces,forêt,Endroits où aller,forest,forest
-item_616,item_616,word,prepositions,understands; produces,au sujet de,Prépositions et localisations,about,about
-item_617,item_617,word,prepositions,understands; produces,au dessus de,Prépositions et localisations,above,above
-item_618,item_618,word,prepositions,understands; produces,autour de,Prépositions et localisations,around,around
-item_619,item_619,word,prepositions,understands; produces,à,Prépositions et localisations,at,at
-item_620,item_620,word,prepositions,understands; produces,à côté de,Prépositions et localisations,next to,next to
-item_621,item_621,word,prepositions,understands; produces,chez,Prépositions et localisations,In someone’s house,NA
-item_622,item_622,word,prepositions,understands; produces,pour,Prépositions et localisations,in order to,for
-item_623,item_623,word,prepositions,understands; produces,ici,Prépositions et localisations,here,here
-item_624,item_624,word,prepositions,understands; produces,à l'intérieur de,Prépositions et localisations,inside,inside
-item_625,item_625,word,prepositions,understands; produces,près de,Prépositions et localisations,near,near
-item_626,item_626,word,prepositions,understands; produces,de,Prépositions et localisations,of,of
-item_627,item_627,word,prepositions,understands; produces,au loin,Prépositions et localisations,far,far
-item_628,item_628,word,prepositions,understands; produces,au sommet de,Prépositions et localisations,at the top of,on top
-item_629,item_629,word,prepositions,understands; produces,par dessus,Prépositions et localisations,NA,above
-item_630,item_630,word,prepositions,understands; produces,vers,Prépositions et localisations,towards,towards
-item_631,item_631,word,prepositions,understands; produces,avec,Prépositions et localisations,with,with
+item_616,item_616,word,locations,understands; produces,au sujet de,Prépositions et localisations,about,about
+item_617,item_617,word,locations,understands; produces,au dessus de,Prépositions et localisations,above,above
+item_618,item_618,word,locations,understands; produces,autour de,Prépositions et localisations,around,around
+item_619,item_619,word,locations,understands; produces,à,Prépositions et localisations,at,at
+item_620,item_620,word,locations,understands; produces,à côté de,Prépositions et localisations,next to,next to
+item_621,item_621,word,locations,understands; produces,chez,Prépositions et localisations,In someone’s house,NA
+item_622,item_622,word,locations,understands; produces,pour,Prépositions et localisations,in order to,for
+item_623,item_623,word,locations,understands; produces,ici,Prépositions et localisations,here,here
+item_624,item_624,word,locations,understands; produces,à l'intérieur de,Prépositions et localisations,inside,inside
+item_625,item_625,word,locations,understands; produces,près de,Prépositions et localisations,near,near
+item_626,item_626,word,locations,understands; produces,de,Prépositions et localisations,of,of
+item_627,item_627,word,locations,understands; produces,au loin,Prépositions et localisations,far,far
+item_628,item_628,word,locations,understands; produces,au sommet de,Prépositions et localisations,at the top of,on top
+item_629,item_629,word,locations,understands; produces,par dessus,Prépositions et localisations,NA,above
+item_630,item_630,word,locations,understands; produces,vers,Prépositions et localisations,towards,towards
+item_631,item_631,word,locations,understands; produces,avec,Prépositions et localisations,with,with
 item_632,item_632,word,question_words,understands; produces,le/la/les/quel(les),Interrogatifs,NA,which (question)
 item_633,item_633,word,quantifiers,understands; produces,aucun/e,Quantificateurs et articles,none,none
 item_634,item_634,word,quantifiers,understands; produces,un/une,Quantificateurs et articles,a,a

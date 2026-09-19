@@ -8,7 +8,7 @@ ethnicity,H,hispanic
 race,W,White
 race,B,Black
 race,A,Asian
-race,O,Mixed/Other
+race,O,Other/Mixed
 mom_ed,primary,5
 mom_ed,primary,6
 mom_ed,primary,7
@@ -49,3 +49,6 @@ combine,sometimes,sometimes
 combine,often,often
 complexity,simple,simple
 complexity,complex,complex
+born_early_or_late,early,Early
+born_early_or_late,late,Late
+born_early_or_late,,NA

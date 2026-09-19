@@ -347,7 +347,6 @@ cast_harmonized_table <- function(df, table) {
       df,
       chr = c(
         "dataset_name", "dataset_origin_name", "contributor", "citation", "license",
-        "source", "date_format", "file_location", "norming", "splitcol",
         "language", "form", "form_type"
       ),
       dbl = "n_admins",

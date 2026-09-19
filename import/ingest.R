@@ -53,11 +53,7 @@ combine_ingest_parts <- function(parts, meta) {
     dataset = parts[[1]]$dataset |>
       mutate(
         manifest_row = min(map_int(parts, ~ .x$meta$manifest_row[[1]])),
-        n_admins = sum(map_int(parts, ~ nrow(.x$administrations))),
-        file_location = str_c(
-          unique(map_chr(parts, ~ .x$dataset$file_location[[1]])),
-          collapse = ";"
-        )
+        n_admins = sum(map_int(parts, ~ nrow(.x$administrations)))
       ),
     children = bind_rows(map(parts, "children")) |>
       distinct(across(all_of(CHILD_KEY_COLS)), .keep_all = TRUE),
@@ -119,8 +115,35 @@ item_response_sources_from_results <- function(results, spill_dir) {
 }
 
 assert_item_responses <- function(result, label) {
-  if (nrow(result$item_responses) == 0L) {
+  ir <- result$item_responses
+  if (nrow(ir) == 0L) {
     stop("item_responses empty after ingest: ", label)
+  }
+  dup <- ir |>
+    count(
+      dataset_origin_name, study_internal_id, admin_row, item_id,
+      name = "n"
+    ) |>
+    filter(n > 1L)
+  if (nrow(dup) > 0L) {
+    preview <- dup |>
+      arrange(desc(n)) |>
+      head(5) |>
+      mutate(
+        detail = paste0(
+          item_id, " (", n, " rows; e.g. admin_row ", admin_row, ")"
+        )
+      ) |>
+      pull(detail)
+    stop(
+      "Duplicate item_responses for ", label, ": ",
+      sum(dup$n - 1L),
+      " extra row(s) across ",
+      nrow(dup),
+      " (admin, item) keys. Examples: ",
+      paste(preview, collapse = "; "),
+      ". Check *_fields.csv for the same item_id on multiple columns."
+    )
   }
   invisible(result)
 }
@@ -388,11 +411,6 @@ ingest_triplet <- function(
       citation = as.character(if (is.na(meta$citation)) NA else meta$citation),
       license = as.character(if (is.na(meta$license)) "CC-BY" else meta$license),
       longitudinal = as.logical(if (is.na(meta$longitudinal)) FALSE else meta$longitudinal),
-      source = NA_character_,
-      date_format = NA_character_,
-      file_location = as.character(raw_dir),
-      norming = NA_character_,
-      splitcol = NA_character_,
       language = meta$language,
       form = meta$form,
       form_type = meta$form_type,
