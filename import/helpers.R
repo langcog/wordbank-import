@@ -358,9 +358,9 @@ cast_harmonized_table <- function(df, table) {
       df,
       chr = c(
         "study_internal_id", "dataset_origin_name", "caregiver_education", "ethnicity",
-        "race", "sex", "date_of_birth", "born_early_or_late", "zygosity"
+        "race", "sex", "birth_order", "date_of_birth", "born_early_or_late", "zygosity"
       ),
-      int = c("birth_order", "gestational_age"),
+      int = "gestational_age",
       dbl = "birth_weight"
     ),
     administrations = cast_cols(
@@ -368,10 +368,10 @@ cast_harmonized_table <- function(df, table) {
       chr = c(
         "study_internal_id", "date_of_test", "dataset_name", "dataset_origin_name",
         "language", "form", "form_type", "caregiver_education", "ethnicity",
-        "race", "sex", "born_early_or_late", "zygosity"
+        "race", "sex", "birth_order", "born_early_or_late", "zygosity"
       ),
       int = c(
-        "admin_row", "age", "comprehension", "production", "birth_order",
+        "admin_row", "age", "comprehension", "production",
         "gestational_age", "manifest_row"
       ),
       dbl = "birth_weight",

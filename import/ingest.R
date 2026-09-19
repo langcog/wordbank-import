@@ -308,7 +308,7 @@ ingest_triplet <- function(
     group_by(admin_row) |>
     summarise(
       production = sum(produces, na.rm = TRUE),
-      comprehension = if (collects_comprehension) {
+      comprehension = if (.env$collects_comprehension) {
         sum(understands, na.rm = TRUE)
       } else {
         NA_real_
@@ -323,7 +323,7 @@ ingest_triplet <- function(
       age = as.integer(data_age),
       sex = as.character(sex),
       caregiver_education = as.character(mom_ed),
-      birth_order = as.integer(birth_order),
+      birth_order = as.character(birth_order),
       ethnicity = as.character(ethnicity),
       race = as.character(race),
       date_of_test = as.character(date_of_test),
@@ -335,11 +335,11 @@ ingest_triplet <- function(
       form = meta$form,
       form_type = meta$form_type,
       production = as.integer(coalesce(production, 0L)),
-      comprehension = if_else(
-        collects_comprehension,
-        as.integer(coalesce(comprehension, 0L)),
-        NA_integer_
-      ),
+      comprehension = if (.env$collects_comprehension) {
+        as.integer(coalesce(comprehension, 0L))
+      } else {
+        rep(NA_integer_, n())
+      },
       birth_weight = NA_real_,
       born_early_or_late = NA_character_,
       gestational_age = NA_integer_,
@@ -599,7 +599,11 @@ read_harmonized <- function(
     if (!file.exists(path)) {
       stop("Missing harmonized table: ", path)
     }
-    cast_harmonized_table(read_csv(path, show_col_types = FALSE), nm)
+    df <- cast_harmonized_table(read_csv(path, show_col_types = FALSE), nm)
+    if (nm %in% c("children", "administrations")) {
+      df <- normalize_demographic_columns(df)
+    }
+    df
   })
   if (!isTRUE(load_item_responses)) {
     tables$item_responses <- NULL

@@ -5,64 +5,117 @@ suppressPackageStartupMessages({
   library(lubridate)
 })
 
-MOM_ED_ALLOWED <- c(
-  "none", "primary", "some secondary", "secondary",
-  "some college", "college", "some graduate", "graduate"
+CAREGIVER_EDUCATION_ALLOWED <- c(
+  "None", "Primary", "Some secondary", "Secondary",
+  "Some college", "College", "Some graduate", "Graduate"
 )
+MOM_ED_ALLOWED <- CAREGIVER_EDUCATION_ALLOWED
 
-RACE_ALLOWED <- c("A", "B", "W", "O")
-SEX_ALLOWED <- c("M", "F", "O")
-ETHNICITY_ALLOWED <- c("H", "N")
+RACE_ALLOWED <- c("Asian", "Black", "White", "Other/Mixed")
+SEX_ALLOWED <- c("Male", "Female", "Other")
+ETHNICITY_ALLOWED <- c("Hispanic", "Non-Hispanic")
+
+BIRTH_ORDER_ALLOWED <- c(
+  "First", "Second", "Third", "Fourth", "Fifth", "Sixth",
+  "Seventh", "Eighth", "Ninth", "Tenth", "Eleventh", "Twelfth"
+)
 
 DATE_YMD_RE <- "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
 
 normalize_mom_ed <- function(x) {
   raw <- str_trim(as.character(x))
   empty <- is.na(raw) | raw == ""
-  key <- str_to_lower(raw)
-  num <- suppressWarnings(as.integer(raw))
+  out <- raw
+  out[empty] <- NA_character_
 
-  case_when(
-    empty ~ NA_character_,
-    !is.na(num) & num >= 1L & num <= 8L ~ MOM_ED_ALLOWED[num],
-    TRUE ~ key
-  )
+  num <- suppressWarnings(as.integer(raw))
+  ok_num <- !empty & !is.na(num) & num >= 1L & num <= 8L
+  out[ok_num] <- CAREGIVER_EDUCATION_ALLOWED[num[ok_num]]
+
+  labels_lower <- str_to_lower(CAREGIVER_EDUCATION_ALLOWED)
+  key <- str_to_lower(raw)
+  ok_label <- !empty & !ok_num & !is.na(match(key, labels_lower))
+  out[ok_label] <- CAREGIVER_EDUCATION_ALLOWED[match(key[ok_label], labels_lower)]
+
+  out
 }
 
 normalize_sex <- function(x) {
-  x <- str_to_upper(str_trim(as.character(x)))
-  x[x == ""] <- NA_character_
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  key <- str_to_upper(raw)
   case_when(
-    is.na(x) ~ NA_character_,
-    x %in% c("M", "MALE") ~ "M",
-    x %in% c("F", "FEMALE") ~ "F",
-    x %in% c("O", "OTHER") ~ "O",
-    TRUE ~ x
+    empty ~ NA_character_,
+    key %in% c("M", "MALE") ~ "Male",
+    key %in% c("F", "FEMALE") ~ "Female",
+    key %in% c("O", "OTHER") ~ "Other",
+    raw %in% SEX_ALLOWED ~ raw,
+    TRUE ~ raw
   )
 }
 
 normalize_race <- function(x) {
-  x <- str_to_upper(str_trim(as.character(x)))
-  x[x == ""] <- NA_character_
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  key <- str_to_upper(raw)
   case_when(
-    is.na(x) ~ NA_character_,
-    x %in% c("A", "ASIAN") ~ "A",
-    x %in% c("B", "BLACK") ~ "B",
-    x %in% c("W", "WHITE") ~ "W",
-    x %in% c("O", "OTHER", "OTHER/MIXED", "MIXED") ~ "O",
-    TRUE ~ x
+    empty ~ NA_character_,
+    key %in% c("A", "ASIAN") ~ "Asian",
+    key %in% c("B", "BLACK") ~ "Black",
+    key %in% c("W", "WHITE") ~ "White",
+    key %in% c("O", "OTHER", "OTHER/MIXED", "MIXED") ~ "Other/Mixed",
+    raw %in% RACE_ALLOWED ~ raw,
+    TRUE ~ raw
   )
 }
 
 normalize_ethnicity <- function(x) {
-  x <- str_to_upper(str_trim(as.character(x)))
-  x[x == ""] <- NA_character_
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  key <- str_to_upper(raw)
   case_when(
-    is.na(x) ~ NA_character_,
-    x %in% c("H", "HISPANIC") ~ "H",
-    x %in% c("N", "NONHISPANIC", "NON-HISPANIC") ~ "N",
-    TRUE ~ x
+    empty ~ NA_character_,
+    key %in% c("H", "HISPANIC") ~ "Hispanic",
+    key %in% c("N", "NONHISPANIC", "NON-HISPANIC") ~ "Non-Hispanic",
+    raw %in% ETHNICITY_ALLOWED ~ raw,
+    TRUE ~ raw
   )
+}
+
+normalize_birth_order <- function(x) {
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  out <- raw
+  out[empty] <- NA_character_
+
+  num <- suppressWarnings(as.integer(raw))
+  n_labels <- length(BIRTH_ORDER_ALLOWED)
+  ok_num <- !empty & !is.na(num) & num >= 1L & num <= n_labels
+  out[ok_num] <- BIRTH_ORDER_ALLOWED[num[ok_num]]
+
+  labels_lower <- str_to_lower(BIRTH_ORDER_ALLOWED)
+  key <- str_to_lower(raw)
+  ok_label <- !empty & !ok_num & !is.na(match(key, labels_lower))
+  out[ok_label] <- BIRTH_ORDER_ALLOWED[match(key[ok_label], labels_lower)]
+
+  ok_raw <- !empty & raw %in% BIRTH_ORDER_ALLOWED
+  out[ok_raw] <- raw[ok_raw]
+
+  out
+}
+
+#' Apply demographic decoders to harmonized / export column names.
+normalize_demographic_columns <- function(df) {
+  if ("sex" %in% names(df)) df$sex <- normalize_sex(df$sex)
+  if ("race" %in% names(df)) df$race <- normalize_race(df$race)
+  if ("ethnicity" %in% names(df)) df$ethnicity <- normalize_ethnicity(df$ethnicity)
+  if ("caregiver_education" %in% names(df)) {
+    df$caregiver_education <- normalize_mom_ed(df$caregiver_education)
+  }
+  if ("birth_order" %in% names(df)) {
+    df$birth_order <- normalize_birth_order(df$birth_order)
+  }
+  df
 }
 
 normalize_positive_int <- function(x, allow_floor = FALSE) {
@@ -122,7 +175,7 @@ normalize_demog_wide <- function(demog_wide) {
     demog_wide$data_age <- normalize_age(demog_wide$data_age)
   }
   if ("birth_order" %in% names(demog_wide)) {
-    demog_wide$birth_order <- normalize_positive_int(demog_wide$birth_order)
+    demog_wide$birth_order <- normalize_birth_order(demog_wide$birth_order)
   }
   if ("sex" %in% names(demog_wide)) {
     demog_wide$sex <- normalize_sex(demog_wide$sex)
@@ -166,17 +219,18 @@ demographic_issues <- function(
     empty <- is.na(vals) | str_trim(as.character(vals)) == ""
     bad <- rep(FALSE, length(vals))
 
-    bad <- bad | (!empty & field %in% c("age", "birth_order") & (
+    bad <- bad | (!empty & field == "age" & (
       is.na(suppressWarnings(as.integer(vals))) |
         suppressWarnings(as.integer(vals)) < 1L
     ))
+    bad <- bad | (!empty & field == "birth_order" & !(vals %in% BIRTH_ORDER_ALLOWED))
 
     bad <- bad | (!empty & field %in% c("date_of_test", "date_of_birth") & !is_valid_date_ymd(vals))
 
     bad <- bad | (!empty & field == "race" & !(vals %in% RACE_ALLOWED))
     bad <- bad | (!empty & field == "ethnicity" & !(vals %in% ETHNICITY_ALLOWED))
     bad <- bad | (!empty & field == "sex" & !(vals %in% SEX_ALLOWED))
-    bad <- bad | (!empty & field == "caregiver_education" & !(vals %in% MOM_ED_ALLOWED))
+    bad <- bad | (!empty & field == "caregiver_education" & !(vals %in% CAREGIVER_EDUCATION_ALLOWED))
 
     if (!any(bad)) return(tibble())
 
@@ -187,11 +241,12 @@ demographic_issues <- function(
         field = field,
         value = as.character(vals[bad]),
         reason = case_when(
-          field %in% c("age", "birth_order") ~ "must be a positive integer or blank",
+          field == "age" ~ "must be a positive integer or blank",
+          field == "birth_order" ~ "must be a valid birth-order label or blank",
           field %in% c("date_of_test", "date_of_birth") ~ "must be yyyy-mm-dd or blank",
-          field == "race" ~ "must be one of A, B, W, O or blank",
-          field == "ethnicity" ~ "must be H or blank",
-          field == "sex" ~ "must be one of M, F, O or blank",
+          field == "race" ~ "must be one of Asian, Black, White, Other/Mixed or blank",
+          field == "ethnicity" ~ "must be Hispanic, Non-Hispanic, or blank",
+          field == "sex" ~ "must be one of Male, Female, Other or blank",
           field == "caregiver_education" ~ "must be a valid education level or blank",
           TRUE ~ "invalid value"
         )
@@ -222,7 +277,7 @@ empty_demog_mismatches <- function() {
 }
 
 caregiver_education_rank <- function(x) {
-  match(x, MOM_ED_ALLOWED)
+  match(x, CAREGIVER_EDUCATION_ALLOWED)
 }
 
 caregiver_education_max <- function(values) {
@@ -367,14 +422,10 @@ canonicalize_administration_demographics <- function(
     canon <- canonical[[key]]
     for (field in demo_cols) {
       val <- canon[[field]]
-      if (field == "birth_order") {
-        out_admins[[field]][idx] <- if (is_empty_demog(val)) {
-          NA_integer_
-        } else {
-          as.integer(val)
-        }
+      out_admins[[field]][idx] <- if (is_empty_demog(val)) {
+        NA_character_
       } else {
-        out_admins[[field]][idx] <- if (is_empty_demog(val)) NA_character_ else val
+        val
       }
     }
   }

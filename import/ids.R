@@ -240,7 +240,7 @@ empty_registry <- function() {
       sex = character(),
       race = character(),
       ethnicity = character(),
-      birth_order = integer(),
+      birth_order = character(),
       caregiver_education = character(),
       child_id = integer()
     ),
@@ -435,10 +435,10 @@ merge_with_existing <- function(
     if (nrow(existing$children)) {
       existing$children <- existing$children |>
         mutate(
-          birth_order = harm_int(birth_order),
           gestational_age = harm_int(gestational_age),
           birth_weight = harm_dbl(birth_weight)
-        )
+        ) |>
+        normalize_demographic_columns()
     }
     if (nrow(existing$administrations)) {
       existing$administrations <- existing$administrations |>
@@ -449,7 +449,8 @@ merge_with_existing <- function(
           production = harm_int(production),
           is_norming = harm_lgl(is_norming),
           in_age_range = harm_lgl(in_age_range)
-        )
+        ) |>
+        normalize_demographic_columns()
     }
     if (nrow(existing$language_exposures)) {
       existing$language_exposures <- existing$language_exposures |>
@@ -482,8 +483,7 @@ merge_with_existing <- function(
       df$study_internal_id <- as.character(df$study_internal_id)
     }
     if ("admin_row" %in% names(df)) df$admin_row <- as.integer(df$admin_row)
-    if ("birth_order" %in% names(df)) df$birth_order <- as.integer(df$birth_order)
-    df
+    normalize_demographic_columns(df)
   }
   new_parts <- map(new_parts, coerce_keys)
   registry$administrations <- coerce_keys(registry$administrations)
