@@ -18,7 +18,7 @@ birth_order,birth_order,child,birth_order
 ,C5hourslanguage,,
 ,C6whatlanguage,,
 condition,A1Childgestation,child,condition
-,A2Childbweight,,
+birth_weight,A2Childbweight,child,birth_weight
 ,A3Earproblem,,
 ,A3eardetails,,
 ,A4Speechlanguagedifficulty,,

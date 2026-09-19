@@ -399,7 +399,7 @@ item_427,item_427,item,word
 item_428,item_428,item,word
 item_429,item_429,item,word
 ,age_years,,
-,birth_weight,,
+birth_weight,birth_weight,child,birth_weight
 mom_ed,parent1_education,child,mom_ed
 ,parent2_education,,
 ,primary_lang,,

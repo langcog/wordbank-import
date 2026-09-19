@@ -5,8 +5,9 @@ study_id,child_id,child,study_id
 ,administration_id,,
 data_age,age,admin,data_age
 sex,sex,child,sex
-,birth_order,,
-,birth_weight_lb,,
+birth_order,birth_order,child,birth_order
+birth_weight,birth_weight_lb,child,birth_weight
+born_early_or_late,born_on_due_date,child,born_early_or_late
 ,multi_birth_boolean,,
 ,multi_birth,,
 ,born_on_due_date,,

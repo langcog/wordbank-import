@@ -104,6 +104,94 @@ normalize_birth_order <- function(x) {
   out
 }
 
+LB_TO_KG <- 0.45359237
+GRAMS_TO_KG <- 1 / 1000
+
+#' Parse birth weight strings / numbers to kg (Wordbank / Redivis convention).
+birth_weight_to_kg <- function(x) {
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  out <- rep(NA_real_, length(raw))
+  if (all(empty)) return(out)
+
+  grams <- str_match(raw, "(?i)^\\s*([0-9]+(?:\\.[0-9]+)?)\\s*g(?:ram)?s?\\s*$")[, 2]
+  kg <- str_match(raw, "(?i)^\\s*([0-9]+(?:\\.[0-9]+)?)\\s*k(?:ilo)?g?\\s*$")[, 2]
+  lbs_oz <- str_match(
+    raw,
+    "(?i)^\\s*([0-9]+(?:\\.[0-9]+)?)\\s*lbs?\\s*([0-9]+)?\\s*oz?\\s*$"
+  )
+  lbs_only <- str_match(raw, "(?i)^\\s*([0-9]+(?:\\.[0-9]+)?)\\s*lbs?\\s*$")[, 2]
+  num <- suppressWarnings(as.numeric(raw))
+
+  has_grams <- !empty & !is.na(grams)
+  out[has_grams] <- as.numeric(grams[has_grams]) * GRAMS_TO_KG
+
+  has_kg <- !empty & is.na(out) & !is.na(kg)
+  out[has_kg] <- as.numeric(kg[has_kg])
+
+  has_lbs_oz <- !empty & is.na(out) & !is.na(lbs_oz[, 2])
+  if (any(has_lbs_oz)) {
+    lbs <- as.numeric(lbs_oz[has_lbs_oz, 2])
+    oz <- suppressWarnings(as.numeric(lbs_oz[has_lbs_oz, 3]))
+    oz[is.na(oz)] <- 0
+    out[has_lbs_oz] <- (lbs + oz / 16) * LB_TO_KG
+  }
+
+  has_lbs_only <- !empty & is.na(out) & !is.na(lbs_only)
+  out[has_lbs_only] <- as.numeric(lbs_only[has_lbs_only]) * LB_TO_KG
+
+  has_num <- !empty & is.na(out) & !is.na(num)
+  if (any(has_num)) {
+    n <- num[has_num]
+    k <- rep(NA_real_, length(n))
+    k[n >= 500] <- n[n >= 500] * GRAMS_TO_KG
+    as_kg <- !is.na(n) & n > 0 & n < 500 & n <= 5.5
+    k[as_kg] <- n[as_kg]
+    as_lb <- !is.na(n) & n > 5.5 & n <= 20
+    k[as_lb] <- n[as_lb] * LB_TO_KG
+    out[has_num] <- k
+  }
+
+  out
+}
+
+normalize_born_early_or_late <- function(x) {
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  key <- str_to_lower(raw)
+  case_when(
+    empty ~ NA_character_,
+    key %in% c("1", "true", "t", "yes", "on time", "on-time", "on due date", "due date") ~
+      "On time",
+    key %in% c("0", "false", "f", "no", "not on due date") ~ "Not on due date",
+    key %in% c("early", "late", "early/late") ~ str_to_title(key),
+    TRUE ~ raw
+  )
+}
+
+normalize_gestational_age <- function(x) {
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  num <- suppressWarnings(as.integer(as.numeric(raw)))
+  out <- rep(NA_integer_, length(raw))
+  ok <- !empty & !is.na(num) & num > 0L & num <= 45L
+  out[ok] <- num[ok]
+  out
+}
+
+normalize_zygosity <- function(x) {
+  raw <- str_trim(as.character(x))
+  empty <- is.na(raw) | raw == ""
+  key <- str_to_upper(raw)
+  case_when(
+    empty ~ NA_character_,
+    key %in% c("M", "MZ", "MONOZYGOTIC") ~ "MZ",
+    key %in% c("D", "DZ", "DIZYGOTIC") ~ "DZ",
+    raw %in% c("MZ", "DZ") ~ raw,
+    TRUE ~ raw
+  )
+}
+
 #' Apply demographic decoders to harmonized / export column names.
 normalize_demographic_columns <- function(df) {
   if ("sex" %in% names(df)) df$sex <- normalize_sex(df$sex)
@@ -114,6 +202,18 @@ normalize_demographic_columns <- function(df) {
   }
   if ("birth_order" %in% names(df)) {
     df$birth_order <- normalize_birth_order(df$birth_order)
+  }
+  if ("birth_weight" %in% names(df)) {
+    df$birth_weight <- birth_weight_to_kg(df$birth_weight)
+  }
+  if ("born_early_or_late" %in% names(df)) {
+    df$born_early_or_late <- normalize_born_early_or_late(df$born_early_or_late)
+  }
+  if ("gestational_age" %in% names(df)) {
+    df$gestational_age <- normalize_gestational_age(df$gestational_age)
+  }
+  if ("zygosity" %in% names(df)) {
+    df$zygosity <- normalize_zygosity(df$zygosity)
   }
   df
 }
@@ -194,6 +294,20 @@ normalize_demog_wide <- function(demog_wide) {
   }
   if ("date_of_birth" %in% names(demog_wide)) {
     demog_wide$date_of_birth <- normalize_date_ymd(demog_wide$date_of_birth)
+  }
+  if ("birth_weight" %in% names(demog_wide)) {
+    demog_wide$birth_weight <- birth_weight_to_kg(demog_wide$birth_weight)
+  }
+  if ("born_early_or_late" %in% names(demog_wide)) {
+    demog_wide$born_early_or_late <- normalize_born_early_or_late(
+      demog_wide$born_early_or_late
+    )
+  }
+  if ("gestational_age" %in% names(demog_wide)) {
+    demog_wide$gestational_age <- normalize_gestational_age(demog_wide$gestational_age)
+  }
+  if ("zygosity" %in% names(demog_wide)) {
+    demog_wide$zygosity <- normalize_zygosity(demog_wide$zygosity)
   }
   demog_wide
 }

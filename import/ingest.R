@@ -159,6 +159,10 @@ ingest_triplet <- function(
                         name_repair = "unique_quiet") |>
     distinct() |>
     mutate(across(c(type, value, data_value), as.character))
+  values_types <- df_values |>
+    filter(!is.na(type), type != "", !is.na(data_value), data_value != "") |>
+    pull(type) |>
+    unique()
   collects_comprehension <- scores_comprehension(
     values_collects_comprehension(df_values),
     meta$form_type
@@ -181,7 +185,7 @@ ingest_triplet <- function(
     filter(!is.na(field), field != "") |>
     mutate(
       value = if_else(
-        coalesce(group, "") == "item" | field %in% c("condition", "race", "ethnicity", "mom_ed", "sex"),
+        coalesce(group, "") == "item" | type %in% .env$values_types,
         value,
         coalesce(value, data_value)
       )
@@ -203,7 +207,8 @@ ingest_triplet <- function(
 
   for (col in c(
     "study_id", "data_age", "sex", "mom_ed", "birth_order",
-    "ethnicity", "race", "date_of_test", "date_of_birth", "is_norming", "languages"
+    "ethnicity", "race", "date_of_test", "date_of_birth", "is_norming", "languages",
+    "birth_weight", "born_early_or_late", "gestational_age", "zygosity"
   )) {
     if (!col %in% names(demog_wide)) demog_wide[[col]] <- NA_character_
   }
@@ -340,10 +345,10 @@ ingest_triplet <- function(
       } else {
         rep(NA_integer_, n())
       },
-      birth_weight = NA_real_,
-      born_early_or_late = NA_character_,
-      gestational_age = NA_integer_,
-      zygosity = NA_character_,
+      birth_weight = birth_weight_to_kg(birth_weight),
+      born_early_or_late = normalize_born_early_or_late(born_early_or_late),
+      gestational_age = normalize_gestational_age(gestational_age),
+      zygosity = normalize_zygosity(zygosity),
       manifest_row = as.integer(meta$manifest_row[[1]])
     )
 
