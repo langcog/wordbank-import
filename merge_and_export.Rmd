@@ -6,7 +6,7 @@ output:
     df_print: paged
 params:
   mode: complete
-  skip_processed: false
+  skip_processed: true
 ---
 
 Ingest datasets listed in `datasets.csv` from `raw_data/`, assign IDs consistent
@@ -182,7 +182,7 @@ Upload strategy follows `params$mode`:
 - **append** — append delta core-table rows and new `item_responses` files
 - **complete** — replace core tables and manifest `item_responses` files
 
-```{r upload, eval=T}
+```{r upload, eval=F}
 upload_to_redivis(
   merged,
   OUT_EXPORT,
