@@ -2,7 +2,7 @@
 study_id,PtcpID,child,study_id
 sex,Sex,child,sex
 ,MotherAge,,
-,TestDate,,
+date_of_test,TestDate,admin,date_of_test
 data_age,ChildAgeMo,admin,data_age
 ,TestTime,,
 ,TestLocationAnon,,

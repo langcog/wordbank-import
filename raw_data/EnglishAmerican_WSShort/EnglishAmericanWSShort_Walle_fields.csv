@@ -2,7 +2,7 @@ field,column,group,type
 study_id,Participant ID:,child,study_id
 sex,Sex:,child,sex
 ,Infant Birthdate:,,
-,Test Date:,,
+date_of_test,Test Date:,admin,date_of_test
 data_age,Age (Months),admin,data_age
 ,Primary Caregiver:,,
 ,Prim. Caregiver Education:,,

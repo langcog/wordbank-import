@@ -18,7 +18,7 @@ condition,DevStatus,child,condition
 ,Admin,,
 data_age,CDIAge,admin,data_age
 ,CDIAgeCp,,
-,CDIDate,,
+date_of_test,CDIDate,admin,date_of_test
 item_224,TOWEL,item,word
 item_225,TRASH,item,word
 item_226,VACUUM,item,word

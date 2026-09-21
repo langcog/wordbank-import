@@ -2,7 +2,7 @@ field,column,group,type
 ,row_id,,
 ,stamp,,
 ,approval,,
-,date_fill_T1,,
+date_of_test,date_fill_T1,admin,date_of_test
 study_id,childID,child,study_id
 ,filled_by,,
 ,date_birth,,

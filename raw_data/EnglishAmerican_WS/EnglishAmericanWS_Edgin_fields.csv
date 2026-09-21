@@ -18,7 +18,7 @@ condition,DevelopmentalDiagnosis,child,condition
 ,Admin,,
 data_age,CDIAge,admin,data_age
 ,CDIAgeCp,,
-,CDIDate,,
+date_of_test,CDIDate,admin,date_of_test
 item_1,BAABAA,item,word
 item_2,CHOOCHOO,item,word
 item_3,COCKDDLD,item,word
