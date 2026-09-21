@@ -13,7 +13,7 @@ item_35,DOG,word,animals,produces,DOG,NA,dog,dog
 item_36,DONKEY,word,animals,produces,DONKEY,NA,donkey,donkey
 item_37,DUCK,word,animals,produces,DUCK,NA,duck,duck
 item_38,ELEPHANT,word,animals,produces,ELEPHANT,NA,elephant,elephant
-item_39,FISH,word,animals,produces,FISH,NA,fish,fish (animal)
+item_39,FISH,word,animals,produces,FISH (animal),NA,fish (animal),fish (animal)
 item_40,FROG,word,animals,produces,FROG,NA,frog,frog
 item_41,GIRAFFE,word,animals,produces,GIRAFFE,NA,giraffe,giraffe
 item_42,HEN,word,animals,produces,HEN,NA,hen,hen
@@ -33,7 +33,7 @@ item_55,TURTLE,word,animals,produces,TURTLE,NA,turtle,turtle
 item_56,WOLF,word,animals,produces,WOLF,NA,wolf,wolf
 item_57,BELT,word,clothing,produces,BELT,NA,belt,belt
 item_58,BIB,word,clothing,produces,BIB,NA,bib,bib
-item_59,BOOT,word,clothing,produces,BOOT,NA,boot,boots
+item_59,BOOT,word,clothing,produces,BOOT,NA,boot,boot
 item_60,BUTTON,word,clothing,produces,BUTTON,NA,button,button
 item_61,DRESS_CLOTHES,word,clothing,produces,CLOTHES/DRESS,NA,dress/clothes,dress (object)
 item_62,COAT_JACKET,word,clothing,produces,COAT/JACKET,NA,coat/jacket,coat
@@ -76,8 +76,8 @@ item_98,LIGHT,word,household,produces,LIGHT,NA,light,light (object)
 item_99,MEDICINE,word,household,produces,MEDICINE,NA,medicine,medicine
 item_100,MIRROR,word,household,produces,MIRROR,NA,mirror,mirror
 item_101,MONEY,word,household,produces,MONEY,NA,money,money
-item_102,MOP,word,household,produces,MOP,NA,mop,mop
-item_103,"NAPKIN",word,household,produces,"NAPKIN",NA,napkin,napkin
+item_102,MOP,word,household,produces,MOP,NA,mop,mop (object)
+item_103,NAPKIN,word,household,produces,NAPKIN,NA,napkin,napkin
 item_104,PAPER,word,household,produces,PAPER,NA,paper,paper
 item_105,CENT_COIN,word,household,produces,PENNY/CENT/COIN,NA,cent/coin,penny
 item_106,PICTURE,word,household,produces,PICTURE,NA,picture,picture
@@ -108,7 +108,7 @@ item_130,CLOWN,word,people,produces,CLOWN,NA,clown,clown
 item_131,COWBOY,word,people,produces,COWBOY,NA,cowboy,cowboy
 item_132,DADDY,word,people,produces,DADDY,NA,daddy,daddy
 item_133,DOCTOR,word,people,produces,DOCTOR,NA,doctor,doctor
-item_134,FIREMAN,word,people,produces,FIREMAN,NA,fireman,fireman
+item_134,FIREMAN,word,people,produces,FIREMAN,NA,fireman,firefighter
 item_135,FRIEND,word,people,produces,FRIEND,NA,friend,friend
 item_136,GIRL,word,people,produces,GIRL,NA,girl,girl
 item_137,GRANDMA,word,people,produces,GRANDMA,NA,grandma,grandma
@@ -144,8 +144,8 @@ item_166,COOKIE,word,food_drink,produces,COOKIE,NA,cookie,cookie
 item_167,CORN,word,food_drink,produces,CORN,NA,corn,corn
 item_168,CRACKER,word,food_drink,produces,CRACKER,NA,cracker,cracker
 item_169,DONUT,word,food_drink,produces,DONUT,NA,donut,donut
-item_170,DRINK,word,food_drink,produces,DRINK,NA,drink,drink (action)
-item_171,FISH,word,food_drink,produces,FISH,NA,fish,fish (food)
+item_170,DRINK,word,food_drink,produces,DRINK (action),NA,drink (action),drink (action)
+item_171,FISH,word,food_drink,produces,FISH (food),NA,fish (food),fish (food)
 item_172,FOOD,word,food_drink,produces,FOOD,NA,food,food
 item_173,FRENCH_FRIES,word,food_drink,produces,FRENCH FRIES,NA,french fries,french fries
 item_174,GRAPES,word,food_drink,produces,GRAPES,NA,grapes,grapes
@@ -160,7 +160,7 @@ item_182,LOLLIPOP,word,food_drink,produces,LOLLIPOP,NA,lollipop,lollipop
 item_183,MEAT,word,food_drink,produces,MEAT,NA,meat,meat
 item_184,MILK,word,food_drink,produces,MILK,NA,milk,milk
 item_185,NUT,word,food_drink,produces,NUTS,NA,nut,nut
-item_186,ORANGE,word,food_drink,produces,ORANGE,NA,orange,orange (food)
+item_186,ORANGE,word,food_drink,produces,ORANGE (food),NA,orange (food),orange (food)
 item_187,PEANUT_BUTTER,word,food_drink,produces,PEANUT BUTTER,NA,peanut butter,peanut butter
 item_188,PIZZA,word,food_drink,produces,PIZZA,NA,pizza,pizza
 item_189,POPSICLE,word,food_drink,produces,POPSICLE,NA,popsicle,popsicle
@@ -179,7 +179,7 @@ item_201,TEA,word,food_drink,produces,TEA,NA,tea,tea
 item_202,TOAST,word,food_drink,produces,TOAST,NA,toast,toast
 item_203,VANILLA,word,food_drink,produces,VANILLA,NA,vanilla,vanilla
 item_204,VITAMINS,word,food_drink,produces,VITAMINS,NA,vitamins,vitamin
-item_205,WATER,word,food_drink,produces,WATER,NA,water,water (beverage)
+item_205,WATER,word,food_drink,produces,WATER (beverage),NA,water (beverage),water (beverage)
 item_206,WATERMELON,word,food_drink,produces,WATERMELON,NA,watermelon,watermelon
 item_207,ABOUT,word,locations,produces,ABOUT,NA,about,about
 item_208,ABOVE,word,locations,produces,ABOVE,NA,above,above
@@ -281,19 +281,19 @@ item_303,HOSE,word,outside,produces,HOSE,NA,hose,hose
 item_304,LADDER,word,outside,produces,LADDER,NA,ladder,ladder
 item_305,LAWN_MOWER,word,outside,produces,LAWN MOWER,NA,lawn mower,lawn mower
 item_306,MOON,word,outside,produces,MOON,NA,moon,moon
-item_307,RAIN,word,outside,produces,RAIN,NA,rain,rain
+item_307,RAIN,word,outside,produces,RAIN,NA,rain,rain (weather)
 item_308,ROCK,word,outside,produces,ROCK,NA,rock,rock (object)
 item_309,SHOVEL,word,outside,produces,SHOVEL,NA,shovel,shovel
-item_310,SLIDE,word,outside,produces,SLIDE,NA,slide,slide (action)
+item_310,SLIDE,word,outside,produces,SLIDE (action),NA,slide (action),slide (action)
 item_311,SNOW,word,outside,produces,SNOW,NA,snow,snow
 item_312,SNOWMAN,word,outside,produces,SNOWMAN,NA,snowman,snowman
 item_313,SPRINKLER,word,outside,produces,SPRINKLER,NA,sprinkler,sprinkler
 item_314,STAR,word,outside,produces,STAR,NA,star,star
 item_315,STREET,word,outside,produces,STREET,NA,street,street
 item_316,SUN,word,outside,produces,SUN,NA,sun,sun
-item_317,SWING,word,outside,produces,SWING,NA,swing,swing (action)
+item_317,SWING,word,outside,produces,SWING (action),NA,swing (action),swing (action)
 item_318,TREE,word,outside,produces,TREE,NA,tree,tree
-item_319,WATER,word,outside,produces,WATER,NA,water,water (not beverage)
+item_319,WATER,word,outside,produces,WATER (not beverage),NA,water (not beverage),water (not beverage)
 item_320,WIND,word,outside,produces,WIND,NA,wind,wind
 item_321,AFTER,word,time_words,produces,AFTER,NA,after,after
 item_322,BEFORE,word,time_words,produces,BEFORE,NA,before,before
@@ -327,7 +327,7 @@ item_349,PLAYGROUND,word,outside,produces,PLAYGROUND,NA,playground,playground
 item_350,SCHOOL,word,outside,produces,SCHOOL,NA,school,school
 item_351,STORE,word,outside,produces,STORE,NA,store,store
 item_352,TOWN,word,outside,produces,TOWN,NA,town,town
-item_353,WORK,word,outside,produces,WORK,NA,work,work (action)
+item_353,WORK,word,outside,produces,WORK (action),NA,work (action),work (action)
 item_354,ZOO,word,outside,produces,ZOO,NA,zoo,zoo
 item_355,AUNT,word,people,produces,AUNT,NA,aunt,aunt
 item_356,BABY,word,people,produces,BABY,NA,baby,baby
@@ -341,7 +341,7 @@ item_363,CLOWN,word,people,produces,CLOWN,NA,clown,clown
 item_364,COWBOY,word,people,produces,COWBOY,NA,cowboy,cowboy
 item_365,DADDY,word,people,produces,DADDY,NA,daddy,daddy
 item_366,DOCTOR,word,people,produces,DOCTOR,NA,doctor,doctor
-item_367,FIREMAN,word,people,produces,FIREMAN,NA,fireman,fireman
+item_367,FIREMAN,word,people,produces,FIREMAN,NA,fireman,firefighter
 item_368,FRIEND,word,people,produces,FRIEND,NA,friend,friend
 item_369,GIRL,word,people,produces,GIRL,NA,girl,girl
 item_370,GRANDMA,word,people,produces,GRANDMA,NA,grandma,grandma
@@ -381,7 +381,7 @@ item_403,CATCH,word,games_routines,produces,CATCH,NA,catch,catch
 item_404,GO POTTY,word,games_routines,produces,GO POTTY,NA,go potty,go potty
 item_405,HI,word,games_routines,produces,HI,NA,hi,hi
 item_406,LUNCH,word,games_routines,produces,LUNCH,NA,lunch,lunch
-item_407,"NAP",word,games_routines,produces,"NAP",NA,nap,nap
+item_407,NAP,word,games_routines,produces,NAP,NA,nap,nap
 item_408,NO,word,games_routines,produces,NO,NA,no,no
 item_409,PEE_BM,word,games_routines,produces,PEE/BM,NA,pee/bm,pee
 item_410,PEEKABOO,word,games_routines,produces,PEEKABOO,NA,peekaboo,peekaboo
@@ -439,7 +439,7 @@ item_461,CRY,word,action_words,produces,CRY,NA,cry,cry
 item_462,CUT,word,action_words,produces,CUT,NA,cut,cut
 item_463,DANCE,word,action_words,produces,DANCE,NA,dance,dance
 item_464,DRAW,word,action_words,produces,DRAW,NA,draw,draw
-item_465,DRINK,word,action_words,produces,DRINK,NA,drink,drink (action)
+item_465,DRINK,word,action_words,produces,DRINK (action),NA,drink (action),drink (action)
 item_466,DRIVE,word,action_words,produces,DRIVE,NA,drive,drive
 item_467,DROP,word,action_words,produces,DROP,NA,drop,drop
 item_468,EAT,word,action_words,produces,EAT,NA,eat,eat
@@ -494,7 +494,7 @@ item_516,SIGN,word,action_words,produces,SIGN,NA,sign,sign (action)
 item_517,SIT,word,action_words,produces,SIT,NA,sit,sit
 item_518,SKATE,word,action_words,produces,SKATE,NA,skate,skate (action)
 item_519,SLEEP,word,action_words,produces,SLEEP,NA,sleep,sleep
-item_520,SLIDE,word,action_words,produces,SLIDE,NA,slide,slide (action)
+item_520,SLIDE,word,action_words,produces,SLIDE (action),NA,slide (action),slide (action)
 item_521,SMILE,word,action_words,produces,SMILE,NA,smile,smile
 item_522,SPILL,word,action_words,produces,SPILL,NA,spill,spill
 item_523,STAND,word,action_words,produces,STAND,NA,stand,stand
@@ -503,7 +503,7 @@ item_525,STOP,word,action_words,produces,STOP,NA,stop,stop
 item_526,SWEEP,word,action_words,produces,SWEEP,NA,sweep,sweep
 item_527,SUPPOSE,word,action_words,produces,SUPPOSE,NA,suppose,NA
 item_528,SWIM,word,action_words,produces,SWIM,NA,swim,swim
-item_529,SWING,word,action_words,produces,SWING,NA,swing,swing (action)
+item_529,SWING,word,action_words,produces,SWING (action),NA,swing (action),swing (action)
 item_530,TALK,word,action_words,produces,TALK,NA,talk,talk
 item_531,TAKE_PILL,word,action_words,produces,TAKE-PILL,NA,take-pill,NA
 item_532,TASTE,word,action_words,produces,TASTE,NA,taste,taste
@@ -517,7 +517,7 @@ item_539,WALK,word,action_words,produces,WALK,NA,walk,walk
 item_540,WASH,word,action_words,produces,WASH,NA,wash,wash
 item_541,WATCH,word,action_words,produces,WATCH,NA,watch,watch (action)
 item_542,WISH,word,action_words,produces,WISH,NA,wish,wish
-item_543,WORK,word,action_words,produces,WORK,NA,work,work (action)
+item_543,WORK,word,action_words,produces,WORK (action),NA,work (action),work (action)
 item_544,BAD,word,descriptive_words,produces,BAD,NA,bad,bad
 item_545,BETTER,word,descriptive_words,produces,BETTER,NA,better,better
 item_546,BIG,word,descriptive_words,produces,BIG,NA,big,big
@@ -551,7 +551,7 @@ item_573,NEW,word,descriptive_words,produces,NEW,NA,new,new
 item_574,NICE,word,descriptive_words,produces,NICE,NA,nice,nice
 item_575,NOISY,word,descriptive_words,produces,NOISY,NA,noisy,loud
 item_576,OLD,word,descriptive_words,produces,OLD,NA,old,old
-item_577,ORANGE,word,descriptive_words,produces,ORANGE,NA,orange,orange (description)
+item_577,ORANGE,word,descriptive_words,produces,ORANGE (description),NA,orange (description),orange (description)
 item_578,POOR,word,descriptive_words,produces,POOR,NA,poor,poor
 item_579,PRETTY,word,descriptive_words,produces,PRETTY,NA,pretty,pretty
 item_580,QUIET,word,descriptive_words,produces,QUIET,NA,quiet,quiet
@@ -595,7 +595,7 @@ item_618,TDD,word,household,produces,TDD,NA,tdd,NA
 item_619,COUSIN,word,people,produces,COUSIN,NA,cousin,cousin
 item_620,INTERPRETER,word,people,produces,INTERPRETER,NA,interpreter,interpreter
 item_621,MONSTER,word,people,produces,MONSTER,NA,monster,monster
-item_622,"NAME_SIGNS",word,people,produces,"NAME SIGNS",NA,name signs,NA
+item_622,NAME_SIGNS,word,people,produces,NAME SIGNS,NA,name signs,NA
 item_623,SPEECH_THERAPIST,word,people,produces,SPEECH THERAPIST,NA,speech therapist,NA
 item_624,BAGEL,word,food_drink,produces,BAGEL,NA,bagel,bagel
 item_625,CARROT,word,food_drink,produces,CARROT,NA,carrot,carrots
@@ -661,7 +661,7 @@ item_684,BLACK,word,descriptive_words,produces,BLACK,NA,black,black
 item_685,BLUE,word,descriptive_words,produces,BLUE,NA,blue,blue
 item_686,BROWN,word,descriptive_words,produces,BROWN,NA,brown,brown
 item_687,GREEN,word,descriptive_words,produces,GREEN,NA,green,green
-item_688,ORANGE,word,descriptive_words,produces,ORANGE,NA,orange,orange (description)
+item_688,ORANGE,word,descriptive_words,produces,ORANGE (description),NA,orange (description),orange (description)
 item_689,PINK,word,descriptive_words,produces,PINK,NA,pink,pink
 item_690,PURPLE,word,descriptive_words,produces,PURPLE,NA,purple,purple
 item_691,RED,word,descriptive_words,produces,RED,NA,red,red

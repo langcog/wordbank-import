@@ -90,7 +90,7 @@ item_88,V4HAVE,word,action_words,produces,NA,有,have,have
 item_89,V4SLEEP,word,action_words,produces,NA,睡觉,sleep,sleep
 item_90,V4COVER,word,action_words,produces,NA,盖上,cover,cover (action)
 item_91,V4PLAY,word,action_words,produces,NA,玩,play,play
-item_92,V4OPEN,word,action_words,produces,NA,开（门）,open,open (action)
+item_92,V4OPEN,word,action_words,produces,NA,开（门）,open (action),open (action)
 item_93,V4GUAN,word,action_words,produces,NA,关,close,close
 item_94,V4DRAW,word,action_words,produces,NA,画画,draw,draw
 item_95,V4HIT,word,action_words,produces,NA,打,hit,hit
@@ -99,9 +99,9 @@ item_97,V4WEAR2,word,action_words,produces,NA,戴,wear,wear
 item_98,V4WASH,word,action_words,produces,NA,洗,wash,wash
 item_99,V4CLEAN,word,action_words,produces,NA,擦,wipe,wipe
 item_100,V4KISS,word,action_words,produces,NA,亲（一个）,kiss,kiss
-item_101,V4FLY,word,action_words,produces,NA,飞,fly,fly (action)
+item_101,V4FLY,word,action_words,produces,NA,飞,fly (action),fly (action)
 item_102,V4LIANG,word,action_words,produces,NA,亮了,brighten,brighten
-item_103,V4DAKAI,word,action_words,produces,NA,打开,open,open (action)
+item_103,V4DAKAI,word,action_words,produces,NA,打开,open (action),open (action)
 item_104,V4GETUP,word,action_words,produces,NA,起来,get up,get up
 item_105,V4PEEL,word,action_words,produces,NA,剥,peel,peel
 item_106,V4CALL,word,action_words,produces,NA,叫,cry,cry
@@ -140,7 +140,7 @@ item_138,V4IS,word,action_words,produces,NA,是（什么）,be,be
 item_139,V4THINK,word,action_words,produces,NA,想,think,think
 item_140,V4KNOW,word,action_words,produces,NA,知道,know,know
 item_141,V4COMB,word,action_words,produces,NA,梳,comb,comb (action)
-item_142,V4SHUA,word,action_words,produces,NA,刷,brush,brush (action)
+item_142,V4SHUA,word,action_words,produces,NA,刷,brush (action),brush (action)
 item_143,V4SING,word,action_words,produces,NA,唱,sing,sing
 item_144,V4LISTN,word,action_words,produces,NA,听,hear,hear
 item_145,V4HEAR,word,action_words,produces,NA,听见,hear,hear
@@ -386,7 +386,7 @@ item_384,A7ANIMAL,word,animals,produces,NA,动物,animal,animal
 item_385,A7DUCK,word,animals,produces,NA,鸭子,duck,duck
 item_386,A7BIRD,word,animals,produces,NA,鸟,bird,bird
 item_387,A7CHICK,word,animals,produces,NA,小鸡,chick,chick
-item_388,A7SWALLO,word,animals,produces,NA,燕子,swallow,swallow (animal)
+item_388,A7SWALLO,word,animals,produces,NA,燕子,swallow (animal),swallow (animal)
 item_389,A7PIGEON,word,animals,produces,NA,鸽子,pigeon,pigeon
 item_390,A7GOOSE,word,animals,produces,NA,鹅,goose,goose
 item_391,A7PENGUI,word,animals,produces,NA,企鹅,penguin,penguin
@@ -404,7 +404,7 @@ item_402,A7DRAGON,word,animals,produces,NA,龙,dragon,dragon
 item_403,A7BUTFLY,word,animals,produces,NA,蝴蝶,butterfly,butterfly
 item_404,A7DRAFLY,word,animals,produces,NA,蜻蜓,dragonfly,dragonfly
 item_405,A7MOSQ,word,animals,produces,NA,蚊子,mosquito,mosquito
-item_406,A7FLY,word,animals,produces,NA,苍蝇,fly,fly (animal)
+item_406,A7FLY,word,animals,produces,NA,苍蝇,fly (animal),fly (animal)
 item_407,A7SNAKE,word,animals,produces,NA,蛇,snake,snake
 item_408,A7ALLIG,word,animals,produces,NA,鳄鱼,alligator,alligator
 item_409,A7CRICK,word,animals,produces,NA,蛐蛐,cricket,cricket
@@ -451,7 +451,7 @@ item_449,X8NEW,word,descriptive_words,produces,NA,新,new,new
 item_450,X8OLD,word,descriptive_words,produces,NA,老,old,old
 item_451,X8HAPPY,word,descriptive_words,produces,NA,高兴/乐/开心,happy,happy
 item_452,X8ANGRY,word,descriptive_words,produces,NA,生气,angry,angry
-item_453,X8WEIQU,word,descriptive_words,produces,NA,委屈,aggrieved,aggrieved
+item_453,X8WEIQU,word,descriptive_words,produces,NA,委屈,aggrieved,upset
 item_454,X8WET,word,descriptive_words,produces,NA,湿,wet,wet (description)
 item_455,X8DRY,word,descriptive_words,produces,NA,干,dry,dry (description)
 item_456,X8LOUD,word,descriptive_words,produces,NA,响,loud,loud
@@ -523,7 +523,7 @@ item_521,H9CLOTH,word,household,produces,NA,（抹）布,cloth,cloth
 item_522,H9BOX,word,household,produces,NA,盒子,box,box
 item_523,H9BASKET,word,household,produces,NA,篮子,basket,basket
 item_524,H9BUCKET,word,household,produces,NA,桶,bucket,bucket
-item_525,H9BRUSH,word,household,produces,NA,刷子,brush,brush (object)
+item_525,H9BRUSH,word,household,produces,NA,刷子,brush (object),brush (object)
 item_526,H9MOP,word,household,produces,NA,笤帚,broom,broom
 item_527,H9RAG,word,household,produces,NA,托把/墩布,rag,rag
 item_528,H9GARBAG,word,household,produces,NA,垃圾,trash,trash
@@ -614,7 +614,7 @@ item_612,O13BRANC,word,outside,produces,NA,树枝,branch,branch
 item_613,O13GRASS,word,outside,produces,NA,草,grass,grass
 item_614,O13EARTH,word,outside,produces,NA,土,earth,soil
 item_615,O13WATER,word,outside,produces,NA,水,water (not beverage),water (not beverage)
-item_616,O13RAIN,word,outside,produces,NA,雨,rain,rain
+item_616,O13RAIN,word,outside,produces,NA,雨,rain,rain (weather)
 item_617,O13SNOW,word,outside,produces,NA,雪,snow,snow
 item_618,O13WIND,word,outside,produces,NA,风,wind,wind
 item_619,O13STONE,word,outside,produces,NA,石头,stone,stone

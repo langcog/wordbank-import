@@ -20,7 +20,7 @@ item_82,word,food_drink,leipä  ,leipä  ,bread,bread
 item_84,word,food_drink,maito  ,maito  ,milk,milk
 item_88,word,food_drink,mehu  ,mehu  ,juice,juice
 item_92,word,food_drink,puuro  ,puuro  ,porridge,porridge
-item_97,word,food_drink,vesi ,vesi ,water,water
+item_97,word,food_drink,vesi ,vesi ,water,water (beverage)
 item_100,word,clothing,hattu  ,hattu  ,hat,hat
 item_101,word,clothing,housut ,housut ,pants,pants
 item_103,word,clothing,kenkä ,kenkä ,shoe,shoe
@@ -47,7 +47,7 @@ item_205,word,outside,koti  ,koti  ,home,home
 item_207,word,outside,kukka  ,kukka  ,flower,flower
 item_208,word,outside,kuu ,kuu ,moon,moon
 item_214,word,outside,puu ,puu ,tree,tree
-item_217,word,outside,sade  ,sade  ,rain,rain
+item_217,word,outside,sade  ,sade  ,rain,rain (weather)
 item_220,word,outside,tähti,tähti,star,star
 item_222,word,people,isä ,isä ,father,daddy
 item_225,word,people,mummo/mummi  ,mummo/mummi  ,grandmother,grandma

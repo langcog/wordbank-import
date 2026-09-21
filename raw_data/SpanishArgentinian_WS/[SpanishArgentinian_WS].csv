@@ -38,7 +38,7 @@ item_36,leon,leon,animals,word,produces,NA,lion,lion
 item_37,lobo,lobo,animals,word,produces,NA,wolf,wolf
 item_38,mariposa,mariposa,animals,word,produces,NA,butterfly,butterfly
 item_39,mono,mono,animals,word,produces,NA,monkey,monkey
-item_40,mosca,mosca,animals,word,produces,NA,fly,fly (animal)
+item_40,mosca,mosca,animals,word,produces,NA,fly (animal),fly (animal)
 item_41,mosquito,mosquito,animals,word,produces,NA,mosquito,mosquito
 item_42,oso,oso,animals,word,produces,NA,bear,bear
 item_43,oveja,oveja,animals,word,produces,NA,sheep,sheep
@@ -143,7 +143,7 @@ item_141,anteojos_lentes,anteojos_lentes,clothing,word,produces,NA,glasses,glass
 item_142,aros,aros,clothing,word,produces,NA,earrings,earring
 item_143,babero,babero,clothing,word,produces,NA,bib,bib
 item_144,bombacha,bombacha,clothing,word,produces,NA,panties,underpants
-item_145,botas,botas,clothing,word,produces,NA,boots,boots
+item_145,botas,botas,clothing,word,produces,NA,boots,boot
 item_146,botón,botón,clothing,word,produces,NA,button,button
 item_147,bufanda,bufanda,clothing,word,produces,NA,scarf,scarf
 item_148,buzo,buzo,clothing,word,produces,NA,sweatshirt,sweatshirt
@@ -310,10 +310,10 @@ item_308,cucha,cucha,outside,word,produces,NA,pet´s bed,NA
 item_309,estrella,estrella,outside,word,produces,NA,star,star
 item_310,flor,flor,outside,word,produces,NA,flower,flower
 item_311,fuego,fuego,outside,word,produces,NA,fire,fire
-item_312,hamaca,hamaca,outside,word,produces,NA,swing,swing (object)
+item_312,hamaca,hamaca,outside,word,produces,NA,swing (object),swing (object)
 item_313,hojas,hojas,outside,word,produces,NA,leaves,leaf
 item_314,humo,humo,outside,word,produces,NA,smoke,smoke
-item_315,lluvia,lluvia,outside,word,produces,NA,rain,rain
+item_315,lluvia,lluvia,outside,word,produces,NA,rain,rain (weather)
 item_316,luna,luna,outside,word,produces,NA,moon,moon
 item_317,maceta,maceta,outside,word,produces,NA,flower pot,flower pot
 item_318,manguera,manguera,outside,word,produces,NA,hose,hose
@@ -494,7 +494,7 @@ item_492,guardar,guardar,action_words,word,produces,NA,save,save
 item_493,gustar,gustar,action_words,word,produces,NA,like,like
 item_494,hablar,hablar,action_words,word,produces,NA,talk,talk
 item_495,hacer,hacer,action_words,word,produces,NA,do,do
-item_496,hamacar,hamacar,action_words,word,produces,NA,swing,swing (action)
+item_496,hamacar,hamacar,action_words,word,produces,NA,swing (action),swing (action)
 item_497,nadar,nadar,action_words,word,produces,NA,swim,swim
 item_498,oír,oír,action_words,word,produces,NA,hear,hear
 item_499,parar_se,parar_se,action_words,word,produces,NA,"get up, stand up",get up
@@ -519,7 +519,7 @@ item_517,tomar_se,tomar_se,action_words,word,produces,NA,take,take
 item_518,traer_se,traer_se,action_words,word,produces,NA,bring,bring
 item_519,venir_se,venir_se,action_words,word,produces,NA,come,come
 item_520,ver_se,ver_se,action_words,word,produces,NA,see,see
-item_521,volar,volar,action_words,word,produces,NA,fly,fly (action)
+item_521,volar,volar,action_words,word,produces,NA,fly (action),fly (action)
 item_522,estar,estar,helping_verbs,word,produces,NA,be,be
 item_523,haber,haber,helping_verbs,word,produces,NA,have,have
 item_524,ser,ser,helping_verbs,word,produces,NA,be,be

@@ -189,7 +189,7 @@ item_224,NA,word,understands; produces,household,vysávač,NA,vacuum cleaner,vac
 item_225,NA,word,understands; produces,household,zástrčka / elektrika,NA,electrical plug,outlet
 item_226,NA,word,understands; produces,household,zvonček,NA,bell,bell
 item_227,NA,word,understands; produces,outside,búda,NA,shed,shed
-item_228,NA,word,understands; produces,outside,dážď,NA,the rain,rain
+item_228,NA,word,understands; produces,outside,dážď,NA,the rain,rain (weather)
 item_229,NA,word,understands; produces,outside,dom,NA,House,house
 item_230,NA,word,understands; produces,outside,domov,NA,Home,home
 item_231,NA,word,understands; produces,outside,garáž,NA,garage,garage

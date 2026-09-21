@@ -33,7 +33,7 @@ item_52,turtle,word,animals,understands; produces,turtle,turtle,turtle
 item_53,wolf,word,animals,understands; produces,wolf,wolf,wolf
 item_54,belt,word,clothing,understands; produces,belt,belt,belt
 item_55,bib,word,clothing,understands; produces,bib,bib,bib
-item_56,boot,word,clothing,understands; produces,boot,boot,boots
+item_56,boot,word,clothing,understands; produces,boot,boot,boot
 item_57,button,word,clothing,understands; produces,button,button,button
 item_58,clothesdress,word,clothing,understands; produces,clothes/dress,clothes/dress,dress (object)
 item_59,coatjacket,word,clothing,understands; produces,coat/jacket,coat/jacket,coat
@@ -279,7 +279,7 @@ item_298,hose,word,outside,understands; produces,hose,hose,hose
 item_299,ladder,word,outside,understands; produces,ladder,ladder,ladder
 item_300,lawnmower,word,outside,understands; produces,lawn mower,lawn mower,lawn mower
 item_301,moon,word,outside,understands; produces,moon,moon,moon
-item_302,rain,word,outside,understands; produces,rain,rain,rain
+item_302,rain,word,outside,understands; produces,rain,rain,rain (weather)
 item_303,rock,word,outside,understands; produces,rock,rock,rock (object)
 item_304,spade,word,outside,understands; produces,spade,spade,spade
 item_305,slide,word,outside,understands; produces,slide,slide,slide (object)

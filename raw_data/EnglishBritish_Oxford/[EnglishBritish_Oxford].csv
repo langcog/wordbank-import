@@ -18,14 +18,14 @@ item_16,16_bird,animals,understands; produces,bird,word,NA,bird,bird
 item_17,17_bunny_rabbit,animals,understands; produces,bunny / rabbit,word,NA,bunny / rabbit,bunny
 item_18,18_butterfly,animals,understands; produces,butterfly,word,NA,butterfly,butterfly
 item_19,19_cat,animals,understands; produces,cat,word,NA,cat,cat
-item_20,20_chicken,animals,understands; produces,chicken,word,NA,chicken,chicken (animal)
+item_20,20_chicken,animals,understands; produces,chicken (animal),word,NA,chicken (animal),chicken (animal)
 item_21,21_cow,animals,understands; produces,cow,word,NA,cow,cow
 item_22,22_deer,animals,understands; produces,deer,word,NA,deer,deer
 item_23,23_dog,animals,understands; produces,dog,word,NA,dog,dog
 item_24,24_donkey,animals,understands; produces,donkey,word,NA,donkey,donkey
 item_25,25_duck,animals,understands; produces,duck,word,NA,duck,duck
 item_26,26_elephant,animals,understands; produces,elephant,word,NA,elephant,elephant
-item_27,27_fish,animals,understands; produces,fish,word,NA,fish,fish (animal)
+item_27,27_fish,animals,understands; produces,fish (animal),word,NA,fish (animal),fish (animal)
 item_28,28_frog,animals,understands; produces,frog,word,NA,frog,frog
 item_29,29_giraffe,animals,understands; produces,giraffe,word,NA,giraffe,giraffe
 item_30,30_goose,animals,understands; produces,goose,word,NA,goose,goose
@@ -74,12 +74,12 @@ item_72,72_cake,food_drink,understands; produces,cake,word,NA,cake,cake
 item_73,73_carrot,food_drink,understands; produces,carrot,word,NA,carrot,carrot
 item_74,74_cereal,food_drink,understands; produces,cereal,word,NA,cereal,cereal
 item_75,75_cheese,food_drink,understands; produces,cheese,word,NA,cheese,cheese
-item_76,76_chicken,food_drink,understands; produces,chicken,word,NA,chicken,chicken (food)
+item_76,76_chicken,food_drink,understands; produces,chicken (food),word,NA,chicken (food),chicken (food)
 item_77,77_chips,food_drink,understands; produces,chips,word,NA,chips,french fries
 item_78,78_coffee,food_drink,understands; produces,coffee,word,NA,coffee,coffee
-item_79,79_drink,food_drink,understands; produces,drink,word,NA,drink,drink (beverage)
+item_79,79_drink,food_drink,understands; produces,drink (beverage),word,NA,drink (beverage),drink (beverage)
 item_80,80_egg,food_drink,understands; produces,egg,word,NA,egg,egg
-item_81,81_fish,food_drink,understands; produces,fish,word,NA,fish,fish (food)
+item_81,81_fish,food_drink,understands; produces,fish (food),word,NA,fish (food),fish (food)
 item_82,82_food,food_drink,understands; produces,food,word,NA,food,food
 item_83,83_ice_cream,food_drink,understands; produces,ice cream,word,NA,ice cream,ice cream
 item_84,84_jam,food_drink,understands; produces,jam,word,NA,jam,jam
@@ -93,7 +93,7 @@ item_91,91_pizza,food_drink,understands; produces,pizza,word,NA,pizza,pizza
 item_92,92_sweets,food_drink,understands; produces,sweets,word,NA,sweets,sweets
 item_93,93_tea,food_drink,understands; produces,tea,word,NA,tea,tea
 item_94,94_toast,food_drink,understands; produces,toast,word,NA,toast,toast
-item_95,95_water,food_drink,understands; produces,water,word,NA,water,water (beverage)
+item_95,95_water,food_drink,understands; produces,water (beverage),word,NA,water (beverage),water (beverage)
 item_96,96_arm,body_parts,understands; produces,arm,word,NA,arm,arm
 item_97,97_belly_button_tummy_button,body_parts,understands; produces,belly button / tummy button,word,NA,belly button / tummy button,belly button
 item_98,98_cheek,body_parts,understands; produces,cheek,word,NA,cheek,cheek
@@ -115,7 +115,7 @@ item_113,113_toe,body_parts,understands; produces,toe,word,NA,toe,toe
 item_114,114_tummy,body_parts,understands; produces,tummy,word,NA,tummy,tummy
 item_115,115_mouth,body_parts,understands; produces,mouth,word,NA,mouth,mouth
 item_116,116_bib,clothing,understands; produces,bib,word,NA,bib,bib
-item_117,117_boots,clothing,understands; produces,boot(s),word,NA,boot(s),boots
+item_117,117_boots,clothing,understands; produces,boot(s),word,NA,boot(s),boot
 item_118,118_button,clothing,understands; produces,button,word,NA,button,button
 item_119,119_coat,clothing,understands; produces,coat,word,NA,coat,coat
 item_120,120_dress,clothing,understands; produces,dress,word,NA,dress,dress (object)
@@ -174,13 +174,13 @@ item_172,172_outside,outside,understands; produces,outside,word,NA,outside,outsi
 item_173,173_park,outside,understands; produces,park,word,NA,park,park
 item_174,174_party,outside,understands; produces,party,word,NA,party,party
 item_175,175_pool,outside,understands; produces,pool,word,NA,pool,pool
-item_176,176_rain,outside,understands; produces,rain,word,NA,rain,rain
+item_176,176_rain,outside,understands; produces,rain,word,NA,rain,rain (weather)
 item_177,177_school,outside,understands; produces,school,word,NA,school,school
 item_178,178_shop,outside,understands; produces,shop,word,NA,shop,store
-item_179,179_swing,outside,understands; produces,swing,word,NA,swing,swing (object)
+item_179,179_swing,outside,understands; produces,swing (object),word,NA,swing (object),swing (object)
 item_180,180_tree,outside,understands; produces,tree,word,NA,tree,tree
 item_181,181_wall,outside,understands; produces,wall,word,NA,wall,wall
-item_182,182_water,outside,understands; produces,water,word,NA,water,water (not beverage)
+item_182,182_water,outside,understands; produces,water (not beverage),word,NA,water (not beverage),water (not beverage)
 item_183,183_work,outside,understands; produces,work,word,NA,work,work (place)
 item_184,184_zoo,outside,understands; produces,zoo,word,NA,zoo,zoo
 item_185,185_bin,household,understands; produces,bin,word,NA,bin,basket
@@ -221,7 +221,7 @@ item_219,219_spoon,household,understands; produces,spoon,word,NA,spoon,spoon
 item_220,220_telephone,household,understands; produces,telephone,word,NA,telephone,telephone
 item_221,221_toothbrush,household,understands; produces,toothbrush,word,NA,toothbrush,toothbrush
 item_222,222_towel,household,understands; produces,towel,word,NA,towel,towel
-item_223,223_watch,household,understands; produces,watch,word,NA,watch,watch (object)
+item_223,223_watch,household,understands; produces,watch (object),word,NA,watch (object),watch (object)
 item_224,224_aunt,people,understands; produces,aunt,word,NA,aunt,aunt
 item_225,225_baby,people,understands; produces,baby,word,NA,baby,baby
 item_226,226_boy,people,understands; produces,boy,word,NA,boy,boy
@@ -271,13 +271,13 @@ item_269,269_bump,action_words,understands; produces,bump,word,NA,bump,bump
 item_270,270_call,action_words,understands; produces,call,word,NA,call,call
 item_271,271_carry,action_words,understands; produces,carry,word,NA,carry,carry
 item_272,272_catch,action_words,understands; produces,catch,word,NA,catch,catch
-item_273,273_clean,action_words,understands; produces,clean,word,NA,clean,clean (action)
+item_273,273_clean,action_words,understands; produces,clean (action),word,NA,clean (action),clean (action)
 item_274,274_cry,action_words,understands; produces,cry,word,NA,cry,cry
 item_275,275_cuddle,action_words,understands; produces,cuddle,word,NA,cuddle,cuddle
 item_276,276_cut,action_words,understands; produces,cut,word,NA,cut,cut
 item_277,277_dance,action_words,understands; produces,dance,word,NA,dance,dance
 item_278,278_draw,action_words,understands; produces,draw,word,NA,draw,draw
-item_279,279_drink,action_words,understands; produces,drink,word,NA,drink,drink (action)
+item_279,279_drink,action_words,understands; produces,drink (action),word,NA,drink (action),drink (action)
 item_280,280_drive,action_words,understands; produces,drive,word,NA,drive,drive
 item_281,281_drop,action_words,understands; produces,drop,word,NA,drop,drop
 item_282,282_eat,action_words,understands; produces,eat,word,NA,eat,eat
@@ -321,14 +321,14 @@ item_319,319_smile,action_words,understands; produces,smile,word,NA,smile,smile
 item_320,320_splash,action_words,understands; produces,splash,word,NA,splash,splash
 item_321,321_stop,action_words,understands; produces,stop,word,NA,stop,stop
 item_322,322_swim,action_words,understands; produces,swim,word,NA,swim,swim
-item_323,323_swing,action_words,understands; produces,swing,word,NA,swing,swing (action)
+item_323,323_swing,action_words,understands; produces,swing (action),word,NA,swing (action),swing (action)
 item_324,324_take,action_words,understands; produces,take,word,NA,take,take
 item_325,325_tell,action_words,understands; produces,tell,word,NA,tell,tell
 item_326,326_throw,action_words,understands; produces,throw,word,NA,throw,throw
 item_327,327_tickle,action_words,understands; produces,tickle,word,NA,tickle,tickle
 item_328,328_walk,action_words,understands; produces,walk,word,NA,walk,walk
 item_329,329_wash,action_words,understands; produces,wash,word,NA,wash,wash
-item_330,330_watch,action_words,understands; produces,watch,word,NA,watch,watch (action)
+item_330,330_watch,action_words,understands; produces,watch (action),word,NA,watch (action),watch (action)
 item_331,331_wipe,action_words,understands; produces,wipe,word,NA,wipe,wipe
 item_332,332_write,action_words,understands; produces,write,word,NA,write,write
 item_333,333_all_gone,descriptive_words,understands; produces,all gone,word,NA,all gone,all gone
@@ -338,7 +338,7 @@ item_336,336_big,descriptive_words,understands; produces,big,word,NA,big,big
 item_337,337_blue,descriptive_words,understands; produces,blue,word,NA,blue,blue
 item_338,338_broken,descriptive_words,understands; produces,broken,word,NA,broken,broken
 item_339,339_careful,descriptive_words,understands; produces,careful,word,NA,careful,careful
-item_340,340_clean,descriptive_words,understands; produces,clean,word,NA,clean,clean (description)
+item_340,340_clean,descriptive_words,understands; produces,clean (description),word,NA,clean (description),clean (description)
 item_341,341_cold,descriptive_words,understands; produces,cold,word,NA,cold,cold
 item_342,342_dark,descriptive_words,understands; produces,dark,word,NA,dark,dark
 item_343,343_dirty,descriptive_words,understands; produces,dirty,word,NA,dirty,dirty
@@ -384,9 +384,9 @@ item_382,382_now,time_words,understands; produces,now,word,NA,now,now
 item_383,383_today,time_words,understands; produces,today,word,NA,today,today
 item_384,384_tomorrow,time_words,understands; produces,tomorrow,word,NA,tomorrow,tomorrow
 item_385,385_tonight,time_words,understands; produces,tonight,word,NA,tonight,tonight
-item_386,386_her,pronouns,understands; produces,her,word,NA,her,her
+item_386,386_her,pronouns,understands; produces,her,word,NA,her,3SG.POSS
 item_387,387_his,pronouns,understands; produces,his,word,NA,his,his
-item_388,388_I,pronouns,understands; produces,I,word,NA,I,I
+item_388,388_I,pronouns,understands; produces,I,word,NA,I,1SG
 item_389,389_it,pronouns,understands; produces,it,word,NA,it,it
 item_390,390_me,pronouns,understands; produces,me,word,NA,me,me
 item_391,391_mine,pronouns,understands; produces,mine,word,NA,mine,mine

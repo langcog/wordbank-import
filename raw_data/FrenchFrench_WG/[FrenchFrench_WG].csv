@@ -87,7 +87,7 @@ item_120,item_120,word,food_drink,understands; produces,jus de fruit,Nourriture 
 item_121,item_121,word,food_drink,understands; produces,lait,Nourriture et boisson,milk,milk
 item_122,item_122,word,food_drink,understands; produces,nourriture,Nourriture et boisson,food,food
 item_123,item_123,word,food_drink,understands; produces,œuf,Nourriture et boisson,egg,egg
-item_124,item_124,word,food_drink,understands; produces,orange,Nourriture et boisson,orange (fruit),orange (food)
+item_124,item_124,word,food_drink,understands; produces,orange (food),Nourriture et boisson,orange (fruit),orange (food)
 item_125,item_125,word,food_drink,understands; produces,pain,Nourriture et boisson,bread,bread
 item_126,item_126,word,food_drink,understands; produces,pâtes,Nourriture et boisson,pasta,pasta
 item_127,item_127,word,food_drink,understands; produces,petits gâteaux,Nourriture et boisson,small cake,muffin
@@ -154,7 +154,7 @@ item_187,item_187,word,people,understands; produces,tante,Personnes,aunt,aunt
 item_188,item_188,word,clothing,understands; produces,basket,Vêtements,trainers,sneaker
 item_189,item_189,word,clothing,understands; produces,bavoir/bavette,Vêtements,bib,bib
 item_190,item_190,word,clothing,understands; produces,body,Vêtements,(??),NA
-item_191,item_191,word,clothing,understands; produces,bottes,NA,boots,boots
+item_191,item_191,word,clothing,understands; produces,bottes,NA,boots,boot
 item_192,item_192,word,clothing,understands; produces,boutons,NA,button,button
 item_193,item_193,word,clothing,understands; produces,ceinture,Vêtements,belt,belt
 item_194,item_194,word,clothing,understands; produces,chapeau,Vêtements,hat,hat
@@ -250,34 +250,34 @@ item_283,item_283,word,furniture_rooms,understands; produces,salon,Meubles et pi
 item_284,item_284,word,furniture_rooms,understands; produces,table,Meubles et pièces,table,table
 item_285,item_285,word,furniture_rooms,understands; produces,télé,Meubles et pièces,tv,TV
 item_286,item_286,word,furniture_rooms,understands; produces,tiroir,Meubles et pièces,drawer,drawer
-item_287,item_287,word,outside_places,understands; produces,arbre,Objets extérieurs,NA,tree
-item_288,item_288,word,outside_places,understands; produces,balançoire,Objets extérieurs,NA,swing (object)
-item_289,item_289,word,outside_places,understands; produces,caillou,Objets extérieurs,NA,rock (object)
-item_290,item_290,word,outside_places,understands; produces,ciel,Objets extérieurs,NA,sky
-item_291,item_291,word,outside_places,understands; produces,cour,Endroits où aller,NA,yard
-item_292,item_292,word,outside_places,understands; produces,crèche,Endroits où aller,NA,nursery
-item_293,item_293,word,outside_places,understands; produces,dehors,Endroits où aller,NA,outside
-item_294,item_294,word,outside_places,understands; produces,eau,Objets extérieurs,NA,water (not beverage)
-item_295,item_295,word,outside_places,understands; produces,école,Endroits où aller,NA,school
-item_296,item_296,word,outside_places,understands; produces,église,Endroits où aller,NA,church
-item_297,item_297,word,outside_places,understands; produces,étoile,Objets extérieurs,NA,star
-item_298,item_298,word,outside_places,understands; produces,fête,Endroits où aller,NA,party
-item_299,item_299,word,outside_places,understands; produces,fleur,Objets extérieurs,NA,flower
-item_300,item_300,word,outside_places,understands; produces,garderie,Endroits où aller,NA,nursery
-item_301,item_301,word,outside_places,understands; produces,jardin,Objets extérieurs,NA,garden
-item_302,item_302,word,outside_places,understands; produces,lune,Objets extérieurs,NA,moon
-item_303,item_303,word,outside_places,understands; produces,magasin,Endroits où aller,NA,store
-item_304,item_304,word,outside_places,understands; produces,maison,Endroits où aller,NA,house
-item_305,item_305,word,outside_places,understands; produces,neige,NA,NA,snow
-item_306,item_306,word,outside_places,understands; produces,parc,Endroits où aller,NA,park
-item_307,item_307,word,outside_places,understands; produces,pelle,Objets extérieurs,NA,shovel
-item_308,item_308,word,outside_places,understands; produces,piscine,Objets extérieurs,NA,pool
-item_309,item_309,word,outside_places,understands; produces,plage,Endroits où aller,NA,beach
-item_310,item_310,word,outside_places,understands; produces,pluie,Objets extérieurs,NA,rain
-item_311,item_311,word,outside_places,understands; produces,soleil,Objets extérieurs,NA,sun
-item_312,item_312,word,outside_places,understands; produces,toboggan,Objets extérieurs,NA,slide (object)
-item_313,item_313,word,outside_places,understands; produces,travail,Endroits où aller,NA,work (place)
-item_314,item_314,word,outside_places,understands; produces,zoo,Endroits où aller,NA,zoo
+item_287,item_287,word,outside,understands; produces,arbre,Objets extérieurs,NA,tree
+item_288,item_288,word,outside,understands; produces,balançoire,Objets extérieurs,NA,swing (object)
+item_289,item_289,word,outside,understands; produces,caillou,Objets extérieurs,NA,rock (object)
+item_290,item_290,word,outside,understands; produces,ciel,Objets extérieurs,NA,sky
+item_291,item_291,word,places,understands; produces,cour,Endroits où aller,NA,yard
+item_292,item_292,word,places,understands; produces,crèche,Endroits où aller,NA,nursery
+item_293,item_293,word,places,understands; produces,dehors,Endroits où aller,NA,outside
+item_294,item_294,word,outside,understands; produces,eau,Objets extérieurs,NA,water (not beverage)
+item_295,item_295,word,places,understands; produces,école,Endroits où aller,NA,school
+item_296,item_296,word,places,understands; produces,église,Endroits où aller,NA,church
+item_297,item_297,word,outside,understands; produces,étoile,Objets extérieurs,NA,star
+item_298,item_298,word,places,understands; produces,fête,Endroits où aller,NA,party
+item_299,item_299,word,outside,understands; produces,fleur,Objets extérieurs,NA,flower
+item_300,item_300,word,places,understands; produces,garderie,Endroits où aller,NA,nursery
+item_301,item_301,word,outside,understands; produces,jardin,Objets extérieurs,NA,garden
+item_302,item_302,word,outside,understands; produces,lune,Objets extérieurs,NA,moon
+item_303,item_303,word,places,understands; produces,magasin,Endroits où aller,NA,store
+item_304,item_304,word,places,understands; produces,maison,Endroits où aller,NA,house
+item_305,item_305,word,outside,understands; produces,neige,NA,NA,snow
+item_306,item_306,word,places,understands; produces,parc,Endroits où aller,NA,park
+item_307,item_307,word,outside,understands; produces,pelle,Objets extérieurs,NA,shovel
+item_308,item_308,word,outside,understands; produces,piscine,Objets extérieurs,NA,pool
+item_309,item_309,word,places,understands; produces,plage,Endroits où aller,NA,beach
+item_310,item_310,word,outside,understands; produces,pluie,Objets extérieurs,NA,rain (weather)
+item_311,item_311,word,outside,understands; produces,soleil,Objets extérieurs,NA,sun
+item_312,item_312,word,outside,understands; produces,toboggan,Objets extérieurs,NA,slide (object)
+item_313,item_313,word,places,understands; produces,travail,Endroits où aller,NA,work (place)
+item_314,item_314,word,places,understands; produces,zoo,Endroits où aller,NA,zoo
 item_315,item_315,word,vehicles,understands; produces,avion,Véhicules ( vrais ou jouets),airplane,airplane
 item_316,item_316,word,vehicles,understands; produces,bus,Véhicules ( vrais ou jouets),bus,bus
 item_317,item_317,word,vehicles,understands; produces,camion,Véhicules ( vrais ou jouets),truck,truck
@@ -529,7 +529,7 @@ item_624,item_624,word,locations,understands; produces,à l'intérieur de,Prépo
 item_625,item_625,word,locations,understands; produces,près de,Prépositions et localisations,near,near
 item_626,item_626,word,locations,understands; produces,de,Prépositions et localisations,of,of
 item_627,item_627,word,locations,understands; produces,au loin,Prépositions et localisations,far,far
-item_628,item_628,word,locations,understands; produces,au sommet de,Prépositions et localisations,at the top of,on top
+item_628,item_628,word,locations,understands; produces,au sommet de,Prépositions et localisations,at the top of,on top of
 item_629,item_629,word,locations,understands; produces,par dessus,Prépositions et localisations,NA,above
 item_630,item_630,word,locations,understands; produces,vers,Prépositions et localisations,towards,towards
 item_631,item_631,word,locations,understands; produces,avec,Prépositions et localisations,with,with
@@ -636,7 +636,7 @@ item_731,item_731,word,descriptive_words,understands; produces,fort/e,Mots descr
 item_732,item_732,word,descriptive_words,understands; produces,fou/folle,Mots descriptifs,NA,crazy
 item_733,item_733,word,descriptive_words,understands; produces,neuf/ve,Mots descriptifs,new,new
 item_734,item_734,word,descriptive_words,understands; produces,bruyant/e,Mots descriptifs,loud,loud
-item_735,item_735,word,descriptive_words,understands; produces,orange,Mots descriptifs,orange (description),orange (description)
+item_735,item_735,word,descriptive_words,understands; produces,orange (description),Mots descriptifs,orange (description),orange (description)
 item_736,item_736,word,descriptive_words,understands; produces,tranquille,Mots descriptifs,calm,calm
 item_737,item_737,word,descriptive_words,understands; produces,triste,Mots descriptifs,sad,sad
 item_738,item_738,word,descriptive_words,understands; produces,lent/e,Mots descriptifs,slow,slow

@@ -58,7 +58,7 @@ item_56,B11,word,動物の名前,animals,カラス,Karasu,Crow,crow
 item_57,B12,word,動物の名前,animals,きりん,Kirin,Giraffe ,giraffe
 item_58,B13,word,動物の名前,animals,くま,Kuma,Bear,bear
 item_59,B14,word,動物の名前,animals,コアラ,Koara,Koala,koala
-item_60,B15,word,動物の名前,animals,さかな,Sakana,Fish,fish (animal)
+item_60,B15,word,動物の名前,animals,さかな,Sakana,Fish (animal),fish (animal)
 item_61,B16,word,動物の名前,animals,さる,Saru,Monkey,monkey
 item_62,B17,word,動物の名前,animals,しまうま,Shimauma,Zebra,zebra
 item_63,B18,word,動物の名前,animals,ぞう,Zou,Elephant,elephant
@@ -66,7 +66,7 @@ item_64,B19,word,動物の名前,animals,チョウチョ,Choucho,Butterfly,butte
 item_65,B20,word,動物の名前,animals,どうぶつ,Doubutsu,Animal,animal
 item_66,B21,word,動物の名前,animals,トラ,Tora,Tiger,tiger
 item_67,B22,word,動物の名前,animals,とり,Tori,Bird,bird
-item_68,B23,word,動物の名前,animals,にわとり,Niwatori,Chicken,chicken
+item_68,B23,word,動物の名前,animals,にわとり,Niwatori,Chicken,chicken (animal)
 item_69,B24,word,動物の名前,animals,ねこ,Neko,Cat,cat
 item_70,B25,word,動物の名前,animals,ねずみ,Nezumi,Mouse,mouse
 item_71,B26,word,動物の名前,animals,はち,Hachi,Bee,bee
@@ -107,7 +107,7 @@ item_105,E7,word,食べ物と飲み物,food_drink,カレー,Karee,Curry,
 item_106,E8,word,食べ物と飲み物,food_drink,牛乳,Gyuunyuu,Milk,milk
 item_107,E9,word,食べ物と飲み物,food_drink,ケーキ,Keeki,Cake,cake
 item_108,E10,word,食べ物と飲み物,food_drink,ごはん（お米のこと）,Gohan,Rice,rice
-item_109,E11,word,食べ物と飲み物,food_drink,さかな,Sakana,Fish,fish (animal)
+item_109,E11,word,食べ物と飲み物,food_drink,さかな,Sakana,Fish (animal),fish (animal)
 item_110,E12,word,食べ物と飲み物,food_drink,ジュース,Juusu,Juice,juice
 item_111,E13,word,食べ物と飲み物,food_drink,すいか,Suika,Watermelon,watermelon
 item_112,E14,word,食べ物と飲み物,food_drink,たまご,Tamago,Egg,egg
@@ -138,7 +138,7 @@ item_136,F8,word,衣類,clothing,ジャンパー,Janpaa,Jacket,jacket
 item_137,F9,word,衣類,clothing,スカート,Sukaato,Skirt,skirt
 item_138,F10,word,衣類,clothing,ズボン,Zubon,Pants,pants
 item_139,F11,word,衣類,clothing,てぶくろ,Tebukuro,Gloves,gloves
-item_140,F12,word,衣類,clothing,長ぐつ,Nagagutsu,Boots,boots
+item_140,F12,word,衣類,clothing,長ぐつ,Nagagutsu,Boots,boot
 item_141,F13,word,衣類,clothing,パジャマ,Pajama,Pajama,pajamas
 item_142,F14,word,衣類,clothing,パンツ,Pantsu,Shorts,shorts
 item_143,F15,word,衣類,clothing,ベルト,Beruto,Belt,belt
@@ -226,7 +226,7 @@ item_224,I33,word,小さな家庭用品,household,ほうき,Houki,Broom,broom
 item_225,I34,word,小さな家庭用品,household,枕,Makura,Pillow,pillow
 item_226,I35,word,小さな家庭用品,household,めがね,Megane,Glasses,glasses
 item_227,I36,word,小さな家庭用品,household,毛布,Moufu,Blanket,blanket
-item_228,J1,word,戸外の物と場所,outside,雨,Ame,Rain,rain
+item_228,J1,word,戸外の物と場所,outside,雨,Ame,Rain,rain (weather)
 item_229,J2,word,戸外の物と場所,outside,家,Ie,House,house
 item_230,J3,word,戸外の物と場所,outside,海,Umi,Sea,sea
 item_231,J4,word,戸外の物と場所,outside,おうち,Ouchi,House,house
@@ -401,8 +401,8 @@ item_399,P6,word,代名詞,pronouns,これ,kore,This,this
 item_400,P7,word,代名詞,pronouns,そこ,Soko,There,there
 item_401,P8,word,代名詞,pronouns,そっち,Socchi,there,there
 item_402,P9,word,代名詞,pronouns,それ,Sore,It,it
-item_403,P10,word,代名詞,pronouns,ぼく,Boku,I,I
-item_404,P11,word,代名詞,pronouns,わたし,Watashi,I,I
+item_403,P10,word,代名詞,pronouns,ぼく,Boku,I,1SG
+item_404,P11,word,代名詞,pronouns,わたし,Watashi,I,1SG
 item_405,Q1,word,質問のことば,question_words,だれ,Dare,Who,who
 item_406,Q2,word,質問のことば,question_words,どこ,Doko,Where,where (question)
 item_407,Q3,word,質問のことば,question_words,どっち,Docchi,Which,which (question)

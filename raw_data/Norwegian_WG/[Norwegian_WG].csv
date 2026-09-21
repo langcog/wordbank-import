@@ -18,7 +18,7 @@ item_47,i_5_5,word,animals,understands; produces,dyr,NA,animals,animal
 item_48,i_5_6,word,animals,understands; produces,ekorn,NA,Squirrel,squirrel
 item_49,i_5_7,word,animals,understands; produces,elefant,NA,elephant,elephant
 item_50,i_5_8,word,animals,understands; produces,elg,NA,moose,moose
-item_51,i_5_9,word,animals,understands; produces,fisk (animal),NA,fish,fish (animal)
+item_51,i_5_9,word,animals,understands; produces,fisk (animal),NA,fish (animal),fish (animal)
 item_52,i_5_10,word,animals,understands; produces,flue,NA,fly,fly (animal)
 item_53,i_5_11,word,animals,understands; produces,frosk,NA,frog,frog
 item_54,i_5_12,word,animals,understands; produces,fugl,NA,bird,bird
@@ -30,7 +30,7 @@ item_59,i_5_17,word,animals,understands; produces,kanin,NA,rabbit,bunny
 item_60,i_5_18,word,animals,understands; produces,katt,NA,cat,cat
 item_61,i_5_19,word,animals,understands; produces,kattunge,NA,kitten,kitty
 item_62,i_5_20,word,animals,understands; produces,ku,NA,cow,cow
-item_63,i_5_21,word,animals,understands; produces,kylling (animal),NA,chicken,chicken (animal)
+item_63,i_5_21,word,animals,understands; produces,kylling (animal),NA,chicken (animal),chicken (animal)
 item_64,i_5_22,word,animals,understands; produces,lam,NA,lamb,lamb
 item_65,i_5_23,word,animals,understands; produces,(leke)bamse,NA,(Play) teddy bear,teddybear
 item_66,i_5_24,word,animals,understands; produces,løve,NA,lion,lion
@@ -68,10 +68,10 @@ item_97,i_8_2,word,food_drink,understands; produces,banan,NA,banana,banana
 item_98,i_8_3,word,food_drink,understands; produces,bolle,NA,bun,bun
 item_99,i_8_4,word,food_drink,understands; produces,brød,NA,loaf of bread,bread
 item_100,i_8_5,word,food_drink,understands; produces,corn flakes,NA,corn flakes,cheerios
-item_101,i_8_6,word,food_drink,understands; produces,drikke (beverage),NA,drink,drink (beverage)
+item_101,i_8_6,word,food_drink,understands; produces,drikke (beverage),NA,drink (beverage),drink (beverage)
 item_102,i_8_7,word,food_drink,understands; produces,egg,NA,eggs,egg
 item_103,i_8_8,word,food_drink,understands; produces,eple,NA,apple,apple
-item_104,i_8_9,word,food_drink,understands; produces,fisk (food),NA,fish,fish (food)
+item_104,i_8_9,word,food_drink,understands; produces,fisk (food),NA,fish (food),fish (food)
 item_105,i_8_10,word,food_drink,understands; produces,frokostblanding,NA,cereal,cereal
 item_106,i_8_11,word,food_drink,understands; produces,gulrot,NA,carrot,carrot
 item_107,i_8_12,word,food_drink,understands; produces,is,NA,ice,ice cream
@@ -80,7 +80,7 @@ item_109,i_8_14,word,food_drink,understands; produces,kaffe,NA,coffee,coffee
 item_110,i_8_15,word,food_drink,understands; produces,kake,NA,cake,cake
 item_111,i_8_16,word,food_drink,understands; produces,kjeks,NA,cookies,cracker
 item_112,i_8_17,word,food_drink,understands; produces,kjøtt,NA,meat,meat
-item_113,i_8_18,word,food_drink,understands; produces,kylling (food),NA,chicken,chicken (food)
+item_113,i_8_18,word,food_drink,understands; produces,kylling (food),NA,chicken (food),chicken (food)
 item_114,i_8_19,word,food_drink,understands; produces,mat,NA,food,food
 item_115,i_8_20,word,food_drink,understands; produces,melk,NA,milk,milk
 item_116,i_8_21,word,food_drink,understands; produces,ost,NA,cheese,cheese
@@ -90,7 +90,7 @@ item_119,i_8_24,word,food_drink,understands; produces,rosiner,NA,raisins,raisin
 item_120,i_8_25,word,food_drink,understands; produces,smør,NA,butter,butter
 item_121,i_8_26,word,food_drink,understands; produces,spagetti,NA,spaghetti,pasta
 item_122,i_8_27,word,food_drink,understands; produces,sukkertøy,NA,Confectionery,candy
-item_123,i_8_28,word,food_drink,understands; produces,vann (beverage),NA,water,water (beverage)
+item_123,i_8_28,word,food_drink,understands; produces,vann (beverage),NA,water (beverage),water (beverage)
 item_124,i_9_1,word,clothing,understands; produces,bleie,NA,Diaper,diaper
 item_125,i_9_2,word,clothing,understands; produces,bukse,NA,pants,pants
 item_126,i_9_3,word,clothing,understands; produces,genser,NA,sweater,sweater
@@ -193,7 +193,7 @@ item_222,i_13_1,word,outside,understands; produces,blomst,NA,flower,flower
 item_223,i_13_2,word,outside,understands; produces,himmel,NA,heaven,sky
 item_224,i_13_3,word,outside,understands; produces,huske (object),NA,remember,swing (object)
 item_225,i_13_4,word,outside,understands; produces,måne,NA,moon,moon
-item_226,i_13_5,word,outside,understands; produces,regn,NA,rain,rain
+item_226,i_13_5,word,outside,understands; produces,regn,NA,rain,rain (weather)
 item_227,i_13_6,word,outside,understands; produces,sklie,NA,slide,slide (object)
 item_228,i_13_7,word,outside,understands; produces,snø,NA,snow,snow
 item_229,i_13_8,word,outside,understands; produces,sol,NA,sun,sun
@@ -202,7 +202,7 @@ item_231,i_13_10,word,outside,understands; produces,stein,NA,stone,rock (object)
 item_232,i_13_11,word,outside,understands; produces,stjerner,NA,stars,star
 item_233,i_13_12,word,outside,understands; produces,tre,NA,three,tree
 item_234,i_13_13,word,outside,understands; produces,ute (place),NA,out,outside
-item_235,i_13_14,word,outside,understands; produces,vann (not beverage),NA,water,water (not beverage)
+item_235,i_13_14,word,outside,understands; produces,vann (not beverage),NA,water (not beverage),water (not beverage)
 item_236,i_14_1,word,places,understands; produces,butikk,NA,shop,store
 item_237,i_14_2,word,places,understands; produces,dyrehage,NA,zoo,zoo
 item_238,i_14_3,word,places,understands; produces,fest,NA,fest,party
@@ -259,7 +259,7 @@ item_288,i_17_1,word,action_words,understands; produces,bite,NA,bite,bite
 item_289,i_17_2,word,action_words,understands; produces,blåse,NA,blow,blow
 item_290,i_17_3,word,action_words,understands; produces,danse,NA,dance,dance
 item_291,i_17_4,word,action_words,understands; produces,dra,NA,drag,go
-item_292,i_17_5,word,action_words,understands; produces,drikke (action),NA,drink,drink (action)
+item_292,i_17_5,word,action_words,understands; produces,drikke (action),NA,drink (action),drink (action)
 item_293,i_17_6,word,action_words,understands; produces,dytte,NA,shove,push
 item_294,i_17_7,word,action_words,understands; produces,elske,NA,making love,love
 item_295,i_17_8,word,action_words,understands; produces,få,NA,get,get

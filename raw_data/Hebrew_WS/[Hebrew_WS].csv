@@ -177,7 +177,7 @@ item_175,p1_c06_i11,word,understands; produces,clothing,טריינינג,sweatpa
 item_176,p1_c06_i12,word,understands; produces,clothing,כובע,hat,hat
 item_177,p1_c06_i13,word,understands; produces,clothing,כפפות,gloves,glove
 item_178,p1_c06_i14,word,understands; produces,clothing,כפתור,button,button
-item_179,p1_c06_i15,word,understands; produces,clothing,מגפיים,boots,boots
+item_179,p1_c06_i15,word,understands; produces,clothing,מגפיים,boots,boot
 item_180,p1_c06_i16,word,understands; produces,clothing,מכנסיים,pants,pants
 item_181,p1_c06_i17,word,understands; produces,clothing,מעיל,coat,coat
 item_182,p1_c06_i18,word,understands; produces,clothing,נעל/ נעליים,shoe \ shoes,shoe
@@ -271,7 +271,7 @@ item_269,p1_c09_i21,word,understands; produces,household,מטאטא,broom,broom
 item_270,p1_c09_i22,word,understands; produces,household,מנורה,lamp,lamp
 item_271,p1_c09_i23,word,understands; produces,household,מסמר,nail,nail (object)
 item_272,p1_c09_i24,word,understands; produces,household,מספריים,scissors,scissors
-item_273,p1_c09_i25,word,understands; produces,household,מסרק,comb,comb (object)
+item_273,p1_c09_i25,word,understands; produces,household,מסרק,comb (object),comb (object)
 item_274,p1_c09_i26,word,understands; produces,household,מפית,napkin,napkin
 item_275,p1_c09_i27,word,understands; produces,household,מצלמה,camera,camera
 item_276,p1_c09_i28,word,understands; produces,household,מפתחות,keys,key
@@ -300,7 +300,7 @@ item_298,p1_c10_i04,word,understands; produces,outside,את/ מעדר,shovel,sho
 item_299,p1_c10_i05,word,understands; produces,outside,ברז,faucet,faucet
 item_300,p1_c10_i06,word,understands; produces,outside,בריכה,pool,pool
 item_301,p1_c10_i07,word,understands; produces,outside,גג,roof,roof
-item_302,p1_c10_i08,word,understands; produces,outside,גשם,rain,rain
+item_302,p1_c10_i08,word,understands; produces,outside,גשם,rain,rain (weather)
 item_303,p1_c10_i09,word,understands; produces,outside,דגל,flag,flag
 item_304,p1_c10_i10,word,understands; produces,outside,דשא,grass,grass
 item_305,p1_c10_i11,word,understands; produces,outside,חול,sand,sand
@@ -449,7 +449,7 @@ item_447,p1_c14_i60,word,understands; produces,action_words,לנשוך,bite (act
 item_448,p1_c14_i61,word,understands; produces,action_words,לנשוף,blow,blow
 item_449,p1_c14_i62,word,understands; produces,action_words,לנשק,kiss (action),kiss
 item_450,p1_c14_i63,word,understands; produces,action_words,לסגור,close,close
-item_451,p1_c14_i64,word,understands; produces,action_words,לסרק,comb,comb (action)
+item_451,p1_c14_i64,word,understands; produces,action_words,לסרק,comb (action),comb (action)
 item_452,p1_c14_i65,word,understands; produces,action_words,לספר (סיפור),tell a story,NA
 item_453,p1_c14_i66,word,understands; produces,action_words,לסתום,shut,close
 item_454,p1_c14_i67,word,understands; produces,action_words,לעבוד,work (action),work (action)

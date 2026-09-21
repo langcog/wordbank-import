@@ -53,7 +53,7 @@ item_51,item_051,word,animals,understands; produces,당나귀,NA,donkey,donkey
 item_52,item_052,word,animals,understands; produces,동물,NA,animal,animal
 item_53,item_053,word,animals,understands; produces,돼지,NA,pig,pig
 item_54,item_054,word,animals,understands; produces,말,NA,horse,horse
-item_55,item_055,word,animals,understands; produces,물고기,NA,fish,fish (animal)
+item_55,item_055,word,animals,understands; produces,물고기,NA,fish (animal),fish (animal)
 item_56,item_056,word,animals,understands; produces,뱀,NA,snake,snake
 item_57,item_057,word,animals,understands; produces,벌,NA,bee,bee
 item_58,item_058,word,animals,understands; produces,벌레,NA,bug,bug
@@ -150,7 +150,7 @@ item_148,item_148,word,food_drink,understands; produces,빵,NA,bread,bread
 item_149,item_149,word,food_drink,understands; produces,사과,NA,apple,apple
 item_150,item_150,word,food_drink,understands; produces,사이다,NA,Lemon-lime soda,soda
 item_151,item_151,word,food_drink,understands; produces,사탕,NA,candy,candy
-item_152,item_152,word,food_drink,understands; produces,생선,NA,fish,fish (food)
+item_152,item_152,word,food_drink,understands; produces,생선,NA,fish (food),fish (food)
 item_153,item_153,word,food_drink,understands; produces,설탕,NA,sugar,sugar
 item_154,item_154,word,food_drink,understands; produces,소금,NA,salt,salt
 item_155,item_155,word,food_drink,understands; produces,수박,NA,watermelon,watermelon
@@ -261,7 +261,7 @@ item_259,item_259,word,outside,understands; produces,바람,NA,wind,wind
 item_260,item_260,word,outside,understands; produces,바위,NA,boulder,boulder
 item_261,item_261,word,outside,understands; produces,별,NA,star,star
 item_262,item_262,word,outside,understands; produces,불,NA,fire,fire
-item_263,item_263,word,outside,understands; produces,비,NA,rain,rain
+item_263,item_263,word,outside,understands; produces,비,NA,rain,rain (weather)
 item_264,item_264,word,outside,understands; produces,사다리,NA,ladder,ladder
 item_265,item_265,word,outside,understands; produces,시소,NA,seesaw,seesaw
 item_266,item_266,word,outside,understands; produces,잔디,NA,lawn,lawn
@@ -303,7 +303,7 @@ item_301,item_301,word,places,understands; produces,시장,NA,market place,marke
 item_302,item_302,word,places,understands; produces,아파트,NA,apartment,apartment
 item_303,item_303,word,places,understands; produces,유치원,NA,kindergarten,kindergarten
 item_304,item_304,word,places,understands; produces,은행,NA,bank,bank
-item_305,item_305,word,places,understands; produces,일,NA,work,work (place)
+item_305,item_305,word,places,understands; produces,일,NA,work (place),work (place)
 item_306,item_306,word,places,understands; produces,절,NA,temple,church
 item_307,item_307,word,places,understands; produces,주유소,NA,gas station,gas station
 item_308,item_308,word,places,understands; produces,집,NA,house,house
@@ -360,10 +360,10 @@ item_358,item_358,word,question_words,understands; produces,누구,NA,who,who
 item_359,item_359,word,question_words,understands; produces,몇,NA,how many,how many
 item_360,item_360,word,question_words,understands; produces,무슨,NA,what kind,what kind
 item_361,item_361,word,question_words,understands; produces,무엇/뭐,NA,what,what
-item_362,item_362,word,question_words,understands; produces,어느,NA,which,which (question)
+item_362,item_362,word,question_words,understands; produces,어느,NA,which (question),which (question)
 item_363,item_363,word,question_words,understands; produces,어디,NA,where,where (question)
 item_364,item_364,word,question_words,understands; produces,어디서,NA,where from,where from
-item_365,item_365,word,question_words,understands; produces,어떤,NA,which,which (question)
+item_365,item_365,word,question_words,understands; produces,어떤,NA,which (question),which (question)
 item_366,item_366,word,question_words,understands; produces,어떻게,NA,how,how
 item_367,item_367,word,question_words,understands; produces,언제,NA,when,when (question)
 item_368,item_368,word,question_words,understands; produces,왜,NA,why,why
@@ -491,7 +491,7 @@ item_489,item_489,word,action_words,understands; produces,원해,NA,want,want
 item_490,item_490,word,action_words,understands; produces,(승부에)이겨,NA,win,win
 item_491,item_491,word,action_words,understands; produces,이야기해,NA,talk,talk
 item_492,item_492,word,action_words,understands; produces,일어나/일어서,NA,wake up,get up
-item_493,item_493,word,action_words,understands; produces,일해,NA,work,work (action)
+item_493,item_493,word,action_words,understands; produces,일해,NA,work (action),work (action)
 item_494,item_494,word,action_words,understands; produces,읽어,NA,read,read
 item_495,item_495,word,action_words,understands; produces,입어,NA,wear,wear
 item_496,item_496,word,action_words,understands; produces,(잠)자,NA,sleep,sleep

@@ -47,7 +47,7 @@ item_45,caballo,word,animals,understands; produces,caballo,NA,horse,horse
 item_46,chancho,word,animals,understands; produces,chancho,NA,pig,pig
 item_47,conejo,word,animals,understands; produces,conejo,NA,rabbit,bunny
 item_48,cuy,word,animals,understands; produces,cuy/cuye,NA,guinea pig,guinea pig
-item_49,gallina,word,animals,understands; produces,gallina,NA,chicken,chicken (animal)
+item_49,gallina,word,animals,understands; produces,gallina,NA,chicken (animal),chicken (animal)
 item_50,gato,word,animals,understands; produces,gato,NA,cat,cat
 item_51,gaviota,word,animals,understands; produces,gaviota,NA,seagull,seagull
 item_52,hormiga,word,animals,understands; produces,hormiga,NA,ant,ant
@@ -62,7 +62,7 @@ item_60,paloma,word,animals,understands; produces,paloma,NA,dove,pigeon
 item_61,pato,word,animals,understands; produces,pato,NA,duck,duck
 item_62,perro,word,animals,understands; produces,perro,NA,dog,dog
 item_63,pescado_pez,word,animals,understands; produces,pescado/pez,NA,fish,fish (animal)
-item_64,pollito,word,animals,understands; produces,pollito,NA,chicken,chicken (animal)
+item_64,pollito,word,animals,understands; produces,pollito,NA,chicken (animal),chicken (animal)
 item_65,pulpo,word,animals,understands; produces,pulpo,NA,octopus,octopus
 item_66,pericote,word,animals,understands; produces,pericote/ratón,NA,rat/mouse,mouse
 item_67,tigre,word,animals,understands; produces,tigre,NA,tiger,tiger
@@ -149,7 +149,7 @@ item_147,pan,word,food_drink,understands; produces,pan,NA,bread,bread
 item_148,papas,word,food_drink,understands; produces,papas,NA,potato,potato
 item_149,papilla,word,food_drink,understands; produces,papilla,NA,porridge,porridge
 item_150,platano,word,food_drink,understands; produces,plátano,NA,plantain,plantain
-item_151,pollo,word,food_drink,understands; produces,pollo,NA,chicken,chicken (food)
+item_151,pollo,word,food_drink,understands; produces,pollo,NA,chicken (food),chicken (food)
 item_152,pure,word,food_drink,understands; produces,puré,NA,mashed potatoes,puree
 item_153,queso,word,food_drink,understands; produces,queso,NA,cheese,cheese
 item_154,sopa,word,food_drink,understands; produces,sopa,NA,soup,soup
@@ -179,7 +179,7 @@ item_177,caballito,word,outside,understands; produces,caballito/carrusel/juegos 
 item_178,casa,word,outside,understands; produces,casa,NA,house,house
 item_179,calle,word,outside,understands; produces,calle,NA,street,street
 item_180,columpio,word,outside,understands; produces,columpio,NA,swing,swing (object)
-item_181,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain
+item_181,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain (weather)
 item_182,luna,word,outside,understands; produces,luna,NA,moon,moon
 item_183,mar,word,outside,understands; produces,mar,NA,sea,sea
 item_184,parque,word,outside,understands; produces,parque,NA,park,park
@@ -216,7 +216,7 @@ item_214,llave,word,household,understands; produces,llave(s),NA,keys,key
 item_215,luz,word,household,understands; produces,luz,NA,light,light (object)
 item_216,medicina,word,household,understands; produces,medicina/remedio,NA,medicine/remedy,medicine
 item_217,mesa,word,household,understands; produces,mesa,NA,desk,table
-item_218,peine,word,household,understands; produces,peine,NA,comb,comb (object)
+item_218,peine,word,household,understands; produces,peine,NA,comb (object),comb (object)
 item_219,piso,word,household,understands; produces,piso/suelo,NA,ground floor,floor
 item_220,plato,word,household,understands; produces,plato,NA,plate,plate
 item_221,puerta,word,household,understands; produces,puerta,NA,door,door
@@ -249,7 +249,7 @@ item_247,mirar,word,action_words,understands; produces,mirar/ver,NA,look see,see
 item_248,mostrar,word,action_words,understands; produces,mostrar/enseñar,NA,show/teach,show
 item_249,dar,word,action_words,understands; produces,dar/pasar,NA,give/pass,give
 item_250,pegar,word,action_words,understands; produces,pegar(se)/golpear(se),NA,hit,hit
-item_251,peinar,word,action_words,understands; produces,peinar(se),NA,comb,comb (action)
+item_251,peinar,word,action_words,understands; produces,peinar(se),NA,comb (action),comb (action)
 item_252,pintar,word,action_words,understands; produces,pintar,NA,paint,paint (action)
 item_253,poder,word,action_words,understands; produces,poder (puedes…),NA,can,can (auxiliary)
 item_254,poner,word,action_words,understands; produces,poner(se),NA,put on,put on

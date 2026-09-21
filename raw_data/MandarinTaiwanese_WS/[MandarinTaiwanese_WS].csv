@@ -6,7 +6,7 @@ item_4,a01_04,word,animals,produces,小鳥,NA,bird,bird
 item_5,a01_05,word,animals,produces,鴨子(呱呱),NA,duck,duck
 item_6,a01_06,word,animals,produces,小熊(泰迪熊),NA,teddybear,teddybear
 item_7,a01_07,word,animals,produces,馬,NA,horse,horse
-item_8,a01_08,word,animals,produces,雞(咕咕咕),NA,chicken,chicken (animal)
+item_8,a01_08,word,animals,produces,雞(咕咕咕),NA,chicken (animal),chicken (animal)
 item_9,a01_09,word,animals,produces,牛(哞),NA,cow,cow
 item_10,a01_10,word,animals,produces,兔子,NA,rabbit,bunny
 item_11,a01_11,word,animals,produces,大象,NA,elephant,elephant
@@ -29,7 +29,7 @@ item_27,a01_27,word,animals,produces,螃蟹,NA,crab,crab
 item_28,a01_28,word,animals,produces,動物,NA,animal,animal
 item_29,a01_29,word,animals,produces,斑馬,NA,zebra,zebra
 item_30,a01_30,word,animals,produces,鹿,NA,deer,deer
-item_31,a01_31,word,animals,produces,小雞,NA,chicken,chicken (animal)
+item_31,a01_31,word,animals,produces,小雞,NA,chicken (animal),chicken (animal)
 item_32,a01_32,word,animals,produces,蟑螂,NA,cockroach,cockroach
 item_33,a01_33,word,animals,produces,鱷魚,NA,alligator,alligator
 item_34,a01_34,word,animals,produces,毛毛蟲,NA,caterpillar,caterpillar
@@ -74,9 +74,9 @@ item_72,a02_17,word,body_parts,produces,舌頭,NA,tongue,tongue
 item_73,a02_18,word,body_parts,produces,脖子,NA,neck,neck
 item_74,a02_19,word,body_parts,produces,腳趾頭,NA,toe,toe
 item_75,a02_20,word,body_parts,produces,胸部(ㄋㄟㄋㄟ),NA,vagina,breast
-item_76,a02_21,word,body_parts,produces,指甲,NA,nail,nail (body part)
+item_76,a02_21,word,body_parts,produces,指甲,NA,nail (body part),nail (body part)
 item_77,a02_22,word,body_parts,produces,嘴唇,NA,lip,lip
-item_78,a02_23,word,body_parts,produces,背,NA,back,back (body part)
+item_78,a02_23,word,body_parts,produces,背,NA,back (body part),back (body part)
 item_79,a02_24,word,body_parts,produces,下巴,NA,chin,chin
 item_80,a02_25,word,body_parts,produces,膝蓋,NA,knee,knee
 item_81,a02_26,word,body_parts,produces,肩膀,NA,shoulder,shoulder
@@ -129,7 +129,7 @@ item_127,a04_26,word,food_drink,produces,櫻桃,NA,cherry,cherry
 item_128,a04_27,word,food_drink,produces,葡萄乾,NA,raisin,raisin
 item_129,a04_28,word,food_drink,produces,豆漿,NA,soy milk,soy milk
 item_130,a04_29,word,food_drink,produces,汽水,NA,soda,soda
-item_131,a04_30,word,food_drink,produces,飲料,NA,drink,drink (beverage)
+item_131,a04_30,word,food_drink,produces,飲料,NA,drink (beverage),drink (beverage)
 item_132,a04_31,word,food_drink,produces,梨子,NA,pear,pear
 item_133,a04_32,word,food_drink,produces,饅頭,NA,steamed bread,bun
 item_134,a04_33,word,food_drink,produces,土司,NA,toast,toast
@@ -151,7 +151,7 @@ item_149,a04_48,word,food_drink,produces,漢堡,NA,hamburger,hamburger
 item_150,a04_49,word,food_drink,produces,披薩,NA,pizza,pizza
 item_151,a04_50,word,food_drink,produces,香腸,NA,sausage,sausage
 item_152,a04_51,word,food_drink,produces,咖啡,NA,coffee,coffee
-item_153,a04_52,word,food_drink,produces,雞肉,NA,chicken,chicken (food)
+item_153,a04_52,word,food_drink,produces,雞肉,NA,chicken (food),chicken (food)
 item_154,a04_53,word,food_drink,produces,果凍,NA,jelly,jelly
 item_155,a04_54,word,food_drink,produces,爆米花,NA,popcorn,popcorn
 item_156,a04_55,word,food_drink,produces,口香糖,NA,chewing gum,gum
@@ -242,7 +242,7 @@ item_240,a07_12,word,household,produces,枕頭,NA,pillow,pillow
 item_241,a07_13,word,household,produces,眼鏡,NA,glasses,glasses
 item_242,a07_14,word,household,produces,垃圾桶,NA,trash can,trash
 item_243,a07_15,word,household,produces,筷子,NA,chopsticks,chopstick
-item_244,a07_16,word,household,produces,垃圾,NA,garbage,garbage
+item_244,a07_16,word,household,produces,垃圾,NA,garbage,trash
 item_245,a07_17,word,household,produces,毛巾,NA,towel,towel
 item_246,a07_18,word,household,produces,鏡子,NA,mirror,mirror
 item_247,a07_19,word,household,produces,梳子,NA,comb,comb (object)
@@ -279,12 +279,12 @@ item_277,a07_49,word,household,produces,插頭,NA,plug,plug
 item_278,a07_50,word,household,produces,籃子,NA,basket,basket
 item_279,a07_51,word,household,produces,拖把,NA,mop,mop (object)
 item_280,a07_52,word,household,produces,光碟(CD或DVD),NA,disk,CD
-item_281,a07_53,word,household,produces,刷子,NA,brush,brush (object)
+item_281,a07_53,word,household,produces,刷子,NA,brush (object),brush (object)
 item_282,a07_54,word,household,produces,水桶,NA,bucket,bucket
 item_283,a07_55,word,household,produces,玻璃(玻璃杯),NA,glasses,glasses
 item_284,a07_56,word,household,produces,罐子,NA,jar,jar
 item_285,a07_57,word,household,produces,水壺,NA,water bottle,bottle
-item_286,a07_58,word,household,produces,釘子,NA,nail,nail (object)
+item_286,a07_58,word,household,produces,釘子,NA,nail (object),nail (object)
 item_287,a08_01,word,furniture_rooms,produces,椅子,NA,chair,chair
 item_288,a08_02,word,furniture_rooms,produces,門,NA,door,door
 item_289,a08_03,word,furniture_rooms,produces,桌子,NA,table,table
@@ -313,7 +313,7 @@ item_311,a08_25,word,furniture_rooms,produces,餐桌,NA,dining table,table
 item_312,a08_26,word,furniture_rooms,produces,微波爐,NA,oven,oven
 item_313,a08_27,word,furniture_rooms,produces,陽台,NA,balcony,balcony
 item_314,a09_01,word,outside,produces,花,NA,flower,flower
-item_315,a09_02,word,outside,produces,下雨,NA,rain,rain
+item_315,a09_02,word,outside,produces,下雨,NA,rain,rain (weather)
 item_316,a09_03,word,outside,produces,溜滑梯,NA,slide,slide (object)
 item_317,a09_04,word,outside,produces,樹,NA,tree,tree
 item_318,a09_05,word,outside,produces,石頭,NA,stone,rock (object)
@@ -373,7 +373,7 @@ item_371,a11_03,word,games_routines,produces,睡覺,NA,nap,nap
 item_372,a11_04,word,games_routines,produces,晚安,NA,night night,good night
 item_373,a11_05,word,games_routines,produces,吃飯,NA,eat,eat
 item_374,a11_06,word,games_routines,produces,洗澡,NA,bath,bath
-item_375,a11_07,word,games_routines,produces,刷牙,NA,brush,brush (action)
+item_375,a11_07,word,games_routines,produces,刷牙,NA,brush (action),brush (action)
 item_376,a11_08,word,games_routines,produces,哈囉(嗨),NA,hello(hi),hello
 item_377,a11_09,word,games_routines,produces,讀書(看書),NA,read,read
 item_378,a11_10,word,games_routines,produces,噓/噓噓(安靜),NA,shh/shush/hush,shh
@@ -417,11 +417,11 @@ item_415,a12_17,word,people,produces,伯伯,NA,paternal uncle,uncle
 item_416,a12_18,word,people,produces,醫生,NA,doctor,doctor
 item_417,a12_19,word,people,produces,小朋友,NA,child,child
 item_418,a12_20,word,people,produces,褓母(奶媽),NA,babysitter,babysitter
-item_419,a12_21,word,people,produces,我,NA,I,I
+item_419,a12_21,word,people,produces,我,NA,I,1SG
 item_420,a12_22,word,people,produces,你,NA,you,you
 item_421,a12_23,word,people,produces,我的,NA,my,my
 item_422,a12_24,word,people,produces,你的,NA,your,your
-item_423,a12_25,word,people,produces,他,NA,he,he
+item_423,a12_25,word,people,produces,他,NA,he,3SG
 item_424,a12_26,word,people,produces,他的,NA,his,his
 item_425,a12_27,word,people,produces,家人的名字,NA,family's name,family name
 item_426,a12_28,word,people,produces,寵物的名字,NA,pet's name,pet's name
@@ -440,8 +440,8 @@ item_438,a12_40,word,people,produces,朋友,NA,friend,friend
 item_439,a12_41,word,people,produces,我們,NA,we,we
 item_440,a12_42,word,people,produces,護士,NA,nurse,nurse
 item_441,a12_43,word,people,produces,你們,NA,you,you
-item_442,a12_44,word,people,produces,我們的,NA,our,our
-item_443,a12_45,word,people,produces,小姐,NA,Miss,miss (address)
+item_442,a12_44,word,people,produces,我們的,NA,our,1PL.POSS
+item_443,a12_45,word,people,produces,小姐,NA,Miss (address),miss (address)
 item_444,a12_46,word,people,produces,司機,NA,driver,driver
 item_445,a12_47,word,people,produces,你們的,NA,your,your
 item_446,a12_48,word,people,produces,他們,NA,they,they
@@ -474,7 +474,7 @@ item_472,a14_01,word,locations,produces,在這裡,NA,here,here
 item_473,a14_02,word,locations,produces,走開,NA,away,away
 item_474,a14_03,word,locations,produces,過來,NA,come here,come
 item_475,a14_04,word,locations,produces,在那裡,NA,there,there
-item_476,a14_05,word,locations,produces,後面,NA,back,back (location)
+item_476,a14_05,word,locations,produces,後面,NA,back (location),back (location)
 item_477,a14_06,word,locations,produces,前面,NA,front,front
 item_478,a14_07,word,locations,produces,外面,NA,out,out
 item_479,a14_08,word,locations,produces,裡面,NA,inside/in,in
@@ -503,7 +503,7 @@ item_501,a15_06,word,action_words,produces,打,NA,hit,hit
 item_502,a15_07,word,action_words,produces,走/散步,NA,walk,walk
 item_503,a15_08,word,action_words,produces,洗,NA,wash,wash
 item_504,a15_09,word,action_words,produces,坐,NA,sit,sit
-item_505,a15_10,word,action_words,produces,喝,NA,drink,drink (action)
+item_505,a15_10,word,action_words,produces,喝,NA,drink (action),drink (action)
 item_506,a15_11,word,action_words,produces,哭,NA,cry,cry
 item_507,a15_12,word,action_words,produces,拍(手),NA,clap,clap
 item_508,a15_13,word,action_words,produces,看,NA,look,look

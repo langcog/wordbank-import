@@ -20,7 +20,7 @@ item_18,i_2_6,word,animals,produces,ekorn,NA,squirrel,Squirrel,squirrel
 item_19,i_2_7,word,animals,produces,elefant,NA,elephant,elephant,elephant
 item_20,i_2_8,word,animals,produces,elg,NA,moose,moose,moose
 item_21,i_2_9,word,animals,produces,esel,NA,NA,ass,donkey
-item_22,i_2_10,word,animals,produces,fisk (animal),NA,fish (animal),fish,fish (animal)
+item_22,i_2_10,word,animals,produces,fisk (animal),NA,fish (animal),fish (animal),fish (animal)
 item_23,i_2_11,word,animals,produces,flue,NA,fly (animal),fly,fly (animal)
 item_24,i_2_12,word,animals,produces,frosk,NA,frog,frog,frog
 item_25,i_2_13,word,animals,produces,fugl,NA,bird,bird,bird
@@ -35,7 +35,7 @@ item_33,i_2_21,word,animals,produces,katt,NA,cat,cat,cat
 item_34,i_2_22,word,animals,produces,kattunge,NA,kitty,kitten,kitty
 item_35,i_2_23,word,animals,produces,krokodille,NA,NA,crocodile,crocodile
 item_36,i_2_24,word,animals,produces,ku,NA,cow,cow,cow
-item_37,i_2_25,word,animals,produces,kylling (animal),NA,chicken (animal),chicken,chicken (animal)
+item_37,i_2_25,word,animals,produces,kylling (animal),NA,chicken (animal),chicken (animal),chicken (animal)
 item_38,i_2_26,word,animals,produces,lam,NA,lamb,lamb,lamb
 item_39,i_2_27,word,animals,produces,(leke)bamse,NA,teddybear,(Play) teddy bear,teddybear
 item_40,i_2_28,word,animals,produces,løve,NA,lion,lion,lion
@@ -89,7 +89,7 @@ item_87,i_4_17,word,toys,produces,spill,NA,NA,game,game
 item_88,i_4_18,word,toys,produces,såpebobler,NA,bubbles,soap bubbles,bubbles
 item_89,i_5_1,word,food_drink,produces,(brød)skive,NA,NA,(Bread) slice,sandwich
 item_90,i_5_2,word,food_drink,produces,agurk,NA,NA,cucumber,cucumber
-item_91,i_5_3,word,food_drink,produces,appelsin,NA,orange (food),orange,orange (food)
+item_91,i_5_3,word,food_drink,produces,appelsin,NA,orange (food),orange (food),orange (food)
 item_92,i_5_4,word,food_drink,produces,banan,NA,banana,banana,banana
 item_93,i_5_5,word,food_drink,produces,boller,NA,NA,bowls,bun
 item_94,i_5_6,word,food_drink,produces,bønner,NA,NA,beans,beans
@@ -98,12 +98,12 @@ item_96,i_5_8,word,food_drink,produces,brus,NA,NA,soft drinks,soda
 item_97,i_5_9,word,food_drink,produces,cola,NA,NA,Coke,coke
 item_98,i_5_10,word,food_drink,produces,corn flakes,NA,cheerios,corn flakes,cheerios
 item_99,i_5_11,word,food_drink,produces,dessert,NA,NA,dessert,dessert
-item_100,i_5_12,word,food_drink,produces,drikke (beverage),NA,drink (beverage),drink,drink (beverage)
+item_100,i_5_12,word,food_drink,produces,drikke (beverage),NA,drink (beverage),drink (beverage),drink (beverage)
 item_101,i_5_13,word,food_drink,produces,druer,NA,NA,grapes,grapes
 item_102,i_5_14,word,food_drink,produces,egg,NA,egg,eggs,egg
 item_103,i_5_15,word,food_drink,produces,eple,NA,apple,apple,apple
 item_104,i_5_16,word,food_drink,produces,erter,NA,NA,peas,peas
-item_105,i_5_17,word,food_drink,produces,fisk (food),NA,fish (food),fish,fish (food)
+item_105,i_5_17,word,food_drink,produces,fisk (food),NA,fish (food),fish (food),fish (food)
 item_106,i_5_18,word,food_drink,produces,frokostblanding,NA,cereal,cereal,cereal
 item_107,i_5_19,word,food_drink,produces,frukt,NA,NA,fruit,fruit
 item_108,i_5_20,word,food_drink,produces,godteri,NA,NA,candy,candy
@@ -119,7 +119,7 @@ item_117,i_5_29,word,food_drink,produces,kjeks,NA,cracker,cookies,cracker
 item_118,i_5_30,word,food_drink,produces,kjøtt,NA,meat,meat,meat
 item_119,i_5_31,word,food_drink,produces,kjøttkaker,NA,NA,Meatball,meatball
 item_120,i_5_32,word,food_drink,produces,knekkebrød,NA,NA,crispbread,cracker
-item_121,i_5_33,word,food_drink,produces,kylling (food),NA,chicken (food),chicken,chicken (food)
+item_121,i_5_33,word,food_drink,produces,kylling (food),NA,chicken (food),chicken (food),chicken (food)
 item_122,i_5_34,word,food_drink,produces,leverpostei,NA,NA,liverpaste,NA
 item_123,i_5_35,word,food_drink,produces,mat,NA,food,food,food
 item_124,i_5_36,word,food_drink,produces,matpakke,NA,NA,packed,lunchbox
@@ -153,7 +153,7 @@ item_151,i_5_63,word,food_drink,produces,te,NA,NA,tea,tea
 item_152,i_5_64,word,food_drink,produces,tran,NA,NA,cod liver oil,NA
 item_153,i_5_65,word,food_drink,produces,tyggegummi,NA,NA,chewing gum,gum
 item_154,i_5_66,word,food_drink,produces,vafler,NA,NA,waffles,pancake
-item_155,i_5_67,word,food_drink,produces,vann (beverage),NA,water (beverage),water,water (beverage)
+item_155,i_5_67,word,food_drink,produces,vann (beverage),NA,water (beverage),water (beverage),water (beverage)
 item_156,i_5_68,word,food_drink,produces,yoghurt,NA,NA,yogurt,yogurt
 item_157,i_6_1,word,clothing,produces,belte,NA,NA,belt,belt
 item_158,i_6_2,word,clothing,produces,bleie,NA,diaper,Diaper,diaper
@@ -165,7 +165,7 @@ item_163,i_6_7,word,clothing,produces,halskjede,NA,necklace,Necklace,necklace
 item_164,i_6_8,word,clothing,produces,hansker,NA,NA,gloves,glove
 item_165,i_6_9,word,clothing,produces,jakke,NA,jacket,jacket,jacket
 item_166,i_6_10,word,clothing,produces,joggesko,NA,NA,sneakers,sneaker
-item_167,i_6_11,word,clothing,produces,kjole,NA,dress (object),dress,dress (object)
+item_167,i_6_11,word,clothing,produces,kjole,NA,dress (object),dress (object),dress (object)
 item_168,i_6_12,word,clothing,produces,knapper,NA,NA,Buttons,button
 item_169,i_6_13,word,clothing,produces,lue,NA,hat,cap,hat
 item_170,i_6_14,word,clothing,produces,pysjamas,NA,pajamas,pajamas,pajamas
@@ -309,9 +309,9 @@ item_307,i_10_10,word,outside,produces,huske (object),NA,swing (object),remember
 item_308,i_10_11,word,outside,produces,kjelke,NA,NA,toboggan,sled
 item_309,i_10_12,word,outside,produces,måne,NA,moon,moon,moon
 item_310,i_10_13,word,outside,produces,pinne,NA,NA,stick,stick
-item_311,i_10_14,word,outside,produces,regn,NA,rain,rain,rain
+item_311,i_10_14,word,outside,produces,regn,NA,rain,rain,rain (weather)
 item_312,i_10_15,word,outside,produces,sandkasse,NA,NA,sandpit,sandbox
-item_313,i_10_16,word,outside,produces,sklie,NA,slide (object),slide,slide (object)
+item_313,i_10_16,word,outside,produces,sklie,NA,slide (object),slide (object),slide (object)
 item_314,i_10_17,word,outside,produces,skyer,NA,NA,clouds,cloud
 item_315,i_10_18,word,outside,produces,snø,NA,snow,snow,snow
 item_316,i_10_19,word,outside,produces,snømann,NA,NA,snowman,snowman
@@ -323,7 +323,7 @@ item_321,i_10_24,word,outside,produces,stjerner,NA,star,stars,star
 item_322,i_10_25,word,outside,produces,tak,NA,NA,ceiling,roof
 item_323,i_10_26,word,outside,produces,trampoline,NA,NA,trampoline,trampoline
 item_324,i_10_27,word,outside,produces,tre,NA,tree,three,tree
-item_325,i_10_28,word,outside,produces,vann (not beverage),NA,water (not beverage),water,water (not beverage)
+item_325,i_10_28,word,outside,produces,vann (not beverage),NA,water (not beverage),water (not beverage),water (not beverage)
 item_326,i_10_29,word,outside,produces,vannslange,NA,NA,water hose,hose
 item_327,i_10_30,word,outside,produces,vei,NA,NA,road,road
 item_328,i_10_31,word,outside,produces,vind,NA,NA,wind,wind
@@ -420,7 +420,7 @@ item_418,i_14_5,word,action_words,produces,bygge,NA,NA,building,build
 item_419,i_14_6,word,action_words,produces,bære,NA,NA,carry,carry
 item_420,i_14_7,word,action_words,produces,danse,NA,dance,dance,dance
 item_421,i_14_8,word,action_words,produces,dele,NA,NA,share,share
-item_422,i_14_9,word,action_words,produces,drikke (action),NA,drink (action),drink,drink (action)
+item_422,i_14_9,word,action_words,produces,drikke (action),NA,drink (action),drink (action),drink (action)
 item_423,i_14_10,word,action_words,produces,dytte,NA,push,shove,push
 item_424,i_14_11,word,action_words,produces,elske,NA,love,making love,love
 item_425,i_14_12,word,action_words,produces,fange,NA,NA,catch,catch
@@ -431,7 +431,7 @@ item_429,i_14_16,word,action_words,produces,få,NA,get,get,get
 item_430,i_14_17,word,action_words,produces,gi,NA,give,give,give
 item_431,i_14_18,word,action_words,produces,gjemme,NA,NA,hide,hide
 item_432,i_14_19,word,action_words,produces,gjøre seg ferdig,NA,finish,should finish,finish
-item_433,i_14_20,word,action_words,produces,gli,NA,NA,slide,slide (action)
+item_433,i_14_20,word,action_words,produces,gli,NA,NA,slide (action),slide (action)
 item_434,i_14_21,word,action_words,produces,gråte,NA,cry,cry,cry
 item_435,i_14_22,word,action_words,produces,gå,NA,walk,go,walk
 item_436,i_14_23,word,action_words,produces,ha,NA,NA,have,have
@@ -453,7 +453,7 @@ item_451,i_14_38,word,action_words,produces,kjøre,NA,drive,driving,drive
 item_452,i_14_39,word,action_words,produces,klappe,NA,NA,pat,pat
 item_453,i_14_40,word,action_words,produces,klatre,NA,NA,climb,climb
 item_454,i_14_41,word,action_words,produces,klemme,NA,hug,clamp,hug
-item_455,i_14_42,word,action_words,produces,kle på,NA,NA,dress,dress (action)
+item_455,i_14_42,word,action_words,produces,kle på,NA,NA,dress (action),dress (action)
 item_456,i_14_43,word,action_words,produces,koste,NA,NA,cost,sweep
 item_457,i_14_44,word,action_words,produces,kysse,NA,kiss,kiss,kiss
 item_458,i_14_45,word,action_words,produces,lage mat,NA,NA,cook,cook
@@ -550,7 +550,7 @@ item_548,i_15_28,word,descriptive_words,produces,liten,NA,little (description),s
 item_549,i_15_29,word,descriptive_words,produces,mørkt,NA,dark,dark,dark
 item_550,i_15_30,word,descriptive_words,produces,ny,NA,NA,new,new
 item_551,i_15_31,word,descriptive_words,produces,ødelagt,NA,broken,destroyed,broken
-item_552,i_15_32,word,descriptive_words,produces,oransje,NA,NA,orange,orange (description)
+item_552,i_15_32,word,descriptive_words,produces,oransje,NA,NA,orange (description),orange (description)
 item_553,i_15_33,word,descriptive_words,produces,pen,NA,pretty,pretty,pretty
 item_554,i_15_34,word,descriptive_words,produces,rar,NA,NA,rar,strange
 item_555,i_15_35,word,descriptive_words,produces,redd,NA,scared,afraid,scared

@@ -138,7 +138,7 @@ item_136,yogur,word,food_drink,understands; produces,yogur,NA,yogurt,yogurt
 item_137,zumo,word,food_drink,understands; produces,zumo,NA,juice,juice
 item_138,abrigo,word,clothing,understands; produces,abrigo,NA,coat,coat
 item_139,babero,word,clothing,understands; produces,babero,NA,bib,bib
-item_140,botas,word,clothing,understands; produces,bota/s,NA,boots,boots
+item_140,botas,word,clothing,understands; produces,bota/s,NA,boots,boot
 item_141,boton,word,clothing,understands; produces,botón,NA,button,button
 item_142,bufanda,word,clothing,understands; produces,bufanda,NA,scarf,scarf
 item_143,calcetin,word,clothing,understands; produces,calcetín/es,NA,socks,sock
@@ -201,7 +201,7 @@ item_199,casa,word,outside_places,understands; produces,casa,NA,home,house
 item_200,calle,word,outside_places,understands; produces,calle,NA,street,street
 item_201,columpio,word,outside_places,understands; produces,columpio,NA,swing,swing (object)
 item_202,luna,word,outside_places,understands; produces,luna,NA,moon,moon
-item_203,lluvia,word,outside_places,understands; produces,lluvia,NA,rain,rain
+item_203,lluvia,word,outside_places,understands; produces,lluvia,NA,rain,rain (weather)
 item_204,mar,word,outside_places,understands; produces,mar,NA,sea,sea
 item_205,parque,word,outside_places,understands; produces,parque,NA,park,park
 item_206,sol,word,outside_places,understands; produces,sol,NA,sun,sun
@@ -262,7 +262,7 @@ item_260,hambre,word,descriptive_words,understands; produces,hambre,NA,hunger,hu
 item_261,limpio,word,descriptive_words,understands; produces,limpio,NA,clean,clean (description)
 item_262,lleno,word,descriptive_words,understands; produces,lleno,NA,full,full
 item_263,malo_,word,descriptive_words,understands; produces,malo,NA,bad,bad
-item_264,pequeno,word,descriptive_words,understands; produces,pequeño,NA,little,little (description)
+item_264,pequeno,word,descriptive_words,understands; produces,pequeño,NA,little (description),little (description)
 item_265,roto,word,descriptive_words,understands; produces,roto,NA,broken,broken
 item_266,sed,word,descriptive_words,understands; produces,sed,NA,thirst,thirsty
 item_267,sueno,word,descriptive_words,understands; produces,sueño,NA,dream,dream

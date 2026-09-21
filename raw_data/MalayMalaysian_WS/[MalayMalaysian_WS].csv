@@ -69,7 +69,7 @@ item_67,buih,toys,item_67,word,understands; produces,bubbles,bubbles
 item_68,anak patung,toys,item_68,word,understands; produces,doll,doll
 item_69,permainan,toys,item_69,word,understands; produces,game,game
 item_70,pen,toys,item_70,word,understands; produces,pen,pen
-item_71,pensil,toys,item_71,word,understands; produces,pencil,Pencil
+item_71,pensil,toys,item_71,word,understands; produces,pencil,pencil
 item_72,hadiah,toys,item_72,word,understands; produces,present,present
 item_73,pasel,toys,item_73,word,understands; produces,puzzle,puzzle
 item_74,cerita,toys,item_74,word,understands; produces,story,story
@@ -226,7 +226,7 @@ item_224,taman,outside,item_224,word,understands; produces,park,park
 item_225,parti,outside,item_225,word,understands; produces,party,party
 item_226,taman permainan,outside,item_226,word,understands; produces,playground,playground
 item_227,kolan renang,outside,item_227,word,understands; produces,(swimming) pool,pool
-item_228,hujan,outside,item_228,word,understands; produces,rain,rain
+item_228,hujan,outside,item_228,word,understands; produces,rain,rain (weather)
 item_229,batu,outside,item_229,word,understands; produces,rock,stone
 item_230,bumbung,outside,item_230,word,understands; produces,roof,roof
 item_231,tempat pasir,outside,item_231,word,understands; produces,sandpit,sandbox
@@ -428,7 +428,7 @@ item_426,vitamin,food_drink,item_426,word,understands; produces,vitamin,vitamin
 item_427,air,food_drink,item_427,word,understands; produces,water_food,water (beverage)
 item_428,yogurt,food_drink,item_428,word,understands; produces,yogurt,yogurt
 item_429,hawa dingin,furniture_rooms,item_429,word,understands; produces,aircon,air conditioner
-item_430,kerusi tinggi,furniture_rooms,item_430,word,understands; produces,baby chair,baby chair
+item_430,kerusi tinggi,furniture_rooms,item_430,word,understands; produces,baby chair,high chair
 item_431,bilik mandi,furniture_rooms,item_431,word,understands; produces,bathroom,bathroom
 item_432,katil,furniture_rooms,item_432,word,understands; produces,bed,bed
 item_433,bilik tidur,furniture_rooms,item_433,word,understands; produces,bedroom,bedroom
@@ -578,7 +578,7 @@ item_576,cahaya,household,item_576,word,understands; produces,light,light
 item_577,ubat,household,item_577,word,understands; produces,medicine,medicine
 item_578,cermin,household,item_578,word,understands; produces,mirror,mirror
 item_579,duit,household,item_579,word,understands; produces,money,money
-item_580,pengelap lantai,household,item_580,word,understands; produces,mop,mop
+item_580,pengelap lantai,household,item_580,word,understands; produces,mop,mop (object)
 item_581,paku,household,item_581,word,understands; produces,nail_house,nail (object)
 item_582,kertas,household,item_582,word,understands; produces,paper,paper
 item_583,lukisan,household,item_583,word,understands; produces,picture,picture

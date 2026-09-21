@@ -95,7 +95,7 @@ item_93,word,food_drink,ruoka ,ruoka ,food,food
 item_94,word,food_drink,rusina  ,rusina  ,raisin,raisin
 item_95,word,food_drink,tomaatti ,tomaatti ,tomato,tomato
 item_96,word,food_drink,velli  ,velli  ,gruel,
-item_97,word,food_drink,vesi ,vesi ,water,water
+item_97,word,food_drink,vesi ,vesi ,water,water (beverage)
 item_98,word,food_drink,viili  ,viili  ,nordic_kind_of_sour_milk,
 item_99,word,food_drink,voi,voi,butter,butter
 item_100,word,clothing,hattu  ,hattu  ,hat,hat
@@ -115,7 +115,7 @@ item_113,word,clothing,takki ,takki ,jacket,jacket
 item_114,word,clothing,vaippa  ,vaippa  ,nappy,diaper
 item_115,word,clothing,vetoketju ,vetoketju ,zipper,zipper
 item_116,word,clothing,villapaita  ,villapaita  ,pullover,sweater
-item_117,word,clothing,yöpuku ,yöpuku ,pyjamas,pyjamas
+item_117,word,clothing,yöpuku ,yöpuku ,pyjamas,pajamas
 item_118,word,body_parts,hammas  ,hammas  ,tooth,tooth
 item_119,word,body_parts,hiukset/tukka ,hiukset/tukka ,hair,hair
 item_120,word,body_parts,jalka  ,jalka  ,foot,foot
@@ -215,7 +215,7 @@ item_213,word,outside,puisto  ,puisto  ,park,park
 item_214,word,outside,puu ,puu ,tree,tree
 item_215,word,outside,päiväkoti  ,päiväkoti  ,day_care_center,
 item_216,word,outside,ranta ,ranta ,shore,beach
-item_217,word,outside,sade  ,sade  ,rain,rain
+item_217,word,outside,sade  ,sade  ,rain,rain (weather)
 item_218,word,outside,taivas ,taivas ,sky,sky
 item_219,word,outside,talo  ,talo  ,house,house
 item_220,word,outside,tähti,tähti,star,star

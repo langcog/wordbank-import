@@ -157,7 +157,7 @@ item_155,yogurt,word,food_drink,produces,yogurt,NA,yogurt,yogurt
 item_156,beads,word,clothing,produces,beads,NA,beads,beads
 item_157,belt,word,clothing,produces,belt,NA,belt,belt
 item_158,bib,word,clothing,produces,bib,NA,bib,bib
-item_159,boots,word,clothing,produces,boots,NA,boots,boots
+item_159,boots,word,clothing,produces,boots,NA,boots,boot
 item_160,button,word,clothing,produces,button,NA,button,button
 item_161,coat,word,clothing,produces,coat,NA,coat,coat
 item_162,diaper,word,clothing,produces,diaper,NA,diaper,diaper
@@ -303,7 +303,7 @@ item_301,ladder,word,outside,produces,ladder,NA,ladder,ladder
 item_302,lawn_mower,word,outside,produces,lawn mower,NA,lawn mower,lawn mower
 item_303,moon,word,outside,produces,moon,NA,moon,moon
 item_304,pool,word,outside,produces,pool,NA,pool,pool
-item_305,rain,word,outside,produces,rain,NA,rain,rain
+item_305,rain,word,outside,produces,rain,NA,rain,rain (weather)
 item_306,rock,word,outside,produces,rock,NA,rock,rock (object)
 item_307,roof,word,outside,produces,roof,NA,roof,roof
 item_308,sandbox,word,outside,produces,sandbox,NA,sandbox,sandbox

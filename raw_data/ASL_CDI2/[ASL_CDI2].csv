@@ -12,7 +12,7 @@ item_10,ASK,word,understand;produces,ASK,action_words,ask,ask
 item_11,AUNT,word,understand;produces,AUNT,people,aunt,aunt
 item_12,AWAY,word,understand;produces,AWAY,action_words,away,away
 item_13,BABY,word,understand;produces,BABY,people,baby,baby
-item_14,BACK,word,understand;produces,BACK,body_parts,back,back
+item_14,BACK,word,understand;produces,BACK,body_parts,back,back (body part)
 item_15,BAD,word,understand;produces,BAD,descriptive_words,bad,bad
 item_16,BALL,word,understand;produces,BALL,toys,ball,ball
 item_17,BALLOON,word,understand;produces,BALLOON,toys,balloon,balloon
@@ -166,7 +166,7 @@ item_164,FIND,word,understand;produces,FIND,action_words,find,find
 item_165,FINE_1,word,understand;produces,FINE_1,descriptive_words,fine,fine
 item_166,FINGER,word,understand;produces,FINGER,body_parts,finger,finger
 item_167,FINISH,word,understand;produces,FINISH,action_words,finish,finish
-item_168,FIREMAN,word,understand;produces,FIREMAN,people,fireman,fireman
+item_168,FIREMAN,word,understand;produces,FIREMAN,people,fireman,firefighter
 item_169,FIRST,word,understand;produces,FIRST,descriptive_words,first,first
 item_170,FISH,word,understand;produces,FISH,animals,fish,fish (animal)
 item_171,FIX,word,understand;produces,FIX,action_words,fix,fix
@@ -293,7 +293,7 @@ item_291,MONKEY,word,understand;produces,MONKEY,animals,monkey,monkey
 item_292,MONSTER,word,understand;produces,MONSTER,people,monster,monster
 item_293,MONTH,word,understand;produces,MONTH,time_words,month,month
 item_294,MOON,word,understand;produces,MOON,outside,moon,moon
-item_295,MOP,word,understand;produces,MOP,household,mop,mop
+item_295,MOP,word,understand;produces,MOP,household,mop,mop (object)
 item_296,MORE,word,understand;produces,MORE,quantifiers,more,more
 item_297,MORNING,word,understand;produces,MORNING,time_words,morning,morning
 item_298,MOTHER,word,understand;produces,MOTHER,people,mother,mommy
@@ -303,7 +303,7 @@ item_301,MOUTH,word,understand;produces,MOUTH,body_parts,mouth,mouth
 item_302,MOVIE,word,understand;produces,MOVIE,outside,movie,movie
 item_303,MUCH,word,understand;produces,MUCH,quantifiers,much,much
 item_304,MY,word,understand;produces,MY,pronouns,my,1SG.POSS
-item_305,MYSELF,word,understand;produces,MYSELF,pronouns,myself,self
+item_305,MYSELF,word,understand;produces,MYSELF,pronouns,myself,1SG
 item_306,NAPKIN,word,understand;produces,NAPKIN,household,napkin,napkin
 item_307,NECKLACE,word,understand;produces,NECKLACE,clothing,necklace,necklace
 item_308,NEED,word,understand;produces,NEED,mental,need,need
@@ -329,7 +329,7 @@ item_327,OPEN,word,understand;produces,OPEN,action_words,open,open (action)
 item_328,OPEN_BOOK,word,understand;produces,OPEN_BOOK,action_words,open book,NA
 item_329,ORANGE,word,understand;produces,ORANGE,descriptive_words,orange,orange (description)
 item_330,OTHER,word,understand;produces,OTHER,quantifiers,other,other
-item_331,OUR,word,understand;produces,OUR,pronouns,our,our
+item_331,OUR,word,understand;produces,OUR,pronouns,our,1PL.POSS
 item_332,OUT,word,understand;produces,OUT,locations,out,out
 item_333,OUTSIDE,word,understand;produces,OUTSIDE,outside,outside,outside
 item_334,OVER_1,word,understand;produces,OVER_1,locations,over,over
@@ -364,7 +364,7 @@ item_362,PUT,word,understand;produces,PUT,action_words,put,put
 item_363,QUIET,word,understand;produces,QUIET,descriptive_words,quiet,quiet
 item_364,RABBIT,word,understand;produces,RABBIT,animals,rabbit,rabbit
 item_365,RADIO,word,understand;produces,RADIO,household,radio,radio
-item_366,RAIN,word,understand;produces,RAIN,outside,rain,rain
+item_366,RAIN,word,understand;produces,RAIN,outside,rain,rain (weather)
 item_367,READ,word,understand;produces,READ,action_words,read,read
 item_368,RED,word,understand;produces,RED,descriptive_words,red,red
 item_369,REMEMBER,word,understand;produces,REMEMBER,mental,remember,remember

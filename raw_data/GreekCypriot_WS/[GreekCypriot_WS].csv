@@ -36,7 +36,7 @@ item_34,A17_SNAIL__CG,word,animals,produces,καράολος,snail CG,,
 item_35,A18_COCKRO,word,animals,produces,κατσαρίδα,cockroach,,
 item_36,A19_GOAT,word,animals,produces,κατσίκα,goat,,goat
 item_37,A20_ROOSTE,word,animals,produces,κόκορας,rooster,,rooster
-item_38,A21_CHICKE,word,animals,produces,κότα,chicken,,chicken (animal)
+item_38,A21_CHICKE,word,animals,produces,κότα,chicken (animal),,chicken (animal)
 item_39,A22_OWL,word,animals,produces,κουκουβάγια,owl,,owl
 item_40,A23_RABBIT,word,animals,produces,κουνέλι,rabbit,,bunny
 item_41,A24_MOSQUI,word,animals,produces,κουνούπι,mosquito,,mosquito
@@ -48,7 +48,7 @@ item_46,A29_HARE,word,animals,produces,λαγός,hare,,
 item_47,A30_LION,word,animals,produces,λιοντάρι,lion,,lion
 item_48,A31_MONKEY,word,animals,produces,μαϊμού,monkey,,monkey
 item_49,A32_BEE,word,animals,produces,μέλισσα,bee,,bee
-item_50,A33_FLY,word,animals,produces,μύγα,fly,,fly (animal)
+item_50,A33_FLY,word,animals,produces,μύγα,fly (animal),,fly (animal)
 item_51,A34_ANT,word,animals,produces,μυρμήγκι,ant,,ant
 item_52,A25_BAT,word,animals,produces,νυχτερίδα,bat,,
 item_53,A26_LADYBU_CG,word,animals,produces,παπαρούνα,ladybug CG,,
@@ -71,7 +71,7 @@ item_69,A52_WHALE,word,animals,produces,φάλαινα,whale,,
 item_70,A53_SNAKE,word,animals,produces,φίδι,snake,,snake
 item_71,A54_TURTLE,word,animals,produces,χελώνα,turtle,,turtle
 item_72,A55_GOOSE,word,animals,produces,χήνα,goose,,goose
-item_73,A56_FISH,word,animals,produces,ψάρι,fish,,fish (animal)
+item_73,A56_FISH,word,animals,produces,ψάρι,fish (animal),,fish (animal)
 item_74,T1_TEDDY_B,word,toys,produces,αρκουδάκι,teddy bear,,teddybear
 item_75,T2_CAR,word,toys,produces,αυτοκινητάκι,car,,car
 item_76,T3_BOOK,word,toys,produces,βιβλίο,book,,book
@@ -118,7 +118,7 @@ item_116,FD19_WATER,word,food_drink,produces,καρπούζι,watermelon,,waterm
 item_117,FD20_COFFE,word,food_drink,produces,καφές,coffee,,coffee
 item_118,DF21_CAKE,word,food_drink,produces,κέϊκ,cake,,cake
 item_119,FD22_KETCH,word,food_drink,produces,κέτσαπ,ketchup,,
-item_120,FD23_CHICK,word,food_drink,produces,κοτόπουλο,chicken,,chicken (food)
+item_120,FD23_CHICK,word,food_drink,produces,κοτόπουλο,chicken (food),,chicken (food)
 item_121,FD24_STUFF_CG,word,food_drink,produces,κουπέπι,"""stuffed grape leaves"" CG",,
 item_122,FD25_CANDY_CG,word,food_drink,produces,κουφέττα,candy CG,,
 item_123,FD26_MEAT__CG,word,food_drink,produces,κρέας,meat CG,,meat
@@ -136,7 +136,7 @@ item_134,FD37_PEAS,word,food_drink,produces,μπιζέλι,peas,,peas
 item_135,FD38_BISCU,word,food_drink,produces,μπισκότο,biscuit,,biscuit
 item_136,FD39_BURGE,word,food_drink,produces,μπιφτέκι,burger,,
 item_137,FD40_NUGGE,word,food_drink,produces,νάγκετς,nuggets,,
-item_138,FD41_WATER,word,food_drink,produces,νερό,water,,water (beverage)
+item_138,FD41_WATER,word,food_drink,produces,νερό,water (beverage),,water (beverage)
 item_139,FD42_NUTS,word,food_drink,produces,ξηροί καρποί,nuts,,
 item_140,FD43_ICE_C,word,food_drink,produces,παγάκι,ice cube,,
 item_141,FD44_ICE_C,word,food_drink,produces,παγωτό,ice cream,,ice cream
@@ -146,7 +146,7 @@ item_144,FD47_MELON,word,food_drink,produces,πεπόνι,melon,,
 item_145,FD48_GUM_C_CG,word,food_drink,produces,πίσσα,gum CG,,
 item_146,FD49_PIZZA,word,food_drink,produces,πίτσα,pizza,,pizza
 item_147,FD50_POP_C,word,food_drink,produces,ποπ κορν,pop corn,,
-item_148,FD51_ORANG,word,food_drink,produces,πορτοκάλι,orange,,orange (food)
+item_148,FD51_ORANG,word,food_drink,produces,πορτοκάλι,orange (food),,orange (food)
 item_149,FD52_RICE,word,food_drink,produces,ρύζι,rice,,rice
 item_150,FD53_SANDW,word,food_drink,produces,σάντουιτς,sandwich,,sandwich
 item_151,FD54_CYPRI,word,food_drink,produces,σιάμισι,"""cypriot sweet""",,
@@ -178,7 +178,7 @@ item_176,FD79_HAM_C_CG,word,food_drink,produces,χαμ,ham CG,,ham
 item_177,FD80_HAMBU,word,food_drink,produces,χάμπουργκερ,hamburger,,
 item_178,FD81_JUICE,word,food_drink,produces,χυμός,juice,,juice
 item_179,FD82_CONE_,word,food_drink,produces,χωνάκι,cone (ice cream),,
-item_180,FD83_FISH,word,food_drink,produces,ψάρι,fish,,fish (food)
+item_180,FD83_FISH,word,food_drink,produces,ψάρι,fish (food),,fish (food)
 item_181,FD84_BREAD,word,food_drink,produces,ψωμί,bread,,bread
 item_182,V1_AIRPLAN,word,vehicles,produces,αεροπλάνο,airplane,,airplane
 item_183,V2_CAR,word,vehicles,produces,αμάξι,car,,car
@@ -315,7 +315,7 @@ item_313,C11_BUTTON,word,clothing,produces,κουμπί,button,,button
 item_314,C12_SWIMSU,word,clothing,produces,μαγιό,swimsuit,,swimsuit
 item_315,C13_BIKINI,word,clothing,produces,μπικίνι,bikini,,
 item_316,C14_T_SHIR,word,clothing,produces,μπλούζα,t-shirt/blouse,,t-shirt
-item_317,C15_BOOT,word,clothing,produces,μπότα,boot,,boots
+item_317,C15_BOOT,word,clothing,produces,μπότα,boot,,boot
 item_318,C16_JACKET,word,clothing,produces,μπουφάν,jacket,,jacket
 item_319,C17_SLIPPE,word,clothing,produces,παντόφλα,slipper,,slipper
 item_320,C18_SHOE,word,clothing,produces,παπούτσι,shoe,,shoe
@@ -339,17 +339,17 @@ item_337,OT1_WIND,word,outside,produces,αέρας,wind,,wind
 item_338,OT2_SAND,word,outside,produces,άμμος,sand,,sand
 item_339,OT3_STAR,word,outside,produces,αστέρι,star,,star
 item_340,OT4_ROCK,word,outside,produces,βράχος,rock,,rock (object)
-item_341,OT5_RAIN,word,outside,produces,βροχή,rain,,rain
+item_341,OT5_RAIN,word,outside,produces,βροχή,rain,,rain (weather)
 item_342,OT6_GRASS,word,outside,produces,γρασίδι,grass,,grass
 item_343,OT7_TREE,word,outside,produces,δέντρο,tree,,tree
 item_344,OT8_ROAD,word,outside,produces,δρόμος,road,,street
 item_345,OT9_SUN,word,outside,produces,ήλιος,sun,,sun
 item_346,OT10_SLIDE_CG,word,outside,produces,κατρατζύλι,slide CG,,
 item_347,OT11_BEACH,word,outside,produces,κουβαδάκια,beach toys,,
-item_348,OT12_SWING,word,outside,produces,κούνια,swing,,swing (object)
+item_348,OT12_SWING,word,outside,produces,κούνια,swing (object),,swing (object)
 item_349,OT13_HOSE,word,outside,produces,λάστιχο,hose,,
 item_350,OT14_FLOWE,word,outside,produces,λουλούδι,flower,,flower
-item_351,OT15_WATER,word,outside,produces,νερό,water,,water (not beverage)
+item_351,OT15_WATER,word,outside,produces,νερό,water (not beverage),,water (not beverage)
 item_352,OT16_UMBRE,word,outside,produces,ομπρέλα,umbrella,,umbrella
 item_353,OT17_SKY,word,outside,produces,ουρανός,sky,,sky
 item_354,OT18_RAINB,word,outside,produces,ουράνιο τόξο,rainbow,,
@@ -510,7 +510,7 @@ item_508,V24_PAINT,word,action_words,produces,ζωγραφίζω,paint,,draw
 item_509,V25_WANT,word,action_words,produces,θέλω,want,,
 item_510,V26_SEE_CG_CG,word,action_words,produces,θορώ,see CG,,
 item_511,V27_DO_MAK,word,action_words,produces,κάνω,do/make,,do
-item_512,V28_CLEAN,word,action_words,produces,καθαρίζω,clean,,clean (action)
+item_512,V28_CLEAN,word,action_words,produces,καθαρίζω,clean (action),,clean (action)
 item_513,V29_BURN,word,action_words,produces,καίω,burn,,
 item_514,V30_CRY,word,action_words,produces,κλαίω,cry,,cry
 item_515,V31_CLOSE,word,action_words,produces,κλείνω,close,,close
@@ -542,7 +542,7 @@ item_540,V56_GET,word,action_words,produces,παίρνω,get,,take
 item_541,V57_GO,word,action_words,produces,πάω,go,,go
 item_542,V58_FEEL_H,word,action_words,produces,πεινώ,feel hungry,,hungry
 item_543,V59_WALK,word,action_words,produces,περπατώ,walk,,walk
-item_544,V60_FLY,word,action_words,produces,πετώ,fly,,fly (action)
+item_544,V60_FLY,word,action_words,produces,πετώ,fly (action),,fly (action)
 item_545,V61_FALL,word,action_words,produces,πέφτω,fall,,fall
 item_546,V62_JUMP,word,action_words,produces,πηδώ,jump,,jump
 item_547,V63_DRINK,word,action_words,produces,πίνω,drink,,drink (action)
@@ -597,7 +597,7 @@ item_595,D15_STRONG,word,descriptive_words,produces,δυνατό,strong,,hard
 item_596,D16_KIND,word,descriptive_words,produces,ευγενικό,kind,,gentle
 item_597,D17_HOT,word,descriptive_words,produces,ζεστό,hot,,hot
 item_598,D18_QUIET,word,descriptive_words,produces,ήσυχο,quiet,,
-item_599,D19_CLEAN,word,descriptive_words,produces,καθαρό,clean,,clean (description)
+item_599,D19_CLEAN,word,descriptive_words,produces,καθαρό,clean (description),,clean (description)
 item_600,D20_NEW,word,descriptive_words,produces,καινούριο,new,,new
 item_601,D21_BAD,word,descriptive_words,produces,κακό,bad,,bad
 item_602,D22_GOOD,word,descriptive_words,produces,καλό,good,,good
@@ -691,7 +691,7 @@ item_689,P14_ME_ACC,word,pronouns,produces,με (αγαπά),me (accusative),,me
 item_690,P15_ME_GEN,word,pronouns,produces,μου (λέει),me (genitive),,me
 item_691,P16_YOU_AC,word,pronouns,produces,σε (αγαπώ),you (accusative),,you
 item_692,P17_YOU_GE,word,pronouns,produces,σου (μιλώ),you (genitive),,you
-item_693,P18_HER_AC,word,pronouns,produces,την (αγαπώ),her (accusative),,her
+item_693,P18_HER_AC,word,pronouns,produces,την (αγαπώ),her (accusative),,3SG.POSS
 item_694,P19_IT_ACC,word,pronouns,produces,το (αγαπώ),it (accusative),,it
 item_695,P20_HIM_AC,word,pronouns,produces,τον (αγαπώ),him (accusative),,him
 item_696,P21_HIM_IT,word,pronouns,produces,του (μιλώ),him/it (genitive),,him
@@ -740,7 +740,7 @@ item_738,CS6_CIRCLE,word,descriptive_words,produces,κύκλος,circle,,
 item_739,CS7_BLACK,word,descriptive_words,produces,μαύρο,black,,black
 item_740,CS8_BLUE,word,descriptive_words,produces,μπλε,blue,,blue
 item_741,CS9_PURPLE,word,descriptive_words,produces,μωβ,purple,,
-item_742,CS10_ORANG,word,descriptive_words,produces,πορτοκαλί,orange,,orange (description)
+item_742,CS10_ORANG,word,descriptive_words,produces,πορτοκαλί,orange (description),,orange (description)
 item_743,CS11_GREEN,word,descriptive_words,produces,πράσινο,green,,green
 item_744,CS12_PINK,word,descriptive_words,produces,ροζ,pink,,
 item_745,CS13_SQUAR,word,descriptive_words,produces,τετράγωνο,square,,

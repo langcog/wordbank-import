@@ -63,7 +63,7 @@
 петух,animals,NA,word,understands; produces,NA,item_90,rooster,rooster
 поросенок/свинка,animals,NA,word,understands; produces,NA,item_91,piglet/pig,pig
 птичка,animals,NA,word,understands; produces,NA,item_92,bird,bird
-рыбка,animals,NA,word,understands; produces,NA,item_93,fish,fish (animal)
+рыбка,animals,NA,word,understands; produces,NA,item_93,fish (animal),fish (animal)
 слон,animals,NA,word,understands; produces,NA,item_94,elephant,elephant
 собака,animals,NA,word,understands; produces,NA,item_95,dog,dog
 сова,animals,NA,word,understands; produces,NA,item_96,owl,owl
@@ -80,14 +80,14 @@
 самолет,vehicles,NA,word,understands; produces,NA,item_107,aeroplane/plane,airplane
 трактор,vehicles,NA,word,understands; produces,NA,item_108,tractor,tractor
 ведро,toys,NA,word,understands; produces,NA,item_109,bucket,bucket
-игрушка,toys,NA,word,understands; produces,NA,item_110,toy,toy (object)
+игрушка,toys,NA,word,understands; produces,NA,item_110,toy (object),toy (object)
 карандаш/ручка,toys,NA,word,understands; produces,NA,item_111,pencil/pen,pen/pencil
 книга,toys,NA,word,understands; produces,NA,item_112,book,book
 кубики,toys,NA,word,understands; produces,NA,item_113,block,blocks
 кукла,toys,NA,word,understands; produces,NA,item_114,doll,doll
 лопатка/совок,toys,NA,word,understands; produces,NA,item_115,shovel/spade,shovel
 мяч,toys,NA,word,understands; produces,NA,item_116,ball,ball
-апельсин,food_drink,NA,word,understands; produces,NA,item_117,orange,orange (food)
+апельсин,food_drink,NA,word,understands; produces,NA,item_117,orange (food),orange (food)
 банан,food_drink,NA,word,understands; produces,NA,item_118,banana,banana
 булка,food_drink,NA,word,understands; produces,NA,item_119,loaf (baguette),bun
 груша,food_drink,NA,word,understands; produces,NA,item_120,pear,pear
@@ -97,7 +97,7 @@
 картошка,food_drink,NA,word,understands; produces,NA,item_124,potato,potato
 каша,food_drink,NA,word,understands; produces,NA,item_125,porridge,porridge
 кефир,food_drink,NA,word,understands; produces,NA,item_126,yogurt drink,yogurt drink
-компот,food_drink,NA,word,understands; produces,NA,item_127,compote,compote
+компот,food_drink,NA,word,understands; produces,NA,item_127,compote,jam
 конфета,food_drink,NA,word,understands; produces,NA,item_128,sweet,candy
 макароны,food_drink,NA,word,understands; produces,NA,item_129,spaghetti/noodle (pasta),pasta
 масло,food_drink,NA,word,understands; produces,NA,item_130,butter,butter
@@ -107,7 +107,7 @@
 огурец,food_drink,NA,word,understands; produces,NA,item_134,cucumber,cucumber
 печенье,food_drink,NA,word,understands; produces,NA,item_135,cookie,cookie
 помидор,food_drink,NA,word,understands; produces,NA,item_136,tomato,tomato
-рыба,food_drink,NA,word,understands; produces,NA,item_137,fish,fish (food)
+рыба,food_drink,NA,word,understands; produces,NA,item_137,fish (food),fish (food)
 сок,food_drink,NA,word,understands; produces,NA,item_138,juice,juice
 сосиска,food_drink,NA,word,understands; produces,NA,item_139,sausage,sausage
 суп,food_drink,NA,word,understands; produces,NA,item_140,soup,soup
@@ -119,7 +119,7 @@
 ягода,food_drink,NA,word,understands; produces,NA,item_146,berry,berry
 яйцо,food_drink,NA,word,understands; produces,NA,item_147,egg,egg
 босоножки,clothing,NA,word,understands; produces,NA,item_148,open-toe sandals,sandal
-ботинки,clothing,NA,word,understands; produces,NA,item_149,boots,boots
+ботинки,clothing,NA,word,understands; produces,NA,item_149,boots,boot
 варежки/рукавицы,clothing,NA,word,understands; produces,NA,item_150,mittens,mitten
 колготки,clothing,NA,word,understands; produces,NA,item_151,tights,tights
 комбинезон,clothing,NA,word,understands; produces,NA,item_152,bib/snowsuit,snowsuit
@@ -131,7 +131,7 @@
 платье,clothing,NA,word,understands; produces,NA,item_158,dress,dress (object)
 пуговица,clothing,NA,word,understands; produces,NA,item_159,button,button
 рубашка,clothing,NA,word,understands; produces,NA,item_160,shirt,shirt
-сапоги,clothing,NA,word,understands; produces,NA,item_161,boots,boots
+сапоги,clothing,NA,word,understands; produces,NA,item_161,boots,boot
 тапки,clothing,NA,word,understands; produces,NA,item_162,slippers,slipper
 трусы,clothing,NA,word,understands; produces,NA,item_163,underpants,underpants
 туфли,clothing,NA,word,understands; produces,NA,item_164,shoes,shoe
@@ -220,13 +220,13 @@
 грязь,outside,NA,word,understands; produces,NA,item_247,mud/dirt,mud
 двор,outside,NA,word,understands; produces,NA,item_248,yard,yard
 дерево,outside,NA,word,understands; produces,NA,item_249,tree,tree
-дождь,outside,NA,word,understands; produces,NA,item_250,rain,rain
+дождь,outside,NA,word,understands; produces,NA,item_250,rain,rain (weather)
 дом,outside,NA,word,understands; produces,NA,item_251,house,house
 елка,outside,NA,word,understands; produces,NA,item_252,fir,fir
 звезда,outside,NA,word,understands; produces,NA,item_253,star,star
 зоопарк,outside,NA,word,understands; produces,NA,item_254,zoo,zoo
 камень,outside,NA,word,understands; produces,NA,item_255,stone,rock (object)
-качели,outside,NA,word,understands; produces,NA,item_256,swing,swing (object)
+качели,outside,NA,word,understands; produces,NA,item_256,swing (object),swing (object)
 лужа,outside,NA,word,understands; produces,NA,item_257,pool,puddle
 луна,outside,NA,word,understands; produces,NA,item_258,moon,moon
 магазин,outside,NA,word,understands; produces,NA,item_259,shop,store
@@ -301,7 +301,7 @@
 искать,action_words,NA,word,understands; produces,NA,item_328,look for,look for
 какать,action_words,NA,word,understands; produces,NA,item_329,dump,go potty
 катать/кататься,action_words,NA,word,understands; produces,NA,item_330,ride,ride
-качать/качаться,action_words,NA,word,understands; produces,NA,item_331,swing,swing (action)
+качать/качаться,action_words,NA,word,understands; produces,NA,item_331,swing (action),swing (action)
 класть,action_words,NA,word,understands; produces,NA,item_332,put,put
 копать,action_words,NA,word,understands; produces,NA,item_333,dig/shovel,dig
 кормить,action_words,NA,word,understands; produces,NA,item_334,feed,feed
@@ -345,10 +345,10 @@
 горячий,descriptive_words (adjectives),NA,word,understands; produces,NA,item_372,hot,hot
 громкий,descriptive_words (adjectives),NA,word,understands; produces,NA,item_373,loud,loud
 грязный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_374,yucky,dirty
-игрушечный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_375,toy,toy (description)
+игрушечный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_375,toy (description),toy (description)
 красивый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_376,pretty,pretty
 маленький,descriptive_words (adjectives),NA,word,understands; produces,NA,item_377,little,little (description)
-мокрый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_378,wet,wet (description)
+мокрый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_378,wet (description),wet (description)
 плохой,descriptive_words (adjectives),NA,word,understands; produces,NA,item_379,bad,bad
 сладкий,descriptive_words (adjectives),NA,word,understands; produces,NA,item_380,sweet,sweet
 страшный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_381,scary,scary
@@ -361,7 +361,7 @@
 желтый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_388,yellow,yellow
 зеленый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_389,green,green
 красный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_390,red,red
-оранжевый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_391,orange,orange (description)
+оранжевый,descriptive_words (adjectives),NA,word,understands; produces,NA,item_391,orange (description),orange (description)
 синий,descriptive_words (adjectives),NA,word,understands; produces,NA,item_392,blue,blue
 черный,descriptive_words (adjectives),NA,word,understands; produces,NA,item_393,black,black
 больно,descriptive_words (adverbs),NA,word,understands; produces,NA,item_394,paintfully/boo-boo,painful
@@ -402,10 +402,10 @@
 тебе/ты,pronouns,NA,word,understands; produces,NA,item_429,you,2SG
 это/этот/эти,pronouns,NA,word,understands; produces,NA,item_430,this/these,this
 я,pronouns,NA,word,understands; produces,NA,item_431,I,1SG
-где?,question_words,NA,word,understands; produces,NA,item_432,where,where (question)
+где?,question_words,NA,word,understands; produces,NA,item_432,where (question),where (question)
 какой?,question_words,NA,word,understands; produces,NA,item_433,what/which,which (question)
 кто?,question_words,NA,word,understands; produces,NA,item_434,who,who
-куда?,question_words,NA,word,understands; produces,NA,item_435,where,where (question)
+куда?,question_words,NA,word,understands; produces,NA,item_435,where (question),where (question)
 чей?,question_words,NA,word,understands; produces,NA,item_436,whose,whose
 что?,question_words,NA,word,understands; produces,NA,item_437,what,what
 в (напр. в ведро),locations,NA,word,understands; produces,NA,item_438,in,in

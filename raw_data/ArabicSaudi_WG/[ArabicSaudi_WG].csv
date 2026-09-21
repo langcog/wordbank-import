@@ -61,7 +61,7 @@ item_59,animals,wolf,ذئب,understands; produces,word,Wolf ,wolf
 item_60,animals,bull,ثور,understands; produces,word,Bull ,bull
 item_61,animals,pigeon,حمامة,understands; produces,word,Pigeon ,pigeon
 item_62,animals,goat,عنزة (معزة/ غنمة),understands; produces,word,Goat ,goat
-item_63,animals,fish.animal,سمكة,understands; produces,word,Fish ,fish (animal)
+item_63,animals,fish.animal,سمكة,understands; produces,word,Fish (animal),fish (animal)
 item_64,animals,deer,غزال,understands; produces,word,Deer,deer
 item_65,animals,bird,طائر/طير,understands; produces,word,Bird ,bird
 item_66,animals,cow,بقرة,understands; produces,word,Cow ,cow
@@ -75,7 +75,7 @@ item_73,animals,rooster,ديك,understands; produces,word,Rooster ,rooster
 item_74,animals,frog,ضفدع,understands; produces,word,Frog ,frog
 item_75,animals,ant.2,نملة,understands; produces,word,Ant ,ant
 item_76,animals,goose,وزّة,understands; produces,word,Goose ,goose
-item_77,animals,fly.insect,ذبابة (دُبّانة),understands; produces,word,Fly ,fly (animal)
+item_77,animals,fly.insect,ذبابة (دُبّانة),understands; produces,word,Fly (animal),fly (animal)
 item_78,animals,crow,غراب,understands; produces,word,Crow  ,crow
 item_79,toys,ball,كرة (كورة),understands; produces,word,Ball ,ball
 item_80,toys,rattle,خشخيشة,understands; produces,word,Rattle ,
@@ -120,7 +120,7 @@ item_118,food_drink,lollipop,حلاوة مصاصة,understands; produces,word,Lo
 item_119,food_drink,chocolate,شوكولاتة,understands; produces,word,Chocolate ,chocolate
 item_120,food_drink,food,أكل,understands; produces,word,Food ,food
 item_121,food_drink,rice,أرز (رز),understands; produces,word,Rice ,rice
-item_122,food_drink,fries,بطاطس مقلية,understands; produces,word,Fries ,fries
+item_122,food_drink,fries,بطاطس مقلية,understands; produces,word,Fries ,french fries
 item_123,food_drink,sugar,سكر,understands; produces,word,Sugar ,sugar
 item_124,food_drink,lemon,ليمون,understands; produces,word,Lemon ,lemon
 item_125,food_drink,pepsi,بيبسي,understands; produces,word,Pepsi ,coke
@@ -141,7 +141,7 @@ item_139,food_drink,cake,كيك,understands; produces,word,Cake ,cake
 item_140,food_drink,candies,حلويات,understands; produces,word,Candies ,candy
 item_141,food_drink,rusk,شابورة,understands; produces,word,Rusk ,
 item_142,food_drink,hamburger,هامبورجر,understands; produces,word,Hamburger ,hamburger
-item_143,food_drink,fish.food,سمك,understands; produces,word,Fish ,fish (food)
+item_143,food_drink,fish.food,سمك,understands; produces,word,Fish (food),fish (food)
 item_144,food_drink,milk,حليب,understands; produces,word,Milk ,milk
 item_145,food_drink,gello,جيلي,understands; produces,word,Gello ,jelly
 item_146,food_drink,soup,شوربة,understands; produces,word,Soup ,soup
@@ -152,7 +152,7 @@ item_150,food_drink,buttermilk,لبن شرب (رايب),understands; produces,wo
 item_151,food_drink,ice.cream,ايس كريم,understands; produces,word,Ice cream,ice cream
 item_152,food_drink,feeding.bottle,رضاعة,understands; produces,word,Feeding bottle  ,bottle
 item_153,food_drink,eggs,بيض,understands; produces,word,Eggs ,egg
-item_154,food_drink,chicken.food,دجاج/ توتو,understands; produces,word,Chicken ,chicken
+item_154,food_drink,chicken.food,دجاج/ توتو,understands; produces,word,Chicken ,chicken (food)
 item_155,food_drink,lettuce,خس,understands; produces,word,Lettuce,lettuce
 item_156,food_drink,oil,زيت,understands; produces,word,Oil ,oil
 item_157,food_drink,banana,موز/ موزة,understands; produces,word,Banana ,banana
@@ -292,7 +292,7 @@ item_290,outside,backyard,حوش,understands; produces,word,Backyard ,backyard
 item_291,outside,theme.park,ملاهي,understands; produces,word,Theme park ,
 item_292,outside,work.noun,عمل/ شغل,understands; produces,word,Work ,work (place)
 item_293,outside,swimming.pool,مسبح,understands; produces,word,Swimming pool,swimming pool
-item_294,outside,rain,مطر,understands; produces,word,Rain ,rain
+item_294,outside,rain,مطر,understands; produces,word,Rain ,rain (weather)
 item_295,outside,wall,جدر (جدار/ حيطة/ طوفه),understands; produces,word,Wall ,wall
 item_296,outside,flower,وردة,understands; produces,word,Flower ,flower
 item_297,outside,tree,شجرة,understands; produces,word,Tree ,tree
@@ -403,7 +403,7 @@ item_401,action_words,tickle,يدغدغ (يزغزغ),understands; produces,word,
 item_402,action_words,brush,يفرش/ يسوك/ ينظف,understands; produces,word,Brush (teeth),brush (action)
 item_403,action_words,taste,يتذوق (يطعم/ يدوق),understands; produces,word,Taste ,taste
 item_404,action_words,curse,يسّب,understands; produces,word,Curse ,
-item_405,action_words,clean.verb,ينظف,understands; produces,word,Clean ,clean (action)
+item_405,action_words,clean.verb,ينظف,understands; produces,word,Clean (action),clean (action)
 item_406,action_words,wipe,يمسح,understands; produces,word,Erase  ,erase
 item_407,action_words,throw,يرمي,understands; produces,word,Throw ,throw
 item_408,action_words,spit,يبصق (يتفل),understands; produces,word,Spit ,spit
@@ -441,7 +441,7 @@ item_439,action_words,give.me,هات/ اديني,understands; produces,word,Give
 item_440,action_words,watch.verb,يتفرج,understands; produces,word,Watch ,watch (action)
 item_441,action_words,hit,يضرب,understands; produces,word,Hit ,hit
 item_442,action_words,peel,يقشر,understands; produces,word,Peel ,peel
-item_443,action_words,fly,يطير,understands; produces,word,Fly ,fly (action)
+item_443,action_words,fly,يطير,understands; produces,word,Fly (action),fly (action)
 item_444,action_words,sneeze,يعطّس,understands; produces,word,Sneeze ,sneeze
 item_445,action_words,look.1,يطل,understands; produces,word,Look ,look
 item_446,action_words,call.on.phone.2,يتصل,understands; produces,word,Call ,call
@@ -491,7 +491,7 @@ item_489,descriptive_words,empty,فاضي/ فارغ,understands; produces,word,E
 item_490,descriptive_words,it.huts,يعور/ أح,understands; produces,word,Hurt ,hurt
 item_491,descriptive_words,tired,متعب/ تعبان,understands; produces,word,Tired ,tired
 item_492,descriptive_words,hot,حار/ حامي,understands; produces,word,Hot ,hot
-item_493,descriptive_words,clean.adj,نظيف,understands; produces,word,Clean ,clean (description)
+item_493,descriptive_words,clean.adj,نظيف,understands; produces,word,Clean (description),clean (description)
 item_494,descriptive_words,noisy,مزعج,understands; produces,word,Noisy ,noisy
 item_495,descriptive_words,black,اسود,understands; produces,word,Black ,black
 item_496,descriptive_words,full,مليان,understands; produces,word,Full ,full
@@ -540,16 +540,16 @@ item_538,pronouns,this.masculine,هذا ( هادا),understands; produces,word,T
 item_539,pronouns,that.masculine,ذلك ( داك),understands; produces,word,That (masculine),that
 item_540,pronouns,hers,لها/ حقها,understands; produces,word,hers,3SG.POSS
 item_541,pronouns,ours,لنا/ حقنا,understands; produces,word,ours,1PL.POSS
-item_542,negation_words,not.this,مو / مو هادا ,understands; produces,word,Not  this (masculine),
-item_543,negation_words,not.here,مو هنا,understands; produces,word,Not here ,
-item_544,negation_words,not.nice,مو حلو ,understands; produces,word,Not nice,
-item_545,negation_words,not.mine,مو حقي,understands; produces,word,Not mine,
-item_546,negation_words,finished.no.more.1,مافي ,understands; produces,word,There is nothing,
-item_547,negation_words,i.dont.like,ما أحب,understands; produces,word,I do not like ,don't like
-item_548,negation_words,i.dont.want,ما/ ما أبغى,understands; produces,word,I do not want ,don't want
-item_549,negation_words,dont.go,لا/ لا تروح,understands; produces,word,no/ do not go,
-item_550,negation_words,finished,خلاص/ خلص/ حلص نّنّا,understands; produces,word,finished,finished
-item_551,negation_words,finished.no.more.2,بح/ بح ماما,understands; produces,word,finished/ no more,no more
+item_542,games_routines,not.this,مو / مو هادا ,understands; produces,word,Not  this (masculine),
+item_543,games_routines,not.here,مو هنا,understands; produces,word,Not here ,
+item_544,games_routines,not.nice,مو حلو ,understands; produces,word,Not nice,
+item_545,games_routines,not.mine,مو حقي,understands; produces,word,Not mine,
+item_546,games_routines,finished.no.more.1,مافي ,understands; produces,word,There is nothing,
+item_547,games_routines,i.dont.like,ما أحب,understands; produces,word,I do not like ,don't like
+item_548,games_routines,i.dont.want,ما/ ما أبغى,understands; produces,word,I do not want ,don't want
+item_549,games_routines,dont.go,لا/ لا تروح,understands; produces,word,no/ do not go,
+item_550,games_routines,finished,خلاص/ خلص/ حلص نّنّا,understands; produces,word,finished,finished
+item_551,games_routines,finished.no.more.2,بح/ بح ماما,understands; produces,word,finished/ no more,no more
 item_552,quantifiers,more,مزيد/ زيادة (كمان),understands; produces,word,More ,more
 item_553,quantifiers,five,خمسة,understands; produces,word,Five ,five
 item_554,quantifiers,ten,عشرة,understands; produces,word,Ten ,ten

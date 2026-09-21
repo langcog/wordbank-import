@@ -15,7 +15,7 @@ får,animals,far,word,understands; produces,NA,item_13,sheep,sheep
 ko,animals,ko,word,understands; produces,NA,item_14,cow,cow
 and,animals,and,word,understands; produces,NA,item_15,duck,duck
 giraf,animals,giraf,word,understands; produces,NA,item_16,Giraffe,giraffe
-kylling (animal),animals,kylling,word,understands; produces,NA,item_17,chicken,chicken (animal)
+kylling (animal),animals,kylling,word,understands; produces,NA,item_17,chicken (animal),chicken (animal)
 bamse,animals,bamse,word,understands; produces,NA,item_18,teddy bear,teddybear
 gris,animals,gris,word,understands; produces,NA,item_19,pig,pig
 lam,animals,lam,word,understands; produces,NA,item_20,lamb,lamb
@@ -34,7 +34,7 @@ pony,animals,pony,word,understands; produces,NA,item_32,pony,pony
 elefant,animals,elefant,word,understands; produces,NA,item_33,elephant,elephant
 hund,animals,hund,word,understands; produces,NA,item_34,dog,dog
 skildpadde,animals,skildpadde,word,understands; produces,NA,item_35,turtle,turtle
-fisk (animal),animals,fisk,word,understands; produces,NA,item_36,fish,fish (animal)
+fisk (animal),animals,fisk,word,understands; produces,NA,item_36,fish (animal),fish (animal)
 kalkun,animals,kalkun,word,understands; produces,NA,item_37,turkey,turkey
 sommerfugl,animals,sommerfugl,word,understands; produces,NA,item_38,butterfly,butterfly
 flue,animals,flue,word,understands; produces,NA,item_39,fly,fly (animal)
@@ -74,12 +74,12 @@ boller,food_drink,boller,word,understands; produces,NA,item_72,buns,bun
 kiks,food_drink,kiks,word,understands; produces,NA,item_73,biscuits,cracker
 smør,food_drink,smor,word,understands; produces,NA,item_74,butter,butter
 brød,food_drink,brod,word,understands; produces,NA,item_75,bread,bread
-kylling (food),food_drink,kylling,word,understands; produces,NA,item_76,chicken,chicken (food)
+kylling (food),food_drink,kylling,word,understands; produces,NA,item_76,chicken (food),chicken (food)
 spaghetti,food_drink,spaghetti,word,understands; produces,NA,item_77,spaghetti,pasta
 cornflakes,food_drink,cornflakes,word,understands; produces,NA,item_78,cornflakes,cheerios
 kød,food_drink,kod,word,understands; produces,NA,item_79,meat,meat
-vand (beverage),food_drink,vand,word,understands; produces,NA,item_80,water,water (beverage)
-fisk (food),food_drink,fisk,word,understands; produces,NA,item_81,fish,fish (food)
+vand (beverage),food_drink,vand,word,understands; produces,NA,item_80,water (beverage),water (beverage)
+fisk (food),food_drink,fisk,word,understands; produces,NA,item_81,fish (food),fish (food)
 mad,food_drink,mad,word,understands; produces,NA,item_82,food,food
 æble,food_drink,aeble,word,understands; produces,NA,item_83,apple,apple
 gulerødder,food_drink,gulerodder,word,understands; produces,NA,item_84,carrots,carrot
@@ -103,7 +103,7 @@ knap,clothing,knap,word,understands; produces,NA,item_101,button,button
 strømper,clothing,stromper,word,understands; produces,NA,item_102,stockings,tights
 bukser,clothing,bukser,word,understands; produces,NA,item_103,pants,pants
 lynlås,clothing,lynlas,word,understands; produces,NA,item_104,zipper,zipper
-støvler,clothing,stovler,word,understands; produces,NA,item_105,boots,boots
+støvler,clothing,stovler,word,understands; produces,NA,item_105,boots,boot
 frakke,clothing,frakke,word,understands; produces,NA,item_106,coat,coat
 nattøj,clothing,nattoj,word,understands; produces,NA,item_107,sleepwear,pajamas
 sut,clothing,sut,word,understands; produces,NA,item_108,pacifier,pacifier
@@ -168,7 +168,7 @@ pude,household,pude,word,understands; produces,NA,item_166,pillow,pillow
 tæppe,household,taeppe,word,understands; produces,NA,item_167,carpet,carpet
 kasse,household,kasse,word,understands; produces,NA,item_168,box,box
 pung,household,pung,word,understands; produces,NA,item_169,purse,purse
-ur,household,ur,word,understands; produces,NA,item_170,watch,watch (object)
+ur,household,ur,word,understands; produces,NA,item_170,watch (object),watch (object)
 klokke,household,klokke,word,understands; produces,NA,item_171,bell,clock
 radio,household,radio,word,understands; produces,NA,item_172,radio,radio
 badekar,furniture_rooms,badekar,word,understands; produces,NA,item_173,bathtub,bathtub
@@ -196,9 +196,9 @@ komfur,furniture_rooms,komfur,word,understands; produces,NA,item_194,stove,stove
 sofa,furniture_rooms,sofa,word,understands; produces,NA,item_195,bed,couch
 vugge,furniture_rooms,vugge,word,understands; produces,NA,item_196,Crib,crib
 blomst,outside,blomst,word,understands; produces,NA,item_197,flower,flower
-regn,outside,regn,word,understands; produces,NA,item_198,rain,rain
+regn,outside,regn,word,understands; produces,NA,item_198,rain,rain (weather)
 sten,outside,sten,word,understands; produces,NA,item_199,stone,rock (object)
-gynge (object),outside,gynge,word,understands; produces,NA,item_200,swing,swing (object)
+gynge (object),outside,gynge,word,understands; produces,NA,item_200,swing (object),swing (object)
 skovl,outside,skovl,word,understands; produces,NA,item_201,shovel,shovel
 stjerne,outside,stjerne,word,understands; produces,NA,item_202,star,star
 himmel,outside,himmel,word,understands; produces,NA,item_203,sky,sky
@@ -206,7 +206,7 @@ slæde,outside,slaede,word,understands; produces,NA,item_204,sledge,sled
 træ,outside,trae,word,understands; produces,NA,item_205,wood,tree
 kælk,outside,kaelk,word,understands; produces,NA,item_206,toboggan,sled
 sne,outside,sne,word,understands; produces,NA,item_207,snow,snow
-vand (not beverage),outside,vand,word,understands; produces,NA,item_208,water,water (not beverage)
+vand (not beverage),outside,vand,word,understands; produces,NA,item_208,water (not beverage),water (not beverage)
 måne,outside,mane,word,understands; produces,NA,item_209,moon,moon
 sol,outside,sol,word,understands; produces,NA,item_210,sun,sun
 arbejde,places,arbejde,word,understands; produces,NA,item_211,NA,work (place)
@@ -292,7 +292,7 @@ svømme,action_words,svomme,word,understands; produces,NA,item_290,swim,swim
 græde,action_words,graede,word,understands; produces,NA,item_291,cry,cry
 putte,action_words,putte,word,understands; produces,NA,item_292,snuggle,put
 synge,action_words,synge,word,understands; produces,NA,item_293,sing,sing
-gynge (action),action_words,gynge,word,understands; produces,NA,item_294,swing,swing (action)
+gynge (action),action_words,gynge,word,understands; produces,NA,item_294,swing (action),swing (action)
 ride,action_words,ride,word,understands; produces,NA,item_295,ride,ride
 sætte,action_words,saette,word,understands; produces,NA,item_296,put,put
 gå,action_words,ga,word,understands; produces,NA,item_297,go,walk
@@ -301,7 +301,7 @@ tage,action_words,tage,word,understands; produces,NA,item_299,take,take
 hjælpe,action_words,hjaelpe,word,understands; produces,NA,item_300,help,help
 røre,action_words,rore,word,understands; produces,NA,item_301,touch,touch
 tegne,action_words,tegne,word,understands; produces,NA,item_302,draw,draw
-holde øje med,action_words,holde_oje_med,word,understands; produces,NA,item_303,watch,watch (action)
+holde øje med,action_words,holde_oje_med,word,understands; produces,NA,item_303,watch (action),watch (action)
 se,action_words,se,word,understands; produces,NA,item_304,see,see
 trække,action_words,traekke,word,understands; produces,NA,item_305,pull,pull
 hoppe,action_words,hoppe,word,understands; produces,NA,item_306,jump,jump

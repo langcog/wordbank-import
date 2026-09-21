@@ -10,7 +10,7 @@ item_8,sounds,muu,muu,produces,word,moo,moo
 item_9,sounds,oh,oh,produces,word,oh,oh
 item_10,sounds,piu-piu,piu-piu,produces,word,beep beep,beep beep
 item_11,sounds,qua-qua,qua-qua,produces,word,quack quack,quack quack
-item_12,sounds,quiquiriqui,quiquiriqui,produces,word,cock-a-doodle-doo,cock-a-doodle-doo
+item_12,sounds,quiquiriqui,quiquiriqui,produces,word,cock-a-doodle-doo,cockadoodledoo
 item_13,animals,abella,abella,produces,word,bee,bee
 item_14,animals,animal,animal,produces,word,animal,animal
 item_15,animals,anec,anec,produces,word,duck,duck
@@ -78,7 +78,7 @@ item_76,toys,galleda,galleda,produces,word,bucket,bucket
 item_77,toys,globus,globus,produces,word,balloon,balloon
 item_78,toys,guitarra,guitarra,produces,word,guitar,guitar
 item_79,toys,joguina,joguina,produces,word,toy,toy (object)
-item_80,toys,llapis,llapis,produces,word,pencil,Pencil
+item_80,toys,llapis,llapis,produces,word,pencil,pencil
 item_81,toys,nina/nino,nina/nino,produces,word,doll,doll
 item_82,toys,pala,pala,produces,word,shovel,shovel
 item_83,toys,pilota,pilota,produces,word,ball,ball
@@ -161,7 +161,7 @@ item_159,clothing,barret,barret,produces,word,hat,hat
 item_160,clothing,bata,bata,produces,word,gown,
 item_161,clothing,banyador/biquini,banyador/biquini,produces,word,swimsuit,swimsuit
 item_162,clothing,bolquer,bolquer,produces,word,diaper,diaper
-item_163,clothing,bota/es,bota/es,produces,word,boots,boots
+item_163,clothing,bota/es,bota/es,produces,word,boots,boot
 item_164,clothing,boto,boto,produces,word,button,button
 item_165,clothing,bufanda,bufanda,produces,word,scarf,scarf
 item_166,clothing,calcetes/calcotets,calcetes/calcotets,produces,word,underpants,underpants
@@ -177,7 +177,7 @@ item_175,clothing,pantalons,pantalons,produces,word,pants,pants
 item_176,clothing,paraigues,paraigues,produces,word,umbrella,umbrella
 item_177,clothing,pijama,pijama,produces,word,pajamas,pajamas
 item_178,clothing,pitet,pitet,produces,word,bib,bib
-item_179,clothing,roba,roba,produces,word,clothing,clothing
+item_179,clothing,roba,roba,produces,word,clothing,clothes
 item_180,clothing,sabata/es,sabata/es,produces,word,shoe,shoe
 item_181,clothing,sabatilles,sabatilles,produces,word,slippers,slipper
 item_182,clothing,samarreta,samarreta,produces,word,shirt,shirt
@@ -194,7 +194,7 @@ item_192,body_parts,coll,coll,produces,word,neck,neck
 item_193,body_parts,cul,cul,produces,word,butt,butt
 item_194,body_parts,dent/s,dent/s,produces,word,tooth,tooth
 item_195,body_parts,dit/s,dit/s,produces,word,finger/toe,finger
-item_196,body_parts,esquena,esquena,produces,word,back,back
+item_196,body_parts,esquena,esquena,produces,word,back,back (body part)
 item_197,body_parts,galta,galta,produces,word,cheek,cheek
 item_198,body_parts,genoll/s,genoll/s,produces,word,knee,knee
 item_199,body_parts,llavis,llavis,produces,word,lips,lip
@@ -226,7 +226,7 @@ item_224,people,metge/ssa,metge/ssa,produces,word,doctor,doctor
 item_225,people,nen,nen,produces,word,boy,boy
 item_226,people,nena,nena,produces,word,girl,girl
 item_227,people,noi/a,noi/a,produces,word,boy/girl,
-item_228,people,nom del nen/a,nom del nen/a,produces,word,child's name,child's name
+item_228,people,nom del nen/a,nom del nen/a,produces,word,child's name,child's own name
 item_229,people,nom propi,nom propi,produces,word,person's name,
 item_230,people,nom propi2,nom propi2,produces,word,person's name,
 item_231,people,oncle/tiet/tio,oncle/tiet/tio,produces,word,uncle,uncle
@@ -253,7 +253,7 @@ item_251,household,disc,disc,produces,word,disc,CD
 item_252,household,encenedor,encenedor,produces,word,lighter,lighter
 item_253,household,endoll,endoll,produces,word,plug,plug
 item_254,household,escombra,escombra,produces,word,broom,broom
-item_255,household,escombraries,escombraries,produces,word,garbage,garbage
+item_255,household,escombraries,escombraries,produces,word,garbage,trash
 item_256,household,esponja,esponja,produces,word,sponge,sponge
 item_257,household,estora/catifa,estora/catifa,produces,word,mat/rug,carpet
 item_258,household,forquilla,forquilla,produces,word,fork,fork
@@ -274,7 +274,7 @@ item_272,household,pinta,pinta,produces,word,paint,paint (object)
 item_273,household,plat,plat,produces,word,plate,plate
 item_274,household,radio,radio,produces,word,radio,radio
 item_275,household,raspall,raspall,produces,word,brush,brush (object)
-item_276,household,rellotge,rellotge,produces,word,watch,watch (object)
+item_276,household,rellotge,rellotge,produces,word,watch (object),watch (object)
 item_277,household,sabo,sabo,produces,word,soap,soap
 item_278,household,tassa,tassa,produces,word,cup,cup
 item_279,household,telefon,telefon,produces,word,phone,phone
@@ -341,7 +341,7 @@ item_339,outside,neu,neu,produces,word,snow,snow
 item_340,outside,nuvol,nuvol,produces,word,cloud,cloud
 item_341,outside,pedra/roc,pedra/roc,produces,word,stone/rock,stone
 item_342,outside,planta,planta,produces,word,plant,plant
-item_343,outside,pluja,pluja,produces,word,rain,rain
+item_343,outside,pluja,pluja,produces,word,rain (weather),rain (weather)
 item_344,outside,pont,pont,produces,word,bridge,bridge
 item_345,outside,regadora,regadora,produces,word,watering can,watering can
 item_346,outside,riu,riu,produces,word,river,river
@@ -460,7 +460,7 @@ item_458,action_words,jugar,jugar,produces,word,play,play
 item_459,action_words,llancar,llancar,produces,word,throw,throw
 item_460,action_words,llegir,llegir,produces,word,read,read
 item_461,action_words,menjar,menjar,produces,word,eat,eat
-item_462,action_words,mirar,mirar,produces,word,watch,watch (action)
+item_462,action_words,mirar,mirar,produces,word,watch (action),watch (action)
 item_463,action_words,mossegar,mossegar,produces,word,bite,bite
 item_464,action_words,mullar,mullar,produces,word,wet (action),wet (action)
 item_465,action_words,muntar,muntar,produces,word,ride,ride
@@ -476,7 +476,7 @@ item_474,action_words,pesar,pesar,produces,word,weigh,
 item_475,action_words,picar,picar,produces,word,bite,bite
 item_476,action_words,pintar,pintar,produces,word,paint (action),paint (action)
 item_477,action_words,plorar,plorar,produces,word,cry,cry
-item_478,action_words,ploure,ploure,produces,word,rain,rain
+item_478,action_words,ploure,ploure,produces,word,rain (action),rain (action)
 item_479,action_words,poder,poder,produces,word,can,can
 item_480,action_words,portar,portar,produces,word,bring,bring
 item_481,action_words,posar,posar,produces,word,put,put

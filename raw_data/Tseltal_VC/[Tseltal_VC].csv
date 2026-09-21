@@ -52,7 +52,7 @@ item_50,food_drink,chenek',chenek',produces,word,bean,beans
 item_51,food_drink,chi'in,chi'in,produces,word,potato,potato
 item_52,food_drink,ich,ich,produces,word,chili,chili
 item_53,food_drink,ixim,ixim,produces,word,corn,corn
-item_54,food_drink,ja',ja',produces,word,water,water
+item_54,food_drink,ja',ja',produces,word,water,water (beverage)
 item_55,food_drink,kajpe/café,kajpe/café,produces,word,coffee,coffee
 item_56,food_drink,ko'esan,ko'esan,produces,word,chayote root,NA
 item_57,food_drink,kot,kot,produces,word,tortilla,tortilla
@@ -136,7 +136,7 @@ item_134,outside,amak',amak',produces,word,patio,patio
 item_135,outside,be,be,produces,word,path/road/trail,path
 item_136,outside,ek',ek',produces,word,star,star
 item_137,outside,ik',ik',produces,word,wind,wind
-item_138,outside,ja'al,ja'al,produces,word,rain,rain
+item_138,outside,ja'al,ja'al,produces,word,rain,rain (weather)
 item_139,outside,k'aal,k'aal,produces,word,sun/day,sun
 item_140,outside,k'altik,k'altik,produces,word,mixed-plant cornfield,NA
 item_141,outside,na,na,produces,word,house,house

@@ -90,8 +90,8 @@ item_377,377_why,question_words,understands; produces,why,word,NA,why,why
 item_382,382_now,time_words,understands; produces,now,word,NA,now,now
 item_383,383_today,time_words,understands; produces,today,word,NA,today,today
 item_384,384_tomorrow,time_words,understands; produces,tomorrow,word,NA,tomorrow,tomorrow
-item_386,386_her,pronouns,understands; produces,her,word,NA,her,her
-item_388,388_I,pronouns,understands; produces,I,word,NA,I,I
+item_386,386_her,pronouns,understands; produces,her,word,NA,her,3SG.POSS
+item_388,388_I,pronouns,understands; produces,I,word,NA,I,1SG
 item_398,398_back,prepositions,understands; produces,back,word,NA,back,back (preposition)
 item_400,400_in,prepositions,understands; produces,in,word,NA,in,in
 item_405,405_there,prepositions,understands; produces,there,word,NA,there,there

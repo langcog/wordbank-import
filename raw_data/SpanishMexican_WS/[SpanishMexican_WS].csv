@@ -204,7 +204,7 @@ item_202,plastlin,word,toys,produces,plastilina,NA,NA,clay,clay
 item_203,pluma,word,toys,produces,pluma/plumones,NA,NA,pen,pen
 item_204,tambor,word,toys,produces,tambor,NA,drum,drum,drum (object)
 item_205,tricicl2,word,toys,produces,triciclo (toys),NA,NA,tricycle (toy),tricycle
-item_206,botas,word,clothing,produces,botas,NA,boots,boots,boots
+item_206,botas,word,clothing,produces,botas,NA,boots,boots,boot
 item_207,bolsa1,word,clothing,produces,bolsa (clothing),NA,NA,purse,purse
 item_208,babera,word,clothing,produces,babero,NA,bib,bib,bib
 item_209,aretes,word,clothing,produces,aretes,NA,earrings,earrings,earring
@@ -270,7 +270,7 @@ item_268,flor,word,outside,produces,flor,NA,flower,flower,flower
 item_269,fuego,word,outside,produces,fuego,NA,NA,fire,fire
 item_270,hojas,word,outside,produces,hojas,NA,NA,leaves,leaf
 item_271,lena,word,outside,produces,leña,NA,NA,firewood,firewood
-item_272,lluvia,word,outside,produces,lluvia,NA,rain,rain,rain
+item_272,lluvia,word,outside,produces,lluvia,NA,rain,rain,rain (weather)
 item_273,luna,word,outside,produces,luna,NA,moon,moon,moon
 item_274,maceta,word,outside,produces,maceta,NA,NA,flower pot,flower pot
 item_275,manguera,word,outside,produces,manguera,NA,NA,hose,hose
@@ -409,7 +409,7 @@ item_407,leer,word,action_words,produces,leer,NA,read,read,read
 item_408,levntar,word,action_words,produces,levantar(se),NA,NA,lift,stand
 item_409,llevar,word,action_words,produces,llevar(se),NA,take,carry,take
 item_410,llorar,word,action_words,produces,llorar,NA,cry,mourn,cry
-item_411,llover,word,action_words,produces,llover,NA,NA,to rain,rain
+item_411,llover,word,action_words,produces,llover,NA,NA,to rain,rain (action)
 item_412,meterse,word,action_words,produces,meter(se),NA,put,get into,put
 item_413,mirar,word,action_words,produces,mirar,NA,look,to see,look
 item_414,morder,word,action_words,produces,morder,NA,bite,to bite,bite
@@ -503,7 +503,7 @@ item_501,gustar,word,action_words,produces,gustar,NA,NA,to like,like
 item_502,hacer,word,action_words,produces,hacer,NA,NA,to do,do
 item_503,abrir,word,action_words,produces,abrir,NA,open (action),to open,open (action)
 item_504,estar,word,states,produces,estar,NA,be,be,be
-item_505,habrhay,word,states,produces,haber (hay),NA,NA,have,NA
+item_505,habrhay,word,states,produces,haber (hay),NA,NA,have,have
 item_506,ser,word,states,produces,ser,NA,be,to be,be
 item_507,alto,word,descriptive_words,produces,alto,NA,NA,high up,tall
 item_508,amarillo,word,descriptive_words,produces,amarillo,NA,yellow,yellow,yellow

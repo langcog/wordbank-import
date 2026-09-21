@@ -151,7 +151,7 @@ item_149,French (French),WS,WS,word,clothing,05.149 perles,perles,beads,beads
 item_150,French (French),WS,WS,word,clothing,05.150 collier,collier,necklace,necklace
 item_151,French (French),WS,WS,word,clothing,05.151 bavoir,bavoir,bib,bib
 item_152,French (French),WS,WS,word,clothing,05.152 pyjamas,pyjamas,pajamas,pajamas
-item_153,French (French),WS,WS,word,clothing,05.153 bottes,bottes,boots,boots
+item_153,French (French),WS,WS,word,clothing,05.153 bottes,bottes,boots,boot
 item_154,French (French),WS,WS,word,clothing,05.154 pantalon,pantalon,pants,pants
 item_155,French (French),WS,WS,word,clothing,05.155 boutons,boutons,button,button
 item_156,French (French),WS,WS,word,clothing,05.156 chemise,chemise,shirt,shirt
@@ -332,7 +332,7 @@ item_330,French (French),WS,WS,word,outside,12.330 tuyau,tuyau,pipe,hose
 item_331,French (French),WS,WS,word,outside,12.331 échelle,échelle,ladder,ladder
 item_332,French (French),WS,WS,word,outside,12.332 tondeuse à gazon,tondeuse à gazon,lawn mower,lawn mower
 item_333,French (French),WS,WS,word,outside,12.333 piscine,piscine,pool,pool
-item_334,French (French),WS,WS,word,outside,12.334 pluie,pluie,rain,rain
+item_334,French (French),WS,WS,word,outside,12.334 pluie,pluie,rain,rain (weather)
 item_335,French (French),WS,WS,word,outside,12.335 caillou,caillou,stone,stone
 item_336,French (French),WS,WS,word,outside,12.336 toit,toit,roof,roof
 item_337,French (French),WS,WS,word,outside,12.337 pelle,pelle,shovel,shovel
@@ -524,10 +524,10 @@ item_522,French (French),WS,WS,word,household,19.516 sucette,sucette,pacifier,pa
 item_523,French (French),WS,WS,word,household,19.517 panier,panier,basket,basket
 item_524,French (French),WS,WS,word,household,19.518 seau,seau,bucket,bucket
 item_525,French (French),WS,WS,word,household,19.519 appareil photo,appareil photo,camera,camera
-item_526,French (French),WS,WS,word,household,19.520 ordure,ordure,garbage,garbage
+item_526,French (French),WS,WS,word,household,19.520 ordure,ordure,garbage,trash
 item_527,French (French),WS,WS,word,household,19.521 pot,pot,jar,jar
 item_528,French (French),WS,WS,word,household,19.522 couteau,couteau,knife,knife
-item_529,French (French),WS,WS,word,household,19.523 serpillière,serpillière,mop,mop
+item_529,French (French),WS,WS,word,household,19.523 serpillière,serpillière,mop,mop (object)
 item_530,French (French),WS,WS,word,household,19.524 clou,clou,nail (object),nail (object)
 item_531,French (French),WS,WS,word,household,19.525 serviette de table,serviette de table,napkin,napkin
 item_532,French (French),WS,WS,word,household,19.526 cassette,cassette,cassette,tape (object)

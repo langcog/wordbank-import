@@ -131,9 +131,9 @@ item_129,krenten,krenten,understands; produces,word,food_drink,currants,raisin
 item_130,drinken,drinken,understands; produces,word,food_drink,drink (beverage),drink (beverage)
 item_131,beschuit,beschuit,understands; produces,word,food_drink,Dutch rusk/biscuit rusk,cookie
 item_132,muesli,muesli,understands; produces,word,food_drink,muesli,granola
-item_133,water,water,understands; produces,word,food_drink,water,water
+item_133,water,water,understands; produces,word,food_drink,water,water (beverage)
 item_134,macaroni,macaroni,understands; produces,word,food_drink,macaroni,pasta
-item_135,laarsjes,laarsjes,understands; produces,word,clothing,boots (small --),boots
+item_135,laarsjes,laarsjes,understands; produces,word,clothing,boots (small --),boot
 item_136,bloes,bloes,understands; produces,word,clothing,blouse,shirt
 item_137,jasje,jasje,understands; produces,word,clothing,coat,coat
 item_138,T-shirt,T-shirt,understands; produces,word,clothing,T-shirt,t-shirt
@@ -154,7 +154,7 @@ item_152,sjaal,sjaal,understands; produces,word,clothing,scarf,scarf
 item_153,rits,rits,understands; produces,word,clothing,zipper,zipper
 item_154,hemd,hemd,understands; produces,word,clothing,undershirt,undershirt
 item_155,schoen,schoen,understands; produces,word,clothing,shoe,shoe
-item_156,pyjama,pyjama,understands; produces,word,clothing,pyjamas,pyjamas
+item_156,pyjama,pyjama,understands; produces,word,clothing,pyjamas,pajamas
 item_157,knoop,knoop,understands; produces,word,clothing,button,button
 item_158,trui,trui,understands; produces,word,clothing,sweater,sweater
 item_159,oor,oor,understands; produces,word,body_parts,ear,ear
@@ -165,7 +165,7 @@ item_163,poep,poep,understands; produces,word,body_parts,poop,poop
 item_164,haar,haar,understands; produces,word,body_parts,hair,hair
 item_165,neus,neus,understands; produces,word,body_parts,nose,nose
 item_166,tong,tong,understands; produces,word,body_parts,tongue,tongue
-item_167,rug,rug,understands; produces,word,body_parts,back,back (body part)
+item_167,rug,rug,understands; produces,word,body_parts,back (body part),back (body part)
 item_168,been,been,understands; produces,word,body_parts,leg,leg
 item_169,tand,tand,understands; produces,word,body_parts,tooth,tooth
 item_170,vinger,vinger,understands; produces,word,body_parts,finger,finger
@@ -188,7 +188,7 @@ item_186,kamer,kamer,understands; produces,word,furniture_rooms,room,room
 item_187,koelkast,koelkast,understands; produces,word,furniture_rooms,fridge,fridge
 item_188,vuur,vuur,understands; produces,word,furniture_rooms,cooker/stove,stove
 item_189,schommelstoel,schommelstoel,understands; produces,word,furniture_rooms,rocking chair,rocking chair
-item_190,vissenkom,vissenkom,understands; produces,word,furniture_rooms,fishbowl,fishtank
+item_190,vissenkom,vissenkom,understands; produces,word,furniture_rooms,fishbowl,fish tank
 item_191,bank,bank,understands; produces,word,furniture_rooms,couch/davenport,couch
 item_192,douche,douche,understands; produces,word,furniture_rooms,shower,shower
 item_193,bad,bad,understands; produces,word,furniture_rooms,bath,bath
@@ -271,7 +271,7 @@ item_269,steen,steen,understands; produces,word,outside,stone,stone
 item_270,hemel,hemel,understands; produces,word,outside,sky,sky
 item_271,glijbaan,glijbaan,understands; produces,word,outside,"slide, shute",slide (object)
 item_272,ster,ster,understands; produces,word,outside,star,star
-item_273,regen,regen,understands; produces,word,outside,rain,rain
+item_273,regen,regen,understands; produces,word,outside,rain,rain (weather)
 item_274,zwembad,zwembad,understands; produces,word,outside,swimming-pool,swimming pool
 item_275,zon,zon,understands; produces,word,outside,sun,sun
 item_276,sneeuw,sneeuw,understands; produces,word,outside,snow,snow
@@ -443,14 +443,14 @@ item_441,lekker,lekker,understands; produces,word,descriptive_words,nice/tasty,y
 item_442,dicht,dicht,understands; produces,word,descriptive_words,shut,closed
 item_443,braaf,braaf,understands; produces,word,descriptive_words,decent,well-behaved
 item_444,op,op,understands; produces,word,descriptive_words,finished,finished
-item_445,ik,ik,understands; produces,word,pronouns,I,I
+item_445,ik,ik,understands; produces,word,pronouns,I,1SG
 item_446,jij,jij,understands; produces,word,pronouns,you,you
 item_447,je,je,understands; produces,word,pronouns,you,you
 item_448,die,die,understands; produces,word,pronouns,that,that
 item_449,het,het,understands; produces,word,pronouns,it,it
 item_450,wij,wij,understands; produces,word,pronouns,we,we
 item_451,zijn,zijn,understands; produces,word,pronouns,his,his
-item_452,haar,haar,understands; produces,word,pronouns,her,her
+item_452,haar,haar,understands; produces,word,pronouns,her,3SG.POSS
 item_453,deze,deze,understands; produces,word,pronouns,this,this
 item_454,jouw,jouw,understands; produces,word,pronouns,yourself,yourself
 item_455,mij,mij,understands; produces,word,pronouns,me,me
@@ -468,7 +468,7 @@ item_466,boven,boven,understands; produces,word,locations,above,above
 item_467,erop,erop,understands; produces,word,locations,on it (on them),on
 item_468,naar,naar,understands; produces,word,locations,to,to
 item_469,met,met,understands; produces,word,locations,with,with
-item_470,terug,terug,understands; produces,word,locations,back,back (location)
+item_470,terug,terug,understands; produces,word,locations,back (location),back (location)
 item_471,daar,daar,understands; produces,word,locations,there,there
 item_472,weg,weg,understands; produces,word,locations,away,away
 item_473,voor,voor,understands; produces,word,locations,in front of,in front

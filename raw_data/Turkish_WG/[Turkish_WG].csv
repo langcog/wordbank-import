@@ -1,5 +1,5 @@
 definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
-Aç,action_words,Ac,word,understands; produces,NA,item_258,open,open (action)
+Aç,action_words,Ac,word,understands; produces,NA,item_258,open (action),open (action)
 Acı (canı),action_words,Aci_(cani),word,understands; produces,NA,item_256,hurt,hurt (action)
 Acık,action_words,Acik,word,understands; produces,NA,item_257,get hungry,get hungry
 Açıl,action_words,Acil,word,understands; produces,NA,item_259,be opened,open (action)
@@ -66,7 +66,7 @@ Otur,action_words,Otur,word,understands; produces,NA,item_315,sit,sit
 Oyna,action_words,Oyna,word,understands; produces,NA,item_316,play,play
 Sakla,action_words,Sakla_,word,understands; produces,NA,item_321,hide,hide
 Salla,action_words,Salla,word,understands; produces,NA,item_322,shake,shake
-Sallan,action_words,Sallan,word,understands; produces,NA,item_323,swing,swing (action)
+Sallan,action_words,Sallan,word,understands; produces,NA,item_323,swing (action),swing (action)
 Sarıl,action_words,Saril,word,understands; produces,NA,item_324,hug/cuddle,hug
 Say,action_words,Say,word,understands; produces,NA,item_325,count,count
 Sev,action_words,Sev,word,understands; produces,NA,item_326,love/like,love
@@ -76,7 +76,7 @@ Sok,action_words,Sok,word,understands; produces,NA,item_329,put in/insert,put in
 Söyle,action_words,Soyle,word,understands; produces,NA,item_330,say/tell,say
 Sus,action_words,Sus,word,understands; produces,NA,item_331,be quiet/shut up,shh
 Tak,action_words,Tak,word,understands; produces,NA,item_332,put sth. on/hang sth. on/attach,put on
-Tara,action_words,Tara,word,understands; produces,NA,item_333,comb,comb (action)
+Tara,action_words,Tara,word,understands; produces,NA,item_333,comb (action),comb (action)
 Taşı,action_words,Tasi,word,understands; produces,NA,item_334,carry,carry
 Tut,action_words,Tut_,word,understands; produces,NA,item_335,hold,hold
 Uç,action_words,Uc,word,understands; produces,NA,item_336,fly,fly (action)
@@ -97,7 +97,7 @@ Yut,action_words,Yut,word,understands; produces,NA,item_349,swallow,swallow
 Arı,animals,Ari,word,understands; produces,NA,item_147,bee,bee
 At (animal),animals,At,word,understands; produces,NA,item_146,horse,horse
 Ayı,animals,Ayi,word,understands; produces,NA,item_145,bear,bear
-Balık (animal),animals,Balik,word,understands; produces,NA,item_144,fish,fish (animal)
+Balık (animal),animals,Balik,word,understands; produces,NA,item_144,fish (animal),fish (animal)
 Böcek,animals,Bocek,word,understands; produces,NA,item_143,bug,bug
 Eşek,animals,Esek,word,understands; produces,NA,item_142,donkey,donkey
 İnek,animals,Inek,word,understands; produces,NA,item_141,cow,cow
@@ -147,7 +147,7 @@ Terlik,clothing,Terlik,word,understands; produces,NA,item_57,slipper,slipper
 Tişört,clothing,Tisort,word,understands; produces,NA,item_56,t-shirt,t-shirt
 Yelek,clothing,Yelek,word,understands; produces,NA,item_55,vest,vest
 Acı (lezzet),descriptive_words,Aci_(lezzet),word,understands; produces,NA,item_351,bitter,bitter
-Açık,descriptive_words,Acik,word,understands; produces,NA,item_352,open,open (description)
+Açık,descriptive_words,Acik,word,understands; produces,NA,item_352,open (description),open (description)
 Boş,descriptive_words,Bos,word,understands; produces,NA,item_353,empty,empty
 Büyük,descriptive_words,Buyuk,word,understands; produces,NA,item_354,big,big
 Cici,descriptive_words,Cici,word,understands; produces,NA,item_356,cute,cute
@@ -174,7 +174,7 @@ Yeni,descriptive_words,Yeni,word,understands; produces,NA,item_375,new,new
 Armut,food_drink,Armut,word,understands; produces,NA,item_115,pear,pear
 Ayran,food_drink,Ayran,word,understands; produces,NA,item_114,yoghurt drink,yogurt drink
 Bal,food_drink,Bal,word,understands; produces,NA,item_113,honey,honey
-Balık (food),food_drink,Balik,word,understands; produces,NA,item_112,fish,fish (food)
+Balık (food),food_drink,Balik,word,understands; produces,NA,item_112,fish (food),fish (food)
 Bisküvi,food_drink,Biskuvi,word,understands; produces,NA,item_111,biscuit,cracker
 Börek,food_drink,Borek,word,understands; produces,NA,item_110,pastry,pastry
 Çay,food_drink,Cay,word,understands; produces,NA,item_109,tea,tea
@@ -292,7 +292,7 @@ Sabun,household,Sabun,word,understands; produces,NA,item_16,soap,soap
 Şişe,household,Sise,word,understands; produces,NA,item_14,bottle,bottle
 Süpürge,household,Supurge,word,understands; produces,NA,item_15,broom/vacuum cleaner,vacuum
 Tabak,household,Tabak,word,understands; produces,NA,item_13,plate,plate
-Tarak,household,Tarak,word,understands; produces,NA,item_12,comb,comb (object)
+Tarak,household,Tarak,word,understands; produces,NA,item_12,comb (object),comb (object)
 Telefon,household,Telefon,word,understands; produces,NA,item_11,telephone,telephone
 Altında,locations,Altinda,word,understands; produces,NA,item_401,under,under
 Arkasında,locations,Arkasinda,word,understands; produces,NA,item_402,behind,back (location)
@@ -316,12 +316,12 @@ Havuz,outside,Havuz,word,understands; produces,NA,item_178,pool,pool
 Kaydırak,outside,Kaydirak,word,understands; produces,NA,item_179,slide,slide (object)
 Köprü,outside,Kopru,word,understands; produces,NA,item_180,bridge,bridge
 Kum,outside,Kum,word,understands; produces,NA,item_181,sand,sand
-Salıncak,outside,Salincak,word,understands; produces,NA,item_182,swing,swing (object)
+Salıncak,outside,Salincak,word,understands; produces,NA,item_182,swing (object),swing (object)
 Sokak,outside,Sokak,word,understands; produces,NA,item_183,street,street
 Taş,outside,Tas,word,understands; produces,NA,item_184,stone/rock,rock (object)
 Toprak,outside,Toprak,word,understands; produces,NA,item_185,ground/earth,soil
 Toz,outside,Toz,word,understands; produces,NA,item_186,dust,dust
-Yağmur,outside,Yagmur,word,understands; produces,NA,item_187,rain,rain
+Yağmur,outside,Yagmur,word,understands; produces,NA,item_187,rain,rain (weather)
 Yaprak,outside,Yaprak,word,understands; produces,NA,item_188,leaf,leaf
 Yıldız,outside,Yildiz,word,understands; produces,NA,item_189,star,star
 Yol,outside,Yol,word,understands; produces,NA,item_190,road/path,road

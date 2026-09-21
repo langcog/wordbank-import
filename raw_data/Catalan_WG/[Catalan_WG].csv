@@ -65,7 +65,7 @@ item_63,toys,globus,globus,understands; produces,word,balloon,balloon
 item_64,toys,galleda,galleda,understands; produces,word,bucket,bucket
 item_65,toys,gronxador,gronxador,understands; produces,word,swing (toy),swing (object)
 item_66,toys,joguina,joguina,understands; produces,word,toy,toy (object)
-item_67,toys,llapis,llapis,understands; produces,word,pencil,Pencil
+item_67,toys,llapis,llapis,understands; produces,word,pencil,pencil
 item_68,toys,nina/nino,nina/nino,understands; produces,word,doll,doll
 item_69,toys,pala,pala,understands; produces,word,shovel,shovel
 item_70,toys,paper,paper,understands; produces,word,paper,paper
@@ -106,7 +106,7 @@ item_104,food_drink,xocolata,xocolata,understands; produces,word,chocolate,choco
 item_105,clothing,abric,abric,understands; produces,word,coat,coat
 item_106,clothing,barret,barret,understands; produces,word,hat,hat
 item_107,clothing,bolquer,bolquer,understands; produces,word,diaper,diaper
-item_108,clothing,bota/es,bota/es,understands; produces,word,boots,boots
+item_108,clothing,bota/es,bota/es,understands; produces,word,boots,boot
 item_109,clothing,boto,botó,understands; produces,word,button,button
 item_110,clothing,bufanda,bufanda,understands; produces,word,scarf,scarf
 item_111,clothing,calcetes/calcotets,calcetes/calçotets,understands; produces,word,underpants,underpants
@@ -117,7 +117,7 @@ item_115,clothing,mitjo/ns,mitjó/ns,understands; produces,word,sock,sock
 item_116,clothing,pantalons,pantalons,understands; produces,word,pants,pants
 item_117,clothing,pijama,pijama,understands; produces,word,pajamas,pajamas
 item_118,clothing,pitet,pitet,understands; produces,word,bib,bib
-item_119,clothing,roba,roba,understands; produces,word,clothing,clothing
+item_119,clothing,roba,roba,understands; produces,word,clothing,clothes
 item_120,clothing,sabata/es,sabata/es,understands; produces,word,shoe,shoe
 item_121,clothing,samerreta,samerreta,understands; produces,word,t-shirt,t-shirt
 item_122,clothing,vestit,vestit,understands; produces,word,dress,dress (object)
@@ -191,7 +191,7 @@ item_189,household,pinta,pinta,understands; produces,word,paint,paint (object)
 item_190,household,plat,plat,understands; produces,word,plate,plate
 item_191,household,radio,ràdio,understands; produces,word,radio,radio
 item_192,household,raspall,raspall,understands; produces,word,brush,brush (object)
-item_193,household,rellotge,rellotge,understands; produces,word,watch,watch (object)
+item_193,household,rellotge,rellotge,understands; produces,word,watch (object),watch (object)
 item_194,household,sabo,sabó,understands; produces,word,soap,soap
 item_195,household,tassa,tassa,understands; produces,word,cup,cup
 item_196,household,telefon,telèfon,understands; produces,word,phone,phone
@@ -221,7 +221,7 @@ item_219,outside,pedra/roc,pedra/roc,understands; produces,word,stone/rock,stone
 item_220,outside,piscina,piscina,understands; produces,word,swimming pool,swimming pool
 item_221,outside,planta,planta,understands; produces,word,plant,plant
 item_222,outside,platja,platja,understands; produces,word,beach,beach
-item_223,outside,pluja,pluja,understands; produces,word,rain,rain
+item_223,outside,pluja,pluja,understands; produces,word,rain,rain (weather)
 item_224,outside,riu,riu,understands; produces,word,river,river
 item_225,outside,sol,sol,understands; produces,word,ground,ground
 item_226,outside,sorra/arena,sorra/arena,understands; produces,word,sand,sand
@@ -236,7 +236,7 @@ item_234,people,mare/mama/mami,mare/mama/mami,understands; produces,word,mommy,m
 item_235,people,metge/metgessa,metge/metgessa,understands; produces,word,doctor,doctor
 item_236,people,nen,nen,understands; produces,word,boy,boy
 item_237,people,nena,nena,understands; produces,word,girl,girl
-item_238,people,nom del nen/a,nom del nen/a,understands; produces,word,child's name,child's name
+item_238,people,nom del nen/a,nom del nen/a,understands; produces,word,child's name,child's own name
 item_239,people,nom propi,nom propi,understands; produces,word,person's name,
 item_240,people,nom propi2,nom propi,understands; produces,word,person's name,
 item_241,people,nom propi3,nom propi,understands; produces,word,person's name,
@@ -306,7 +306,7 @@ item_304,action_words,haver (hi ha),haver (hi ha),understands; produces,word,hav
 item_305,action_words,jugar,jugar,understands; produces,word,play,play
 item_306,action_words,llegir,llegir,understands; produces,word,read,read
 item_307,action_words,menjar,menjar,understands; produces,word,eat,eat
-item_308,action_words,mirar,mirar,understands; produces,word,watch,watch (action)
+item_308,action_words,mirar,mirar,understands; produces,word,watch (action),watch (action)
 item_309,action_words,mossegar,mossegar,understands; produces,word,bite,bite
 item_310,action_words,mullar,mullar,understands; produces,word,wet (action),wet (action)
 item_311,action_words,obrir,obrir,understands; produces,word,open,open

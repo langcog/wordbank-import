@@ -49,14 +49,14 @@ item_47,household,tandenborstel,understands;produces,tandenborstel,word,toothbru
 item_48,household,washandje,understands;produces,washandje,word,washcloth,washcloth
 item_49,household,zakdoek(papier),understands;produces,zakdoek(papier),word,tissue,tissue
 item_50,furniture_rooms,kachel/openhaard,understands;produces,kachel/openhaard,word,heater/fireplace,heater/fireplace
-item_51,furniture_rooms,koelkast/frigo/ijskast/diepvries,understands;produces,koelkast/frigo/ijskast/diepvries,word,fridge/freezer,fridge/freezer
+item_51,furniture_rooms,koelkast/frigo/ijskast/diepvries,understands;produces,koelkast/frigo/ijskast/diepvries,word,fridge/freezer,fridge
 item_52,furniture_rooms,slaapkamer,understands;produces,slaapkamer,word,bedroom,bedroom
 item_53,furniture_rooms,tafel,understands;produces,tafel,word,table,table
 item_54,furniture_rooms,wasmachine,understands;produces,wasmachine,word,washing machine,washing machine
 item_55,outside,ladder,understands;produces,ladder,word,ladder,ladder
 item_56,outside,stok,understands;produces,stok,word,stick,stick
 item_57,outside,wolk,understands;produces,wolk,word,cloud,cloud
-item_58,places,bakker,understands;produces,bakker,word,baker,baker
+item_58,places,bakker,understands;produces,bakker,word,baker,bakery
 item_59,places,buiten,understands;produces,buiten,word,outdoor,outside
 item_60,places,crÃ¨che/kinderdagverblijf,understands;produces,crÃ¨che/kinderdagverblijf,word,daycare,daycare
 item_61,people,mevrouw,understands;produces,mevrouw,word,Mrs,female

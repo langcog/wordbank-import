@@ -38,7 +38,7 @@ item_60,WOLF,word,animals,produces,WOLF,NA,wolf,wolf
 item_61,ZEBRA,word,animals,produces,ZEBRA,NA,zebra,zebra
 item_62,BELT,word,clothing,produces,BELT,NA,belt,belt
 item_63,BIB,word,clothing,produces,BIB,NA,bib,bib
-item_64,BOOT,word,clothing,produces,BOOT,NA,boot,boots
+item_64,BOOT,word,clothing,produces,BOOT,NA,boot,boot
 item_65,BUTTON,word,clothing,produces,BUTTON,NA,button,button
 item_66,COAT_JACKET,word,clothing,produces,COAT/JACKET,NA,coat/jacket,coat
 item_67,DIAPER,word,clothing,produces,DIAPER,NA,diaper,diaper
@@ -229,7 +229,7 @@ item_251,COUSIN,word,people,produces,COUSIN,NA,cousin,cousin
 item_252,COWBOY,word,people,produces,COWBOY,NA,cowboy,cowboy
 item_253,DADDY,word,people,produces,DADDY,NA,daddy,daddy
 item_254,DOCTOR,word,people,produces,DOCTOR,NA,doctor,doctor
-item_255,FIREMAN,word,people,produces,FIREMAN,NA,fireman,fireman
+item_255,FIREMAN,word,people,produces,FIREMAN,NA,fireman,firefighter
 item_256,FRIEND,word,people,produces,FRIEND,NA,friend,friend
 item_257,GIRL,word,people,produces,GIRL,NA,girl,girl
 item_258,GRANDMA,word,people,produces,GRANDMA,NA,grandma,grandma
@@ -339,7 +339,7 @@ item_361,LADDER,word,outside,produces,LADDER,NA,ladder,ladder
 item_362,LAWN_MOWER,word,outside,produces,LAWN MOWER,NA,lawn mower,lawn mower
 item_363,LIGHTNING,word,outside,produces,LIGHTNING,NA,lightning,lightning
 item_364,MOON,word,outside,produces,MOON,NA,moon,moon
-item_365,RAIN,word,outside,produces,RAIN,NA,rain,rain
+item_365,RAIN,word,outside,produces,RAIN,NA,rain,rain (weather)
 item_366,ROCK,word,outside,produces,ROCK,NA,rock,rock (object)
 item_367,SHOVEL,word,outside,produces,SHOVEL,NA,shovel,shovel
 item_368,SNOW,word,outside,produces,SNOW,NA,snow,snow
@@ -421,7 +421,7 @@ item_443,LETTER,word,household,produces,LETTER,NA,letter,letter
 item_444,LIGHT,word,household,produces,LIGHT,NA,light,light (object)
 item_445,MEDICINE,word,household,produces,MEDICINE,NA,medicine,medicine
 item_446,MONEY,word,household,produces,MONEY,NA,money,money
-item_447,MOP,word,household,produces,MOP,NA,mop,mop
+item_447,MOP,word,household,produces,MOP,NA,mop,mop (object)
 item_448,NAPKIN,word,household,produces,NAPKIN,NA,napkin,napkin
 item_449,NEWSPAPER,word,household,produces,NEWSPAPER,NA,newspaper,newspaper
 item_450,PAPER,word,household,produces,PAPER,NA,paper,paper

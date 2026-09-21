@@ -96,7 +96,7 @@ item_127,toast,word,food_drink,understands; produces,toast,NA,toast,toast
 item_128,water.beverage,word,food_drink,understands; produces,water (beverage),NA,water (beverage),water (beverage)
 item_129,beads,word,clothing,understands; produces,beads,NA,beads,beads
 item_130,bib,word,clothing,understands; produces,bib,NA,bib,bib
-item_131,boots,word,clothing,understands; produces,boots,NA,boots,boots
+item_131,boots,word,clothing,understands; produces,boots,NA,boots,boot
 item_132,button,word,clothing,understands; produces,button,NA,button,button
 item_133,coat,word,clothing,understands; produces,coat,NA,coat,coat
 item_134,diaper,word,clothing,understands; produces,diaper,NA,diaper,diaper
@@ -205,7 +205,7 @@ item_236,outside,word,outside,understands; produces,outside,NA,outside,outside
 item_237,park,word,outside,understands; produces,park,NA,park,park
 item_238,party,word,outside,understands; produces,party,NA,party,party
 item_239,pool,word,outside,understands; produces,pool,NA,pool,pool
-item_240,rain,word,outside,understands; produces,rain,NA,rain,rain
+item_240,rain,word,outside,understands; produces,rain,NA,rain,rain (weather)
 item_241,rock,word,outside,understands; produces,rock,NA,rock,rock (object)
 item_242,school,word,outside,understands; produces,school,NA,school,school
 item_243,shovel,word,outside,understands; produces,shovel,NA,shovel,shovel

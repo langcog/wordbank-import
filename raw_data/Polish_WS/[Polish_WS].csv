@@ -33,14 +33,14 @@ item_31,małpa,word,animals,produces,NA,malpa,monkey,monkey
 item_32,miś/niedźwiedź,word,animals,produces,NA,mis.niedzwiedz,bear / teddybear,bear
 item_33,motylek,word,animals,produces,NA,motylek,butterfly,butterfly
 item_34,mrówka,word,animals,produces,NA,mrowka,ant,ant
-item_35,mucha,word,animals,produces,NA,mucha,fly,fly (animal)
+item_35,mucha,word,animals,produces,NA,mucha,fly (animal),fly (animal)
 item_36,myszka,word,animals,produces,NA,myszka,mouse,mouse
 item_37,pająk,word,animals,produces,NA,pajak,spider,spider
 item_38,pies,word,animals,produces,NA,pies,dog,dog
 item_39,pingwin,word,animals,produces,NA,pingwin,penguin,penguin
 item_40,ptaszek,word,animals,produces,NA,ptaszek,bird,bird
 item_41,robak,word,animals,produces,NA,robak,bug,bug
-item_42,ryba_animals,word,animals,produces,NA,ryba_animals,fish,fish (animal)
+item_42,ryba_animals,word,animals,produces,NA,ryba_animals,fish (animal),fish (animal)
 item_43,słoń,word,animals,produces,NA,slon,elephant,elephant
 item_44,sowa,word,animals,produces,NA,sowa,owl,owl
 item_45,ślimak,word,animals,produces,NA,slimak,snail,snail
@@ -86,7 +86,7 @@ item_84,dżem,word,food_drink,produces,NA,dzem,jam,jam
 item_85,galaretka,word,food_drink,produces,NA,galaretka,jelly,jelly
 item_86,groszek,word,food_drink,produces,NA,groszek,peas,peas
 item_87,grzyby,word,food_drink,produces,NA,grzyby,mushrooms,mushroom
-item_88,guma do żucia,word,food_drink,produces,NA,guma_do_zucia,chewing gum,chewing gum
+item_88,guma do żucia,word,food_drink,produces,NA,guma_do_zucia,chewing gum,gum
 item_89,herbata,word,food_drink,produces,NA,herbata,tea,tea
 item_90,jabłko,word,food_drink,produces,NA,jablko,apple,apple
 item_91,jajko,word,food_drink,produces,NA,jajko,egg,egg
@@ -115,14 +115,14 @@ item_113,orzechy,word,food_drink,produces,NA,orzechy,nuts,nut
 item_114,ogórek,word,food_drink,produces,NA,ogorek,cucumber,cucumber
 item_115,paluszki,word,food_drink,produces,NA,paluszki,saltsticks,snack
 item_116,parówka/kiełbaska,word,food_drink,produces,NA,parowka.kielbaska,sausage,sausage
-item_117,picie,word,food_drink,produces,NA,picie,drink,drink (beverage)
+item_117,picie,word,food_drink,produces,NA,picie,drink (beverage),drink (beverage)
 item_118,pierogi,word,food_drink,produces,NA,pierogi,dumplings,dumpling
 item_119,placek,word,food_drink,produces,NA,placek,pie,pie
 item_120,pomarańcza,word,food_drink,produces,NA,pomarancza,orange,orange (food)
 item_121,pomidor,word,food_drink,produces,NA,pomidor,tomato,tomato
 item_122,rodzynki,word,food_drink,produces,NA,rodzynki,raisins,raisin
 item_123,rosół,word,food_drink,produces,NA,rosol,broth,broth
-item_124,ryba_food_drink,word,food_drink,produces,NA,ryba_food_drink,fish,fish (food)
+item_124,ryba_food_drink,word,food_drink,produces,NA,ryba_food_drink,fish (food),fish (food)
 item_125,ryż,word,food_drink,produces,NA,ryz,rice,rice
 item_126,ser,word,food_drink,produces,NA,ser,cheese,cheese
 item_127,sok,word,food_drink,produces,NA,sok,juice,juice
@@ -131,7 +131,7 @@ item_129,sól,word,food_drink,produces,NA,sol,salt,salt
 item_130,szynka,word,food_drink,produces,NA,szynka,ham,ham
 item_131,truskawki,word,food_drink,produces,NA,truskawki,strawberries,strawberry
 item_132,witaminy,word,food_drink,produces,NA,witaminy,vitamins,vitamin
-item_133,woda_food_drink,word,food_drink,produces,NA,woda_food_drink,water,water (beverage)
+item_133,woda_food_drink,word,food_drink,produces,NA,woda_food_drink,water (beverage),water (beverage)
 item_134,ziemniaki/kartofle,word,food_drink,produces,NA,ziemniaki.kartofle,potatoes,potato
 item_135,zupa,word,food_drink,produces,NA,zupa,soup,soup
 item_136,bajka,word,toys,produces,NA,bajka,fairytale,story
@@ -157,7 +157,7 @@ item_155,buty,word,clothing,produces,NA,buty,shoes,shoe
 item_156,chustka,word,clothing,produces,NA,chustka,scarf,scarf
 item_157,czapka,word,clothing,produces,NA,czapka,cap,cap
 item_158,guzik,word,clothing,produces,NA,guzik,button,button
-item_159,kalosze/gumowce,word,clothing,produces,NA,kalosze.gumowce,rubber boots,boots
+item_159,kalosze/gumowce,word,clothing,produces,NA,kalosze.gumowce,rubber boots,boot
 item_160,kapelusz,word,clothing,produces,NA,kapelusz,hat,hat
 item_161,kieszeń,word,clothing,produces,NA,kieszen,pocket,pocket
 item_162,koszula,word,clothing,produces,NA,koszula,shirt,shirt
@@ -192,7 +192,7 @@ item_190,oko,word,body_parts,produces,NA,oko,eye,eye
 item_191,palec,word,body_parts,produces,NA,palec,finger / toe,finger
 item_192,paznokcie/pazurki,word,body_parts,produces,NA,paznokcie.pazurki,nails,nail (body part)
 item_193,pępek,word,body_parts,produces,NA,pepek,belly button,belly button
-item_194,plecy,word,body_parts,produces,NA,plecy,back,back
+item_194,plecy,word,body_parts,produces,NA,plecy,back,back (body part)
 item_195,policzek,word,body_parts,produces,NA,policzek,cheek,cheek
 item_196,pupa,word,body_parts,produces,NA,pupa,bottom,butt
 item_197,ręka,word,body_parts,produces,NA,reka,hand,hand
@@ -239,7 +239,7 @@ item_237,czajnik,word,household,produces,NA,czajnik,kettle,kettle
 item_238,deska,word,household,produces,NA,deska,board,board
 item_239,garnek,word,household,produces,NA,garnek,pot,pot
 item_240,gazeta,word,household,produces,NA,gazeta,newspaper,newspaper
-item_241,grzebień,word,household,produces,NA,grzebien,comb,comb (object)
+item_241,grzebień,word,household,produces,NA,grzebien,comb (object),comb (object)
 item_242,igła,word,household,produces,NA,igla,needle,needle
 item_243,klucz,word,household,produces,NA,klucz,key,key
 item_244,koc/kołdra,word,household,produces,NA,koc.koldra,blanket / duvet,blanket
@@ -271,7 +271,7 @@ item_269,szczotka,word,household,produces,NA,szczotka,brush,brush
 item_270,szklanka,word,household,produces,NA,szklanka,glass,glass
 item_271,szmata/ścierka,word,household,produces,NA,szmata.scierka,dishcloth,rag
 item_272,sznurek,word,household,produces,NA,sznurek,string,string
-item_273,śmieci,word,household,produces,NA,smieci,garbage,garbage
+item_273,śmieci,word,household,produces,NA,smieci,garbage,trash
 item_274,talerz,word,household,produces,NA,talerz,plate,plate
 item_275,telefon/komórka,word,household,produces,NA,telefon.komorka,phone / mobile,telephone
 item_276,termometr,word,household,produces,NA,termometr,thermometer,thermometer
@@ -284,14 +284,14 @@ item_282,żelazko,word,household,produces,NA,zelazko,iron,iron
 item_283,bałwan,word,outside,produces,NA,balwan,snowman,snowman
 item_284,błoto,word,outside,produces,NA,bloto,mud,mud
 item_285,burza,word,outside,produces,NA,burza,storm,storm
-item_286,deszcz,word,outside,produces,NA,deszcz,rain,rain
+item_286,deszcz,word,outside,produces,NA,deszcz,rain,rain (weather)
 item_287,chmura,word,outside,produces,NA,chmura,cloud,cloud
 item_288,drabina,word,outside,produces,NA,drabina,ladder,ladder
 item_289,droga,word,outside,produces,NA,droga,road,road
 item_290,drzewo,word,outside,produces,NA,drzewo,tree,tree
 item_291,gałąź,word,outside,produces,NA,galaz,branch,branch
 item_292,gwiazda,word,outside,produces,NA,gwiazda,star,star
-item_293,huśtawka,word,outside,produces,NA,hustawka,swing,swing (object)
+item_293,huśtawka,word,outside,produces,NA,hustawka,swing (object),swing (object)
 item_294,kamień,word,outside,produces,NA,kamien,stone,stone
 item_295,kijek/patyk,word,outside,produces,NA,kijek.patyk,stick,stick
 item_296,księżyc,word,outside,produces,NA,ksiezyc,moon,moon
@@ -309,7 +309,7 @@ item_307,śnieg,word,outside,produces,NA,snieg,snow,snow
 item_308,trawa,word,outside,produces,NA,trawa,grass,grass
 item_309,ulica,word,outside,produces,NA,ulica,street,street
 item_310,wiatr,word,outside,produces,NA,wiatr,wind,wind
-item_311,woda_outside,word,outside,produces,NA,woda_outside,water,water (not beverage)
+item_311,woda_outside,word,outside,produces,NA,woda_outside,water (not beverage),water (not beverage)
 item_312,ziemia,word,outside,produces,NA,ziemia,earth,earth
 item_313,apteka,word,places,produces,NA,apteka,pharmacy,pharmacy
 item_314,dom,word,places,produces,NA,dom,home / house,home
@@ -323,7 +323,7 @@ item_321,na dwór/na pole,word,places,produces,NA,na_dwor.na_pole,outside,outsid
 item_322,park/ogród,word,places,produces,NA,park.ogrod,park / garden,park
 item_323,poczta,word,places,produces,NA,poczta,post office,post office
 item_324,podwórko,word,places,produces,NA,podworko,backyard,backyard
-item_325,praca,word,places,produces,NA,praca,work,work (place)
+item_325,praca,word,places,produces,NA,praca,work (place),work (place)
 item_326,rzeka,word,places,produces,NA,rzeka,river,river
 item_327,sklep,word,places,produces,NA,sklep,store,store
 item_328,spacer,word,places,produces,NA,spacer,stroll,stroll
@@ -354,7 +354,7 @@ item_352,policjant,word,people,produces,NA,policjant,policeman,policeman
 item_353,siostra,word,people,produces,NA,siostra,sister,sister
 item_354,synek,word,people,produces,NA,synek,son,son
 item_355,tata/tatuś,word,people,produces,NA,tata.tatus,daddy,daddy
-item_356,własne imię,word,people,produces,NA,wlasne_imie,child's name,child's name
+item_356,własne imię,word,people,produces,NA,wlasne_imie,child's name,child's own name
 item_357,wujek,word,people,produces,NA,wujek,uncle,uncle
 item_358,cześć,word,games_routines,produces,NA,czesc,hi,hello
 item_359,dzień dobry,word,games_routines,produces,NA,dzien_dobry,good morning,good morning
@@ -385,7 +385,7 @@ item_383,ciepły,word,descriptive_words,produces,NA,cieply,warm,warm
 item_384,ciężki,word,descriptive_words,produces,NA,ciezki,heavy,heavy
 item_385,czarny,word,descriptive_words,produces,NA,czarny,black,black
 item_386,czerwony,word,descriptive_words,produces,NA,czerwony,red,red
-item_387,czysty,word,descriptive_words,produces,NA,czysty,clean,clean (description)
+item_387,czysty,word,descriptive_words,produces,NA,czysty,clean (description),clean (description)
 item_388,dobry,word,descriptive_words,produces,NA,dobry,good,good
 item_389,duży,word,descriptive_words,produces,NA,duzy,big,big
 item_390,głodny,word,descriptive_words,produces,NA,glodny,hungry,hungry
@@ -395,10 +395,10 @@ item_393,kochany,word,descriptive_words,produces,NA,kochany,dear,dear
 item_394,ładny,word,descriptive_words,produces,NA,ladny,pretty,pretty
 item_395,mały,word,descriptive_words,produces,NA,maly,small,small
 item_396,mądry,word,descriptive_words,produces,NA,madry,smart,smart
-item_397,mokry,word,descriptive_words,produces,NA,mokry,wet,wet (description)
+item_397,mokry,word,descriptive_words,produces,NA,mokry,wet (description),wet (description)
 item_398,(nie)grzeczny,word,descriptive_words,produces,NA,nie.grzeczny,naughty / nice,naughty / nice
 item_399,nowy,word,descriptive_words,produces,NA,nowy,new,new
-item_400,otwarty,word,descriptive_words,produces,NA,otwarty,open,open (description)
+item_400,otwarty,word,descriptive_words,produces,NA,otwarty,open (description),open (description)
 item_401,piękny/śliczny,word,descriptive_words,produces,NA,piekny.sliczny,beautiful,beautiful
 item_402,pyszny,word,descriptive_words,produces,NA,pyszny,tasty,tasty
 item_403,śpiący,word,descriptive_words,produces,NA,spiacy,sleepy,sleepy
@@ -434,8 +434,8 @@ item_432,chodzić (chodź),word,action_words,produces,NA,chodzic.chodz,walk (com
 item_433,ciąć,word,action_words,produces,NA,ciac,cut,cut
 item_434,cieszyć się,word,action_words,produces,NA,cieszyc_sie,enjoy,enjoy
 item_435,czekać,word,action_words,produces,NA,czekac,wait,wait
-item_436,czesać,word,action_words,produces,NA,czesac,comb,comb (action)
-item_437,czyścić,word,action_words,produces,NA,czyscic,clean,clean (action)
+item_436,czesać,word,action_words,produces,NA,czesac,comb (action),comb (action)
+item_437,czyścić,word,action_words,produces,NA,czyscic,clean (action),clean (action)
 item_438,czytać,word,action_words,produces,NA,czytac,read,read
 item_439,dać,word,action_words,produces,NA,dac,give,give
 item_440,dmuchać,word,action_words,produces,NA,dmuchac,blow,blow
@@ -446,7 +446,7 @@ item_444,gonić,word,action_words,produces,NA,gonic,chase,chase
 item_445,gotować,word,action_words,produces,NA,gotowac,cook,cook
 item_446,grać,word,action_words,produces,NA,grac,play,play
 item_447,gryźć,word,action_words,produces,NA,gryzc,bite,bite
-item_448,huśtać/bujać się,word,action_words,produces,NA,hustac.bujac_sie,swing,swing (action)
+item_448,huśtać/bujać się,word,action_words,produces,NA,hustac.bujac_sie,swing (action),swing (action)
 item_449,iść/pójść,word,action_words,produces,NA,isc.pojsc,go,go
 item_450,jechać/jeździć,word,action_words,produces,NA,jechac.jezdzic,ride,ride
 item_451,jeść,word,action_words,produces,NA,jesc,eat,eat
@@ -457,7 +457,7 @@ item_455,kopać,word,action_words,produces,NA,kopac,kick,kick
 item_456,krzyczeć/wołać,word,action_words,produces,NA,krzyczec.wolac,shout,shout
 item_457,kupić,word,action_words,produces,NA,kupic,buy,buy
 item_458,lać,word,action_words,produces,NA,lac,pour,pour
-item_459,lecieć/latać,word,action_words,produces,NA,leciec.latac,fly,fly (action)
+item_459,lecieć/latać,word,action_words,produces,NA,leciec.latac,fly (action),fly (action)
 item_460,leżeć,word,action_words,produces,NA,lezec,lie,lie down
 item_461,lubić,word,action_words,produces,NA,lubic,like,like
 item_462,malować,word,action_words,produces,NA,malowac,paint,paint (action)
@@ -474,10 +474,10 @@ item_472,nieść/nosić,word,action_words,produces,NA,niesc.nosic,carry,carry
 item_473,obudzić (się),word,action_words,produces,NA,obudzic.sie,wake up,wake
 item_474,oglądać/obejrzeć,word,action_words,produces,NA,ogladac.obejrzec,watch,watch (action)
 item_475,opowiadać,word,action_words,produces,NA,opowiadac,tell,tell
-item_476,otworzyć,word,action_words,produces,NA,otworzyc,open,open (action)
+item_476,otworzyć,word,action_words,produces,NA,otworzyc,open (action),open (action)
 item_477,palić (się),word,action_words,produces,NA,palic.sie,burn,burn
 item_478,patrzeć (patrz),word,action_words,produces,NA,patrzec.patrz,look,look
-item_479,pić,word,action_words,produces,NA,pic,drink,drink (action)
+item_479,pić,word,action_words,produces,NA,pic,drink (action),drink (action)
 item_480,pisać,word,action_words,produces,NA,pisac,write,write
 item_481,pluć,word,action_words,produces,NA,pluc,spit,spit
 item_482,płakać,word,action_words,produces,NA,plakac,cry,cry
@@ -485,9 +485,9 @@ item_483,podobać się,word,action_words,produces,NA,podobac_sie,like,like
 item_484,pokazać,word,action_words,produces,NA,pokazac,show,show
 item_485,pomóc,word,action_words,produces,NA,pomoc,help,help
 item_486,pożyczyć,word,action_words,produces,NA,pozyczyc,borrow / lend,borrow
-item_487,pracować,word,action_words,produces,NA,pracowac,work,work (action)
+item_487,pracować,word,action_words,produces,NA,pracowac,work (action),work (action)
 item_488,prać,word,action_words,produces,NA,prac,wash (launder),wash
-item_489,prasować,word,action_words,produces,NA,prasowac,iron,iron (action)
+item_489,prasować,word,action_words,produces,NA,prasowac,iron (action),iron (action)
 item_490,prosić,word,action_words,produces,NA,prosic,ask,ask
 item_491,przyjść,word,action_words,produces,NA,przyjsc,come,come
 item_492,przykryć,word,action_words,produces,NA,przykryc,cover,cover (action)
@@ -634,8 +634,8 @@ item_632,kiedy?,word,question_words,produces,NA,kiedy,when,when (question)
 item_633,jak?,word,question_words,produces,NA,jak,how,how
 item_634,dlaczego?/czemu?,word,question_words,produces,NA,dlaczego.czemu,why,why
 item_635,po co?/na co?,word,question_words,produces,NA,po_co.na_co,why,why
-item_636,jaki?,word,question_words,produces,NA,jaki,which,which (question)
-item_637,który?,word,question_words,produces,NA,ktory,which,which (question)
+item_636,jaki?,word,question_words,produces,NA,jaki,which (question),which (question)
+item_637,który?,word,question_words,produces,NA,ktory,which (question),which (question)
 item_638,ile?,word,question_words,produces,NA,ile,how much / how many?,how many
 item_639,chyba,word,modal_adverbs,produces,NA,chyba,maybe,maybe
 item_640,może,word,modal_adverbs,produces,NA,moze,probably / maybe,maybe
@@ -645,21 +645,21 @@ item_643,pewnie,word,modal_adverbs,produces,NA,pewnie,surely,surely
 item_644,przecież,word,modal_adverbs,produces,NA,przeciez,though,although
 item_645,w ogóle,word,modal_adverbs,produces,NA,w_ogole,at all,at all
 item_646,właśnie,word,modal_adverbs,produces,NA,wlasnie,just / exactly,just / exactly
-item_647,bez (np. bez czapki),word,prepositions,produces,NA,bez,"without (e.g., without a hat)",without
-item_648,dla (np. dla mamy),word,prepositions,produces,NA,dla,"for (e.g., for mum)",for
-item_649,"do (np. do pracy, do babci)",word,prepositions,produces,NA,do,"to (e.g., to work, to grandma)",to
-item_650,na (np. na stole),word,prepositions,produces,NA,na,"on (e.g., on the table)",on
-item_651,"koło/obok (np. koło szafy, obok taty)",word,prepositions,produces,NA,kolo.obok,"next to (e.g., next to the wardrobe, next to dad)",next to
-item_652,o (np. o kotku),word,prepositions,produces,NA,o,"about (e.g., about a cat)",about
-item_653,od (np. od wujka),word,prepositions,produces,NA,od,"from someone (e.g., from uncle)",from someone
-item_654,"po (np. po lesie, po wodę)",word,prepositions,produces,NA,po,around (as in walk around the forest) or to (as to bring the water),around
-item_655,pod (np.pod stołem),word,prepositions,produces,NA,pod,"under (e.g., under the table)",under
-item_656,"przed (np. przed sklepem, przed obiadem)",word,prepositions,produces,NA,przed,"in front of (e.g., in front of the shop) and before (e.g., before dinner)",in front of/ before
-item_657,u (np. u cioci),word,prepositions,produces,NA,u,"at (e.g., at aunt's)",at
-item_658,w (np. w kuchni),word,prepositions,produces,NA,w,"in (e.g., in the kitchen)",in
-item_659,za (np. za szafą),word,prepositions,produces,NA,za_prepositions,"behind (e.g., behind the wardrobe)",behind
-item_660,"z (np. z tatusiem, z cukrem)",word,prepositions,produces,NA,z1,"with (e.g., with daddy, with sugar)",with
-item_661,z (np. z łazienki),word,prepositions,produces,NA,z2,"from (e.g., from the bathroom)",from
+item_647,bez (np. bez czapki),word,locations,produces,NA,bez,"without (e.g., without a hat)",without
+item_648,dla (np. dla mamy),word,locations,produces,NA,dla,"for (e.g., for mum)",for
+item_649,"do (np. do pracy, do babci)",word,locations,produces,NA,do,"to (e.g., to work, to grandma)",to
+item_650,na (np. na stole),word,locations,produces,NA,na,"on (e.g., on the table)",on
+item_651,"koło/obok (np. koło szafy, obok taty)",word,locations,produces,NA,kolo.obok,"next to (e.g., next to the wardrobe, next to dad)",next to
+item_652,o (np. o kotku),word,locations,produces,NA,o,"about (e.g., about a cat)",about
+item_653,od (np. od wujka),word,locations,produces,NA,od,"from someone (e.g., from uncle)",from someone
+item_654,"po (np. po lesie, po wodę)",word,locations,produces,NA,po,around (as in walk around the forest) or to (as to bring the water),around
+item_655,pod (np.pod stołem),word,locations,produces,NA,pod,"under (e.g., under the table)",under
+item_656,"przed (np. przed sklepem, przed obiadem)",word,locations,produces,NA,przed,"in front of (e.g., in front of the shop) and before (e.g., before dinner)",in front of/ before
+item_657,u (np. u cioci),word,locations,produces,NA,u,"at (e.g., at aunt's)",at
+item_658,w (np. w kuchni),word,locations,produces,NA,w,"in (e.g., in the kitchen)",in
+item_659,za (np. za szafą),word,locations,produces,NA,za_prepositions,"behind (e.g., behind the wardrobe)",behind
+item_660,"z (np. z tatusiem, z cukrem)",word,locations,produces,NA,z1,"with (e.g., with daddy, with sugar)",with
+item_661,z (np. z łazienki),word,locations,produces,NA,z2,"from (e.g., from the bathroom)",from
 item_662,a,word,connecting_words,produces,NA,a,and,and
 item_663,albo,word,connecting_words,produces,NA,albo,or,or
 item_664,ale,word,connecting_words,produces,NA,ale,but,but

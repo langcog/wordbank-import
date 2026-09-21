@@ -165,7 +165,7 @@ item_163,bata,word,clothing,produces,Bata,NA,Bata,Smock,smock,NA
 item_164,bibe,word,clothing,produces,Bibe,NA,Bibe,?????????????????????????????????????????,NA,NA
 item_165,bone,word,clothing,produces,Boné,NA,Boné,Cap,hat,NA
 item_166,botao,word,clothing,produces,Botão,NA,Botão,Button,button,NA
-item_167,botas,word,clothing,produces,Botas,NA,Botas,Boots,boots,NA
+item_167,botas,word,clothing,produces,Botas,NA,Botas,Boots,boot,NA
 item_168,cachecol,word,clothing,produces,Cachecol,NA,Cachecol,Scarf,scarf,NA
 item_169,calcas,word,clothing,produces,Calças,NA,Calças,Pants/Trousers,pants,NA
 item_170,calcoes,word,clothing,produces,Calções,NA,Calções,Shorts,shorts,NA
@@ -312,7 +312,7 @@ item_310,areia,word,outside,produces,Areia,NA,Areia,Sand,sand,NA
 item_311,arvore,word,outside,produces,Árvore(s),NA,Árvore,Tree,tree,NA
 item_312,baloico,word,outside,produces,Baloiço,NA,Baloiço,Swing,swing (object),NA
 item_313,ceu,word,outside,produces,Céu,NA,Céu,Sky,sky,NA
-item_314,chuva,word,outside,produces,Chuva,NA,Chuva,Rain,rain,NA
+item_314,chuva,word,outside,produces,Chuva,NA,Chuva,Rain,rain (weather),NA
 item_315,erva,word,outside,produces,Erva,NA,Erva,Herb,plant,NA
 item_316,escorrega,word,outside,produces,Escorrega,NA,Escorrega,Slide,slide (object),NA
 item_317,estrela,word,outside,produces,Estrela,NA,Estrela,Star,star,NA

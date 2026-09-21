@@ -45,7 +45,7 @@ item_266,bench,word,furniture_rooms,produces,bench,NA,bench,bench
 item_278,oven,word,furniture_rooms,produces,oven,NA,oven,oven
 item_288,stairs,word,furniture_rooms,produces,stairs,NA,stairs,stairs
 item_296,flag,word,outside,produces,flag,NA,flag,flag
-item_305,rain,word,outside,produces,rain,NA,rain,rain
+item_305,rain,word,outside,produces,rain,NA,rain,rain (weather)
 item_311,sky,word,outside,produces,sky,NA,sky,sky
 item_316,star,word,outside,produces,star,NA,star,star
 item_321,swing.object,word,outside,produces,swing (object),NA,swing (object),swing (object)
@@ -85,7 +85,7 @@ item_562,wet,word,descriptive_words,produces,wet,NA,wet,wet (description)
 item_567,after,word,time_words,produces,after,NA,after,after
 item_569,day,word,time_words,produces,day,NA,day,day
 item_577,tonight,word,time_words,produces,tonight,NA,tonight,tonight
-item_590,our,word,pronouns,produces,our,NA,our,our
+item_590,our,word,pronouns,produces,our,NA,our,1PL.POSS
 item_594,them,word,pronouns,produces,them,NA,them,them
 item_597,this,word,pronouns,produces,this,NA,this,this
 item_599,us,word,pronouns,produces,us,NA,us,us

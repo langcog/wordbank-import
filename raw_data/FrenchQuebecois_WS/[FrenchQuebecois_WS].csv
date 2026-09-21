@@ -43,9 +43,9 @@ item_41,ourson/nounours,word,produces,animals,ourson/nounours,NA,Bear / Teddy,te
 item_42,panda,word,produces,animals,panda,NA,panda,panda
 item_43,papillon,word,produces,animals,papillon,NA,butterfly,butterfly
 item_44,pingouin,word,produces,animals,pingouin,NA,Penguin,penguin
-item_45,poisson_(animal,word,produces,animals,poisson (animal),NA,fish,fish (animal)
+item_45,poisson_(animal,word,produces,animals,poisson (animal),NA,fish (animal),fish (animal)
 item_46,poule,word,produces,animals,poule,NA,hen,chicken (animal)
-item_47,poulet_(animal),word,produces,animals,poulet (animal),NA,chicken,chicken (animal)
+item_47,poulet_(animal),word,produces,animals,poulet (animal),NA,chicken (animal),chicken (animal)
 item_48,singe,word,produces,animals,singe,NA,monkey,monkey
 item_49,souris,word,produces,animals,souris,NA,mouse,mouse
 item_50,tigre,word,produces,animals,tigre,NA,tiger,tiger
@@ -102,12 +102,12 @@ item_100,chips,word,produces,food_drink,chips,NA,chips,chips
 item_101,chocolat,word,produces,food_drink,chocolat,NA,chocolate,chocolate
 item_102,citrouille,word,produces,food_drink,citrouille,NA,pumpkin,pumpkin
 item_103,coke,word,produces,food_drink,coke,NA,coke,coke
-item_104,compote_de_pomm,word,produces,food_drink,compote de pommes,NA,applesauce,compote
+item_104,compote_de_pomm,word,produces,food_drink,compote de pommes,NA,applesauce,jam
 item_105,confiture,word,produces,food_drink,confiture,NA,jam,jam
 item_106,cornichon,word,produces,food_drink,cornichon,NA,pickle,cucumber
 item_107,cr`eme_glac'ee,word,produces,food_drink,crème glacée,NA,ice cream,ice cream
 item_108,cr^epe,word,produces,food_drink,crêpe,NA,crepe,pancake
-item_109,eau_(beverage),word,produces,food_drink,eau (beverage),NA,water,water (beverage)
+item_109,eau_(beverage),word,produces,food_drink,eau (beverage),NA,water (beverage),water (beverage)
 item_110,fraise,word,produces,food_drink,fraise,NA,strawberry,strawberry
 item_111,fromage,word,produces,food_drink,fromage,NA,cheese,cheese
 item_112,g^ateau,word,produces,food_drink,gâteau,NA,Cake,cake
@@ -124,18 +124,18 @@ item_122,noix,word,produces,food_drink,noix,NA,nuts,nut
 item_123,nouilles/p^ates,word,produces,food_drink,nouilles/pâtes,NA,noodles / pasta,pasta
 item_124,nourriture,word,produces,food_drink,nourriture,NA,food,food
 item_125,oeuf,word,produces,food_drink,oeuf,NA,egg,egg
-item_126,orange1,word,produces,food_drink,orange,NA,orange,orange (food)
+item_126,orange1,word,produces,food_drink,orange (food),NA,orange (food),orange (food)
 item_127,pain,word,produces,food_drink,pain,NA,bread,bread
 item_128,patate,word,produces,food_drink,patate,NA,potato,potato
 item_129,patate_frite,word,produces,food_drink,patate frite,NA,fried potato,french fries
 item_130,pizza,word,produces,food_drink,pizza,NA,Pizza,pizza
 item_131,pois,word,produces,food_drink,pois,NA,peas,peas
-item_132,poisson_(food),word,produces,food_drink,poisson (food),NA,fish,fish (food)
+item_132,poisson_(food),word,produces,food_drink,poisson (food),NA,fish (food),fish (food)
 item_133,pomme,word,produces,food_drink,pomme,NA,apple,apple
 item_134,popcorn,word,produces,food_drink,popcorn,NA,pop corn,popcorn
 item_135,popsicle,word,produces,food_drink,popsicle,NA,popsicle,popsicle
 item_136,pouding,word,produces,food_drink,pouding,NA,pudding,pudding
-item_137,poulet_(food),word,produces,food_drink,poulet (food),NA,chicken,chicken (food)
+item_137,poulet_(food),word,produces,food_drink,poulet (food),NA,chicken (food),chicken (food)
 item_138,raisin,word,produces,food_drink,raisin,NA,grapes,grapes
 item_139,raisin_sec,word,produces,food_drink,raisin sec,NA,raisin,raisin
 item_140,sandwich,word,produces,food_drink,sandwich,NA,sandwich,sandwich
@@ -152,7 +152,7 @@ item_150,vitamine,word,produces,food_drink,vitamine,NA,vitamin,vitamin
 item_151,yogourt,word,produces,food_drink,yogourt,NA,yogurt,yogurt
 item_152,bas,word,produces,clothing,bas,NA,low,sock
 item_153,bavette,word,produces,clothing,bavette,NA,bib,bib
-item_154,bottes,word,produces,clothing,bottes,NA,boots,boots
+item_154,bottes,word,produces,clothing,bottes,NA,boots,boot
 item_155,bouton,word,produces,clothing,bouton,NA,button,button
 item_156,ceinture,word,produces,clothing,ceinture,NA,belt,belt
 item_157,chandail,word,produces,clothing,chandail,NA,sweater,sweater
@@ -211,7 +211,7 @@ item_209,balai,word,produces,household,balai,NA,broom,broom
 item_210,bo^ite,word,produces,household,boîte,NA,box,box
 item_211,bol,word,produces,household,bol,NA,bowl,bowl
 item_212,bouteille,word,produces,household,bouteille,NA,bottle,bottle
-item_213,brosse,word,produces,household,brosse,NA,brush,brush (object)
+item_213,brosse,word,produces,household,brosse,NA,brush (object),brush (object)
 item_214,brosse_`a_dents,word,produces,household,brosse à dents,NA,toothbrush,toothbrush
 item_215,cam'era,word,produces,household,caméra,NA,camera,camera
 item_216,ciseaux,word,produces,household,ciseaux,NA,scissors,scissors
@@ -228,7 +228,7 @@ item_226,lumi`ere,word,produces,household,lumière,NA,light,light (object)
 item_227,lunettes,word,produces,household,lunettes,NA,glasses,glasses
 item_228,marteau,word,produces,household,marteau,NA,hammer,hammer
 item_229,m'edicament,word,produces,household,médicament,NA,drug,medicine
-item_230,montre,word,produces,household,montre,NA,watch,watch (object)
+item_230,montre,word,produces,household,montre,NA,watch (object),watch (object)
 item_231,mouchoir/kleene,word,produces,household,mouchoir/kleenex,NA,handkerchief / Kleenex,tissue
 item_232,oreiller,word,produces,household,oreiller,NA,pillow,pillow
 item_233,panier,word,produces,household,panier,NA,basket,basket
@@ -287,13 +287,13 @@ item_285,t'el'evision,word,produces,furniture_rooms,télévision,NA,television,T
 item_286,tiroir,word,produces,furniture_rooms,tiroir,NA,drawer,drawer
 item_287,arbre,word,produces,outside,arbre,NA,tree,tree
 item_288,arrosoir,word,produces,outside,arrosoir,NA,watering can,watering can
-item_289,balancoire,word,produces,outside,balançoire,NA,swing,swing (object)
+item_289,balancoire,word,produces,outside,balançoire,NA,swing (object),swing (object)
 item_290,b^aton2,word,produces,outside,bâton,NA,stick,stick
 item_291,bonhomme_de_nei,word,produces,outside,bonhomme de neige,NA,snowman,snowman
 item_292,ciel,word,produces,outside,ciel,NA,sky,sky
 item_293,cour,word,produces,outside,cour,NA,court,yard
 item_294,drapeau,word,produces,outside,drapeau,NA,flag,flag
-item_295,eau_(not_bevera,word,produces,outside,eau (not beverage),NA,water,water (not beverage)
+item_295,eau_(not_bevera,word,produces,outside,eau (not beverage),NA,water (not beverage),water (not beverage)
 item_296,'echelle,word,produces,outside,échelle,NA,ladder,ladder
 item_297,'etoile,word,produces,outside,étoile,NA,star,star
 item_298,fleur,word,produces,outside,fleur,NA,flower,flower
@@ -306,8 +306,8 @@ item_304,nuage,word,produces,outside,nuage,NA,cloud,cloud
 item_305,pelle,word,produces,outside,pelle,NA,shovel,shovel
 item_306,pierre,word,produces,outside,pierre,NA,rock,stone
 item_307,piscine,word,produces,outside,piscine,NA,swimming pool,pool
-item_308,pluie,word,produces,outside,pluie,NA,rain,rain
-item_309,roche,word,produces,outside,roche,NA,rock,rock (object)
+item_308,pluie,word,produces,outside,pluie,NA,rain,rain (weather)
+item_309,roche,word,produces,outside,roche,NA,rock (object),rock (object)
 item_310,roue,word,produces,outside,roue,NA,wheel,wheel
 item_311,rue,word,produces,outside,rue,NA,street,street
 item_312,sable,word,produces,outside,sable,NA,sand,sand
@@ -410,13 +410,13 @@ item_408,attacher,word,produces,action_words,attacher,NA,to attach,attach
 item_409,attendre,word,produces,action_words,attendre,NA,expect,wait
 item_410,attraper,word,produces,action_words,attraper,NA,to catch,catch
 item_411,avoir,word,produces,action_words,avoir,NA,to have,have
-item_412,balancer,word,produces,action_words,balancer,NA,swing,swing (action)
+item_412,balancer,word,produces,action_words,balancer,NA,swing (action),swing (action)
 item_413,balayer,word,produces,action_words,balayer,NA,sweep,sweep
-item_414,bercer,word,produces,action_words,bercer,NA,rock,rock (action)
+item_414,bercer,word,produces,action_words,bercer,NA,rock (action),rock (action)
 item_415,boire,word,produces,action_words,boire,NA,to drink,drink (action)
 item_416,brasser,word,produces,action_words,brasser,NA,brew,stir
 item_417,briser/casser,word,produces,action_words,briser/casser,NA,break / break,break
-item_418,brosser,word,produces,action_words,brosser,NA,brush,brush (action)
+item_418,brosser,word,produces,action_words,brosser,NA,brush (action),brush (action)
 item_419,cacher,word,produces,action_words,cacher,NA,hide,hide
 item_420,chanter,word,produces,action_words,chanter,NA,sing,sing
 item_421,chatouiller,word,produces,action_words,chatouiller,NA,tickle,tickle
@@ -467,7 +467,7 @@ item_465,monter_(`a_chev,word,produces,action_words,monter (à cheval...),NA,Rid
 item_466,montrer,word,produces,action_words,montrer,NA,show,show
 item_467,mordre,word,produces,action_words,mordre,NA,bite,bite
 item_468,nager,word,produces,action_words,nager,NA,swim,swim
-item_469,nettoyer,word,produces,action_words,nettoyer,NA,clean,clean (action)
+item_469,nettoyer,word,produces,action_words,nettoyer,NA,clean (action),clean (action)
 item_470,ouvrir,word,produces,action_words,ouvrir,NA,open,open (action)
 item_471,parler,word,produces,action_words,parler,NA,speak,talk
 item_472,partager,word,produces,action_words,partager,NA,share,share
@@ -486,7 +486,7 @@ item_484,r'eparer,word,produces,action_words,réparer,NA,to repair,fix
 item_485,rester,word,produces,action_words,rester,NA,stay,stay
 item_486,r'eveiller,word,produces,action_words,réveiller,NA,wake,wake
 item_487,sauter,word,produces,action_words,sauter,NA,jump,jump
-item_488,s'echer,word,produces,action_words,sécher,NA,dry,dry (action)
+item_488,s'echer,word,produces,action_words,sécher,NA,dry (action),dry (action)
 item_489,se_d'ep^echer,word,produces,action_words,se dépêcher,NA,to hurry up,hurry
 item_490,souffler,word,produces,action_words,souffler,NA,blow,blow
 item_491,sourire,word,produces,action_words,sourire,NA,smile,smile
@@ -542,7 +542,7 @@ item_540,mignon/cute,word,produces,descriptive_words,mignon/cute,NA,cute / cute,
 item_541,mouill'e,word,produces,descriptive_words,mouillé,NA,wet,wet (description)
 item_542,noir,word,produces,descriptive_words,noir,NA,black,black
 item_543,nouveau,word,produces,descriptive_words,nouveau,NA,new,new
-item_544,orange2,word,produces,descriptive_words,orange,NA,orange,orange (description)
+item_544,orange2,word,produces,descriptive_words,orange (description),NA,orange (description),orange (description)
 item_545,parti,word,produces,descriptive_words,parti,NA,left,all gone
 item_546,pauvre,word,produces,descriptive_words,pauvre,NA,poor,poor
 item_547,petit,word,produces,descriptive_words,petit,NA,small,little (description)
@@ -550,12 +550,12 @@ item_548,peur,word,produces,descriptive_words,peur,NA,fear,scared
 item_549,plein,word,produces,descriptive_words,plein,NA,full,full
 item_550,premier,word,produces,descriptive_words,premier,NA,first,first
 item_551,pris,word,produces,descriptive_words,pris,NA,taken,stuck
-item_552,propre,word,produces,descriptive_words,propre,NA,clean,clean (description)
+item_552,propre,word,produces,descriptive_words,propre,NA,clean (description),clean (description)
 item_553,r'eveill'e,word,produces,descriptive_words,réveillé,NA,wake up,awake
 item_554,rond,word,produces,descriptive_words,rond,NA,round,round
 item_555,rouge,word,produces,descriptive_words,rouge,NA,red,red
 item_556,sale,word,produces,descriptive_words,sale,NA,dirty,dirty
-item_557,sec,word,produces,descriptive_words,sec,NA,dry,dry (description)
+item_557,sec,word,produces,descriptive_words,sec,NA,dry (description),dry (description)
 item_558,soif,word,produces,descriptive_words,soif,NA,thirst,thirsty
 item_559,tannant/m'echan,word,produces,descriptive_words,tannant/méchant,NA,annoying / mean,naughty
 item_560,tranquille,word,produces,descriptive_words,tranquille,NA,quiet,quiet

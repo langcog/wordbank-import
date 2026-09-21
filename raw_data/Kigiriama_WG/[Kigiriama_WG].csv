@@ -17,7 +17,7 @@ item_15,a2car,word,sounds,understands; produces,Vruum Vruum,NA,Car,car
 item_16,b10duck,word,animals,understands; produces,Batha,NA,Duck,duck
 item_17,b12frog,word,animals,understands; produces,Chula,NA,Frog,frog
 item_18,b14hen,word,animals,understands; produces,Kolo,NA,Hen,hen
-item_19,b5chic,word,animals,understands; produces,Kuku,NA,Chicken,chicken (animal)
+item_19,b5chic,word,animals,understands; produces,Kuku,NA,Chicken (animal),chicken (animal)
 item_20,b7crow,word,animals,understands; produces,Kunguru,NA,Crow,crow
 item_21,b8dog,word,animals,understands; produces,Kuro,NA,Dog,dog
 item_22,b13goat,word,animals,understands; produces,Mbuzi,NA,Goat,goat
@@ -55,7 +55,7 @@ item_53,e6bun,word,food_drink,understands; produces,Kaimati,NA,Bun,bun
 item_54,e8carr,word,food_drink,understands; produces,Karoti,NA,Carrot,carrot
 item_55,e7cake,word,food_drink,understands; produces,Keki,NA,Cake,cake
 item_56,e28pota,word,food_drink,understands; produces,Kirazi,NA,Potato,potato
-item_57,e11chic,word,food_drink,understands; produces,Kuku,NA,Chicken,chicken (food)
+item_57,e11chic,word,food_drink,understands; produces,Kuku,NA,Chicken (food),chicken (food)
 item_58,e31sard,word,food_drink,understands; produces,Kumbi,NA,Sardine,sardine
 item_59,e40wate,word,food_drink,understands; produces,Madzi,NA,WaterF,water (beverage)
 item_60,e26oran,word,food_drink,understands; produces,Chungwa,NA,Orange,orange (food)
@@ -166,7 +166,7 @@ item_164,j18wate,word,outside,understands; produces,Madzi,NA,WaterO,water (not b
 item_165,j10sand,word,outside,understands; produces,Mtsanga,NA,Sand,sand
 item_166,j7pipe,word,outside,understands; produces,Mufereji/Paipu,NA,Pipe,pipe
 item_167,j17tree,word,outside,understands; produces,Muhi,NA,Tree,tree
-item_168,j8rain,word,outside,understands; produces,Mvula,NA,Rain,rain
+item_168,j8rain,word,outside,understands; produces,Mvula,NA,Rain,rain (weather)
 item_169,j6moon,word,outside,understands; produces,Mwezi,NA,Moon,moon
 item_170,j13spad,word,outside,understands; produces,Mwiko,NA,Spade,spade
 item_171,j1buck,word,outside,understands; produces,Ndoo,NA,Bucket2,bucket

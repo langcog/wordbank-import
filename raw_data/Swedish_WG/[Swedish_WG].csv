@@ -16,7 +16,7 @@ björn,animals,bjorn,word,understands; produces,NA,item_14,bear,bear
 djur,animals,djur,word,understands; produces,NA,item_15,animal,animal
 ekorre,animals,ekorre,word,understands; produces,NA,item_16,squirrel,squirrel
 elefant,animals,elefant,word,understands; produces,NA,item_17,elephant,elephant
-fisk (animal),animals,fisk,word,understands; produces,NA,item_18,fish,fish (animal)
+fisk (animal),animals,fisk,word,understands; produces,NA,item_18,fish (animal),fish (animal)
 fågel,animals,fagel,word,understands; produces,NA,item_19,bird,bird
 får,animals,far,word,understands; produces,NA,item_20,sheep,sheep
 giraff,animals,giraff,word,understands; produces,NA,item_21,giraffe,giraffe
@@ -29,7 +29,7 @@ kanin,animals,kanin,word,understands; produces,NA,item_27,bunny,bunny
 katt,animals,katt,word,understands; produces,NA,item_28,cat,cat
 kisse,animals,kisse,word,understands; produces,NA,item_29,kitty,kitty
 ko,animals,ko,word,understands; produces,NA,item_30,cow,cow
-kyckling (animal),animals,kyckling,word,understands; produces,NA,item_31,chicken,chicken (animal)
+kyckling (animal),animals,kyckling,word,understands; produces,NA,item_31,chicken (animal),chicken (animal)
 lamm,animals,lamm,word,understands; produces,NA,item_32,lamb,lamb
 lejon,animals,lejon,word,understands; produces,NA,item_33,lion,lion
 mus,animals,mus,word,understands; produces,NA,item_34,mouse,mouse
@@ -63,7 +63,7 @@ såpbubblor,toys,sapbubblor,word,understands; produces,NA,item_61,bubbles,bubble
 apelsin,food_drink,apelsin,word,understands; produces,NA,item_62,orange,orange (food)
 banan,food_drink,banan,word,understands; produces,NA,item_63,banana,banana
 bröd,food_drink,brod,word,understands; produces,NA,item_64,bread,bread
-fisk (food),food_drink,fisk,word,understands; produces,NA,item_65,fish,fish (food)
+fisk (food),food_drink,fisk,word,understands; produces,NA,item_65,fish (food),fish (food)
 flingor,food_drink,flingor,word,understands; produces,NA,item_66,cereal,cereal
 glass,food_drink,glass,word,understands; produces,NA,item_67,ice cream,ice cream
 godis,food_drink,godis,word,understands; produces,NA,item_68,candy,candy
@@ -71,7 +71,7 @@ juice,food_drink,juice,word,understands; produces,NA,item_69,juice,juice
 kaffe,food_drink,kaffe,word,understands; produces,NA,item_70,coffee,coffee
 kaka,food_drink,kaka,word,understands; produces,NA,item_71,cookie,cookie
 kex,food_drink,kex,word,understands; produces,NA,item_72,cracker,cracker
-kyckling (food),food_drink,kyckling,word,understands; produces,NA,item_73,chicken,chicken (food)
+kyckling (food),food_drink,kyckling,word,understands; produces,NA,item_73,chicken (food),chicken (food)
 kött,food_drink,kott,word,understands; produces,NA,item_74,meat,meat
 köttbullar,food_drink,kottbullar,word,understands; produces,NA,item_75,meatballs,meatball
 mat,food_drink,mat,word,understands; produces,NA,item_76,food,food
@@ -86,7 +86,7 @@ smör,food_drink,smor,word,understands; produces,NA,item_84,butter,butter
 smörgås (macka),food_drink,macka,word,understands; produces,NA,item_85,sandwich,sandwich
 spagetti,food_drink,spagetti,word,understands; produces,NA,item_86,spaghetti,pasta
 skorpa,food_drink,skorpa,word,understands; produces,NA,item_87,biscuit,cracker
-vatten (beverage),food_drink,vatten,word,understands; produces,NA,item_88,water,water (beverage)
+vatten (beverage),food_drink,vatten,word,understands; produces,NA,item_88,water (beverage),water (beverage)
 ägg,food_drink,agg,word,understands; produces,NA,item_89,egg,egg
 äpple,food_drink,apple,word,understands; produces,NA,item_90,apple,apple
 ärtor,food_drink,artor,word,understands; produces,NA,item_91,peas,peas
@@ -97,7 +97,7 @@ halsband,clothing,halsband,word,understands; produces,NA,item_95,necklace,neckla
 jacka,clothing,jacka,word,understands; produces,NA,item_96,jacket,jacket
 jeans,clothing,jeans,word,understands; produces,NA,item_97,jeans,jeans
 knapp,clothing,knapp,word,understands; produces,NA,item_98,button,button
-kängor,clothing,kangor,word,understands; produces,NA,item_99,boots,boots
+kängor,clothing,kangor,word,understands; produces,NA,item_99,boots,boot
 mössa,clothing,mossa,word,understands; produces,NA,item_100,hat,hat
 nattlinne,clothing,nattlinne,word,understands; produces,NA,item_101,nightgown,nightgown
 overall,clothing,overall,word,understands; produces,NA,item_102,zip-suit,overalls
@@ -106,7 +106,7 @@ pärlor,clothing,parlor,word,understands; produces,NA,item_104,beads,beads
 skjorta,clothing,skjorta,word,understands; produces,NA,item_105,shirt,shirt
 sko,clothing,sko,word,understands; produces,NA,item_106,shoe,shoe
 socka,clothing,socka,word,understands; produces,NA,item_107,sock,sock
-stövel,clothing,stovel,word,understands; produces,NA,item_108,wellington,boots
+stövel,clothing,stovel,word,understands; produces,NA,item_108,wellington,boot
 tröja,clothing,troja,word,understands; produces,NA,item_109,sweater,sweater
 vantar,clothing,vantar,word,understands; produces,NA,item_110,mittens,mitten
 ansikte,body_parts,ansikte,word,understands; produces,NA,item_111,face,face
@@ -191,7 +191,7 @@ affär,outside,affar,word,understands; produces,NA,item_189,shop,store
 arbetet,outside,arbetet,word,understands; produces,NA,item_190,work,work (place)
 bassäng,outside,bassang,word,understands; produces,NA,item_191,pool,pool
 dagis,outside,dagis,word,understands; produces,NA,item_192,kindergarten,kindergarten
-gunga (object),outside,gunga,word,understands; produces,NA,item_193,swing,swing (object)
+gunga (object),outside,gunga,word,understands; produces,NA,item_193,swing (object),swing (object)
 gård,outside,gard,word,understands; produces,NA,item_194,yard,yard
 hemma,outside,hemma,word,understands; produces,NA,item_195,home,home
 himmel,outside,himmel,word,understands; produces,NA,item_196,heaven,sky
@@ -201,7 +201,7 @@ kyrkan,outside,kyrkan,word,understands; produces,NA,item_199,church,church
 landet,outside,landet,word,understands; produces,NA,item_200,country,field
 måne,outside,mane,word,understands; produces,NA,item_201,moon,moon
 lekpark,outside,lekpark,word,understands; produces,NA,item_202,playground,playground
-regn,outside,regn,word,understands; produces,NA,item_203,rain,rain
+regn,outside,regn,word,understands; produces,NA,item_203,rain,rain (weather)
 rutschbana,outside,rutschbana,word,understands; produces,NA,item_204,slide,slide (object)
 skola,outside,skola,word,understands; produces,NA,item_205,school,school
 snö,outside,sno,word,understands; produces,NA,item_206,snow,snow
@@ -213,7 +213,7 @@ stranden,outside,stranden,word,understands; produces,NA,item_211,beach,beach
 trädgård,outside,tradgard,word,understands; produces,NA,item_212,garden,garden
 träd,outside,trad,word,understands; produces,NA,item_213,tree,tree
 ute,outside,ute,word,understands; produces,NA,item_214,outside,outside
-vatten (not beverage),outside,vatten,word,understands; produces,NA,item_215,water,water (not beverage)
+vatten (not beverage),outside,vatten,word,understands; produces,NA,item_215,water (not beverage),water (not beverage)
 baby,people,baby,word,understands; produces,NA,item_216,baby,baby
 barnets eget namn,people,barnets_eget_namn,word,understands; produces,NA,item_217,child´s own name,child's own name
 barnvakt,people,barnvakt,word,understands; produces,NA,item_218,babysitter,babysitter
@@ -265,7 +265,7 @@ dricka,action_words,dricka,word,understands; produces,NA,item_263,drink,drink (a
 falla,action_words,falla,word,understands; produces,NA,item_264,fall,fall
 ge,action_words,ge,word,understands; produces,NA,item_265,give,give
 gråta,action_words,grata,word,understands; produces,NA,item_266,cry,cry
-gunga (action),action_words,gunga,word,understands; produces,NA,item_267,swing,swing (action)
+gunga (action),action_words,gunga,word,understands; produces,NA,item_267,swing (action),swing (action)
 gå,action_words,ga,word,understands; produces,NA,item_268,go,walk
 hjälpa,action_words,hjalpa,word,understands; produces,NA,item_269,help,help
 hoppa,action_words,hoppa,word,understands; produces,NA,item_270,jump,jump
@@ -294,7 +294,7 @@ sova,action_words,sova,word,understands; produces,NA,item_292,sleep,sleep
 sparka,action_words,sparka,word,understands; produces,NA,item_293,kick,kick
 springa,action_words,springa,word,understands; produces,NA,item_294,run,run
 stanna,action_words,stanna,word,understands; produces,NA,item_295,stop,stop
-städa,action_words,stada,word,understands; produces,NA,item_296,clean,clean (action)
+städa,action_words,stada,word,understands; produces,NA,item_296,clean (action),clean (action)
 stänga,action_words,stanga,word,understands; produces,NA,item_297,close,close
 säga,action_words,saga,word,understands; produces,NA,item_298,say,say
 sätta,action_words,satta,word,understands; produces,NA,item_299,put,put
@@ -329,7 +329,7 @@ kall,descriptive_words,kall,word,understands; produces,NA,item_327,cold,cold
 lite,descriptive_words,lite,word,understands; produces,NA,item_328,little,little (description)
 mjuk,descriptive_words,mjuk,word,understands; produces,NA,item_329,soft,soft
 mörk,descriptive_words,mork,word,understands; produces,NA,item_330,dark,dark
-ren,descriptive_words,ren,word,understands; produces,NA,item_331,clean,clean (description)
+ren,descriptive_words,ren,word,understands; produces,NA,item_331,clean (description),clean (description)
 röd,descriptive_words,rod,word,understands; produces,NA,item_332,red,red
 sjuk,descriptive_words,sjuk,word,understands; produces,NA,item_333,sick,sick
 skada,descriptive_words,skada,word,understands; produces,NA,item_334,hurt,hurt (description)

@@ -20,7 +20,7 @@ ekorre,animals,ekorre,word,produces,NA,item_18,squirrel,squirrel,squirrel
 elefant,animals,elefant,word,produces,NA,item_19,elephant,elephant,elephant
 fisk,animals,fisk,word,produces,NA,item_20,NA,fish,fish (animal)
 fjäril,animals,fjaril,word,produces,NA,item_21,NA,butterfly,butterfly
-fluga,animals,fluga,word,produces,NA,item_22,NA,fly,fly (animal)
+fluga,animals,fluga,word,produces,NA,item_22,NA,fly (animal),fly (animal)
 fågel,animals,fagel,word,produces,NA,item_23,bird,bird,bird
 får,animals,far,word,produces,NA,item_24,sheep,sheep,sheep
 giraff,animals,giraff,word,produces,NA,item_25,giraffe,giraffe,giraffe
@@ -36,7 +36,7 @@ katt,animals,katt,word,produces,NA,item_34,cat,cat,cat
 kisse,animals,kisse,word,produces,NA,item_35,kitty,kitty,kitty
 ko,animals,ko,word,produces,NA,item_36,cow,cow,cow
 krokodil,animals,krokodil,word,produces,NA,item_37,NA,crocodile,crocodile
-kyckling (animal),animals,kyckling,word,produces,NA,item_38,chicken (animal),chicken,chicken (animal)
+kyckling (animal),animals,kyckling,word,produces,NA,item_38,chicken (animal),chicken (animal),chicken (animal)
 lamm,animals,lamm,word,produces,NA,item_39,lamb,lamb,lamb
 lejon,animals,lejon,word,produces,NA,item_40,lion,lion,lion
 mus,animals,mus,word,produces,NA,item_41,mouse,mouse,mouse
@@ -92,7 +92,7 @@ skidor,toys,skidor,word,produces,NA,item_90,NA,skies,ski (object)
 skridskor,toys,skridskor,word,produces,NA,item_91,NA,skates,skate (object)
 spel,toys,spel,word,produces,NA,item_92,NA,game,game
 såpbubblor,toys,sapbubblor,word,produces,NA,item_93,bubbles,bubbles,bubbles
-apelsin,food_drink,apelsin,word,produces,NA,item_94,orange (food),orange,orange (food)
+apelsin,food_drink,apelsin,word,produces,NA,item_94,orange (food),orange (food),orange (food)
 bacon,food_drink,bacon,word,produces,NA,item_95,NA,bacon,bacon
 banan,food_drink,banan,word,produces,NA,item_96,banana,banana,banana
 blodpudding,food_drink,blodpudding,word,produces,NA,item_97,NA,black pudding,sausage
@@ -121,7 +121,7 @@ kaviar,food_drink,kaviar,word,produces,NA,item_119,NA,caviar,caviar
 kex,food_drink,kex,word,produces,NA,item_120,cracker,cracker,cracker
 knäckebröd,food_drink,knackebrod,word,produces,NA,item_121,NA,crisp bread,cracker
 korv,food_drink,korv,word,produces,NA,item_122,NA,sausage,sausage
-kyckling (food),food_drink,kyckling,word,produces,NA,item_123,chicken (food),chicken,chicken (food)
+kyckling (food),food_drink,kyckling,word,produces,NA,item_123,chicken (food),chicken (food),chicken (food)
 kött,food_drink,kott,word,produces,NA,item_124,meat,meat,meat
 köttbullar,food_drink,kottbullar,word,produces,NA,item_125,meatball,meatballs,meatball
 lingon,food_drink,lingon,word,produces,NA,item_126,NA,lingonberries,berry
@@ -158,7 +158,7 @@ spenat,food_drink,spenat,word,produces,NA,item_156,NA,spinach,spinach
 sås,food_drink,sas,word,produces,NA,item_157,NA,sauce,sauce
 tomat,food_drink,tomat,word,produces,NA,item_158,NA,tomato,tomato
 tårta,food_drink,tarta,word,produces,NA,item_159,NA,cake,cake
-vatten (beverage),food_drink,vatten,word,produces,NA,item_160,water (beverage),water,water (beverage)
+vatten (beverage),food_drink,vatten,word,produces,NA,item_160,water (beverage),water (beverage),water (beverage)
 vitaminer,food_drink,vitaminer,word,produces,NA,item_161,NA,vitamins,vitamin
 välling,food_drink,valling,word,produces,NA,item_162,NA,gruel,porridge
 yoghurt,food_drink,yoghurt,word,produces,NA,item_163,NA,yogurt,yogurt
@@ -182,7 +182,7 @@ kläder,clothing,klader,word,produces,NA,item_180,NA,clothing,clothes
 klänning,clothing,klanning,word,produces,NA,item_181,NA,dress,dress (object)
 knapp,clothing,knapp,word,produces,NA,item_182,button,button,button
 kortbyxor,clothing,kortbyxor,word,produces,NA,item_183,NA,shorts,shorts
-kängor,clothing,kangor,word,produces,NA,item_184,boots,boots,boots
+kängor,clothing,kangor,word,produces,NA,item_184,boots,boots,boot
 mössa,clothing,mossa,word,produces,NA,item_185,hat,hat,hat
 nattlinne,clothing,nattlinne,word,produces,NA,item_186,nightgown,nightgown,nightgown
 overall,clothing,overall,word,produces,NA,item_187,overalls,zip-suit,overalls
@@ -195,7 +195,7 @@ sko,clothing,sko,word,produces,NA,item_193,shoe,shoe,shoe
 skärp,clothing,skarp,word,produces,NA,item_194,NA,belt,belt
 socka,clothing,socka,word,produces,NA,item_195,sock,sock,sock
 strumpa,clothing,strumpa,word,produces,NA,item_196,NA,sock,sock
-stövel,clothing,stovel,word,produces,NA,item_197,boots,wellington,boots
+stövel,clothing,stovel,word,produces,NA,item_197,boots,wellington,boot
 tshirt,clothing,tshirt,word,produces,NA,item_198,NA,tshirt,t-shirt
 tights,clothing,tights,word,produces,NA,item_199,NA,tights,tights
 tofflor,clothing,tofflor,word,produces,NA,item_200,NA,slipper,slipper
@@ -327,14 +327,14 @@ gata,outside,gata,word,produces,NA,item_325,NA,street,street
 gran,outside,gran,word,produces,NA,item_326,NA,Chrismas tree,NA
 gräs,outside,gras,word,produces,NA,item_327,NA,grass,grass
 gräsklippare,outside,grasklippare,word,produces,NA,item_328,NA,lawn mower,lawn mower
-gunga (object),outside,gunga,word,produces,NA,item_329,swing (object),swing,swing (object)
+gunga (object),outside,gunga,word,produces,NA,item_329,swing (object),swing (object),swing (object)
 gård,outside,gard,word,produces,NA,item_330,yard,yard,yard
 himmel,outside,himmel,word,produces,NA,item_331,sky,heaven,sky
 kratta,outside,kratta,word,produces,NA,item_332,NA,rake,rake (object)
 moln,outside,moln,word,produces,NA,item_333,NA,cloud,cloud
 måne,outside,mane,word,produces,NA,item_334,moon,moon,moon
 pinne,outside,pinne,word,produces,NA,item_335,NA,stick,stick (object)
-regn,outside,regn,word,produces,NA,item_336,rain,rain,rain
+regn,outside,regn,word,produces,NA,item_336,rain,rain,rain (weather)
 rutchbana,outside,rutchbana,word,produces,NA,item_337,NA,slide,slide (object)
 sand,outside,sand,word,produces,NA,item_338,NA,sand,sand
 snö,outside,sno,word,produces,NA,item_339,snow,snow,snow
@@ -348,10 +348,10 @@ tak,outside,tak,word,produces,NA,item_346,NA,roof,roof
 trottoar,outside,trottoar,word,produces,NA,item_347,NA,sidewalk,sidewalk
 träd,outside,trad,word,produces,NA,item_348,tree,tree,tree
 trädgård,outside,tradgard,word,produces,NA,item_349,garden,garden,garden
-vatten (not beverage),outside,vatten,word,produces,NA,item_350,water (not beverage),water,water (not beverage)
+vatten (not beverage),outside,vatten,word,produces,NA,item_350,water (not beverage),water (not beverage),water (not beverage)
 vind,outside,vind,word,produces,NA,item_351,NA,wind,wind
 affär,places,affar,word,produces,NA,item_352,NA,shop,store
-arbetet,places,arbetet,word,produces,NA,item_353,NA,work,work (place)
+arbetet,places,arbetet,word,produces,NA,item_353,NA,work (place),work (place)
 bensin,places,bensin,word,produces,NA,item_354,NA,gas station,gas station
 bio,places,bio,word,produces,NA,item_355,NA,movie,movie
 bondgård,places,bondgard,word,produces,NA,item_356,NA,farm,farm
@@ -433,7 +433,7 @@ vill,games_routines,vill,word,produces,NA,item_431,NA,want,wanna
 vill ha,games_routines,vill_ha,word,produces,NA,item_432,NA,wanna/want to,wanna
 vänd dig om,games_routines,vand_dig_om,word,produces,NA,item_433,NA,turn around,NA
 vänta,games_routines,vanta,word,produces,NA,item_434,wait,wait,wait
-arbeta,action_words,arbeta,word,produces,NA,item_435,NA,work,work (action)
+arbeta,action_words,arbeta,word,produces,NA,item_435,NA,work (action),work (action)
 backa,action_words,backa,word,produces,NA,item_436,NA,reverse,reverse
 bajsa,action_words,bajsa,word,produces,NA,item_437,NA,poo-poo,poop
 bita,action_words,bita,word,produces,NA,item_438,bite,bite,bite
@@ -446,13 +446,13 @@ dela,action_words,dela,word,produces,NA,item_444,NA,share,share
 dra,action_words,dra,word,produces,NA,item_445,pull,pull,pull
 dricka,action_words,dricka,word,produces,NA,item_446,drink (action),drink,drink (action)
 falla,action_words,falla,word,produces,NA,item_447,fall,fall,fall
-flyga,action_words,flyga,word,produces,NA,item_448,NA,fly,fly (action)
+flyga,action_words,flyga,word,produces,NA,item_448,NA,fly (action),fly (action)
 få,action_words,fa,word,produces,NA,item_449,NA,get,get
 gapa,action_words,gapa,word,produces,NA,item_450,NA,open the mouth,NA
 ge,action_words,ge,word,produces,NA,item_451,give,give,give
 gråta,action_words,grata,word,produces,NA,item_452,cry,cry,cry
 gräva,action_words,grava,word,produces,NA,item_453,NA,dig,dig
-gunga (action),action_words,gunga,word,produces,NA,item_454,swing (action),swing,swing (action)
+gunga (action),action_words,gunga,word,produces,NA,item_454,swing (action),swing (action),swing (action)
 gå,action_words,ga,word,produces,NA,item_455,walk,go,walk
 gömma,action_words,gomma,word,produces,NA,item_456,NA,hide,hide
 göra,action_words,gora,word,produces,NA,item_457,NA,do,do
@@ -515,7 +515,7 @@ spilla,action_words,spilla,word,produces,NA,item_513,NA,spill,spill
 springa,action_words,springa,word,produces,NA,item_514,run,run,run
 stanna,action_words,stanna,word,produces,NA,item_515,stop,stop,stop
 stå,action_words,sta,word,produces,NA,item_516,NA,stand,stand
-städa,action_words,stada,word,produces,NA,item_517,clean (action),clean,clean (action)
+städa,action_words,stada,word,produces,NA,item_517,clean (action),clean (action),clean (action)
 ställa,action_words,stalla,word,produces,NA,item_518,NA,stand,set
 stänga,action_words,stanga,word,produces,NA,item_519,close,close,close
 säga,action_words,saga,word,produces,NA,item_520,say,say,say
@@ -524,7 +524,7 @@ tala,action_words,tala,word,produces,NA,item_522,NA,speak,speak
 tanka,action_words,tanka,word,produces,NA,item_523,NA,fill,fill
 tappa,action_words,tappa,word,produces,NA,item_524,NA,drop,drop
 titta,action_words,titta,word,produces,NA,item_525,look,look,look
-torka,action_words,torka,word,produces,NA,item_526,NA,dry,dry (action)
+torka,action_words,torka,word,produces,NA,item_526,NA,dry (action),dry (action)
 tvätta,action_words,tvatta,word,produces,NA,item_527,wash,clean,wash
 tycka,action_words,tycka,word,produces,NA,item_528,NA,like,like
 tända,action_words,tanda,word,produces,NA,item_529,NA,light,light (action)
@@ -568,8 +568,8 @@ lång,descriptive_words,lang,word,produces,NA,item_566,NA,long,long
 mjuk,descriptive_words,mjuk,word,produces,NA,item_567,soft,soft,soft
 mörk,descriptive_words,mork,word,produces,NA,item_568,dark,dark,dark
 ny,descriptive_words,ny,word,produces,NA,item_569,NA,new,new
-orange,descriptive_words,orange,word,produces,NA,item_570,NA,orange,orange (description)
-ren,descriptive_words,ren,word,produces,NA,item_571,clean (description),clean,clean (description)
+orange,descriptive_words,orange,word,produces,NA,item_570,NA,orange (description),orange (description)
+ren,descriptive_words,ren,word,produces,NA,item_571,clean (description),clean (description),clean (description)
 rädd,descriptive_words,radd,word,produces,NA,item_572,NA,afraid,afraid
 röd,descriptive_words,rod,word,produces,NA,item_573,red,red,red
 sakta,descriptive_words,sakta,word,produces,NA,item_574,NA,slowly,slowly
@@ -586,7 +586,7 @@ sömning,descriptive_words,somning,word,produces,NA,item_584,NA,sleepy,sleepy
 sönder,descriptive_words,sonder,word,produces,NA,item_585,NA,broken,broken
 söt,descriptive_words,sot,word,produces,NA,item_586,sweet,sweet,sweet
 tom,descriptive_words,tom,word,produces,NA,item_587,empty,empty,empty
-torr,descriptive_words,torr,word,produces,NA,item_588,dry (description),dry,dry (description)
+torr,descriptive_words,torr,word,produces,NA,item_588,dry (description),dry (description),dry (description)
 trasig,descriptive_words,trasig,word,produces,NA,item_589,broken,torn,broken
 trevlig,descriptive_words,trevlig,word,produces,NA,item_590,nice,nice,nice
 trött,descriptive_words,trott,word,produces,NA,item_591,tired,tired,tired
@@ -650,7 +650,7 @@ ner,locations,ner,word,produces,NA,item_648,down,down,down
 nära,locations,nara,word,produces,NA,item_649,NA,near,near
 omkring,locations,omkring,word,produces,NA,item_650,NA,around,around
 ovanför,locations,ovanfor,word,produces,NA,item_651,NA,above,above
-ovanpå,locations,ovanpa,word,produces,NA,item_652,NA,on top of,on top
+ovanpå,locations,ovanpa,word,produces,NA,item_652,NA,on top of,on top of
 på,locations,pa,word,produces,NA,item_653,on,on,on
 runt,locations,runt,word,produces,NA,item_654,NA,around,around
 till,locations,till,word,produces,NA,item_655,NA,to,to

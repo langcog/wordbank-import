@@ -63,7 +63,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 лошадь,animals,NA,word,produces,NA,item_62,horse,horse
 лягушка,animals,NA,word,produces,NA,item_63,frog,frog
 медведь,animals,NA,word,produces,NA,item_64,bear,bear
-муха,animals,NA,word,produces,NA,item_65,fly,fly (animal)
+муха,animals,NA,word,produces,NA,item_65,fly (animal),fly (animal)
 мышка,animals,NA,word,produces,NA,item_66,mouse,mouse
 обезьяна,animals,NA,word,produces,NA,item_67,monkey,monkey
 овечка,animals,NA,word,produces,NA,item_68,sheep,sheep
@@ -71,7 +71,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 петух,animals,NA,word,produces,NA,item_70,rooster,rooster
 поросенок,animals,NA,word,produces,NA,item_71,piglet,piglet
 птичка,animals,NA,word,produces,NA,item_72,bird,bird
-рыбка,animals,NA,word,produces,NA,item_73,fish,fish (animal)
+рыбка,animals,NA,word,produces,NA,item_73,fish (animal),fish (animal)
 свинка,animals,NA,word,produces,NA,item_74,pig,pig
 слон,animals,NA,word,produces,NA,item_75,elephant,elephant
 собака,animals,NA,word,produces,NA,item_76,dog,dog
@@ -96,12 +96,12 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 альбом,toys,NA,word,produces,NA,item_95,album,album
 ведро,toys,NA,word,produces,NA,item_96,bucket,bucket
 грабли,toys,NA,word,produces,NA,item_97,rake,rake (object)
-игрушка,toys,NA,word,produces,NA,item_98,toy,toy (object)
+игрушка,toys,NA,word,produces,NA,item_98,toy (object),toy (object)
 карандаш,toys,NA,word,produces,NA,item_99,pencil,pen/pencil
 кисточка,toys,NA,word,produces,NA,item_100,brush,brush (object)
 клей,toys,NA,word,produces,NA,item_101,glue,glue (object)
 книга,toys,NA,word,produces,NA,item_102,book,book
-краски,toys,NA,word,produces,NA,item_103,paint,paint (object)
+краски,toys,NA,word,produces,NA,item_103,paint (object),paint (object)
 кубики,toys,NA,word,produces,NA,item_104,block,blocks
 кукла,toys,NA,word,produces,NA,item_105,doll,doll
 лопатка,toys,NA,word,produces,NA,item_106,shovel/scoop,shovel
@@ -117,7 +117,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 фотографии,toys,NA,word,produces,NA,item_116,photo,picture
 шарик,toys,NA,word,produces,NA,item_117,bead,balloon
 юла,toys,NA,word,produces,NA,item_118,spin top,top
-апельсин,food_drink,NA,word,produces,NA,item_119,orange,orange (food)
+апельсин,food_drink,NA,word,produces,NA,item_119,orange (food),orange (food)
 арбуз,food_drink,NA,word,produces,NA,item_120,watermelon,watermelon
 банан,food_drink,NA,word,produces,NA,item_121,banana,banana
 блины,food_drink,NA,word,produces,NA,item_122,pancake,pancake
@@ -138,12 +138,12 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 кефир,food_drink,NA,word,produces,NA,item_137,yogurt drink,yogurt drink
 киви,food_drink,NA,word,produces,NA,item_138,kiwi,kiwi
 колбаса,food_drink,NA,word,produces,NA,item_139,sausage,sausage
-компот,food_drink,NA,word,produces,NA,item_140,compote,compote
+компот,food_drink,NA,word,produces,NA,item_140,compote,jam
 конфета,food_drink,NA,word,produces,NA,item_141,sweet,candy
 котлета,food_drink,NA,word,produces,NA,item_142,cutlet,cutlet
 кофе,food_drink,NA,word,produces,NA,item_143,coffee,coffee
 кукуруза,food_drink,NA,word,produces,NA,item_144,corn,corn
-курица (food),food_drink,NA,word,produces,NA,item_145,chicken,chicken (food)
+курица (food),food_drink,NA,word,produces,NA,item_145,chicken (food),chicken (food)
 лук,food_drink,NA,word,produces,NA,item_146,onion,onion
 макароны,food_drink,NA,word,produces,NA,item_147,spaghetti/noodle (pasta),pasta
 малина,food_drink,NA,word,produces,NA,item_148,raspberry,raspberry
@@ -161,7 +161,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 помидор,food_drink,NA,word,produces,NA,item_160,tomato,tomato
 пряник,food_drink,NA,word,produces,NA,item_161,spice-cake,cookie
 рис,food_drink,NA,word,produces,NA,item_162,rice,rice
-рыба,food_drink,NA,word,produces,NA,item_163,fish,fish (food)
+рыба,food_drink,NA,word,produces,NA,item_163,fish (food),fish (food)
 сахар,food_drink,NA,word,produces,NA,item_164,sugar,sugar
 свекла,food_drink,NA,word,produces,NA,item_165,beet,beet
 слива,food_drink,NA,word,produces,NA,item_166,plum,plum
@@ -186,10 +186,10 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 ягода,food_drink,NA,word,produces,NA,item_185,berry,berry
 яйцо,food_drink,NA,word,produces,NA,item_186,egg,egg
 босоножки,clothing,NA,word,produces,NA,item_187,open-toe sandals,sandal
-ботинки,clothing,NA,word,produces,NA,item_188,boots,boots
+ботинки,clothing,NA,word,produces,NA,item_188,boots,boot
 брюки,clothing,NA,word,produces,NA,item_189,pants,pants
 бусы,clothing,NA,word,produces,NA,item_190,beads,beads
-валенки,clothing,NA,word,produces,NA,item_191,felt boot,boots
+валенки,clothing,NA,word,produces,NA,item_191,felt boot,boot
 варежки/рукавицы,clothing,NA,word,produces,NA,item_192,mittens,mitten
 колготки,clothing,NA,word,produces,NA,item_193,tights,tights
 комбинезон,clothing,NA,word,produces,NA,item_194,bib/snowsuit,snowsuit
@@ -206,7 +206,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 платье,clothing,NA,word,produces,NA,item_205,dress,dress (object)
 пуговица,clothing,NA,word,produces,NA,item_206,button,button
 рубашка,clothing,NA,word,produces,NA,item_207,shirt,shirt
-сапоги,clothing,NA,word,produces,NA,item_208,boots,boots
+сапоги,clothing,NA,word,produces,NA,item_208,boots,boot
 свитер,clothing,NA,word,produces,NA,item_209,sweater,sweater
 тапки,clothing,NA,word,produces,NA,item_210,slippers,slipper
 трусы,clothing,NA,word,produces,NA,item_211,underpants,underpants
@@ -235,7 +235,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 ресницы,body_parts,NA,word,produces,NA,item_234,eyelashes,eyelash
 рот,body_parts,NA,word,produces,NA,item_235,mouth,mouth
 рука,body_parts,NA,word,produces,NA,item_236,arm/hand,arm
-спина,body_parts,NA,word,produces,NA,item_237,back,back (body part)
+спина,body_parts,NA,word,produces,NA,item_237,back (body part),back (body part)
 ушки,body_parts,NA,word,produces,NA,item_238,ears,ear
 шея,body_parts,NA,word,produces,NA,item_239,neck,neck
 щека,body_parts,NA,word,produces,NA,item_240,cheek,cheek
@@ -275,7 +275,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 посуда,household,NA,word,produces,NA,item_274,crockery,dish
 пылесос,household,NA,word,produces,NA,item_275,vacuum,vacuum
 радио,household,NA,word,produces,NA,item_276,radio,radio
-расческа,household,NA,word,produces,NA,item_277,comb,comb (object)
+расческа,household,NA,word,produces,NA,item_277,comb (object),comb (object)
 свет,household,NA,word,produces,NA,item_278,light,light (object)
 совок (для мусора),household,NA,word,produces,NA,item_279,dustpan,dustpan
 соска,household,NA,word,produces,NA,item_280,pacifier/dummy,pacifier
@@ -325,7 +325,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 ветер,outside,NA,word,produces,NA,item_324,wind,wind
 грязь,outside,NA,word,produces,NA,item_325,mud/dirt,mud
 дерево,outside,NA,word,produces,NA,item_326,tree,tree
-дождь,outside,NA,word,produces,NA,item_327,rain,rain
+дождь,outside,NA,word,produces,NA,item_327,rain,rain (weather)
 дорога,outside,NA,word,produces,NA,item_328,road,road
 дрова,outside,NA,word,produces,NA,item_329,firewood,firewood
 елка,outside,NA,word,produces,NA,item_330,fir,fir
@@ -362,7 +362,7 @@ definition,category,item,type,choices,complexity_category,itemID,gloss,uni_lemma
 детский сад,places,NA,word,produces,NA,item_361,kindergarten,kindergarten
 дом,places,NA,word,produces,NA,item_362,house,house
 зоопарк,places,NA,word,produces,NA,item_363,zoo,zoo
-качели,places,NA,word,produces,NA,item_364,swing,swing (object)
+качели,places,NA,word,produces,NA,item_364,swing (object),swing (object)
 лес,places,NA,word,produces,NA,item_365,woods,forest
 магазин,places,NA,word,produces,NA,item_366,shop,store
 озеро,places,NA,word,produces,NA,item_367,lake,lake
@@ -456,19 +456,19 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 какать,action_words,NA,word,produces,NA,item_455,dump,go potty
 капать,action_words,NA,word,produces,NA,item_456,drop,drip
 катать/кататься,action_words,NA,word,produces,NA,item_457,ride,ride
-качать/качаться,action_words,NA,word,produces,NA,item_458,swing,swing (action)
+качать/качаться,action_words,NA,word,produces,NA,item_458,swing (action),swing (action)
 кидать,action_words,NA,word,produces,NA,item_459,throw,throw
 класть,action_words,NA,word,produces,NA,item_460,put,put
 копать,action_words,NA,word,produces,NA,item_461,dig/shovel,dig
 кормить,action_words,NA,word,produces,NA,item_462,feed,feed
-красить,action_words,NA,word,produces,NA,item_463,paint,paint (action)
+красить,action_words,NA,word,produces,NA,item_463,paint (action),paint (action)
 кричать,action_words,NA,word,produces,NA,item_464,shout,shout
 купать/купаться,action_words,NA,word,produces,NA,item_465,bath/give a bath,bathe
 кусать/кусаться,action_words,NA,word,produces,NA,item_466,bite,bite
 кушать,action_words,NA,word,produces,NA,item_467,eat,eat
 лежать,action_words,NA,word,produces,NA,item_468,lie,lie down
 лезть,action_words,NA,word,produces,NA,item_469,climb,climb
-летать/лететь,action_words,NA,word,produces,NA,item_470,fly,fly (action)
+летать/лететь,action_words,NA,word,produces,NA,item_470,fly (action),fly (action)
 лизать,action_words,NA,word,produces,NA,item_471,lick,lick
 ломать,action_words,NA,word,produces,NA,item_472,break,break
 любить,action_words,NA,word,produces,NA,item_473,love,love
@@ -496,7 +496,7 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 ползать,action_words,NA,word,produces,NA,item_495,creep,crawl
 помнить,action_words,NA,word,produces,NA,item_496,remember,remember
 помогать,action_words,NA,word,produces,NA,item_497,help,help
-причесать/причесаться,action_words,NA,word,produces,NA,item_498,comb,comb (action)
+причесать/причесаться,action_words,NA,word,produces,NA,item_498,comb (action),comb (action)
 прыгать,action_words,NA,word,produces,NA,item_499,jump,jump
 прятать/прятаться,action_words,NA,word,produces,NA,item_500,hide,hide
 работать,action_words,NA,word,produces,NA,item_501,work,work (action)
@@ -525,7 +525,7 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 хотеть,action_words,NA,word,produces,NA,item_524,want,want
 ходить,action_words,NA,word,produces,NA,item_525,go/walk,walk
 целовать,action_words,NA,word,produces,NA,item_526,kiss,kiss
-чистить,action_words,NA,word,produces,NA,item_527,clean,clean (action)
+чистить,action_words,NA,word,produces,NA,item_527,clean (action),clean (action)
 читать,action_words,NA,word,produces,NA,item_528,read,read
 чихать,action_words,NA,word,produces,NA,item_529,sneeze,sneeze
 щекотать,action_words,NA,word,produces,NA,item_530,tickle,tickle
@@ -543,13 +543,13 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 грязный,descriptive_words (adjectives),NA,word,produces,NA,item_542,yucky,dirty
 длинный,descriptive_words (adjectives),NA,word,produces,NA,item_543,long,long
 добрый,descriptive_words (adjectives),NA,word,produces,NA,item_544,good,nice
-игрушечный,descriptive_words (adjectives),NA,word,produces,NA,item_545,toy,toy (description)
+игрушечный,descriptive_words (adjectives),NA,word,produces,NA,item_545,toy (description),toy (description)
 кислый,descriptive_words (adjectives),NA,word,produces,NA,item_546,sour,sour
 короткий,descriptive_words (adjectives),NA,word,produces,NA,item_547,short,short
 красивый,descriptive_words (adjectives),NA,word,produces,NA,item_548,pretty,pretty
 маленький,descriptive_words (adjectives),NA,word,produces,NA,item_549,little,little (description)
 медленный,descriptive_words (adjectives),NA,word,produces,NA,item_550,slow,slow
-мокрый,descriptive_words (adjectives),NA,word,produces,NA,item_551,wet,wet (description)
+мокрый,descriptive_words (adjectives),NA,word,produces,NA,item_551,wet (description),wet (description)
 мягкий,descriptive_words (adjectives),NA,word,produces,NA,item_552,soft,soft
 настоящий,descriptive_words (adjectives),NA,word,produces,NA,item_553,real/true,real
 непослушный,descriptive_words (adjectives),NA,word,produces,NA,item_554,naughty,naughty
@@ -572,13 +572,13 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 умный,descriptive_words (adjectives),NA,word,produces,NA,item_571,clever,smart
 холодный,descriptive_words (adjectives),NA,word,produces,NA,item_572,cold,cold
 хороший,descriptive_words (adjectives),NA,word,produces,NA,item_573,good/nice,good
-чистый,descriptive_words (adjectives),NA,word,produces,NA,item_574,clean,clean (description)
+чистый,descriptive_words (adjectives),NA,word,produces,NA,item_574,clean (description),clean (description)
 белый,descriptive_words (adjectives),NA,word,produces,NA,item_575,white,white
 желтый,descriptive_words (adjectives),NA,word,produces,NA,item_576,yellow,yellow
 зеленый,descriptive_words (adjectives),NA,word,produces,NA,item_577,green,green
 коричневый,descriptive_words (adjectives),NA,word,produces,NA,item_578,brown,brown
 красный,descriptive_words (adjectives),NA,word,produces,NA,item_579,red,red
-оранжевый,descriptive_words (adjectives),NA,word,produces,NA,item_580,orange,orange (description)
+оранжевый,descriptive_words (adjectives),NA,word,produces,NA,item_580,orange (description),orange (description)
 синий,descriptive_words (adjectives),NA,word,produces,NA,item_581,blue,blue
 черный,descriptive_words (adjectives),NA,word,produces,NA,item_582,black,black
 больно,descriptive_words (adverbs),NA,word,produces,NA,item_583,paintfully/boo-boo,painful
@@ -657,13 +657,13 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 тот/та/те,pronouns,NA,word,produces,NA,item_656,that/those,that
 это/этот/эти,pronouns,NA,word,produces,NA,item_657,this/these,this
 сам/сама,pronouns,NA,word,produces,NA,item_658,myself/yourself,REFL
-где?,question_words,NA,word,produces,NA,item_659,where,where (question)
+где?,question_words,NA,word,produces,NA,item_659,where (question),where (question)
 зачем?,question_words,NA,word,produces,NA,item_660,what for,why
 как?,question_words,NA,word,produces,NA,item_661,how,how
 какой?,question_words,NA,word,produces,NA,item_662,what/which,which (question)
-когда?,question_words,NA,word,produces,NA,item_663,when,when (question)
+когда?,question_words,NA,word,produces,NA,item_663,when (question),when (question)
 кто?,question_words,NA,word,produces,NA,item_664,who,who
-куда?,question_words,NA,word,produces,NA,item_665,where,where (question)
+куда?,question_words,NA,word,produces,NA,item_665,where (question),where (question)
 почему?,question_words,NA,word,produces,NA,item_666,why,why
 сколько?,question_words,NA,word,produces,NA,item_667,how much,how much
 чей?,question_words,NA,word,produces,NA,item_668,whose,whose
@@ -682,7 +682,7 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 вот,locations,NA,word,produces,NA,item_681,there/here,here
 вперед/впереди,locations,NA,word,produces,NA,item_682,forward/before,forward
 высоко,locations,NA,word,produces,NA,item_683,high,high
-назад,locations,NA,word,produces,NA,item_684,back,back (location)
+назад,locations,NA,word,produces,NA,item_684,back (location),back (location)
 низко,locations,NA,word,produces,NA,item_685,low,low
 отсюда,locations,NA,word,produces,NA,item_686,from here,from here
 оттуда,locations,NA,word,produces,NA,item_687,from there,from there
@@ -713,13 +713,13 @@ cпасибо,games_routines,NA,word,produces,NA,item_414,thank you,thank you
 четыре,quantifiers,NA,word,produces,NA,item_712,four,four
 пять,quantifiers,NA,word,produces,NA,item_713,five,five
 а,connecting_words,NA,word,produces,NA,item_714,but/and,but
-где,connecting_words,NA,word,produces,NA,item_715,where,where (conjunction)
+где,connecting_words,NA,word,produces,NA,item_715,where (conjunction),where (conjunction)
 если,connecting_words,NA,word,produces,NA,item_716,if,if
 и,connecting_words,NA,word,produces,NA,item_717,and,and
 или,connecting_words,NA,word,produces,NA,item_718,or,or
 как,connecting_words,NA,word,produces,NA,item_719,as/like,as
 какой,connecting_words,NA,word,produces,NA,item_720,what,which (connecting)
-когда,connecting_words,NA,word,produces,NA,item_721,when,when (conjunction)
+когда,connecting_words,NA,word,produces,NA,item_721,when (conjunction),when (conjunction)
 который,connecting_words,NA,word,produces,NA,item_722,which,which (connecting)
 но,connecting_words,NA,word,produces,NA,item_723,but,but
 потому что,connecting_words,NA,word,produces,NA,item_724,because,because

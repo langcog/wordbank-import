@@ -16,7 +16,7 @@ item_14,14_vau_vau,word,understands; produces,sounds,vau-vau,NA,dog,woof woof
 item_15,15_aita,word,understands; produces,animals,aita,NA,sheep,sheep
 item_16,16_bite,word,understands; produces,animals,bite,NA,bee,bee
 item_17,17_brunurupuc,word,understands; produces,animals,bruņurupucis,NA,turtle,turtle
-item_18,18_calis,word,understands; produces,animals,cālis,NA,chicken,chicken
+item_18,18_calis,word,understands; produces,animals,cālis,NA,chicken,chicken (animal)
 item_19,19_cuka,word,understands; produces,animals,cūka,NA,pig,pig
 item_20,20_cuska,word,understands; produces,animals,čūska,NA,snake,snake
 item_21,21_ezis,word,understands; produces,animals,ezis,NA,hendgehog,hedgehog
@@ -47,7 +47,7 @@ item_45,45_zakis,word,understands; produces,animals,zaķis,NA,hare,bunny
 item_46,46_zilonis,word,understands; produces,animals,zilonis,NA,elephant,elephant
 item_47,47_zirgs,word,understands; produces,animals,zirgs,NA,horse,horse
 item_48,48_zirneklis,word,understands; produces,animals,zirneklis,NA,spider,spider
-item_49,49_zivs,word,understands; produces,animals,zivs,NA,fish,fish (animal)
+item_49,49_zivs,word,understands; produces,animals,zivs,NA,fish (animal),fish (animal)
 item_50,50_zoss,word,understands; produces,animals,zoss,NA,goose,goose
 item_51,51_zirafe,word,understands; produces,animals,žirafe,NA,giraffe,giraffe
 item_52,52_autobuss,word,understands; produces,vehicles,autobuss,NA,bus,bus
@@ -100,7 +100,7 @@ item_98,98_tomats,word,understands; produces,food_drink,tomāts,NA,tomato,tomato
 item_99,99_torte_kuka,word,understands; produces,food_drink,torte/kūka,NA,cake,cake
 item_100,100_udens,word,understands; produces,food_drink,ūdens,NA,water,water (beverage)
 item_101,101_zemenes,word,understands; produces,food_drink,zemenes,NA,strawberries,strawberry
-item_102,102_zivs,word,understands; produces,food_drink,zivs,NA,fish,fish (food)
+item_102,102_zivs,word,understands; produces,food_drink,zivs,NA,fish (food),fish (food)
 item_103,103_zupa,word,understands; produces,food_drink,zupa,NA,soup,soup
 item_104,104_autinbiksi,word,understands; produces,clothing,autiņbiksītes /pampers,NA,diapers,diaper
 item_105,105_bikses,word,understands; produces,clothing,bikses,NA,trousers,pants
@@ -131,7 +131,7 @@ item_129,129_kaja,word,understands; produces,body_parts,kāja,NA,leg,leg
 item_130,130_kakls,word,understands; produces,body_parts,kakls,NA,neck,neck
 item_131,131_mati,word,understands; produces,body_parts,mati,NA,hear,hair
 item_132,132_mele,word,understands; produces,body_parts,mēle,NA,tongue,tongue
-item_133,133_mugura,word,understands; produces,body_parts,mugura,NA,back,back (body part)
+item_133,133_mugura,word,understands; produces,body_parts,mugura,NA,back (body part),back (body part)
 item_134,134_mute,word,understands; produces,body_parts,mute,NA,mouth,mouth
 item_135,135_naba,word,understands; produces,body_parts,naba,NA,navel/belly-button,belly button
 item_136,136_nagi,word,understands; produces,body_parts,nagi,NA,nails,nail (body part)
@@ -210,7 +210,7 @@ item_208,208_darzs,word,understands; produces,outside,dārzs,NA,garden,garden
 item_209,209_debesis,word,understands; produces,outside,debesis,NA,sky,sky
 item_210,210_koks,word,understands; produces,outside,koks,NA,tree,tree
 item_211,211_jura,word,understands; produces,outside,jūra,NA,sea,sea
-item_212,212_lietus,word,understands; produces,outside,lietus,NA,rain,rain
+item_212,212_lietus,word,understands; produces,outside,lietus,NA,rain,rain (weather)
 item_213,213_maja,word,understands; produces,outside,māja,NA,house,house
 item_214,214_majas,word,understands; produces,outside,mājas,NA,home,home
 item_215,215_makonis,word,understands; produces,outside,mākonis,NA,cloud,cloud
@@ -254,7 +254,7 @@ item_252,252_Ar_labu_na,word,understands; produces,games_routines,Ar labu nakti!
 item_253,253_Ata_Uz_re,word,understands; produces,games_routines,Atā!/Uz redzēšanos!,NA,Bye!,bye
 item_254,254_brokastis,word,understands; produces,games_routines,brokastis,NA,breakfast,breakfast
 item_255,255_diendusa,word,understands; produces,games_routines,diendusa,NA,siesta,nap
-item_256,256_drikst_,word,understands; produces,games_routines,drīkst,NA,allowed,allowed
+item_256,256_drikst_,word,understands; produces,games_routines,drīkst,NA,allowed,allow
 item_257,257_Gribu_,word,understands; produces,games_routines,Gribu!,NA,want,wanna
 item_258,258_ja_,word,understands; produces,games_routines,jā,NA,yes,yes
 item_259,259_Kus_Klusu,word,understands; produces,games_routines,Kuš! Klusu!,NA,quiet!,shh
@@ -322,7 +322,7 @@ item_320,320_smaidit,word,understands; produces,action_words,smaidīt,NA,smile,s
 item_321,321_steigties,word,understands; produces,action_words,steigties,NA,hurry,hurry
 item_322,322_slakstinat,word,understands; produces,action_words,šļakstināt,NA,splash,splash
 item_323,323_supoties,word,understands; produces,action_words,šūpoties,NA,rock/swing,swing (action)
-item_324,324_tirit,word,understands; produces,action_words,tīrīt,NA,clean,clean (action)
+item_324,324_tirit,word,understands; produces,action_words,tīrīt,NA,clean (action),clean (action)
 item_325,325_vilkt,word,understands; produces,action_words,vilkt,NA,pull,pull
 item_326,326_zimet,word,understands; produces,action_words,zīmēt,NA,draw,draw
 item_327,327_diena,word,understands; produces,time_words,diena,NA,day,day
@@ -362,7 +362,7 @@ item_360,360_slapjs,word,understands; produces,descriptive_words,slapjš,NA,wet,
 item_361,361_slikts_sl,word,understands; produces,descriptive_words,slikts /slikti,NA,bad,bad
 item_362,362_slims,word,understands; produces,descriptive_words,slims,NA,sick,sick
 item_363,363_smags_smag,word,understands; produces,descriptive_words,smags/smagi,NA,heavy,heavy
-item_364,364_tirs,word,understands; produces,descriptive_words,tīrs,NA,clean,clean (description)
+item_364,364_tirs,word,understands; produces,descriptive_words,tīrs,NA,clean (description),clean (description)
 item_365,365_tukss,word,understands; produces,descriptive_words,tukšs,NA,empty,empty
 item_366,366_tumss,word,understands; produces,descriptive_words,tumšs,NA,dark,dark
 item_367,367_uzmanigs_,word,understands; produces,descriptive_words,uzmanīgs /uzmanīgi,NA,careful,careful
@@ -382,7 +382,7 @@ item_380,380_savs_sava,word,understands; produces,pronouns,savs/sava,NA,own.masc
 item_381,381_vins_vina_,word,understands; produces,pronouns,viņš/viņa/viņi/viņas,NA,he/she/they.masc./they.fem,3SG
 item_382,382_viss_visi_,word,understands; produces,pronouns,viss/visi/visas,NA,everything/all.masc./all.fem,all
 item_383,383_ara,word,understands; produces,locations,ārā,NA,outside,outside
-item_384,384_atpakal,word,understands; produces,locations,atpakaļ,NA,back,back (location)
+item_384,384_atpakal,word,understands; produces,locations,atpakaļ,NA,back (location),back (location)
 item_385,385_augsa_aug,word,understands; produces,locations,"augšā, augšup",NA,up,up
 item_386,386_ieksa_iek,word,understands; produces,locations,"iekšā, iekšpusē",NA,inside,in
 item_387,387_leja_leju,word,understands; produces,locations,"lejā, lejup",NA,down,down

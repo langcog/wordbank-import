@@ -1,6 +1,6 @@
 itemID,category,definition,choices,item,type,gloss,uni_lemma
 item_1,animals,ezel,produces;doesn't produce,ezel,word,donkey,donkey
-item_2,toys,kralen/parels,produces;doesn't produce,kralen/parels,word,beads,bead
+item_2,toys,kralen/parels,produces;doesn't produce,kralen/parels,word,beads,beads
 item_3,food_drink,kauwgom,produces;doesn't produce,kauwgom,word,chewing gum,gum
 item_4,food_drink,saus,produces;doesn't produce,saus,word,sauce,sauce
 item_5,food_drink,toast/geroosterdbrood,produces;doesn't produce,toast/geroosterdbrood,word,toast,toast
@@ -69,7 +69,7 @@ item_67,other,ongeval,produces;doesn't produce,ongeval,word,accident,accident
 item_68,other,cirkel,produces;doesn't produce,cirkel,word,circle,circle
 item_69,other,idee,produces;doesn't produce,idee,word,idea,idea
 item_70,action_words,(op)vangen,produces;doesn't produce,(op)vangen,word,to catch,catch
-item_71,action_words,vergeten,produces;doesn't produce,vergeten,word,to forget,forger
+item_71,action_words,vergeten,produces;doesn't produce,vergeten,word,to forget,forget
 item_72,action_words,haasten,produces;doesn't produce,haasten,word,to hurry up,hurry
 item_73,action_words,verlaten,produces;doesn't produce,verlaten,word,to leave (behind),leave (behind)
 item_74,action_words,meten,produces;doesn't produce,meten,word,to measure,measure

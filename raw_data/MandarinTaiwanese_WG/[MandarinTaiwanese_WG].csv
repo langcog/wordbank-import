@@ -88,7 +88,7 @@ item_86,d04_26,word,food_drink,understands; produces,櫻桃,NA,cherry,cherry
 item_87,d04_27,word,food_drink,understands; produces,葡萄乾,NA,raisin,raisin
 item_88,d04_28,word,food_drink,understands; produces,豆漿,NA,soy milk,soy milk
 item_89,d04_29,word,food_drink,understands; produces,汽水,NA,soda,soda
-item_90,d04_30,word,food_drink,understands; produces,飲料,NA,drink,drink (beverage)
+item_90,d04_30,word,food_drink,understands; produces,飲料,NA,drink (beverage),drink (beverage)
 item_91,d04_31,word,food_drink,understands; produces,梨子,NA,pear,pear
 item_92,d04_32,word,food_drink,understands; produces,饅頭,NA,steamed bread,bun
 item_93,d04_33,word,food_drink,understands; produces,土司,NA,toast,toast
@@ -136,7 +136,7 @@ item_134,d07_12,word,household,understands; produces,枕頭,NA,pillow,pillow
 item_135,d07_13,word,household,understands; produces,眼鏡,NA,glasses,glasses
 item_136,d07_14,word,household,understands; produces,垃圾桶,NA,trash can,trash
 item_137,d07_15,word,household,understands; produces,筷子,NA,chopsticks,chopstick
-item_138,d07_16,word,household,understands; produces,垃圾,NA,garbage,garbage
+item_138,d07_16,word,household,understands; produces,垃圾,NA,garbage,trash
 item_139,d07_17,word,household,understands; produces,毛巾,NA,towel,towel
 item_140,d07_18,word,household,understands; produces,鏡子,NA,mirror,mirror
 item_141,d07_19,word,household,understands; produces,梳子,NA,comb,comb (object)
@@ -170,7 +170,7 @@ item_168,d08_14,word,furniture_rooms,understands; produces,浴室,NA,bathroom,ba
 item_169,d08_15,word,furniture_rooms,understands; produces,水槽(洗手檯),NA,sink,sink
 item_170,d08_16,word,furniture_rooms,understands; produces,嬰兒床,NA,crib,crib
 item_171,d09_01,word,outside,understands; produces,花,NA,flower,flower
-item_172,d09_02,word,outside,understands; produces,下雨,NA,rain,rain
+item_172,d09_02,word,outside,understands; produces,下雨,NA,rain,rain (weather)
 item_173,d09_03,word,outside,understands; produces,溜滑梯,NA,slide,slide (object)
 item_174,d09_04,word,outside,understands; produces,樹,NA,tree,tree
 item_175,d09_05,word,outside,understands; produces,石頭,NA,stone,rock (object)
@@ -230,11 +230,11 @@ item_228,d11_17,word,people,understands; produces,伯伯,NA,paternal uncle,uncle
 item_229,d11_18,word,people,understands; produces,醫生,NA,doctor,doctor
 item_230,d11_19,word,people,understands; produces,小朋友,NA,child,child
 item_231,d11_20,word,people,understands; produces,褓母(奶媽),NA,babysitter,babysitter
-item_232,d11_21,word,people,understands; produces,我,NA,I,I
+item_232,d11_21,word,people,understands; produces,我,NA,I,1SG
 item_233,d11_22,word,people,understands; produces,你,NA,you,you
 item_234,d11_23,word,people,understands; produces,我的,NA,my,my
 item_235,d11_24,word,people,understands; produces,你的,NA,your,your
-item_236,d11_25,word,people,understands; produces,他,NA,he,he
+item_236,d11_25,word,people,understands; produces,他,NA,he,3SG
 item_237,d11_26,word,people,understands; produces,他的,NA,his,his
 item_238,d11_27,word,people,understands; produces,家人的名字,NA,family's name,family name
 item_239,d11_28,word,people,understands; produces,寵物的名字,NA,pet's name,pet's name
@@ -262,7 +262,7 @@ item_260,d14_06,word,action_words,understands; produces,打,NA,hit,hit
 item_261,d14_07,word,action_words,understands; produces,走/散步,NA,walk,walk
 item_262,d14_08,word,action_words,understands; produces,洗,NA,wash,wash
 item_263,d14_09,word,action_words,understands; produces,坐,NA,sit,sit
-item_264,d14_10,word,action_words,understands; produces,喝,NA,drink,drink (action)
+item_264,d14_10,word,action_words,understands; produces,喝,NA,drink (action),drink (action)
 item_265,d14_11,word,action_words,understands; produces,哭,NA,cry,cry
 item_266,d14_12,word,action_words,understands; produces,拍(手),NA,clap,clap
 item_267,d14_13,word,action_words,understands; produces,看,NA,look,look

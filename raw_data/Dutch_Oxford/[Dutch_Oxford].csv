@@ -1,4 +1,4 @@
-itemID,definition,category,item,type,choices,gloss,uni_lemma
+ÔªøitemID,definition,category,item,type,choices,gloss,uni_lemma
 item_1,au / ai,sounds,au / ai,word,understands; produces,ouch,ouch
 item_2,beh beh (schaap),sounds,beh beh (schaap),word,understands; produces,baa baa (sheep),baa baa
 item_3,boeh (koe),sounds,boeh (koe),word,understands; produces,moo (cow),moo
@@ -27,7 +27,7 @@ item_25,kat,animals,kat,word,understands; produces,cat,cat
 item_26,kikker,animals,kikker,word,understands; produces,frog,frog
 item_27,koe,animals,koe,word,understands; produces,cow,cow
 item_28,konijn,animals,konijn,word,understands; produces,bunny / rabbit,bunny
-item_29,kuiken,animals,kuiken,word,understands; produces,chicken,chicken (animal)
+item_29,kuiken,animals,kuiken,word,understands; produces,chicken (animal),chicken (animal)
 item_30,lam(metje),animals,lam(metje),word,understands; produces,lamb,lamb
 item_31,leeuw,animals,leeuw,word,understands; produces,lion,lion
 item_32,muis,animals,muis,word,understands; produces,mouse,mouse
@@ -43,7 +43,7 @@ item_41,spin,animals,spin,word,understands; produces,spider,spider
 item_42,tijger,animals,tijger,word,understands; produces,tiger,tiger
 item_43,uil,animals,uil,word,understands; produces,owl,owl
 item_44,varken,animals,varken,word,understands; produces,pig,pig
-item_45,vis,animals,vis,word,understands; produces,fish,fish (animal)
+item_45,vis,animals,vis,word,understands; produces,fish (animal),fish (animal)
 item_46,vlinder,animals,vlinder,word,understands; produces,butterfly,butterfly
 item_47,vogel,animals,vogel,word,understands; produces,bird,bird
 item_48,auto,vehicles,auto,word,understands; produces,car,car
@@ -72,17 +72,17 @@ item_70,beschuit,food_drink,beschuit,word,understands; produces,biscuit,biscuit
 item_71,boter,food_drink,boter,word,understands; produces,butter,butter
 item_72,brood,food_drink,brood,word,understands; produces,bread,bread
 item_73,cake,food_drink,cake,word,understands; produces,cake,cake
-item_74,drankje,food_drink,drankje,word,understands; produces,drink,drink (beverage)
+item_74,drankje,food_drink,drankje,word,understands; produces,drink (beverage),drink (beverage)
 item_75,ei(tje),food_drink,ei(tje),word,understands; produces,egg,egg
 item_76,erwtjes,food_drink,erwtjes,word,understands; produces,peas,peas
 item_77,eten,food_drink,eten,word,understands; produces,food,food
 item_78,frietjes,food_drink,frietjes,word,understands; produces,chips,chips
 item_79,geroosterd brood / toast,food_drink,geroosterd brood / toast,word,understands; produces,toast,toast
 item_80,granen / graansoort,food_drink,granen / graansoort,word,understands; produces,cereal,cereal
-item_81,ijs(je) / crème,food_drink,ijs(je) / crème,word,understands; produces,ice cream,ice cream
+item_81,ijs(je) / cr√®me,food_drink,ijs(je) / cr√®me,word,understands; produces,ice cream,ice cream
 item_82,jam,food_drink,jam,word,understands; produces,jam,jam
 item_83,kaas,food_drink,kaas,word,understands; produces,cheese,cheese
-item_84,kip,food_drink,kip,word,understands; produces,chicken,chicken (food)
+item_84,kip,food_drink,kip,word,understands; produces,chicken (food),chicken (food)
 item_85,koffie,food_drink,koffie,word,understands; produces,coffee,coffee
 item_86,melk,food_drink,melk,word,understands; produces,milk,milk
 item_87,pasta / spaghetti,food_drink,pasta / spaghetti,word,understands; produces,pasta / spaghetti,pasta
@@ -90,9 +90,9 @@ item_88,pizza,food_drink,pizza,word,understands; produces,pizza,pizza
 item_89,sap,food_drink,sap,word,understands; produces,juice,juice
 item_90,snoepje,food_drink,snoepje,word,understands; produces,sweets,sweets
 item_91,thee,food_drink,thee,word,understands; produces,tea,tea
-item_92,vis,food_drink,vis,word,understands; produces,fish,fish (food)
+item_92,vis,food_drink,vis,word,understands; produces,fish (food),fish (food)
 item_93,vlees,food_drink,vlees,word,understands; produces,meat,meat
-item_94,water,food_drink,water,word,understands; produces,water,water
+item_94,water (beverage),food_drink,water,word,understands; produces,water (beverage),water (beverage)
 item_95,wortel,food_drink,wortel,word,understands; produces,carrot,carrot
 item_96,arm,body_parts,arm,word,understands; produces,arm,arm
 item_97,been,body_parts,been,word,understands; produces,leg,leg
@@ -168,16 +168,16 @@ item_166,lucht / hemel,outside,lucht / hemel,word,understands; produces,sky,sky
 item_167,maan,outside,maan,word,understands; produces,moon,moon
 item_168,muur / wand,outside,muur / wand,word,understands; produces,wall,wall
 item_169,park,outside,park,word,understands; produces,park,park
-item_170,regen,outside,regen,word,understands; produces,rain,rain
+item_170,regen,outside,regen,word,understands; produces,rain,rain (weather)
 item_171,schep,outside,schep,word,understands; produces,spade,spade
-item_172,schommel,outside,schommel,word,understands; produces,swing,swing (object)
+item_172,schommel,outside,schommel,word,understands; produces,swing (object),swing (object)
 item_173,school,outside,school,word,understands; produces,school,school
 item_174,sneeuw,outside,sneeuw,word,understands; produces,snow,snow
 item_175,steen,outside,steen,word,understands; produces,stone,stone
 item_176,ster,outside,ster,word,understands; produces,star,star
 item_177,strand,outside,strand,word,understands; produces,beach,beach
 item_178,tuin,outside,tuin,word,understands; produces,garden,garden
-item_179,water,outside,water,word,understands; produces,water,water (not beverage)
+item_179,water (not beverage),outside,water,word,understands; produces,water (not beverage),water (not beverage)
 item_180,werk,outside,werk,word,understands; produces,work,work (place)
 item_181,winkel,outside,winkel,word,understands; produces,shop,store
 item_182,zon,outside,zon,word,understands; produces,sun,sun
@@ -274,7 +274,7 @@ item_272,brengen,action_words,brengen,word,understands; produces,bring,bring
 item_273,dansen,action_words,dansen,word,understands; produces,dance,dance
 item_274,delen,action_words,delen,word,understands; produces,share,share
 item_275,dragen / voeren,action_words,dragen / voeren,word,understands; produces,carry,carry
-item_276,drinken,action_words,drinken,word,understands; produces,drink,drink (action)
+item_276,drinken,action_words,drinken,word,understands; produces,drink (action),drink (action)
 item_277,druppel,action_words,druppel,word,understands; produces,drop,drop
 item_278,duwen,action_words,duwen,word,understands; produces,push,push
 item_279,eten,action_words,eten,word,understands; produces,eat,eat
@@ -305,8 +305,8 @@ item_303,openen,action_words,openen,word,understands; produces,open,open (action
 item_304,rennen,action_words,rennen,word,understands; produces,run,run
 item_305,rijden,action_words,rijden,word,understands; produces,drive,drive
 item_306,ruiken,action_words,ruiken,word,understands; produces,smell,smell
-item_307,schommelen,action_words,schommelen,word,understands; produces,swing,swing (action)
-item_308,schoonmaken,action_words,schoonmaken,word,understands; produces,clean,clean (action)
+item_307,schommelen,action_words,schommelen,word,understands; produces,swing (action),swing (action)
+item_308,schoonmaken,action_words,schoonmaken,word,understands; produces,clean (action),clean (action)
 item_309,schoppen,action_words,schoppen,word,understands; produces,kick,kick
 item_310,schrijven,action_words,schrijven,word,understands; produces,write,write
 item_311,slaan,action_words,slaan,word,understands; produces,hit,hit
@@ -362,7 +362,7 @@ item_360,mooi,descriptive_words,mooi,word,understands; produces,pretty,pretty
 item_361,nat,descriptive_words,nat,word,understands; produces,wet,wet
 item_362,oud,descriptive_words,oud,word,understands; produces,old,old
 item_363,rood,descriptive_words,rood,word,understands; produces,red,red
-item_364,schoon / proper,descriptive_words,schoon / proper,word,understands; produces,clean,clean (description)
+item_364,schoon / proper,descriptive_words,schoon / proper,word,understands; produces,clean (description),clean (description)
 item_365,slaperig,descriptive_words,slaperig,word,understands; produces,sleepy,sleepy
 item_366,slecht,descriptive_words,slecht,word,understands; produces,bad,bad
 item_367,snel / vlug,descriptive_words,snel / vlug,word,understands; produces,fast,fast

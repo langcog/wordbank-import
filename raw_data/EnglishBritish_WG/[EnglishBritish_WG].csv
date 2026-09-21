@@ -51,13 +51,13 @@ item_49,animals,Banimal5bug,B Animal words - 5 bug,understands; produces,word,NA
 item_50,animals,Banimal6rabbitbunny,B Animal words - 6 rabbit,understands; produces,word,NA,rabbit,bunny
 item_51,animals,Banimal7butterfly,B Animal words - 7 butterfly,understands; produces,word,NA,butterfly,butterfly
 item_52,animals,Banimal8cat,B Animal words - 8 cat,understands; produces,word,NA,cat,cat
-item_53,animals,Banimal9chicken,B Animal words - 9 chicken,understands; produces,word,NA,chicken,chicken
+item_53,animals,Banimal9chicken,B Animal words - 9 chicken,understands; produces,word,NA,chicken (animal),chicken (animal)
 item_54,animals,Banimal10cow,B Animal words - 10 cow,understands; produces,word,NA,cow,cow
 item_55,animals,Banimal11dog,B Animal words - 11 dog,understands; produces,word,NA,dog,dog
 item_56,animals,Banimal12donkey,B Animal words - 12 donkey,understands; produces,word,NA,donkey,donkey
 item_57,animals,Banimal13duck,B Animal words - 13 duck,understands; produces,word,NA,duck,duck
 item_58,animals,Banimal14elephant,B Animal words - 14 elephant,understands; produces,word,NA,elephant,elephant
-item_59,animals,Banimal15fish,B Animal words - 15 fish,understands; produces,word,NA,fish,fish (animal)
+item_59,animals,Banimal15fish,B Animal words - 15 fish,understands; produces,word,NA,fish (animal),fish (animal)
 item_60,animals,Banimal16fly,B Animal words - 16 fly,understands; produces,word,NA,fly,fly (animal)
 item_61,animals,Banimal17frog,B Animal words - 17 frog,understands; produces,word,NA,frog,frog
 item_62,animals,Banimal18giraffe,B Animal words - 18 giraffe,understands; produces,word,NA,giraffe,giraffe
@@ -107,13 +107,13 @@ item_105,food_drink,Efood6cake,E Food and drink words - 6 cake,understands; prod
 item_106,food_drink,Efood7carrot,E Food and drink words - 7 carrots,understands; produces,word,NA,carrots,carrot
 item_107,food_drink,Efood8cereal,E Food and drink words - 8 cereal,understands; produces,word,NA,cereal,cereal
 item_108,food_drink,Efood9cheese,E Food and drink words - 9 cheese,understands; produces,word,NA,cheese,cheese
-item_109,food_drink,Efood10chicken,E Food and drink words - 10 chicken,understands; produces,word,NA,chicken,chicken
+item_109,food_drink,Efood10chicken,E Food and drink words - 10 chicken,understands; produces,word,NA,chicken (food),chicken (food)
 item_110,food_drink,Efood11chips,E Food and drink words - 11 chips,understands; produces,word,NA,chips,chips
 item_111,food_drink,Efood12chocolate,E Food and drink words - 12 chocolate,understands; produces,word,NA,chocolate,chocolate
 item_112,food_drink,Efood13coffee,E Food and drink words - 13 coffee,understands; produces,word,NA,coffee,coffee
 item_113,food_drink,Efood14drink,E Food and drink words - 14 drink,understands; produces,word,NA,drink,drink
 item_114,food_drink,Efood15egg,E Food and drink words - 15 egg,understands; produces,word,NA,egg,egg
-item_115,food_drink,Efood16fish,E Food and drink words - 16 fish,understands; produces,word,NA,fish,fish (food)
+item_115,food_drink,Efood16fish,E Food and drink words - 16 fish,understands; produces,word,NA,fish (food),fish (food)
 item_116,food_drink,Efood17food,E Food and drink words - 17 food,understands; produces,word,NA,food,food
 item_117,food_drink,Efood18ice,E Food and drink words - 18 ice cream,understands; produces,word,NA,ice cream,ice cream
 item_118,food_drink,Efood19jam,E Food and drink words - 19 jam,understands; produces,word,NA,jam,jam
@@ -129,10 +129,10 @@ item_127,food_drink,Efood28sandwich,E Food and drink words - 28 sandwich/butty,u
 item_128,food_drink,Efood29sausages,E Food and drink words - 29 sausage,understands; produces,word,NA,sausage,sausage
 item_129,food_drink,Efood30teadrink,E Food and drink words - 30 tea/brew(drink),understands; produces,word,NA,tea/brew(drink),tea
 item_130,food_drink,Efood31toast,E Food and drink words - 31 toast,understands; produces,word,NA,toast,toast
-item_131,food_drink,Efood32water,E Food and drink words - 32 water,understands; produces,word,NA,water,water (beverage)
+item_131,food_drink,Efood32water,E Food and drink words - 32 water,understands; produces,word,NA,water (beverage),water (beverage)
 item_132,food_drink,Efood33yoghurt,E Food and drink words - 33 yoghurt,understands; produces,word,NA,yoghurt,yogurt
 item_133,body_parts,Fbody1arm,F Words for body parts - 1 arm,understands; produces,word,NA,arm,arm
-item_134,body_parts,Fbody2back,F Words for body parts - 2 back,understands; produces,word,NA,back,back
+item_134,body_parts,Fbody2back,F Words for body parts - 2 back,understands; produces,word,NA,back (body part),back (body part)
 item_135,body_parts,Fbody3bellytummy,F Words for body parts - 3 belly/tummy,understands; produces,word,NA,belly/tummy,belly
 item_136,body_parts,Fbody4bellybutton,F Words for body parts - 4 bellybutton/tummy button,understands; produces,word,NA,bellybutton/tummy button,belly button
 item_137,body_parts,Fbody5bum,F Words for body parts - 5 buttocks/bum/bottom,understands; produces,word,NA,buttocks/bum/bottom,butt
@@ -156,7 +156,7 @@ item_154,body_parts,Fbody22toe,F Words for body parts - 22 toe,understands; prod
 item_155,body_parts,Fbody23tongue,F Words for body parts - 23 tongue,understands; produces,word,NA,tongue,tongue
 item_156,body_parts,Fbody24teethtooth,F Words for body parts - 24 tooth/teeth,understands; produces,word,NA,tooth/teeth,tooth
 item_157,clothing,Gclothes1bib,G Words for clothes - 1 bib,understands; produces,word,NA,bib,bib
-item_158,clothing,Gclothes2boots,G Words for clothes - 2 boots,understands; produces,word,NA,boots,boots
+item_158,clothing,Gclothes2boots,G Words for clothes - 2 boots,understands; produces,word,NA,boots,boot
 item_159,clothing,Gclothes3button,G Words for clothes - 3 button,understands; produces,word,NA,button,button
 item_160,clothing,Gclothes4cardigan,G Words for clothes - 4 cardigan,understands; produces,word,NA,cardigan,sweater
 item_161,clothing,Gclothes5coat,G Words for clothes - 5 coat,understands; produces,word,NA,coat,coat
@@ -239,7 +239,7 @@ item_237,outside,Joutside5moon,J Outside words - 5 moon,understands; produces,wo
 item_238,outside,Joutside6outside,J Outside words - 6 outside,understands; produces,word,NA,outside,outside
 item_239,outside,Joutside7park,J Outside words - 7 park,understands; produces,word,NA,park,park
 item_240,outside,Joutside8party,J Outside words - 8 party,understands; produces,word,NA,party,party
-item_241,outside,Joutside9rain,J Outside words - 9 rain,understands; produces,word,NA,rain,rain
+item_241,outside,Joutside9rain,J Outside words - 9 rain,understands; produces,word,NA,rain,rain (weather)
 item_242,outside,Joutside10road,J Outside words - 10 road,understands; produces,word,NA,road,road
 item_243,outside,Joutside11shop,J Outside words - 11 shop,understands; produces,word,NA,shop,shop
 item_244,outside,Joutside12sky,J Outside words - 12 sky,understands; produces,word,NA,sky,sky
@@ -251,7 +251,7 @@ item_249,outside,Joutside17sun,J Outside words - 17 sun,understands; produces,wo
 item_250,outside,Joutside18swing,J Outside words - 18 swing,understands; produces,word,NA,swing,swing
 item_251,outside,Joutside19tree,J Outside words - 19 tree,understands; produces,word,NA,tree,tree
 item_252,outside,Joutside20wall,J Outside words - 20 wall,understands; produces,word,NA,wall,wall
-item_253,outside,Joutside21water,J Outside words - 21 water,understands; produces,word,NA,water,water (not beverage)
+item_253,outside,Joutside21water,J Outside words - 21 water,understands; produces,word,NA,water (not beverage),water (not beverage)
 item_254,people,Kpeople1aunt,K Words for people - 1 aunt,understands; produces,word,NA,aunt,aunt
 item_255,people,Kpeople2baby,K Words for people - 2 baby/bairn/wee one,understands; produces,word,NA,baby/bairn/wee one,baby
 item_256,people,Kpeople3boy,K Words for people - 3 boy/laddie,understands; produces,word,NA,boy/laddie,boy
@@ -300,7 +300,7 @@ item_298,action_words,Mactions4bring,M Action words - 4 bring,understands; produ
 item_299,action_words,Mactions5bump,M Action words - 5 bump,understands; produces,word,NA,bump,bump
 item_300,action_words,Mactions6carry,M Action words - 6 carry,understands; produces,word,NA,carry,carry
 item_301,action_words,Mactions7catch,M Action words - 7 catch,understands; produces,word,NA,catch,catch
-item_302,action_words,Mactions8clean,M Action words - 8 clean,understands; produces,word,NA,clean,clean (action)
+item_302,action_words,Mactions8clean,M Action words - 8 clean,understands; produces,word,NA,clean (action),clean (action)
 item_303,action_words,Mactions9come,M Action words - 9 come,understands; produces,word,NA,come,come
 item_304,action_words,Mactions10cry,M Action words - 10 cry,understands; produces,word,NA,cry,cry
 item_305,action_words,Mactions11cuddle,M Action words - 11 cuddle,understands; produces,word,NA,cuddle,cuddle
@@ -358,7 +358,7 @@ item_356,descriptive_words,Ndescribing3big,N Describing words - 3 big,understand
 item_357,descriptive_words,Ndescribing4blue,N Describing words - 4 blue,understands; produces,word,NA,blue,blue
 item_358,descriptive_words,Ndescribing5broken,N Describing words - 5 broken,understands; produces,word,NA,broken,broken
 item_359,descriptive_words,Ndescribing6careful,N Describing words - 6 careful,understands; produces,word,NA,careful,careful
-item_360,descriptive_words,Ndescribing7clean,N Describing words - 7 clean,understands; produces,word,NA,clean,clean (description)
+item_360,descriptive_words,Ndescribing7clean,N Describing words - 7 clean,understands; produces,word,NA,clean (description),clean (description)
 item_361,descriptive_words,Ndescribing8cold,N Describing words - 8 cold,understands; produces,word,NA,cold,cold
 item_362,descriptive_words,Ndescribing9dirty,N Describing words - 9 dirty/mucky,understands; produces,word,NA,dirty/mucky,dirty
 item_363,descriptive_words,Ndescribing10empty,N Describing words - 10 empty,understands; produces,word,NA,empty,empty

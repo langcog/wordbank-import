@@ -3,7 +3,7 @@ item_1,sounds,au/ai(pijn),understands;produces,au/ai(pijn),word,ouch,ouch
 item_2,sounds,behbeh(schaap),understands;produces,behbeh(schaap),word,baa baa,baa baa
 item_3,sounds,beu/boe/meu/moeh(koe),understands;produces,beu/boe/meu/moeh(koe),word,moo,moo
 item_4,sounds,grrr(grommen),understands;produces,grrr(grommen),word,rawr,roar
-item_5,sounds,kukelukuu(haan),understands;produces,kukelukuu(haan),word,cock-a-doodle-doo,cock-a-doodle-doo
+item_5,sounds,kukelukuu(haan),understands;produces,kukelukuu(haan),word,cock-a-doodle-doo,cockadoodledoo
 item_6,sounds,kwakkwak(eend),understands;produces,kwakkwak(eend),word,quack quack,quack quack
 item_7,sounds,miauw/mauw(poes),understands;produces,miauw/mauw(poes),word,meow,meow
 item_8,sounds,mjammjam(lekker),understands;produces,mjammjam(lekker),word,yum yum,yum yum
@@ -51,7 +51,7 @@ item_49,people,baby,understands;produces,baby,word,baby,baby
 item_50,people,broer(tje),understands;produces,broer(tje),word,(little) brother,brother
 item_51,people,kind(je),understands;produces,kind(je),word,child,child
 item_52,people,mama,understands;produces,mama,word,Mom(my),mommy
-item_53,people,naamvankind,understands;produces,naamvankind,word,NA,child's name
+item_53,people,naamvankind,understands;produces,naamvankind,word,NA,child's own name
 item_54,people,oma,understands;produces,oma,word,grandma,grandma
 item_55,people,opa,understands;produces,opa,word,granddad,grandpa
 item_56,people,papa,understands;produces,papa,word,papa,daddy

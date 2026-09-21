@@ -60,7 +60,7 @@ item_58,狼,58_lang2,animals,word,understands; produces,wolf,wolf
 item_59,家,59_jia1,outside,word,understands; produces,home,home
 item_60,外面,60_wai4mian5,outside,word,understands; produces,outside,outside
 item_61,公园,61_gong1yuan2,outside,word,understands; produces,park,park
-item_62,下雨,62_xia4yu3,outside,word,understands; produces,rain,rain
+item_62,下雨,62_xia4yu3,outside,word,understands; produces,rain,rain (weather)
 item_63,星星,63_xing1xing5,outside,word,understands; produces,star,star
 item_64,太阳,64_tai4yang2,outside,word,understands; produces,sun,sun
 item_65,树,65_shu4,outside,word,understands; produces,tree,tree

@@ -36,12 +36,12 @@ pas,animals,pas,word,produces,NA,item_34,dog,dog,dog
 patka,animals,patka,word,produces,NA,item_35,duck,duck,duck
 pčela,animals,pcela,word,produces,NA,item_36,bee,bee,bee
 pijetao,animals,pijetao,word,produces,NA,item_37,rooster,rooster,rooster
-pile,animals,pile,word,produces,NA,item_38,chicken (animal),chicken,chicken (animal)
+pile,animals,pile,word,produces,NA,item_38,chicken (animal),chicken (animal),chicken (animal)
 pingvin,animals,pingvin,word,produces,NA,item_39,NA,penguin,penguin
 prase,animals,prase,word,produces,NA,item_40,pig,pig,pig
 ptica,animals,ptica,word,produces,NA,item_41,bird,bird,bird
 purica,animals,purica,word,produces,NA,item_42,turkey,turkey,turkey
-riba (animal),animals,riba,word,produces,NA,item_43,fish (animal),fish,fish (animal)
+riba (animal),animals,riba,word,produces,NA,item_43,fish (animal),fish (animal),fish (animal)
 slon,animals,slon,word,produces,NA,item_44,elephant,elephant,elephant
 sova,animals,sova,word,produces,NA,item_45,owl,owl,owl
 srna,animals,srna,word,produces,NA,item_46,NA,doe,deer
@@ -112,7 +112,7 @@ kava,food_drink,kava,word,produces,NA,item_110,NA,coffee,coffee
 keks,food_drink,keks,word,produces,NA,item_111,cookie,cookie,cookie
 kelj,food_drink,kelj,word,produces,NA,item_112,NA,savoy cabbage,cabbage
 kobasica,food_drink,kobasica,word,produces,NA,item_113,NA,sausage,sausage
-koka (piletina),food_drink,koka_(piletina),word,produces,NA,item_114,NA,chicken,chicken (food)
+koka (piletina),food_drink,koka_(piletina),word,produces,NA,item_114,NA,chicken (food),chicken (food)
 kokice,food_drink,kokice,word,produces,NA,item_115,NA,popcorn,popcorn
 kolač,food_drink,kolac,word,produces,NA,item_116,cake,cake,cake
 krafna,food_drink,krafna,word,produces,NA,item_117,NA,donut,cake
@@ -129,16 +129,16 @@ med,food_drink,med,word,produces,NA,item_127,NA,honey,honey
 meso,food_drink,meso,word,produces,NA,item_128,meat,meat,meat
 mlijeko,food_drink,mlijeko,word,produces,NA,item_129,milk,milk,milk
 mrkve,food_drink,mrkve,word,produces,NA,item_130,NA,carrots,carrot
-naranča,food_drink,naranca,word,produces,NA,item_131,orange (food),orange,orange (food)
+naranča,food_drink,naranca,word,produces,NA,item_131,orange (food),orange (food),orange (food)
 njoke,food_drink,njoke,word,produces,NA,item_132,NA,gnocchi,pasta
 orasi,food_drink,orasi,word,produces,NA,item_133,NA,walnuts,nut
 palačinka,food_drink,palacinka,word,produces,NA,item_134,NA,pancake,pancake
 pecivo,food_drink,pecivo,word,produces,NA,item_135,NA,rolls,pastry
-piće,food_drink,pice,word,produces,NA,item_136,NA,drink,drink (beverage)
+piće,food_drink,pice,word,produces,NA,item_136,NA,drink (beverage),drink (beverage)
 pizza,food_drink,pizza,word,produces,NA,item_137,NA,pizza,pizza
 pomfrit,food_drink,pomfrit,word,produces,NA,item_138,NA,french fries,chips
 puding,food_drink,puding,word,produces,NA,item_139,NA,pudding,pudding
-riba (food),food_drink,riba,word,produces,NA,item_140,fish (food),fish,fish (food)
+riba (food),food_drink,riba,word,produces,NA,item_140,fish (food),fish (food),fish (food)
 salama,food_drink,salama,word,produces,NA,item_141,NA,salami,sausage
 salata,food_drink,salata,word,produces,NA,item_142,NA,lettuce,salad
 sendvič,food_drink,sendvic,word,produces,NA,item_143,NA,sandwich,sandwich
@@ -152,11 +152,11 @@ sol,food_drink,sol,word,produces,NA,item_147,NA,salt,salt
 tijesto,food_drink,tijesto,word,produces,NA,item_151,pasta,pasta,pasta
 trešnja,food_drink,tresnja,word,produces,NA,item_152,NA,cherry,cherry
 umak,food_drink,umak,word,produces,NA,item_153,NA,sauce,sauce
-voda (beverage),food_drink,voda,word,produces,NA,item_154,water (beverage),water,water (beverage)
+voda (beverage),food_drink,voda,word,produces,NA,item_154,water (beverage),water (beverage),water (beverage)
 žvaka (žvakaća guma),food_drink,zvaka_(zvakaca_guma),word,produces,NA,item_155,NA,chewing gum,gum
 cipela,clothing,cipela,word,produces,NA,item_156,NA,shoe,shoe
 čarapa,clothing,carapa,word,produces,NA,item_157,NA,sock,sock
-čizme,clothing,cizme,word,produces,NA,item_158,boots,boots,boots
+čizme,clothing,cizme,word,produces,NA,item_158,boots,boots,boot
 gaćice,clothing,gacice,word,produces,NA,item_159,underpants,underpants,underpants
 gumb,clothing,gumb,word,produces,NA,item_160,button,button,button
 haljina,clothing,haljina,word,produces,NA,item_161,dress (object),dress,dress (object)
@@ -297,11 +297,11 @@ cvijeće,outside,cvijece,word,produces,NA,item_295,flower,flowers,flower
 drvo,outside,drvo,word,produces,NA,item_296,tree,tree,tree
 dvorište,outside,dvoriste,word,produces,NA,item_297,backyard,backyard,yard
 kamen,outside,kamen,word,produces,NA,item_298,rock (object),rock,rock (object)
-kiša,outside,kisa,word,produces,NA,item_299,rain,rain,rain
+kiša,outside,kisa,word,produces,NA,item_299,rain,rain,rain (weather)
 krov,outside,krov,word,produces,NA,item_300,NA,roof,roof
 lopata,outside,lopata,word,produces,NA,item_301,shovel,shovel,shovel
 ljestve,outside,ljestve,word,produces,NA,item_302,NA,ladder,ladder
-ljuljačka,outside,ljuljacka,word,produces,NA,item_303,swing (object),swing,swing (object)
+ljuljačka,outside,ljuljacka,word,produces,NA,item_303,swing (object),swing (object),swing (object)
 mjesec,outside,mjesec,word,produces,NA,item_304,moon,moon,moon
 more,outside,more,word,produces,NA,item_305,NA,sea(side),sea
 nebo,outside,nebo,word,produces,NA,item_306,sky,sky,sky
@@ -319,7 +319,7 @@ tobogan,outside,tobogan,word,produces,NA,item_317,NA,toboggan,slide (object)
 trava,outside,trava,word,produces,NA,item_318,NA,grass,grass
 ulica,outside,ulica,word,produces,NA,item_319,NA,street,street
 vjetar,outside,vjetar,word,produces,NA,item_320,NA,wind,wind
-voda (not beverage),outside,voda,word,produces,NA,item_321,water (not beverage),water,water (not beverage)
+voda (not beverage),outside,voda,word,produces,NA,item_321,water (not beverage),water (not beverage),water (not beverage)
 vrt,outside,vrt,word,produces,NA,item_322,garden,garden,garden
 zastava,outside,zastava,word,produces,NA,item_323,NA,flag,flag
 zvijezda,outside,zvijezda,word,produces,NA,item_324,star,star,star
@@ -335,7 +335,7 @@ kuća,places,kuca,word,produces,NA,item_333,NA,house,house
 livada,places,livada,word,produces,NA,item_334,NA,meadow,field
 park,places,park,word,produces,NA,item_335,NA,park,park
 plaža,places,plaza,word,produces,NA,item_336,NA,beach,beach
-posao,places,posao,word,produces,NA,item_337,NA,work,work (place)
+posao,places,posao,word,produces,NA,item_337,NA,work (place),work (place)
 proslava,places,proslava,word,produces,NA,item_338,NA,party,party
 selo,places,selo,word,produces,NA,item_339,NA,farm,town
 šetnja,places,setnja,word,produces,NA,item_340,NA,walk,outing
@@ -406,7 +406,7 @@ brisati,action_words,brisati,word,produces,NA,item_404,wipe,wipe,wipe
 buditi,action_words,buditi,word,produces,NA,item_405,NA,wake,wake
 crtati,action_words,crtati,word,produces,NA,item_406,draw,draw,draw
 čekati,action_words,cekati,word,produces,NA,item_407,NA,wait,wait
-čistiti,action_words,cistiti,word,produces,NA,item_408,clean (action),clean,clean (action)
+čistiti,action_words,cistiti,word,produces,NA,item_408,clean (action),clean (action),clean (action)
 čitati,action_words,citati,word,produces,NA,item_409,read,read,read
 čuti,action_words,cuti,word,produces,NA,item_410,NA,hear,hear
 dati,action_words,dati,word,produces,NA,item_411,give,give,give
@@ -436,7 +436,7 @@ kupiti,action_words,kupiti,word,produces,NA,item_434,buy,buy,buy
 kušati,action_words,kusati,word,produces,NA,item_435,NA,taste,taste
 lizati,action_words,lizati,word,produces,NA,item_436,NA,lick,lick
 loviti,action_words,loviti,word,produces,NA,item_437,NA,catch,catch
-ljuljati se,action_words,ljuljati_se,word,produces,NA,item_438,swing (action),swing,swing (action)
+ljuljati se,action_words,ljuljati_se,word,produces,NA,item_438,swing (action),swing (action),swing (action)
 mahati,action_words,mahati,word,produces,NA,item_439,NA,wave,wave
 maziti,action_words,maziti,word,produces,NA,item_440,NA,cuddle,hug
 mesti,action_words,mesti,word,produces,NA,item_441,NA,wipe,sweep
@@ -449,7 +449,7 @@ otvoriti,action_words,otvoriti,word,produces,NA,item_447,open (action),open,open
 pasti,action_words,pasti,word,produces,NA,item_448,fall,fall,fall
 paziti,action_words,paziti,word,produces,NA,item_449,watch (action),look out,watch (action)
 pisati,action_words,pisati,word,produces,NA,item_450,write,write,write
-piti,action_words,piti,word,produces,NA,item_451,drink (action),drink,drink (action)
+piti,action_words,piti,word,produces,NA,item_451,drink (action),drink (action),drink (action)
 pjevati,action_words,pjevati,word,produces,NA,item_452,sing,sing,sing
 plakati,action_words,plakati,word,produces,NA,item_453,cry,cry,cry
 plesati,action_words,plesati,word,produces,NA,item_454,dance,dance,dance
@@ -469,7 +469,7 @@ prestati,action_words,prestati,word,produces,NA,item_467,NA,stop,stop
 proliti,action_words,proliti,word,produces,NA,item_468,NA,spill,spill
 prskati,action_words,prskati,word,produces,NA,item_469,splash,splash,splash
 puhati,action_words,puhati,word,produces,NA,item_470,blow,blow,blow
-raditi,action_words,raditi,word,produces,NA,item_471,NA,work,work (action)
+raditi,action_words,raditi,word,produces,NA,item_471,NA,work (action),work (action)
 razbiti,action_words,razbiti,word,produces,NA,item_472,break,break,break
 reći,action_words,reci,word,produces,NA,item_473,say,say,say
 rezati,action_words,rezati,word,produces,NA,item_474,NA,cut,cut
@@ -484,7 +484,7 @@ spuštati,action_words,spustati,word,produces,NA,item_482,NA,lower,lower (action
 stajati,action_words,stajati,word,produces,NA,item_483,NA,stand,stand
 stati,action_words,stati,word,produces,NA,item_484,stop,stop,stop
 staviti,action_words,staviti,word,produces,NA,item_485,put,put,put
-sušiti,action_words,susiti,word,produces,NA,item_486,NA,dry,dry (action)
+sušiti,action_words,susiti,word,produces,NA,item_486,NA,dry (action),dry (action)
 sviđati se,action_words,svidati_se_,word,produces,NA,item_487,NA,like,love
 škakljati,action_words,skakljati,word,produces,NA,item_488,tickle,tickle,tickle
 šutnuti,action_words,sutnuti,word,produces,NA,item_489,kick,kick,kick
@@ -510,7 +510,7 @@ brzo,descriptive_words,brzo,word,produces,NA,item_508,NA,fast,fast
 budan,descriptive_words,budan,word,produces,NA,item_509,NA,awake,awake
 crn,descriptive_words,crn,word,produces,NA,item_510,NA,black,black
 crvena,descriptive_words,crvena,word,produces,NA,item_511,red,red,red
-čist(o),descriptive_words,cist(o),word,produces,NA,item_512,clean (description),clean,clean (description)
+čist(o),descriptive_words,cist(o),word,produces,NA,item_512,clean (description),clean (description),clean (description)
 dobro,descriptive_words,dobro,word,produces,NA,item_513,good,good,good
 dug(o),descriptive_words,dug(o),word,produces,NA,item_514,NA,long,long
 fino,descriptive_words,fino,word,produces,NA,item_515,NA,fine,fine
@@ -527,7 +527,7 @@ mal(o),descriptive_words,mal(o),word,produces,NA,item_525,little (description),t
 mekan(o),descriptive_words,mekan(o),word,produces,NA,item_526,soft,soft,soft
 mokro,descriptive_words,mokro,word,produces,NA,item_527,NA,wet,wet (description)
 mrak,descriptive_words,mrak,word,produces,NA,item_528,dark,dark,dark
-narančasta,descriptive_words,narancasta,word,produces,NA,item_529,NA,orange,orange (description)
+narančasta,descriptive_words,narancasta,word,produces,NA,item_529,NA,orange (description),orange (description)
 nema više,descriptive_words,nema_vise,word,produces,NA,item_530,NA,allgone,all gone
 nov(o),descriptive_words,nov(o),word,produces,NA,item_531,NA,new,new
 nježno,descriptive_words,njezno,word,produces,NA,item_532,gentle,gentle,gentle
@@ -547,7 +547,7 @@ smeđe,descriptive_words,smede,word,produces,NA,item_545,NA,brown,brown
 spava,descriptive_words,spava,word,produces,NA,item_546,asleep,sleeps,asleep
 sretan,descriptive_words,sretan,word,produces,NA,item_547,happy,happy,happy
 staro,descriptive_words,staro,word,produces,NA,item_548,NA,old,old
-suho,descriptive_words,suho,word,produces,NA,item_549,NA,dry,dry (description)
+suho,descriptive_words,suho,word,produces,NA,item_549,NA,dry (description),dry (description)
 teško,descriptive_words,tesko,word,produces,NA,item_550,heavy,heavy,heavy
 tih(o),descriptive_words,tih(o),word,produces,NA,item_551,NA,quiet,quietly
 toplo,descriptive_words,toplo,word,produces,NA,item_552,warm,warm,warm

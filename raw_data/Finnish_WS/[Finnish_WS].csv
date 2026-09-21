@@ -286,7 +286,7 @@ item_284,outside,piha,piha,produces,word,yard,yard
 item_285,outside,puisto,puisto,produces,word,garden,park
 item_286,outside,päiväkoti,päiväkoti,produces,word,day care center,nursery
 item_287,outside,retki,retki,produces,word,picnic,picnic
-item_288,outside,sade,sade,produces,word,rain,rain
+item_288,outside,sade,sade,produces,word,rain,rain (weather)
 item_289,outside,talo,talo,produces,word,house,house
 item_290,outside,työpaikka,työpaikka,produces,word,workplace,work (place)
 item_291,outside,katu,katu,produces,word,street,street

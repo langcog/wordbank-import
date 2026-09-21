@@ -4,7 +4,7 @@ puhati,action_words,puhati,word,understands; produces,item_264,NA,blow,blow
 razbiti,action_words,razbiti,word,understands; produces,item_269,NA,break,break
 donijeti,action_words,donijeti,word,understands; produces,item_64,NA,bring,bring
 kupiti,action_words,kupiti,word,understands; produces,item_153,NA,buy,buy
-čistiti,action_words,cistiti,word,understands; produces,item_36,NA,clean,clean (action)
+čistiti,action_words,cistiti,word,understands; produces,item_36,NA,clean (action),clean (action)
 zatvoriti,action_words,zatvoriti,word,understands; produces,item_384,NA,close,close
 plakati,action_words,plakati,word,understands; produces,item_243,NA,cry,cry
 plesati,action_words,plesati,word,understands; produces,item_246,NA,dance,dance
@@ -43,7 +43,7 @@ smijati se,action_words,smijati_se,word,understands; produces,item_294,NA,smile,
 prskati,action_words,prskati,word,understands; produces,item_260,NA,splash,splash
 stati,action_words,stati,word,understands; produces,item_304,NA,stop,stop
 plivati,action_words,plivati,word,understands; produces,item_247,NA,swim,swim
-ljuljati se,action_words,ljuljati_se,word,understands; produces,item_168,NA,swing,swing (action)
+ljuljati se,action_words,ljuljati_se,word,understands; produces,item_168,NA,swing (action),swing (action)
 uzeti,action_words,uzeti,word,understands; produces,item_357,NA,take,take
 trgati,action_words,trgati,word,understands; produces,item_341,NA,tear,tear
 baciti,action_words,baciti,word,understands; produces,item_4,NA,throw,throw
@@ -63,14 +63,14 @@ zeko,animals,zeko,word,understands; produces,item_387,NA,bunny,bunny
 leptir,animals,leptir,word,understands; produces,item_160,NA,butterfly,butterfly
 tele,animals,tele,word,understands; produces,item_327,NA,calf,calf
 mačka,animals,macka,word,understands; produces,item_173,NA,cat,cat
-pile,animals,pile,word,understands; produces,item_238,NA,chicken,chicken (animal)
+pile,animals,pile,word,understands; produces,item_238,NA,chicken (animal),chicken (animal)
 krava,animals,krava,word,understands; produces,item_140,NA,cow,cow
 lane,animals,lane,word,understands; produces,item_158,NA,fawn,deer
 pas,animals,pas,word,understands; produces,item_229,NA,dog,dog
 magarac,animals,magarac,word,understands; produces,item_174,NA,donkey,donkey
 patka,animals,patka,word,understands; produces,item_231,NA,duck,duck
 slon,animals,slon,word,understands; produces,item_292,NA,elephant,elephant
-riba (animal),animals,riba,word,understands; produces,item_271,NA,fish,fish (animal)
+riba (animal),animals,riba,word,understands; produces,item_271,NA,fish (animal),fish (animal)
 lisica,animals,lisica,word,understands; produces,item_164,NA,fox,fox
 žaba,animals,zaba,word,understands; produces,item_380,NA,frog,frog
 koza,animals,koza,word,understands; produces,item_138,NA,goat,goat
@@ -110,7 +110,7 @@ prst,body_parts,prst,word,understands; produces,item_261,NA,finger,finger
 jezik,body_parts,jezik,word,understands; produces,item_112,NA,tongue,tongue
 zub,body_parts,zub,word,understands; produces,item_393,NA,tooth,tooth
 trbuh,body_parts,trbuh,word,understands; produces,item_339,NA,tummy,tummy
-čizme,clothing,cizme,word,understands; produces,item_38,NA,boots,boots
+čizme,clothing,cizme,word,understands; produces,item_38,NA,boots,boot
 gumb,clothing,gumb,word,understands; produces,item_84,NA,button,button
 kaput,clothing,kaput,word,understands; produces,item_124,NA,coat,coat
 pelena,clothing,pelena,word,understands; produces,item_235,NA,diaper,diaper
@@ -134,7 +134,7 @@ spava,descriptive_words,spava,word,understands; produces,item_298,NA,sleeps,asle
 zločest(o),descriptive_words,zlocest(o),word,understands; produces,item_391,NA,naughty,naughty
 velik(o),descriptive_words,velik(o),word,understands; produces,item_363,NA,big,big
 plava,descriptive_words,plava,word,understands; produces,item_244,NA,blue,blue
-čist(o),descriptive_words,cist(o),word,understands; produces,item_35,NA,clean,clean (description)
+čist(o),descriptive_words,cist(o),word,understands; produces,item_35,NA,clean (description),clean (description)
 hladno,descriptive_words,hladno,word,understands; produces,item_91,NA,cold,cold
 zima,descriptive_words,zima,word,understands; produces,item_388,NA,cold,winter
 mrak,descriptive_words,mrak,word,understands; produces,item_193,NA,dark,dark
@@ -175,12 +175,12 @@ bombon,food_drink,bombon,word,understands; produces,item_18,NA,candy,candy
 mrkva,food_drink,mrkva,word,understands; produces,item_194,NA,carrots,carrot
 čokolino,food_drink,cokolino,word,understands; produces,item_40,NA,cokolino (Croatian children food),cheerios
 sir,food_drink,sir,word,understands; produces,item_285,NA,cheese,cheese
-piletina,food_drink,piletina,word,understands; produces,item_239,NA,chicken,chicken (food)
+piletina,food_drink,piletina,word,understands; produces,item_239,NA,chicken (food),chicken (food)
 čokolada,food_drink,cokolada,word,understands; produces,item_39,NA,chocolate,chocolate
 čaj,food_drink,caj,word,understands; produces,item_25,NA,tea,tea
 keks,food_drink,keks,word,understands; produces,item_127,NA,cookie,cookie
 jaje,food_drink,jaje,word,understands; produces,item_106,NA,egg,egg
-riba (food),food_drink,riba,word,understands; produces,item_272,NA,fish,fish (food)
+riba (food),food_drink,riba,word,understands; produces,item_272,NA,fish (food),fish (food)
 hrana,food_drink,hrana,word,understands; produces,item_94,NA,food,food
 sladoled,food_drink,sladoled,word,understands; produces,item_290,NA,ice cream,ice cream
 sok,food_drink,sok,word,understands; produces,item_296,NA,juice,juice
@@ -194,7 +194,7 @@ griz,food_drink,griz,word,understands; produces,item_82,NA,grits,porridge
 juha,food_drink,juha,word,understands; produces,item_115,NA,soup,soup
 tijesto,food_drink,tijesto,word,understands; produces,item_334,NA,pasta,pasta
 špinat,food_drink,spinat,word,understands; produces,item_301,NA,spinach,spinach
-voda (beverage),food_drink,voda,word,understands; produces,item_370,NA,water,water (beverage)
+voda (beverage),food_drink,voda,word,understands; produces,item_370,NA,water (beverage),water (beverage)
 jogurt,food_drink,jogurt,word,understands; produces,item_113,NA,yogurt,yogurt
 fotelja,furniture_rooms,fotelja,word,understands; produces,item_70,NA,armchair,armchair
 kupaonica,furniture_rooms,kupaonica,word,understands; produces,item_152,NA,bathroom,bathroom
@@ -299,7 +299,7 @@ van(i),outside,van(i),word,understands; produces,item_358,NA,outside,outside
 park,outside,park,word,understands; produces,item_228,NA,park,park
 proslava,outside,proslava,word,understands; produces,item_258,NA,party,party
 bazen,outside,bazen,word,understands; produces,item_8,NA,pool,pool
-kiša,outside,kisa,word,understands; produces,item_128,NA,rain,rain
+kiša,outside,kisa,word,understands; produces,item_128,NA,rain,rain (weather)
 kamen,outside,kamen,word,understands; produces,item_121,NA,rock,rock (object)
 škola,outside,skola,word,understands; produces,item_289,NA,school,school
 lopata,outside,lopata,word,understands; produces,item_169,NA,shovel,shovel
@@ -308,9 +308,9 @@ snijeg,outside,snijeg,word,understands; produces,item_295,NA,snow,snow
 zvijezda,outside,zvijezda,word,understands; produces,item_395,NA,star,star
 trgovina,outside,trgovina,word,understands; produces,item_342,NA,store,store
 sunce,outside,sunce,word,understands; produces,item_316,NA,sun,sun
-ljuljačka,outside,ljuljacka,word,understands; produces,item_167,NA,swing,swing (object)
+ljuljačka,outside,ljuljacka,word,understands; produces,item_167,NA,swing (object),swing (object)
 drvo,outside,drvo,word,understands; produces,item_67,NA,tree,tree
-voda (not beverage),outside,voda,word,understands; produces,item_371,NA,water,water (not beverage)
+voda (not beverage),outside,voda,word,understands; produces,item_371,NA,water (not beverage),water (not beverage)
 posao,outside,posao,word,understands; produces,item_251,NA,work,work (place)
 zoološki (vrt),outside,zooloski_(vrt),word,understands; produces,item_392,NA,zoo,zoo
 teta,people,teta,word,understands; produces,item_331,NA,aunt,aunt

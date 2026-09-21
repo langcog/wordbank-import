@@ -30,7 +30,7 @@ item_28,B16,word,動物の名前,animals,くじら,Kujira,Whale,whale
 item_29,B17,word,動物の名前,animals,くま,Kuma,Bear,bear
 item_30,B18,word,動物の名前,animals,コアラ,Koara,Koala,koala
 item_31,B19,word,動物の名前,animals,ゴリラ,Gorira,Gorilla,gorilla
-item_32,B20,word,動物の名前,animals,さかな,Sakana,Fish,fish (animal)
+item_32,B20,word,動物の名前,animals,さかな,Sakana,Fish (animal),fish (animal)
 item_33,B21,word,動物の名前,animals,さる,Saru,Monkey,monkey
 item_34,B22,word,動物の名前,animals,しまうま,Shimauma,Zebra,zebra
 item_35,B23,word,動物の名前,animals,ぞう,Zou,Elephant,elephant
@@ -39,7 +39,7 @@ item_37,B25,word,動物の名前,animals,チョウチョ,Choucho,Butterfly,butte
 item_38,B26,word,動物の名前,animals,どうぶつ,Doubutsu,Animal,animal
 item_39,B27,word,動物の名前,animals,トラ,Tora,Tiger,tiger
 item_40,B28,word,動物の名前,animals,とり,Tori,Bird,bird
-item_41,B29,word,動物の名前,animals,にわとり,Niwatori,Chicken,chicken
+item_41,B29,word,動物の名前,animals,にわとり,Niwatori,Chicken,chicken (animal)
 item_42,B30,word,動物の名前,animals,ねこ,Neko,Cat,cat
 item_43,B31,word,動物の名前,animals,ねずみ,Nezumi,Mouse,mouse
 item_44,B32,word,動物の名前,animals,はち,Hachi,Bee,bee
@@ -80,7 +80,7 @@ item_78,D9,word,おもちゃ,toys,人形,Ningyoo,Doll,doll
 item_79,D10,word,おもちゃ,toys,粘土,Nendo,Clay,clay
 item_80,D11,word,おもちゃ,toys,のり (糊),Nori,Paste,glue (object)
 item_81,D12,word,おもちゃ,toys,パズル,Pazuru,Puzzle,puzzle
-item_82,D13,word,おもちゃ,toys,バット,Batto,Bat,bat
+item_82,D13,word,おもちゃ,toys,バット,Batto,Bat,bat (object)
 item_83,D14,word,おもちゃ,toys,風船,Fuusen,Balloon,balloon
 item_84,D15,word,おもちゃ,toys,プレゼント,Purezento,Present,present
 item_85,D16,word,おもちゃ,toys,ペン,Pen,Pen,pen
@@ -108,7 +108,7 @@ item_106,E19,word,食べ物と飲み物,food_drink,コーヒー,Koohii,Coffee,co
 item_107,E20,word,食べ物と飲み物,food_drink,こおり（氷）,Koori,Ice,ice
 item_108,E21,word,食べ物と飲み物,food_drink,コーン,Koon,Corn,corn
 item_109,E22,word,食べ物と飲み物,food_drink,ごはん（お米のこと）,Gohan,Rice,rice
-item_110,E23,word,食べ物と飲み物,food_drink,さかな,Sakana,Fish,fish (food)
+item_110,E23,word,食べ物と飲み物,food_drink,さかな,Sakana,Fish (food),fish (food)
 item_111,E24,word,食べ物と飲み物,food_drink,サンドイッチ,Sandoicchi,Sandwich,sandwich
 item_112,E25,word,食べ物と飲み物,food_drink,ジャム,Jamu,Jam,jam
 item_113,E26,word,食べ物と飲み物,food_drink,ジュース,Juusu,Juice,juice
@@ -171,7 +171,7 @@ item_169,F14,word,衣類,clothing,ソックス,Sokkusu,Socks,sock
 item_170,F15,word,衣類,clothing,タイツ,Taitsu,Tights,tights
 item_171,F16,word,衣類,clothing,チャック,Chakku,Zipper,zipper
 item_172,F17,word,衣類,clothing,てぶくろ,Tebukuro,Gloves,gloves
-item_173,F18,word,衣類,clothing,長ぐつ,Nagagutsu,Boots,boots
+item_173,F18,word,衣類,clothing,長ぐつ,Nagagutsu,Boots,boot
 item_174,F19,word,衣類,clothing,ネクタイ,Nekutai,Tie,tie (object)
 item_175,F20,word,衣類,clothing,ネックレス,Nekkuresu,Necklace,necklace
 item_176,F21,word,衣類,clothing,パジャマ,Pajama,Pajama,pajamas
@@ -198,8 +198,8 @@ item_196,G13,word,体の部分,body_parts,くち,Kuchi,Mouth,mouth
 item_197,G14,word,体の部分,body_parts,くび,Kubi,Neck,neck
 item_198,G15,word,体の部分,body_parts,けが,Kega,Injury,
 item_199,G16,word,体の部分,body_parts,しっぽ,Shippo,Tail,tail
-item_200,G17,word,体の部分,body_parts,背中,Senaka,Back,back
-item_201,G18,word,体の部分,body_parts,つめ,Tsume,Nail,nail (finger)
+item_200,G17,word,体の部分,body_parts,背中,Senaka,Back,back (body part)
+item_201,G18,word,体の部分,body_parts,つめ,Tsume,Nail (finger),nail (finger)
 item_202,G19,word,体の部分,body_parts,手,Te,Hand,hand
 item_203,G20,word,体の部分,body_parts,歯,Ha,Tooth,tooth
 item_204,G21,word,体の部分,body_parts,鼻,Hana,Nose,nose
@@ -253,7 +253,7 @@ item_251,I8,word,小さな家庭用品,household,かばん,Kaban,Bag,bag
 item_252,I9,word,小さな家庭用品,household,かみ（紙）,Kami,Paper,paper
 item_253,I10,word,小さな家庭用品,household,カメラ,Kamera,Camera,camera
 item_254,I11,word,小さな家庭用品,household,缶,Kan,Can,can
-item_255,I12,word,小さな家庭用品,household,くぎ,Kugi,Nail,nail (object)
+item_255,I12,word,小さな家庭用品,household,くぎ,Kugi,Nail (object),nail (object)
 item_256,I13,word,小さな家庭用品,household,くし,Kushi,Comb,comb (object)
 item_257,I14,word,小さな家庭用品,household,くすり,Kusuri,Medicine,medicine
 item_258,I15,word,小さな家庭用品,household,コップ,Koppu,Cup,cup
@@ -292,7 +292,7 @@ item_290,I47,word,小さな家庭用品,household,枕,Makura,Pillow,pillow
 item_291,I48,word,小さな家庭用品,household,めがね,Megane,Glasses,glasses
 item_292,I49,word,小さな家庭用品,household,めざまし,Mezamashi,Alarm_clock,clock
 item_293,I50,word,小さな家庭用品,household,毛布,Moufu,Blanket,blanket
-item_294,J1,word,戸外のもの,outside,雨,Ame,Rain,rain
+item_294,J1,word,戸外のもの,outside,雨,Ame,Rain,rain (weather)
 item_295,J2,word,戸外のもの,outside,石,Ishi,Stone,stone
 item_296,J3,word,戸外のもの,outside,岩,Iwa,Rock,stone
 item_297,J4,word,戸外のもの,outside,枝,Eda,Branch,branch
@@ -595,9 +595,9 @@ item_593,Q15,word,代名詞,pronouns,そっち,Socchi,Over_there,there
 item_594,Q16,word,代名詞,pronouns,その,Sono,That,that
 item_595,Q17,word,代名詞,pronouns,それ,Sore,It,it
 item_596,Q18,word,代名詞,pronouns,そんな,Sonna,Such,such
-item_597,Q19,word,代名詞,pronouns,ぼく,Boku,I,I
+item_597,Q19,word,代名詞,pronouns,ぼく,Boku,I,1SG
 item_598,Q20,word,代名詞,pronouns,ぼくの,Bokuno,My,my
-item_599,Q21,word,代名詞,pronouns,わたし,Watashi,I,I
+item_599,Q21,word,代名詞,pronouns,わたし,Watashi,I,1SG
 item_600,Q22,word,代名詞,pronouns,わたしの,Watashino,My,my
 item_601,R1,word,質問のことば,question_words,いつ,Itsu,When,when (question)
 item_602,R2,word,質問のことば,question_words,だれ,Dare,Who,who

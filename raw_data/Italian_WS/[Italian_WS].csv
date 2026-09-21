@@ -112,7 +112,7 @@ budino,food_drink,budino,word,produces,NA,item_110,NA,pudding,pudding
 biscotti,food_drink,biscotti,word,produces,NA,item_111,cookie,cookie,cookie
 banana,food_drink,banana,word,produces,NA,item_112,banana,banana,banana
 aranciata,food_drink,aranciata,word,produces,NA,item_113,NA,orange juice,orange juice
-arancia,food_drink,arancia,word,produces,NA,item_114,orange (food),orange,orange (food)
+arancia,food_drink,arancia,word,produces,NA,item_114,orange (food),orange (food),orange (food)
 acqua,food_drink,acqua,word,produces,NA,item_115,water (beverage),water,water (beverage)
 trottola,toys,trottola,word,produces,NA,item_116,top,spinning top,top
 pongo/Didò,toys,pongo/Dido,word,produces,NA,item_117,NA,play dogh,play dough
@@ -164,7 +164,7 @@ papera,animals,papera,word,produces,NA,item_162,duck,duck,duck
 orso,animals,orso,word,produces,NA,item_163,bear,bear,bear
 oca,animals,oca,word,produces,NA,item_164,goose,goose,goose
 mucca,animals,mucca,word,produces,NA,item_165,cow,cow,cow
-mosca,animals,mosca,word,produces,NA,item_166,fly (animal),fly,fly (animal)
+mosca,animals,mosca,word,produces,NA,item_166,fly (animal),fly (animal),fly (animal)
 maiale,animals,maiale,word,produces,NA,item_167,pig,pig,pig
 lupo,animals,lupo,word,produces,NA,item_168,wolf,wolf,wolf
 leone,animals,leone,word,produces,NA,item_169,lion,lion,lion
@@ -220,7 +220,7 @@ chiave,household,chiave,word,produces,NA,item_218,keys,keys,key
 ciuccio,household,ciuccio,word,produces,NA,item_219,pacifier,pacifier,pacifier
 colori,household,colori,word,produces,NA,item_220,NA,crayons,crayon
 coltello,household,coltello,word,produces,NA,item_221,knife,knife,knife
-coperchio,household,coperchio,word,produces,NA,item_222,cover (object),cover,cover (object)
+coperchio,household,coperchio,word,produces,NA,item_222,cover (object),cover (object),cover (object)
 coperta,household,coperta,word,produces,NA,item_223,blanket,blanket,blanket
 cucchiaio,household,cucchiaio,word,produces,NA,item_224,spoon,spoon,spoon
 cuscino,household,cuscino,word,produces,NA,item_225,pillow,pillow,pillow
@@ -231,7 +231,7 @@ forbici,household,forbici,word,produces,NA,item_229,scissors,scissors,scissors
 forchetta,household,forchetta,word,produces,NA,item_230,fork,fork,fork
 fotografia,household,fotografia,word,produces,NA,item_231,NA,picture,photo
 giornale,household,giornale,word,produces,NA,item_232,paper,paper,paper
-luce,household,luce,word,produces,NA,item_233,light,light,light (object)
+luce,household,luce,word,produces,NA,item_233,light,light (object),light (object)
 libro,household,libro,word,produces,NA,item_234,book,book,book
 martello,household,martello,word,produces,NA,item_235,hammer,hammer,hammer
 matita/penna,household,matita/penna,word,produces,NA,item_236,pen/pencil,pencil/pen,pen/pencil
@@ -293,7 +293,7 @@ televisione/TV,furniture_rooms,televisione/TV,word,produces,NA,item_291,TV,TV,TV
 terrazza,furniture_rooms,terrazza,word,produces,NA,item_292,porch,porch,porch
 vasca da bagno,furniture_rooms,vasca_da_bagno,word,produces,NA,item_293,bathtub,bathtub,bathtub
 albero,outside,albero,word,produces,NA,item_294,tree,tree,tree
-altalena,outside,altalena,word,produces,NA,item_295,swing (object),swing,swing (object)
+altalena,outside,altalena,word,produces,NA,item_295,swing (object),swing (object),swing (object)
 ascensore,outside,ascensore,word,produces,NA,item_296,elevator,elevator,elevator
 bandiera,outside,bandiera,word,produces,NA,item_297,NA,flag,flag
 benzina,outside,benzina,word,produces,NA,item_298,NA,gasoline,gas
@@ -309,7 +309,7 @@ luna,outside,luna,word,produces,NA,item_307,moon,moon,moon
 nebbia,outside,nebbia,word,produces,NA,item_308,NA,fog,fog
 neve,outside,neve,word,produces,NA,item_309,snow,snow,snow
 nuvola,outside,nuvola,word,produces,NA,item_310,NA,cloud,cloud
-pioggia,outside,pioggia,word,produces,NA,item_311,rain,rain,rain
+pioggia,outside,pioggia,word,produces,NA,item_311,rain,rain,rain (weather)
 piscina,outside,piscina,word,produces,NA,item_312,NA,pool,pool
 pompa,outside,pompa,word,produces,NA,item_313,NA,pump,pump (object)
 prato,outside,prato,word,produces,NA,item_314,lawn,lawn,lawn
@@ -334,7 +334,7 @@ città,places,citta,word,produces,NA,item_332,NA,downtown,city
 festa,places,festa,word,produces,NA,item_333,NA,party,party
 giardino,places,giardino,word,produces,NA,item_334,NA,garden,garden
 giostra,places,giostra,word,produces,NA,item_335,NA,merry-go-round,carousel
-lavoro,places,lavoro,word,produces,NA,item_336,NA,work,work (place)
+lavoro,places,lavoro,word,produces,NA,item_336,NA,work (place),work (place)
 mare,places,mare,word,produces,NA,item_337,NA,sea,sea
 mercato,places,mercato,word,produces,NA,item_338,NA,market,market
 montagna,places,montagna,word,produces,NA,item_339,NA,rock,mountain
@@ -408,7 +408,7 @@ alzarsi,action_words,alzarsi,word,produces,NA,item_406,stand,stand,stand
 andare,action_words,andare,word,produces,NA,item_407,go,go,go
 aprire,action_words,aprire,word,produces,NA,item_408,open (action),open,open (action)
 arrampicarsi,action_words,arrampicarsi,word,produces,NA,item_409,NA,climb,climb
-asciugare,action_words,asciugare,word,produces,NA,item_410,NA,dry,dry (action)
+asciugare,action_words,asciugare,word,produces,NA,item_410,NA,dry (action),dry (action)
 aspettare,action_words,aspettare,word,produces,NA,item_411,wait,wait,wait
 aver fame,action_words,aver_fame,word,produces,NA,item_412,NA,hungry,hungry
 aver sete,action_words,aver_sete,word,produces,NA,item_413,NA,thirsty,thirsty
@@ -426,16 +426,16 @@ chiudere,action_words,chiudere,word,produces,NA,item_424,close,close,close
 colorare,action_words,colorare,word,produces,NA,item_425,NA,paint,paint (action)
 comprare,action_words,comprare,word,produces,NA,item_426,NA,buy,buy
 conoscere,action_words,conoscere,word,produces,NA,item_427,NA,know,know
-coprire,action_words,coprire,word,produces,NA,item_428,NA,cover,cover (action)
+coprire,action_words,coprire,word,produces,NA,item_428,NA,cover (action),cover (action)
 correre,action_words,correre,word,produces,NA,item_429,run,run,run
 costruire,action_words,costruire,word,produces,NA,item_430,NA,build,build
 cucinare,action_words,cucinare,word,produces,NA,item_431,NA,cook,cook
-cullare,action_words,cullare,word,produces,NA,item_432,rock (action),rock,rock (action)
+cullare,action_words,cullare,word,produces,NA,item_432,rock (action),rock (action),rock (action)
 dare,action_words,dare,word,produces,NA,item_433,give,give,give
 dare un calcio,action_words,dare_un_calcio,word,produces,NA,item_434,NA,kick,kick
 dire,action_words,dire,word,produces,NA,item_435,say,say,say
 disegnare,action_words,disegnare,word,produces,NA,item_436,NA,draw,draw
-dondolare,action_words,dondolare,word,produces,NA,item_437,swing (action),swing,swing (action)
+dondolare,action_words,dondolare,word,produces,NA,item_437,swing (action),swing (action),swing (action)
 dormire,action_words,dormire,word,produces,NA,item_438,sleep,sleep,sleep
 entrare,action_words,entrare,word,produces,NA,item_439,NA,enter,enter
 fare,action_words,fare,word,produces,NA,item_440,make,make,make
@@ -448,7 +448,7 @@ guardare,action_words,guardare,word,produces,NA,item_446,NA,look,look
 guidare,action_words,guidare,word,produces,NA,item_447,NA,drive,drive
 lanciare,action_words,lanciare,word,produces,NA,item_448,NA,throw,throw
 lavare,action_words,lavare,word,produces,NA,item_449,wash,wash,wash
-lavorare,action_words,lavorare,word,produces,NA,item_450,NA,work,work (action)
+lavorare,action_words,lavorare,word,produces,NA,item_450,NA,work (action),work (action)
 leccare,action_words,leccare,word,produces,NA,item_451,lick,lick,lick
 leggere,action_words,leggere,word,produces,NA,item_452,read,read,read
 levare/togliere,action_words,levare/togliere,word,produces,NA,item_453,take off,take off/remove,remove
@@ -466,7 +466,7 @@ piangere,action_words,piangere,word,produces,NA,item_464,cry,cry,cry
 portare,action_words,portare,word,produces,NA,item_465,NA,bring/carry,bring
 prendere,action_words,prendere,word,produces,NA,item_466,take,take,take
 provare,action_words,provare,word,produces,NA,item_467,NA,taste,taste
-pulire,action_words,pulire,word,produces,NA,item_468,clean (action),clean,clean (action)
+pulire,action_words,pulire,word,produces,NA,item_468,clean (action),clean (action),clean (action)
 raccontare,action_words,raccontare,word,produces,NA,item_469,NA,tell,tell
 regalare,action_words,regalare,word,produces,NA,item_470,NA,give present,give
 restare,action_words,restare,word,produces,NA,item_471,NA,remain,stay
@@ -501,13 +501,13 @@ uscire,action_words,uscire,word,produces,NA,item_499,go out,go out,go out
 vedere,action_words,vedere,word,produces,NA,item_500,see,see/watch,see
 venire,action_words,venire,word,produces,NA,item_501,come,come,come
 versare,action_words,versare,word,produces,NA,item_502,NA,pour,pour
-volare,action_words,volare,word,produces,NA,item_503,fly (action),fly,fly (action)
+volare,action_words,volare,word,produces,NA,item_503,fly (action),fly (action),fly (action)
 addormentato,descriptive_words,addormentato,word,produces,NA,item_504,NA,asleep,asleep
 alto,descriptive_words,alto,word,produces,NA,item_505,high,high,high
 amaro,descriptive_words,amaro,word,produces,NA,item_506,NA,bitter,bitter
-arancione,descriptive_words,arancione,word,produces,NA,item_507,NA,orange,orange (description)
+arancione,descriptive_words,arancione,word,produces,NA,item_507,NA,orange (description),orange (description)
 arrabbiato,descriptive_words,arrabbiato,word,produces,NA,item_508,angry,angry,angry
-asciutto,descriptive_words,asciutto,word,produces,NA,item_509,dry (description),dry,dry (description)
+asciutto,descriptive_words,asciutto,word,produces,NA,item_509,dry (description),dry (description),dry (description)
 attento,descriptive_words,attento,word,produces,NA,item_510,careful,carefull,careful
 bagnato,descriptive_words,bagnato,word,produces,NA,item_511,wet (description),wet,wet (description)
 bello,descriptive_words,bello,word,produces,NA,item_512,nice,nice,nice
@@ -533,7 +533,7 @@ freddo,descriptive_words,freddo,word,produces,NA,item_531,cold,cold,cold
 gentile,descriptive_words,gentile,word,produces,NA,item_532,NA,gentle,gentle
 giallo,descriptive_words,giallo,word,produces,NA,item_533,yellow,yellow,yellow
 grande/grosso,descriptive_words,grande/grosso,word,produces,NA,item_534,big,big,big
-leggero,descriptive_words,leggero,word,produces,NA,item_535,NA,light,light (description)
+leggero,descriptive_words,leggero,word,produces,NA,item_535,NA,light (description),light (description)
 lento,descriptive_words,lento,word,produces,NA,item_536,NA,slow,slow
 lungo,descriptive_words,lungo,word,produces,NA,item_537,NA,long,long
 malato,descriptive_words,malato,word,produces,NA,item_538,sick,sick,sick
@@ -547,7 +547,7 @@ piano,descriptive_words,piano,word,produces,NA,item_545,slow,slow,slow
 piccolo,descriptive_words,piccolo,word,produces,NA,item_546,little (description),little,little (description)
 pieno,descriptive_words,pieno,word,produces,NA,item_547,full,full,full
 povero,descriptive_words,povero,word,produces,NA,item_548,NA,poor,poor
-pulito,descriptive_words,pulito,word,produces,NA,item_549,clean (description),clean,clean (description)
+pulito,descriptive_words,pulito,word,produces,NA,item_549,clean (description),clean (description),clean (description)
 rosso,descriptive_words,rosso,word,produces,NA,item_550,red,red,red
 rotto,descriptive_words,rotto,word,produces,NA,item_551,broken,broken,broken
 salato,descriptive_words,salato,word,produces,NA,item_552,NA,salted/salty,salty
@@ -640,9 +640,9 @@ e,helping_verbs,e,word,produces,NA,item_638,NA,is,is
 ho,helping_verbs,ho,word,produces,NA,item_639,NA,have,have
 hai,helping_verbs,hai,word,produces,NA,item_640,NA,have,have
 ha,helping_verbs,ha,word,produces,NA,item_641,NA,has,has
-posso,helping_verbs,posso,word,produces,NA,item_642,NA,can,can (auxiliary)
-puoi,helping_verbs,puoi,word,produces,NA,item_643,NA,can,can (auxiliary)
-può,helping_verbs,puo,word,produces,NA,item_644,NA,can,can (auxiliary)
+posso,helping_verbs,posso,word,produces,NA,item_642,NA,can (auxiliary),can (auxiliary)
+puoi,helping_verbs,puoi,word,produces,NA,item_643,NA,can (auxiliary),can (auxiliary)
+può,helping_verbs,puo,word,produces,NA,item_644,NA,can (auxiliary),can (auxiliary)
 voglio,helping_verbs,voglio,word,produces,NA,item_645,NA,want,want
 vuoi,helping_verbs,vuoi,word,produces,NA,item_646,NA,want,want
 vuole,helping_verbs,vuole,word,produces,NA,item_647,NA,wants,want

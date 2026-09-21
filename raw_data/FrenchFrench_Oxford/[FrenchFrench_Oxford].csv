@@ -1,6 +1,6 @@
-itemID,definition,category,item,type,choices,gloss,uni_lemma
-item_1,aïe,sounds,aïe,word,understands; produces,ouch,ouch
-item_2,bêê-bêê (mouton),sounds,bêê-bêê (mouton),word,understands; produces,baa baa (sheep),baa baa
+ÔªøitemID,definition,category,item,type,choices,gloss,uni_lemma
+item_1,a√Øe,sounds,a√Øe,word,understands; produces,ouch,ouch
+item_2,b√™√™-b√™√™ (mouton),sounds,b√™√™-b√™√™ (mouton),word,understands; produces,baa baa (sheep),baa baa
 item_3,cocorico (coq),sounds,cocorico (coq),word,understands; produces,cockadoodledoo (rooster),cockadoodledoo
 item_4,coin-coin (canard),sounds,coin-coin (canard),word,understands; produces,quack (duck),quack quack
 item_5,grrrr (grognement),sounds,grrrr (grognement),word,understands; produces,grr (growl),grrr
@@ -14,10 +14,10 @@ item_12,vroum (voiture),sounds,vroum (voiture),word,understands; produces,vroom 
 item_13,animal,animals,animal,word,understands; produces,animal,animal
 item_14,abeille,animals,abeille,word,understands; produces,bee,bee
 item_15,agneau,animals,agneau,word,understands; produces,lamb,lamb
-item_16,âne,animals,âne,word,understands; produces,donkey,donkey
-item_17,araignée,animals,araignée,word,understands; produces,spider,spider
-item_18,bébé chat,animals,bébé chat,word,understands; produces,kitten,kitten
-item_19,bébé chien,animals,bébé chien,word,understands; produces,puppy,puppy
+item_16,√¢ne,animals,√¢ne,word,understands; produces,donkey,donkey
+item_17,araign√©e,animals,araign√©e,word,understands; produces,spider,spider
+item_18,b√©b√© chat,animals,b√©b√© chat,word,understands; produces,kitten,kitten
+item_19,b√©b√© chien,animals,b√©b√© chien,word,understands; produces,puppy,puppy
 item_20,canard,animals,canard,word,understands; produces,duck,duck
 item_21,cerf,animals,cerf,word,understands; produces,deer,deer
 item_22,chat,animals,chat,word,understands; produces,cat,cat
@@ -25,8 +25,8 @@ item_23,cheval,animals,cheval,word,understands; produces,horse,horse
 item_24,chien,animals,chien,word,understands; produces,dog,dog
 item_25,cochon,animals,cochon,word,understands; produces,pig,pig
 item_26,dindon,animals,dindon,word,understands; produces,turkey,turkey
-item_27,écureuil,animals,écureuil,word,understands; produces,squirrel,squirrel
-item_28,éléphant,animals,éléphant,word,understands; produces,elephant,elephant
+item_27,√©cureuil,animals,√©cureuil,word,understands; produces,squirrel,squirrel
+item_28,√©l√©phant,animals,√©l√©phant,word,understands; produces,elephant,elephant
 item_29,girafe,animals,girafe,word,understands; produces,giraffe,giraffe
 item_30,grenouille,animals,grenouille,word,understands; produces,frog,frog
 item_31,hibou,animals,hibou,word,understands; produces,owl,owl
@@ -54,7 +54,7 @@ item_52,camion de pompier,vehicles,camion de pompier,word,understands; produces,
 item_53,moto,vehicles,moto,word,understands; produces,motor-bike,motorcycle
 item_54,poussette,vehicles,poussette,word,understands; produces,pushchair / buggy,stroller
 item_55,train,vehicles,train,word,understands; produces,train,train
-item_56,vélo,vehicles,vélo,word,understands; produces,bicycle / bike,bicycle
+item_56,v√©lo,vehicles,v√©lo,word,understands; produces,bicycle / bike,bicycle
 item_57,voiture,vehicles,voiture,word,understands; produces,car,car
 item_58,balle,toys,balle,word,understands; produces,ball,ball
 item_59,ballon (de baudruche),toys,ballon (de baudruche),word,understands; produces,balloon,balloon
@@ -63,20 +63,20 @@ item_61,cube,toys,cube,word,understands; produces,block / brick,blocks
 item_62,jouet,toys,jouet,word,understands; produces,toy,toy (object)
 item_63,livre,toys,livre,word,understands; produces,book,book
 item_64,nounours,toys,nounours,word,understands; produces,teddy bear,teddybear
-item_65,poupée,toys,poupée,word,understands; produces,doll,doll
+item_65,poup√©e,toys,poup√©e,word,understands; produces,doll,doll
 item_66,stylo,toys,stylo,word,understands; produces,pen,pen
 item_67,banane,food_drink,banane,word,understands; produces,banana,banana
 item_68,beurre,food_drink,beurre,word,understands; produces,butter,butter
 item_69,boisson,food_drink,boisson,word,understands; produces,drink,drink (beverage)
 item_70,bonbons,food_drink,bonbons,word,understands; produces,sweets,sweets
-item_71,café,food_drink,café,word,understands; produces,coffee,coffee
+item_71,caf√©,food_drink,caf√©,word,understands; produces,coffee,coffee
 item_72,carotte,food_drink,carotte,word,understands; produces,carrot,carrot
-item_73,céréales,food_drink,céréales,word,understands; produces,cereal,cereal
+item_73,c√©r√©ales,food_drink,c√©r√©ales,word,understands; produces,cereal,cereal
 item_74,confiture,food_drink,confiture,word,understands; produces,jam,jam
-item_75,eau,food_drink,eau,word,understands; produces,water,water
+item_75,eau,food_drink,eau,word,understands; produces,water,water (beverage)
 item_76,frites,food_drink,frites,word,understands; produces,chips,chips
 item_77,fromage,food_drink,fromage,word,understands; produces,cheese,cheese
-item_78,gâteau,food_drink,gâteau,word,understands; produces,cake,cake
+item_78,g√¢teau,food_drink,g√¢teau,word,understands; produces,cake,cake
 item_79,glace,food_drink,glace,word,understands; produces,ice cream,ice cream
 item_80,jus de fruit,food_drink,jus de fruit,word,understands; produces,juice,juice
 item_81,lait,food_drink,lait,word,understands; produces,milk,milk
@@ -84,15 +84,15 @@ item_82,nourriture,food_drink,nourriture,word,understands; produces,food,food
 item_83,oeuf,food_drink,oeuf,word,understands; produces,egg,egg
 item_84,orange,food_drink,orange,word,understands; produces,orange,orange (food)
 item_85,pain,food_drink,pain,word,understands; produces,bread,bread
-item_86,pâtes / spaghetti,food_drink,pâtes / spaghetti,word,understands; produces,pasta / spaghetti,pasta
+item_86,p√¢tes / spaghetti,food_drink,p√¢tes / spaghetti,word,understands; produces,pasta / spaghetti,pasta
 item_87,petits pois,food_drink,petits pois,word,understands; produces,peas,peas
-item_88,petits gâteaux,food_drink,petits gâteaux,word,understands; produces,biscuit,biscuit
+item_88,petits g√¢teaux,food_drink,petits g√¢teaux,word,understands; produces,biscuit,biscuit
 item_89,pizza,food_drink,pizza,word,understands; produces,pizza,pizza
 item_90,poisson,food_drink,poisson,word,understands; produces,fish,fish (food)
 item_91,pomme,food_drink,pomme,word,understands; produces,apple,apple
 item_92,poulet,food_drink,poulet,word,understands; produces,chicken,chicken (food)
 item_93,tartine,food_drink,tartine,word,understands; produces,toast,toast
-item_94,thé,food_drink,thé,word,understands; produces,tea,tea
+item_94,th√©,food_drink,th√©,word,understands; produces,tea,tea
 item_95,viande,food_drink,viande,word,understands; produces,meat,meat
 item_96,bouche,body_parts,bouche,word,understands; produces,mouth,mouth
 item_97,bras,body_parts,bras,word,understands; produces,arm,arm
@@ -111,7 +111,7 @@ item_109,nombril,body_parts,nombril,word,understands; produces,belly button / tu
 item_110,ongle,body_parts,ongle,word,understands; produces,nail,nail (body part)
 item_111,oreille,body_parts,oreille,word,understands; produces,ear,ear
 item_112,pied,body_parts,pied,word,understands; produces,foot,foot
-item_113,tête,body_parts,tête,word,understands; produces,head,head
+item_113,t√™te,body_parts,t√™te,word,understands; produces,head,head
 item_114,ventre,body_parts,ventre,word,understands; produces,tummy,tummy
 item_115,yeux,body_parts,yeux,word,understands; produces,eye,eye
 item_116,bavoir/bavette,clothing,bavoir/bavette,word,understands; produces,bib,bib
@@ -123,7 +123,7 @@ item_121,chaussure,clothing,chaussure,word,understands; produces,shoe,shoe
 item_122,chemise,clothing,chemise,word,understands; produces,shirt,shirt
 item_123,collier,clothing,collier,word,understands; produces,necklace,necklace
 item_124,couche,clothing,couche,word,understands; produces,nappy,diaper
-item_125,fermeture éclair,clothing,fermeture éclair,word,understands; produces,zip,zipper
+item_125,fermeture √©clair,clothing,fermeture √©clair,word,understands; produces,zip,zipper
 item_126,jeans,clothing,jeans,word,understands; produces,jeans,jeans
 item_127,lunettes,clothing,lunettes,word,understands; produces,glasses / specs,glasses
 item_128,manteau,clothing,manteau,word,understands; produces,coat,coat
@@ -135,36 +135,36 @@ item_133,short,clothing,short,word,understands; produces,shorts,shorts
 item_134,veste,clothing,veste,word,understands; produces,jacket,jacket
 item_135,baignoire,furniture_rooms,baignoire,word,understands; produces,bath / bathtub,bathtub
 item_136,berceau,furniture_rooms,berceau,word,understands; produces,cot,cot
-item_137,canapé,furniture_rooms,canapé,word,understands; produces,settee / sofa,couch
+item_137,canap√©,furniture_rooms,canap√©,word,understands; produces,settee / sofa,couch
 item_138,chaise,furniture_rooms,chaise,word,understands; produces,chair,chair
 item_139,chaise haute,furniture_rooms,chaise haute,word,understands; produces,high chair,high chair
 item_140,chambre,furniture_rooms,chambre,word,understands; produces,bedroom,bedroom
 item_141,cuisine,furniture_rooms,cuisine,word,understands; produces,kitchen,kitchen
-item_142,cuisinière,furniture_rooms,cuisinière,word,understands; produces,cooker / stove / oven,stove
+item_142,cuisini√®re,furniture_rooms,cuisini√®re,word,understands; produces,cooker / stove / oven,stove
 item_143,escalier,furniture_rooms,escalier,word,understands; produces,stairs,stairs
-item_144,évier,furniture_rooms,évier,word,understands; produces,sink,sink
-item_145,fenêtre,furniture_rooms,fenêtre,word,understands; produces,window,window
+item_144,√©vier,furniture_rooms,√©vier,word,understands; produces,sink,sink
+item_145,fen√™tre,furniture_rooms,fen√™tre,word,understands; produces,window,window
 item_146,frigo,furniture_rooms,frigo,word,understands; produces,refrigerator / fridge,refrigerator
 item_147,garage,furniture_rooms,garage,word,understands; produces,garage,garage
 item_148,lit,furniture_rooms,lit,word,understands; produces,bed,bed
 item_149,parc,furniture_rooms,parc,word,understands; produces,play pen,play pen
 item_150,porte,furniture_rooms,porte,word,understands; produces,door,door
 item_151,pot,furniture_rooms,pot,word,understands; produces,potty,potty
-item_152,rocking chair / chaise à bascule,furniture_rooms,rocking chair / chaise à bascule,word,understands; produces,rocking chair,rocking chair
+item_152,rocking chair / chaise √† bascule,furniture_rooms,rocking chair / chaise √† bascule,word,understands; produces,rocking chair,rocking chair
 item_153,salle de bain,furniture_rooms,salle de bain,word,understands; produces,bathroom,bathroom
 item_154,salon,furniture_rooms,salon,word,understands; produces,living room,living room
 item_155,table,furniture_rooms,table,word,understands; produces,table,table
-item_156,télé,furniture_rooms,télé,word,understands; produces,TV / television,TV
+item_156,t√©l√©,furniture_rooms,t√©l√©,word,understands; produces,TV / television,TV
 item_157,tiroir,furniture_rooms,tiroir,word,understands; produces,drawer,drawer
 item_158,arbre,outside,arbre,word,understands; produces,tree,tree
-item_159,balançoire,outside,balançoire,word,understands; produces,swing,swing (object)
+item_159,balan√ßoire,outside,balan√ßoire,word,understands; produces,swing,swing (object)
 item_160,caillou,outside,caillou,word,understands; produces,stone,stone
 item_161,ciel,outside,ciel,word,understands; produces,sky,sky
-item_162,eau,outside,eau,word,understands; produces,water,water
-item_163,école,outside,école,word,understands; produces,school,school
-item_164,église,outside,église,word,understands; produces,church,church
-item_165,étoile,outside,étoile,word,understands; produces,star,star
-item_166,fête,outside,fête,word,understands; produces,party,party
+item_162,eau,outside,eau,word,understands; produces,water,water (not beverage)
+item_163,√©cole,outside,√©cole,word,understands; produces,school,school
+item_164,√©glise,outside,√©glise,word,understands; produces,church,church
+item_165,√©toile,outside,√©toile,word,understands; produces,star,star
+item_166,f√™te,outside,f√™te,word,understands; produces,party,party
 item_167,fleur,outside,fleur,word,understands; produces,flower,flower
 item_168,herbe,outside,herbe,word,understands; produces,grass,grass
 item_169,jardin,outside,jardin,word,understands; produces,garden,garden
@@ -176,7 +176,7 @@ item_174,neige,outside,neige,word,understands; produces,snow,snow
 item_175,pelle,outside,pelle,word,understands; produces,spade,spade
 item_176,piscine,outside,piscine,word,understands; produces,pool,pool
 item_177,plage,outside,plage,word,understands; produces,beach,beach
-item_178,pluie,outside,pluie,word,understands; produces,rain,rain
+item_178,pluie,outside,pluie,word,understands; produces,rain,rain (weather)
 item_179,seau,outside,seau,word,understands; produces,bucket,bucket
 item_180,soleil,outside,soleil,word,understands; produces,sun,sun
 item_181,toboggan,outside,toboggan,word,understands; produces,slide,slide (object)
@@ -187,23 +187,23 @@ item_185,argent,household,argent,word,understands; produces,money,money
 item_186,aspirateur,household,aspirateur,word,understands; produces,hoover / vacuum cleaner,vacuum
 item_187,assiette,household,assiette,word,understands; produces,plate,plate
 item_188,balai,household,balai,word,understands; produces,broom,broom
-item_189,boîte,household,boîte,word,understands; produces,box,box
+item_189,bo√Æte,household,bo√Æte,word,understands; produces,box,box
 item_190,bol,household,bol,word,understands; produces,bowl,bowl
 item_191,bouteille,household,bouteille,word,understands; produces,bottle,bottle
 item_192,brosse,household,brosse,word,understands; produces,brush,brush
-item_193,brosse à dent,household,brosse à dent,word,understands; produces,toothbrush,toothbrush
+item_193,brosse √† dent,household,brosse √† dent,word,understands; produces,toothbrush,toothbrush
 item_194,ciseaux,household,ciseaux,word,understands; produces,scissors,scissors
 item_195,clefs,household,clefs,word,understands; produces,key,key
 item_196,couteau,household,couteau,word,understands; produces,knife,knife
 item_197,couverture,household,couverture,word,understands; produces,blanket,blanket
-item_198,cruche / pot à eau / pichet,household,cruche / pot à eau / pichet,word,understands; produces,jug,jug
-item_199,cuillère,household,cuillère,word,understands; produces,spoon,spoon
+item_198,cruche / pot √† eau / pichet,household,cruche / pot √† eau / pichet,word,understands; produces,jug,jug
+item_199,cuill√®re,household,cuill√®re,word,understands; produces,spoon,spoon
 item_200,fourchette,household,fourchette,word,understands; produces,fork,fork
 item_201,horloge,household,horloge,word,understands; produces,clock,clock
 item_202,lampe,household,lampe,word,understands; produces,lamp,lamp
-item_203,lumière,household,lumière,word,understands; produces,light,light
+item_203,lumi√®re,household,lumi√®re,word,understands; produces,light,light
 item_204,marteau,household,marteau,word,understands; produces,hammer,hammer
-item_205,médicaments,household,médicaments,word,understands; produces,medicine,medicine
+item_205,m√©dicaments,household,m√©dicaments,word,understands; produces,medicine,medicine
 item_206,montre,household,montre,word,understands; produces,watch,watch (object)
 item_207,oreiller,household,oreiller,word,understands; produces,pillow,pillow
 item_208,panier,household,panier,word,understands; produces,basket,basket
@@ -217,23 +217,23 @@ item_215,poubelle,household,poubelle,word,understands; produces,bin,bin
 item_216,radio,household,radio,word,understands; produces,radio,radio
 item_217,savon,household,savon,word,understands; produces,soap,soap
 item_218,serviette,household,serviette,word,understands; produces,towel,towel
-item_219,sous / pièces,household,sous / pièces,word,understands; produces,penny,penny
+item_219,sous / pi√®ces,household,sous / pi√®ces,word,understands; produces,penny,penny
 item_220,sucette,household,sucette,word,understands; produces,dummy,dummy
 item_221,tasse,household,tasse,word,understands; produces,cup,cup
-item_222,téléphone,household,téléphone,word,understands; produces,telephone,telephone
+item_222,t√©l√©phone,household,t√©l√©phone,word,understands; produces,telephone,telephone
 item_223,verre,household,verre,word,understands; produces,glass,glass
 item_224,"ami / e, copain / copine",people,"ami / e, copain / copine",word,understands; produces,friend,friend
-item_225,bébé,people,bébé,word,understands; produces,baby,baby
+item_225,b√©b√©,people,b√©b√©,word,understands; produces,baby,baby
 item_226,dame,people,dame,word,understands; produces,lady,lady
 item_227,docteur,people,docteur,word,understands; produces,doctor,doctor
 item_228,enfant,people,enfant,word,understands; produces,child,child
 item_229,fille,people,fille,word,understands; produces,girl,girl
-item_230,frère,people,frère,word,understands; produces,brother,brother
-item_231,garçon,people,garçon,word,understands; produces,boy,boy
+item_230,fr√®re,people,fr√®re,word,understands; produces,brother,brother
+item_231,gar√ßon,people,gar√ßon,word,understands; produces,boy,boy
 item_232,gens,people,gens,word,understands; produces,people,people
-item_233,grand-mère,people,grand-mère,word,understands; produces,grandma,grandma
-item_234,grand-père,people,grand-père,word,understands; produces,grandpa,grandpa
-item_235,maître / sse,people,maître / sse,word,understands; produces,teacher,teacher
+item_233,grand-m√®re,people,grand-m√®re,word,understands; produces,grandma,grandma
+item_234,grand-p√®re,people,grand-p√®re,word,understands; produces,grandpa,grandpa
+item_235,ma√Ætre / sse,people,ma√Ætre / sse,word,understands; produces,teacher,teacher
 item_236,maman,people,maman,word,understands; produces,mummy,mommy
 item_237,monsieur,people,monsieur,word,understands; produces,man,man
 item_238,nounou,people,nounou,word,understands; produces,nanny,babysitter
@@ -250,16 +250,16 @@ item_248,bonjour,games_routines,bonjour,word,understands; produces,hello,hello
 item_249,bonne nuit,games_routines,bonne nuit,word,understands; produces,night night,good night
 item_250,chut,games_routines,chut,word,understands; produces,shh / hush / shush,shh
 item_251,coucou,games_routines,coucou,word,understands; produces,peekaboo,peekaboo
-item_252,déjeuner,games_routines,déjeuner,word,understands; produces,lunch,lunch
-item_253,dîner,games_routines,dîner,word,understands; produces,dinner,dinner
-item_254,goûter,games_routines,goûter,word,understands; produces,tea,tea
+item_252,d√©jeuner,games_routines,d√©jeuner,word,understands; produces,lunch,lunch
+item_253,d√Æner,games_routines,d√Æner,word,understands; produces,dinner,dinner
+item_254,go√ªter,games_routines,go√ªter,word,understands; produces,tea,tea
 item_255,je vais t'attraper,games_routines,je vais t'attraper,word,understands; produces,I'm going to catch you,
 item_256,merci,games_routines,merci,word,understands; produces,thank you,thank you
 item_257,ne fais pas,games_routines,ne fais pas,word,understands; produces,don't,don't
 item_258,non,games_routines,non,word,understands; produces,no,no
 item_259,oui,games_routines,oui,word,understands; produces,yes,yes
-item_260,petit déjeuner,games_routines,petit déjeuner,word,understands; produces,breakfast,breakfast
-item_261,s'il te plaît,games_routines,s'il te plaît,word,understands; produces,please,please
+item_260,petit d√©jeuner,games_routines,petit d√©jeuner,word,understands; produces,breakfast,breakfast
+item_261,s'il te pla√Æt,games_routines,s'il te pla√Æt,word,understands; produces,please,please
 item_262,salut,games_routines,salut,word,understands; produces,hi,hi
 item_263,sieste,games_routines,sieste,word,understands; produces,nap,nap
 item_264,veux,games_routines,veux,word,understands; produces,want to,wanna
@@ -269,7 +269,7 @@ item_267,aimer bien,action_words,aimer bien,word,understands; produces,like,like
 item_268,aller,action_words,aller,word,understands; produces,go,go
 item_269,appeler,action_words,appeler,word,understands; produces,call,call
 item_270,apporter,action_words,apporter,word,understands; produces,bring,bring
-item_271,arrêter,action_words,arrêter,word,understands; produces,stop,stop
+item_271,arr√™ter,action_words,arr√™ter,word,understands; produces,stop,stop
 item_272,attraper,action_words,attraper,word,understands; produces,catch,catch
 item_273,avoir,action_words,avoir,word,understands; produces,have,have
 item_274,balancer,action_words,balancer,word,understands; produces,swing,swing (action)
@@ -288,12 +288,12 @@ item_286,dire,action_words,dire,word,understands; produces,say,say
 item_287,donner,action_words,donner,word,understands; produces,give,give
 item_288,donner un coup (de pied),action_words,donner un coup (de pied),word,understands; produces,kick,kick
 item_289,dormir,action_words,dormir,word,understands; produces,sleep,sleep
-item_290,éclabousser,action_words,éclabousser,word,understands; produces,splash,splash
-item_291,écrire,action_words,écrire,word,understands; produces,write,write
+item_290,√©clabousser,action_words,√©clabousser,word,understands; produces,splash,splash
+item_291,√©crire,action_words,√©crire,word,understands; produces,write,write
 item_292,entendre,action_words,entendre,word,understands; produces,hear,hear
 item_293,essuyer,action_words,essuyer,word,understands; produces,wipe,wipe
 item_294,faire,action_words,faire,word,understands; produces,make,make
-item_295,faire du vélo / moto,action_words,faire du vélo / moto,word,understands; produces,ride,ride
+item_295,faire du v√©lo / moto,action_words,faire du v√©lo / moto,word,understands; produces,ride,ride
 item_296,faire un bisou,action_words,faire un bisou,word,understands; produces,kiss,kiss
 item_297,fermer,action_words,fermer,word,understands; produces,shut / close,close
 item_298,finir,action_words,finir,word,understands; produces,finish,finish
@@ -324,7 +324,7 @@ item_322,s'asseoir,action_words,s'asseoir,word,understands; produces,sit,sit
 item_323,sauter,action_words,sauter,word,understands; produces,jump,jump
 item_324,savoir,action_words,savoir,word,understands; produces,know,know
 item_325,se cogner,action_words,se cogner,word,understands; produces,bump,bump
-item_326,se dépêcher,action_words,se dépêcher,word,understands; produces,hurry,hurry
+item_326,se d√©p√™cher,action_words,se d√©p√™cher,word,understands; produces,hurry,hurry
 item_327,sentir,action_words,sentir,word,understands; produces,smell,smell
 item_328,souffler,action_words,souffler,word,understands; produces,blow,blow
 item_329,sourire,action_words,sourire,word,understands; produces,smile,smile
@@ -340,24 +340,24 @@ item_338,avoir soif,descriptive_words,avoir soif,word,understands; produces,thir
 item_339,avoir sommeil,descriptive_words,avoir sommeil,word,understands; produces,sleepy,sleepy
 item_340,beau / belle,descriptive_words,beau / belle,word,understands; produces,pretty,pretty
 item_341,bien,descriptive_words,bien,word,understands; produces,fine,fine
-item_342,blessé,descriptive_words,blessé,word,understands; produces,hurt,hurt
+item_342,bless√©,descriptive_words,bless√©,word,understands; produces,hurt,hurt
 item_343,bleu,descriptive_words,bleu,word,understands; produces,blue,blue
 item_344,bon / ne,descriptive_words,bon / ne,word,understands; produces,good,good
-item_345,cassé,descriptive_words,cassé,word,understands; produces,broken,broken
+item_345,cass√©,descriptive_words,cass√©,word,understands; produces,broken,broken
 item_346,chaud / e,descriptive_words,chaud / e,word,understands; produces,hot,hot
 item_347,content / te,descriptive_words,content / te,word,understands; produces,happy,happy
 item_348,doux/ce,descriptive_words,doux/ce,word,understands; produces,soft,soft
 item_349,dur,descriptive_words,dur,word,understands; produces,hard,hard
 item_350,endormi,descriptive_words,endormi,word,understands; produces,asleep,asleep
-item_351,fatigué,descriptive_words,fatigué,word,understands; produces,tired,tired
+item_351,fatigu√©,descriptive_words,fatigu√©,word,understands; produces,tired,tired
 item_352,fini ! / c'est fini ! / c'est parti !,descriptive_words,fini ! / c'est fini ! / c'est parti !,word,understands; produces,all gone,all gone
 item_353,froid,descriptive_words,froid,word,understands; produces,cold,cold
 item_354,gentil / le,descriptive_words,gentil / le,word,understands; produces,nice,nice
 item_355,grand,descriptive_words,grand,word,understands; produces,big,big
 item_356,jaune,descriptive_words,jaune,word,understands; produces,yellow,yellow
 item_357,malade,descriptive_words,malade,word,understands; produces,sick,sick
-item_358,méchant / e,descriptive_words,méchant / e,word,understands; produces,nasty,nasty
-item_359,mouillé,descriptive_words,mouillé,word,understands; produces,wet,wet
+item_358,m√©chant / e,descriptive_words,m√©chant / e,word,understands; produces,nasty,nasty
+item_359,mouill√©,descriptive_words,mouill√©,word,understands; produces,wet,wet (description)
 item_360,pas bon / pas bien / mal,descriptive_words,pas bon / pas bien / mal,word,understands; produces,bad,bad
 item_361,petit / e,descriptive_words,petit / e,word,understands; produces,little,little
 item_362,propre,descriptive_words,propre,word,understands; produces,clean,clean (description)
@@ -373,7 +373,7 @@ item_371,vieux / vielle,descriptive_words,vieux / vielle,word,understands; produ
 item_372,vilain / e,descriptive_words,vilain / e,word,understands; produces,naughty,naughty
 item_373,vite,descriptive_words,vite,word,understands; produces,fast,fast
 item_374,comment,question_words,comment,word,understands; produces,how,how
-item_375,où,question_words,où,word,understands; produces,where,where (question)
+item_375,o√π,question_words,o√π,word,understands; produces,where,where (question)
 item_376,pourquoi,question_words,pourquoi,word,understands; produces,why,why
 item_377,quand,question_words,quand,word,understands; produces,when,when (question)
 item_378,qui,question_words,qui,word,understands; produces,who,who
@@ -385,11 +385,11 @@ item_383,jour,time_words,jour,word,understands; produces,day,day
 item_384,maintenant,time_words,maintenant,word,understands; produces,now,now
 item_385,matin,time_words,matin,word,understands; produces,morning,morning
 item_386,nuit,time_words,nuit,word,understands; produces,night,night
-item_387,plus tard / tout à l'heure,time_words,plus tard / tout à l'heure,word,understands; produces,later,later
-item_388,à elle / sa,pronouns,à elle / sa,word,understands; produces,her,3SG
-item_389,à lui / son,pronouns,à lui / son,word,understands; produces,his,3SG.POSS
-item_390,à moi,pronouns,à moi,word,understands; produces,mine,1SG.POSS
-item_391,ça / il,pronouns,ça / il,word,understands; produces,it,3SG
+item_387,plus tard / tout √† l'heure,time_words,plus tard / tout √† l'heure,word,understands; produces,later,later
+item_388,√† elle / sa,pronouns,√† elle / sa,word,understands; produces,her,3SG
+item_389,√† lui / son,pronouns,√† lui / son,word,understands; produces,his,3SG.POSS
+item_390,√† moi,pronouns,√† moi,word,understands; produces,mine,1SG.POSS
+item_391,√ßa / il,pronouns,√ßa / il,word,understands; produces,it,3SG
 item_392,ceux,pronouns,ceux,word,understands; produces,those,those
 item_393,je,pronouns,je,word,understands; produces,I,1SG
 item_394,ma / mon / mes,pronouns,ma / mon / mes,word,understands; produces,my,1SG.POSS
@@ -401,17 +401,17 @@ item_399,dans,locations,dans,word,understands; produces,in,in
 item_400,de,locations,de,word,understands; produces,off,off
 item_401,dedans,locations,dedans,word,understands; produces,inside,inside
 item_402,dehors,locations,dehors,word,understands; produces,out,out
-item_403,derrière,locations,derrière,word,understands; produces,back,back
+item_403,derri√®re,locations,derri√®re,word,understands; produces,back,back
 item_404,en bas,locations,en bas,word,understands; produces,down,down
 item_405,en haut,locations,en haut,word,understands; produces,up,up
-item_406,là-bas,locations,là-bas,word,understands; produces,there,there
+item_406,l√†-bas,locations,l√†-bas,word,understands; produces,there,there
 item_407,loin,locations,loin,word,understands; produces,away,away
 item_408,sous,locations,sous,word,understands; produces,under,under
 item_409,sur,locations,sur,word,understands; produces,on,on
 item_410,aucun / ne,quantifiers,aucun / ne,word,understands; produces,none,none
 item_411,autre,quantifiers,autre,word,understands; produces,other,other
 item_412,encore,quantifiers,encore,word,understands; produces,again,again
-item_413,le / la même,quantifiers,le / la même,word,understands; produces,same,same
+item_413,le / la m√™me,quantifiers,le / la m√™me,word,understands; produces,same,same
 item_414,pas,quantifiers,pas,word,understands; produces,not,not
 item_415,plus,quantifiers,plus,word,understands; produces,more,more
 item_416,tous / tout,quantifiers,tous / tout,word,understands; produces,all,all

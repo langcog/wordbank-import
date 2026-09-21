@@ -82,7 +82,7 @@ item_80,sopa,word,food_drink,understands; produces,Sopa,NA,sopa,Soup,soup,NA
 item_81,sumo,word,food_drink,understands; produces,Sumo,NA,sumo,Juice,juice,NA
 item_82,laranja,word,food_drink,understands; produces,Laranja,NA,laranja,Orange,orange (food),NA
 item_83,bone,word,clothing,understands; produces,Boné,NA,boné,Cap,hat,NA
-item_84,botas,word,clothing,understands; produces,Botas,NA,botas,Boots,boots,NA
+item_84,botas,word,clothing,understands; produces,Botas,NA,botas,Boots,boot,NA
 item_85,calcas,word,clothing,understands; produces,Calças,NA,calças,Pants/Trousers,pants,NA
 item_86,camisola,word,clothing,understands; produces,Camisola,NA,camisola,Sweater/ Jumper,sweater,NA
 item_87,casaco,word,clothing,understands; produces,Casaco,NA,casaco,Coat,coat,NA
@@ -164,7 +164,7 @@ item_162,sofa,word,furniture_rooms,understands; produces,Sofá,NA,sofá,Sofa,cou
 item_163,televisao,word,furniture_rooms,understands; produces,Televisão,NA,televisão,Television,TV,NA
 item_164,arvore,word,outside,understands; produces,Árvore(s),NA,árvore,Tree,tree,NA
 item_165,ceu,word,outside,understands; produces,Céu,NA,céu,Sky,sky,NA
-item_166,chuva,word,outside,understands; produces,Chuva,NA,chuva,Rain,rain,NA
+item_166,chuva,word,outside,understands; produces,Chuva,NA,chuva,Rain,rain (weather),NA
 item_167,erva,word,outside,understands; produces,Erva,NA,erva,Herb,plant,NA
 item_168,estrela,word,outside,understands; produces,Estrela,NA,estrela,Star,star,NA
 item_169,flores,word,outside,understands; produces,Flor(es),NA,flores,Flowers,flower,NA

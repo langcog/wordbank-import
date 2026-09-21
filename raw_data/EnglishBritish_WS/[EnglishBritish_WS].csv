@@ -28,7 +28,7 @@ item_26,animals,Banimals7bug,B animals - 7 bug,produces,word,,bug,bug
 item_27,animals,Banimals8bunny,B animals - 8 bunny,produces,word,,bunny,bunny
 item_28,animals,Banimals9butterfly,B animals - 9 butterfly,produces,word,,butterfly,butterfly
 item_29,animals,Banimals10cat,B animals - 10 cat,produces,word,,cat,cat
-item_30,animals,Banimals11chicken,B animals - 11 chicken,produces,word,,chicken,chicken (animal)
+item_30,animals,Banimals11chicken,B animals - 11 chicken,produces,word,,chicken (animal),chicken (animal)
 item_31,animals,Banimals12cow,B animals - 12 cow,produces,word,,cow,cow
 item_32,animals,Banimals13crab,B animals - 13 crab,produces,word,,crab,crab
 item_33,animals,Banimals14crocodile,B animals - 14 crocodile,produces,word,,crocodile,crocodile
@@ -38,7 +38,7 @@ item_36,animals,Banimals17dog,B animals - 17 dog,produces,word,,dog,dog
 item_37,animals,Banimals18donkey,B animals - 18 donkey,produces,word,,donkey,donkey
 item_38,animals,Banimals19duck,B animals - 19 duck,produces,word,,duck,duck
 item_39,animals,Banimals20elephant,B animals - 20 elephant,produces,word,,elephant,elephant
-item_40,animals,Banimals21fish,B animals - 21 fish,produces,word,,fish,fish (animal)
+item_40,animals,Banimals21fish,B animals - 21 fish,produces,word,,fish (animal),fish (animal)
 item_41,animals,Banimals22fly,B animals - 22 fly,produces,word,,fly,fly (animal)
 item_42,animals,Banimals23fox,B animals - 23 fox,produces,word,,fox,fox
 item_43,animals,Banimals24frog,B animals - 24 frog,produces,word,,frog,frog
@@ -105,7 +105,7 @@ item_103,toys,Dtoys9doll,D toys - 9 doll,produces,word,,doll,doll
 item_104,toys,Dtoys10game,D toys - 10 game,produces,word,,game,game
 item_105,toys,Dtoys11lego,D toys - 11 lego,produces,word,,lego,block
 item_106,toys,Dtoys12pen,D toys - 12 pen,produces,word,,pen,pen
-item_107,toys,Dtoys13pencil,D toys - 13 pencil,produces,word,,pencil,Pencil
+item_107,toys,Dtoys13pencil,D toys - 13 pencil,produces,word,,pencil,pencil
 item_108,toys,Dtoys14playdough,D toys - 14 playdough,produces,word,,playdough,play dough
 item_109,toys,Dtoys15puzzle,D toys - 15 puzzle,produces,word,,puzzle,puzzle
 item_110,toys,Dtoys16story,D toys - 16 story,produces,word,,story,story
@@ -123,7 +123,7 @@ item_121,food_drink,Efoods8cake,E foods - 8 cake,produces,word,,cake,cake
 item_122,food_drink,Efoods9carrot,E foods - 9 carrot,produces,word,,carrot,carrot
 item_123,food_drink,Efoods10cereal,E foods - 10 cereal,produces,word,,cereal,cereal
 item_124,food_drink,Efoods11cheese,E foods - 11 cheese,produces,word,,cheese,cheese
-item_125,food_drink,Efoods12chicken,E foods - 12 chicken,produces,word,,chicken,chicken
+item_125,food_drink,Efoods12chicken,E foods - 12 chicken,produces,word,,chicken (food),chicken (food)
 item_126,food_drink,Efoods13chips,E foods - 13 chips,produces,word,,chips,chips
 item_127,food_drink,Efoods14chocolate,E foods - 14 chocolate,produces,word,,chocolate,chocolate
 item_128,food_drink,Efoods15chocolatebiscuit,E foods - 15 chocolatebiscuit,produces,word,,chocolatebiscuit,biscuit
@@ -132,7 +132,7 @@ item_130,food_drink,Efoods17crisps,E foods - 17 crisps,produces,word,,crisps,chi
 item_131,food_drink,Efoods18cucumber,E foods - 18 cucumber,produces,word,,cucumber,cucumber
 item_132,food_drink,Efoods19drink,E foods - 19 drink,produces,word,,drink,drink
 item_133,food_drink,Efoods20egg,E foods - 20 egg,produces,word,,egg,egg
-item_134,food_drink,Efoods21fish,E foods - 21 fish,produces,word,,fish,fish (food)
+item_134,food_drink,Efoods21fish,E foods - 21 fish,produces,word,,fish (food),fish (food)
 item_135,food_drink,Efoods22food,E foods - 22 food,produces,word,,food,food
 item_136,food_drink,Efoods23grapes,E foods - 23 grapes,produces,word,,grapes,grapes
 item_137,food_drink,Efoods24greenbeans,E foods - 24 greenbeans,produces,word,,greenbeans,beans
@@ -181,7 +181,7 @@ item_179,food_drink,Efoods66tomatosauceketchup,E foods - 66 tomatosauce/ketchup,
 item_180,food_drink,Efoods67tuna,E foods - 67 tuna,produces,word,,tuna,tuna
 item_181,food_drink,Efoods68vanilla,E foods - 68 vanilla,produces,word,,vanilla,vanilla
 item_182,food_drink,Efoods69vitamins,E foods - 69 vitamins,produces,word,,vitamins,
-item_183,food_drink,Efoods70water,E foods - 70 water,produces,word,,water,water (beverage)
+item_183,food_drink,Efoods70water,E foods - 70 water,produces,word,,water (beverage),water (beverage)
 item_184,food_drink,Efoods71yoghurt,E foods - 71 yoghurt,produces,word,,yoghurt,yogurt
 item_185,body_parts,Fbody1ankle,F body - 1 ankle,produces,word,,ankle,ankle
 item_186,body_parts,Fbody2arm,F body - 2 arm,produces,word,,arm,arm
@@ -311,8 +311,8 @@ item_309,household,Ismallitems27matrug,I smallitems - 27 mat/rug,produces,word,,
 item_310,household,Ismallitems28medicine,I smallitems - 28 medicine,produces,word,,medicine,medicine
 item_311,household,Ismallitems29mirror,I smallitems - 29 mirror,produces,word,,mirror,mirror
 item_312,household,Ismallitems30money,I smallitems - 30 money,produces,word,,money,money
-item_313,household,Ismallitems31mop,I smallitems - 31 mop,produces,word,,mop,mop
-item_314,household,Ismallitems32nail,I smallitems - 32 nail,produces,word,,nail,nail
+item_313,household,Ismallitems31mop,I smallitems - 31 mop,produces,word,,mop,mop (object)
+item_314,household,Ismallitems32nail,I smallitems - 32 nail,produces,word,,nail,nail (object)
 item_315,household,Ismallitems33napkin,I smallitems - 33 napkin,produces,word,,napkin,napkin
 item_316,household,Ismallitems34paper,I smallitems - 34 paper,produces,word,,paper,paper
 item_317,household,Ismallitems35penny,I smallitems - 35 penny,produces,word,,penny,penny
@@ -332,7 +332,7 @@ item_330,household,Ismallitems48telephonephonemobile,I smallitems - 48 telephone
 item_331,household,Ismallitems49tissue,I smallitems - 49 tissue,produces,word,,tissue,tissue
 item_332,household,Ismallitems50toothbrush,I smallitems - 50 toothbrush,produces,word,,toothbrush,toothbrush
 item_333,household,Ismallitems51towel,I smallitems - 51 towel,produces,word,,towel,towel
-item_334,household,Ismallitems52watch,I smallitems - 52 watch,produces,word,,watch,watch (object)
+item_334,household,Ismallitems52watch,I smallitems - 52 watch,produces,word,,watch (object),watch (object)
 item_335,outside,Joutside1backyard,J outside - 1 backyard,produces,word,,backyard,backyard
 item_336,outside,Joutside2cloud,J outside - 2 cloud,produces,word,,cloud,cloud
 item_337,outside,Joutside3flag,J outside - 3 flag,produces,word,,flag,flag
@@ -344,7 +344,7 @@ item_342,outside,Joutside8mud,J outside - 8 mud,produces,word,,mud,mud
 item_343,outside,Joutside9pavement,J outside - 9 pavement,produces,word,,pavement,pavement
 item_344,outside,Joutside10pond,J outside - 10 pond,produces,word,,pond,pond
 item_345,outside,Joutside11puddle,J outside - 11 puddle,produces,word,,puddle,puddle
-item_346,outside,Joutside12rain,J outside - 12 rain,produces,word,,rain,rain
+item_346,outside,Joutside12rain,J outside - 12 rain,produces,word,,rain,rain (weather)
 item_347,outside,Joutside13rainbow,J outside - 13 rainbow,produces,word,,rainbow,rainbow
 item_348,outside,Joutside14road,J outside - 14 road,produces,word,,road,road
 item_349,outside,Joutside15rock,J outside - 15 rock,produces,word,,rock,stone
@@ -362,7 +362,7 @@ item_360,outside,Joutside26sun,J outside - 26 sun,produces,word,,sun,sun
 item_361,outside,Joutside27swing,J outside - 27 swing,produces,word,,swing,swing
 item_362,outside,Joutside28tree,J outside - 28 tree,produces,word,,tree,tree
 item_363,outside,Joutside29wall,J outside - 29 wall,produces,word,,wall,wall
-item_364,outside,Joutside30water,J outside - 30 water,produces,word,,water,water (not beverage)
+item_364,outside,Joutside30water,J outside - 30 water,produces,word,,water (not beverage),water (not beverage)
 item_365,outside,Joutside31wateringcan,J outside - 31 wateringcan,produces,word,,wateringcan,watering can
 item_366,outside,Joutside32wind,J outside - 32 wind,produces,word,,wind,wind
 item_367,outside,Joutside33woods,J outside - 33 woods,produces,word,,woods,forest
@@ -384,7 +384,7 @@ item_382,places,Kplaces15restaurant,K places - 15 restaurant,produces,word,,rest
 item_383,places,Kplaces16school,K places - 16 school,produces,word,,school,school
 item_384,places,Kplaces17shop,K places - 17 shop,produces,word,,shop,shop
 item_385,places,Kplaces18softplay,K places - 18 softplay,produces,word,,softplay,
-item_386,places,Kplaces19work,K places - 19 work,produces,word,,work,work (place)
+item_386,places,Kplaces19work,K places - 19 work,produces,word,,work (place),work (place)
 item_387,places,Kplaces20zoo,K places - 20 zoo,produces,word,,zoo,zoo
 item_388,people,Lpeople1aunt,L people - 1 aunt,produces,word,,aunt,aunt
 item_389,people,Lpeople2baby,L people - 2 baby,produces,word,,baby,baby
@@ -452,7 +452,7 @@ item_450,action_words,Nactions7carry,N actions - 7 carry,produces,word,,carry,ca
 item_451,action_words,Nactions8catch,N actions - 8 catch,produces,word,,catch,catch
 item_452,action_words,Nactions9chase,N actions - 9 chase,produces,word,,chase,chase
 item_453,action_words,Nactions10clap,N actions - 10 clap,produces,word,,clap,clap
-item_454,action_words,Nactions11clean,N actions - 11 clean,produces,word,,clean,clean (action)
+item_454,action_words,Nactions11clean,N actions - 11 clean,produces,word,,clean (action),clean (action)
 item_455,action_words,Nactions12climb,N actions - 12 climb,produces,word,,climb,climb
 item_456,action_words,Nactions13come,N actions - 13 come,produces,word,,come,come
 item_457,action_words,Nactions14cook,N actions - 14 cook,produces,word,,cook,cook
@@ -532,10 +532,10 @@ item_530,action_words,Nactions87wait,N actions - 87 wait,produces,word,,wait,wai
 item_531,action_words,Nactions88wake,N actions - 88 wake,produces,word,,wake,wake
 item_532,action_words,Nactions89walk,N actions - 89 walk,produces,word,,walk,walk
 item_533,action_words,Nactions90wash,N actions - 90 wash,produces,word,,wash,wash
-item_534,action_words,Nactions91watch,N actions - 91 watch,produces,word,,watch,watch (action)
+item_534,action_words,Nactions91watch,N actions - 91 watch,produces,word,,watch (action),watch (action)
 item_535,action_words,Nactions92wipe,N actions - 92 wipe,produces,word,,wipe,wipe
 item_536,action_words,Nactions93wish,N actions - 93 wish,produces,word,,wish,wish
-item_537,action_words,Nactions94work,N actions - 94 work,produces,word,,work,work (action)
+item_537,action_words,Nactions94work,N actions - 94 work,produces,word,,work (action),work (action)
 item_538,action_words,Nactions95write,N actions - 95 write,produces,word,,write,write
 item_539,descriptive_words,Odescribing1allgone,O describing - 1 allgone,produces,word,,allgone,all gone
 item_540,descriptive_words,Odescribing2asleep,O describing - 2 asleep,produces,word,,asleep,asleep
@@ -549,7 +549,7 @@ item_547,descriptive_words,Odescribing9blue,O describing - 9 blue,produces,word,
 item_548,descriptive_words,Odescribing10broken,O describing - 10 broken,produces,word,,broken,broken
 item_549,descriptive_words,Odescribing11brown,O describing - 11 brown,produces,word,,brown,brown
 item_550,descriptive_words,Odescribing12careful,O describing - 12 careful,produces,word,,careful,careful
-item_551,descriptive_words,Odescribing13clean,O describing - 13 clean,produces,word,,clean,clean (description)
+item_551,descriptive_words,Odescribing13clean,O describing - 13 clean,produces,word,,clean (description),clean (description)
 item_552,descriptive_words,Odescribing14cold,O describing - 14 cold,produces,word,,cold,cold
 item_553,descriptive_words,Odescribing15colour,O describing - 15 colour,produces,word,,colour,color
 item_554,descriptive_words,Odescribing16dark,O describing - 16 dark,produces,word,,dark,dark

@@ -34,7 +34,7 @@ item_32,鸡肉,ji1rou4,food_drink,word,produces,chicken (food),chicken (food)
 item_33,酱油,jiang4you2,food_drink,word,produces,sauce,sauce
 item_34,饺子,jiao3zi5,food_drink,word,produces,dumpling,dumpling
 item_35,酒,jiu3,food_drink,word,produces,alcohol,alcohol
-item_36,桔子,ju2zi5,food_drink,word,produces,orange,orange (food)
+item_36,桔子,ju2zi5,food_drink,word,produces,orange (food),orange (food)
 item_37,咖啡,ka1fei1,food_drink,word,produces,coffee,coffee
 item_38,烤鸭,kao3ya1,food_drink,word,produces,toasted duck,NA
 item_39,可乐,ke3le4,food_drink,word,produces,coke,coke
@@ -166,7 +166,7 @@ item_164,鸭子,ya1zi5,animals,word,produces,duck,duck
 item_165,羊,yang2,animals,word,produces,sheep,sheep
 item_166,鱼,yu2,animals,word,produces,fish (animal),fish (animal)
 item_167,猪,zhu1,animals,word,produces,pig,pig
-item_168,苍蝇,cang1ying5,animals,word,produces,fly,fly (animal)
+item_168,苍蝇,cang1ying5,animals,word,produces,fly (animal),fly (animal)
 item_169,翅膀,chi4bang3,animals,word,produces,wing,wing
 item_170,大灰狼,da4 hui1lang2,animals,word,produces,big gray wolf,wolf
 item_171,鸽子,ge1zi5,animals,word,produces,pigeon,pigeon
@@ -227,7 +227,7 @@ item_225,脚趾,jiao3zhi3,body_parts,word,produces,toe,toe
 item_226,屁股,pi4gu5,body_parts,word,produces,butt,butt
 item_227,手,shou3,body_parts,word,produces,hand,hand
 item_228,手指头,shou3zhi3tou5,body_parts,word,produces,finger,finger
-item_229,指甲,zhi3jia5,body_parts,word,produces,nail,nail (body part)
+item_229,指甲,zhi3jia5,body_parts,word,produces,nail (body part),nail (body part)
 item_230,头,tou2,body_parts,word,produces,head,head
 item_231,头发,tou2fa5,body_parts,word,produces,hair,hair
 item_232,膝盖,xi1gai4,body_parts,word,produces,knee,knee
@@ -261,7 +261,7 @@ item_259,脏,zang1,descriptive_words,word,produces,dirty,dirty
 item_260,红色,hong2se4,descriptive_words,word,produces,red,red
 item_261,(吃)没了,(chi1)mei2le5,descriptive_words,word,produces,all gone,all gone
 item_262,高,gao1,descriptive_words,word,produces,high,high
-item_263,桔黄色,ju2huang2se4,descriptive_words,word,produces,orange,orange (description)
+item_263,桔黄色,ju2huang2se4,descriptive_words,word,produces,orange (description),orange (description)
 item_264,害怕,hai4pa4,descriptive_words,word,produces,scared,scared
 item_265,好听,hao3ting1,descriptive_words,word,produces,ear-pleasing,NA
 item_266,困,kun4,descriptive_words,word,produces,sleepy,sleepy
@@ -297,7 +297,7 @@ item_295,硬,ying4,descriptive_words,word,produces,hard,hard
 item_296,老,lao3,descriptive_words,word,produces,old,old
 item_297,不许,bu4xu3,descriptive_words,word,produces,cannot,cannot
 item_298,粘,nian2,descriptive_words,word,produces,sticky,sticky
-item_299,轻,qing1,descriptive_words,word,produces,light,light (description)
+item_299,轻,qing1,descriptive_words,word,produces,light (description),light (description)
 item_300,慢,man4,descriptive_words,word,produces,slow,slow
 item_301,不行,bu4xing2,descriptive_words,word,produces,cannot,cannot
 item_302,饱,bao3,descriptive_words,word,produces,full,full
@@ -367,10 +367,10 @@ item_365,被子,bei4zi5,household,word,produces,NA,blanket
 item_366,叉子,cha1zi5,household,word,produces,fork,fork
 item_367,刀,dao1,household,word,produces,knife,knife
 item_368,灯,deng1,household,word,produces,lamp,lamp
-item_369,钉子,ding1zi5,household,word,produces,nail,nail (object)
+item_369,钉子,ding1zi5,household,word,produces,nail (object),nail (object)
 item_370,肥皂,fei2zao4,household,word,produces,soap,soap
 item_371,罐头,guan4tou5,household,word,produces,can,can (object)
-item_372,光,guang1,household,word,produces,light,light (object)
+item_372,光,guang1,household,word,produces,light (object),light (object)
 item_373,光盘,guang1pan2,household,word,produces,disk,CD
 item_374,锅,guo1,household,word,produces,pot,pot
 item_375,盒子,he2zi5,household,word,produces,box,box
@@ -394,7 +394,7 @@ item_392,伞,san3,household,word,produces,umbrella,umbrella
 item_393,勺子,shao2zi5,household,word,produces,spoon,spoon
 item_394,手表,shou3biao3,household,word,produces,watch (object),watch (object)
 item_395,书包,shu1bao1,household,word,produces,bag,bag
-item_396,梳子,shu1zi5,household,word,produces,comb,comb (object)
+item_396,梳子,shu1zi5,household,word,produces,comb (object),comb (object)
 item_397,刷子,shua1zi5,household,word,produces,brush,brush (object)
 item_398,水壶,shui3hu2,household,word,produces,jug,jug
 item_399,锁,suo3,household,word,produces,lock,lock (object)
@@ -456,7 +456,7 @@ item_454,星星,xing1xing5,outside,word,produces,star,star
 item_455,雪,xue3,outside,word,produces,snow,snow
 item_456,雪人,xue3ren2,outside,word,produces,snowman,snowman
 item_457,游泳池,you2yong3chi2,outside,word,produces,pool,pool
-item_458,雨,yu3,outside,word,produces,rain,rain
+item_458,雨,yu3,outside,word,produces,rain (weather),rain (weather)
 item_459,院子,yuan4zi5,outside,word,produces,backyard,backyard
 item_460,月亮,yue4liang5,outside,word,produces,moon,moon
 item_461,云,yun2,outside,word,produces,cloud,cloud
@@ -512,7 +512,7 @@ item_510,摔倒,shuai1dao3,action_words,word,produces,fall down,fall
 item_511,丢,diu1,action_words,word,produces,lose,lose
 item_512,读,du2,action_words,word,produces,read,read
 item_513,放,fang4,action_words,word,produces,put,put
-item_514,飞,fei1,action_words,word,produces,fly,fly (action)
+item_514,飞,fei1,action_words,word,produces,fly (action),fly (action)
 item_515,分(享),fen1(xiang3),action_words,word,produces,share,share
 item_516,盖(被子),gai4 (bei4zi5),action_words,word,produces,cover,cover (action)
 item_517,盖(楼房),gai4 (lou2fang2),action_words,word,produces,build,build
@@ -559,7 +559,7 @@ item_557,洒,sa3,action_words,word,produces,splash,splash
 item_558,扫地,sao3di4,action_words,word,produces,sweep the floor,sweep
 item_559,生病,sheng1bing4,action_words,word,produces,get sick,sick
 item_560,适合,shi4he2,action_words,word,produces,fit,fit
-item_561,梳(头),shu1 (tou2),action_words,word,produces,comb,comb (action)
+item_561,梳(头),shu1 (tou2),action_words,word,produces,comb (action),comb (action)
 item_562,刷牙,shua1ya2,action_words,word,produces,brush teeth,brush teeth
 item_563,睡觉,shui4jiao4,action_words,word,produces,sleep,sleep
 item_564,说(话),shuo1 (hua4),action_words,word,produces,say,say
@@ -579,7 +579,7 @@ item_577,玩,wan2,action_words,word,produces,play,play
 item_578,喂,wei4,action_words,word,produces,feed,feed
 item_579,洗,xi3,action_words,word,produces,wash,wash
 item_580,喜欢,xi3huan5,action_words,word,produces,like,like
-item_581,下雨,xia4yu3,action_words,word,produces,rain,rain
+item_581,下雨,xia4yu3,action_words,word,produces,rain (action),rain (action)
 item_582,想,xiang3,action_words,word,produces,think,think
 item_583,笑,xiao4,action_words,word,produces,smile,smile
 item_584,写,xie3,action_words,word,produces,write,write
@@ -654,7 +654,7 @@ item_652,帽子,mao4zi5,clothing,word,produces,hat,hat
 item_653,裤子,ku4zi5,clothing,word,produces,pants,pants
 item_654,短裤,duan3ku4,clothing,word,produces,pants, shorts
 item_655,鞋,xie2,clothing,word,produces,shoe,shoe
-item_656,雨鞋,yu3xie2,clothing,word,produces,rain boot,boots
+item_656,雨鞋,yu3xie2,clothing,word,produces,rain boot,boot
 item_657,皮鞋,pi2xie2,clothing,word,produces,shoe,shoe
 item_658,拖鞋,tuo1xie2,clothing,word,produces,slipper,slipper
 item_659,运动鞋,yun4dong4xie2,clothing,word,produces,sneakers,sneaker
@@ -669,7 +669,7 @@ item_667,袜子,wa4zi5,clothing,word,produces,sock,sock
 item_668,珠子,zhu1zi5,clothing,word,produces,beads,beads
 item_669,扣子,kou4zi5,clothing,word,produces,button,button
 item_670,他(她),ta1,pronouns,word,produces,he, she
-item_671,他(她)的,ta1de5,pronouns,word,produces,his, her
+item_671,他(她)的,ta1de5,pronouns,word,produces,his,3SG.POSS
 item_672,他们,ta1men5,pronouns,word,produces,them,3PL
 item_673,他们的,ta1men5 de5,pronouns,word,produces,their,3PL.POSS
 item_674,你,ni3,pronouns,word,produces,you,2SG
@@ -690,12 +690,12 @@ item_688,那个,na4ge5,pronouns,word,produces,that,that
 item_689,怎么,zen3me5,question_words,word,produces,how,how
 item_690,什么,shen2me5,question_words,word,produces,what,what
 item_691,几点,ji3dian3,question_words,word,produces,when (question),when (question)
-item_692,哪里,na3li5,question_words,word,produces,where,where (question)
+item_692,哪里,na3li5,question_words,word,produces,where (question),where (question)
 item_693,哪个,na3ge5,question_words,word,produces,which (question),which (question)
 item_694,谁,shui2,question_words,word,produces,who,who
 item_695,为什么,wei4shen2me5,question_words,word,produces,why,why
 item_696,干吗,gan4ma2,question_words,word,produces,what are you doing?,NA
-item_697,哪儿,nar3,question_words,word,produces,where,where (question)
+item_697,哪儿,nar3,question_words,word,produces,where (question),where (question)
 item_698,以前,yi3qian2,time_words,word,produces,before,before
 item_699,以后,yi3hou4,time_words,word,produces,after,after
 item_700,今天,jin1tian1,time_words,word,produces,today,today

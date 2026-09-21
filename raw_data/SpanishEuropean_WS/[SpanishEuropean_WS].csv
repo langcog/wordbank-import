@@ -73,7 +73,7 @@ item_71,loro,word,animals,produces,loro,NA,parrot,parrot
 item_72,mariposa,word,animals,produces,mariposa,NA,butterfly,butterfly
 item_73,mariquit,word,animals,produces,mariquita,NA,ladybug,ladybug
 item_74,mono,word,animals,produces,mono,NA,monkey,monkey
-item_75,mosca,word,animals,produces,mosca,NA,fly,fly (animal)
+item_75,mosca,word,animals,produces,mosca,NA,fly (animal),fly (animal)
 item_76,oso,word,animals,produces,oso,NA,bear,bear
 item_77,oveja,word,animals,produces,oveja,NA,sheep,sheep
 item_78,paloma,word,animals,produces,paloma,NA,dove,pigeon
@@ -81,7 +81,7 @@ item_79,pajaro,word,animals,produces,pájaro,NA,bird,bird
 item_80,pantera,word,animals,produces,pantera,NA,panther,panther
 item_81,pato,word,animals,produces,pato,NA,duck,duck
 item_82,perro,word,animals,produces,perro,NA,dog,dog
-item_83,pez,word,animals,produces,pez,NA,fish,fish (animal)
+item_83,pez,word,animals,produces,pez,NA,fish (animal),fish (animal)
 item_84,pollito,word,animals,produces,pollito,NA,chick,chick
 item_85,rana,word,animals,produces,rana,NA,frog,frog
 item_86,rata,word,animals,produces,rata,NA,rat,rat
@@ -225,7 +225,7 @@ item_223,pan,word,food_drink,produces,pan,NA,bread,bread
 item_224,pastel,word,food_drink,produces,pastel,NA,pie,pie
 item_225,patata,word,food_drink,produces,patata/s,NA,potato,potato
 item_226,pera,word,food_drink,produces,pera,NA,pear,pear
-item_227,pescado,word,food_drink,produces,pescado,NA,fish,fish (food)
+item_227,pescado,word,food_drink,produces,pescado,NA,fish (food),fish (food)
 item_228,piruleta,word,food_drink,produces,piruleta,NA,lollipop,lollipop
 item_229,platano,word,food_drink,produces,plátano,NA,plantain,plantain
 item_230,pollo,word,food_drink,produces,pollo,NA,chicken (food),chicken (food)
@@ -247,7 +247,7 @@ item_245,babero,word,clothing,produces,babero,NA,bib,bib
 item_246,baby,word,clothing,produces,baby,NA,NA,NA
 item_247,banador,word,clothing,produces,bañador,NA,swimsuit,swimsuit
 item_248,body,word,clothing,produces,body,NA,NA,NA
-item_249,botas,word,clothing,produces,bota/s,NA,boots,boots
+item_249,botas,word,clothing,produces,bota/s,NA,boots,boot
 item_250,boton,word,clothing,produces,botón,NA,button,button
 item_251,bufanda,word,clothing,produces,bufanda,NA,scarf,scarf
 item_252,calcetin,word,clothing,produces,calcetín/es,NA,socks,sock
@@ -267,7 +267,7 @@ item_265,pijama,word,clothing,produces,pijima,NA,pajamas,pajamas
 item_266,ropa,word,clothing,produces,ropa,NA,clothing,clothes
 item_267,sandalia,word,clothing,produces,sandalia,NA,sandal,sandal
 item_268,sombrero,word,clothing,produces,sombrero,NA,hat,hat
-item_269,vestido,word,clothing,produces,vestido,NA,dress,dress (object)
+item_269,vestido,word,clothing,produces,vestido,NA,dress (object),dress (object)
 item_270,zapatill,word,clothing,produces,zapatilla/s,NA,sneakers,sneaker
 item_271,zapatos,word,clothing,produces,zapato/s,NA,shoes,shoe
 item_272,arbol,word,outside_places,produces,árbol,NA,tree,tree
@@ -287,7 +287,7 @@ item_285,guarderi,word,outside_places,produces,guardería,NA,kindergarten,kinder
 item_286,hierba,word,outside_places,produces,hierba/césped,NA,grass,grass
 item_287,jardin,word,outside_places,produces,jardín,NA,yard/garden,yard
 item_288,luna,word,outside_places,produces,luna,NA,moon,moon
-item_289,lluvia,word,outside_places,produces,lluvia,NA,rain,rain
+item_289,lluvia,word,outside_places,produces,lluvia,NA,rain (weather),rain (weather)
 item_290,mar,word,outside_places,produces,mar,NA,sea,sea
 item_291,metro,word,outside_places,produces,metro,NA,subway,subway
 item_292,nieve,word,outside_places,produces,nieve,NA,snow,snow
@@ -408,7 +408,7 @@ item_406,reir,word,action_words,produces,reír(se),NA,laugh,laugh
 item_407,lavar,word,action_words,produces,lavar(se),NA,wash,wash
 item_408,leer,word,action_words,produces,leer,NA,read,read
 item_409,llamar,word,action_words,produces,llamar,NA,call,call
-item_410,llover,word,action_words,produces,llover,NA,rain,rain
+item_410,llover,word,action_words,produces,llover,NA,rain (action),rain (action)
 item_411,llorar,word,action_words,produces,llorar,NA,to cry,cry
 item_412,meter,word,action_words,produces,meter(se),NA,put,put
 item_413,mirar,word,action_words,produces,mirar,NA,to look,look
@@ -444,8 +444,8 @@ item_442,traer,word,action_words,produces,traer,NA,to bring,bring
 item_443,valer,word,action_words,produces,valer,NA,to value,value (action)
 item_444,venir,word,action_words,produces,"venir [ven, vente]",NA,to come,come
 item_445,ver,word,action_words,produces,ver,NA,to watch/see,watch (action)
-item_446,vestir,word,action_words,produces,vestir(se),NA,dress,dress (action)
-item_447,volar,word,action_words,produces,volar,NA,fly,fly (action)
+item_446,vestir,word,action_words,produces,vestir(se),NA,dress (action),dress (action)
+item_447,volar,word,action_words,produces,volar,NA,fly (action),fly (action)
 item_448,contar,word,action_words,produces,contar,NA,to tell,tell
 item_449,alto,word,descriptive_words,produces,alto,NA,tall,tall
 item_450,amarillo,word,descriptive_words,produces,amarillo,NA,yellow,yellow

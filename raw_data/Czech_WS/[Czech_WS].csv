@@ -37,7 +37,7 @@ item_35,35_pavouk,word,animals,produces,pavouk,NA,spider,spider
 item_36,36_pes,word,animals,produces,pes,NA,dog,dog
 item_37,37_prase,word,animals,produces,prase,NA,pig,pig
 item_38,38_ptak,word,animals,produces,pták,NA,bird,bird
-item_39,39_ryba1,word,animals,produces,ryba,NA,fish,fish (animal)
+item_39,39_ryba1,word,animals,produces,ryba,NA,fish (animal),fish (animal)
 item_40,40_slepice,word,animals,produces,slepice,NA,chicken/hen,hen
 item_41,41_snek,word,animals,produces,šnek,NA,snail,snail
 item_42,42_tygr,word,animals,produces,tygr,NA,tiger,tiger
@@ -123,14 +123,14 @@ item_121,121_kakao,word,food_drink,produces,kakao,NA,cocoa,NA
 item_122,122_med,word,food_drink,produces,med,NA,honey,honey
 item_123,123_parek,word,food_drink,produces,párek,NA,frankfurter,hot dog
 item_124,124_piskot,word,food_drink,produces,piškot,NA,biscuit,biscuit
-item_125,125_piti,word,food_drink,produces,pití,NA,drink,drink (beverage)
+item_125,125_piti,word,food_drink,produces,pití,NA,drink (beverage),drink (beverage)
 item_126,126_pivo,word,food_drink,produces,pivo,NA,beer,beer
 item_127,127_polevka,word,food_drink,produces,polévka,NA,soup,soup
 item_128,128_pomeranc,word,food_drink,produces,pomeranč,NA,orange,orange (food)
 item_129,129_rajce,word,food_drink,produces,rajče,NA,tomato,tomato
 item_130,130_rohlik,word,food_drink,produces,rohlík,NA,breadroll,bun
 item_131,131_rozinka,word,food_drink,produces,rozinka,NA,sultana,raisin
-item_132,132_ryba2,word,food_drink,produces,ryba,NA,fish,fish (food)
+item_132,132_ryba2,word,food_drink,produces,ryba,NA,fish (food),fish (food)
 item_133,133_ryze,word,food_drink,produces,rýže,NA,rice,rice
 item_134,134_sul,word,food_drink,produces,sůl,NA,salt,salt
 item_135,135_susenka,word,food_drink,produces,sušenka,NA,cracker/biscuit,biscuit
@@ -148,7 +148,7 @@ item_146,146_bryle,word,clothing,produces,brýle,NA,glasses,glasses
 item_147,147_bryndak,word,clothing,produces,bryndák,NA,bib,bib
 item_148,148_bunda,word,clothing,produces,bunda,NA,jacket,jacket
 item_149,149_cepice,word,clothing,produces,čepice,NA,cap,hat
-item_150,150_holinky,word,clothing,produces,holinky,NA,boots,boots
+item_150,150_holinky,word,clothing,produces,holinky,NA,boots,boot
 item_151,151_kabat,word,clothing,produces,kabát,NA,coat,coat
 item_152,152_kalhoty,word,clothing,produces,kalhotky,NA,panties,underpants
 item_153,153_kalhotky,word,clothing,produces,kalhoty,NA,trousers,pants
@@ -197,7 +197,7 @@ item_195,195_ruka,word,body_parts,produces,ruka,NA,hand/arm,arm
 item_196,196_baterka,word,household,produces,baterka,NA,flashlight/battery,light (object)
 item_197,197_cedecko,word,household,produces,cédéčko,NA,CD,NA
 item_198,198_dudlik,word,household,produces,dudlík,NA,dummy,pacifier
-item_199,199_hodinky,word,household,produces,hodinky,NA,watch,watch (object)
+item_199,199_hodinky,word,household,produces,hodinky,NA,watch (object),watch (object)
 item_200,200_hrnek,word,household,produces,hrnek,NA,cup,cup
 item_201,201_hreben,word,household,produces,hřeben,NA,comb,comb (object)
 item_202,202_kapesnik,word,household,produces,kapesník,NA,handkerchief,tissue
@@ -255,7 +255,7 @@ item_253,253_umyvadlo,word,furniture_rooms,produces,umyvadlo,NA,sink,sink
 item_254,254_vana,word,furniture_rooms,produces,vana,NA,tub,bath
 item_255,255_zidle,word,furniture_rooms,produces,židle,NA,chair,chair
 item_256,256_bazen,word,outside_places,produces,bazén,NA,swimming pool,pool
-item_257,257_dest,word,outside_places,produces,déšť,NA,rain,rain
+item_257,257_dest,word,outside_places,produces,déšť,NA,rain (weather),rain (weather)
 item_258,258_doma,word,outside_places,produces,doma,NA,home,home
 item_259,259_dum,word,outside_places,produces,dům,NA,house,house
 item_260,260_hadice,word,outside_places,produces,hadice,NA,hose,hose
@@ -277,7 +277,7 @@ item_275,275_nebe,word,outside_places,produces,nebe,NA,sky,sky
 item_276,276_obchod,word,outside_places,produces,obchod,NA,shop,store
 item_277,277_park,word,outside_places,produces,park,NA,park,park
 item_278,278_pisek,word,outside_places,produces,písek,NA,sand,sand
-item_279,279_prace,word,outside_places,produces,práce,NA,work,work (place)
+item_279,279_prace,word,outside_places,produces,práce,NA,work (place),work (place)
 item_280,280_sekacka,word,outside_places,produces,sekačka,NA,lawnmower,lawn mower
 item_281,281_skala,word,outside_places,produces,skála,NA,rock,rock (object)
 item_282,282_slunce,word,outside_places,produces,slunce,NA,sun,sun
@@ -327,7 +327,7 @@ item_325,325_bydlet,word,action_words,produces,bydlet,NA,live/stay,NA
 item_326,326_cakat,word,action_words,produces,cákat,NA,splah,splash
 item_327,327_cekat,word,action_words,produces,čekat,NA,wait,wait
 item_328,328_cist,word,action_words,produces,čist,NA,read,read
-item_329,329_cistit,word,action_words,produces,čistit,NA,clean,clean (action)
+item_329,329_cistit,word,action_words,produces,čistit,NA,clean (action),clean (action)
 item_330,330_curat,word,action_words,produces,čůrat,NA,pee,pee
 item_331,331_dat,word,action_words,produces,dát,NA,give,give
 item_332,332_delat,word,action_words,produces,dělat,NA,do,do
@@ -349,7 +349,7 @@ item_347,347_jist,word,action_words,produces,jíst,NA,eat,eat
 item_348,348_jit,word,action_words,produces,jít,NA,go/walk,walk
 item_349,349_kakat,word,action_words,produces,kakat,NA,poop,poop
 item_350,350_kopat,word,action_words,produces,kopat,NA,dig,kick
-item_351,351_koukat,word,action_words,produces,koukat,NA,watch,watch (action)
+item_351,351_koukat,word,action_words,produces,koukat,NA,watch (action),watch (action)
 item_352,352_koupit,word,action_words,produces,koupit,NA,buy,buy
 item_353,353_kousat,word,action_words,produces,kousat,NA,bite,NA
 item_354,354_kousnout,word,action_words,produces,kousnout,NA,bite,bite
@@ -369,16 +369,16 @@ item_367,367_nest,word,action_words,produces,nést,NA,carry,carry
 item_368,368_opravovat,word,action_words,produces,opravovat,NA,repair,fix
 item_369,369_otevrit,word,action_words,produces,otevřít,NA,open,open (action)
 item_370,370_palit,word,action_words,produces,pálit,NA,burn,NA
-item_371,371_pit,word,action_words,produces,pít,NA,drink,drink (action)
+item_371,371_pit,word,action_words,produces,pít,NA,drink (action),drink (action)
 item_372,372_plakat,word,action_words,produces,plakat,NA,cry,cry
 item_373,373_plavat,word,action_words,produces,plavat,NA,swimm,swim
 item_374,374_podivatse,word,action_words,produces,podívat se,NA,look at,look
 item_375,375_polozit,word,action_words,produces,položit,NA,put/lay/place,put
 item_376,376_pomoct,word,action_words,produces,pomoct,NA,help,help
 item_377,377_povidat,word,action_words,produces,povídat,NA,talk,talk
-item_378,378_pracovat,word,action_words,produces,pracovat,NA,work,work (action)
+item_378,378_pracovat,word,action_words,produces,pracovat,NA,work (action),work (action)
 item_379,379_probuditse,word,action_words,produces,probudit se,NA,wake up,wake
-item_380,380_prset,word,action_words,produces,pršet,NA,rain,rain
+item_380,380_prset,word,action_words,produces,pršet,NA,rain (action),rain (action)
 item_381,381_prikryt,word,action_words,produces,přikrýt,NA,cover,cover (action)
 item_382,382_prinest,word,action_words,produces,přinést,NA,bring,bring
 item_383,383_psat,word,action_words,produces,psát,NA,write,write
@@ -447,7 +447,7 @@ item_445,445_zetechytim,word,games_routines,produces,že tě cghytím,NA,I'll ca
 item_446,446_bily,word,descriptive_words,produces,bílý,NA,white,white
 item_447,447_cerny,word,descriptive_words,produces,černý,NA,black,black
 item_448,448_cerveny,word,descriptive_words,produces,červený,NA,red,red
-item_449,449_cisty,word,descriptive_words,produces,čistý,NA,clean,clean (description)
+item_449,449_cisty,word,descriptive_words,produces,čistý,NA,clean (description),clean (description)
 item_450,450_dlouhy,word,descriptive_words,produces,dlouhý,NA,long,long
 item_451,451_dobry,word,descriptive_words,produces,dobrý,NA,good,good
 item_452,452_hezky,word,descriptive_words,produces,hezký,NA,pretty,nice

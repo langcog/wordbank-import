@@ -15,7 +15,7 @@ item_13,Ente,animals,Ente,word,produces,NA,duck,duck
 item_14,Nilpferd,animals,Nilpferd,word,produces,NA,hippopothamus,hippopotamus
 item_15,Spinne,animals,Spinne,word,produces,NA,spider,spider
 item_16,Elefant,animals,Elefant,word,produces,NA,elephant,elephant
-item_17,Fisch (Tier),animals,Fisch,word,produces,NA,fish,fish (animal)
+item_17,Fisch (Tier),animals,Fisch,word,produces,NA,fish (animal),fish (animal)
 item_18,Frosch,animals,Frosch,word,produces,NA,frog,frog
 item_19,Vogel,animals,Vogel,word,produces,NA,bird,bird
 item_20,Huhn,animals,Huhn,word,produces,NA,hen,chicken (animal)
@@ -82,10 +82,10 @@ item_80,Saft,food_drink,Saft,word,produces,NA,juice,juice
 item_81,Fleisch,food_drink,Fleisch,word,produces,NA,meat,meat
 item_82,Suppe,food_drink,Suppe,word,produces,NA,soup,soup
 item_83,Nudeln,food_drink,Nudeln,word,produces,NA,noodles,pasta
-item_84,Orange/Apfelsine,food_drink,Orange/Apfelsine,word,produces,NA,orange,orange (food)
+item_84,Orange/Apfelsine,food_drink,Orange/Apfelsine,word,produces,NA,orange (food),orange (food)
 item_85,Brötchen,food_drink,Brotchen,word,produces,NA,breadroll,bun
 item_86,Pfannkuchen,food_drink,Pfannkuchen,word,produces,NA,pancake,pancake
-item_87,Fisch (Essen),food_drink,Fisch,word,produces,NA,fish,fish (food)
+item_87,Fisch (Essen),food_drink,Fisch,word,produces,NA,fish (food),fish (food)
 item_88,Spaghetti,food_drink,Spaghetti,word,produces,NA,spaghetti,spaghetti
 item_89,Essen,food_drink,Essen,word,produces,NA,meal,food
 item_90,Banane,food_drink,Banane,word,produces,NA,banana,banana
@@ -246,15 +246,15 @@ item_244,Fahne,outside,Fahne,word,produces,NA,flag,flag
 item_245,Sandkasten,outside,Sandkasten,word,produces,NA,sandpit,sandbox
 item_246,Schaufel,outside,Schaufel,word,produces,NA,shovel,shovel
 item_247,Himmel,outside,Himmel,word,produces,NA,sky,sky
-item_248,Rutsche,outside,Rutsche,word,produces,NA,slide,slide (object)
+item_248,Rutsche,outside,Rutsche,word,produces,NA,slide (object),slide (object)
 item_249,Schnee,outside,Schnee,word,produces,NA,snow,snow
 item_250,Schneemann,outside,Schneemann,word,produces,NA,snowman,snowman
-item_251,Regen,outside,Regen,word,produces,NA,rain,rain
+item_251,Regen,outside,Regen,word,produces,NA,rain,rain (weather)
 item_252,Stein,outside,Stein,word,produces,NA,stone,stone
 item_253,Dach,outside,Dach,word,produces,NA,roof,roof
 item_254,Straße,outside,Strasse,word,produces,NA,street,street
 item_255,Sonne,outside,Sonne,word,produces,NA,sun,sun
-item_256,Schaukel,outside,Schaukel,word,produces,NA,swing,swing (object)
+item_256,Schaukel,outside,Schaukel,word,produces,NA,swing (object),swing (object)
 item_257,Baum,outside,Baum,word,produces,NA,tree,tree
 item_258,Bahnhof,outside,Bahnhof,word,produces,NA,station,station
 item_259,Wind,outside,Wind,word,produces,NA,wind,wind
@@ -286,7 +286,7 @@ item_284,Spielplatz,places,Spielplatz,word,produces,NA,playground,playground
 item_285,Schule,places,Schule,word,produces,NA,school,school
 item_286,Supermarkt,places,Supermarkt,word,produces,NA,supermarket,grocery
 item_287,Wald,places,Wald,word,produces,NA,forest,forest
-item_288,Arbeit,places,Arbeit,word,produces,NA,work,work (place)
+item_288,Arbeit,places,Arbeit,word,produces,NA,work (place),work (place)
 item_289,Stadt,places,Stadt,word,produces,NA,town,town
 item_290,Bauernhof,places,Bauernhof,word,produces,NA,farm,farm
 item_291,Tante,people,Tante,word,produces,NA,aunt,aunt
@@ -350,12 +350,12 @@ item_348,lachen,action_words,lachen,word,produces,NA,laugh,laugh
 item_349,spielen,action_words,spielen,word,produces,NA,play,play
 item_350,hören,action_words,horen,word,produces,NA,hear,hear
 item_351,schneiden,action_words,schneiden,word,produces,NA,cut,cut
-item_352,arbeiten,action_words,arbeiten,word,produces,NA,work,work (action)
+item_352,arbeiten,action_words,arbeiten,word,produces,NA,work (action),work (action)
 item_353,bleiben,action_words,bleiben,word,produces,NA,stay,stay
 item_354,aufhören,action_words,aufhoren,word,produces,NA,stop,stop
 item_355,fahren,action_words,fahren,word,produces,NA,go,drive
 item_356,pusten,action_words,pusten,word,produces,NA,blow,blow
-item_357,schaukeln,action_words,schaukeln,word,produces,NA,swing,swing (action)
+item_357,schaukeln,action_words,schaukeln,word,produces,NA,swing (action),swing (action)
 item_358,reißen,action_words,reissen,word,produces,NA,tear,tear
 item_359,treten,action_words,treten,word,produces,NA,kick,kick
 item_360,essen,action_words,essen,word,produces,NA,eat,eat
@@ -380,7 +380,7 @@ item_378,trinken,action_words,trinken,word,produces,NA,drink,drink (action)
 item_379,stellen,action_words,stellen,word,produces,NA,put,put
 item_380,kuscheln,action_words,kuscheln,word,produces,NA,cuddle,cuddle
 item_381,beeilen,action_words,beeilen,word,produces,NA,rush,hurry
-item_382,trocknen,action_words,trocknen,word,produces,NA,dry,dry (action)
+item_382,trocknen,action_words,trocknen,word,produces,NA,dry (action),dry (action)
 item_383,nehmen,action_words,nehmen,word,produces,NA,take,take
 item_384,laufen,action_words,laufen,word,produces,NA,run,walk
 item_385,küssen,action_words,kussen,word,produces,NA,kiss,kiss
@@ -417,10 +417,10 @@ item_415,werfen,action_words,werfen,word,produces,NA,throw,throw
 item_416,fertig machen,action_words,fertig_machen,word,produces,NA,get ready,finish
 item_417,gucken,action_words,gucken,word,produces,NA,look,watch (action)
 item_418,heile machen,action_words,heile_machen,word,produces,NA,repair,fix
-item_419,sauber machen,action_words,sauber_machen,word,produces,NA,clean,clean (action)
+item_419,sauber machen,action_words,sauber_machen,word,produces,NA,clean (action),clean (action)
 item_420,klettern,action_words,klettern,word,produces,NA,climb,climb
 item_421,spazieren gehen,action_words,spazieren_gehen,word,produces,NA,go for walk,go for a walk
-item_422,rutschen,action_words,rutschen,word,produces,NA,slide,slide (action)
+item_422,rutschen,action_words,rutschen,word,produces,NA,slide (action),slide (action)
 item_423,aufheben,action_words,aufheben,word,produces,NA,pick up,lift (action)
 item_424,haben,action_words,haben,word,produces,NA,have,have
 item_425,weinen,action_words,weinen,word,produces,NA,cry,cry
@@ -437,7 +437,7 @@ item_435,hart,descriptive_words,hart,word,produces,NA,hard,hard
 item_436,blau,descriptive_words,blau,word,produces,NA,blue,blue
 item_437,heiß,descriptive_words,heiss,word,produces,NA,hot,hot
 item_438,langsam,descriptive_words,langsam,word,produces,NA,slow,slow
-item_439,sauber,descriptive_words,sauber,word,produces,NA,clean,clean (description)
+item_439,sauber,descriptive_words,sauber,word,produces,NA,clean (description),clean (description)
 item_440,klein,descriptive_words,klein,word,produces,NA,littele,little (description)
 item_441,dunkel,descriptive_words,dunkel,word,produces,NA,dark,dark
 item_442,schmutzig,descriptive_words,schmutzig,word,produces,NA,dirty,dirty
@@ -456,7 +456,7 @@ item_454,fest,descriptive_words,fest,word,produces,NA,tight,tight
 item_455,laut,descriptive_words,laut,word,produces,NA,loud,loud
 item_456,leer,descriptive_words,leer,word,produces,NA,empty,empty
 item_457,nett,descriptive_words,nett,word,produces,NA,nice,nice
-item_458,orange,descriptive_words,orange,word,produces,NA,orange,orange (description)
+item_458,orange,descriptive_words,orange,word,produces,NA,orange (description),orange (description)
 item_459,gut,descriptive_words,gut,word,produces,NA,good,good
 item_460,ruhig,descriptive_words,ruhig,word,produces,NA,quiet,quietly
 item_461,groß,descriptive_words,gross,word,produces,NA,big,big
@@ -467,7 +467,7 @@ item_465,verletzt,descriptive_words,verletzt,word,produces,NA,injured,hurt (desc
 item_466,klebrig,descriptive_words,klebrig,word,produces,NA,sticky,sticky
 item_467,niedlich,descriptive_words,niedlich,word,produces,NA,cute,cute
 item_468,winzig,descriptive_words,winzig,word,produces,NA,tiny,little (description)
-item_469,trocken,descriptive_words,trocken,word,produces,NA,dry,dry (description)
+item_469,trocken,descriptive_words,trocken,word,produces,NA,dry (description),dry (description)
 item_470,neu,descriptive_words,neu,word,produces,NA,new,new
 item_471,windig,descriptive_words,windig,word,produces,NA,windy,windy
 item_472,alt,descriptive_words,alt_,word,produces,NA,old,old
@@ -571,9 +571,9 @@ item_569,will,helping_verbs,will,word,produces,NA,will,will
 item_570,soll,helping_verbs,soll,word,produces,NA,shall,should
 item_571,muss,helping_verbs,muss,word,produces,NA,must,must
 item_572,sind,helping_verbs,sind,word,produces,NA,are,are
-item_573,kann,helping_verbs,kann,word,produces,NA,can,can (auxiliary)
+item_573,kann,helping_verbs,kann,word,produces,NA,can (auxiliary),can (auxiliary)
 item_574,müssen,helping_verbs,mussen,word,produces,NA,must,must
-item_575,können,helping_verbs,konnen,word,produces,NA,can,can (auxiliary)
+item_575,können,helping_verbs,konnen,word,produces,NA,can (auxiliary),can (auxiliary)
 item_576,sollst,helping_verbs,sollst,word,produces,NA,shall,should
 item_577,bist,helping_verbs,bist,word,produces,NA,are,are
 item_578,wollen,helping_verbs,wollen,word,produces,NA,want,wanna

@@ -69,7 +69,7 @@ item_67,bubbles,toys,item_67,word,understands; produces,bubbles,bubbles
 item_68,doll,toys,item_68,word,understands; produces,doll,doll
 item_69,game,toys,item_69,word,understands; produces,game,game
 item_70,pen,toys,item_70,word,understands; produces,pen,pen
-item_71,pencil,toys,item_71,word,understands; produces,pencil,Pencil
+item_71,pencil,toys,item_71,word,understands; produces,pencil,pencil
 item_72,present,toys,item_72,word,understands; produces,present,present
 item_73,puzzle,toys,item_73,word,understands; produces,puzzle,puzzle
 item_74,story,toys,item_74,word,understands; produces,story,story
@@ -226,7 +226,7 @@ item_224,park,outside,item_224,word,understands; produces,park,park
 item_225,party,outside,item_225,word,understands; produces,party,party
 item_226,playground,outside,item_226,word,understands; produces,playground,playground
 item_227,(swimming) pool,outside,item_227,word,understands; produces,(swimming) pool,pool
-item_228,rain,outside,item_228,word,understands; produces,rain,rain
+item_228,rain,outside,item_228,word,understands; produces,rain,rain (weather)
 item_229,rock,outside,item_229,word,understands; produces,rock,stone
 item_230,roof,outside,item_230,word,understands; produces,roof,roof
 item_231,sandpit,outside,item_231,word,understands; produces,sandpit,sandbox
@@ -428,7 +428,7 @@ item_426,vitamin,food_drink,item_426,word,understands; produces,vitamin,vitamin
 item_427,water_food,food_drink,item_427,word,understands; produces,water_food,water (beverage)
 item_428,yogurt,food_drink,item_428,word,understands; produces,yogurt,yogurt
 item_429,aircon,furniture_rooms,item_429,word,understands; produces,aircon,air conditioner
-item_430,baby chair,furniture_rooms,item_430,word,understands; produces,baby chair,baby chair
+item_430,baby chair,furniture_rooms,item_430,word,understands; produces,baby chair,high chair
 item_431,bathroom,furniture_rooms,item_431,word,understands; produces,bathroom,bathroom
 item_432,bed,furniture_rooms,item_432,word,understands; produces,bed,bed
 item_433,bedroom,furniture_rooms,item_433,word,understands; produces,bedroom,bedroom
@@ -578,7 +578,7 @@ item_576,light,household,item_576,word,understands; produces,light,light
 item_577,medicine,household,item_577,word,understands; produces,medicine,medicine
 item_578,mirror,household,item_578,word,understands; produces,mirror,mirror
 item_579,money,household,item_579,word,understands; produces,money,money
-item_580,mop,household,item_580,word,understands; produces,mop,mop
+item_580,mop,household,item_580,word,understands; produces,mop,mop (object)
 item_581,nail_house,household,item_581,word,understands; produces,nail_house,nail (object)
 item_582,paper,household,item_582,word,understands; produces,paper,paper
 item_583,picture,household,item_583,word,understands; produces,picture,picture

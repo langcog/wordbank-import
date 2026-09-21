@@ -46,7 +46,7 @@ item_231,flower,word,outside,understands; produces,flower,NA,flower,flower
 item_233,home,word,outside,understands; produces,home,NA,home,home
 item_235,moon,word,outside,understands; produces,moon,NA,moon,moon
 item_236,outside,word,outside,understands; produces,outside,NA,outside,outside
-item_240,rain,word,outside,understands; produces,rain,NA,rain,rain
+item_240,rain,word,outside,understands; produces,rain,NA,rain,rain (weather)
 item_241,rock,word,outside,understands; produces,rock,NA,rock,rock (object)
 item_252,water.not_beverage,word,outside,understands; produces,water (not beverage),NA,water (not beverage),water (not beverage)
 item_257,babysitter,word,people,understands; produces,babysitter,NA,babysitter,babysitter
@@ -80,7 +80,7 @@ item_371,fast,word,descriptive_words,understands; produces,fast,NA,fast,fast
 item_379,hurt,word,descriptive_words,understands; produces,hurt,NA,hurt,hurt (description)
 item_384,pretty,word,descriptive_words,understands; produces,pretty,NA,pretty,pretty
 item_389,soft,word,descriptive_words,understands; produces,soft,NA,soft,soft
-item_396,i,word,pronouns,understands; produces,I,NA,I,I
+item_396,i,word,pronouns,understands; produces,I,NA,I,1SG
 item_398,me,word,pronouns,understands; produces,me,NA,me,me
 item_405,how,word,question_words,understands; produces,how,NA,how,how
 item_409,who,word,question_words,understands; produces,who,NA,who,who

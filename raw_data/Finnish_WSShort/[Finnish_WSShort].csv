@@ -86,10 +86,10 @@ item_466,time_words,huomenna,huomenna,word,tomorrow,tomorrow
 item_594,connecting_words,sitten,sitten,word,then,then
 item_590,connecting_words,taas,taas,word,again,again
 item_464,time_words,tänään,tänään,word,today,today
-item_538,pronouns,hän,hän,word,he she,he
+item_538,pronouns,hän,hän,word,he she,3SG
 item_525,pronouns,he,he,word,they,they
 item_537,pronouns,heidän,heidän,word,their,their
-item_542,pronouns,minä,minä,word,I,I
+item_542,pronouns,minä,minä,word,I,1SG
 item_553,question_words,miksi,miksi,word,why,why
 item_558,prepositions,auki,auki,word,turned on,open (description)
 item_560,prepositions,pois,pois,word,away,away

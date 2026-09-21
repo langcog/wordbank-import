@@ -189,7 +189,7 @@ item_187,NA,word,understands; produces,food_drink,džem / lekvár,NA,jam / marma
 item_188,NA,word,understands; produces,clothing,body,NA,points,NA
 item_189,NA,word,understands; produces,clothing,bunda,NA,a jacket,coat
 item_190,NA,word,understands; produces,clothing,čiapka,NA,a cap,hat
-item_191,NA,word,understands; produces,clothing,čižmy,NA,boots,boots
+item_191,NA,word,understands; produces,clothing,čižmy,NA,boots,boot
 item_192,NA,word,understands; produces,clothing,klobúk,NA,a hat,hat
 item_193,NA,word,understands; produces,clothing,košeľa,NA,shirt,shirt
 item_194,NA,word,understands; produces,clothing,mašľa / gumička,NA,bow / rubber,NA
@@ -218,7 +218,7 @@ item_216,NA,word,understands; produces,body_parts,cop / vrkoč,NA,braid,braid (o
 item_217,NA,word,understands; produces,body_parts,čelo,NA,forehead,forehead
 item_218,NA,word,understands; produces,body_parts,hlava,NA,head,head
 item_219,NA,word,understands; produces,body_parts,hrča,NA,bump,bump
-item_220,NA,word,understands; produces,body_parts,chrbátik,NA,back,back (body part)
+item_220,NA,word,understands; produces,body_parts,chrbátik,NA,back (body part),back (body part)
 item_221,NA,word,understands; produces,body_parts,jazyk,NA,language,tongue
 item_222,NA,word,understands; produces,body_parts,kaka / hovienko,NA,poop,poop
 item_223,NA,word,understands; produces,body_parts,kolienko,NA,knuckle,knee
@@ -323,7 +323,7 @@ item_321,NA,word,understands; produces,household,zubná pasta,NA,toothpaste,toot
 item_322,NA,word,understands; produces,household,zvonček,NA,bell,bell
 item_323,NA,word,understands; produces,household,svetlo,NA,the light,light (object)
 item_324,NA,word,understands; produces,outside,búda,NA,shed,shed
-item_325,NA,word,understands; produces,outside,dážď,NA,the rain,rain
+item_325,NA,word,understands; produces,outside,dážď,NA,the rain,rain (weather)
 item_326,NA,word,understands; produces,outside,dom,NA,House,house
 item_327,NA,word,understands; produces,outside,domov,NA,Home,home
 item_328,NA,word,understands; produces,outside,garáž,NA,garage,garage
@@ -355,7 +355,7 @@ item_353,NA,word,understands; produces,outside,koľajnice,NA,rails,rail
 item_354,NA,word,understands; produces,outside,mesiac,NA,a month,moon
 item_355,NA,word,understands; produces,outside,mrak/oblak,NA,cloud / cloud,cloud
 item_356,NA,word,understands; produces,outside,tunel,NA,tunnel,tunnel
-item_357,NA,word,understands; produces,outside,šmýkačka,NA,slide,slide (object)
+item_357,NA,word,understands; produces,outside,šmýkačka,NA,slide (object),slide (object)
 item_358,NA,word,understands; produces,outside,tráva,NA,grass,grass
 item_359,NA,word,understands; produces,outside,komín,NA,chimney,chimney
 item_360,NA,word,understands; produces,outside,vietor,NA,wind,wind
@@ -479,7 +479,7 @@ item_477,NA,word,understands; produces,action_words,spievať,NA,to sing,sing
 item_478,NA,word,understands; produces,action_words,spláchnuť,NA,flush,flush
 item_479,NA,word,understands; produces,action_words,stáť / zastaviť,NA,cost / stop,stop
 item_480,NA,word,understands; produces,action_words,svietiť,NA,shine,shine
-item_481,NA,word,understands; produces,action_words,šmýkať (sa),NA,slide,slide (action)
+item_481,NA,word,understands; produces,action_words,šmýkať (sa),NA,slide (action),slide (action)
 item_482,NA,word,understands; produces,action_words,telefonovať,NA,call,call
 item_483,NA,word,understands; produces,action_words,tiecť,NA,to flow,flow
 item_484,NA,word,understands; produces,action_words,umývať (sa),NA,Wash,wash

@@ -38,7 +38,7 @@ item_60,WOLF,word,animals,understands; produces,WOLF,NA,wolf,wolf
 item_61,ZEBRA,word,animals,understands; produces,ZEBRA,NA,zebra,zebra
 item_62,BELT,word,clothing,understands; produces,BELT,NA,belt,belt
 item_63,BIB,word,clothing,understands; produces,BIB,NA,bib,bib
-item_64,BOOT,word,clothing,understands; produces,BOOT,NA,boot,boots
+item_64,BOOT,word,clothing,understands; produces,BOOT,NA,boot,boot
 item_65,BUTTON,word,clothing,understands; produces,BUTTON,NA,button,button
 item_66,COAT_JACKET,word,clothing,understands; produces,COAT/JACKET,NA,coat/jacket,coat
 item_67,DIAPER,word,clothing,understands; produces,DIAPER,NA,diaper,diaper
@@ -216,7 +216,7 @@ item_238,COWBOY,word,people,understands; produces,COWBOY,NA,cowboy,cowboy
 item_239,COUSIN,word,people,understands; produces,COUSIN,NA,cousin,cousin
 item_240,DADDY,word,people,understands; produces,DADDY,NA,daddy,daddy
 item_241,DOCTOR,word,people,understands; produces,DOCTOR,NA,doctor,doctor
-item_242,FIREMAN,word,people,understands; produces,FIREMAN,NA,fireman,fireman
+item_242,FIREMAN,word,people,understands; produces,FIREMAN,NA,fireman,firefighter
 item_243,FRIEND,word,people,understands; produces,FRIEND,NA,friend,friend
 item_244,GIRL,word,people,understands; produces,GIRL,NA,girl,girl
 item_245,GRANDMA,word,people,understands; produces,GRANDMA,NA,grandma,grandma
@@ -226,7 +226,7 @@ item_248,MAILMAN,word,people,understands; produces,MAILMAN,NA,mailman,mailman
 item_249,MAN,word,people,understands; produces,MAN,NA,man,man
 item_250,MOMMY,word,people,understands; produces,MOMMY,NA,mommy,mommy
 item_251,MONSTER,word,people,understands; produces,MONSTER,NA,monster,monster
-item_252,"NAME_SIGNS",word,people,understands; produces,"NAME SIGNS",NA,name signs,NA
+item_252,NAME_SIGNS,word,people,understands; produces,NAME SIGNS,NA,name signs,NA
 item_253,NURSE,word,people,understands; produces,NURSE,NA,nurse,nurse
 item_254,PEOPLE,word,people,understands; produces,PEOPLE,NA,people,people
 item_255,POLICE,word,people,understands; produces,POLICE,NA,police,policeman
@@ -322,7 +322,7 @@ item_344,LADDER,word,outside,understands; produces,LADDER,NA,ladder,ladder
 item_345,LAWN_MOWER,word,outside,understands; produces,LAWN MOWER,NA,lawn mower,lawn mower
 item_346,LIGHTNING,word,outside,understands; produces,LIGHTNING,NA,lightning,lightning
 item_347,MOON,word,outside,understands; produces,MOON,NA,moon,moon
-item_348,RAIN,word,outside,understands; produces,RAIN,NA,rain,rain
+item_348,RAIN,word,outside,understands; produces,RAIN,NA,rain,rain (weather)
 item_349,ROCK,word,outside,understands; produces,ROCK,NA,rock,rock (object)
 item_350,SHOVEL,word,outside,understands; produces,SHOVEL,NA,shovel,shovel
 item_351,SNOW,word,outside,understands; produces,SNOW,NA,snow,snow
@@ -393,8 +393,8 @@ item_415,KNIFE,word,household,understands; produces,KNIFE,NA,knife,knife
 item_416,LETTER,word,household,understands; produces,LETTER,NA,letter,letter
 item_417,MEDICINE,word,household,understands; produces,MEDICINE,NA,medicine,medicine
 item_418,MONEY,word,household,understands; produces,MONEY,NA,money,money
-item_419,MOP,word,household,understands; produces,MOP,NA,mop,mop
-item_420,"NAPKIN",word,household,understands; produces,"NAPKIN",NA,napkin,napkin
+item_419,MOP,word,household,understands; produces,MOP,NA,mop,mop (object)
+item_420,NAPKIN,word,household,understands; produces,NAPKIN,NA,napkin,napkin
 item_421,NEWSPAPER,word,household,understands; produces,NEWSPAPER,NA,newspaper,newspaper
 item_422,PAPER,word,household,understands; produces,PAPER,NA,paper,paper
 item_423,PICTURE,word,household,understands; produces,PICTURE,NA,picture,picture
@@ -429,7 +429,7 @@ item_451,HI,word,games_routines,understands; produces,HI,NA,hi,hi
 item_452,I_LOVE_YOU,word,games_routines,understands; produces,I-LOVE-YOU,NA,i-love-you,NA
 item_453,LETS_SEE,word,games_routines,understands; produces,LET'S-SEE,NA,let's-see,NA
 item_454,LUNCH,word,games_routines,understands; produces,LUNCH,NA,lunch,lunch
-item_455,"NAP",word,games_routines,understands; produces,"NAP",NA,nap,nap
+item_455,NAP,word,games_routines,understands; produces,NAP,NA,nap,nap
 item_456,NO,word,games_routines,understands; produces,NO,NA,no,no
 item_457,PEE_BM,word,games_routines,understands; produces,PEE/BM,NA,pee/bm,pee
 item_458,PEEKABOO,word,games_routines,understands; produces,PEEKABOO,NA,peekaboo,peekaboo

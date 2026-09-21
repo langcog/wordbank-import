@@ -88,7 +88,7 @@ item_86,tortila,word,food_drink,understands; produces,tortilla,NA,tortilla,torti
 item_87,uvas,word,food_drink,understands; produces,uvas,NA,grapes,grapes
 item_88,aretes,word,clothing,understands; produces,aretes,NA,earrings,earring
 item_89,babera,word,clothing,understands; produces,babero,NA,bib,bib
-item_90,botas,word,clothing,understands; produces,botas,NA,boots,boots
+item_90,botas,word,clothing,understands; produces,botas,NA,boots,boot
 item_91,boton,word,clothing,understands; produces,botón,NA,button,button
 item_92,calceti,word,clothing,understands; produces,calcetines,NA,socks,sock
 item_93,calzon,word,clothing,understands; produces,calzón,NA,underwear,underpants
@@ -206,7 +206,7 @@ item_204,fiesta,word,outside,understands; produces,fiesta,NA,party,party
 item_205,flor,word,outside,understands; produces,flor,NA,flower,flower
 item_206,iglstmp,word,outside,understands; produces,iglesia/templo,NA,church,church
 item_207,jardin,word,outside,understands; produces,jardín,NA,garden,garden
-item_208,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain
+item_208,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain (weather)
 item_209,luna,word,outside,understands; produces,luna,NA,moon,moon
 item_210,nieve,word,outside,understands; produces,nieve,NA,snow,snow
 item_211,nube,word,outside,understands; produces,nube,NA,cloud,cloud

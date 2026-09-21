@@ -55,7 +55,7 @@ item_53,tortuga,word,animals,understands; produces,tortuga,NA,tortoise,turtle
 item_54,vaca,word,animals,understands; produces,vaca,NA,cow,cow
 item_55,ciervo,word,animals,understands; produces,"ciervo (pudú, huemul, venado)",NA,deer,deer
 item_56,ambulancia,word,vehicles,understands; produces,ambulancia,NA,ambulance,ambulance
-item_57,auto,word,vehicles,understands; produces,auto,NA,self,self
+item_57,auto,word,vehicles,understands; produces,auto,NA,self,car
 item_58,avion,word,vehicles,understands; produces,avión,NA,plane,airplane
 item_59,barco,word,vehicles,understands; produces,barco,NA,ship,boat
 item_60,bicicleta,word,vehicles,understands; produces,bicicleta,NA,bicycle,bicycle
@@ -175,7 +175,7 @@ item_173,luz,word,household,understands; produces,luz,NA,light,light (object)
 item_174,llaves,word,household,understands; produces,llaves,NA,keys,key
 item_175,martillo,word,household,understands; produces,martillo,NA,hammer,hammer
 item_176,papel,word,household,understands; produces,papel,NA,paper,paper
-item_177,peineta,word,household,understands; produces,peineta,NA,comb,comb (object)
+item_177,peineta,word,household,understands; produces,peineta,NA,comb (object),comb (object)
 item_178,plato,word,household,understands; produces,plato,NA,plate,plate
 item_179,radio,word,household,understands; produces,radio,NA,radio,radio
 item_180,reloj,word,household,understands; produces,reloj,NA,clock,clock
@@ -225,7 +225,7 @@ item_223,flor,word,outside,understands; produces,flor,NA,flower,flower
 item_224,iglesia,word,outside,understands; produces,iglesia/templo,NA,church/temple,church
 item_225,jardin,word,outside,understands; produces,jardín,NA,garden,garden
 item_226,luna,word,outside,understands; produces,luna,NA,moon,moon
-item_227,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain
+item_227,lluvia,word,outside,understands; produces,lluvia,NA,rain,rain (weather)
 item_228,nieve,word,outside,understands; produces,nieve,NA,snow,snow
 item_229,nube,word,outside,understands; produces,nube,NA,cloud,cloud
 item_230,patio,word,outside,understands; produces,patio,NA,yard,yard
@@ -299,7 +299,7 @@ item_297,dar,word,action_words,understands; produces,dar,NA,give,give
 item_298,decir,word,action_words,understands; produces,decir,NA,say,say
 item_299,desayunar,word,action_words,understands; produces,desayunar,NA,breakfast,breakfast (action)
 item_300,dibujar,word,action_words,understands; produces,dibujar,NA,draw,draw
-item_301,doler,word,action_words,understands; produces,doler,NA,hurt,hurt (action)
+item_301,doler,word,action_words,understands; produces,doler,NA,hurt (action),hurt (action)
 item_302,dormir,word,action_words,understands; produces,dormir(se),NA,go to sleep,sleep
 item_303,empujar,word,action_words,understands; produces,empujar,NA,push,push
 item_304,ensenar,word,action_words,understands; produces,enseñar,NA,teach,teach
@@ -309,7 +309,7 @@ item_307,ir,word,action_words,understands; produces,ir(se),NA,go,go
 item_308,jugar,word,action_words,understands; produces,jugar,NA,play,play
 item_309,lavar,word,action_words,understands; produces,lavar(se),NA,wash,wash
 item_310,leer,word,action_words,understands; produces,leer,NA,read,read
-item_311,limpiar,word,action_words,understands; produces,limpiar,NA,clean,clean (action)
+item_311,limpiar,word,action_words,understands; produces,limpiar,NA,clean (action),clean (action)
 item_312,llevar,word,action_words,understands; produces,llevar(se),NA,carry,carry
 item_313,llorar,word,action_words,understands; produces,llorar,NA,cry,cry
 item_314,meter,word,action_words,understands; produces,meter(se),NA,get,get
@@ -320,7 +320,7 @@ item_318,mostrar,word,action_words,understands; produces,mostrar,NA,show,show
 item_319,parar,word,action_words,understands; produces,parar(se),NA,stop,stop
 item_320,pasar,word,action_words,understands; produces,pasar,NA,pass,pass
 item_321,pegar,word,action_words,understands; produces,pegar(se),NA,stick,stick
-item_322,peinar,word,action_words,understands; produces,peinar(se),NA,comb,comb (action)
+item_322,peinar,word,action_words,understands; produces,peinar(se),NA,comb (action),comb (action)
 item_323,pintar,word,action_words,understands; produces,pintar,NA,paint,paint (action)
 item_324,poder,word,action_words,understands; produces,poder,NA,can,can (auxiliary)
 item_325,poner,word,action_words,understands; produces,poner(se),NA,put on,put on
@@ -368,9 +368,9 @@ item_366,frio,word,descriptive_words,understands; produces,frío,NA,cold,cold
 item_367,fuchi,word,descriptive_words,understands; produces,fuchi/guácala (asqueroso),NA,disgusting,yucky
 item_368,grande,word,descriptive_words,understands; produces,grande,NA,large,big
 item_369,hambre,word,descriptive_words,understands; produces,hambre,NA,hungry,hungry
-item_370,herido,word,descriptive_words,understands; produces,herido,NA,hurt,hurt (description)
+item_370,herido,word,descriptive_words,understands; produces,herido,NA,hurt (description),hurt (description)
 item_371,igual,word,descriptive_words,understands; produces,igual,NA,same,same
-item_372,limpio,word,descriptive_words,understands; produces,limpio,NA,clean,clean (description)
+item_372,limpio,word,descriptive_words,understands; produces,limpio,NA,clean (description),clean (description)
 item_373,lindo,word,descriptive_words,understands; produces,lindo/guapo,NA,cute/handsome,cute
 item_374,lleno,word,descriptive_words,understands; produces,lleno,NA,full,full
 item_375,malo,word,descriptive_words,understands; produces,malo,NA,bad,bad

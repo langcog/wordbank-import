@@ -185,7 +185,7 @@ item_183,food_drink,morss,morss,produces,word,berry juice,juice
 item_184,food_drink,muna,muna,produces,word,egg,egg
 item_185,food_drink,mustikad,mustikad,produces,word,blueberries,blueberry
 item_186,food_drink,müsli,müsli,produces,word,muesli,cereal
-item_187,food_drink,näts,näts,produces,word,chewing gum,chewing gum
+item_187,food_drink,näts,näts,produces,word,chewing gum,gum
 item_188,food_drink,oad,oad,produces,word,beans,beans
 item_189,food_drink,pannkook,pannkook,produces,word,pancake,pancake
 item_190,food_drink,piim,piim,produces,word,milk,milk
@@ -236,7 +236,7 @@ item_234,body_parts,põlv,põlv,produces,word,knee,knee
 item_235,body_parts,põsk,põsk,produces,word,cheek,cheek
 item_236,body_parts,pöial,pöial,produces,word,thumb,thumb
 item_237,body_parts,rind,rind,produces,word,breast,breast
-item_238,body_parts,selg,selg,produces,word,back,back
+item_238,body_parts,selg,selg,produces,word,back (body part),back (body part)
 item_239,body_parts,silm,silm,produces,word,eye,eye
 item_240,body_parts,suu,suu,produces,word,mouth,mouth
 item_241,body_parts,sõrm,sõrm,produces,word,finger,finger
@@ -265,7 +265,7 @@ item_263,furniture_rooms,raadio,raadio,produces,word,radio,radio
 item_264,furniture_rooms,riiul,riiul,produces,word,shelf,shelf
 item_265,furniture_rooms,sahtel,sahtel,produces,word,drawer,drawer
 item_266,furniture_rooms,saun,saun,produces,word,sauna,sauna
-item_267,furniture_rooms,söögitool,söögitool,produces,word,dining chair,baby chair
+item_267,furniture_rooms,söögitool,söögitool,produces,word,dining chair,high chair
 item_268,furniture_rooms,televiisor,televiisor,produces,word,TV,TV
 item_269,furniture_rooms,tool,tool,produces,word,chair,chair
 item_270,furniture_rooms,trepp,trepp,produces,word,staircase,stairs
@@ -310,7 +310,7 @@ item_308,household,lamp,lamp,produces,word,lamp,lamp
 item_309,household,lill,lill,produces,word,plant,plant
 item_310,household,lina,lina,produces,word,bedsheet,sheet
 item_311,household,lusikas,lusikas,produces,word,spoon,spoon
-item_312,household,nael,nael,produces,word,nail,nail
+item_312,household,nael,nael,produces,word,nail,nail (object)
 item_313,household,nuga,nuga,produces,word,knife,knife
 item_314,household,nõud,nõud,produces,word,dishes,dish
 item_315,household,paber,paber,produces,word,paper,paper
@@ -371,7 +371,7 @@ item_369,outside,tuul,tuul,produces,word,wind,wind
 item_370,outside,täht,täht,produces,word,star,star
 item_371,outside,tänav,tänav,produces,word,street,street
 item_372,outside,vesi0,vesi0,produces,word,water (not beverage),water (not beverage)
-item_373,outside,vihm,vihm,produces,word,rain,rain
+item_373,outside,vihm,vihm,produces,word,rain,rain (weather)
 item_374,places,bensiinijaam,bensiinijaam,produces,word,gas station,gas station
 item_375,places,hoov,hoov,produces,word,yard,yard
 item_376,places,kino,kino,produces,word,cinema,movie
@@ -510,7 +510,7 @@ item_508,locations,koos,koos,produces,word,with,with
 item_509,locations,kõrval,kõrval,produces,word,next to,next to
 item_510,locations,maas,maas,produces,word,on the ground,
 item_511,locations,maha,maha,produces,word,to the ground,
-item_512,locations,peal,peal,produces,word,on top,on top
+item_512,locations,peal,peal,produces,word,on top,on top of
 item_513,locations,peale,peale,produces,word,onto,
 item_514,locations,seal,seal,produces,word,there,there
 item_515,locations,sees,sees,produces,word,inside,inside
@@ -618,7 +618,7 @@ item_616,descriptive_words,viimane,viimane,produces,word,last,last
 item_617,descriptive_words,väike,väike,produces,word,small,small
 item_618,descriptive_words,väsinud,väsinud,produces,word,tired,tired
 item_619,descriptive_words,ärkvel,ärkvel,produces,word,awake,awake
-item_620,pronouns,ise,ise,produces,word,self,self
+item_620,pronouns,ise,ise,produces,word,self,1SG
 item_621,pronouns,meie,meie,produces,word,we,1PL
 item_622,pronouns,mina,mina,produces,word,me,1SG
 item_623,pronouns,minu,minu,produces,word,mine,1SG

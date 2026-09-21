@@ -69,7 +69,7 @@ item_67,泡泡,toys,item_67,word,understands; produces,bubbles,bubbles
 item_68,洋娃娃,toys,item_68,word,understands; produces,doll,doll
 item_69,游戏,toys,item_69,word,understands; produces,game,game
 item_70,笔,toys,item_70,word,understands; produces,pen,pen
-item_71,铅笔,toys,item_71,word,understands; produces,pencil,Pencil
+item_71,铅笔,toys,item_71,word,understands; produces,pencil,pencil
 item_72,礼物,toys,item_72,word,understands; produces,present,present
 item_73,拼图,toys,item_73,word,understands; produces,puzzle,puzzle
 item_74,故事,toys,item_74,word,understands; produces,story,story
@@ -226,7 +226,7 @@ item_224,公园,outside,item_224,word,understands; produces,park,park
 item_225,庆祝会,outside,item_225,word,understands; produces,party,party
 item_226,游乐场,outside,item_226,word,understands; produces,playground,playground
 item_227,游泳池,outside,item_227,word,understands; produces,(swimming) pool,pool
-item_228,雨,outside,item_228,word,understands; produces,rain,rain
+item_228,雨,outside,item_228,word,understands; produces,rain,rain (weather)
 item_229,石头,outside,item_229,word,understands; produces,rock,stone
 item_230,屋顶,outside,item_230,word,understands; produces,roof,roof
 item_231,沙,outside,item_231,word,understands; produces,sandpit,sandbox
@@ -428,7 +428,7 @@ item_426,维他命,food_drink,item_426,word,understands; produces,vitamin,vitami
 item_427,水,food_drink,item_427,word,understands; produces,water_food,water (beverage)
 item_428,酸奶,food_drink,item_428,word,understands; produces,yogurt,yogurt
 item_429,冷气机,furniture_rooms,item_429,word,understands; produces,aircon,air conditioner
-item_430,高椅,furniture_rooms,item_430,word,understands; produces,baby chair,baby chair
+item_430,高椅,furniture_rooms,item_430,word,understands; produces,baby chair,high chair
 item_431,冲凉房,furniture_rooms,item_431,word,understands; produces,bathroom,bathroom
 item_432,床,furniture_rooms,item_432,word,understands; produces,bed,bed
 item_433,睡房,furniture_rooms,item_433,word,understands; produces,bedroom,bedroom
@@ -578,7 +578,7 @@ item_576,光,household,item_576,word,understands; produces,light,light
 item_577,药,household,item_577,word,understands; produces,medicine,medicine
 item_578,镜子,household,item_578,word,understands; produces,mirror,mirror
 item_579,钱,household,item_579,word,understands; produces,money,money
-item_580,拖把,household,item_580,word,understands; produces,mop,mop
+item_580,拖把,household,item_580,word,understands; produces,mop,mop (object)
 item_581,钉子,household,item_581,word,understands; produces,nail_house,nail (object)
 item_582,纸,household,item_582,word,understands; produces,paper,paper
 item_583,图画,household,item_583,word,understands; produces,picture,picture

@@ -116,7 +116,7 @@ item_114,item_114,word,toys,produces,stylo,pen/pencil,pen/pencil
 item_115,item_115,word,clothing,produces,basket,trainers,sneaker
 item_116,item_116,word,clothing,produces,bavoir/bavette,bib,bib
 item_117,item_117,word,clothing,produces,body,(??),NA
-item_118,item_118,word,clothing,produces,bottes,boots,boots
+item_118,item_118,word,clothing,produces,bottes,boots,boot
 item_119,item_119,word,clothing,produces,boutons,button,button
 item_120,item_120,word,clothing,produces,ceinture,belt,belt
 item_121,item_121,word,clothing,produces,chapeau,hat,hat
@@ -166,7 +166,7 @@ item_164,item_164,word,outside,produces,nuage,cloud,cloud
 item_165,item_165,word,outside,produces,pelle,shovel,shovel
 item_166,item_166,word,outside,produces,pierre,stone,stone
 item_167,item_167,word,outside,produces,piscine,pool,pool
-item_168,item_168,word,outside,produces,pluie,rain,rain
+item_168,item_168,word,outside,produces,pluie,rain,rain (weather)
 item_169,item_169,word,outside,produces,rocher,rock (object),rock (object)
 item_170,item_170,word,outside,produces,rue/route,road,road
 item_171,item_171,word,outside,produces,soleil,sun,sun
@@ -328,7 +328,7 @@ item_326,item_326,word,food_drink,produces,noisettes,hazelnut,nut
 item_327,item_327,word,food_drink,produces,nourriture,food,food
 item_328,item_328,word,food_drink,produces,nutella,nutella,nutella
 item_329,item_329,word,food_drink,produces,œuf,egg,egg
-item_330,item_330,word,food_drink,produces,orange,orange (fruit),orange (food)
+item_330,item_330,word,food_drink,produces,orange (food),orange (fruit),orange (food)
 item_331,item_331,word,food_drink,produces,pain,bread,bread
 item_332,item_332,word,food_drink,produces,pâtes,pasta,pasta
 item_333,item_333,word,food_drink,produces,petits gâteaux,small cake,muffin
@@ -462,7 +462,7 @@ item_460,item_460,word,descriptive_words,produces,minuscule,little (description)
 item_461,item_461,word,descriptive_words,produces,mouillé,wet (description),wet (description)
 item_462,item_462,word,descriptive_words,produces,neuf/ve,new,new
 item_463,item_463,word,descriptive_words,produces,noir,black,black
-item_464,item_464,word,descriptive_words,produces,orange,orange (description),orange (description)
+item_464,item_464,word,descriptive_words,produces,orange (description),orange (description),orange (description)
 item_465,item_465,word,descriptive_words,produces,parti,all gone,all gone
 item_466,item_466,word,descriptive_words,produces,pas bon,not good,bad
 item_467,item_467,word,descriptive_words,produces,petit/e,little (description),little (description)
@@ -625,7 +625,7 @@ item_623,item_623,word,locations,produces,à côté de,next to,next to
 item_624,item_624,word,locations,produces,à l'intérieur de,inside,inside
 item_625,item_625,word,locations,produces,au dessus de,above,above
 item_626,item_626,word,locations,produces,au loin,far,far
-item_627,item_627,word,locations,produces,au sommet de,at the top of,on top
+item_627,item_627,word,locations,produces,au sommet de,at the top of,on top of
 item_628,item_628,word,locations,produces,au sujet de,about,about
 item_629,item_629,word,locations,produces,autour de,around,around
 item_630,item_630,word,locations,produces,avec,with,with

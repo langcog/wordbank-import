@@ -105,11 +105,11 @@ item_103,word_76,masło/margaryna,word,understands; produces,food_drink,butter /
 item_104,word_77,mięso,word,understands; produces,food_drink,meat,meat
 item_105,word_78,mleko,word,understands; produces,food_drink,milk,milk
 item_106,word_79,paluszki,word,understands; produces,food_drink,saltsticks,snack
-item_107,word_80,picie,word,understands; produces,food_drink,drink,drink (beverage)
+item_107,word_80,picie,word,understands; produces,food_drink,drink (beverage),drink (beverage)
 item_108,word_81,ser,word,understands; produces,food_drink,cheese,cheese
 item_109,word_82,sok,word,understands; produces,food_drink,juice,juice
 item_110,word_83,szynka,word,understands; produces,food_drink,ham,ham
-item_111,word_84,woda_food_drink,word,understands; produces,food_drink,water,water (beverage)
+item_111,word_84,woda_food_drink,word,understands; produces,food_drink,water (beverage),water (beverage)
 item_112,word_85,ziemniaki/kartofle,word,understands; produces,food_drink,potatoes,potato
 item_113,word_86,zupa,word,understands; produces,food_drink,soup,soup
 item_114,word_87,bajka,word,understands; produces,toys,fairytale,story
@@ -156,7 +156,7 @@ item_154,word_127,oko,word,understands; produces,body_parts,eye,eye
 item_155,word_128,palec,word,understands; produces,body_parts,finger / toe,finger
 item_156,word_129,paznokcie/pazurki,word,understands; produces,body_parts,nails,nail (body part)
 item_157,word_130,pępek,word,understands; produces,body_parts,belly button,belly button
-item_158,word_131,plecy,word,understands; produces,body_parts,back,back
+item_158,word_131,plecy,word,understands; produces,body_parts,back,back (body part)
 item_159,word_132,pupa,word,understands; produces,body_parts,bottom,butt
 item_160,word_133,ręka,word,understands; produces,body_parts,hand,hand
 item_161,word_134,szyja,word,understands; produces,body_parts,neck,neck
@@ -190,7 +190,7 @@ item_188,word_161,wózek,word,understands; produces,furniture_rooms,stroller,str
 item_189,word_162,butelka,word,understands; produces,household,bottle,bottle
 item_190,word_163,garnek,word,understands; produces,household,pot,pot
 item_191,word_164,gazeta,word,understands; produces,household,newspaper,newspaper
-item_192,word_165,grzebień,word,understands; produces,household,comb,comb (object)
+item_192,word_165,grzebień,word,understands; produces,household,comb (object),comb (object)
 item_193,word_166,klucz,word,understands; produces,household,key,key
 item_194,word_167,koc/kołdra,word,understands; produces,household,blanket / duvet,blanket
 item_195,word_168,koszyk,word,understands; produces,household,basket,basket
@@ -212,7 +212,7 @@ item_210,word_183,ręcznik,word,understands; produces,household,towel,towel
 item_211,word_184,szczoteczka do zębów,word,understands; produces,household,toothbrush,toothbrush
 item_212,word_185,szklanka,word,understands; produces,household,glass,glass
 item_213,word_186,szmata/ścierka,word,understands; produces,household,dishcloth,rag
-item_214,word_187,śmieci,word,understands; produces,household,garbage,garbage
+item_214,word_187,śmieci,word,understands; produces,household,garbage,trash
 item_215,word_188,talerz,word,understands; produces,household,plate,plate
 item_216,word_189,telefon/komórka,word,understands; produces,household,phone / mobile,telephone
 item_217,word_190,torebka,word,understands; produces,household,bag,bag
@@ -220,7 +220,7 @@ item_218,word_191,widelec,word,understands; produces,household,fork,fork
 item_219,word_192,zdjęcie/fotografia,word,understands; produces,household,photo,photo
 item_220,word_193,zegarek,word,understands; produces,household,clock / watch,watch
 item_221,word_194,żelazko,word,understands; produces,household,iron,iron
-item_222,word_195,deszcz,word,understands; produces,outside,rain,rain
+item_222,word_195,deszcz,word,understands; produces,outside,rain,rain (weather)
 item_223,word_196,dom,word,understands; produces,outside,home / house,home
 item_224,word_197,drzewo,word,understands; produces,outside,tree,tree
 item_225,word_198,kamień,word,understands; produces,outside,stone,stone
@@ -240,7 +240,7 @@ item_238,word_211,spacer,word,understands; produces,outside,stroll,stroll
 item_239,word_212,śnieg,word,understands; produces,outside,snow,snow
 item_240,word_213,trawa,word,understands; produces,outside,grass,grass
 item_241,word_214,ulica,word,understands; produces,outside,street,street
-item_242,word_215,woda_outside,word,understands; produces,outside,water,water (not beverage)
+item_242,word_215,woda_outside,word,understands; produces,outside,water (not beverage),water (not beverage)
 item_243,word_216,ziemia,word,understands; produces,outside,earth,earth
 item_244,word_217,babcia,word,understands; produces,people,grandma,grandma
 item_245,word_218,chłopiec,word,understands; produces,people,boy,boy
@@ -256,7 +256,7 @@ item_254,word_227,mama/mamusia,word,understands; produces,people,mommy,mommy
 item_255,word_228,pan,word,understands; produces,people,sir,sir
 item_256,word_229,pani,word,understands; produces,people,lady,lady
 item_257,word_230,tata/tatuś,word,understands; produces,people,daddy,daddy
-item_258,word_231,własne imię dziecka,word,understands; produces,people,child's name,child's name
+item_258,word_231,własne imię dziecka,word,understands; produces,people,child's name,child's own name
 item_259,word_232,wujek,word,understands; produces,people,uncle,uncle
 item_260,word_233,cześć,word,understands; produces,games_routines,hi,hello
 item_261,word_234,dzień dobry,word,understands; produces,games_routines,good morning,good morning
@@ -295,7 +295,7 @@ item_293,word_266,ładny/ładnie,word,understands; produces,descriptive_words,pr
 item_294,word_267,mały,word,understands; produces,descriptive_words,small,small
 item_295,word_268,mokry/mokro,word,understands; produces,descriptive_words,wet,wet (description)
 item_296,word_269,(nie)grzeczny,word,understands; produces,descriptive_words,naughty / nice,naughty / nice
-item_297,word_270,otwarty,word,understands; produces,descriptive_words,open,open (description)
+item_297,word_270,otwarty,word,understands; produces,descriptive_words,open (description),open (description)
 item_298,word_271,prędko/szybko,word,understands; produces,descriptive_words,quickly,quickly
 item_299,word_272,umyty,word,understands; produces,descriptive_words,washed,washed
 item_300,word_273,zamknięty,word,understands; produces,descriptive_words,closed,closed
@@ -311,7 +311,7 @@ item_309,word_282,budować,word,understands; produces,action_words,build,build
 item_310,word_283,być (jest),word,understands; produces,action_words,be,be
 item_311,word_284,chcieć,word,understands; produces,action_words,want,want
 item_312,word_285,chodzić (chodź),word,understands; produces,action_words,walk (come),come
-item_313,word_286,czesać,word,understands; produces,action_words,comb,comb (action)
+item_313,word_286,czesać,word,understands; produces,action_words,comb (action),comb (action)
 item_314,word_287,czytać,word,understands; produces,action_words,read,read
 item_315,word_288,dać,word,understands; produces,action_words,give,give
 item_316,word_289,dmuchać,word,understands; produces,action_words,blow,blow
@@ -334,10 +334,10 @@ item_332,word_305,myć (się),word,understands; produces,action_words,wash,wash
 item_333,word_306,nieść/nosić,word,understands; produces,action_words,carry,carry
 item_334,word_307,obudzić (się),word,understands; produces,action_words,wake up,wake
 item_335,word_308,oglądać/obejrzeć,word,understands; produces,action_words,watch,watch (action)
-item_336,word_309,otworzyć,word,understands; produces,action_words,open,open (action)
+item_336,word_309,otworzyć,word,understands; produces,action_words,open (action),open (action)
 item_337,word_310,palić (się),word,understands; produces,action_words,burn,burn
 item_338,word_311,patrzeć (patrz),word,understands; produces,action_words,look,look
-item_339,word_312,pić,word,understands; produces,action_words,drink,drink (action)
+item_339,word_312,pić,word,understands; produces,action_words,drink (action),drink (action)
 item_340,word_313,pisać,word,understands; produces,action_words,write,write
 item_341,word_314,płakać,word,understands; produces,action_words,cry,cry
 item_342,word_315,prać,word,understands; produces,action_words,wash (launder),wash

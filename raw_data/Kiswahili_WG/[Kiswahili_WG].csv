@@ -166,7 +166,7 @@ item_164,j18wate,word,outside,understands; produces,Maji,NA,WaterO,water (not be
 item_165,j10sand,word,outside,understands; produces,Mchanga,NA,Sand,sand
 item_166,j7pipe,word,outside,understands; produces,mfereji/paipu,NA,Pipe,pipe
 item_167,j17tree,word,outside,understands; produces,Mti/Mwembe,NA,Tree,tree
-item_168,j8rain,word,outside,understands; produces,Mvua,NA,Rain,rain
+item_168,j8rain,word,outside,understands; produces,Mvua,NA,Rain,rain (weather)
 item_169,j6moon,word,outside,understands; produces,Mwezi,NA,Moon,moon
 item_170,j13spad,word,outside,understands; produces,Mwiko,NA,Spade,shovel
 item_171,j1buck,word,outside,understands; produces,Ndoo,NA,Bucket2,bucket

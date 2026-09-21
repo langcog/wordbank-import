@@ -29,7 +29,7 @@ item_27,b30lizka,word,animals,produces,Kajonjoloka,NA,Lizard,lizard
 item_28,b26harka,word,animals,produces,Katsungula,NA,"Hare, rabbit",bunny
 item_29,b16torko,word,animals,produces,Kobe,NA,Tortoise,turtle
 item_30,b12henko,word,animals,produces,Kolo,NA,Hen,hen
-item_31,b4chikuk,word,animals,produces,Kuku,NA,Chicken,chicken (animal)
+item_31,b4chikuk,word,animals,produces,Kuku,NA,Chicken (animal),chicken (animal)
 item_32,b19bedku,word,animals,produces,Kunguni,NA,Bed bug,bed bug
 item_33,b6crokun,word,animals,produces,Kunguru,NA,Crow,crow
 item_34,b7dogkur,word,animals,produces,Kuro,NA,Dog,dog
@@ -110,7 +110,7 @@ item_108,e48driki,word,food_drink,produces,Kinywadzi/Nyunya,NA,DrinkN,drink (bev
 item_109,e66potki,word,food_drink,produces,Kirazi,NA,Potato,potato
 item_110,e43bunki,word,food_drink,produces,Kitumbua,NA,Bun2,NA
 item_111,e74sweko,word,food_drink,produces,Koo,NA,Sweet,sweets
-item_112,e11chiku,word,food_drink,produces,Kuku,NA,Chicken,chicken (food)
+item_112,e11chiku,word,food_drink,produces,Kuku,NA,Chicken (food),chicken (food)
 item_113,e30sarku,word,food_drink,produces,Kumbu,NA,Sardine,fish (food)
 item_114,e47cowku,word,food_drink,produces,Kunde,NA,Cow peas,peas
 item_115,e50fruku,word,food_drink,produces,Kungu,NA,Fruit,fruit
@@ -183,7 +183,7 @@ item_181,f33pieki,word,clothing,produces,Kithambaa,NA,Piece of cloth,NA
 item_182,f25hatko,word,clothing,produces,Kofia/,NA,Hat/cap,hat
 item_183,f22coako,word,clothing,produces,Koti,NA,Coat,coat
 item_184,f3colles,word,clothing,produces,Leso,NA,Colured cloth worn by women and has wordings,NA
-item_185,f1boomab,word,clothing,produces,Mabuti,NA,Boots,boots
+item_185,f1boomab,word,clothing,produces,Mabuti,NA,Boots,boot
 item_186,f30necmu,word,clothing,produces,Mukufu/Ushanga,NA,Necklace,necklace
 item_187,f14undnd,word,clothing,produces,Ndaweya,NA,Underpants,underpants
 item_188,f5napnep,word,clothing,produces,Nepi,NA,Nappy,diaper
@@ -314,8 +314,8 @@ item_312,j7pipmuf,word,outside,produces,Mufereji/Paipu,NA,Pipe,pipe
 item_313,j17tremu,word,outside,produces,Muhi,NA,Tree,tree
 item_314,j22skymu,word,outside,produces,Mulunguni,NA,Sky,sky
 item_315,j20hosmu,word,outside,produces,Mupira wa madzi,NA,Hose pipe,hose
-item_316,j24swimu,word,outside,produces,Muteza,NA,Swing,swing (object)
-item_317,j8raimvu,word,outside,produces,Mvula,NA,Rain,rain
+item_316,j24swimu,word,outside,produces,Muteza,NA,Swing (object),swing (object)
+item_317,j8raimvu,word,outside,produces,Mvula,NA,Rain,rain (weather)
 item_318,j6moomwe,word,outside,produces,Mwezi,NA,Moon,moon
 item_319,j13spamw,word,outside,produces,Mwiko,NA,Spade,spade
 item_320,j1bucndo,word,outside,produces,Ndoo,NA,Bucket2,bucket
@@ -489,7 +489,7 @@ item_487,n99talsu,word,action_words,produces,Sumurira,NA,Talk or say something,N
 item_488,n83loota,word,action_words,produces,Tafuta,NA,Look for,look for
 item_489,n102tict,word,action_words,produces,Tekerenya/ Gweregecha,NA,Tickle,tickle
 item_490,n85makte,word,action_words,produces,Tengeza,NA,"Make, mend",make
-item_491,n97swite,word,action_words,produces,Teza,NA,Swing,swing (action)
+item_491,n97swite,word,action_words,produces,Teza,NA,Swing (action),swing (action)
 item_492,n54waith,word,action_words,produces,Thariza/Rinda,NA,Wait,wait
 item_493,n100teat,word,action_words,produces,Tharura,NA,Tear,tear
 item_494,n51tasth,word,action_words,produces,Thatha,NA,Taste,taste
@@ -668,7 +668,7 @@ item_666,w2hownga,word,question_words,produces,Ngahi,NA,how many,how
 item_667,w3whanon,word,question_words,produces,Noni,NA,What?,what
 item_668,w4wherin,word,question_words,produces,Rini,NA,When?,when (question)
 item_669,w1howvid,word,question_words,produces,Vidze,NA,How is it?,how
-item_670,x13ondzu,word,prepositions,produces,Dzulu/Dzulu dzulu,NA,On top of/up,on top
+item_670,x13ondzu,word,prepositions,produces,Dzulu/Dzulu dzulu,NA,On top of/up,on top of
 item_671,x7herhah,word,prepositions,produces,Haha,NA,Here,here
 item_672,x15theha,word,prepositions,produces,Haryahu,NA,There,there
 item_673,x10neahe,word,prepositions,produces,Hehi,NA,Near,near

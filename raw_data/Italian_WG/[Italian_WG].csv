@@ -31,7 +31,7 @@ item_62,ippopotamo,word,animals,understands; produces,ippopotamo,hippopotamus,hi
 item_63,leone,word,animals,understands; produces,leone,lion,lion
 item_64,lupo,word,animals,understands; produces,lupo,wolf,wolf
 item_65,maiale,word,animals,understands; produces,maiale,pig,pig
-item_66,mosca,word,animals,understands; produces,mosca,fly,fly (animal)
+item_66,mosca,word,animals,understands; produces,mosca,fly (animal),fly (animal)
 item_67,mucca,word,animals,understands; produces,mucca,cow,cow
 item_68,oca,word,animals,understands; produces,oca,goose,goose
 item_69,orso,word,animals,understands; produces,orso,bear,bear
@@ -194,7 +194,7 @@ item_225,tazza,word,household,understands; produces,tazza,cup,cup
 item_226,telefono,word,household,understands; produces,telefono,telephone,telephone
 item_227,vasino,word,household,understands; produces,vasino,potty,potty
 item_228,albero,word,outside,understands; produces,albero,tree,tree
-item_229,altalena,word,outside,understands; produces,altalena,swing,swing (object)
+item_229,altalena,word,outside,understands; produces,altalena,swing (object),swing (object)
 item_230,ascensore,word,outside,understands; produces,ascensore,elevator,elevator
 item_231,asilo,word,outside,understands; produces,asilo,kindergarten,kindergarten
 item_232,campagna,word,outside,understands; produces,campagna,country,country
@@ -210,7 +210,7 @@ item_241,negozio,word,outside,understands; produces,negozio,store,store
 item_242,neve,word,outside,understands; produces,neve,snow,snow
 item_243,nuvole,word,outside,understands; produces,nuvole,clouds,cloud
 item_244,parco giochi,word,outside,understands; produces,parco giochi,playground,playground
-item_245,pioggia,word,outside,understands; produces,pioggia,rain,rain
+item_245,pioggia,word,outside,understands; produces,pioggia,rain,rain (weather)
 item_246,prato,word,outside,understands; produces,prato,lawn,lawn
 item_247,sasso,word,outside,understands; produces,sasso,stone,stone
 item_248,scivolo,word,outside,understands; produces,scivolo,slide,slide (object)
@@ -275,10 +275,10 @@ item_306,cantare,word,action_words,understands; produces,cantare,sing,sing
 item_307,cercare,word,action_words,understands; produces,cercare,seek,search
 item_308,chiudere,word,action_words,understands; produces,chiudere,close,close
 item_309,correre,word,action_words,understands; produces,correre,run,run
-item_310,cullare,word,action_words,understands; produces,cullare,rock,rock (action)
+item_310,cullare,word,action_words,understands; produces,cullare,rock (action),rock (action)
 item_311,dare,word,action_words,understands; produces,dare,give,give
 item_312,dire,word,action_words,understands; produces,dire,say,say
-item_313,dondolare,word,action_words,understands; produces,dondolare,swing,swing (action)
+item_313,dondolare,word,action_words,understands; produces,dondolare,swing (action),swing (action)
 item_314,dormire,word,action_words,understands; produces,dormire,sleep,sleep
 item_315,fare,word,action_words,understands; produces,fare,make,make
 item_316,fermarsi,word,action_words,understands; produces,fermarsi,stop,stop
@@ -296,7 +296,7 @@ item_327,parlare,word,action_words,understands; produces,parlare,talk,talk
 item_328,pettinare,word,action_words,understands; produces,pettinare,comb/brush,comb (action)
 item_329,piangere,word,action_words,understands; produces,piangere,cry,cry
 item_330,prendere,word,action_words,understands; produces,prendere,take,take
-item_331,pulire,word,action_words,understands; produces,pulire,clean,clean (action)
+item_331,pulire,word,action_words,understands; produces,pulire,clean (action),clean (action)
 item_332,ridere,word,action_words,understands; produces,ridere,smile,laugh
 item_333,rompere,word,action_words,understands; produces,rompere,break,break
 item_334,saltare,word,action_words,understands; produces,saltare,jump,jump
@@ -313,7 +313,7 @@ item_344,toccare,word,action_words,understands; produces,toccare,touch,touch
 item_345,uscire,word,action_words,understands; produces,uscire,go out,go out
 item_346,vedere,word,action_words,understands; produces,vedere,see/watch,see
 item_347,venire,word,action_words,understands; produces,venire,come,come
-item_348,volare,word,action_words,understands; produces,volare,fly,fly (action)
+item_348,volare,word,action_words,understands; produces,volare,fly (action),fly (action)
 item_349,alto,word,descriptive_words,understands; produces,alto,high,high
 item_350,arrabbiato,word,descriptive_words,understands; produces,arrabbiato,angry,angry
 item_351,asciutto,word,descriptive_words,understands; produces,asciutto,dry,dry (description)
@@ -344,7 +344,7 @@ item_375,nuovo,word,descriptive_words,understands; produces,nuovo,new,new
 item_376,piano,word,descriptive_words,understands; produces,piano,slow,slow
 item_377,piccolo,word,descriptive_words,understands; produces,piccolo,little,little (description)
 item_378,pieno,word,descriptive_words,understands; produces,pieno,full,full
-item_379,pulito,word,descriptive_words,understands; produces,pulito,clean,clean (description)
+item_379,pulito,word,descriptive_words,understands; produces,pulito,clean (description),clean (description)
 item_380,rosso,word,descriptive_words,understands; produces,rosso,red,red
 item_381,rotto,word,descriptive_words,understands; produces,rotto,broken,broken
 item_382,sporco,word,descriptive_words,understands; produces,sporco,dirty,dirty

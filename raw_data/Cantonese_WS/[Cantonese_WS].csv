@@ -555,7 +555,7 @@ item_553,O11GRASS,word,outside,produces,草,NA,NA,grass
 item_554,O11EARTC,word,outside,produces,泥,NA,NA,mud
 item_555,O11SAND,word,outside,produces,沙,NA,NA,sand
 item_556,O11STONE,word,outside,produces,石頭/石仔,NA,NA,stone
-item_557,O11RAIN,word,outside,produces,雨,NA,NA,rain
+item_557,O11RAIN,word,outside,produces,雨,NA,NA,rain (weather)
 item_558,O11UMBRC,word,outside,produces,遮,NA,NA,umbrella
 item_559,O11WIND,word,outside,produces,風,NA,NA,wind
 item_560,O11THUND,word,outside,produces,行雷,NA,NA,thunder

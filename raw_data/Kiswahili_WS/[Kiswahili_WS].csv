@@ -182,7 +182,7 @@ item_180,f25hatko,word,clothing,produces,Kofia,NA,Hat,hat
 item_181,f22coako,word,clothing,produces,Koti,NA,Coat,coat
 item_182,f3colles,word,clothing,produces,leso,NA,Colured cloth worn by women and has wordings,dress (object)
 item_183,f13trosu,word,clothing,produces,Longi/Suruali,NA,Trousers,pants
-item_184,f1boomab,word,clothing,produces,Mabuti/Njuti,NA,Boots,boots
+item_184,f1boomab,word,clothing,produces,Mabuti/Njuti,NA,Boots,boot
 item_185,f30necmk,word,clothing,produces,Mkufu/Ushanga/Tasbihi,NA,Necklace/Beads,beads
 item_186,f17belms,word,clothing,produces,Mshipi,NA,Belt,cook
 item_187,f5napnep,word,clothing,produces,Nepi,NA,Nappy,diaper
@@ -303,7 +303,7 @@ item_301,j9roabar,word,outside,produces,Barabara,NA,Road,road
 item_302,j4hoeje,word,outside,produces,Jembe,NA,Hoe,spade
 item_303,j15stoje,word,outside,produces,Jiwe,NA,Stone,stone
 item_304,j16sunju,word,outside,produces,Jua,NA,Sun,sun
-item_305,j24swiki,word,outside,produces,Kibembea,NA,Swing,swing (object)
+item_305,j24swiki,word,outside,produces,Kibembea,NA,Swing (object),swing (object)
 item_306,j14stiki,word,outside,produces,Kijiti/Kigongo,NA,StickO,stick
 item_307,j18watma,word,outside,produces,Maji,NA,WaterO,water (not beverage)
 item_308,j2flomau,word,outside,produces,Maua,NA,Flower,flower
@@ -313,7 +313,7 @@ item_311,j10sanmc,word,outside,produces,Mchanga,NA,Sand,sand
 item_312,j7pipmf,word,outside,produces,mfereji/paipu,NA,Pipe,pipe
 item_313,j20hosmp,word,outside,produces,Mpira wa maji,NA,Hose pipe,hose
 item_314,j17tremt,word,outside,produces,Mti/Mwembe,NA,Tree,tree
-item_315,j8raimvu,word,outside,produces,Mvua,NA,Rain,rain
+item_315,j8raimvu,word,outside,produces,Mvua,NA,Rain,rain (weather)
 item_316,j6moomwe,word,outside,produces,Mwezi,NA,Moon,moon
 item_317,j13spamw,word,outside,produces,Mwiko,NA,Spade,shovel
 item_318,j1bucndo,word,outside,produces,Ndoo,NA,Bucket2,bucket
@@ -404,7 +404,7 @@ item_402,n20falan,word,action_words,produces,Anguka,NA,Fall,fall
 item_403,n18droan,word,action_words,produces,Angusha,NA,Drop,drop
 item_404,n96spran,word,action_words,produces,Anika,NA,Spread clothes,NA
 item_405,n6carbe,word,action_words,produces,Beba,NA,Carry,carry
-item_406,n97swibe,word,action_words,produces,Bembea,NA,Swing,swing (action)
+item_406,n97swibe,word,action_words,produces,Bembea,NA,Swing (action),swing (action)
 item_407,n29knobi,word,action_words,produces,Bisha/gonga,NA,Knock,knock
 item_408,n28kisbu,word,action_words,produces,Busu/Shumu,NA,Kiss,kiss
 item_409,n62choca,word,action_words,produces,Chagua,NA,Choose,choose

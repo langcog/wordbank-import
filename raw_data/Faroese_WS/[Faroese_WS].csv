@@ -1,23 +1,23 @@
-itemID,definition,category,item,type,choices,gloss,uni_lemma
+ÔªøitemID,definition,category,item,type,choices,gloss,uni_lemma
 item_1,abbaba (abbabeiggi),NA,ii_1_1,baby_words,,granduncle (grandfather's brother),
 item_2,abbadidd (abbasystir),NA,ii_1_2,baby_words,,grandaunt (grandfather's sister),
-item_3,adda (út at ganga),NA,ii_1_3,baby_words,,out for a walk,
+item_3,adda (√∫t at ganga),NA,ii_1_3,baby_words,,out for a walk,
 item_4,ba (beiggi),NA,ii_1_4,baby_words,,brother/boy,
 item_5,babu (bilur),NA,ii_1_5,baby_words,,siren,
-item_6,bangari (at skjóta vi_),NA,ii_1_6,baby_words,,gun,
+item_6,bangari (at skj√≥ta vi√∞),NA,ii_1_6,baby_words,,gun,
 item_7,bibbar (fuglar),NA,ii_1_7,baby_words,,birds,
-item_8,bibbur (tær),NA,ii_1_8,baby_words,,toes,
+item_8,bibbur (t√¶r),NA,ii_1_8,baby_words,,toes,
 item_9,dada (bei),NA,ii_1_9,baby_words,,bye,
 item_10,didda,NA,ii_1_10,baby_words,,sister/girl,
 item_11,gagga (dunna),NA,ii_1_11,baby_words,,duck,
-item_12,geggar (skógvar),NA,ii_1_12,baby_words,,shoes,
+item_12,geggar (sk√≥gvar),NA,ii_1_12,baby_words,,shoes,
 item_13,hestamua,NA,ii_1_13,baby_words,,horse,
-item_14,kállabussi,NA,ii_1_14,baby_words,,calf,
+item_14,k√°llabussi,NA,ii_1_14,baby_words,,calf,
 item_15,maua (ketta),NA,ii_1_15,baby_words,,cat,
 item_16,lulla,NA,ii_1_16,baby_words,,sleep,
 item_17,mamba (mammubeiggi),NA,ii_1_17,baby_words,,maternal uncle,
 item_18,mua,NA,ii_1_18,baby_words,,cow,
-item_19,mæ,NA,ii_1_19,baby_words,,sheep,
+item_19,m√¶,NA,ii_1_19,baby_words,,sheep,
 item_20,nalli (nalvi),NA,ii_1_20,baby_words,,navel,
 item_21,namma (eta),NA,ii_1_21,baby_words,,eat,
 item_22,nina,NA,ii_1_22,baby_words,,sit,
@@ -27,125 +27,125 @@ item_25,putta,NA,ii_1_25,baby_words,,tuck (to sleep),
 item_26,ubbisey/ubba (upp),NA,ii_1_26,baby_words,,up,
 item_27,voffur,NA,ii_1_27,baby_words,,dog,
 item_28,avv!,sounds,ii_2_1,word,produces,ouch,ouch
-item_29,áh áh,sounds,ii_2_2,word,produces,oh oh,uh oh
-item_30,brmm (bil-ljó_),sounds,ii_2_3,word,produces,vroom vroom (car sound),vroom
-item_31,tuff tuff (tok-ljó_),sounds,ii_2_4,word,produces,choo choo (train sound),choo choo
+item_29,√°h √°h,sounds,ii_2_2,word,produces,oh oh,uh oh
+item_30,brmm (bil-lj√≥√∞),sounds,ii_2_3,word,produces,vroom vroom (car sound),vroom
+item_31,tuff tuff (tok-lj√≥√∞),sounds,ii_2_4,word,produces,choo choo (train sound),choo choo
 item_32,gvagg gvagg,sounds,ii_2_5,word,produces,quack quack,quack quack
 item_33,grr,sounds,ii_2_6,word,produces,grr,grrr
 item_34,kykkeliky,sounds,ii_2_7,word,produces,cockledoodledoo,cockadoodledoo
 item_35,mm mm,sounds,ii_2_8,word,produces,yum,yum yum
 item_36,mjav,sounds,ii_2_9,word,produces,meow,meow
 item_37,muh,sounds,ii_2_10,word,produces,moo,moo
-item_38,mæ mæ,sounds,ii_2_11,word,produces,baa baa,baa baa
+item_38,m√¶ m√¶,sounds,ii_2_11,word,produces,baa baa,baa baa
 item_39,voff voff,sounds,ii_2_12,word,produces,woof woof,woof woof
 item_40,apa,animals,ii_3_1,word,produces,monkey,monkey
 item_41,bamsa,animals,ii_3_2,word,produces,teddy bear,teddybear
-item_42,bjørn,animals,ii_3_3,word,produces,bear,bear
-item_43,djór,animals,ii_3_4,word,produces,animal,animal
+item_42,bj√∏rn,animals,ii_3_3,word,produces,bear,bear
+item_43,dj√≥r,animals,ii_3_4,word,produces,animal,animal
 item_44,dunna,animals,ii_3_5,word,produces,duck,drum
 item_45,fiskur,animals,ii_3_6,word,produces,fish (animal),fish (animal)
-item_46,fílur,animals,ii_3_7,word,produces,elephant,elephant
+item_46,f√≠lur,animals,ii_3_7,word,produces,elephant,elephant
 item_47,fluga,animals,ii_3_8,word,produces,fly (animal),fly (animal)
 item_48,froskur,animals,ii_3_9,word,produces,frog,frog
 item_49,fuglur,animals,ii_3_10,word,produces,bird,bird
-item_50,gás,animals,ii_3_11,word,produces,goose,goose
-item_51,gásarungi,animals,ii_3_12,word,produces,gosling,
+item_50,g√°s,animals,ii_3_11,word,produces,goose,goose
+item_51,g√°sarungi,animals,ii_3_12,word,produces,gosling,
 item_52,giraffur,animals,ii_3_13,word,produces,giraffe,giraffe
-item_53,grísur,animals,ii_3_14,word,produces,piglets,
+item_53,gr√≠sur,animals,ii_3_14,word,produces,piglets,
 item_54,hani,animals,ii_3_15,word,produces,rooster,rooster
 item_55,hara,animals,ii_3_16,word,produces,hare,hare
 item_56,hestur,animals,ii_3_17,word,produces,horse,horse
-item_57,(hunda)hvølpur,animals,ii_3_18,word,produces,puppy,puppy
+item_57,(hunda)hv√∏lpur,animals,ii_3_18,word,produces,puppy,puppy
 item_58,hundur,animals,ii_3_19,word,produces,dog,dog
 item_59,hvalur,animals,ii_3_20,word,produces,whale,whale
-item_60,høna,animals,ii_3_21,word,produces,hen,hen
-item_61,høsnarungi,animals,ii_3_22,word,produces,chick,chick
-item_62,íkorn,animals,ii_3_23,word,produces,squirrel,squirrel
+item_60,h√∏na,animals,ii_3_21,word,produces,hen,hen
+item_61,h√∏snarungi,animals,ii_3_22,word,produces,chick,chick
+item_62,√≠korn,animals,ii_3_23,word,produces,squirrel,squirrel
 item_63,kanin,animals,ii_3_24,word,produces,rabbit,rabbit
 item_64,ketta,animals,ii_3_25,word,produces,cat,cat
 item_65,kettlingur,animals,ii_3_26,word,produces,kitten,kitten
-item_66,kópur,animals,ii_3_27,word,produces,seal,seal (animal)
+item_66,k√≥pur,animals,ii_3_27,word,produces,seal,seal (animal)
 item_67,krabbi,animals,ii_3_28,word,produces,crab,crab
 item_68,krokodilla,animals,ii_3_29,word,produces,crocodile,crocodile
-item_69,kúgv,animals,ii_3_30,word,produces,cow,cow
+item_69,k√∫gv,animals,ii_3_30,word,produces,cow,cow
 item_70,lamb,animals,ii_3_31,word,produces,lamb,lamb
 item_71,likka,animals,ii_3_32,word,produces,gull,seagull
 item_72,leyva,animals,ii_3_33,word,produces,lion,lion
 item_73,lundi,animals,ii_3_34,word,produces,puffin,
-item_74,mús,animals,ii_3_35,word,produces,mouse,mouse
+item_74,m√∫s,animals,ii_3_35,word,produces,mouse,mouse
 item_75,pingvin,animals,ii_3_36,word,produces,penguin,penguin
 item_76,ponyhestur,animals,ii_3_37,word,produces,pony,pony
 item_77,sebra,animals,ii_3_38,word,produces,zebra,zebra
-item_78,sey_ur,animals,ii_3_39,word,produces,sheep,sheep
-item_79,skjaldbøka,animals,ii_3_40,word,produces,turtle,turtle
+item_78,sey√∞ur,animals,ii_3_39,word,produces,sheep,sheep
+item_79,skjaldb√∏ka,animals,ii_3_40,word,produces,turtle,turtle
 item_80,summarfuglur,animals,ii_3_41,word,produces,butterfly,butterfly
 item_81,tikari,animals,ii_3_42,word,produces,tiger,tiger
 item_82,tjaldur,animals,ii_3_43,word,produces,oystercatcher,
 item_83,ugla,animals,ii_3_44,word,produces,owl,owl
-item_84,úlvur,animals,ii_3_45,word,produces,wolf,wolf
+item_84,√∫lvur,animals,ii_3_45,word,produces,wolf,wolf
 item_85,vespa,animals,ii_3_46,word,produces,hornet,
 item_86,barnavognur,vehicles,ii_4_1,word,produces,stroller,stroller
-item_87,bátur,vehicles,ii_4_2,word,produces,boat,boat
+item_87,b√°tur,vehicles,ii_4_2,word,produces,boat,boat
 item_88,bilur,vehicles,ii_4_3,word,produces,car,car
 item_89,brandbilur,vehicles,ii_4_4,word,produces,fire engine,firetruck
 item_90,bussur,vehicles,ii_4_5,word,produces,bus,bus
 item_91,flogfar,vehicles,ii_4_6,word,produces,airplane,airplane
 item_92,lastbilur,vehicles,ii_4_7,word,produces,truck,truck
-item_93,motorsúkkla,vehicles,ii_4_8,word,produces,motorcycle,motorcycle
+item_93,motors√∫kkla,vehicles,ii_4_8,word,produces,motorcycle,motorcycle
 item_94,skutari,vehicles,ii_4_9,word,produces,scooter,
 item_95,sleta,vehicles,ii_4_10,word,produces,sled,sled
-item_96,súkkla,vehicles,ii_4_11,word,produces,bicycle,bicycle
+item_96,s√∫kkla,vehicles,ii_4_11,word,produces,bicycle,bicycle
 item_97,tok,vehicles,ii_4_12,word,produces,train,train
 item_98,traktorur,vehicles,ii_4_13,word,produces,tractor,tractor
-item_99,tríhjóla_ súkkla,vehicles,ii_4_14,word,produces,tricycle,tricycle
+item_99,tr√≠hj√≥la√∞ s√∫kkla,vehicles,ii_4_14,word,produces,tricycle,tricycle
 item_100,tyrla,vehicles,ii_4_15,word,produces,helicopter,helicopter
-item_101,ballón,toys,ii_5_1,word,produces,balloon,balloon
-item_102,bl_antur,toys,ii_5_2,word,produces,pencil,pencil
-item_103,bók,toys,ii_5_3,word,produces,book,book
-item_104,bóltur,toys,ii_5_4,word,produces,ball,ball
+item_101,ball√≥n,toys,ii_5_1,word,produces,balloon,balloon
+item_102,bl√Ωantur,toys,ii_5_2,word,produces,pencil,pencil
+item_103,b√≥k,toys,ii_5_3,word,produces,book,book
+item_104,b√≥ltur,toys,ii_5_4,word,produces,ball,ball
 item_105,dukka,toys,ii_5_5,word,produces,doll,doll
-item_106,gáva,toys,ii_5_6,word,produces,gift,present
+item_106,g√°va,toys,ii_5_6,word,produces,gift,present
 item_107,krit,toys,ii_5_7,word,produces,chalk,chalk
 item_108,lego,toys,ii_5_8,word,produces,lego,blocks
-item_109,lím,toys,ii_5_9,word,produces,glue,glue (object)
+item_109,l√≠m,toys,ii_5_9,word,produces,glue,glue (object)
 item_110,leikutoy,toys,ii_5_10,word,produces,toy,toy (object)
 item_111,klossar,toys,ii_5_11,word,produces,clogs,
 item_112,modellervoks,toys,ii_5_12,word,produces,play dough,play dough
 item_113,pennur,toys,ii_5_13,word,produces,pens,pen
-item_114,puslispæl,toys,ii_5_14,word,produces,puzzle,puzzle
-item_115,sápublø_rur,toys,ii_5_15,word,produces,bubbles,bubbles
-item_116,spæl,toys,ii_5_16,word,produces,game,game
-item_117,søga,toys,ii_5_17,word,produces,story,story
+item_114,puslisp√¶l,toys,ii_5_14,word,produces,puzzle,puzzle
+item_115,s√°publ√∏√∞rur,toys,ii_5_15,word,produces,bubbles,bubbles
+item_116,sp√¶l,toys,ii_5_16,word,produces,game,game
+item_117,s√∏ga,toys,ii_5_17,word,produces,story,story
 item_118,tussj,toys,ii_5_18,word,produces,marker,marker
 item_119,agurk,food_drink,ii_6_1,word,produces,cucumber,cucumber
 item_120,appelsin,food_drink,ii_6_2,word,produces,orange,orange (food)
 item_121,banan,food_drink,ii_6_3,word,produces,banana,banana
 item_122,bomm,food_drink,ii_6_4,word,produces,candy,candy
 item_123,bollar,food_drink,ii_6_5,word,produces,bun,cup
-item_124,brey_,food_drink,ii_6_6,word,produces,bread,bread
+item_124,brey√∞,food_drink,ii_6_6,word,produces,bread,bread
 item_125,burgari,food_drink,ii_6_7,word,produces,burger,hamburger
-item_126,djús,food_drink,ii_6_8,word,produces,juice,juice
+item_126,dj√∫s,food_drink,ii_6_8,word,produces,juice,juice
 item_127,drekkamunn,food_drink,ii_6_9,word,produces,drink (beverage),drink (beverage)
 item_128,egg,food_drink,ii_6_10,word,produces,egg,egg
 item_129,epli,food_drink,ii_6_11,word,produces,potato,potato
 item_130,ertrar,food_drink,ii_6_12,word,produces,peas,peas
 item_131,fiskur,food_drink,ii_6_13,word,produces,fish (food),fish (food)
 item_132,frikadellur,food_drink,ii_6_14,word,produces,meatball,meatball
-item_133,gularøtur,food_drink,ii_6_15,word,produces,carrot,carrot
+item_133,gular√∏tur,food_drink,ii_6_15,word,produces,carrot,carrot
 item_134,gummibomm,food_drink,ii_6_16,word,produces,candy,candy
 item_135,havragreyt,food_drink,ii_6_17,word,produces,oatmeal,cereal
-item_136,havragr_n,food_drink,ii_6_18,word,produces,oats,cereal
-item_137,høsnarungi,food_drink,ii_6_19,word,produces,chick,chick
+item_136,havragr√Ωn,food_drink,ii_6_18,word,produces,oats,cereal
+item_137,h√∏snarungi,food_drink,ii_6_19,word,produces,chick,chick
 item_138,kylling,food_drink,ii_6_20,word,produces,chicken,chicken
-item_139,ísur,food_drink,ii_6_21,word,produces,ice cream,ice cream
+item_139,√≠sur,food_drink,ii_6_21,word,produces,ice cream,ice cream
 item_140,jogurt,food_drink,ii_6_22,word,produces,yogurt,yogurt
-item_141,jør_ber,food_drink,ii_6_23,word,produces,strawberries,strawberry
+item_141,j√∏r√∞ber,food_drink,ii_6_23,word,produces,strawberries,strawberry
 item_142,kaffi,food_drink,ii_6_24,word,produces,coffee,coffee
-item_143,køka,food_drink,ii_6_25,word,produces,cake,cake
+item_143,k√∏ka,food_drink,ii_6_25,word,produces,cake,cake
 item_144,keks,food_drink,ii_6_26,word,produces,cookie,cookie
 item_145,ketsjupp,food_drink,ii_6_27,word,produces,ketchup,ketchup
 item_146,kips,food_drink,ii_6_28,word,produces,chip,chips
-item_147,kjøt,food_drink,ii_6_29,word,produces,meat,meat
+item_147,kj√∏t,food_drink,ii_6_29,word,produces,meat,meat
 item_148,kola,food_drink,ii_6_30,word,produces,coke (soda),soda
 item_149,kornfleks,food_drink,ii_6_31,word,produces,cornflakes,cereal
 item_150,livurpostei,food_drink,ii_6_32,word,produces,pate,
@@ -153,37 +153,37 @@ item_151,makrel,food_drink,ii_6_33,word,produces,mackerel (food),
 item_152,mais,food_drink,ii_6_34,word,produces,corn,corn
 item_153,matpakki,food_drink,ii_6_35,word,produces,lunchbox,lunchbox
 item_154,matur,food_drink,ii_6_36,word,produces,food,food
-item_155,melón,food_drink,ii_6_37,word,produces,melon,melon
-item_156,mjólk,food_drink,ii_6_38,word,produces,milk,milk
+item_155,mel√≥n,food_drink,ii_6_37,word,produces,melon,melon
+item_156,mj√≥lk,food_drink,ii_6_38,word,produces,milk,milk
 item_157,nudlur,food_drink,ii_6_39,word,produces,noodles,noodles
-item_158,nøtir,food_drink,ii_6_40,word,produces,nut,nut
-item_159,omaná,food_drink,ii_6_41,word,produces,dessert,dessert
+item_158,n√∏tir,food_drink,ii_6_40,word,produces,nut,nut
+item_159,oman√°,food_drink,ii_6_41,word,produces,dessert,dessert
 item_160,ostahaps,food_drink,ii_6_42,word,produces,cheese sticks,
 item_161,ostur,food_drink,ii_6_43,word,produces,cheese,cheese
-item_162,pannukøkur,food_drink,ii_6_44,word,produces,pancake,pancake
+item_162,pannuk√∏kur,food_drink,ii_6_44,word,produces,pancake,pancake
 item_163,pitsa,food_drink,ii_6_45,word,produces,pizza,pizza
 item_164,poppkorn,food_drink,ii_6_46,word,produces,popcorn,popcorn
 item_165,pylsa,food_drink,ii_6_47,word,produces,sausage,sausage
-item_166,rís,food_drink,ii_6_48,word,produces,rice,rice
-item_167,rísingreytur,food_drink,ii_6_49,word,produces,rice pudding,pudding
+item_166,r√≠s,food_drink,ii_6_48,word,produces,rice,rice
+item_167,r√≠singreytur,food_drink,ii_6_49,word,produces,rice pudding,pudding
 item_168,rogn,food_drink,ii_6_50,word,produces,roe,
 item_169,rosinir,food_drink,ii_6_51,word,produces,raisin,raisin
-item_170,rugbrey_,food_drink,ii_6_52,word,produces,rye bread,bread
+item_170,rugbrey√∞,food_drink,ii_6_52,word,produces,rye bread,bread
 item_171,rullupylsa,food_drink,ii_6_53,word,produces,sausage (made of rolled mutton),sausage
 item_172,saft,food_drink,ii_6_54,word,produces,juice,juice
 item_173,salt,food_drink,ii_6_55,word,produces,salt,salt
-item_174,sjokoláta,food_drink,ii_6_56,word,produces,chocolate,chocolate
-item_175,sjokolátapálegg,food_drink,ii_6_57,word,produces,chocolate spread,
+item_174,sjokol√°ta,food_drink,ii_6_56,word,produces,chocolate,chocolate
+item_175,sjokol√°tap√°legg,food_drink,ii_6_57,word,produces,chocolate spread,
 item_176,skinka,food_drink,ii_6_58,word,produces,ham,ham
 item_177,slikkipinn,food_drink,ii_6_59,word,produces,lollipop,lollipop
-item_178,smákakur,food_drink,ii_6_60,word,produces,cookie,cookie
-item_179,smør,food_drink,ii_6_61,word,produces,butter,butter
+item_178,sm√°kakur,food_drink,ii_6_60,word,produces,cookie,cookie
+item_179,sm√∏r,food_drink,ii_6_61,word,produces,butter,butter
 item_180,sodavatn,food_drink,ii_6_62,word,produces,soda,soda
-item_181,sós,food_drink,ii_6_63,word,produces,sauce,sauce
+item_181,s√≥s,food_drink,ii_6_63,word,produces,sauce,sauce
 item_182,spagetti,food_drink,ii_6_64,word,produces,spaghetti,spaghetti
 item_183,suppa,food_drink,ii_6_65,word,produces,soup,soup
-item_184,súltutoy,food_drink,ii_6_66,word,produces,jam,jam
-item_185,súrepli,food_drink,ii_6_67,word,produces,apple,apple
+item_184,s√∫ltutoy,food_drink,ii_6_66,word,produces,jam,jam
+item_185,s√∫repli,food_drink,ii_6_67,word,produces,apple,apple
 item_186,te,food_drink,ii_6_68,word,produces,tea,tea
 item_187,tomat,food_drink,ii_6_69,word,produces,tomato,tomato
 item_188,turrur fiskur,food_drink,ii_6_70,word,produces,dried fish,
@@ -191,113 +191,113 @@ item_189,tyggigummi,food_drink,ii_6_71,word,produces,chewing gum,gum
 item_190,vaflur,food_drink,ii_6_72,word,produces,waffles,waffle
 item_191,vatn,food_drink,ii_6_73,word,produces,water (beverage),water (beverage)
 item_192,vitaminir,food_drink,ii_6_74,word,produces,vitamins,
-item_193,víndrúvur,food_drink,ii_6_75,word,produces,grapes,grapes
+item_193,v√≠ndr√∫vur,food_drink,ii_6_75,word,produces,grapes,grapes
 item_194,belti,clothing,ii_7_1,word,produces,belt,belt
 item_195,blusa,clothing,ii_7_2,word,produces,blouse,blouse
-item_196,blæa,clothing,ii_7_3,word,produces,diaper,diaper
+item_196,bl√¶a,clothing,ii_7_3,word,produces,diaper,diaper
 item_197,bodystock,clothing,ii_7_4,word,produces,bodystocking,onesie
 item_198,buksur,clothing,ii_7_5,word,produces,pants,pants
 item_199,hagesmekka,clothing,ii_7_6,word,produces,bib,bib
 item_200,handskar,clothing,ii_7_7,word,produces,gloves,gloves
-item_201,hálsband,clothing,ii_7_8,word,produces,necklace,necklace
+item_201,h√°lsband,clothing,ii_7_8,word,produces,necklace,necklace
 item_202,hosur,clothing,ii_7_9,word,produces,pants,pants
-item_203,húgva,clothing,ii_7_10,word,produces,beanie,
-item_204,inniskógvar,clothing,ii_7_11,word,produces,slippers,slipper
-item_205,renniskógvar,clothing,ii_7_12,word,produces,sneakers,sneaker
+item_203,h√∫gva,clothing,ii_7_10,word,produces,beanie,
+item_204,innisk√≥gvar,clothing,ii_7_11,word,produces,slippers,slipper
+item_205,rennisk√≥gvar,clothing,ii_7_12,word,produces,sneakers,sneaker
 item_206,jakki,clothing,ii_7_13,word,produces,jacket,jacket
 item_207,kavadrakt,clothing,ii_7_14,word,produces,snowsuit,snowsuit
-item_208,kjóli,clothing,ii_7_15,word,produces,dress,dress
+item_208,kj√≥li,clothing,ii_7_15,word,produces,dress,dress
 item_209,knappur,clothing,ii_7_16,word,produces,button,button
-item_210,l_nlás,clothing,ii_7_17,word,produces,zip,zipper
-item_211,náttklæ_i,clothing,ii_7_18,word,produces,pajamas,pajamas
+item_210,l√Ωnl√°s,clothing,ii_7_17,word,produces,zip,zipper
+item_211,n√°ttkl√¶√∞i,clothing,ii_7_18,word,produces,pajamas,pajamas
 item_212,pulshosur,clothing,ii_7_19,word,produces,woollen socks,sock
-item_213,regnklæ_i,clothing,ii_7_20,word,produces,raincoat,raincoat
+item_213,regnkl√¶√∞i,clothing,ii_7_20,word,produces,raincoat,raincoat
 item_214,shorts,clothing,ii_7_21,word,produces,shorts,shorts
-item_215,skógvar,clothing,ii_7_22,word,produces,shoe,shoe
+item_215,sk√≥gvar,clothing,ii_7_22,word,produces,shoe,shoe
 item_216,sokkabuksur,clothing,ii_7_23,word,produces,tights,tights
 item_217,sokkar,clothing,ii_7_24,word,produces,socks,sock
 item_218,stivlar,clothing,ii_7_25,word,produces,boots,boots
 item_219,trussur,clothing,ii_7_26,word,produces,panties,underpants
-item_220,turriklæ_i,clothing,ii_7_27,word,produces,scarf,scarf
+item_220,turrikl√¶√∞i,clothing,ii_7_27,word,produces,scarf,scarf
 item_221,troyggja,clothing,ii_7_28,word,produces,sweater,sweater
 item_222,undirbuksur,clothing,ii_7_29,word,produces,underpants,underpants
 item_223,undirtroyggja,clothing,ii_7_30,word,produces,undershirt,undershirt
-item_224,vøttir,clothing,ii_7_31,word,produces,mittens,mitten
+item_224,v√∏ttir,clothing,ii_7_31,word,produces,mittens,mitten
 item_225,andlit,body_parts,ii_8_1,word,produces,face,face
 item_226,armur,body_parts,ii_8_2,word,produces,arm,arm
 item_227,bein,body_parts,ii_8_3,word,produces,leg,leg
 item_228,boppur,body_parts,ii_8_4,word,produces,breast,breast
-item_229,búkur,body_parts,ii_8_5,word,produces,belly,body
+item_229,b√∫kur,body_parts,ii_8_5,word,produces,belly,body
 item_230,eyga,body_parts,ii_8_6,word,produces,eye,eye
 item_231,fingur,body_parts,ii_8_7,word,produces,finger,finger
-item_232,fótur,body_parts,ii_8_8,word,produces,foot,foot
-item_233,hár,body_parts,ii_8_9,word,produces,hair,hair
+item_232,f√≥tur,body_parts,ii_8_8,word,produces,foot,foot
+item_233,h√°r,body_parts,ii_8_9,word,produces,hair,hair
 item_234,hond,body_parts,ii_8_10,word,produces,hand,hand
-item_235,høka,body_parts,ii_8_11,word,produces,chin,chin
-item_236,høvd,body_parts,ii_8_12,word,produces,head,head
-item_237,kjálki,body_parts,ii_8_13,word,produces,cheek,cheek
-item_238,knæ,body_parts,ii_8_14,word,produces,knee,knee
+item_235,h√∏ka,body_parts,ii_8_11,word,produces,chin,chin
+item_236,h√∏vd,body_parts,ii_8_12,word,produces,head,head
+item_237,kj√°lki,body_parts,ii_8_13,word,produces,cheek,cheek
+item_238,kn√¶,body_parts,ii_8_14,word,produces,knee,knee
 item_239,munnur,body_parts,ii_8_15,word,produces,mouth,mouth
 item_240,nalvi,body_parts,ii_8_16,word,produces,navel,belly button
 item_241,negl,body_parts,ii_8_17,word,produces,nail,nail (finger)
-item_242,nøs,body_parts,ii_8_18,word,produces,nose,nose
+item_242,n√∏s,body_parts,ii_8_18,word,produces,nose,nose
 item_243,oyra,body_parts,ii_8_19,word,produces,ear,ear
 item_244,panna,body_parts,ii_8_20,word,produces,forehead,forehead
 item_245,pissikona*,body_parts,ii_8_21,word,produces,vagina,vagina
 item_246,pissilingur*,body_parts,ii_8_22,word,produces,penis,penis
 item_247,rumpa,body_parts,ii_8_23,word,produces,butt,butt
 item_248,ryggur,body_parts,ii_8_24,word,produces,back,back
-item_249,sár,body_parts,ii_8_25,word,produces,wound,
-item_250,tá,body_parts,ii_8_26,word,produces,toe,toe
+item_249,s√°r,body_parts,ii_8_25,word,produces,wound,
+item_250,t√°,body_parts,ii_8_26,word,produces,toe,toe
 item_251,tenn,body_parts,ii_8_27,word,produces,tooth,tooth
 item_252,tunga,body_parts,ii_8_28,word,produces,tongue,tongue
 item_253,varrar,body_parts,ii_8_29,word,produces,lips,lips
-item_254,øksl,body_parts,ii_8_30,word,produces,shoulder,shoulder
-item_255,økul,body_parts,ii_8_31,word,produces,ankle,ankle
+item_254,√∏ksl,body_parts,ii_8_30,word,produces,shoulder,shoulder
+item_255,√∏kul,body_parts,ii_8_31,word,produces,ankle,ankle
 item_256,bakki,household,ii_9_1,word,produces,tray,tray
 item_257,band,household,ii_9_2,word,produces,string,
 item_258,brillur,household,ii_9_3,word,produces,glasses,glasses
 item_259,bust,household,ii_9_4,word,produces,brush (object),brush (object)
-item_260,dós,household,ii_9_5,word,produces,can (object),can (object)
-item_261,d_na,household,ii_9_6,word,produces,duvet,blanket
+item_260,d√≥s,household,ii_9_5,word,produces,can (object),can (object)
+item_261,d√Ωna,household,ii_9_6,word,produces,duvet,blanket
 item_262,eskja,household,ii_9_7,word,produces,box,box
-item_263,fløska,household,ii_9_8,word,produces,bottle,bottle
+item_263,fl√∏ska,household,ii_9_8,word,produces,bottle,bottle
 item_264,gaffil,household,ii_9_9,word,produces,fork,fork
 item_265,gangivognur/bilur,household,ii_9_10,word,produces,baby walker,walker
 item_266,glas,household,ii_9_11,word,produces,glass,glass
 item_267,hamari,household,ii_9_12,word,produces,hammer,hammer
-item_268,handklæ_i,household,ii_9_13,word,produces,towel,towel
+item_268,handkl√¶√∞i,household,ii_9_13,word,produces,towel,towel
 item_269,I-pad,household,ii_9_14,word,produces,tablet,
 item_270,kambur,household,ii_9_15,word,produces,comb (object),comb (object)
 item_271,kassi,household,ii_9_16,word,produces,box,box
 item_272,klokka,household,ii_9_17,word,produces,clock,clock
-item_273,knívur,household,ii_9_18,word,produces,knife,knife
+item_273,kn√≠vur,household,ii_9_18,word,produces,knife,knife
 item_274,koddi,household,ii_9_19,word,produces,pillow,pillow
 item_275,koppur,household,ii_9_20,word,produces,cup,cup
-item_276,krónur,household,ii_9_21,word,produces,dollar,money
+item_276,kr√≥nur,household,ii_9_21,word,produces,dollar,money
 item_277,krukka,household,ii_9_22,word,produces,jar,jar
 item_278,kustur,household,ii_9_23,word,produces,broom,broom
 item_279,lampa,household,ii_9_24,word,produces,lamp,lamp
-item_280,ljós,household,ii_9_25,word,produces,light,light
+item_280,lj√≥s,household,ii_9_25,word,produces,light,light
 item_281,lyklar,household,ii_9_26,word,produces,keys,keys
 item_282,medisin,household,ii_9_27,word,produces,medicine,medicine
 item_283,mynd,household,ii_9_28,word,produces,picture,picture
-item_284,myndatól,household,ii_9_29,word,produces,camera,camera
-item_285,pappír,household,ii_9_30,word,produces,paper,paper
+item_284,myndat√≥l,household,ii_9_29,word,produces,camera,camera
+item_285,papp√≠r,household,ii_9_30,word,produces,paper,paper
 item_286,pengar,household,ii_9_31,word,produces,money,money
 item_287,planta,household,ii_9_32,word,produces,plant,plant
-item_288,plástur,household,ii_9_33,word,produces,band-aid,bandaid
+item_288,pl√°stur,household,ii_9_33,word,produces,band-aid,bandaid
 item_289,pungur,household,ii_9_34,word,produces,purse,purse
-item_290,púta,household,ii_9_35,word,produces,cushion,cushion
+item_290,p√∫ta,household,ii_9_35,word,produces,cushion,cushion
 item_291,rusk,household,ii_9_36,word,produces,trash,trash
 item_292,saksur,household,ii_9_37,word,produces,scissors,scissors
-item_293,sápa,household,ii_9_38,word,produces,soap,soap
+item_293,s√°pa,household,ii_9_38,word,produces,soap,soap
 item_294,serviettar,household,ii_9_39,word,produces,napkin,napkin
-item_295,skál,household,ii_9_40,word,produces,bowl,bowl
-item_296,skei_,household,ii_9_41,word,produces,spoon,spoon
+item_295,sk√°l,household,ii_9_40,word,produces,bowl,bowl
+item_296,skei√∞,household,ii_9_41,word,produces,spoon,spoon
 item_297,skrell,household,ii_9_42,word,produces,trash,trash
 item_298,spann,household,ii_9_43,word,produces,bucket,bucket
-item_299,støvsúgvari,household,ii_9_44,word,produces,vacuum,vacuum
+item_299,st√∏vs√∫gvari,household,ii_9_44,word,produces,vacuum,vacuum
 item_300,sutta,household,ii_9_45,word,produces,pacifier,pacifier
 item_301,seymur,household,ii_9_46,word,produces,nail (object),nail (object)
 item_302,tallerkur,household,ii_9_47,word,produces,plate,plate
@@ -307,34 +307,34 @@ item_305,telefon,household,ii_9_50,word,produces,phone,telephone
 item_306,telda,household,ii_9_51,word,produces,computer,computer
 item_307,teppi,household,ii_9_52,word,produces,carpet,carpet
 item_308,ur,household,ii_9_53,word,produces,watch,watch (object)
-item_309,útvarp,household,ii_9_54,word,produces,radio,radio
-item_310,wc-pappír,household,ii_9_55,word,produces,toilet paper,toilet paper
-item_311,ba_ikar,furniture_rooms,ii_10_1,word,produces,bathtub,bathtub
+item_309,√∫tvarp,household,ii_9_54,word,produces,radio,radio
+item_310,wc-papp√≠r,household,ii_9_55,word,produces,toilet paper,toilet paper
+item_311,ba√∞ikar,furniture_rooms,ii_10_1,word,produces,bathtub,bathtub
 item_312,barnasong,furniture_rooms,ii_10_2,word,produces,crib,crib
-item_313,barnastólur,furniture_rooms,ii_10_3,word,produces,high chair,high chair
+item_313,barnast√≥lur,furniture_rooms,ii_10_3,word,produces,high chair,high chair
 item_314,bonkur,furniture_rooms,ii_10_4,word,produces,bench,bench
-item_315,bor_,furniture_rooms,ii_10_5,word,produces,table,table
-item_316,brúsa,furniture_rooms,ii_10_6,word,produces,shower,shower
+item_315,bor√∞,furniture_rooms,ii_10_5,word,produces,table,table
+item_316,br√∫sa,furniture_rooms,ii_10_6,word,produces,shower,shower
 item_317,garasja,furniture_rooms,ii_10_7,word,produces,garage,garage
 item_318,gongd,furniture_rooms,ii_10_8,word,produces,hall/corridor,corridor
-item_319,hur_,furniture_rooms,ii_10_9,word,produces,door,door
+item_319,hur√∞,furniture_rooms,ii_10_9,word,produces,door,door
 item_320,kamar,furniture_rooms,ii_10_10,word,produces,bedroom,bedroom
 item_321,kjallari,furniture_rooms,ii_10_11,word,produces,basement,basement
-item_322,komf_rur,furniture_rooms,ii_10_12,word,produces,stove,stove
-item_323,køkur,furniture_rooms,ii_10_13,word,produces,kitchen,kitchen
-item_324,køliskáp,furniture_rooms,ii_10_14,word,produces,refrigerator,refrigerator
+item_322,komf√Ωrur,furniture_rooms,ii_10_12,word,produces,stove,stove
+item_323,k√∏kur,furniture_rooms,ii_10_13,word,produces,kitchen,kitchen
+item_324,k√∏lisk√°p,furniture_rooms,ii_10_14,word,produces,refrigerator,refrigerator
 item_325,ovnur,furniture_rooms,ii_10_15,word,produces,oven,oven
 item_326,pottur,furniture_rooms,ii_10_16,word,produces,potty,potty
-item_327,ruggustólur,furniture_rooms,ii_10_17,word,produces,rocking chair,rocking chair
-item_328,rúm,furniture_rooms,ii_10_18,word,produces,room,room
-item_329,sjónvarp,furniture_rooms,ii_10_19,word,produces,television,TV
+item_327,ruggust√≥lur,furniture_rooms,ii_10_17,word,produces,rocking chair,rocking chair
+item_328,r√∫m,furniture_rooms,ii_10_18,word,produces,room,room
+item_329,sj√≥nvarp,furniture_rooms,ii_10_19,word,produces,television,TV
 item_330,skammil,furniture_rooms,ii_10_20,word,produces,chair,chair
 item_331,sofa,furniture_rooms,ii_10_21,word,produces,sofa,couch
 item_332,song,furniture_rooms,ii_10_22,word,produces,bed,bed
-item_333,skáp,furniture_rooms,ii_10_23,word,produces,cupboard,cupboard
+item_333,sk√°p,furniture_rooms,ii_10_23,word,produces,cupboard,cupboard
 item_334,skuffa,furniture_rooms,ii_10_24,word,produces,drawer,drawer
 item_335,stova,furniture_rooms,ii_10_25,word,produces,living room,living room
-item_336,stólur,furniture_rooms,ii_10_26,word,produces,chair,chair
+item_336,st√≥lur,furniture_rooms,ii_10_26,word,produces,chair,chair
 item_337,trappa,furniture_rooms,ii_10_27,word,produces,stairs,stairs
 item_338,vask,furniture_rooms,ii_10_28,word,produces,sink,sink
 item_339,vaskimaskina,furniture_rooms,ii_10_29,word,produces,washing machine,washing machine
@@ -345,136 +345,136 @@ item_343,fjall,outside,ii_11_2,word,produces,mountain,mountain
 item_344,flagg,outside,ii_11_3,word,produces,flag,flag
 item_345,gongubreyt,outside,ii_11_4,word,produces,pavement,pavement
 item_346,gras,outside,ii_11_5,word,produces,grass,grass
-item_347,grót,outside,ii_11_6,word,produces,stone,stone
-item_348,gøta,outside,ii_11_7,word,produces,path,path
+item_347,gr√≥t,outside,ii_11_6,word,produces,stone,stone
+item_348,g√∏ta,outside,ii_11_7,word,produces,path,path
 item_349,havi,outside,ii_11_8,word,produces,garden,garden
 item_350,himmal,outside,ii_11_9,word,produces,sky,sky
 item_351,hoyggj,outside,ii_11_10,word,produces,hay,
-item_352,kavama_ur,outside,ii_11_11,word,produces,snowman,snowman
+item_352,kavama√∞ur,outside,ii_11_11,word,produces,snowman,snowman
 item_353,kavi,outside,ii_11_12,word,produces,snow,snow
-item_354,máni,outside,ii_11_13,word,produces,moon,moon
-item_355,mjørki,outside,ii_11_14,word,produces,fog,fog
+item_354,m√°ni,outside,ii_11_13,word,produces,moon,moon
+item_355,mj√∏rki,outside,ii_11_14,word,produces,fog,fog
 item_356,pinnur,outside,ii_11_15,word,produces,stick (object),stick (object)
 item_357,regn,outside,ii_11_16,word,produces,rain,rain
 item_358,russjibani,outside,ii_11_17,word,produces,rollercoaster,
 item_359,reiggja,outside,ii_11_18,word,produces,swing (object),swing (object)
 item_360,sandkassi,outside,ii_11_19,word,produces,sandbox,sandbox
-item_361,sk_ggj,outside,ii_11_20,word,produces,cloud,cloud
+item_361,sk√Ωggj,outside,ii_11_20,word,produces,cloud,cloud
 item_362,(vatn)slanga,outside,ii_11_21,word,produces,(water) hose,hose
-item_363,sláimaskina,outside,ii_11_22,word,produces,lawnmower,lawn mower
-item_364,sól,outside,ii_11_23,word,produces,sun,sun
+item_363,sl√°imaskina,outside,ii_11_22,word,produces,lawnmower,lawn mower
+item_364,s√≥l,outside,ii_11_23,word,produces,sun,sun
 item_365,spaki,outside,ii_11_24,word,produces,shovel,shovel
 item_366,stigi,outside,ii_11_25,word,produces,ladder,ladder
-item_367,stjørna,outside,ii_11_26,word,produces,stars,star
+item_367,stj√∏rna,outside,ii_11_26,word,produces,stars,star
 item_368,steinur,outside,ii_11_27,word,produces,stone,stone
 item_369,tak,outside,ii_11_28,word,produces,roof,roof
 item_370,trampolin,outside,ii_11_29,word,produces,trampoline,trampoline
-item_371,træ,outside,ii_11_30,word,produces,tree,tree
+item_371,tr√¶,outside,ii_11_30,word,produces,tree,tree
 item_372,vegur,outside,ii_11_31,word,produces,road,road
 item_373,vindur,outside,ii_11_32,word,produces,wind,wind
-item_374,arbei_is,places,ii_12_1,word,produces,work,work (place)
-item_375,á sandin,places,ii_12_2,word,produces,beach,beach
-item_376,biltúr,places,ii_12_3,word,produces,car ride,
+item_374,arbei√∞is,places,ii_12_1,word,produces,work,work (place)
+item_375,√° sandin,places,ii_12_2,word,produces,beach,beach
+item_376,bilt√∫r,places,ii_12_3,word,produces,car ride,
 item_377,biograf,places,ii_12_4,word,produces,cinema,theater
-item_378,djóragar_,places,ii_12_5,word,produces,zoo,zoo
-item_379,fer_ast,places,ii_12_6,word,produces,travel,travel
-item_380,fjøruna,places,ii_12_7,word,produces,shore,
-item_381,fø_ingardag,places,ii_12_8,word,produces,birthday,birthday
+item_378,dj√≥ragar√∞,places,ii_12_5,word,produces,zoo,zoo
+item_379,fer√∞ast,places,ii_12_6,word,produces,travel,travel
+item_380,fj√∏runa,places,ii_12_7,word,produces,shore,
+item_381,f√∏√∞ingardag,places,ii_12_8,word,produces,birthday,birthday
 item_382,handil,places,ii_12_9,word,produces,store,store
 item_383,heim,places,ii_12_10,word,produces,home,home
-item_384,hús,places,ii_12_11,word,produces,house,house
-item_385,í b_in,places,ii_12_12,word,produces,in the city,
-item_386,í SMS,places,ii_12_13,word,produces,in SMS (shopping mall),
+item_384,h√∫s,places,ii_12_11,word,produces,house,house
+item_385,√≠ b√Ωin,places,ii_12_12,word,produces,in the city,
+item_386,√≠ SMS,places,ii_12_13,word,produces,in SMS (shopping mall),
 item_387,keypa,places,ii_12_14,word,produces,shopping,shopping
 item_388,kirkja*,places,ii_12_15,word,produces,church*,church
 item_389,sirkus,places,ii_12_16,word,produces,circus,circus
-item_390,skúla,places,ii_12_17,word,produces,school,school
-item_391,spælipláss,places,ii_12_18,word,produces,playground,playground
+item_390,sk√∫la,places,ii_12_17,word,produces,school,school
+item_391,sp√¶lipl√°ss,places,ii_12_18,word,produces,playground,playground
 item_392,svimjihyl,places,ii_12_19,word,produces,pool,pool
-item_393,túr,places,ii_12_20,word,produces,walking tour,
-item_394,út at spæla,places,ii_12_21,word,produces,out to play,
-item_395,útfer_,places,ii_12_22,word,produces,excursion,
-item_396,vi_arlundina,places,ii_12_23,word,produces,park,park
-item_397,vøggustova/dagrøkt,places,ii_12_24,word,produces,nursery/daycare,nursery
+item_393,t√∫r,places,ii_12_20,word,produces,walking tour,
+item_394,√∫t at sp√¶la,places,ii_12_21,word,produces,out to play,
+item_395,√∫tfer√∞,places,ii_12_22,word,produces,excursion,
+item_396,vi√∞arlundina,places,ii_12_23,word,produces,park,park
+item_397,v√∏ggustova/dagr√∏kt,places,ii_12_24,word,produces,nursery/daycare,nursery
 item_398,abbabeiggi,people,ii_13_1,word,produces,granduncle (grandfather's brother),
 item_399,abbasystir,people,ii_13_2,word,produces,grandaunt (grandfather's sister),
 item_400,abbi,people,ii_13_3,word,produces,grandpa,grandpa
 item_401,babba,people,ii_13_4,word,produces,daddy,daddy
 item_402,baby,people,ii_13_5,word,produces,baby,baby
 item_403,barn,people,ii_13_6,word,produces,child,child
-item_404,brandma_ur,people,ii_13_7,word,produces,fireman,fireman
+item_404,brandma√∞ur,people,ii_13_7,word,produces,fireman,fireman
 item_405,beiggi,people,ii_13_8,word,produces,brother,brother
 item_406,cowboy,people,ii_13_9,word,produces,cowboy,cowboy
 item_407,drongur,people,ii_13_10,word,produces,boy,boy
 item_408,fastir,people,ii_13_11,word,produces,paternal aunt,aunt
-item_409,fólk,people,ii_13_12,word,produces,people,people
+item_409,f√≥lk,people,ii_13_12,word,produces,people,people
 item_410,gella,people,ii_13_13,word,produces,girl,girl
 item_411,genta,people,ii_13_14,word,produces,girl,girl
 item_412,gubbi,people,ii_13_15,word,produces,godfather,godfather
 item_413,gumma,people,ii_13_16,word,produces,godmother,godmother
 item_414,klovnur,people,ii_13_17,word,produces,clown,clown
 item_415,kona,people,ii_13_18,word,produces,woman/wife,woman
-item_416,kúllur,people,ii_13_19,word,produces,boy,boy
+item_416,k√∫llur,people,ii_13_19,word,produces,boy,boy
 item_417,langabbi,people,ii_13_20,word,produces,great-grandfather,
 item_418,langomma,people,ii_13_21,word,produces,great-grandmother,
-item_419,lækni,people,ii_13_22,word,produces,doctor,doctor
-item_420,lærari,people,ii_13_23,word,produces,teacher,teacher
-item_421,ma_ur,people,ii_13_24,word,produces,man/husband,man
+item_419,l√¶kni,people,ii_13_22,word,produces,doctor,doctor
+item_420,l√¶rari,people,ii_13_23,word,produces,teacher,teacher
+item_421,ma√∞ur,people,ii_13_24,word,produces,man/husband,man
 item_422,mamma,people,ii_13_25,word,produces,mummy,mommy
 item_423,mammubeiggi,people,ii_13_26,word,produces,maternal uncle,uncle
 item_424,mostir,people,ii_13_27,word,produces,maternal aunt,aunt
-item_425,navn á kelidjóri,people,ii_13_28,word,produces,name of pet,pet's name
-item_426,navn á pedagogi/dagrøktari,people,ii_13_29,word,produces,name of teacher/daycare provider,teacher's name
+item_425,navn √° kelidj√≥ri,people,ii_13_28,word,produces,name of pet,pet's name
+item_426,navn √° pedagogi/dagr√∏ktari,people,ii_13_29,word,produces,name of teacher/daycare provider,teacher's name
 item_427,omma,people,ii_13_30,word,produces,grandma,grandma
 item_428,ommubeiggi,people,ii_13_31,word,produces,granduncle (grandmother's brother),
 item_429,ommusystir,people,ii_13_32,word,produces,grandaunt (grandmother's sister),
-item_430,pápabeiggi,people,ii_13_33,word,produces,paternal uncle,uncle
+item_430,p√°pabeiggi,people,ii_13_33,word,produces,paternal uncle,uncle
 item_431,politi,people,ii_13_34,word,produces,police,police
-item_432,postbo_,people,ii_13_35,word,produces,post officer,postman
-item_433,sítt egna navn,people,ii_13_36,word,produces,child's own name,child's own name
-item_434,sjúkrasystir,people,ii_13_37,word,produces,nurse,nurse
+item_432,postbo√∞,people,ii_13_35,word,produces,post officer,postman
+item_433,s√≠tt egna navn,people,ii_13_36,word,produces,child's own name,child's own name
+item_434,sj√∫krasystir,people,ii_13_37,word,produces,nurse,nurse
 item_435,systir,people,ii_13_38,word,produces,sister,sister
-item_436,tannlækni,people,ii_13_39,word,produces,dentist,dentist
-item_437,trøll,people,ii_13_40,word,produces,troll,
+item_436,tannl√¶kni,people,ii_13_39,word,produces,dentist,dentist
+item_437,tr√∏ll,people,ii_13_40,word,produces,troll,
 item_438,vinkona,people,ii_13_41,word,produces,friend,friend
 item_439,vinur,people,ii_13_42,word,produces,friend,friend
-item_440,ba_,games_routines,ii_14_1,word,produces,bath (routine),take a bath
-item_441,bí_a,games_routines,ii_14_2,word,produces,wait,wait
+item_440,ba√∞,games_routines,ii_14_1,word,produces,bath (routine),take a bath
+item_441,b√≠√∞a,games_routines,ii_14_2,word,produces,wait,wait
 item_442,bei,games_routines,ii_14_3,word,produces,bye,bye
-item_443,døgur_i,games_routines,ii_14_4,word,produces,lunch,lunch
-item_444,gó_anátt,games_routines,ii_14_5,word,produces,good night,good night
-item_445,halló,games_routines,ii_14_6,word,produces,hello,hello
+item_443,d√∏gur√∞i,games_routines,ii_14_4,word,produces,lunch,lunch
+item_444,g√≥√∞an√°tt,games_routines,ii_14_5,word,produces,good night,good night
+item_445,hall√≥,games_routines,ii_14_6,word,produces,hello,hello
 item_446,hey,games_routines,ii_14_7,word,produces,hi,hi
 item_447,ja,games_routines,ii_14_8,word,produces,yes,yes
-item_448,kann eg fáa,games_routines,ii_14_9,word,produces,can i get,
-item_449,sova (í vogn/song),games_routines,ii_14_10,word,produces,sleep (in stroller/bed),
+item_448,kann eg f√°a,games_routines,ii_14_9,word,produces,can i get,
+item_449,sova (√≠ vogn/song),games_routines,ii_14_10,word,produces,sleep (in stroller/bed),
 item_450,mala hendan veg,games_routines,ii_14_11,word,produces,mala hendan veg (children's song),
 item_451,manga takk,games_routines,ii_14_12,word,produces,thank you,thank you
-item_452,millummála,games_routines,ii_14_13,word,produces,lunch,lunch
+item_452,millumm√°la,games_routines,ii_14_13,word,produces,lunch,lunch
 item_453,morgunmat,games_routines,ii_14_14,word,produces,breakfast,breakfast
-item_454,náttur_i,games_routines,ii_14_15,word,produces,dinner,dinner
-item_455,nú komi eg eftir tær,games_routines,ii_14_16,word,produces,now I'm coming for you,
+item_454,n√°ttur√∞i,games_routines,ii_14_15,word,produces,dinner,dinner
+item_455,n√∫ komi eg eftir t√¶r,games_routines,ii_14_16,word,produces,now I'm coming for you,
 item_456,nei,games_routines,ii_14_17,word,produces,no,no
 item_457,ringja,games_routines,ii_14_18,word,produces,call,call
-item_458,"rí_i, rí_i ranka",games_routines,ii_14_19,word,produces,"ride, ride ranka (children's song)",
-item_459,shh/hússj,games_routines,ii_14_20,word,produces,shh/hush,shh
-item_460,sita á potti,games_routines,ii_14_21,word,produces,go potty,go potty
-item_461,so stór/ur,games_routines,ii_14_22,word,produces,so big,so big
-item_462,spæla bø,games_routines,ii_14_23,word,produces,peekaboo,peekaboo
+item_458,"r√≠√∞i, r√≠√∞i ranka",games_routines,ii_14_19,word,produces,"ride, ride ranka (children's song)",
+item_459,shh/h√∫ssj,games_routines,ii_14_20,word,produces,shh/hush,shh
+item_460,sita √° potti,games_routines,ii_14_21,word,produces,go potty,go potty
+item_461,so st√≥r/ur,games_routines,ii_14_22,word,produces,so big,so big
+item_462,sp√¶la b√∏,games_routines,ii_14_23,word,produces,peekaboo,peekaboo
 item_463,takk,games_routines,ii_14_24,word,produces,thanks,thank you
-item_464,tími ikki,games_routines,ii_14_25,word,produces,don't want,don't want
+item_464,t√≠mi ikki,games_routines,ii_14_25,word,produces,don't want,don't want
 item_465,trilla,games_routines,ii_14_26,word,produces,push the stroller,
-item_466,arbei_a,action_words,ii_15_1,word,produces,work,work (action)
+item_466,arbei√∞a,action_words,ii_15_1,word,produces,work,work (action)
 item_467,banka,action_words,ii_15_2,word,produces,hit,hit
 item_468,bera,action_words,ii_15_3,word,produces,carry,carry
-item_469,bí_a,action_words,ii_15_4,word,produces,wait,wait
-item_470,bíta,action_words,ii_15_5,word,produces,bite,bite
+item_469,b√≠√∞a,action_words,ii_15_4,word,produces,wait,wait
+item_470,b√≠ta,action_words,ii_15_5,word,produces,bite,bite
 item_471,blaka,action_words,ii_15_6,word,produces,throw,throw
-item_472,blása,action_words,ii_15_7,word,produces,blow,blow
-item_473,bróta,action_words,ii_15_8,word,produces,break (action),break
+item_472,bl√°sa,action_words,ii_15_7,word,produces,blow,blow
+item_473,br√≥ta,action_words,ii_15_8,word,produces,break (action),break
 item_474,byggja,action_words,ii_15_9,word,produces,build,build
 item_475,dansa,action_words,ii_15_10,word,produces,dance (action),dance
-item_476,dáma,action_words,ii_15_11,word,produces,like,like
+item_476,d√°ma,action_words,ii_15_11,word,produces,like,like
 item_477,deila,action_words,ii_15_12,word,produces,share,share
 item_478,detta,action_words,ii_15_13,word,produces,fall,fall
 item_479,drekka,action_words,ii_15_14,word,produces,drink (beverage),drink (beverage)
@@ -483,7 +483,7 @@ item_481,enda,action_words,ii_15_16,word,produces,end,end
 item_482,eta,action_words,ii_15_17,word,produces,eat,eat
 item_483,fanga,action_words,ii_15_18,word,produces,grab,grab
 item_484,fara,action_words,ii_15_19,word,produces,go,go
-item_485,fáa,action_words,ii_15_20,word,produces,get,get
+item_485,f√°a,action_words,ii_15_20,word,produces,get,get
 item_486,feia,action_words,ii_15_21,word,produces,sweep,sweep
 item_487,finna,action_words,ii_15_22,word,produces,find,find
 item_488,ganga,action_words,ii_15_23,word,produces,walk,walk
@@ -493,12 +493,12 @@ item_491,gera reint,action_words,ii_15_26,word,produces,clean (action),clean (ac
 item_492,geva,action_words,ii_15_27,word,produces,give,give
 item_493,geva at eta,action_words,ii_15_28,word,produces,give to eat,feed
 item_494,goyma,action_words,ii_15_29,word,produces,keep,keep
-item_495,gráta,action_words,ii_15_30,word,produces,cry,cry
+item_495,gr√°ta,action_words,ii_15_30,word,produces,cry,cry
 item_496,halda,action_words,ii_15_31,word,produces,hold,hold
 item_497,hata,action_words,ii_15_32,word,produces,hate,hate
 item_498,hava,action_words,ii_15_33,word,produces,have,have
-item_499,hála,action_words,ii_15_34,word,produces,pull,pull
-item_500,hjálpa,action_words,ii_15_35,word,produces,help,help
+item_499,h√°la,action_words,ii_15_34,word,produces,pull,pull
+item_500,hj√°lpa,action_words,ii_15_35,word,produces,help,help
 item_501,hoppa,action_words,ii_15_36,word,produces,jump,jump
 item_502,hoyra,action_words,ii_15_37,word,produces,hear,hear
 item_503,hugsa,action_words,ii_15_38,word,produces,think,think
@@ -511,51 +511,51 @@ item_509,klappa,action_words,ii_15_44,word,produces,clap,clap
 item_510,klatra,action_words,ii_15_45,word,produces,climb,climb
 item_511,klemma,action_words,ii_15_46,word,produces,hug,hug
 item_512,klippa,action_words,ii_15_47,word,produces,cut,cut
-item_513,koma vi_,action_words,ii_15_48,word,produces,bring,bring
+item_513,koma vi√∞,action_words,ii_15_48,word,produces,bring,bring
 item_514,koyra,action_words,ii_15_49,word,produces,drive,drive
-item_515,krógva,action_words,ii_15_50,word,produces,hide,hide
+item_515,kr√≥gva,action_words,ii_15_50,word,produces,hide,hide
 item_516,lata aftur,action_words,ii_15_51,word,produces,close (action),close
 item_517,lata upp,action_words,ii_15_52,word,produces,open (action),open (action)
-item_518,láta sum um,action_words,ii_15_53,word,produces,pretend,pretend
+item_518,l√°ta sum um,action_words,ii_15_53,word,produces,pretend,pretend
 item_519,leggja,action_words,ii_15_54,word,produces,lay,lay
 item_520,lesa,action_words,ii_15_55,word,produces,read,read
 item_521,lofta,action_words,ii_15_56,word,produces,catch,catch
 item_522,lurta,action_words,ii_15_57,word,produces,listen,listen
-item_523,mála,action_words,ii_15_58,word,produces,paint,paint (action)
+item_523,m√°la,action_words,ii_15_58,word,produces,paint,paint (action)
 item_524,missa,action_words,ii_15_59,word,produces,lose,lose
 item_525,mussa,action_words,ii_15_60,word,produces,kiss,kiss
 item_526,nema,action_words,ii_15_61,word,produces,learn,learn
-item_527,or_na,action_words,ii_15_62,word,produces,arrange/fix,fix
+item_527,or√∞na,action_words,ii_15_62,word,produces,arrange/fix,fix
 item_528,passa,action_words,ii_15_63,word,produces,fit,fit
 item_529,renna,action_words,ii_15_64,word,produces,run,run
 item_530,renna eftir,action_words,ii_15_65,word,produces,run after,chase
 item_531,reiggja,action_words,ii_15_66,word,produces,swing (action),swing (object)
 item_532,rista,action_words,ii_15_67,word,produces,shake,shake
-item_533,rí_a,action_words,ii_15_68,word,produces,ride,ride
+item_533,r√≠√∞a,action_words,ii_15_68,word,produces,ride,ride
 item_534,rudda,action_words,ii_15_69,word,produces,clean (action),clean (action)
 item_535,seta,action_words,ii_15_70,word,produces,put,put
 item_536,siga,action_words,ii_15_71,word,produces,say,say
 item_537,sita,action_words,ii_15_72,word,produces,sit,sit
-item_538,síggja,action_words,ii_15_73,word,produces,see,see
+item_538,s√≠ggja,action_words,ii_15_73,word,produces,see,see
 item_539,skeinkja,action_words,ii_15_74,word,produces,pour,pour
 item_540,skera,action_words,ii_15_75,word,produces,cut (action),cut
 item_541,skoyta,action_words,ii_15_76,word,produces,skate,skate (action)
-item_542,skrei_a,action_words,ii_15_77,word,produces,crawl,crawl
+item_542,skrei√∞a,action_words,ii_15_77,word,produces,crawl,crawl
 item_543,skriva,action_words,ii_15_78,word,produces,write,write
-item_544,skræ_a,action_words,ii_15_79,word,produces,tear (action),tear
+item_544,skr√¶√∞a,action_words,ii_15_79,word,produces,tear (action),tear
 item_545,skumpa,action_words,ii_15_80,word,produces,push,push
-item_546,skunda sær,action_words,ii_15_81,word,produces,hurry up,hurry
-item_547,sláa,action_words,ii_15_82,word,produces,hit,hit
+item_546,skunda s√¶r,action_words,ii_15_81,word,produces,hurry up,hurry
+item_547,sl√°a,action_words,ii_15_82,word,produces,hit,hit
 item_548,slikka,action_words,ii_15_83,word,produces,lick,lick
 item_549,smakka,action_words,ii_15_84,word,produces,taste,taste
-item_550,smíla,action_words,ii_15_85,word,produces,smile,smile
+item_550,sm√≠la,action_words,ii_15_85,word,produces,smile,smile
 item_551,sova,action_words,ii_15_86,word,produces,sleep,sleep
 item_552,sparka,action_words,ii_15_87,word,produces,kick,kick
 item_553,sprutta,action_words,ii_15_88,word,produces,splash,splash
-item_554,spæla,action_words,ii_15_89,word,produces,play,play
+item_554,sp√¶la,action_words,ii_15_89,word,produces,play,play
 item_555,standa,action_words,ii_15_90,word,produces,stand,stand
-item_556,ste_ga,action_words,ii_15_91,word,produces,stop,stop
-item_557,stoyta (ni_ur),action_words,ii_15_92,word,produces,spill,spill
+item_556,ste√∞ga,action_words,ii_15_91,word,produces,stop,stop
+item_557,stoyta (ni√∞ur),action_words,ii_15_92,word,produces,spill,spill
 item_558,svansa,action_words,ii_15_93,word,produces,mess up,
 item_559,svimja,action_words,ii_15_94,word,produces,swim,swim
 item_560,syngja,action_words,ii_15_95,word,produces,sing,sing
@@ -567,33 +567,33 @@ item_565,turka av,action_words,ii_15_100,word,produces,wipe,wipe
 item_566,vakna,action_words,ii_15_101,word,produces,wake up,wake up
 item_567,vaska,action_words,ii_15_102,word,produces,wash,wash
 item_568,velja,action_words,ii_15_103,word,produces,choose,choose
-item_569,vísa,action_words,ii_15_104,word,produces,show,show
+item_569,v√≠sa,action_words,ii_15_104,word,produces,show,show
 item_570,ynskja,action_words,ii_15_105,word,produces,wish,wish
 item_571,appelsingult,descriptive_words,ii_16_1,word,produces,orange (description),orange (description)
 item_572,bangin,descriptive_words,ii_16_2,word,produces,afraid,afraid
 item_573,betri,descriptive_words,ii_16_3,word,produces,better,better
-item_574,blátt,descriptive_words,ii_16_4,word,produces,blue,blue
+item_574,bl√°tt,descriptive_words,ii_16_4,word,produces,blue,blue
 item_575,bleytt,descriptive_words,ii_16_5,word,produces,soft,soft
-item_576,broti_,descriptive_words,ii_16_6,word,produces,broken,broken
-item_577,brúnt,descriptive_words,ii_16_7,word,produces,brown,brown
-item_578,b_tt,descriptive_words,ii_16_8,word,produces,silly,silly
+item_576,broti√∞,descriptive_words,ii_16_6,word,produces,broken,broken
+item_577,br√∫nt,descriptive_words,ii_16_7,word,produces,brown,brown
+item_578,b√Ωtt,descriptive_words,ii_16_8,word,produces,silly,silly
 item_579,cool,descriptive_words,ii_16_9,word,produces,cool,cool (description)
 item_580,deiligt,descriptive_words,ii_16_10,word,produces,delicious,tasty
 item_581,fast,descriptive_words,ii_16_11,word,produces,stuck,stuck
 item_582,fitt/ur,descriptive_words,ii_16_12,word,produces,cute,cute
-item_583,fínt,descriptive_words,ii_16_13,word,produces,fine,fine
-item_584,fortre_,descriptive_words,ii_16_14,word,produces,mischievous,naughty
+item_583,f√≠nt,descriptive_words,ii_16_13,word,produces,fine,fine
+item_584,fortre√∞,descriptive_words,ii_16_14,word,produces,mischievous,naughty
 item_585,fult,descriptive_words,ii_16_15,word,produces,full,full
 item_586,fyrst,descriptive_words,ii_16_16,word,produces,first,first
 item_587,gamalt,descriptive_words,ii_16_17,word,produces,old,old
-item_588,gla_/ur,descriptive_words,ii_16_18,word,produces,happy,happy
+item_588,gla√∞/ur,descriptive_words,ii_16_18,word,produces,happy,happy
 item_589,gott,descriptive_words,ii_16_19,word,produces,good,good
-item_590,grønt,descriptive_words,ii_16_20,word,produces,green,green
+item_590,gr√∏nt,descriptive_words,ii_16_20,word,produces,green,green
 item_591,gult,descriptive_words,ii_16_21,word,produces,yellow,yellow
 item_592,hart,descriptive_words,ii_16_22,word,produces,hard,hard
 item_593,heitt,descriptive_words,ii_16_23,word,produces,hot,hot
-item_594,hvítt,descriptive_words,ii_16_24,word,produces,white,white
-item_595,høgt,descriptive_words,ii_16_25,word,produces,high,high
+item_594,hv√≠tt,descriptive_words,ii_16_24,word,produces,white,white
+item_595,h√∏gt,descriptive_words,ii_16_25,word,produces,high,high
 item_596,ill/ur,descriptive_words,ii_16_26,word,produces,angry,angry
 item_597,kalt,descriptive_words,ii_16_27,word,produces,cold,cold
 item_598,kedd/ur,descriptive_words,ii_16_28,word,produces,sad,sad
@@ -601,46 +601,46 @@ item_599,klistrut,descriptive_words,ii_16_29,word,produces,sticky,sticky
 item_600,langt,descriptive_words,ii_16_30,word,produces,far,far
 item_601,larmar,descriptive_words,ii_16_31,word,produces,noisy,noisy
 item_602,lin/ur,descriptive_words,ii_16_32,word,produces,sleepy,soft
-item_603,líti_,descriptive_words,ii_16_33,word,produces,little,little
-item_604,mega (t.d. skjótt),descriptive_words,ii_16_34,word,produces,"mega (overly, e.g., quickly)",
-item_605,mó_/ur,descriptive_words,ii_16_35,word,produces,tired,tired
+item_603,l√≠ti√∞,descriptive_words,ii_16_33,word,produces,little,little
+item_604,mega (t.d. skj√≥tt),descriptive_words,ii_16_34,word,produces,"mega (overly, e.g., quickly)",
+item_605,m√≥√∞/ur,descriptive_words,ii_16_35,word,produces,tired,tired
 item_606,myrkt,descriptive_words,ii_16_36,word,produces,dark,dark
-item_607,n_tt,descriptive_words,ii_16_37,word,produces,new,new
-item_608,ólekkurt,descriptive_words,ii_16_38,word,produces,nasty,nasty
+item_607,n√Ωtt,descriptive_words,ii_16_37,word,produces,new,new
+item_608,√≥lekkurt,descriptive_words,ii_16_38,word,produces,nasty,nasty
 item_609,pent,descriptive_words,ii_16_39,word,produces,nice,nice
-item_610,pinkalítil,descriptive_words,ii_16_40,word,produces,tiny,tiny
+item_610,pinkal√≠til,descriptive_words,ii_16_40,word,produces,tiny,tiny
 item_611,ringt,descriptive_words,ii_16_41,word,produces,ill/poor/bad,bad
 item_612,reint,descriptive_words,ii_16_42,word,produces,clean (description),clean (description)
 item_613,reytt,descriptive_words,ii_16_43,word,produces,red,red
-item_614,sí_st,descriptive_words,ii_16_44,word,produces,last,last
-item_615,sjúk/ur,descriptive_words,ii_16_45,word,produces,ill,sick
-item_616,skiti_,descriptive_words,ii_16_46,word,produces,dirty,dirty
-item_617,skjótt,descriptive_words,ii_16_47,word,produces,fast,fast
+item_614,s√≠√∞st,descriptive_words,ii_16_44,word,produces,last,last
+item_615,sj√∫k/ur,descriptive_words,ii_16_45,word,produces,ill,sick
+item_616,skiti√∞,descriptive_words,ii_16_46,word,produces,dirty,dirty
+item_617,skj√≥tt,descriptive_words,ii_16_47,word,produces,fast,fast
 item_618,spakuligt,descriptive_words,ii_16_48,word,produces,slow,slow
 item_619,still/ur,descriptive_words,ii_16_49,word,produces,calm,calm
 item_620,stuttligt,descriptive_words,ii_16_50,word,produces,fun,fun
-item_621,stórt,descriptive_words,ii_16_51,word,produces,big,big
+item_621,st√≥rt,descriptive_words,ii_16_51,word,produces,big,big
 item_622,svart,descriptive_words,ii_16_52,word,produces,black,black
 item_623,svong/svangur,descriptive_words,ii_16_53,word,produces,hungry,hungry
-item_624,tómt,descriptive_words,ii_16_54,word,produces,empty,empty
+item_624,t√≥mt,descriptive_words,ii_16_54,word,produces,empty,empty
 item_625,tungt,descriptive_words,ii_16_55,word,produces,heavy,heavy
 item_626,turt,descriptive_words,ii_16_56,word,produces,dry (description),dry (description)
 item_627,tyst/ur,descriptive_words,ii_16_57,word,produces,thirsty,thirsty
 item_628,vakin,descriptive_words,ii_16_58,word,produces,awake,awake
-item_629,vátt,descriptive_words,ii_16_59,word,produces,wet,wet
+item_629,v√°tt,descriptive_words,ii_16_59,word,produces,wet,wet
 item_630,vekk,descriptive_words,ii_16_60,word,produces,away/gone,gone
-item_631,aftaná,time_words,ii_17_1,word,produces,after,after
-item_632,á_renn,time_words,ii_17_2,word,produces,before,before
+item_631,aftan√°,time_words,ii_17_1,word,produces,after,after
+item_632,√°√∞renn,time_words,ii_17_2,word,produces,before,before
 item_633,dagur,time_words,ii_17_3,word,produces,day,day
-item_634,í dag,time_words,ii_17_4,word,produces,today,today
-item_635,í gjár,time_words,ii_17_5,word,produces,yesterday,yesterday
-item_636,í kvøld,time_words,ii_17_6,word,produces,tonight,tonight
-item_637,í morgin,time_words,ii_17_7,word,produces,this morning,this morning
+item_634,√≠ dag,time_words,ii_17_4,word,produces,today,today
+item_635,√≠ gj√°r,time_words,ii_17_5,word,produces,yesterday,yesterday
+item_636,√≠ kv√∏ld,time_words,ii_17_6,word,produces,tonight,tonight
+item_637,√≠ morgin,time_words,ii_17_7,word,produces,this morning,this morning
 item_638,morgun,time_words,ii_17_8,word,produces,morning,morning
-item_639,nátt,time_words,ii_17_9,word,produces,night,night
-item_640,nú,time_words,ii_17_10,word,produces,now,now
+item_639,n√°tt,time_words,ii_17_9,word,produces,night,night
+item_640,n√∫,time_words,ii_17_10,word,produces,now,now
 item_641,seinni,time_words,ii_17_11,word,produces,later,later
-item_642,um eina løtu,time_words,ii_17_12,word,produces,in a moment,soon
+item_642,um eina l√∏tu,time_words,ii_17_12,word,produces,in a moment,soon
 item_643,eg,pronouns,ii_18_1,word,produces,I (nom),1SG
 item_644,hana,pronouns,ii_18_2,word,produces,her (acc),3SG
 item_645,handan,pronouns,ii_18_3,word,produces,that,that
@@ -662,24 +662,24 @@ item_660,hin (hitt),pronouns,ii_18_18,word,produces,that,that
 item_661,hon,pronouns,ii_18_19,word,produces,she (nom),3SG
 item_662,honum,pronouns,ii_18_20,word,produces,him (dat),3SG
 item_663,meg,pronouns,ii_18_21,word,produces,me (acc),1SG
-item_664,mín (mítt),pronouns,ii_18_22,word,produces,my (my),1SG.POSS
-item_665,mær,pronouns,ii_18_23,word,produces,me (dat),1SG
+item_664,m√≠n (m√≠tt),pronouns,ii_18_22,word,produces,my (my),1SG.POSS
+item_665,m√¶r,pronouns,ii_18_23,word,produces,me (dat),1SG
 item_666,nakar,pronouns,ii_18_24,word,produces,one (indef),
 item_667,okkara,pronouns,ii_18_25,word,produces,our (gen),1PL.POSS
 item_668,okkum,pronouns,ii_18_26,word,produces,us (acc/dat),1PL
 item_669,onkur,pronouns,ii_18_27,word,produces,someone,someone
-item_670,sín (sítt),pronouns,ii_18_28,word,produces,their (sg gen),3SG.POSS
-item_671,sær (seg),pronouns,ii_18_29,word,produces,self (refl),REFL
-item_672,sjálv/ur,pronouns,ii_18_30,word,produces,self (refl),REFL
-item_673,ta_,pronouns,ii_18_31,word,produces,it (nom/acc),3SG
+item_670,s√≠n (s√≠tt),pronouns,ii_18_28,word,produces,their (sg gen),3SG.POSS
+item_671,s√¶r (seg),pronouns,ii_18_29,word,produces,self (refl),REFL
+item_672,sj√°lv/ur,pronouns,ii_18_30,word,produces,self (refl),REFL
+item_673,ta√∞,pronouns,ii_18_31,word,produces,it (nom/acc),3SG
 item_674,tann,pronouns,ii_18_32,word,produces,that,that
 item_675,teg,pronouns,ii_18_33,word,produces,you (acc),2SG
 item_676,tit,pronouns,ii_18_34,word,produces,you (pl nom),2PL
-item_677,tín (títt),pronouns,ii_18_35,word,produces,your (gen),2SG.POSS
-item_678,tú,pronouns,ii_18_36,word,produces,you (nom),2SG
+item_677,t√≠n (t√≠tt),pronouns,ii_18_35,word,produces,your (gen),2SG.POSS
+item_678,t√∫,pronouns,ii_18_36,word,produces,you (nom),2SG
 item_679,tykkara,pronouns,ii_18_37,word,produces,your (pl gen),2PL.POSS
 item_680,tykkum,pronouns,ii_18_38,word,produces,you (pl acc/dat),2PL
-item_681,tær,pronouns,ii_18_39,word,produces,you (dat),2SG
+item_681,t√¶r,pronouns,ii_18_39,word,produces,you (dat),2SG
 item_682,tey,pronouns,ii_18_40,word,produces,they (nom/acc),3PL
 item_683,teimum,pronouns,ii_18_41,word,produces,them (dat),3PL
 item_684,teir,pronouns,ii_18_42,word,produces,they (nom/acc),3PL
@@ -688,51 +688,51 @@ item_686,vit,pronouns,ii_18_44,word,produces,we (nom),1PL
 item_687,ha?,question_words,ii_19_1,word,produces,huh?,
 item_688,hvar,question_words,ii_19_2,word,produces,where (question),where (question)
 item_689,hvat,question_words,ii_19_3,word,produces,what,what
-item_690,hví,question_words,ii_19_4,word,produces,why,why
+item_690,hv√≠,question_words,ii_19_4,word,produces,why,why
 item_691,hvussu,question_words,ii_19_5,word,produces,how,how
-item_692,hvønn,question_words,ii_19_6,word,produces,whom (acc),
-item_693,hvør,question_words,ii_19_7,word,produces,who,who
-item_694,hvørjum,question_words,ii_19_8,word,produces,whom (dat),
-item_695,nær,question_words,ii_19_9,word,produces,when (question),when (question)
+item_692,hv√∏nn,question_words,ii_19_6,word,produces,whom (acc),
+item_693,hv√∏r,question_words,ii_19_7,word,produces,who,who
+item_694,hv√∏rjum,question_words,ii_19_8,word,produces,whom (dat),
+item_695,n√¶r,question_words,ii_19_9,word,produces,when (question),when (question)
 item_696,aftanfyri,locations,ii_20_1,word,produces,behind,behind
 item_697,aftur,locations,ii_20_2,word,produces,back,back
 item_698,av,locations,ii_20_3,word,produces,of,of
-item_699,á,locations,ii_20_4,word,produces,on,on
+item_699,√°,locations,ii_20_4,word,produces,on,on
 item_700,fram,locations,ii_20_5,word,produces,forward,forward
 item_701,frammanfyri,locations,ii_20_6,word,produces,ahead,ahead
-item_702,frá,locations,ii_20_7,word,produces,from,from
+item_702,fr√°,locations,ii_20_7,word,produces,from,from
 item_703,fyri,locations,ii_20_8,word,produces,for,for
-item_704,gjøgnum,locations,ii_20_9,word,produces,through,through
+item_704,gj√∏gnum,locations,ii_20_9,word,produces,through,through
 item_705,har,locations,ii_20_10,word,produces,there,there
 item_706,her,locations,ii_20_11,word,produces,here,here
-item_707,hjá,locations,ii_20_12,word,produces,at,at
+item_707,hj√°,locations,ii_20_12,word,produces,at,at
 item_708,inn,locations,ii_20_13,word,produces,in,in
 item_709,inni,locations,ii_20_14,word,produces,inside,inside
-item_710,inn(i)í,locations,ii_20_15,word,produces,in,in
-item_711,í,locations,ii_20_16,word,produces,in,in
-item_712,líka,locations,ii_20_17,word,produces,too,too
-item_713,móti,locations,ii_20_18,word,produces,against,against
-item_714,ni_ur,locations,ii_20_19,word,produces,down,down
+item_710,inn(i)√≠,locations,ii_20_15,word,produces,in,in
+item_711,√≠,locations,ii_20_16,word,produces,in,in
+item_712,l√≠ka,locations,ii_20_17,word,produces,too,too
+item_713,m√≥ti,locations,ii_20_18,word,produces,against,against
+item_714,ni√∞ur,locations,ii_20_19,word,produces,down,down
 item_715,oman,locations,ii_20_20,word,produces,down,down
-item_716,omaná,locations,ii_20_21,word,produces,top,top
+item_716,oman√°,locations,ii_20_21,word,produces,top,top
 item_717,rundan um,locations,ii_20_22,word,produces,around,around
 item_718,til,locations,ii_20_23,word,produces,to,to
 item_719,um,locations,ii_20_24,word,produces,about,about
 item_720,undir,locations,ii_20_25,word,produces,under,under
 item_721,upp,locations,ii_20_26,word,produces,up,up
 item_722,uppi,locations,ii_20_27,word,produces,up,up
-item_723,upp(i)á,locations,ii_20_28,word,produces,on top of,on top of
+item_723,upp(i)√°,locations,ii_20_28,word,produces,on top of,on top of
 item_724,uppiyvir,locations,ii_20_29,word,produces,above,above
 item_725,uttanfyri,locations,ii_20_30,word,produces,outside,outside
-item_726,út,locations,ii_20_31,word,produces,out,out
-item_727,úti,locations,ii_20_32,word,produces,out,out
+item_726,√∫t,locations,ii_20_31,word,produces,out,out
+item_727,√∫ti,locations,ii_20_32,word,produces,out,out
 item_728,vekk,locations,ii_20_33,word,produces,away/gone,gone
-item_729,vi_,locations,ii_20_34,word,produces,by,by
-item_730,vi_ sí_una av,locations,ii_20_35,word,produces,beside,beside
+item_729,vi√∞,locations,ii_20_34,word,produces,by,by
+item_730,vi√∞ s√≠√∞una av,locations,ii_20_35,word,produces,beside,beside
 item_731,yvir,locations,ii_20_36,word,produces,over,over
 item_732,yvirum,locations,ii_20_37,word,produces,over,over
-item_733,a_rar/a_rir/onnur,quantifiers,ii_21_1,word,produces,other,other
-item_734,allar/allir/øll,quantifiers,ii_21_2,word,produces,all,all
+item_733,a√∞rar/a√∞rir/onnur,quantifiers,ii_21_1,word,produces,other,other
+item_734,allar/allir/√∏ll,quantifiers,ii_21_2,word,produces,all,all
 item_735,alt,quantifiers,ii_21_3,word,produces,alt,
 item_736,annar/onnur,quantifiers,ii_21_4,word,produces,another,another
 item_737,bara,quantifiers,ii_21_5,word,produces,just,just
@@ -744,26 +744,26 @@ item_742,hin/hitt,quantifiers,ii_21_10,word,produces,other,other
 item_743,hinar/hinir/hini,quantifiers,ii_21_11,word,produces,other,other
 item_744,ikki,quantifiers,ii_21_12,word,produces,not,not
 item_745,meira,quantifiers,ii_21_13,word,produces,more,more
-item_746,nógvar/nógvir/nógv,quantifiers,ii_21_14,word,produces,enough,enough
+item_746,n√≥gvar/n√≥gvir/n√≥gv,quantifiers,ii_21_14,word,produces,enough,enough
 item_747,ongin/ongi/onki,quantifiers,ii_21_15,word,produces,none,none
 item_748,sama/sami/somu,quantifiers,ii_21_16,word,produces,same,same
-item_749,solei_is,quantifiers,ii_21_17,word,produces,so,so
+item_749,solei√∞is,quantifiers,ii_21_17,word,produces,so,so
 item_750,summar/summir/summi,quantifiers,ii_21_18,word,produces,some,some
-item_751,kann fáa,helping_words,ii_22_1,word,produces,can,can
-item_752,kanst fáa,helping_words,ii_22_2,word,produces,can,can
-item_753,kunnu fáa,helping_words,ii_22_3,word,produces,can,can
-item_754,kundi fáa,helping_words,ii_22_4,word,produces,can,can
-item_755,kundu fáa,helping_words,ii_22_5,word,produces,can,can
-item_756,má fáa,helping_words,ii_22_6,word,produces,must,must
-item_757,mást fáa,helping_words,ii_22_7,word,produces,must,must
-item_758,mátti fáa,helping_words,ii_22_8,word,produces,must,must
-item_759,máttu fáa,helping_words,ii_22_9,word,produces,must,must
-item_760,mugu fáa,helping_words,ii_22_10,word,produces,must,must
-item_761,skal fáa,helping_words,ii_22_11,word,produces,shall,shall
-item_762,skalt fáa,helping_words,ii_22_12,word,produces,shall,shall
-item_763,skuldi fáa,helping_words,ii_22_13,word,produces,shall,shall
-item_764,skuldu fáa,helping_words,ii_22_14,word,produces,shall,shall
-item_765,skulu fáa,helping_words,ii_22_15,word,produces,shall,shall
+item_751,kann f√°a,helping_words,ii_22_1,word,produces,can,can
+item_752,kanst f√°a,helping_words,ii_22_2,word,produces,can,can
+item_753,kunnu f√°a,helping_words,ii_22_3,word,produces,can,can
+item_754,kundi f√°a,helping_words,ii_22_4,word,produces,can,can
+item_755,kundu f√°a,helping_words,ii_22_5,word,produces,can,can
+item_756,m√° f√°a,helping_words,ii_22_6,word,produces,must,must
+item_757,m√°st f√°a,helping_words,ii_22_7,word,produces,must,must
+item_758,m√°tti f√°a,helping_words,ii_22_8,word,produces,must,must
+item_759,m√°ttu f√°a,helping_words,ii_22_9,word,produces,must,must
+item_760,mugu f√°a,helping_words,ii_22_10,word,produces,must,must
+item_761,skal f√°a,helping_words,ii_22_11,word,produces,shall,shall
+item_762,skalt f√°a,helping_words,ii_22_12,word,produces,shall,shall
+item_763,skuldi f√°a,helping_words,ii_22_13,word,produces,shall,shall
+item_764,skuldu f√°a,helping_words,ii_22_14,word,produces,shall,shall
+item_765,skulu f√°a,helping_words,ii_22_15,word,produces,shall,shall
 item_766,vil hava,helping_words,ii_22_16,word,produces,want,want
 item_767,vilt hava,helping_words,ii_22_17,word,produces,want,want
 item_768,vilja hava,helping_words,ii_22_18,word,produces,want,want
@@ -773,39 +773,39 @@ item_771,eri,helping_words,ii_22_21,word,produces,am,am
 item_772,ert,helping_words,ii_22_22,word,produces,are,are
 item_773,eru,helping_words,ii_22_23,word,produces,are,are
 item_774,var,helping_words,ii_22_24,word,produces,was,was
-item_775,vóru,helping_words,ii_22_25,word,produces,were,were
+item_775,v√≥ru,helping_words,ii_22_25,word,produces,were,were
 item_776,at,connecting_words,ii_23_1,word,produces,that (conjunction),
 item_777,ella,connecting_words,ii_23_2,word,produces,or,or
 item_778,vissi (hvis),connecting_words,ii_23_3,word,produces,if,if
 item_779,men,connecting_words,ii_23_4,word,produces,but,but
 item_780,og,connecting_words,ii_23_5,word,produces,and,and
 item_781,sum,connecting_words,ii_23_6,word,produces,as,as
-item_782,tí,connecting_words,ii_23_7,word,produces,because,because
-item_783,"1. Tosar barni_ hjá tær um fólk, sum ikki eru til sta_ar ella okkurt, sum longu er hent? Dømi: Eitt barn, sum var til sjónleik í sí_stu viku, sigur: “trøll” ella “ganda”.",,ii_24_1,how_use_words,not yet; sometimes; often,1. Does your child talk about people who are not present or something that has already happened? Example: A child who was at a play last week says: “troll” or “magic”.,
-item_784,"2. Tosar barni_ hjá tær onkuntí_ um okkurt, sum fer at henda t.d. sigur gyng gang, á_renn tit fara á spælipláss ella gvagg gvagg á_renn tit fara at geva dunnunum?",,ii_24_2,how_use_words,not yet; sometimes; often,"2. Does your child ever talk about something that is going to happen e.g. says ""swish swish (swing sound)"", before you go to the playground or ""quack quack"" before you go to feed the ducks?",
-item_785,"3. Tosar barni_ hjá tær nakrantí_ um lutir, sum ikki eru til sta_ar so sum spyr eftir onkrum leikum, sum eru vekk ella kelidjóri, sum ikki er til sta_ar ella spyr eftir onkrum persóni, sum ikki er til sta_ar?",,ii_24_3,how_use_words,not yet; sometimes; often,3. Does your child ever talk about things that are not there such as asking for toys that are gone or a pet that is not there or asking for a person that is not there?,
-item_786,"4. Skilir barni_ hjá tær, um tú spyr eftir onkrum, sum ikki er í stovuni t.d. fer í kamari_ eftir einari bamsu, um tú spyrt: hvar er bamsan?",,ii_24_4,how_use_words,not yet; sometimes; often,"4. Does your child understand if you ask for something that is not in the room e.g. goes to the room for a teddy bear, if you ask: where is the teddy bear?",
-item_787,"5. Tekur ella peikar barni_ hjá tær nakrantí_ á ein lut og sigur navni_ á tí, sum eigur lutin? Dømi: Stokkar og sigur “mamma”?",,ii_24_5,how_use_words,not yet; sometimes; often,5. Does your child ever take or point to an object and say the name of the person who owns the object? Example: Does he point to knitting pins and say “mom”?,
-item_788,"1. Tá vit tosa um meira enn eitt ting seta vit ""–ar"" afturat nógvum or_um. Eitt dømi er “bilar” (um meiri enn ein bil), “skógvar,” “hundar,” og “lyklar.” Er barni_ hjá tær byrja_ at gera hetta?",,ii_25_1,word_endings,not yet; sometimes; often,"1. When we talk about more than one thing we put ""–ar"" after many words. Examples are “cars” (about more than one car), “shoes,” “dogs,” and “keys.” Has your child started doing this?",
-item_789,"2. Tá onkur eigur okkurt, siga vit “’hjá” frammanfyri ella skoyta “’sa” upp í or_i_. Dømi: “Jakkin hjá babba,” “mammusa kjóli,” og “abbasa brillur”. Er barni_ hjá tær byrja_ at gera hetta?",,ii_25_2,word_endings,not yet; sometimes; often,"2. When someone owns something, we say “'hjá” in front or add “'sa” to the word. Examples: “Daddy's jacket,” “Mom's dress,” and “Grandma's glasses”. Has your child started doing this?",
-item_790,"3. Tá vit tosa um ting, sum eru hend, eru summi or_ sterkt bend. Dømi: eru “sá”, “rann” og “græt”. Er barni_ hjá tær byrja_ at gera hetta?",,ii_25_3,word_endings,not yet; sometimes; often,"3. When we talk about things that have happened, some words are strongly suggestive. Examples: are “saw”, “ran” and “cried”. Has your child started doing this?",
-item_791,"4. Tá vit tosa um ting, sum eru hend, leggja vit ofta “-a_i” afturat sagnor_inum. Dømi eru “Mussa_i,” “hoppa_i” og “dansa_i”. Er barni_ hjá tær byrja_ at gera hetta?",,ii_25_4,word_endings,not yet; sometimes; often,"4. When we talk about things that have happened, we often add “-a_i” to the verb. Examples are “Kissed,” “jumped,” and “danced.” Has your child started doing this?",
-item_792,børn,,ii_26_1,word_forms_nouns,produces,children,
-item_793,føtur,,ii_26_2,word_forms_nouns,produces,feet,
+item_782,t√≠,connecting_words,ii_23_7,word,produces,because,because
+item_783,"1. Tosar barni√∞ hj√° t√¶r um f√≥lk, sum ikki eru til sta√∞ar ella okkurt, sum longu er hent? D√∏mi: Eitt barn, sum var til sj√≥nleik √≠ s√≠√∞stu viku, sigur: ‚Äútr√∏ll‚Äù ella ‚Äúganda‚Äù.",,ii_24_1,how_use_words,not yet; sometimes; often,1. Does your child talk about people who are not present or something that has already happened? Example: A child who was at a play last week says: ‚Äútroll‚Äù or ‚Äúmagic‚Äù.,
+item_784,"2. Tosar barni√∞ hj√° t√¶r onkunt√≠√∞ um okkurt, sum fer at henda t.d. sigur gyng gang, √°√∞renn tit fara √° sp√¶lipl√°ss ella gvagg gvagg √°√∞renn tit fara at geva dunnunum?",,ii_24_2,how_use_words,not yet; sometimes; often,"2. Does your child ever talk about something that is going to happen e.g. says ""swish swish (swing sound)"", before you go to the playground or ""quack quack"" before you go to feed the ducks?",
+item_785,"3. Tosar barni√∞ hj√° t√¶r nakrant√≠√∞ um lutir, sum ikki eru til sta√∞ar so sum spyr eftir onkrum leikum, sum eru vekk ella kelidj√≥ri, sum ikki er til sta√∞ar ella spyr eftir onkrum pers√≥ni, sum ikki er til sta√∞ar?",,ii_24_3,how_use_words,not yet; sometimes; often,3. Does your child ever talk about things that are not there such as asking for toys that are gone or a pet that is not there or asking for a person that is not there?,
+item_786,"4. Skilir barni√∞ hj√° t√¶r, um t√∫ spyr eftir onkrum, sum ikki er √≠ stovuni t.d. fer √≠ kamari√∞ eftir einari bamsu, um t√∫ spyrt: hvar er bamsan?",,ii_24_4,how_use_words,not yet; sometimes; often,"4. Does your child understand if you ask for something that is not in the room e.g. goes to the room for a teddy bear, if you ask: where is the teddy bear?",
+item_787,"5. Tekur ella peikar barni√∞ hj√° t√¶r nakrant√≠√∞ √° ein lut og sigur navni√∞ √° t√≠, sum eigur lutin? D√∏mi: Stokkar og sigur ‚Äúmamma‚Äù?",,ii_24_5,how_use_words,not yet; sometimes; often,5. Does your child ever take or point to an object and say the name of the person who owns the object? Example: Does he point to knitting pins and say ‚Äúmom‚Äù?,
+item_788,"1. T√° vit tosa um meira enn eitt ting seta vit ""‚Äìar"" afturat n√≥gvum or√∞um. Eitt d√∏mi er ‚Äúbilar‚Äù (um meiri enn ein bil), ‚Äúsk√≥gvar,‚Äù ‚Äúhundar,‚Äù og ‚Äúlyklar.‚Äù Er barni√∞ hj√° t√¶r byrja√∞ at gera hetta?",,ii_25_1,word_endings,not yet; sometimes; often,"1. When we talk about more than one thing we put ""‚Äìar"" after many words. Examples are ‚Äúcars‚Äù (about more than one car), ‚Äúshoes,‚Äù ‚Äúdogs,‚Äù and ‚Äúkeys.‚Äù Has your child started doing this?",
+item_789,"2. T√° onkur eigur okkurt, siga vit ‚Äú‚Äôhj√°‚Äù frammanfyri ella skoyta ‚Äú‚Äôsa‚Äù upp √≠ or√∞i√∞. D√∏mi: ‚ÄúJakkin hj√° babba,‚Äù ‚Äúmammusa kj√≥li,‚Äù og ‚Äúabbasa brillur‚Äù. Er barni√∞ hj√° t√¶r byrja√∞ at gera hetta?",,ii_25_2,word_endings,not yet; sometimes; often,"2. When someone owns something, we say ‚Äú'hj√°‚Äù in front or add ‚Äú'sa‚Äù to the word. Examples: ‚ÄúDaddy's jacket,‚Äù ‚ÄúMom's dress,‚Äù and ‚ÄúGrandma's glasses‚Äù. Has your child started doing this?",
+item_790,"3. T√° vit tosa um ting, sum eru hend, eru summi or√∞ sterkt bend. D√∏mi: eru ‚Äús√°‚Äù, ‚Äúrann‚Äù og ‚Äúgr√¶t‚Äù. Er barni√∞ hj√° t√¶r byrja√∞ at gera hetta?",,ii_25_3,word_endings,not yet; sometimes; often,"3. When we talk about things that have happened, some words are strongly suggestive. Examples: are ‚Äúsaw‚Äù, ‚Äúran‚Äù and ‚Äúcried‚Äù. Has your child started doing this?",
+item_791,"4. T√° vit tosa um ting, sum eru hend, leggja vit ofta ‚Äú-a√∞i‚Äù afturat sagnor√∞inum. D√∏mi eru ‚ÄúMussa√∞i,‚Äù ‚Äúhoppa√∞i‚Äù og ‚Äúdansa√∞i‚Äù. Er barni√∞ hj√° t√¶r byrja√∞ at gera hetta?",,ii_25_4,word_endings,not yet; sometimes; often,"4. When we talk about things that have happened, we often add ‚Äú-a_i‚Äù to the verb. Examples are ‚ÄúKissed,‚Äù ‚Äújumped,‚Äù and ‚Äúdanced.‚Äù Has your child started doing this?",
+item_792,b√∏rn,,ii_26_1,word_forms_nouns,produces,children,
+item_793,f√∏tur,,ii_26_2,word_forms_nouns,produces,feet,
 item_794,menn,,ii_26_3,word_forms_nouns,produces,men,
-item_795,m_s,,ii_26_4,word_forms_nouns,produces,mice,
+item_795,m√Ωs,,ii_26_4,word_forms_nouns,produces,mice,
 item_796,tenn,,ii_26_5,word_forms_nouns,produces,teeth,
-item_797,át,,ii_27_1,word_forms_verbs,produces,ate,
-item_798,blásti,,ii_27_2,word_forms_verbs,produces,blew,
+item_797,√°t,,ii_27_1,word_forms_verbs,produces,ate,
+item_798,bl√°sti,,ii_27_2,word_forms_verbs,produces,blew,
 item_799,breyt,,ii_27_3,word_forms_verbs,produces,opened,
 item_800,datt,,ii_27_4,word_forms_verbs,produces,fell,
 item_801,drakk,,ii_27_5,word_forms_verbs,produces,drank,
 item_802,fekk,,ii_27_6,word_forms_verbs,produces,got,
 item_803,fleyg,,ii_27_7,word_forms_verbs,produces,flew,
-item_804,fór,,ii_27_8,word_forms_verbs,produces,went,
-item_805,gjørdi,,ii_27_9,word_forms_verbs,produces,did,
+item_804,f√≥r,,ii_27_8,word_forms_verbs,produces,went,
+item_805,gj√∏rdi,,ii_27_9,word_forms_verbs,produces,did,
 item_806,helt,,ii_27_10,word_forms_verbs,produces,held,
-item_807,hev_i,,ii_27_11,word_forms_verbs,produces,had,
+item_807,hev√∞i,,ii_27_11,word_forms_verbs,produces,had,
 item_808,hoyrdi,,ii_27_12,word_forms_verbs,produces,heard,
 item_809,keypti,,ii_27_13,word_forms_verbs,produces,bought,
 item_810,kom,,ii_27_14,word_forms_verbs,produces,came,
@@ -813,88 +813,87 @@ item_811,koyrdi,,ii_27_15,word_forms_verbs,produces,drove,
 item_812,misti,,ii_27_16,word_forms_verbs,produces,mixed,
 item_813,rann,,ii_27_17,word_forms_verbs,produces,ran,
 item_814,sat,,ii_27_18,word_forms_verbs,produces,sat,
-item_815,sá,,ii_27_19,word_forms_verbs,produces,saw,
-item_816,tók,,ii_27_20,word_forms_verbs,produces,took,
-item_817,bókar,,ii_28_1,word_endings_nouns,produces,books,
-item_818,bøkrir,,ii_28_2,word_endings_nouns,produces,books,
-item_819,børnir,,ii_28_3,word_endings_nouns,produces,children,
+item_815,s√°,,ii_27_19,word_forms_verbs,produces,saw,
+item_816,t√≥k,,ii_27_20,word_forms_verbs,produces,took,
+item_817,b√≥kar,,ii_28_1,word_endings_nouns,produces,books,
+item_818,b√∏krir,,ii_28_2,word_endings_nouns,produces,books,
+item_819,b√∏rnir,,ii_28_3,word_endings_nouns,produces,children,
 item_820,drongar,,ii_28_4,word_endings_nouns,produces,boys,
-item_821,fótar,,ii_28_5,word_endings_nouns,produces,feet,
+item_821,f√≥tar,,ii_28_5,word_endings_nouns,produces,feet,
 item_822,mannur,,ii_28_6,word_endings_nouns,produces,man,
 item_823,mennar,,ii_28_7,word_endings_nouns,produces,men,
-item_824,músir,,ii_28_8,word_endings_nouns,produces,mice,
+item_824,m√∫sir,,ii_28_8,word_endings_nouns,produces,mice,
 item_825,skipir,,ii_28_9,word_endings_nouns,produces,ships,
 item_826,tennir,,ii_28_10,word_endings_nouns,produces,teeth,
-item_827,blása_i,,ii_29_1,word_endings_verbs,produces,blew,
-item_828,bróta_i,,ii_29_2,word_endings_verbs,produces,broke,
-item_829,detta_i,,ii_29_3,word_endings_verbs,produces,fell,
+item_827,bl√°sa√∞i,,ii_29_1,word_endings_verbs,produces,blew,
+item_828,br√≥ta√∞i,,ii_29_2,word_endings_verbs,produces,broke,
+item_829,detta√∞i,,ii_29_3,word_endings_verbs,produces,fell,
 item_830,drakti (fyri drakk),,ii_29_4,word_endings_verbs,produces,drakti (for drank),
-item_831,drakka_i,,ii_29_5,word_endings_verbs,produces,drank,
-item_832,eta_i,,ii_29_6,word_endings_verbs,produces,ate,
-item_833,fara_i,,ii_29_7,word_endings_verbs,produces,went,
-item_834,flúgva_i,,ii_29_8,word_endings_verbs,produces,flew,
-item_835,funga_i,,ii_29_9,word_endings_verbs,produces,worked,
-item_836,gera_i,,ii_29_10,word_endings_verbs,produces,did,
+item_831,drakka√∞i,,ii_29_5,word_endings_verbs,produces,drank,
+item_832,eta√∞i,,ii_29_6,word_endings_verbs,produces,ate,
+item_833,fara√∞i,,ii_29_7,word_endings_verbs,produces,went,
+item_834,fl√∫gva√∞i,,ii_29_8,word_endings_verbs,produces,flew,
+item_835,funga√∞i,,ii_29_9,word_endings_verbs,produces,worked,
+item_836,gera√∞i,,ii_29_10,word_endings_verbs,produces,did,
 item_837,hakk (fyri hekk),,ii_29_11,word_endings_verbs,produces,made,
-item_838,hanga_i,,ii_29_12,word_endings_verbs,produces,hung,
-item_839,hava_i,,ii_29_13,word_endings_verbs,produces,had,
-item_840,iti_ (fyri eti_),,ii_29_14,word_endings_verbs,produces,ate,
-item_841,kema_i,,ii_29_15,word_endings_verbs,produces,came,
-item_842,klárdi (fyri klára_i),,ii_29_16,word_endings_verbs,produces,finished,
-item_843,koma_i,,ii_29_17,word_endings_verbs,produces,came,
+item_838,hanga√∞i,,ii_29_12,word_endings_verbs,produces,hung,
+item_839,hava√∞i,,ii_29_13,word_endings_verbs,produces,had,
+item_840,iti√∞ (fyri eti√∞),,ii_29_14,word_endings_verbs,produces,ate,
+item_841,kema√∞i,,ii_29_15,word_endings_verbs,produces,came,
+item_842,kl√°rdi (fyri kl√°ra√∞i),,ii_29_16,word_endings_verbs,produces,finished,
+item_843,koma√∞i,,ii_29_17,word_endings_verbs,produces,came,
 item_844,komdi,,ii_29_18,word_endings_verbs,produces,came,
-item_845,keypa_i,,ii_29_19,word_endings_verbs,produces,bought,
+item_845,keypa√∞i,,ii_29_19,word_endings_verbs,produces,bought,
 item_846,leypti (fyri leyp),,ii_29_20,word_endings_verbs,produces,jumped,
-item_847,missa_i,,ii_29_21,word_endings_verbs,produces,lost,
-item_848,renna_i,,ii_29_22,word_endings_verbs,produces,slipped,
-item_849,sita_i,,ii_29_23,word_endings_verbs,produces,sat,
-item_850,síggja_i,,ii_29_24,word_endings_verbs,produces,sagged,
-item_851,sova_i,,ii_29_25,word_endings_verbs,produces,slept,
+item_847,missa√∞i,,ii_29_21,word_endings_verbs,produces,lost,
+item_848,renna√∞i,,ii_29_22,word_endings_verbs,produces,slipped,
+item_849,sita√∞i,,ii_29_23,word_endings_verbs,produces,sat,
+item_850,s√≠ggja√∞i,,ii_29_24,word_endings_verbs,produces,sagged,
+item_851,sova√∞i,,ii_29_25,word_endings_verbs,produces,slept,
 item_852,sovar,,ii_29_26,word_endings_verbs,produces,sleeps,
 item_853,stjalt,,ii_29_27,word_endings_verbs,produces,stolen,
-item_854,taka_i,,ii_29_28,word_endings_verbs,produces,took,
+item_854,taka√∞i,,ii_29_28,word_endings_verbs,produces,took,
 item_855,frammari,,ii_30_1,word_endings_adjectives,produces,forward,
 item_856,gamlari,,ii_30_2,word_endings_adjectives,produces,older,
-item_857,gó_ari,,ii_30_3,word_endings_adjectives,produces,kinder,
-item_858,lítlari,,ii_30_4,word_endings_adjectives,produces,smaller,
-item_859,"Brúkar barni_ hjá tær oftast rætt kyn, t.d Anna er tyst (og ikki Anna er tystur)",,ii_31_1,gender,not yet; sometimes; often,"Does your child usually use the correct gender, eg Anna is silent (and not Anna is silent)",
-item_860,"Brúkar barni_ hjá tær oftast ""ein"" og ""eitt"" rætt, t.d. ""eitt stórt hús"" (og ikki ""ein stór hús"")",,ii_31_2,gender,not yet; sometimes; often,"Does your child often use ""one"" (M/F) and ""one"" (N) correctly, e.g. ""a big house"" (and not ""a big house"")",
-item_861,"Er barni_ hjá tær fari_ at seta or_ saman, so sum “meira mjólk” ella “kiska fitt”?",,ii_31_3,combine,not yet; sometimes; often,"Is your baby starting to put words together, like “more milk” or “kiss fat”?",
-item_862,1.1. Tvær bókir. 2. Tvær bøkur.,,ii_33_1,complexity,simple; complex,1.1. Two books. 2. Two books.,
-item_863,2.1. Tveir fótar. 2. Tvær føtur.,,ii_33_2,complexity,simple; complex,2.1. Two legs. 2. Two feet.,
+item_857,g√≥√∞ari,,ii_30_3,word_endings_adjectives,produces,kinder,
+item_858,l√≠tlari,,ii_30_4,word_endings_adjectives,produces,smaller,
+item_859,"Br√∫kar barni√∞ hj√° t√¶r oftast r√¶tt kyn, t.d Anna er tyst (og ikki Anna er tystur)",,ii_31_1,gender,not yet; sometimes; often,"Does your child usually use the correct gender, eg Anna is silent (and not Anna is silent)",
+item_860,"Br√∫kar barni√∞ hj√° t√¶r oftast ""ein"" og ""eitt"" r√¶tt, t.d. ""eitt st√≥rt h√∫s"" (og ikki ""ein st√≥r h√∫s"")",,ii_31_2,gender,not yet; sometimes; often,"Does your child often use ""one"" (M/F) and ""one"" (N) correctly, e.g. ""a big house"" (and not ""a big house"")",
+item_861,"Er barni√∞ hj√° t√¶r fari√∞ at seta or√∞ saman, so sum ‚Äúmeira mj√≥lk‚Äù ella ‚Äúkiska fitt‚Äù?",,ii_31_3,combine,not yet; sometimes; often,"Is your baby starting to put words together, like ‚Äúmore milk‚Äù or ‚Äúkiss fat‚Äù?",
+item_862,1.1. Tv√¶r b√≥kir. 2. Tv√¶r b√∏kur.,,ii_33_1,complexity,simple; complex,1.1. Two books. 2. Two books.,
+item_863,2.1. Tveir f√≥tar. 2. Tv√¶r f√∏tur.,,ii_33_2,complexity,simple; complex,2.1. Two legs. 2. Two feet.,
 item_864,3.1. Babba bilur. 2. Babbasa bilur.,,ii_33_3,complexity,simple; complex,3.1. Dad breaks down. 2. Babbasa fails.,
-item_865,4.(Tosar um okkurt sum hendir beint nú.) 1. Ketta sova. 2. Ketta svevur.,,ii_33_4,complexity,simple; complex,4.(Tosar around us some hands directly now.) 1. The cat is sleeping. 2. The cat is sleeping.,
-item_866,5.(Tosar um okkurt sum hendir beint nú.) 1. Eg byggja torn. 2. Eg byggi torn.,,ii_33_5,complexity,simple; complex,5.(Tosar about us who are directly now.) 1. I am building a tower. 2. I build a tower.,
+item_865,4.(Tosar um okkurt sum hendir beint n√∫.) 1. Ketta sova. 2. Ketta svevur.,,ii_33_4,complexity,simple; complex,4.(Tosar around us some hands directly now.) 1. The cat is sleeping. 2. The cat is sleeping.,
+item_866,5.(Tosar um okkurt sum hendir beint n√∫.) 1. Eg byggja torn. 2. Eg byggi torn.,,ii_33_5,complexity,simple; complex,5.(Tosar about us who are directly now.) 1. I am building a tower. 2. I build a tower.,
 item_867,6.(Tosar um okkurt sum er hent.) 1. Eg detta. 2. Eg datt.,,ii_33_6,complexity,simple; complex,6.(Tosar about us who are thrown.) 1. I fall. 2. I fell.,
-item_868,7.1. Mín mamma 2. Mamma mín,,ii_33_7,complexity,simple; complex,7.1. My mother 2. My mother,
-item_869,8.1. Hettar mínar tonnir. 2. Hettar eru mínar tenn.,,ii_33_8,complexity,simple; complex,8.1. My hoods tons. 2. Caps are my teeth.,
+item_868,7.1. M√≠n mamma 2. Mamma m√≠n,,ii_33_7,complexity,simple; complex,7.1. My mother 2. My mother,
+item_869,8.1. Hettar m√≠nar tonnir. 2. Hettar eru m√≠nar tenn.,,ii_33_8,complexity,simple; complex,8.1. My hoods tons. 2. Caps are my teeth.,
 item_870,9.1. Baby teppi. 2. Babysa teppi.,,ii_33_9,complexity,simple; complex,9.1. Baby blanket. 2. Babysa blanket.,
-item_871,"10.(Tosar um okkurt, sum er hent) 1. Hundur mussa meg. 2. Hundurin mussa_i meg.",,ii_33_10,complexity,simple; complex,"10.(Tosar around us, some is thrown) 1. A dog licks me. 2. The dog cuddled me.",
-item_872,"11.(Tosar um okkurt, sum er hent.) 1. Babba taka meg vi_. 2. Babba tók meg vi_.",,ii_33_11,complexity,simple; complex,"11.(Tosar around us, some are thrown.) 1. Dad take me. 2. Dad took me over.",
-item_873,"12.(Tosar um okkurt, sum er hent.) 1. Ketta fara avsta_. 2. Ketta fór avsta_.",,ii_33_12,complexity,simple; complex,"12.(Tosar around us, some are thrown.) 1. Cats go away. 2. The cat got away.",
-item_874,13.1. Hundur bor_. 2. Hundurin er á bor_inum.,,ii_33_13,complexity,simple; complex,13.1. Dog table. 2. The dog is on the table.,
-item_875,14.1. Hatta mín bilur. 2. Hatta er mín bilur.,,ii_33_14,complexity,simple; complex,14.1. My hat is broken. 2. A hat is my fault.,
-item_876,15.1. Baby gráta. 2. Baby grætur.,,ii_33_15,complexity,simple; complex,15.1. Baby cry. 2. Baby cries.,
-item_877,16.1. Tú or_na ta_? 2. Kanst tú or_na ta_?,,ii_33_16,complexity,simple; complex,16.1. You become that? 2. Can you say that?,
-item_878,"17.1. Lesa søgu, mamma. 2. Kanst tú lesa eina søgu, mamma.",,ii_33_17,complexity,simple; complex,"17.1. Read a story, mom. 2. Can you read a story, mom?",
+item_871,"10.(Tosar um okkurt, sum er hent) 1. Hundur mussa meg. 2. Hundurin mussa√∞i meg.",,ii_33_10,complexity,simple; complex,"10.(Tosar around us, some is thrown) 1. A dog licks me. 2. The dog cuddled me.",
+item_872,"11.(Tosar um okkurt, sum er hent.) 1. Babba taka meg vi√∞. 2. Babba t√≥k meg vi√∞.",,ii_33_11,complexity,simple; complex,"11.(Tosar around us, some are thrown.) 1. Dad take me. 2. Dad took me over.",
+item_873,"12.(Tosar um okkurt, sum er hent.) 1. Ketta fara avsta√∞. 2. Ketta f√≥r avsta√∞.",,ii_33_12,complexity,simple; complex,"12.(Tosar around us, some are thrown.) 1. Cats go away. 2. The cat got away.",
+item_874,13.1. Hundur bor√∞. 2. Hundurin er √° bor√∞inum.,,ii_33_13,complexity,simple; complex,13.1. Dog table. 2. The dog is on the table.,
+item_875,14.1. Hatta m√≠n bilur. 2. Hatta er m√≠n bilur.,,ii_33_14,complexity,simple; complex,14.1. My hat is broken. 2. A hat is my fault.,
+item_876,15.1. Baby gr√°ta. 2. Baby gr√¶tur.,,ii_33_15,complexity,simple; complex,15.1. Baby cry. 2. Baby cries.,
+item_877,16.1. T√∫ or√∞na ta√∞? 2. Kanst t√∫ or√∞na ta√∞?,,ii_33_16,complexity,simple; complex,16.1. You become that? 2. Can you say that?,
+item_878,"17.1. Lesa s√∏gu, mamma. 2. Kanst t√∫ lesa eina s√∏gu, mamma.",,ii_33_17,complexity,simple; complex,"17.1. Read a story, mom. 2. Can you read a story, mom?",
 item_879,"18.1. Nei, vaska dukku. 2. Ikki vaska dukkuna.",,ii_33_18,complexity,simple; complex,"18.1. No, sink doll. 2. Do not wash the doll.",
-item_880,19.1. Hava meira djús. 2. Eg vil hava meira djús.,,ii_33_19,complexity,simple; complex,19.1. Have more juice. 2. I want more juice.,
+item_880,19.1. Hava meira dj√∫s. 2. Eg vil hava meira dj√∫s.,,ii_33_19,complexity,simple; complex,19.1. Have more juice. 2. I want more juice.,
 item_881,20.1. Har ein ketta. 2. Har er ein ketta.,,ii_33_20,complexity,simple; complex,20.1. Has one cat. 2. Har is one cat.,
 item_882,"21.1. Fara bei, bei. 2. Eg vil fara bei, bei.",,ii_33_21,complexity,simple; complex,"21.1. Go bei, bei. 2. I want to go bei, bei.",
-item_883,22.1. Hvar mamma fara? 2. Hvar fór mamma?,,ii_33_22,complexity,simple; complex,22.1. Where does mom go? 2. Where did mom go?,
+item_883,22.1. Hvar mamma fara? 2. Hvar f√≥r mamma?,,ii_33_22,complexity,simple; complex,22.1. Where does mom go? 2. Where did mom go?,
 item_884,23.1. Kaffi heitt. 2. Kaffi er heitt.,,ii_33_23,complexity,simple; complex,23.1. Coffee hot. 2. Coffee is hot.,
 item_885,24.1. Eg nei duga. 2. Eg dugi ikki.,,ii_33_24,complexity,simple; complex,24.1. I'm not enough. 2. I am not enough.,
-item_886,25.1. Eg elska lesa bók. 2. Eg elski at lesa bók.,,ii_33_25,complexity,simple; complex,25.1. I love reading a book. 2. I love to read a book.,
-item_887,26.1. Ikki lesa bók. 2. Eg vil ikki lesa hasa bókina.,,ii_33_26,complexity,simple; complex,26.1. I don't read a book. 2. I don't want to read this book.,
-item_888,"27.1. Tendra ljós. 2. Tendra ljósi_, so eg síggi.",,ii_33_27,complexity,simple; complex,"27.1. Light a candle. 2. Turn on the light, so I go down.",
-item_889,28.1. Eg vil hava hatta. 2. Eg vil hava hatta sum tú hevur.,,ii_33_28,complexity,simple; complex,28.1. I want a hat. 2. I want to have hats that you have.,
-item_890,29.1. Hatta stórur bilur 2. Hatta er tann stóri bilurin,,ii_33_29,complexity,simple; complex,29.1. Hatta big gap 2. Hatta is the tooth big gap,
+item_886,25.1. Eg elska lesa b√≥k. 2. Eg elski at lesa b√≥k.,,ii_33_25,complexity,simple; complex,25.1. I love reading a book. 2. I love to read a book.,
+item_887,26.1. Ikki lesa b√≥k. 2. Eg vil ikki lesa hasa b√≥kina.,,ii_33_26,complexity,simple; complex,26.1. I don't read a book. 2. I don't want to read this book.,
+item_888,"27.1. Tendra lj√≥s. 2. Tendra lj√≥si√∞, so eg s√≠ggi.",,ii_33_27,complexity,simple; complex,"27.1. Light a candle. 2. Turn on the light, so I go down.",
+item_889,28.1. Eg vil hava hatta. 2. Eg vil hava hatta sum t√∫ hevur.,,ii_33_28,complexity,simple; complex,28.1. I want a hat. 2. I want to have hats that you have.,
+item_890,29.1. Hatta st√≥rur bilur 2. Hatta er tann st√≥ri bilurin,,ii_33_29,complexity,simple; complex,29.1. Hatta big gap 2. Hatta is the tooth big gap,
 item_891,30.1. Kaka mammu. 2. Kaka til mammu.,,ii_33_30,complexity,simple; complex,30.1. Mom's cake. 2. Cake for mom.,
 item_892,31.1. Baby eta. 2. Baby vil hava at eta.,,ii_33_31,complexity,simple; complex,31.1. Baby eat. 2. Baby wants to eat.,
 item_893,32.1. Hygg eg! 2. Hygg eg dansi!,,ii_33_32,complexity,simple; complex,32.1. I think! 2. I think I'll dance!,
 item_894,33.1. Hygg! 2. Hygg hvat eg havi!,,ii_33_33,complexity,simple; complex,33.1. Hig! 2. Guess what I have!,
-item_895,34.1. Hvar er mín bamsa? 2. Hvar er mín bamsa sum eitur X?,,ii_33_34,complexity,simple; complex,34.1. where is my teddy bear 2. Where is my teddy bear some poison X?,
-item_896,35.1. Vit hava gjørt hetta. 2. Eg og Uni hava gjørt hetta.,,ii_33_35,complexity,simple; complex,35.1. We have done this. 2. Uni and I have done this.,
-item_897,36.1. Eg syngja sang. 2. Eg syngi ein sang fyri tær.,,ii_33_36,complexity,simple; complex,36.1. I sing a song. 2. I sing a song for you.,
-item_898,"37.1. Baby grætur. 2. Baby grætur, tí hon er kedd.",,ii_33_37,complexity,simple; complex,37.1. Baby cries. 2. Baby cries because she is bored.,
-,,,,,,,
+item_895,34.1. Hvar er m√≠n bamsa? 2. Hvar er m√≠n bamsa sum eitur X?,,ii_33_34,complexity,simple; complex,34.1. where is my teddy bear 2. Where is my teddy bear some poison X?,
+item_896,35.1. Vit hava gj√∏rt hetta. 2. Eg og Uni hava gj√∏rt hetta.,,ii_33_35,complexity,simple; complex,35.1. We have done this. 2. Uni and I have done this.,
+item_897,36.1. Eg syngja sang. 2. Eg syngi ein sang fyri t√¶r.,,ii_33_36,complexity,simple; complex,36.1. I sing a song. 2. I sing a song for you.,
+item_898,"37.1. Baby gr√¶tur. 2. Baby gr√¶tur, t√≠ hon er kedd.",,ii_33_37,complexity,simple; complex,37.1. Baby cries. 2. Baby cries because she is bored.,

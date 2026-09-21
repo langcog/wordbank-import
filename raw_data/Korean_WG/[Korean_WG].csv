@@ -155,7 +155,7 @@ item_153,item_153,word,outside,understands; produces,돌,NA,stone,stone
 item_154,item_154,word,outside,understands; produces,땅,NA,ground,ground
 item_155,item_155,word,outside,understands; produces,별,NA,star,star
 item_156,item_156,word,outside,understands; produces,불,NA,fire,fire
-item_157,item_157,word,outside,understands; produces,비,NA,rain,rain
+item_157,item_157,word,outside,understands; produces,비,NA,rain,rain (weather)
 item_158,item_158,word,outside,understands; produces,시소,NA,seesaw,seesaw
 item_159,item_159,word,outside,understands; produces,하늘,NA,sky,sky
 item_160,item_160,word,outside,understands; produces,해,NA,sun,sun

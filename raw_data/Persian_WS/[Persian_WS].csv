@@ -42,7 +42,7 @@ item_40,q12,برنج,food_drink,word,produces,NA,rice,rice
 item_41,q13,بستنی,food_drink,word,produces,NA,ice cream,ice cream
 item_42,q14,بلال,food_drink,word,produces,NA,NA,NA
 item_43,q15,بیسکویت,food_drink,word,produces,NA,biscuits,NA
-item_44,q16,پرتقال,food_drink,word,produces,NA,orange,orange (food)
+item_44,q16,پرتقال,food_drink,word,produces,NA,orange (food),orange (food)
 item_45,q17,پسته,food_drink,word,produces,NA,pistachio,NA
 item_46,q18,پفک,food_drink,word,produces,NA,cheetos,NA
 item_47,q19,پلو,food_drink,word,produces,NA,rice,rice
@@ -139,7 +139,7 @@ item_137,h9,پرنده,animals,word,produces,NA,bird,bird
 item_138,h10,پروانه,animals,word,produces,NA,butterfly,butterfly
 item_139,h11,پشه,animals,word,produces,NA,NA,NA
 item_140,h12,پلنگ,animals,word,produces,NA,leopard,NA
-item_141,h13,جوجه,animals,word,produces,NA,chicken,chicken (animal)
+item_141,h13,جوجه,animals,word,produces,NA,chicken (animal),chicken (animal)
 item_142,h14,حیوان,animals,word,produces,NA,animal,animal
 item_143,h15,خر,animals,word,produces,NA,donkey,donkey
 item_144,h16,خرچنگ,animals,word,produces,NA,crab,NA
@@ -169,7 +169,7 @@ item_167,h39,گوزن,animals,word,produces,NA,deer,deer
 item_168,h40,لاک پشت,animals,word,produces,NA,turtle,turtle
 item_169,h41,مار,animals,word,produces,NA,snake,snake
 item_170,h42,ماهی,animals,word,produces,NA,fish,fish (animal)
-item_171,h43,مرغ,animals,word,produces,NA,chicken,chicken (animal)
+item_171,h43,مرغ,animals,word,produces,NA,chicken (animal),chicken (animal)
 item_172,h44,مگس,animals,word,produces,NA,NA,NA
 item_173,h45,مورچه,animals,word,produces,NA,ant,ant
 item_174,h46,موش,animals,word,produces,NA,mouse,mouse
@@ -201,7 +201,7 @@ item_199,b24,مرسی (ممنون),games_routines,word,produces,NA,NA,NA
 item_200,b25,نانای,games_routines,word,produces,NA,NA,NA
 item_201,b26,نهار,games_routines,word,produces,NA,lunch,lunch
 item_202,b27,هیس,games_routines,word,produces,NA,NA,NA
-item_203,makan1,اداره,outside,word,produces,NA,office,workplace
+item_203,makan1,اداره,outside,word,produces,NA,office,work (place)
 item_204,m2,باغ,outside,word,produces,NA,garden,garden
 item_205,m3,بیرون,outside,word,produces,NA,outside,outside
 item_206,m4,پارک,outside,word,produces,NA,park,park
@@ -227,7 +227,7 @@ item_225,p6,تِل,clothing,word,produces,NA,NA,NA
 item_226,p7,پیش بند,clothing,word,produces,NA,apron,NA
 item_227,p8,جوراب,clothing,word,produces,NA,socks,sock
 item_228,p9,چادر,clothing,word,produces,NA,NA,NA
-item_229,p10,چکمه,clothing,word,produces,NA,boot,boots
+item_229,p10,چکمه,clothing,word,produces,NA,boot,boot
 item_230,p11,دستبند,clothing,word,produces,NA,bracelet,NA
 item_231,p12,دستکش,clothing,word,produces,NA,gloves,gloves
 item_232,p13,دکمه,clothing,word,produces,NA,button,button
@@ -399,7 +399,7 @@ item_397,x2,ادم برفی,outside,word,produces,NA,snowman,snowman
 item_398,x3,اسمان,outside,word,produces,NA,sky,sky
 item_399,x4,ابر,outside,word,produces,NA,cloud,cloud
 item_400,x5,باد,outside,word,produces,NA,wind,wind
-item_401,x6,باران,outside,word,produces,NA,rain,rain
+item_401,x6,باران,outside,word,produces,NA,rain,rain (weather)
 item_402,x7,بام (پشت بام),outside,word,produces,NA,roof,roof
 item_403,x8,برف,outside,word,produces,NA,snow,snow
 item_404,x9,برگ,outside,word,produces,NA,leaves,leaf
@@ -520,7 +520,7 @@ item_518,t55,گرم,descriptive_words,word,produces,NA,hot,hot
 item_519,t56,لاغر,descriptive_words,word,produces,NA,thin,thin
 item_520,t57,مریض,descriptive_words,word,produces,NA,NA,NA
 item_521,t58,ناراحت,descriptive_words,word,produces,NA,upset,NA
-item_522,t59,نارنجی,descriptive_words,word,produces,NA,orange,orange (description)
+item_522,t59,نارنجی,descriptive_words,word,produces,NA,orange (description),orange (description)
 item_523,t60,ناز,descriptive_words,word,produces,NA,NA,NA
 item_524,t61,نازک,descriptive_words,word,produces,NA,NA,NA
 item_525,t62,نرم,descriptive_words,word,produces,NA,soft,soft
@@ -564,7 +564,7 @@ item_562,vb1,امد,action_words,word,produces,NA,come,come
 item_563,vb2,افتاد,action_words,word,produces,NA,fall,fall
 item_564,vb3,انداخت,action_words,word,produces,NA,drop,drop
 item_565,vb4,ایستادن (وایسا),action_words,word,produces,NA,stand,stand
-item_566,vb5,باز (کردن),action_words,word,produces,NA,open,open (action)
+item_566,vb5,باز (کردن),action_words,word,produces,NA,open (action),open (action)
 item_567,vb6,بازی (کردن),action_words,word,produces,NA,play,play
 item_568,vb7,باشه,action_words,word,produces,NA,NA,NA
 item_569,vb8,ببر,action_words,word,produces,NA,NA,NA
@@ -632,8 +632,8 @@ item_630,vb69,دستزد,action_words,word,produces,NA,touch,touch
 item_631,vb70,دستنزن,action_words,word,produces,NA,not touch,NA
 item_632,vb71,دیدی,action_words,word,produces,NA,see,see
 item_633,vb72,رفت,action_words,word,produces,NA,go,go
-item_634,vb73,رنگ کن,action_words,word,produces,NA,paint,paint (action)
-item_635,vb74,رنگ کنم,action_words,word,produces,NA,paint,paint (action)
+item_634,vb73,رنگ کن,action_words,word,produces,NA,paint (action),paint (action)
+item_635,vb74,رنگ کنم,action_words,word,produces,NA,paint (action),paint (action)
 item_636,vb75,روشنشد,action_words,word,produces,NA,turn on,turn on
 item_637,vb76,ریخت,action_words,word,produces,NA,pour,pour
 item_638,vb77,زد,action_words,word,produces,NA,fall,fall
@@ -659,7 +659,7 @@ item_657,vb96,میزنم,action_words,word,produces,NA,hit,hit
 item_658,vb97,نرو,action_words,word,produces,NA,not go,NA
 item_659,vb98,نشست,action_words,word,produces,NA,meet,NA
 item_660,vb99,نشستم,action_words,word,produces,NA,sit,sit
-item_661,vb100,نقاشی (کردن),action_words,word,produces,NA,paint,paint (action)
+item_661,vb100,نقاشی (کردن),action_words,word,produces,NA,paint (action),paint (action)
 item_662,vb101,نکن,action_words,word,produces,NA,do not,NA
 item_663,vb102,نگاه کن,action_words,word,produces,NA,look,look
 item_664,vb103,نگاه می کنم,action_words,word,produces,NA,look,look
