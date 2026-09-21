@@ -1,7 +1,7 @@
-itemID,definition,category,item,type,choices,gloss,uni_lemma
+﻿itemID,definition,category,item,type,choices,gloss,uni_lemma
 item_1,Bee (pecora),sounds,Bee (pecora),word,understands; produces,baa baa (sheep),baa baa
 item_2,Ciuf ciuf (treno),sounds,Ciuf ciuf (treno),word,understands; produces,choo choo (train),choo choo
-item_3,Chicchirich� (gallo),sounds,Chicchirich� (gallo),word,understands; produces,cockadoodledoo (rooster),cockadoodledoo
+item_3,Chicchirichì (gallo),sounds,Chicchirichì (gallo),word,understands; produces,cockadoodledoo (rooster),cockadoodledoo
 item_4,Roarr (ringhio),sounds,Roarr (ringhio),word,understands; produces,grr (growl),grrr
 item_5,Miao (gatto),sounds,Miao (gatto),word,understands; produces,meow (cat),meow
 item_6,Muh (mucca),sounds,Muh (mucca),word,understands; produces,moo (cow),moo
@@ -22,7 +22,7 @@ item_20,Coniglio,animals,Coniglio,word,understands; produces,bunny / rabbit,bunn
 item_21,Cucciolo,animals,Cucciolo,word,understands; produces,puppy,puppy
 item_22,Elefante,animals,Elefante,word,understands; produces,elephant,elephant
 item_23,Farfalla,animals,Farfalla,word,understands; produces,butterfly,butterfly
-item_24,Gallina,animals,Gallina,word,understands; produces,chicken (animal),chicken (animal)
+item_24,Gallina,animals,Gallina,word,understands; produces,chicken,chicken (animal)
 item_25,Gattino / Micino,animals,Gattino / Micino,word,understands; produces,kitten,kitten
 item_26,Gatto,animals,Gatto,word,understands; produces,cat,cat
 item_27,Giraffa,animals,Giraffa,word,understands; produces,giraffe,giraffe
@@ -34,7 +34,7 @@ item_32,Oca,animals,Oca,word,understands; produces,goose,goose
 item_33,Orso,animals,Orso,word,understands; produces,bear,bear
 item_34,Papera,animals,Papera,word,understands; produces,duck,duck
 item_35,Pecora,animals,Pecora,word,understands; produces,sheep,sheep
-item_36,Pesce / Pesciolino,animals,Pesce / Pesciolino,word,understands; produces,fish (animal),fish (animal)
+item_36,Pesce / Pesciolino,animals,Pesce / Pesciolino,word,understands; produces,fish,fish (animal)
 item_37,Pinguino,animals,Pinguino,word,understands; produces,penguin,penguin
 item_38,Pony,animals,Pony,word,understands; produces,pony,pony
 item_39,Ragno,animals,Ragno,word,understands; produces,spider,spider
@@ -65,13 +65,13 @@ item_63,Orsacchiotto,toys,Orsacchiotto,word,understands; produces,teddy bear,ted
 item_64,Palla,toys,Palla,word,understands; produces,ball,ball
 item_65,Palloncino,toys,Palloncino,word,understands; produces,balloon,balloon
 item_66,Penna,toys,Penna,word,understands; produces,pen,pen
-item_67,Acqua,food_drink,Acqua,word,understands; produces,water (beverage),water (beverage)
+item_67,Acqua,food_drink,Acqua,word,understands; produces,water,water (beverage)
 item_68,Arancia,food_drink,Arancia,word,understands; produces,orange,orange (food)
 item_69,Banana,food_drink,Banana,word,understands; produces,banana,banana
-item_70,Bibita / Bevanda,food_drink,Bibita / Bevanda,word,understands; produces,drink (beverage),drink (beverage)
+item_70,Bibita / Bevanda,food_drink,Bibita / Bevanda,word,understands; produces,drink,drink (beverage)
 item_71,Biscotti,food_drink,Biscotti,word,understands; produces,biscuit,biscuit
 item_72,Burro,food_drink,Burro,word,understands; produces,butter,butter
-item_73,Caff�,food_drink,Caff�,word,understands; produces,coffee,coffee
+item_73,Caffé,food_drink,Caffé,word,understands; produces,coffee,coffee
 item_74,Carne,food_drink,Carne,word,understands; produces,meat,meat
 item_75,Carota,food_drink,Carota,word,understands; produces,carrot,carrot
 item_76,Cereali,food_drink,Cereali,word,understands; produces,cereal,cereal
@@ -85,12 +85,12 @@ item_83,Pane,food_drink,Pane,word,understands; produces,bread,bread
 item_84,Pappa / Cibo,food_drink,Pappa / Cibo,word,understands; produces,food,food
 item_85,Pasta,food_drink,Pasta,word,understands; produces,pasta / spaghetti,pasta
 item_86,Patatine,food_drink,Patatine,word,understands; produces,chips,chips
-item_87,Pesce,food_drink,Pesce,word,understands; produces,fish (food),fish (food)
+item_87,Pesce,food_drink,Pesce,word,understands; produces,fish,fish (food)
 item_88,Piselli,food_drink,Piselli,word,understands; produces,peas,peas
 item_89,Pizza,food_drink,Pizza,word,understands; produces,pizza,pizza
-item_90,Pollo,food_drink,Pollo,word,understands; produces,chicken (food),chicken (food)
+item_90,Pollo,food_drink,Pollo,word,understands; produces,chicken,chicken (food)
 item_91,Succo,food_drink,Succo,word,understands; produces,juice,juice
-item_92,T�,food_drink,T�,word,understands; produces,tea,tea
+item_92,Té,food_drink,Té,word,understands; produces,tea,tea
 item_93,Toast,food_drink,Toast,word,understands; produces,toast,toast
 item_94,Torta,food_drink,Torta,word,understands; produces,cake,cake
 item_95,Uovo,food_drink,Uovo,word,understands; produces,egg,egg
@@ -156,10 +156,10 @@ item_154,Tavolo,furniture_rooms,Tavolo,word,understands; produces,table,table
 item_155,Televisione / TV,furniture_rooms,Televisione / TV,word,understands; produces,TV / television,TV
 item_156,Vasca da bagno,furniture_rooms,Vasca da bagno,word,understands; produces,bath / bathtub,bathtub
 item_157,Vasino,furniture_rooms,Vasino,word,understands; produces,potty,potty
-item_158,Acqua,outside,Acqua,word,understands; produces,water (not beverage),water (not beverage)
+item_158,Acqua,outside,Acqua,word,understands; produces,water,water (not beverage)
 item_159,Albero,outside,Albero,word,understands; produces,tree,tree
 item_160,All'aperto / Fuori,outside,All'aperto / Fuori,word,understands; produces,outside,outside
-item_161,Altalena,outside,Altalena,word,understands; produces,swing (object),swing (object)
+item_161,Altalena,outside,Altalena,word,understands; produces,swing,swing (object)
 item_162,Casa,outside,Casa,word,understands; produces,house,house
 item_163,Chiesa,outside,Chiesa,word,understands; produces,church,church
 item_164,Cielo,outside,Cielo,word,understands; produces,sky,sky
@@ -233,7 +233,7 @@ item_231,Maestro/a,people,Maestro/a,word,understands; produces,teacher,teacher
 item_232,Mamma,people,Mamma,word,understands; produces,mummy,mommy
 item_233,Nonna,people,Nonna,word,understands; produces,grandma,grandma
 item_234,Nonno,people,Nonno,word,understands; produces,grandpa,grandpa
-item_235,Pap�,people,Pap�,word,understands; produces,daddy,daddy
+item_235,Papà,people,Papà,word,understands; produces,daddy,daddy
 item_236,Persona,people,Persona,word,understands; produces,person,person
 item_237,Poliziotto,people,Poliziotto,word,understands; produces,policeman,policeman
 item_238,Ragazza,people,Ragazza,word,understands; produces,girl,girl
@@ -255,14 +255,14 @@ item_253,Pisolino,games_routines,Pisolino,word,understands; produces,nap,nap
 item_254,Buonanotte,games_routines,Buonanotte,word,understands; produces,night night,good night
 item_255,No,games_routines,No,word,understands; produces,no,no
 item_256,Voler bene,games_routines,Voler bene,word,understands; produces,to love,
-item_257,Cuc�/Bub�-settete,games_routines,Cuc�/Bub�-settete,word,understands; produces,peekaboo,peekaboo
+item_257,Cucù/Bubù-settete,games_routines,Cucù/Bubù-settete,word,understands; produces,peekaboo,peekaboo
 item_258,Prego / Per favore,games_routines,Prego / Per favore,word,understands; produces,please,please
 item_259,Zitto / Shhh,games_routines,Zitto / Shhh,word,understands; produces,shh / hush / shush,shh
 item_260,Merenda,games_routines,Merenda,word,understands; produces,tea,tea
 item_261,Grazie,games_routines,Grazie,word,understands; produces,thank you,thank you
 item_262,Aspettare,games_routines,Aspettare,word,understands; produces,wait,wait
 item_263,Volere,games_routines,Volere,word,understands; produces,want to,wanna
-item_264,S�,games_routines,S�,word,understands; produces,yes,yes
+item_264,Sì,games_routines,Sì,word,understands; produces,yes,yes
 item_265,Mordere,action_words,Mordere,word,understands; produces,bite,bite
 item_266,Soffiare,action_words,Soffiare,word,understands; produces,blow,blow
 item_267,Rompere,action_words,Rompere,word,understands; produces,break,break
@@ -272,13 +272,13 @@ item_270,Chiamare,action_words,Chiamare,word,understands; produces,call,call
 item_271,Accendere,action_words,Accendere,word,understands; produces,turn on,turn on
 item_272,Acchiappare,action_words,Acchiappare,word,understands; produces,catch,catch
 item_273,Inseguire,action_words,Inseguire,word,understands; produces,chase,chase
-item_274,Pulire,action_words,Pulire,word,understands; produces,clean (action),clean (action)
+item_274,Pulire,action_words,Pulire,word,understands; produces,clean,clean (action)
 item_275,Piangere,action_words,Piangere,word,understands; produces,cry,cry
 item_276,Coccolare,action_words,Coccolare,word,understands; produces,cuddle,cuddle
 item_277,Tagliare,action_words,Tagliare,word,understands; produces,cut,cut
 item_278,Ballare,action_words,Ballare,word,understands; produces,dance,dance
 item_279,Disegnare,action_words,Disegnare,word,understands; produces,draw,draw
-item_280,Bere,action_words,Bere,word,understands; produces,drink (action),drink (action)
+item_280,Bere,action_words,Bere,word,understands; produces,drink,drink (action)
 item_281,Guidare,action_words,Guidare,word,understands; produces,drive,drive
 item_282,Lasciare / Fare cadere,action_words,Lasciare / Fare cadere,word,understands; produces,drop,drop
 item_283,Mangiare,action_words,Mangiare,word,understands; produces,eat,eat
@@ -323,7 +323,7 @@ item_321,Sorridere,action_words,Sorridere,word,understands; produces,smile,smile
 item_322,Schizzare / Spruzzare,action_words,Schizzare / Spruzzare,word,understands; produces,splash,splash
 item_323,Fermare,action_words,Fermare,word,understands; produces,stop,stop
 item_324,Nuotare,action_words,Nuotare,word,understands; produces,swim,swim
-item_325,Dondolare,action_words,Dondolare,word,understands; produces,swing (action),swing (action)
+item_325,Dondolare,action_words,Dondolare,word,understands; produces,swing,swing (action)
 item_326,Cercare,action_words,Cercare,word,understands; produces,search,search
 item_327,Raccontare,action_words,Raccontare,word,understands; produces,tell,tell
 item_328,Buttare,action_words,Buttare,word,understands; produces,throw,throw
@@ -340,7 +340,7 @@ item_338,Grande / Grosso,descriptive_words,Grande / Grosso,word,understands; pro
 item_339,Blu,descriptive_words,Blu,word,understands; produces,blue,blue
 item_340,Rotto,descriptive_words,Rotto,word,understands; produces,broken,broken
 item_341,Prudente,descriptive_words,Prudente,word,understands; produces,careful,careful
-item_342,Pulito,descriptive_words,Pulito,word,understands; produces,clean (description),clean (description)
+item_342,Pulito,descriptive_words,Pulito,word,understands; produces,clean,clean (description)
 item_343,Freddo,descriptive_words,Freddo,word,understands; produces,cold,cold
 item_344,Buio,descriptive_words,Buio,word,understands; produces,dark,dark
 item_345,Sporco,descriptive_words,Sporco,word,understands; produces,dirty,dirty
@@ -377,9 +377,9 @@ item_375,Che / Che cosa?,question_words,Che / Che cosa?,word,understands; produc
 item_376,Quando?,question_words,Quando?,word,understands; produces,when,when (question)
 item_377,Dove?,question_words,Dove?,word,understands; produces,where,where (question)
 item_378,Chi?,question_words,Chi?,word,understands; produces,who,who
-item_379,Perch�?,question_words,Perch�?,word,understands; produces,why,why
+item_379,Perchè?,question_words,Perchè?,word,understands; produces,why,why
 item_380,Giorno,time_words,Giorno,word,understands; produces,day,day
-item_381,(pi�) Tardi / Dopo,time_words,(pi�) Tardi / Dopo,word,understands; produces,later,later
+item_381,(più) Tardi / Dopo,time_words,(più) Tardi / Dopo,word,understands; produces,later,later
 item_382,Mattina,time_words,Mattina,word,understands; produces,morning,morning
 item_383,Notte,time_words,Notte,word,understands; produces,night,night
 item_384,Adesso / Ora,time_words,Adesso / Ora,word,understands; produces,now,now
@@ -399,19 +399,19 @@ item_397,Tu,pronouns,Tu,word,understands; produces,you,2SG
 item_398,Tuo/a,pronouns,Tuo/a,word,understands; produces,your,2SG.POSS
 item_399,Lontano,locations,Lontano,word,understands; produces,away,away
 item_400,Dietro,locations,Dietro,word,understands; produces,back,back
-item_401,Gi�,locations,Gi�,word,understands; produces,down,down
+item_401,Giù,locations,Giù,word,understands; produces,down,down
 item_402,In,locations,In,word,understands; produces,in,in
 item_403,Dentro,locations,Dentro,word,understands; produces,inside,inside
 item_404,Da,locations,Da,word,understands; produces,from,from
 item_405,Su,locations,Su,word,understands; produces,on,on
 item_406,A,locations,A,word,understands; produces,to,to
-item_407,L� / L�,locations,L� / L�,word,understands; produces,there,there
+item_407,Lì / Là,locations,Lì / Là,word,understands; produces,there,there
 item_408,Sotto,locations,Sotto,word,understands; produces,under,under
 item_409,Sopra,locations,Sopra,word,understands; produces,up,up
 item_410,Tutto,quantifiers,Tutto,word,understands; produces,all,all
 item_411,Ancora,quantifiers,Ancora,word,understands; produces,again,again
 item_412,Un altro,quantifiers,Un altro,word,understands; produces,another,another
-item_413,Pi� / Di pi�,quantifiers,Pi� / Di pi�,word,understands; produces,more,more
+item_413,Più / Di più,quantifiers,Più / Di più,word,understands; produces,more,more
 item_414,Nessuno,quantifiers,Nessuno,word,understands; produces,none,none
 item_415,Non,quantifiers,Non,word,understands; produces,not,not
 item_416,Altro,quantifiers,Altro,word,understands; produces,other,other

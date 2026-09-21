@@ -829,17 +829,17 @@ item_827,pronouns,that.masculine.2,هذاك/هاداك,understands; produces,wor
 item_828,pronouns,here.1,هنا,understands; produces,word,Here ,here
 item_829,pronouns,there,هناك,understands; produces,word,There ,there
 item_830,pronouns,those,هادولاك,understands; produces,word,Those ,those
-item_831,games_routines,not.this,مو / مو هادا ,understands; produces,word,Not this (masculine),
-item_832,games_routines,there.is.nothing,مافي ,understands; produces,word,There is nothing,
-item_833,games_routines,finished.1,خلاص,understands; produces,word,Finished ,finished
-item_834,games_routines,not.here,مو هنا,understands; produces,word,Not here ,
-item_835,games_routines,i.dont.like,ما أحب,understands; produces,word,I do not like ,don't like
-item_836,games_routines,finished.2,خلص/ خلصنا,understands; produces,word,Finished ,finished
-item_837,games_routines,not.nice,مو حلو ,understands; produces,word,Not nice,
-item_838,games_routines,i.dont.want,ما/ ما أبغى,understands; produces,word,I do not want ,don't want
-item_839,games_routines,finished.no.more,بح/ بح ماما,understands; produces,word,finished/ no more,
-item_840,games_routines,not.mine,مو حقي,understands; produces,word,Not mine,
-item_841,games_routines,dont.go,لا/ لا تروح,understands; produces,word,no/ do not go,
+item_831,negation_words,not.this,مو / مو هادا ,understands; produces,word,Not this (masculine),
+item_832,negation_words,there.is.nothing,مافي ,understands; produces,word,There is nothing,
+item_833,negation_words,finished.1,خلاص,understands; produces,word,Finished ,finished
+item_834,negation_words,not.here,مو هنا,understands; produces,word,Not here ,
+item_835,negation_words,i.dont.like,ما أحب,understands; produces,word,I do not like ,don't like
+item_836,negation_words,finished.2,خلص/ خلصنا,understands; produces,word,Finished ,finished
+item_837,negation_words,not.nice,مو حلو ,understands; produces,word,Not nice,
+item_838,negation_words,i.dont.want,ما/ ما أبغى,understands; produces,word,I do not want ,don't want
+item_839,negation_words,finished.no.more,بح/ بح ماما,understands; produces,word,finished/ no more,
+item_840,negation_words,not.mine,مو حقي,understands; produces,word,Not mine,
+item_841,negation_words,dont.go,لا/ لا تروح,understands; produces,word,no/ do not go,
 item_842,quantifiers,all,جميع/كل (كله),understands; produces,word,All ,all
 item_843,quantifiers,none,لا شىء ( ولا شي/ ولا واحد/ ولا حاجة),understands; produces,word,None/ nothing ,nothing
 item_844,quantifiers,alike,قد بعض/ زي بعض,understands; produces,word,alike/ same,same
