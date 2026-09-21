@@ -52,7 +52,7 @@ categories <- read_csv(here("categories.csv"), show_col_types = FALSE) |>
 
 if (from_harmonized) {
   message("Loading harmonized tables from ", OUT_HARM)
-  ingested <- load_ingested_manifest(manifest, OUT_HARM)
+  ingested <- load_ingested_manifest(manifest, OUT_HARM, RAW, categories)
 } else {
   ingested <- ingest_all_manifest(
     manifest,

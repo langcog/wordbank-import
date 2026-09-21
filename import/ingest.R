@@ -152,6 +152,42 @@ instrument_path <- function(raw_dir, meta) {
   file.path(raw_dir, paste0(instrument_slug(meta$language, meta$form), ".csv"))
 }
 
+#' Build harmonized `items` rows from raw `[Lang_Form].csv` (same shape as triplet ingest).
+items_table_from_raw_instrument <- function(meta_rows, raw_root, categories = NULL) {
+  meta_rows <- as_tibble(meta_rows)
+  meta <- meta_rows[1, ]
+  raw_dir <- file.path(raw_root, meta$instrument_dir)
+  instrument_file <- instrument_path(raw_dir, meta)
+  if (!file.exists(instrument_file)) {
+    stop(
+      "Missing raw instrument for ", meta$language, " ", meta$form, ": ",
+      instrument_file
+    )
+  }
+  instrument <- read_instrument(instrument_file)
+  if (!is.null(categories) && "category" %in% names(instrument)) {
+    instrument <- instrument |> left_join(categories, by = "category")
+  }
+  if (!"lexical_category" %in% names(instrument)) {
+    instrument$lexical_category <- NA_character_
+  }
+  if (!"complexity_category" %in% names(instrument)) {
+    instrument$complexity_category <- NA_character_
+  }
+  items <- instrument |>
+    mutate(
+      language = meta$language,
+      form = meta$form,
+      form_type = meta$form_type
+    ) |>
+    select(
+      item_id, language, form, form_type, item_kind, category,
+      item_definition, english_gloss, uni_lemma, lexical_category,
+      complexity_category
+    )
+  cast_harmonized_table(items, "items")
+}
+
 #' Ingest one *_data / *_fields / *_values triplet.
 ingest_triplet <- function(
     raw_root,
@@ -475,7 +511,12 @@ ingest_dataset_group <- function(
     out_dir <- harmonized_out_dir(meta_rows, out_harm)
     if (harmonized_is_complete(out_dir)) {
       message("Skipping processed: ", label)
-      res <- load_harmonized_group(meta_rows, out_harm)
+      res <- load_harmonized_group(
+        meta_rows,
+        out_harm,
+        raw_root = raw_root,
+        categories = categories
+      )
       res$meta_rows <- meta_rows
       res$skipped <- TRUE
       return(res)
@@ -596,12 +637,26 @@ write_harmonized_instrument_table <- function(manifest, items, out_harm) {
   invisible(path)
 }
 
-read_harmonized_items <- function(language, form, out_harm) {
+read_harmonized_items <- function(
+    language,
+    form,
+    out_harm,
+    meta_rows = NULL,
+    raw_root = NULL,
+    categories = NULL
+) {
   path <- harmonized_items_path(language, form, out_harm)
-  if (!file.exists(path)) {
+  if (file.exists(path)) {
+    return(cast_harmonized_table(read_csv(path, show_col_types = FALSE), "items"))
+  }
+  if (is.null(raw_root) || is.null(meta_rows)) {
     stop("Missing harmonized items for ", language, " ", form, ": ", path)
   }
-  cast_harmonized_table(read_csv(path, show_col_types = FALSE), "items")
+  message(
+    "Harmonized items missing for ", language, " ", form,
+    "; loading instrument from raw_data"
+  )
+  items_table_from_raw_instrument(meta_rows, raw_root, categories)
 }
 
 read_harmonized <- function(
@@ -609,7 +664,10 @@ read_harmonized <- function(
     language = NULL,
     form = NULL,
     out_harm = NULL,
-    load_item_responses = TRUE
+    load_item_responses = TRUE,
+    meta_rows = NULL,
+    raw_root = NULL,
+    categories = NULL
 ) {
   stopifnot(dir.exists(out_dir))
   table_names <- if (isTRUE(load_item_responses)) {
@@ -647,35 +705,66 @@ read_harmonized <- function(
     )
   }
   if (!is.null(language) && !is.null(form) && !is.null(out_harm)) {
-    tables$items <- read_harmonized_items(language, form, out_harm)
+    tables$items <- read_harmonized_items(
+      language,
+      form,
+      out_harm,
+      meta_rows = meta_rows,
+      raw_root = raw_root,
+      categories = categories
+    )
   }
   tables
 }
 
 #' Load one harmonized dataset group from disk (output of `write_harmonized()`).
-load_harmonized_group <- function(meta_rows, out_harm) {
+load_harmonized_group <- function(
+    meta_rows,
+    out_harm,
+    raw_root = NULL,
+    categories = NULL,
+    cache_raw_items = TRUE
+) {
   meta_rows <- as_tibble(meta_rows)
   stopifnot("manifest_row" %in% names(meta_rows))
   out_dir <- harmonized_out_dir(meta_rows, out_harm)
+  language <- meta_rows$language[[1]]
+  form <- meta_rows$form[[1]]
+  items_path <- harmonized_items_path(language, form, out_harm)
+  items_missing <- !file.exists(items_path)
   tables <- read_harmonized(
     out_dir,
-    language = meta_rows$language[[1]],
-    form = meta_rows$form[[1]],
+    language = language,
+    form = form,
     out_harm = out_harm,
-    load_item_responses = FALSE
+    load_item_responses = FALSE,
+    meta_rows = meta_rows,
+    raw_root = raw_root,
+    categories = categories
   )
   stopifnot(
     "manifest_row" %in% names(tables$administrations),
     "manifest_row" %in% names(tables$dataset)
   )
+  if (
+    isTRUE(cache_raw_items) &&
+      items_missing &&
+      !is.null(raw_root) &&
+      !is.null(tables$items)
+  ) {
+    write_harmonized_items(tables$items, language, form, out_harm)
+  }
   tables
 }
 
 #' Load all harmonized dataset groups for a manifest without re-ingesting raw CSVs.
-load_ingested_manifest <- function(manifest, out_harm) {
+load_ingested_manifest <- function(manifest, out_harm, raw_root = NULL, categories = NULL) {
   stopifnot("manifest_row" %in% names(manifest))
   groups <- split_manifest(manifest)
-  results <- map(groups, \(rows) load_harmonized_group(rows, out_harm))
+  results <- map(
+    groups,
+    \(rows) load_harmonized_group(rows, out_harm, raw_root, categories)
+  )
   out <- combine_ingest_results(results)
   out$item_response_sources <- item_response_sources_from_groups(groups, out_harm)
   out$new_parts$items <- dedupe_items(out$new_parts$items)
